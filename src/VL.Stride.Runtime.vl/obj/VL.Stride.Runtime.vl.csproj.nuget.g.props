@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\emanu\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages;C:\Program Files (x86)\Microsoft\Xamarin\NuGet\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.11.1</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\emanu\.nuget\packages\" />
+    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
+    <SourceRoot Include="C:\Program Files (x86)\Microsoft\Xamarin\NuGet\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <None Include="$(NuGetPackageRoot)vl.ui.core\2021.4.9-0971-g1d0a0c7789\contentFiles\any\net472\Icons\arrow.svg" Condition="Exists('$(NuGetPackageRoot)vl.ui.core\2021.4.9-0971-g1d0a0c7789\contentFiles\any\net472\Icons\arrow.svg')">
+      <NuGetPackageId>VL.UI.Core</NuGetPackageId>
+      <NuGetPackageVersion>2021.4.9-0971-g1d0a0c7789</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Icons\arrow.svg</TargetPath>
+      <DestinationSubDirectory>Icons\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Icons\arrow.svg</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)vl.ui.core\2021.4.9-0971-g1d0a0c7789\contentFiles\any\net472\Icons\check-1.svg" Condition="Exists('$(NuGetPackageRoot)vl.ui.core\2021.4.9-0971-g1d0a0c7789\contentFiles\any\net472\Icons\check-1.svg')">
+      <NuGetPackageId>VL.UI.Core</NuGetPackageId>
+      <NuGetPackageVersion>2021.4.9-0971-g1d0a0c7789</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Icons\check-1.svg</TargetPath>
+      <DestinationSubDirectory>Icons\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Icons\check-1.svg</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)vl.ui.core\2021.4.9-0971-g1d0a0c7789\contentFiles\any\net472\Icons\check-2.svg" Condition="Exists('$(NuGetPackageRoot)vl.ui.core\2021.4.9-0971-g1d0a0c7789\contentFiles\any\net472\Icons\check-2.svg')">
+      <NuGetPackageId>VL.UI.Core</NuGetPackageId>
+      <NuGetPackageVersion>2021.4.9-0971-g1d0a0c7789</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Icons\check-2.svg</TargetPath>
+      <DestinationSubDirectory>Icons\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Icons\check-2.svg</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)vl.ui.core\2021.4.9-0971-g1d0a0c7789\contentFiles\any\net472\Icons\collaps-.svg" Condition="Exists('$(NuGetPackageRoot)vl.ui.core\2021.4.9-0971-g1d0a0c7789\contentFiles\any\net472\Icons\collaps-.svg')">
+      <NuGetPackageId>VL.UI.Core</NuGetPackageId>
+      <NuGetPackageVersion>2021.4.9-0971-g1d0a0c7789</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Icons\collaps-.svg</TargetPath>
+      <DestinationSubDirectory>Icons\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Icons\collaps-.svg</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)vl.ui.core\2021.4.9-0971-g1d0a0c7789\contentFiles\any\net472\Icons\collaps-1.svg" Condition="Exists('$(NuGetPackageRoot)vl.ui.core\2021.4.9-0971-g1d0a0c7789\contentFiles\any\net472\Icons\collaps-1.svg')">
+      <NuGetPackageId>VL.UI.Core</NuGetPackageId>
+      <NuGetPackageVersion>2021.4.9-0971-g1d0a0c7789</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Icons\collaps-1.svg</TargetPath>
+      <DestinationSubDirectory>Icons\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Icons\collaps-1.svg</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)vl.ui.core\2021.4.9-0971-g1d0a0c7789\contentFiles\any\net472\Icons\collaps-2.svg" Condition="Exists('$(NuGetPackageRoot)vl.ui.core\2021.4.9-0971-g1d0a0c7789\contentFiles\any\net472\Icons\collaps-2.svg')">
+      <NuGetPackageId>VL.UI.Core</NuGetPackageId>
+      <NuGetPackageVersion>2021.4.9-0971-g1d0a0c7789</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Icons\collaps-2.svg</TargetPath>
+      <DestinationSubDirectory>Icons\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Icons\collaps-2.svg</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)vl.ui.core\2021.4.9-0971-g1d0a0c7789\contentFiles\any\net472\Icons\definitionback.svg" Condition="Exists('$(NuGetPackageRoot)vl.ui.core\2021.4.9-0971-g1d0a0c7789\contentFiles\any\net472\Icons\definitionback.svg')">
+      <NuGetPackageId>VL.UI.Core</NuGetPackageId>
+      <NuGetPackageVersion>2021.4.9-0971-g1d0a0c7789</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Icons\definitionback.svg</TargetPath>
+      <DestinationSubDirectory>Icons\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Icons\definitionback.svg</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)vl.ui.core\2021.4.9-0971-g1d0a0c7789\contentFiles\any\net472\Icons\lock-1.svg" Condition="Exists('$(NuGetPackageRoot)vl.ui.core\2021.4.9-0971-g1d0a0c7789\contentFiles\any\net472\Icons\lock-1.svg')">
+      <NuGetPackageId>VL.UI.Core</NuGetPackageId>
+      <NuGetPackageVersion>2021.4.9-0971-g1d0a0c7789</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Icons\lock-1.svg</TargetPath>
+      <DestinationSubDirectory>Icons\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Icons\lock-1.svg</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)vl.ui.core\2021.4.9-0971-g1d0a0c7789\contentFiles\any\net472\Icons\lock-2.svg" Condition="Exists('$(NuGetPackageRoot)vl.ui.core\2021.4.9-0971-g1d0a0c7789\contentFiles\any\net472\Icons\lock-2.svg')">
+      <NuGetPackageId>VL.UI.Core</NuGetPackageId>
+      <NuGetPackageVersion>2021.4.9-0971-g1d0a0c7789</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Icons\lock-2.svg</TargetPath>
+      <DestinationSubDirectory>Icons\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Icons\lock-2.svg</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)vl.ui.core\2021.4.9-0971-g1d0a0c7789\contentFiles\any\net472\Icons\open.svg" Condition="Exists('$(NuGetPackageRoot)vl.ui.core\2021.4.9-0971-g1d0a0c7789\contentFiles\any\net472\Icons\open.svg')">
+      <NuGetPackageId>VL.UI.Core</NuGetPackageId>
+      <NuGetPackageVersion>2021.4.9-0971-g1d0a0c7789</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Icons\open.svg</TargetPath>
+      <DestinationSubDirectory>Icons\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Icons\open.svg</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)vl.ui.core\2021.4.9-0971-g1d0a0c7789\contentFiles\any\net472\Icons\palette.svg" Condition="Exists('$(NuGetPackageRoot)vl.ui.core\2021.4.9-0971-g1d0a0c7789\contentFiles\any\net472\Icons\palette.svg')">
+      <NuGetPackageId>VL.UI.Core</NuGetPackageId>
+      <NuGetPackageVersion>2021.4.9-0971-g1d0a0c7789</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Icons\palette.svg</TargetPath>
+      <DestinationSubDirectory>Icons\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Icons\palette.svg</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)vl.ui.core\2021.4.9-0971-g1d0a0c7789\contentFiles\any\net472\Icons\plus.svg" Condition="Exists('$(NuGetPackageRoot)vl.ui.core\2021.4.9-0971-g1d0a0c7789\contentFiles\any\net472\Icons\plus.svg')">
+      <NuGetPackageId>VL.UI.Core</NuGetPackageId>
+      <NuGetPackageVersion>2021.4.9-0971-g1d0a0c7789</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Icons\plus.svg</TargetPath>
+      <DestinationSubDirectory>Icons\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Icons\plus.svg</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)vl.ui.core\2021.4.9-0971-g1d0a0c7789\contentFiles\any\net472\Icons\record-1.svg" Condition="Exists('$(NuGetPackageRoot)vl.ui.core\2021.4.9-0971-g1d0a0c7789\contentFiles\any\net472\Icons\record-1.svg')">
+      <NuGetPackageId>VL.UI.Core</NuGetPackageId>
+      <NuGetPackageVersion>2021.4.9-0971-g1d0a0c7789</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Icons\record-1.svg</TargetPath>
+      <DestinationSubDirectory>Icons\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Icons\record-1.svg</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)vl.ui.core\2021.4.9-0971-g1d0a0c7789\contentFiles\any\net472\Icons\record-2.svg" Condition="Exists('$(NuGetPackageRoot)vl.ui.core\2021.4.9-0971-g1d0a0c7789\contentFiles\any\net472\Icons\record-2.svg')">
+      <NuGetPackageId>VL.UI.Core</NuGetPackageId>
+      <NuGetPackageVersion>2021.4.9-0971-g1d0a0c7789</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Icons\record-2.svg</TargetPath>
+      <DestinationSubDirectory>Icons\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Icons\record-2.svg</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)vl.ui.core\2021.4.9-0971-g1d0a0c7789\contentFiles\any\net472\Icons\screenshot.svg" Condition="Exists('$(NuGetPackageRoot)vl.ui.core\2021.4.9-0971-g1d0a0c7789\contentFiles\any\net472\Icons\screenshot.svg')">
+      <NuGetPackageId>VL.UI.Core</NuGetPackageId>
+      <NuGetPackageVersion>2021.4.9-0971-g1d0a0c7789</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Icons\screenshot.svg</TargetPath>
+      <DestinationSubDirectory>Icons\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Icons\screenshot.svg</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)vl.ui.core\2021.4.9-0971-g1d0a0c7789\contentFiles\any\net472\Stylesheets\CSharp-Mode.xshd" Condition="Exists('$(NuGetPackageRoot)vl.ui.core\2021.4.9-0971-g1d0a0c7789\contentFiles\any\net472\Stylesheets\CSharp-Mode.xshd')">
+      <NuGetPackageId>VL.UI.Core</NuGetPackageId>
+      <NuGetPackageVersion>2021.4.9-0971-g1d0a0c7789</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Stylesheets\CSharp-Mode.xshd</TargetPath>
+      <DestinationSubDirectory>Stylesheets\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Stylesheets\CSharp-Mode.xshd</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)vl.ui.core\2021.4.9-0971-g1d0a0c7789\contentFiles\any\net472\Stylesheets\dark.css" Condition="Exists('$(NuGetPackageRoot)vl.ui.core\2021.4.9-0971-g1d0a0c7789\contentFiles\any\net472\Stylesheets\dark.css')">
+      <NuGetPackageId>VL.UI.Core</NuGetPackageId>
+      <NuGetPackageVersion>2021.4.9-0971-g1d0a0c7789</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Stylesheets\dark.css</TargetPath>
+      <DestinationSubDirectory>Stylesheets\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Stylesheets\dark.css</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)vl.ui.core\2021.4.9-0971-g1d0a0c7789\contentFiles\any\net472\Stylesheets\light.css" Condition="Exists('$(NuGetPackageRoot)vl.ui.core\2021.4.9-0971-g1d0a0c7789\contentFiles\any\net472\Stylesheets\light.css')">
+      <NuGetPackageId>VL.UI.Core</NuGetPackageId>
+      <NuGetPackageVersion>2021.4.9-0971-g1d0a0c7789</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Stylesheets\light.css</TargetPath>
+      <DestinationSubDirectory>Stylesheets\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Stylesheets\light.css</Link>
+    </None>
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)stride.core\4.0.1.1428\buildTransitive\Stride.Core.props" Condition="Exists('$(NuGetPackageRoot)stride.core\4.0.1.1428\buildTransitive\Stride.Core.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgStride_Core Condition=" '$(PkgStride_Core)' == '' ">C:\Users\emanu\.nuget\packages\stride.core\4.0.1.1428</PkgStride_Core>
+    <PkgMicrosoft_VisualStudio_Threading_Analyzers Condition=" '$(PkgMicrosoft_VisualStudio_Threading_Analyzers)' == '' ">C:\Users\emanu\.nuget\packages\microsoft.visualstudio.threading.analyzers\16.10.56</PkgMicrosoft_VisualStudio_Threading_Analyzers>
+    <PkgValidation Condition=" '$(PkgValidation)' == '' ">C:\Users\emanu\.nuget\packages\validation\2.4.18</PkgValidation>
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\emanu\.nuget\packages\microsoft.codeanalysis.analyzers\2.9.6</PkgMicrosoft_CodeAnalysis_Analyzers>
+    <PkgStride_Core_Assets_CompilerApp Condition=" '$(PkgStride_Core_Assets_CompilerApp)' == '' ">C:\Users\emanu\.nuget\packages\stride.core.assets.compilerapp\4.0.1.1428</PkgStride_Core_Assets_CompilerApp>
+  </PropertyGroup>
+</Project>

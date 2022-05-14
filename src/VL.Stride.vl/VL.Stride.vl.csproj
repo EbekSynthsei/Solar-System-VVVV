@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <PreserveCompilationContext>true</PreserveCompilationContext>
+    <RestoreIgnoreFailedSources>true</RestoreIgnoreFailedSources>
+    <SatelliteResourceLanguages>en-US</SatelliteResourceLanguages>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>None</DebugType>
+    <AllowedReferenceRelatedFileExtensions>None</AllowedReferenceRelatedFileExtensions>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VL.Stride.Runtime.vl\VL.Stride.Runtime.vl.csproj" />
+    <ProjectReference Include="..\VL.Stride.Windows.vl\VL.Stride.Windows.vl.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="VL.App.WindowsForms">
+      <Version>2021.4.9-0971-g1d0a0c7789</Version>
+    </PackageReference>
+    <PackageReference Include="VL.Stride">
+      <Version>2021.4.9-0971-g1d0a0c7789</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Target Name="AddAliases" BeforeTargets="ResolveReferences">
+    <ItemGroup>
+      <ReferencePath Condition="'%(FileName)'=='VL.Core'" Aliases="e5" />
+      <ReferencePath Condition="'%(FileName)'=='VL.App.WindowsForms'" Aliases="e70" />
+    </ItemGroup>
+  </Target>
+</Project>

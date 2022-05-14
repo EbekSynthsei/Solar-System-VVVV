@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <PreserveCompilationContext>true</PreserveCompilationContext>
+    <RestoreIgnoreFailedSources>true</RestoreIgnoreFailedSources>
+    <SatelliteResourceLanguages>en-US</SatelliteResourceLanguages>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>None</DebugType>
+    <AllowedReferenceRelatedFileExtensions>None</AllowedReferenceRelatedFileExtensions>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VL.CoreLib.vl\VL.CoreLib.vl.csproj" />
+    <ProjectReference Include="..\VL.Skia.vl\VL.Skia.vl.csproj" />
+    <ProjectReference Include="..\VL.Stride.Runtime.vl\VL.Stride.Runtime.vl.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="VL.App.WindowsForms">
+      <Version>2021.4.9-0971-g1d0a0c7789</Version>
+    </PackageReference>
+    <PackageReference Include="VL.Stride">
+      <Version>2021.4.9-0971-g1d0a0c7789</Version>
+    </PackageReference>
+    <PackageReference Include="VL.Stride.Windows">
+      <Version>2021.4.9-0971-g1d0a0c7789</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Core" HintPath="C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll" />
+    <Reference Include="System.IO" HintPath="C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.IO\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.IO.dll" />
+  </ItemGroup>
+  <Target Name="AddAliases" BeforeTargets="ResolveReferences">
+    <ItemGroup>
+      <ReferencePath Condition="'%(FileName)'=='VL.Core'" Aliases="e5" />
+      <ReferencePath Condition="'%(FileName)'=='VL.Stride.Windows'" Aliases="e56" />
+      <ReferencePath Condition="'%(FileName)'=='VL.App.WindowsForms'" Aliases="e70" />
+      <ReferencePath Condition="'%(FileName)'=='VL.Stride.Runtime'" Aliases="e40" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Core.Assets'" Aliases="e48" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Core.Design'" Aliases="e52" />
+      <ReferencePath Condition="'%(FileName)'=='VL.Stride'" Aliases="e67" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Graphics'" Aliases="e27" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Rendering'" Aliases="e26" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Core.Serialization'" Aliases="e21" />
+      <ReferencePath Condition="'%(FileName)'=='VL.CoreLib'" Aliases="e2" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Assets.Models'" Aliases="e59" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Core'" Aliases="e3" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Assets'" Aliases="e57" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Games'" Aliases="e28" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Engine'" Aliases="e24" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Core.Mathematics'" Aliases="e1" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Video'" Aliases="e46" />
+      <ReferencePath Condition="'%(FileName)'=='Stride'" Aliases="e20" />
+      <ReferencePath Condition="'%(FileName)'=='VL.Skia'" Aliases="e18" />
+    </ItemGroup>
+  </Target>
+</Project>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <PreserveCompilationContext>true</PreserveCompilationContext>
+    <RestoreIgnoreFailedSources>true</RestoreIgnoreFailedSources>
+    <SatelliteResourceLanguages>en-US</SatelliteResourceLanguages>
+    <OutputType>WinExe</OutputType>
+    <PlatformTarget>x64</PlatformTarget>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <OutputPath>..\..\SolarSystem\lib</OutputPath>
+    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <Platforms>AnyCPU;x64;x86</Platforms>
+    <ApplicationManifest>App.manifest</ApplicationManifest>
+    <ApplicationIcon>vvvv_MAINICON.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>None</DebugType>
+    <AllowedReferenceRelatedFileExtensions>None</AllowedReferenceRelatedFileExtensions>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VL.CoreLib.vl\VL.CoreLib.vl.csproj" />
+    <ProjectReference Include="..\VL.Skia.vl\VL.Skia.vl.csproj" />
+    <ProjectReference Include="..\VL.Stride.vl\VL.Stride.vl.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="VL.App.WindowsForms">
+      <Version>2021.4.9-0971-g1d0a0c7789</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Target Name="MoveExeOneUp" AfterTargets="Build">
+    <ItemGroup>
+      <_FilesToMove Include="$(OutputPath)$(AssemblyName)*" />
+    </ItemGroup>
+    <Copy SourceFiles="@(_FilesToMove)" DestinationFolder="$(OutputPath).." />
+  </Target>
+  <Target Name="AddAliases" BeforeTargets="ResolveReferences">
+    <ItemGroup>
+      <ReferencePath Condition="'%(FileName)'=='VL.Core'" Aliases="e5" />
+      <ReferencePath Condition="'%(FileName)'=='VL.App.WindowsForms'" Aliases="e70" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Graphics'" Aliases="e27" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Rendering'" Aliases="e26" />
+      <ReferencePath Condition="'%(FileName)'=='VL.Stride.Runtime'" Aliases="e40" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Assets'" Aliases="e57" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Games'" Aliases="e28" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Engine'" Aliases="e24" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Core.Mathematics'" Aliases="e1" />
+      <ReferencePath Condition="'%(FileName)'=='Stride'" Aliases="e20" />
+    </ItemGroup>
+  </Target>
+</Project>
