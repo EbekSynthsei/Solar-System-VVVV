@@ -38,25 +38,25 @@
   </ItemGroup>
   <Target Name="AddAliases" BeforeTargets="ResolveReferences">
     <ItemGroup>
-      <ReferencePath Condition="'%(FileName)'=='VL.Core'" Aliases="e5" />
-      <ReferencePath Condition="'%(FileName)'=='Stride.Input'" Aliases="e31" />
-      <ReferencePath Condition="'%(FileName)'=='Stride.Graphics'" Aliases="e27" />
-      <ReferencePath Condition="'%(FileName)'=='Stride.Rendering'" Aliases="e26" />
-      <ReferencePath Condition="'%(FileName)'=='Stride.Shaders'" Aliases="e25" />
-      <ReferencePath Condition="'%(FileName)'=='Stride.Core.Serialization'" Aliases="e21" />
-      <ReferencePath Condition="'%(FileName)'=='VL.App.WindowsForms'" Aliases="e70" />
-      <ReferencePath Condition="'%(FileName)'=='VL.Stride.Runtime'" Aliases="e40" />
-      <ReferencePath Condition="'%(FileName)'=='Stride.Core'" Aliases="e3" />
-      <ReferencePath Condition="'%(FileName)'=='Stride.Games'" Aliases="e28" />
-      <ReferencePath Condition="'%(FileName)'=='Stride.VirtualReality'" Aliases="e29" />
+      <ReferencePath Condition="'%(FileName)'=='VL.Core'" Aliases="e2" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.VirtualReality'" Aliases="e32" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Core'" Aliases="e6" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Graphics'" Aliases="e22" />
       <ReferencePath Condition="'%(FileName)'=='Stride.Engine'" Aliases="e24" />
-      <ReferencePath Condition="'%(FileName)'=='Stride'" Aliases="e20" />
-      <ReferencePath Condition="'%(FileName)'=='VL.CoreLib'" Aliases="e2" />
-      <ReferencePath Condition="'%(FileName)'=='Stride.Core.Mathematics'" Aliases="e1" />
-      <ReferencePath Condition="'%(FileName)'=='VL.UI.Core'" Aliases="e9" />
-      <ReferencePath Condition="'%(FileName)'=='VL.Lang'" Aliases="e6" />
-      <ReferencePath Condition="'%(FileName)'=='Stride.UI'" Aliases="e43" />
-      <ReferencePath Condition="'%(FileName)'=='Stride.Physics'" Aliases="e41" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Shaders'" Aliases="e21" />
+      <ReferencePath Condition="'%(FileName)'=='VL.Stride.Runtime'" Aliases="e31" />
+      <ReferencePath Condition="'%(FileName)'=='Stride'" Aliases="e26" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Games'" Aliases="e25" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Core.Serialization'" Aliases="e23" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Input'" Aliases="e36" />
+      <ReferencePath Condition="'%(FileName)'=='VL.App.WindowsForms'" Aliases="e70" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Rendering'" Aliases="e29" />
+      <ReferencePath Condition="'%(FileName)'=='VL.CoreLib'" Aliases="e3" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Core.Mathematics'" Aliases="e4" />
+      <ReferencePath Condition="'%(FileName)'=='VL.UI.Core'" Aliases="e5" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.UI'" Aliases="e57" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Physics'" Aliases="e47" />
+      <ReferencePath Condition="'%(FileName)'=='VL.Lang'" Aliases="e10" />
     </ItemGroup>
   </Target>
 </Project>

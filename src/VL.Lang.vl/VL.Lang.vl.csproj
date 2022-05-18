@@ -29,9 +29,9 @@
   <ItemGroup />
   <Target Name="AddAliases" BeforeTargets="ResolveReferences">
     <ItemGroup>
-      <ReferencePath Condition="'%(FileName)'=='VL.Core'" Aliases="e5" />
-      <ReferencePath Condition="'%(FileName)'=='VL.Lang'" Aliases="e6" />
-      <ReferencePath Condition="'%(FileName)'=='VL.CoreLib'" Aliases="e2" />
+      <ReferencePath Condition="'%(FileName)'=='VL.Core'" Aliases="e2" />
+      <ReferencePath Condition="'%(FileName)'=='VL.Lang'" Aliases="e10" />
+      <ReferencePath Condition="'%(FileName)'=='VL.CoreLib'" Aliases="e3" />
     </ItemGroup>
   </Target>
 </Project>

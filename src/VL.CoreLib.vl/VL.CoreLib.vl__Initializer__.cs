@@ -1,72 +1,69 @@
-﻿extern alias e9;
+﻿extern alias e5;
+extern alias e3;
 extern alias e2;
 extern alias e70;
-extern alias e5;
-extern alias e1;
+extern alias e4;
 
 using n26 = _VL_Sync_.IO;
-using n137 = _VL_Collections_.Collections.Mutable.MutableStack.Advanced;
-using n149 = _VL_Collections_.Collections.Concurrent.ConcurrentQueue.Advanced;
+using n62 = _VL_Collections_.Collections.Mutable.MutableStack.Advanced;
+using n74 = _VL_Collections_.Collections.Concurrent.ConcurrentQueue.Advanced;
 using n363 = _CoreLibBasics_.System.Resources.GetLatestResourceForTemporaryUse.Advanced;
 using n316 = _CoreLibBasics_.Primitive.Delegates.Delegate__2_MG_0.Advanced;
 using n326 = _CoreLibBasics_.Primitive.Delegates.Delegate__7_MG_0.Advanced;
 using n393 = _VL_CoreLib_IO_;
-using n123 = _VL_Collections_.Collections.Interfaces.IReadOnlyDictionary.Advanced;
-using n174 = _VL_Collections_.Collections.IReadOnlyList;
+using n48 = _VL_Collections_.Collections.Interfaces.IReadOnlyDictionary.Advanced;
+using n99 = _VL_Collections_.Collections.IReadOnlyList;
 using n353 = _CoreLibBasics_.Primitive.Int3;
 using n190 = _VL_Xml_.System.XML.XNode;
-using n128 = _VL_Collections_.Collections.Builder.DictionaryBuilder.Advanced;
+using n53 = _VL_Collections_.Collections.Builder.DictionaryBuilder.Advanced;
 using n186 = _VL_Xml_.System.XML.XDeclaration;
-using n131 = _VL_Collections_.Collections.Builder.SortedSetBuilder.Advanced;
+using n56 = _VL_Collections_.Collections.Builder.SortedSetBuilder.Advanced;
 using n15 = _VL_Typewriter_.Text;
 using n395 = _VL_CoreLib_Experimental_;
 using n329 = _CoreLibBasics_.Primitive.Delegates.Delegate__8_MG_1.Advanced;
 using n253 = _CoreLibBasics_._3D.Matrix;
-using n89 = _VL_CoreLib_Experimental_.Control.TryCatchFinally.Experimental;
-using n60 = _VL_CoreLib_IO_.IO.ByteChunkifier_Reactive.Advanced;
+using n154 = _VL_CoreLib_Experimental_.Control.TryCatchFinally.Experimental;
+using n125 = _VL_CoreLib_IO_.IO.ByteChunkifier_Reactive.Advanced;
 using n285 = _CoreLibBasics_.IO.SpliceNotifications.Advanced;
 using n399 = _System_Reflection_;
-using n100 = _VL_CoreLib_Experimental_.Control.Try__4Outputs.Obsolete.Experimental;
+using n165 = _VL_CoreLib_Experimental_.Control.Try__4Outputs.Obsolete.Experimental;
 using n25 = _VL_Bezier_Cubic_.Math.Advanced;
 using n195 = _VL_Xml_.System.XML.XDocumentWriter_Reactive.Advanced;
 using n346 = _CoreLibBasics_.Primitive.Int4.Advanced;
 using n193 = _VL_Xml_.System.XML.XDocumentWriter.Advanced;
 using n314 = _CoreLibBasics_.Primitive.Delegates.Delegate__1_MG_0.Advanced;
 using n203 = _System_Reflection_.System.Reflection;
-using n69 = _VL_CoreLib_IO_.IO.CharReader_Reactive.Advanced;
-using n76 = global::System.Net.NetworkInformation;
-using n79 = _VL_HTTP_.IO.HTTP.Experimental;
+using n134 = _VL_CoreLib_IO_.IO.CharReader_Reactive.Advanced;
+using n141 = global::System.Net.NetworkInformation;
+using n144 = _VL_HTTP_.IO.HTTP.Experimental;
 using n209 = _VL_Reactive_.Reactive.CancellationToken.Advanced;
 using n338 = _CoreLibBasics_.Primitive.ValueTuple__3_Items.Advanced;
-using n91 = _VL_CoreLib_Experimental_.Control.TryCatchFinally__3Outputs.Experimental;
-using n252 = e2::VL.CoordinateSystem;
-using n158 = e2::VL.Lib.Collections;
-using n37 = e2::VL.Lib.IO.Socket;
-using n173 = _VL_Collections_.Collections.Trees.Internal;
+using n156 = _VL_CoreLib_Experimental_.Control.TryCatchFinally__3Outputs.Experimental;
+using n263 = e3::VL.Lib.Animation;
+using n51 = e2::VL.Lib.Collections;
+using n98 = _VL_Collections_.Collections.Trees.Internal;
 using n259 = _CoreLibBasics_.Animation.FrameBased;
-using n354 = e2::VL.Lib.Primitive;
-using n114 = _VL_Collections_.Collections;
+using n39 = _VL_Collections_.Collections;
 using n212 = global::System.Reactive.Subjects;
 using n236 = _VL_Reactive_.Reactive.ToObservable;
-using n134 = _VL_Collections_.Collections.Mutable.MutableDictionary.Advanced;
+using n59 = _VL_Collections_.Collections.Mutable.MutableDictionary.Advanced;
 using n311 = _CoreLibBasics_.Primitive.Object.Advanced;
 using n365 = _CoreLibBasics_.System.Resources.Provider.Advanced;
 using n360 = global::System.Drawing.Imaging;
 using n280 = _CoreLibBasics_.IO.FileDialog_Save;
 using n302 = _CoreLibBasics_.Primitive.Tuple__4_Items.Advanced;
-using n99 = _VL_CoreLib_Experimental_.Control.Try__3Outputs.Obsolete.Experimental;
-using n127 = _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced;
+using n164 = _VL_CoreLib_Experimental_.Control.Try__3Outputs.Obsolete.Experimental;
+using n52 = _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced;
+using n284 = e5::VL.Lib.IO.Notifications;
 using n275 = _CoreLibBasics_.Control;
-using n284 = e9::VL.Lib.IO.Notifications;
-using n61 = _VL_CoreLib_IO_.IO.CharChunkifier.Advanced;
-using n112 = _VL_Collections_.Collections.Dictionary;
-using n111 = global::System.Collections.Immutable;
-using n67 = _VL_CoreLib_IO_.IO.ByteWriter.Advanced;
+using n126 = _VL_CoreLib_IO_.IO.CharChunkifier.Advanced;
+using n37 = _VL_Collections_.Collections.Dictionary;
+using n36 = global::System.Collections.Immutable;
+using n132 = _VL_CoreLib_IO_.IO.ByteWriter.Advanced;
 using n194 = _VL_Xml_.System.XML.XDocumentReader_Reactive.Advanced;
-using n86 = _VL_CoreLib_Experimental_.Control.TryCatch__3Outputs.Experimental;
-using n95 = _VL_CoreLib_Experimental_.Control.Synchronizer_InputIsKey.Experimental;
-using n374 = e2::VL.Lib.Text;
-using n78 = _VL_CoreLib_IO_.IO.Net;
+using n151 = _VL_CoreLib_Experimental_.Control.TryCatch__3Outputs.Experimental;
+using n160 = _VL_CoreLib_Experimental_.Control.Synchronizer_InputIsKey.Experimental;
+using n143 = _VL_CoreLib_IO_.IO.Net;
 using n343 = _CoreLibBasics_.Primitive.ValueTuple__8_Items.Advanced;
 using n310 = _CoreLibBasics_.Primitive.Exception.Advanced;
 using n347 = _CoreLibBasics_.Primitive.ManageProcess__1_Output.Obsolete;
@@ -75,246 +72,251 @@ using n373 = _CoreLibBasics_.System.Application;
 using n251 = _CoreLibBasics_._3D.Transform;
 using n237 = _VL_Reactive_.Reactive.ToObservable_Sequence;
 using n20 = _VL_Tokenizer_.IO.Advanced;
-using n115 = _VL_Collections_.Collections.Interfaces.IDictionary.Advanced;
+using n40 = _VL_Collections_.Collections.Interfaces.IDictionary.Advanced;
 using n11 = _VL_Audio_.Audio;
-using n97 = _VL_CoreLib_Experimental_.Control.Try__1_Output.Obsolete.Experimental;
+using n162 = _VL_CoreLib_Experimental_.Control.Try__1_Output.Obsolete.Experimental;
 using n187 = _VL_Xml_.System.XML.XDocument;
-using n140 = global::System.Collections.ObjectModel;
+using n65 = global::System.Collections.ObjectModel;
 using n223 = _VL_Reactive_.Reactive.BlockingReceiver.Advanced;
-using n65 = _VL_CoreLib_IO_.IO.ByteReader.Advanced;
+using n130 = _VL_CoreLib_IO_.IO.ByteReader.Advanced;
+using n116 = e3::VL.Lib.IO.Obsolete;
 using n304 = _CoreLibBasics_.Primitive.Tuple__6_Items.Advanced;
+using n169 = e3::VL.Lib.IO.Net;
 using n388 = _VL_Tokenizer_;
-using n245 = e2::VL.Lib.Mathematics;
 using n342 = _CoreLibBasics_.Primitive.ValueTuple__4_Items.Advanced;
 using n382 = _VL_Attractor_.Math;
 using n390 = _VL_Bezier_Cubic_;
 using n219 = _VL_Reactive_.Reactive.Advanced;
-using n379 = e5::VL.Core.PublicAPI;
 using n235 = _VL_Reactive_.Reactive.Sampler;
 using n295 = _CoreLibBasics_.IO.FileWatcher.Experimental;
-using n73 = _VL_CoreLib_IO_.IO.Chunk.Advanced;
+using n138 = _VL_CoreLib_IO_.IO.Chunk.Advanced;
 using n266 = _CoreLibBasics_.Animation.Internal;
 using n369 = _CoreLibBasics_.System.DateTime_UTC.Advanced;
-using n39 = _VL_CoreLib_IO_.IO.Socket.UdpSocket.Advanced;
+using n104 = _VL_CoreLib_IO_.IO.Socket.UdpSocket.Advanced;
 using n350 = _CoreLibBasics_.Primitive.Sender.Advanced;
 using n268 = _CoreLibBasics_.Animation.IClock.Advanced;
 using n361 = _CoreLibBasics_.System.Drawing.ImageFormat.Advanced;
-using n48 = _VL_CoreLib_IO_.IO.Ports.Sender;
+using n90 = e3::VL.Lib.Collections.TreePatching;
+using n113 = _VL_CoreLib_IO_.IO.Ports.Sender;
 using n207 = _VL_Reactive_.Reactive.AsyncLoop;
 using n215 = _VL_Reactive_.Reactive.Subjects.Subject.Advanced;
 using n335 = _CoreLibBasics_.Primitive.IntPtr.Advanced;
 using n199 = _System_Reflection_.System.Reflection.IVLTypeInfo.Experimental;
-using n107 = _VL_CoreLib_Experimental_.IO.WebRequest.WebRequest.Experimental;
-using n143 = _VL_Collections_.Collections.Mutable.MutableSortedList.Advanced;
+using n205 = e3::VL.Lib.Reactive;
+using n172 = _VL_CoreLib_Experimental_.IO.WebRequest.WebRequest.Experimental;
+using n68 = _VL_Collections_.Collections.Mutable.MutableSortedList.Advanced;
 using n242 = _VL_Imaging_.Graphics.Imaging.HoldLatestCopy.Advanced;
-using n94 = _VL_CoreLib_Experimental_.Control.Synchronizer.Experimental;
-using n80 = _VL_HTTP_.IO.HTTP;
-using n55 = _VL_CoreLib_IO_.IO.ByteReader_Reactive.Advanced;
-using n83 = e2::VL.Lib.Control;
+using n159 = _VL_CoreLib_Experimental_.Control.Synchronizer.Experimental;
+using n145 = _VL_HTTP_.IO.HTTP;
+using n120 = _VL_CoreLib_IO_.IO.ByteReader_Reactive.Advanced;
 using n279 = _CoreLibBasics_.IO.FileDialog_Open;
-using n150 = _VL_Collections_.Collections.Concurrent.ConcurrentStack.Advanced;
-using n264 = e5::VL.Lib.Animation;
+using n75 = _VL_Collections_.Collections.Concurrent.ConcurrentStack.Advanced;
 using n214 = _VL_Reactive_.Reactive.Subjects.BehaviorSubject.Advanced;
 using n325 = _CoreLibBasics_.Primitive.Delegates.Delegate__6_MG_1.Advanced;
-using n113 = _VL_Collections_.Collections.HashSet;
+using n38 = _VL_Collections_.Collections.HashSet;
 using n216 = global::System.Reactive.Concurrency;
 using n220 = _VL_Reactive_.Reactive.EventPattern.Advanced;
 using n2 = _VL_CoreLib_;
 using n255 = _CoreLibBasics_._3D.Quaternion.Advanced;
 using n368 = _CoreLibBasics_.System.Resources.Producing_RefCount.Advanced;
-using n177 = _VL_Animation_.Animation.FrameBased;
+using n178 = _VL_Animation_.Animation.FrameBased;
 using n381 = _CoreLibBasics_;
 using n300 = _CoreLibBasics_.Primitive.Tuple__2_Items.Advanced;
 using n298 = _CoreLibBasics_.Primitive.String;
 using n182 = _VL_Xml_.IO.Obsolete;
 using n24 = _VL_Bezier_Cubic_.Math;
-using n58 = _VL_CoreLib_IO_.IO.Advanced;
+using n123 = _VL_CoreLib_IO_.IO.Advanced;
 using n23 = _VL_Bezier_Cubic_.Math.Experimental;
 using n307 = _CoreLibBasics_.Primitive;
-using n116 = global::System.Collections;
-using n1 = e5::VL.Core.CompilerServices;
-using n75 = global::System.Net;
+using n41 = global::System.Collections;
+using n140 = global::System.Net;
 using n336 = _CoreLibBasics_.Primitive.Nullable.Advanced;
+using n148 = e3::VL.Lib.Control;
 using n221 = _VL_Reactive_.Reactive.EventPattern2.Advanced;
 using n313 = _CoreLibBasics_.Primitive.Delegates.Delegate__0_MG_1.Advanced;
 using n269 = _CoreLibBasics_.Animation.IFrameClock.Advanced;
 using n323 = _CoreLibBasics_.Primitive.Delegates.Delegate__5_MG_1.Advanced;
 using n296 = _CoreLibBasics_.Math.Ranges.Range;
-using n93 = _VL_CoreLib_Experimental_.Control.TryCatchFinally__5Outputs.Experimental;
-using n57 = _VL_CoreLib_IO_.IO.CharReader.Advanced;
+using n158 = _VL_CoreLib_Experimental_.Control.TryCatchFinally__5Outputs.Experimental;
+using n122 = _VL_CoreLib_IO_.IO.CharReader.Advanced;
 using n3 = _VL_Threading_.System.Threading.Advanced;
+using n330 = e3::VL.Lib.Proxies;
 using n380 = _CoreLibBasics_.VL.Experimental;
 using n227 = global::System.Reactive.Disposables;
-using n36 = _VL_CoreLib_IO_.IO.Socket;
+using n101 = _VL_CoreLib_IO_.IO.Socket;
 using n271 = _CoreLibBasics_.Animation.Functions.BezierFunction.Internal;
-using n120 = global::System.Collections.Generic;
+using n45 = global::System.Collections.Generic;
 using n404 = e70::VL.App.WindowsForms;
 using n320 = _CoreLibBasics_.Primitive.Delegates.Delegate__4_MG_0.Advanced;
 using n249 = _CoreLibBasics_._2D.Vector2;
 using n21 = _VL_Tokenizer_.IO.Tokenizer.Advanced;
-using n46 = _VL_CoreLib_IO_.IO.Ports.ComPort;
+using n111 = _VL_CoreLib_IO_.IO.Ports.ComPort;
 using n22 = _VL_Paths_.Math.Path;
-using n98 = _VL_CoreLib_Experimental_.Control.Try__2Outputs.Obsolete.Experimental;
+using n163 = _VL_CoreLib_Experimental_.Control.Try__2Outputs.Obsolete.Experimental;
 using n318 = _CoreLibBasics_.Primitive.Delegates.Delegate__3_MG_0.Advanced;
-using n247 = e1::Stride.Core.Mathematics;
-using n162 = _VL_Collections_.Collections.Common.KeyValuePair;
-using n44 = e2::VL.Lib.IO.Ports;
-using n181 = _System_Serialization_.System.Serialization;
+using n87 = _VL_Collections_.Collections.Common.KeyValuePair;
+using n176 = _System_Serialization_.System.Serialization;
 using n341 = _CoreLibBasics_.Primitive.ValueTuple__5_Items.Advanced;
+using n362 = e2::VL.Lib.Basics.Resources;
 using n334 = _CoreLibBasics_.Primitive.Delegates.Proxies.Proxy__3_MG_1.Advanced;
-using n179 = _VL_Animation_.Animation.Functions.OscillatorFunction.Internal;
+using n180 = _VL_Animation_.Animation.Functions.OscillatorFunction.Internal;
 using n283 = _CoreLibBasics_.IO.Path;
-using n52 = _VL_CoreLib_IO_.IO.File__1.Obsolete;
+using n117 = _VL_CoreLib_IO_.IO.File__1.Obsolete;
 using n391 = _VL_Sync_;
 using n210 = _VL_Reactive_.Reactive.Observable.Advanced;
 using n400 = _VL_Reactive_;
-using n163 = _VL_Collections_.Collections.Common.Advanced;
-using n84 = _VL_CoreLib_Experimental_.Control.TryCatch.Experimental;
+using n88 = _VL_Collections_.Collections.Common.Advanced;
+using n149 = _VL_CoreLib_Experimental_.Control.TryCatch.Experimental;
 using n197 = _VL_Xml_.System.XML;
 using n389 = _VL_Paths_;
 using n328 = _CoreLibBasics_.Primitive.Delegates.Delegate__8_MG_0.Advanced;
 using n183 = _VL_Xml_.System.XML.Obsolete.Internal;
-using n47 = _VL_CoreLib_IO_.IO.Ports.Receiver;
-using n106 = _VL_CoreLib_Experimental_.IO.Socket.SocketProvider.Experimental;
+using n86 = e3::VL.Lib.Collections.Spread.SpreadGenerators;
+using n112 = _VL_CoreLib_IO_.IO.Ports.Receiver;
+using n171 = _VL_CoreLib_Experimental_.IO.Socket.SocketProvider.Experimental;
 using n19 = _VL_Tokenizer_.IO;
-using n49 = _VL_CoreLib_IO_.IO;
-using n244 = e2::VL.Lib.Transformation;
+using n114 = _VL_CoreLib_IO_.IO;
 using n272 = _CoreLibBasics_.Animation.Obsolete;
 using n228 = _VL_Reactive_.Reactive.Disposables.SerialDisposable.Advanced;
 using n265 = _CoreLibBasics_.Animation.Time;
-using n129 = _VL_Collections_.Collections.Builder.HashSetBuilder.Advanced;
+using n54 = _VL_Collections_.Collections.Builder.HashSetBuilder.Advanced;
 using n262 = _CoreLibBasics_.Animation;
 using n6 = _VL_Regex_.Text.RegularExpressions.Patched.SpecialCharacters.Experimental;
 using n27 = _VL_Sync_.IO.ClockSyncClient.Internal;
-using n133 = _VL_Collections_.Collections.Mutable.MutableList.Advanced;
+using n58 = _VL_Collections_.Collections.Mutable.MutableList.Advanced;
 using n359 = _CoreLibBasics_.System.Drawing.Bitmap.Advanced;
 using n356 = _CoreLibBasics_.System.TimeSpan;
 using n376 = global::System.Text;
-using n157 = _VL_Collections_.Collections.Queue.Advanced;
-using n82 = _VL_HTTP_.IO.HTTP.HTTPGet;
+using n82 = _VL_Collections_.Collections.Queue.Advanced;
+using n147 = _VL_HTTP_.IO.HTTP.HTTPGet;
 using n357 = global::System.Management;
 using n260 = _CoreLibBasics_.Animation.FrameBased.Internal;
 using n28 = _VL_Sync_.IO.FramePlayer;
+using n94 = e3::VL.Lib.Collections.Trees;
+using n354 = e3::VL.Lib.Primitive;
 using n185 = _VL_Xml_.System.XML.XAttribute;
-using n119 = _VL_Collections_.Collections.Interfaces.ICollection_NonGeneric.Advanced;
-using n85 = _VL_CoreLib_Experimental_.Control.TryCatch__2Outputs.Experimental;
+using n374 = e3::VL.Lib.Text;
+using n44 = _VL_Collections_.Collections.Interfaces.ICollection_NonGeneric.Advanced;
+using n150 = _VL_CoreLib_Experimental_.Control.TryCatch__2Outputs.Experimental;
 using n18 = _VL_Algorithms_.Main;
-using n51 = e2::VL.Lib.IO.Obsolete;
 using n306 = _CoreLibBasics_.Primitive.Tuple__8_Items.Advanced;
 using n217 = _VL_Reactive_.Reactive.Scheduler.Advanced;
-using n148 = _VL_Collections_.Collections.Concurrent.ConcurrentDictionary.Advanced;
+using n73 = _VL_Collections_.Collections.Concurrent.ConcurrentDictionary.Advanced;
 using n364 = _CoreLibBasics_.System.Resources.ConnectableProvider.Advanced;
-using n56 = _VL_CoreLib_IO_.IO.ByteWriter_Reactive.Advanced;
+using n121 = _VL_CoreLib_IO_.IO.ByteWriter_Reactive.Advanced;
 using n291 = _CoreLibBasics_.IO.Touch.TouchDevice.Advanced;
 using n208 = global::System.Threading;
 using n292 = _CoreLibBasics_.IO.ToMouse.Advanced;
 using n4 = global::System.Text.RegularExpressions;
+using n102 = e3::VL.Lib.IO.Socket;
 using n9 = _VL_Audio_.System.Audio.PlaybackDeviceEnum.Advanced;
-using n88 = _VL_CoreLib_Experimental_.Control.TryCatch__5Outputs.Experimental;
+using n239 = e2::VL.Lib.Basics.Imaging;
+using n245 = e3::VL.Lib.Mathematics;
+using n153 = _VL_CoreLib_Experimental_.Control.TryCatch__5Outputs.Experimental;
 using n231 = _VL_Reactive_.Reactive.ForEach_Keep;
-using n92 = _VL_CoreLib_Experimental_.Control.TryCatchFinally__4Outputs.Experimental;
-using n205 = e2::VL.Lib.Reactive;
-using n32 = e5::VL.Core;
+using n157 = _VL_CoreLib_Experimental_.Control.TryCatchFinally__4Outputs.Experimental;
 using n377 = _CoreLibBasics_.Text.StringBuilder.Advanced;
 using n270 = _CoreLibBasics_.Animation.Functions;
 using n240 = _VL_Imaging_.Graphics.Imaging.Image;
 using n290 = _CoreLibBasics_.IO.Mouse.MouseDevice.Advanced;
 using n226 = global::System.Threading.Tasks;
-using n286 = e9::VL.Lib.IO;
-using n77 = _VL_CoreLib_IO_.IO.File;
+using n142 = _VL_CoreLib_IO_.IO.File;
 using n278 = _CoreLibBasics_.IO.FileAccess;
 using n345 = _CoreLibBasics_.Primitive.ValueTuple__0_Items.Advanced;
 using n35 = _System_Memory_.System.Advanced;
 using n392 = _System_Memory_;
 using n10 = _VL_Audio_.System.Audio.CaptureDeviceEnum.Advanced;
-using n81 = _VL_HTTP_.IO.HTTP.FileDownloader;
+using n146 = _VL_HTTP_.IO.HTTP.FileDownloader;
 using n340 = _CoreLibBasics_.Primitive.ValueTuple__6_Items.Advanced;
-using n222 = e2::VL.Lib.Reactive.ObservableNodes;
-using n171 = _VL_Collections_.Collections.Trees.IReadOnlyTreeNode;
+using n96 = _VL_Collections_.Collections.Trees.IReadOnlyTreeNode;
 using n293 = _CoreLibBasics_.IO.Stream.Experimental;
-using n144 = _VL_Collections_.Collections.Mutable.MutableSortedDictionary.Advanced;
+using n69 = _VL_Collections_.Collections.Mutable.MutableSortedDictionary.Advanced;
 using n233 = _VL_Reactive_.Reactive.KeepAlive;
-using n135 = _VL_Collections_.Collections.Mutable.MutableHashSet.Advanced;
-using n178 = _VL_Animation_.Animation.Functions;
-using n396 = _VL_Animation_;
-using n161 = e2::VL.Lib.Collections.Spread.SpreadGenerators;
-using n71 = _VL_CoreLib_IO_.IO.CharChunkifier_Reactive.Advanced;
-using n191 = e2::VL.Lib.Xml;
+using n60 = _VL_Collections_.Collections.Mutable.MutableHashSet.Advanced;
+using n179 = _VL_Animation_.Animation.Functions;
+using n32 = e2::VL.Core;
+using n397 = _VL_Animation_;
+using n136 = _VL_CoreLib_IO_.IO.CharChunkifier_Reactive.Advanced;
 using n288 = _CoreLibBasics_.IO.Keyboard.KeyboardDevice.Advanced;
 using n317 = _CoreLibBasics_.Primitive.Delegates.Delegate__2_MG_1.Advanced;
 using n327 = _CoreLibBasics_.Primitive.Delegates.Delegate__7_MG_1.Advanced;
-using n68 = _VL_CoreLib_IO_.IO.ByteChunkifier.Advanced;
+using n133 = _VL_CoreLib_IO_.IO.ByteChunkifier.Advanced;
 using n213 = _VL_Reactive_.Reactive.Subjects.AsyncSubject.Advanced;
-using n362 = e5::VL.Lib.Basics.Resources;
 using n402 = _VL_Attractor_;
-using n172 = _VL_Collections_.Collections.Trees.IReadOnlyTree;
+using n97 = _VL_Collections_.Collections.Trees.IReadOnlyTree;
 using n267 = _CoreLibBasics_.Animation.FrameClock.Advanced;
 using n305 = _CoreLibBasics_.Primitive.Tuple__7_Items.Advanced;
-using n42 = global::System.Net.Sockets;
+using n107 = global::System.Net.Sockets;
 using n246 = _CoreLibBasics_._2D.Circle;
 using n30 = _System_Memory_.System.Memory.Advanced;
 using n29 = global::System;
 using n206 = _VL_Reactive_.Reactive.AsyncTask;
-using n105 = _VL_CoreLib_Experimental_.IO.Net.HTTPServer.Experimental;
-using n102 = e2::VL.Lib.Parallel;
-using n108 = _VL_CoreLib_Experimental_.Primitive.Experimental;
+using n170 = _VL_CoreLib_Experimental_.IO.Net.HTTPServer.Experimental;
+using n173 = _VL_CoreLib_Experimental_.Primitive.Experimental;
 using n352 = _CoreLibBasics_.Primitive.Int2;
 using n324 = _CoreLibBasics_.Primitive.Delegates.Delegate__6_MG_0.Advanced;
+using n247 = e4::Stride.Core.Mathematics;
 using n287 = _CoreLibBasics_.IO.Gesture.GestureDevice.Advanced;
-using n74 = _VL_CoreLib_IO_.IO.Net.Advanced;
+using n139 = _VL_CoreLib_IO_.IO.Net.Advanced;
 using n201 = _System_Reflection_.System.Reflection.IVLFactory.Experimental;
 using n371 = _CoreLibBasics_.System.GUID.Advanced;
 using n384 = _VL_Regex_;
-using n180 = _VL_Animation_.Animation.Advanced;
+using n181 = _VL_Animation_.Animation.Advanced;
 using n204 = _VL_Reactive_.Reactive;
+using n349 = e3::VL.Lib.Experimental;
 using n192 = _VL_Xml_.System.XML.XDocumentReader.Advanced;
 using n297 = _CoreLibBasics_.Math.Advanced;
-using n38 = _VL_CoreLib_IO_.IO.Socket.Datagram;
-using n8 = e2::VL.Lib;
+using n103 = _VL_CoreLib_IO_.IO.Socket.Datagram;
+using n403 = e2::VL.Lib;
 using n315 = _CoreLibBasics_.Primitive.Delegates.Delegate__1_MG_1.Advanced;
 using n241 = _VL_Imaging_.Graphics.Imaging.ArrayImage.Advanced;
-using n41 = _VL_CoreLib_IO_.IO.Socket.Sender_Datagram.Advanced;
+using n106 = _VL_CoreLib_IO_.IO.Socket.Sender_Datagram.Advanced;
 using n274 = _CoreLibBasics_.Color.RGBA;
+using n167 = e3::VL.Lib.Parallel;
 using n14 = _VL_Typewriter_.Text.TextBuilder.ToSelectedPositions.Advanced;
-using n63 = _VL_CoreLib_IO_.IO.CharCollector.Advanced;
+using n128 = _VL_CoreLib_IO_.IO.CharCollector.Advanced;
 using n339 = _CoreLibBasics_.Primitive.ValueTuple__7_Items.Advanced;
 using n276 = _CoreLibBasics_.IO;
 using n250 = _CoreLibBasics_._2D.RectangleAnchor;
-using n117 = _VL_Collections_.Collections.Interfaces.Sequence_NonGeneric.Advanced;
-using n104 = e2::VL.Lib.IO.Net;
-using n54 = e2::VL.Lib.IO;
-using n110 = _VL_CoreLib_Experimental_.Experimental;
-using n62 = _VL_CoreLib_IO_.IO.ByteCollector_Reactive.Advanced;
+using n42 = _VL_Collections_.Collections.Interfaces.Sequence_NonGeneric.Advanced;
+using n282 = e2::VL.Lib.IO;
+using n175 = _VL_CoreLib_Experimental_.Experimental;
+using n244 = e3::VL.Lib.Transformation;
+using n127 = _VL_CoreLib_IO_.IO.ByteCollector_Reactive.Advanced;
 using n248 = _CoreLibBasics_._2D.Rectangle;
 using n385 = _VL_Audio_;
-using n167 = _VL_Collections_.Collections.Trees.Patching.TreeNodeParentManager.Advanced;
-using n141 = _VL_Collections_.Collections.Mutable.MutableObservableCollection.Advanced;
+using n92 = _VL_Collections_.Collections.Trees.Patching.TreeNodeParentManager.Advanced;
+using n66 = _VL_Collections_.Collections.Mutable.MutableObservableCollection.Advanced;
 using n312 = _CoreLibBasics_.Primitive.Delegates.Delegate__0_MG_0.Advanced;
 using n243 = _VL_Imaging_.Graphics.Imaging;
 using n322 = _CoreLibBasics_.Primitive.Delegates.Delegate__5_MG_0.Advanced;
+using n119 = e3::VL.Lib.IO;
+using n379 = e2::VL.Core.PublicAPI;
+using n1 = e2::VL.Core.CompilerServices;
 using n7 = _VL_Audio_.System.Audio;
 using n398 = _VL_Xml_;
-using n96 = _VL_CoreLib_Experimental_.Control.Synchronizer_VLObjectInput.Experimental;
+using n161 = _VL_CoreLib_Experimental_.Control.Synchronizer_VLObjectInput.Experimental;
 using n348 = _CoreLibBasics_.Primitive.ManageProcess__2_Outputs.Obsolete;
-using n330 = e2::VL.Lib.Proxies;
 using n299 = _CoreLibBasics_.Primitive.Char.Advanced;
-using n138 = _VL_Collections_.Collections.Mutable.MutableLinkedList.Advanced;
+using n63 = _VL_Collections_.Collections.Mutable.MutableLinkedList.Advanced;
 using n301 = _CoreLibBasics_.Primitive.Tuple__3_Items.Advanced;
-using n50 = _VL_CoreLib_IO_.IO.Obsolete;
+using n115 = _VL_CoreLib_IO_.IO.Obsolete;
 using n225 = _VL_Reactive_.Reactive.ToObservable_Switch.Advanced;
 using n31 = _System_Memory_.System.ReadOnlyMemory.Advanced;
-using n132 = _VL_Collections_.Collections.Builder.ArrayBuilder.Advanced;
+using n57 = _VL_Collections_.Collections.Builder.ArrayBuilder.Advanced;
 using n332 = _CoreLibBasics_.Primitive.Delegates.Proxies.Proxy__1_MG_1.Advanced;
-using n125 = _VL_Collections_.Collections.Interfaces.IReadOnlyCollection.Advanced;
+using n50 = _VL_Collections_.Collections.Interfaces.IReadOnlyCollection.Advanced;
 using n386 = _VL_Typewriter_;
 using n281 = _CoreLibBasics_.IO.FolderDialog;
-using n109 = _VL_CoreLib_Experimental_.System.Process.Experimental;
-using n40 = _VL_CoreLib_IO_.IO.Socket.Receiver_Datagram.Advanced;
+using n174 = _VL_CoreLib_Experimental_.System.Process.Experimental;
+using n83 = e3::VL.Lib.Collections;
+using n105 = _VL_CoreLib_IO_.IO.Socket.Receiver_Datagram.Advanced;
 using n13 = _VL_Typewriter_.Text.TextBuilder.Advanced;
-using n121 = _VL_Collections_.Collections.Interfaces.IMutableList.Advanced;
-using n43 = global::System.IO.Ports;
-using n70 = _VL_CoreLib_IO_.IO.CharWriter_Reactive.Advanced;
+using n46 = _VL_Collections_.Collections.Interfaces.IMutableList.Advanced;
+using n108 = global::System.IO.Ports;
+using n135 = _VL_CoreLib_IO_.IO.CharWriter_Reactive.Advanced;
 using n401 = _VL_Imaging_;
+using n8 = e3::VL.Lib;
 using n289 = global::System.Windows.Forms;
 using n367 = _CoreLibBasics_.System.Resources.Using_RefCount.Advanced;
 using n344 = _CoreLibBasics_.Primitive.ValueTuple__1_Items.Advanced;
@@ -322,72 +324,70 @@ using n370 = _CoreLibBasics_.System.EqualityComparer.Advanced;
 using n189 = _VL_Xml_.System.XML.XElement;
 using n308 = _CoreLibBasics_.Primitive.DynamicEnum.Advanced;
 using n309 = _CoreLibBasics_.Primitive.DynamicEnumDefinition.Advanced;
-using n64 = _VL_CoreLib_IO_.IO.Monitor_Reactive.Advanced;
-using n101 = _VL_CoreLib_Experimental_.Control.Try__5Outputs.Obsolete.Experimental;
+using n109 = e3::VL.Lib.IO.Ports;
+using n129 = _VL_CoreLib_IO_.IO.Monitor_Reactive.Advanced;
+using n166 = _VL_CoreLib_Experimental_.Control.Try__5Outputs.Obsolete.Experimental;
 using n387 = _VL_Algorithms_;
 using n333 = _CoreLibBasics_.Primitive.Delegates.Proxies.Proxy__2_MG_1.Advanced;
 using n33 = _System_Memory_.System.IHasMemory.Advanced;
 using n230 = _VL_Reactive_.Reactive.ForEach;
-using n66 = _VL_CoreLib_IO_.IO.ByteCollector.Advanced;
-using n142 = global::System.Collections.Specialized;
-using n147 = global::System.Collections.Concurrent;
+using n131 = _VL_CoreLib_IO_.IO.ByteCollector.Advanced;
+using n67 = global::System.Collections.Specialized;
+using n252 = e3::VL.CoordinateSystem;
+using n72 = global::System.Collections.Concurrent;
 using n303 = _CoreLibBasics_.Primitive.Tuple__5_Items.Advanced;
 using n188 = _VL_Xml_.System.XML.XDocumentType;
-using n146 = _VL_Collections_.Collections.Mutable.MutableArray.Advanced;
+using n71 = _VL_Collections_.Collections.Mutable.MutableArray.Advanced;
 using n331 = _CoreLibBasics_.Primitive.Delegates.Proxies.Proxy__0_MG_1.Advanced;
-using n53 = _VL_CoreLib_IO_.IO.File_NoSharing_1.Obsolete;
-using n103 = _VL_CoreLib_Experimental_.Control.Parallel.ForEach.Experimental;
+using n118 = _VL_CoreLib_IO_.IO.File_NoSharing_1.Obsolete;
+using n168 = _VL_CoreLib_Experimental_.Control.Parallel.ForEach.Experimental;
 using n232 = _VL_Reactive_.Reactive.HoldLatest;
 using n273 = _CoreLibBasics_.Animation.Oscillator_Old.Advanced.Obsolete;
-using n403 = e5::VL.Lib;
-using n175 = _VL_Collections_;
-using n136 = _VL_Collections_.Collections.Mutable.MutableQueue.Advanced;
-using n155 = _VL_Collections_.Collections.Stack.Advanced;
-using n239 = e5::VL.Lib.Basics.Imaging;
+using n100 = _VL_Collections_;
+using n61 = _VL_Collections_.Collections.Mutable.MutableQueue.Advanced;
+using n80 = _VL_Collections_.Collections.Stack.Advanced;
 using n234 = _VL_Reactive_.Reactive.SPH;
-using n165 = e2::VL.Lib.Collections.TreePatching;
-using n159 = _VL_Collections_.Collections.HoldLatestCopy.Advanced;
-using n263 = e2::VL.Lib.Animation;
-using n152 = _VL_Collections_.Collections.Concurrent.BlockingCollection.Advanced;
+using n84 = _VL_Collections_.Collections.HoldLatestCopy.Advanced;
+using n264 = e2::VL.Lib.Animation;
+using n77 = _VL_Collections_.Collections.Concurrent.BlockingCollection.Advanced;
 using n17 = _VL_Algorithms_.Math.Experimental;
-using n145 = _VL_Collections_.Collections.Mutable.MutableSortedSet.Advanced;
+using n70 = _VL_Collections_.Collections.Mutable.MutableSortedSet.Advanced;
 using n258 = _CoreLibBasics_._3D;
 using n355 = _CoreLibBasics_.System.DateTime.Advanced;
-using n90 = _VL_CoreLib_Experimental_.Control.TryCatchFinally__2Outputs.Experimental;
-using n164 = _VL_Collections_.Collections.Sequence;
+using n155 = _VL_CoreLib_Experimental_.Control.TryCatchFinally__2Outputs.Experimental;
+using n89 = _VL_Collections_.Collections.Sequence;
 using n34 = global::System.Runtime.CompilerServices;
 using n211 = global::System.Reactive.Joins;
 using n375 = _CoreLibBasics_.Text.Encodings;
 using n378 = _CoreLibBasics_.Text.FontList;
 using n196 = _VL_Xml_.System.XML.Advanced;
 using n394 = _VL_HTTP_;
-using n154 = _VL_Collections_.Collections.SortedSet.Advanced;
-using n45 = _VL_CoreLib_IO_.IO.Ports.SerialPort;
+using n79 = _VL_Collections_.Collections.SortedSet.Advanced;
+using n110 = _VL_CoreLib_IO_.IO.Ports.SerialPort;
 using n254 = _CoreLibBasics_._3D.Plane;
-using n151 = _VL_Collections_.Collections.Concurrent.ConcurrentBag.Advanced;
-using n130 = _VL_Collections_.Collections.Builder.SortedDictionaryBuilder.Advanced;
-using n176 = _VL_Animation_.Animation;
-using n126 = e5::VL.Lib.Collections;
+using n222 = e3::VL.Lib.Reactive.ObservableNodes;
+using n76 = _VL_Collections_.Collections.Concurrent.ConcurrentBag.Advanced;
+using n55 = _VL_Collections_.Collections.Builder.SortedDictionaryBuilder.Advanced;
+using n177 = _VL_Animation_.Animation;
 using n383 = _VL_Threading_;
-using n87 = _VL_CoreLib_Experimental_.Control.TryCatch__4Outputs.Experimental;
+using n152 = _VL_CoreLib_Experimental_.Control.TryCatch__4Outputs.Experimental;
 using n202 = _System_Reflection_.System.Reflection.NodeContext.Advanced;
-using n59 = _VL_CoreLib_IO_.IO.CharWriter.Advanced;
-using n168 = _VL_Collections_.Collections.Trees.Patching.Advanced;
+using n124 = _VL_CoreLib_IO_.IO.CharWriter.Advanced;
+using n93 = _VL_Collections_.Collections.Trees.Patching.Advanced;
 using n351 = _CoreLibBasics_.Primitive.SingleInstance_PerApp;
-using n349 = e2::VL.Lib.Experimental;
 using n16 = _VL_Typewriter_.Text.Internal;
-using n153 = _VL_Collections_.Collections.SortedDictionary.Advanced;
-using n118 = global::System.Linq;
-using n166 = _VL_Collections_.Collections.Trees.Patching.TreeNodeChildrenManager.Advanced;
+using n78 = _VL_Collections_.Collections.SortedDictionary.Advanced;
+using n43 = global::System.Linq;
+using n91 = _VL_Collections_.Collections.Trees.Patching.TreeNodeChildrenManager.Advanced;
 using n200 = _System_Reflection_.System.Reflection.IVLPropertyInfo.Experimental;
-using n124 = _VL_Collections_.Collections.Interfaces.ICollection.Advanced;
-using n282 = e5::VL.Lib.IO;
-using n72 = _VL_CoreLib_IO_.IO.CharCollector_Reactive.Advanced;
+using n49 = _VL_Collections_.Collections.Interfaces.ICollection.Advanced;
+using n286 = e5::VL.Lib.IO;
+using n137 = _VL_CoreLib_IO_.IO.CharCollector_Reactive.Advanced;
 using n321 = _CoreLibBasics_.Primitive.Delegates.Delegate__4_MG_1.Advanced;
-using n170 = _VL_Collections_.Collections.Trees.Command;
+using n95 = _VL_Collections_.Collections.Trees.Command;
 using n238 = _VL_Reactive_.Reactive.Splitter;
-using n139 = _VL_Collections_.Collections.Mutable.MutableLinkedListNode.Advanced;
-using n160 = _VL_Collections_.Collections.Spread;
+using n64 = _VL_Collections_.Collections.Mutable.MutableLinkedListNode.Advanced;
+using n85 = _VL_Collections_.Collections.Spread;
 using n337 = _CoreLibBasics_.Primitive.ValueTuple__2_Items.Advanced;
 using n358 = global::System.Drawing;
 using n218 = global::System.Reactive;
@@ -395,18 +395,18 @@ using n319 = _CoreLibBasics_.Primitive.Delegates.Delegate__3_MG_1.Advanced;
 using n366 = _CoreLibBasics_.System.Resources.Advanced;
 using n294 = _CoreLibBasics_.IO.Stream.ReaderAll.Experimental;
 using n224 = _VL_Reactive_.Reactive.Advanced.Experimental;
+using n191 = e3::VL.Lib.Xml;
 using n198 = _System_Reflection_.System.Reflection.IVLObject.Experimental;
 using n12 = _VL_Typewriter_.Text.Advanced;
 using n261 = _CoreLibBasics_.Animation.FrameBased.Advanced;
 using n5 = _VL_Regex_.Text.RegularExpressions;
 using n229 = _VL_Reactive_.Reactive.Debug;
-using n397 = _System_Serialization_;
+using n396 = _System_Serialization_;
 using n184 = global::System.Xml.Linq;
-using n156 = _VL_Collections_.Collections.Array.Advanced;
+using n81 = _VL_Collections_.Collections.Array.Advanced;
 using n257 = _CoreLibBasics_._3D.Vector4;
 using n256 = _CoreLibBasics_._3D.Vector3;
-using n169 = e2::VL.Lib.Collections.Trees;
-using n122 = _VL_Collections_.Collections.Interfaces.IMutableDictionary.Advanced;
+using n47 = _VL_Collections_.Collections.Interfaces.IMutableDictionary.Advanced;
 using n277 = global::System.IO;
 
 [assembly: n1.CompilerVersionAttribute("2021.4.9-971+1d0a0c7789")]
@@ -490,262 +490,262 @@ using n277 = global::System.IO;
 [assembly: n1.TypeImportAttribute("ReadOnlySpan", "System", typeof(n29.ReadOnlySpan<>), typeof(n29.ReadOnlySpan<>), false)]
 [assembly: n1.TypeImportAttribute("Span", "System", typeof(n29.Span<>), typeof(n29.Span<>), false)]
 [assembly: n1.TypeImportAttribute("System.MemoryApplication", "System", typeof(n35.System_MemoryApplication_T71syYzZFaGPUlhLXsVdjN), typeof(n35.System_MemoryApplication_T71syYzZFaGPUlhLXsVdjN), false)]
-[assembly: n1.TypeImportAttribute("UdpClient (Reactive)", "IO.Socket", typeof(n36.UdpClient_Reactive_BOd1NI2Q70rNLdxNE7z8jj), typeof(n36.UdpClient_Reactive_BOd1NI2Q70rNLdxNE7z8jj), false)]
-[assembly: n1.TypeImportAttribute("Datagram", "IO.Socket", typeof(n37.Datagram), typeof(n38._Operations_), true)]
-[assembly: n1.TypeImportAttribute("UdpServer (Reactive)", "IO.Socket", typeof(n36.UdpServer_Reactive_DVOunIaysXuOsl2X0gaBGw), typeof(n36.UdpServer_Reactive_DVOunIaysXuOsl2X0gaBGw), false)]
-[assembly: n1.TypeImportAttribute("ToDatagrams", "IO.Socket", typeof(n36.ToDatagrams_NqOArIZnZHfQJCMXWLcZF9), typeof(n36.ToDatagrams_NqOArIZnZHfQJCMXWLcZF9), false)]
-[assembly: n1.TypeImportAttribute("UdpClient", "IO.Socket", typeof(n36.UdpClient_ABWqm1HsYpNPHycPXOjEv8), typeof(n36.UdpClient_ABWqm1HsYpNPHycPXOjEv8), false)]
-[assembly: n1.TypeImportAttribute("UdpServer", "IO.Socket", typeof(n36.UdpServer_KWe4UurP6xMOND9k3h1iMA), typeof(n36.UdpServer_KWe4UurP6xMOND9k3h1iMA), false)]
-[assembly: n1.TypeImportAttribute("UdpSocket", "IO.Socket", typeof(n37.UDPSocket), typeof(n39._Operations_), false)]
-[assembly: n1.TypeImportAttribute("Receiver (Datagram)", "IO.Socket", typeof(n37.DatagramReceiver), typeof(n40._Operations_), false)]
-[assembly: n1.TypeImportAttribute("Sender (Datagram)", "IO.Socket", typeof(n37.DatagramSender), typeof(n41._Operations_), false)]
-[assembly: n1.TypeImportAttribute("ProtocolType", "IO.Socket", typeof(n42.ProtocolType), null, true)]
-[assembly: n1.TypeImportAttribute("SocketType", "IO.Socket", typeof(n42.SocketType), null, true)]
-[assembly: n1.TypeImportAttribute("AddressFamily", "IO.Socket", typeof(n42.AddressFamily), null, true)]
-[assembly: n1.TypeImportAttribute("ToDatagram", "IO.Socket", typeof(n36.ToDatagram_GUYRku2XzpsMgeeeoNpw2g), typeof(n36.ToDatagram_GUYRku2XzpsMgeeeoNpw2g), false)]
-[assembly: n1.TypeImportAttribute("Handshake", "IO.Ports", typeof(n43.Handshake), null, false)]
-[assembly: n1.TypeImportAttribute("Parity", "IO.Ports", typeof(n43.Parity), null, false)]
-[assembly: n1.TypeImportAttribute("StopBits", "IO.Ports", typeof(n43.StopBits), null, false)]
-[assembly: n1.TypeImportAttribute("SerialPort", "IO.Ports", typeof(n44.SerialPort), typeof(n45._Operations_), false)]
-[assembly: n1.TypeImportAttribute("ComPort", "IO.Ports", typeof(n44.ComPort), typeof(n46._Operations_), true)]
-[assembly: n1.TypeImportAttribute("Receiver", "IO.Ports", typeof(n44.Receiver), typeof(n47._Operations_), false)]
-[assembly: n1.TypeImportAttribute("Sender", "IO.Ports", typeof(n44.Sender), typeof(n48._Operations_), false)]
-[assembly: n1.TypeImportAttribute("SerialPort", "IO", typeof(n49.SerialPort_AiAKpmuYyUIPIlE9TNeP81), typeof(n49.SerialPort_AiAKpmuYyUIPIlE9TNeP81), false)]
-[assembly: n1.TypeImportAttribute("FileReader (1)", "IO", typeof(n50.FileReader__1_IjerHItQqY4PCwNKtTBHV2), typeof(n50.FileReader__1_IjerHItQqY4PCwNKtTBHV2), false)]
-[assembly: n1.TypeImportAttribute("FileReader (String 1)", "IO", typeof(n50.FileReader_String_1_FlSWv1BZxAXQcA8WA0GZhK), typeof(n50.FileReader_String_1_FlSWv1BZxAXQcA8WA0GZhK), false)]
-[assembly: n1.TypeImportAttribute("FileWriter (String 1)", "IO", typeof(n50.FileWriter_String_1_R7mOvMTuwndMvNCG0IO3Dv), typeof(n50.FileWriter_String_1_R7mOvMTuwndMvNCG0IO3Dv), false)]
-[assembly: n1.TypeImportAttribute("FileWriter (1)", "IO", typeof(n50.FileWriter__1_J7vmTTktovMOYBUQelwW3O), typeof(n50.FileWriter__1_J7vmTTktovMOYBUQelwW3O), false)]
-[assembly: n1.TypeImportAttribute("File (1)", "IO", typeof(n51.ObsoleteFile), typeof(n52._Operations_), false)]
-[assembly: n1.TypeImportAttribute("File (NoSharing 1)", "IO", typeof(n51.ObsoleteFileNoSharing), typeof(n53._Operations_), false)]
-[assembly: n1.TypeImportAttribute("ByteReader (Reactive)", "IO", typeof(n54.AsyncByteReader), typeof(n55._Operations_), false)]
-[assembly: n1.TypeImportAttribute("ByteWriter (Reactive)", "IO", typeof(n54.AsyncByteWriter), typeof(n56._Operations_), false)]
-[assembly: n1.TypeImportAttribute("CharReader", "IO", typeof(n54.CharReader), typeof(n57._Operations_), false)]
-[assembly: n1.TypeImportAttribute("StringReader (Reactive)", "IO", typeof(n58.StringReader_Reactive_OZuCM5n4eNWP7pF1DYKlef), typeof(n58.StringReader_Reactive_OZuCM5n4eNWP7pF1DYKlef), false)]
-[assembly: n1.TypeImportAttribute("CharWriter", "IO", typeof(n54.CharWriter), typeof(n59._Operations_), false)]
-[assembly: n1.TypeImportAttribute("StringWriter (Reactive)", "IO", typeof(n58.StringWriter_Reactive_NvLjtZwaL21LuVr42kqkiy), typeof(n58.StringWriter_Reactive_NvLjtZwaL21LuVr42kqkiy), false)]
-[assembly: n1.TypeImportAttribute("ByteChunkifier (Reactive)", "IO", typeof(n54.AsyncByteChunkifier), typeof(n60._Operations_), false)]
-[assembly: n1.TypeImportAttribute("CharChunkifier", "IO", typeof(n54.CharChunkifier), typeof(n61._Operations_), false)]
-[assembly: n1.TypeImportAttribute("ByteCollector (Reactive)", "IO", typeof(n54.AsyncByteCollector), typeof(n62._Operations_), false)]
-[assembly: n1.TypeImportAttribute("CharCollector", "IO", typeof(n54.CharCollector), typeof(n63._Operations_), false)]
-[assembly: n1.TypeImportAttribute("Monitor (Reactive)", "IO", typeof(n54.Monitor<>), typeof(n64._Operations_), false)]
-[assembly: n1.TypeImportAttribute("ByteReader", "IO", typeof(n54.ByteReader), typeof(n65._Operations_), false)]
-[assembly: n1.TypeImportAttribute("ByteCollector", "IO", typeof(n54.ByteCollector), typeof(n66._Operations_), false)]
-[assembly: n1.TypeImportAttribute("ByteWriter", "IO", typeof(n54.ByteWriter), typeof(n67._Operations_), false)]
-[assembly: n1.TypeImportAttribute("ByteChunkifier", "IO", typeof(n54.ByteChunkifier), typeof(n68._Operations_), false)]
-[assembly: n1.TypeImportAttribute("CharReader (Reactive)", "IO", typeof(n54.AsyncCharReader), typeof(n69._Operations_), false)]
-[assembly: n1.TypeImportAttribute("CharWriter (Reactive)", "IO", typeof(n54.AsyncCharWriter), typeof(n70._Operations_), false)]
-[assembly: n1.TypeImportAttribute("CharChunkifier (Reactive)", "IO", typeof(n54.AsyncCharChunkifier), typeof(n71._Operations_), false)]
-[assembly: n1.TypeImportAttribute("CharCollector (Reactive)", "IO", typeof(n54.AsyncCharCollector), typeof(n72._Operations_), false)]
-[assembly: n1.TypeImportAttribute("StringReader", "IO", typeof(n58.StringReader_BOTojDz8Ou7NQQoQbWoirY), typeof(n58.StringReader_BOTojDz8Ou7NQQoQbWoirY), false)]
-[assembly: n1.TypeImportAttribute("StringWriter", "IO", typeof(n58.StringWriter_DcGtmOHsL0sNmgl8AQ442U), typeof(n58.StringWriter_DcGtmOHsL0sNmgl8AQ442U), false)]
-[assembly: n1.TypeImportAttribute("Chunk", "IO", typeof(n54.Chunk<>), typeof(n73._Operations_), false)]
-[assembly: n1.TypeImportAttribute("IPEndPointResolver", "IO.Net", typeof(n74.IPEndPointResolver_I4nudrDB0zZLgxuS5DE6uV), typeof(n74.IPEndPointResolver_I4nudrDB0zZLgxuS5DE6uV), false)]
-[assembly: n1.TypeImportAttribute("CredentialCache", "IO.Net", typeof(n75.CredentialCache), typeof(n75.CredentialCache), false)]
-[assembly: n1.TypeImportAttribute("DuplicateAddressDetectionState", "IO.Net", typeof(n76.DuplicateAddressDetectionState), null, false)]
-[assembly: n1.TypeImportAttribute("ICredentials", "IO.Net", typeof(n75.ICredentials), null, false)]
-[assembly: n1.TypeImportAttribute("IPAddress", "IO.Net", typeof(n75.IPAddress), typeof(n75.IPAddress), false)]
-[assembly: n1.TypeImportAttribute("IPAddressInformation", "IO.Net", typeof(n76.IPAddressInformation), null, false)]
-[assembly: n1.TypeImportAttribute("IPEndPoint", "IO.Net", typeof(n75.IPEndPoint), typeof(n75.IPEndPoint), false)]
-[assembly: n1.TypeImportAttribute("IPInterfaceProperties", "IO.Net", typeof(n76.IPInterfaceProperties), null, false)]
-[assembly: n1.TypeImportAttribute("IPInterfaceStatistics", "IO.Net", typeof(n76.IPInterfaceStatistics), null, false)]
-[assembly: n1.TypeImportAttribute("IPv4InterfaceProperties", "IO.Net", typeof(n76.IPv4InterfaceProperties), null, false)]
-[assembly: n1.TypeImportAttribute("IPv4InterfaceStatistics", "IO.Net", typeof(n76.IPv4InterfaceStatistics), null, false)]
-[assembly: n1.TypeImportAttribute("IPv6InterfaceProperties", "IO.Net", typeof(n76.IPv6InterfaceProperties), null, false)]
-[assembly: n1.TypeImportAttribute("MulticastIPAddressInformation", "IO.Net", typeof(n76.MulticastIPAddressInformation), null, false)]
-[assembly: n1.TypeImportAttribute("NetworkCredential", "IO.Net", typeof(n75.NetworkCredential), typeof(n75.NetworkCredential), false)]
-[assembly: n1.TypeImportAttribute("NetworkInterface", "IO.Net", typeof(n76.NetworkInterface), null, false)]
-[assembly: n1.TypeImportAttribute("NetworkInterfaceType", "IO.Net", typeof(n76.NetworkInterfaceType), null, true)]
-[assembly: n1.TypeImportAttribute("OperationalStatus", "IO.Net", typeof(n76.OperationalStatus), null, true)]
-[assembly: n1.TypeImportAttribute("PhysicalAddress", "IO.Net", typeof(n76.PhysicalAddress), typeof(n76.PhysicalAddress), false)]
-[assembly: n1.TypeImportAttribute("PrefixOrigin", "IO.Net", typeof(n76.PrefixOrigin), null, true)]
-[assembly: n1.TypeImportAttribute("SuffixOrigin", "IO.Net", typeof(n76.SuffixOrigin), null, true)]
-[assembly: n1.TypeImportAttribute("UnicastIPAddressInformation", "IO.Net", typeof(n76.UnicastIPAddressInformation), null, false)]
-[assembly: n1.TypeImportAttribute("IPEndPoint", "IO.Net", typeof(n74.IPEndPoint_LFQAAxLFDLrLGEmZiQz7To), typeof(n74.IPEndPoint_LFQAAxLFDLrLGEmZiQz7To), false)]
-[assembly: n1.TypeImportAttribute("IPAddress", "IO.Net", typeof(n74.IPAddress_MLeJfL0KehEPTxpNGNIs8m), typeof(n74.IPAddress_MLeJfL0KehEPTxpNGNIs8m), false)]
-[assembly: n1.TypeImportAttribute("NetworkInterfaces", "IO.Net", typeof(n74.NetworkInterfaces_IMxwVok0gkqQG3e3tXC736), typeof(n74.NetworkInterfaces_IMxwVok0gkqQG3e3tXC736), false)]
-[assembly: n1.TypeImportAttribute("FileReader (String)", "IO", typeof(n49.FileReader_String_TT8gWSNJDrLPfzy5QjExui), typeof(n49.FileReader_String_TT8gWSNJDrLPfzy5QjExui), false)]
-[assembly: n1.TypeImportAttribute("FileReader", "IO", typeof(n49.FileReader_Nbs971t4mpQOvLXHem7Bzs), typeof(n49.FileReader_Nbs971t4mpQOvLXHem7Bzs), false)]
-[assembly: n1.TypeImportAttribute("FileWriter", "IO", typeof(n49.FileWriter_U2bWfQ8dEnvPg38ttqISAx), typeof(n49.FileWriter_U2bWfQ8dEnvPg38ttqISAx), false)]
-[assembly: n1.TypeImportAttribute("FileWriter (String)", "IO", typeof(n49.FileWriter_String_RhzHb4NoVZQP8wGq101JDK), typeof(n49.FileWriter_String_RhzHb4NoVZQP8wGq101JDK), false)]
-[assembly: n1.TypeImportAttribute("FileReader (Reactive)", "IO", typeof(n49.FileReader_Reactive_VixxmbVX6AtMbizi7gZULo), typeof(n49.FileReader_Reactive_VixxmbVX6AtMbizi7gZULo), false)]
-[assembly: n1.TypeImportAttribute("FileReader (String Reactive)", "IO", typeof(n49.FileReader_String_Reactive_VTFPwrKqLPQOeQrp8g7eWh), typeof(n49.FileReader_String_Reactive_VTFPwrKqLPQOeQrp8g7eWh), false)]
-[assembly: n1.TypeImportAttribute("FileWriter (Reactive)", "IO", typeof(n49.FileWriter_Reactive_AtVTqYvzpFTNOhjHcbX8pA), typeof(n49.FileWriter_Reactive_AtVTqYvzpFTNOhjHcbX8pA), false)]
-[assembly: n1.TypeImportAttribute("FileWriter (String Reactive)", "IO", typeof(n49.FileWriter_String_Reactive_IKMLoIqK7roLwjblZg9cs1), typeof(n49.FileWriter_String_Reactive_IKMLoIqK7roLwjblZg9cs1), false)]
-[assembly: n1.TypeImportAttribute("File", "IO", typeof(n54.FileNode), typeof(n77._Operations_), false)]
-[assembly: n1.TypeImportAttribute("FileCopier", "IO", typeof(n49.FileCopier_M1IAv37BbqlMBsE7EEZOwv), typeof(n49.FileCopier_M1IAv37BbqlMBsE7EEZOwv), false)]
-[assembly: n1.TypeImportAttribute("IPs (Wifi)", "IO.Net", typeof(n78.IPs_Wifi_MOfJFeomvygPhh7bpt6VEW), typeof(n78.IPs_Wifi_MOfJFeomvygPhh7bpt6VEW), false)]
-[assembly: n1.TypeImportAttribute("IPs (Ethernet)", "IO.Net", typeof(n78.IPs_Ethernet_Bka6gkmtoNRQc5HnTGexxa), typeof(n78.IPs_Ethernet_Bka6gkmtoNRQc5HnTGexxa), false)]
-[assembly: n1.TypeImportAttribute("IPs", "IO.Net", typeof(n78.IPs_SU385Q2zoCqLj1U3xPCyTo), typeof(n78.IPs_SU385Q2zoCqLj1U3xPCyTo), false)]
-[assembly: n1.TypeImportAttribute("Ping", "IO.Net", typeof(n78.Ping_MapdEBfx7GmNw3zKjfmzsc), typeof(n78.Ping_MapdEBfx7GmNw3zKjfmzsc), false)]
-[assembly: n1.TypeImportAttribute("SerialPort3", "IO", typeof(n49.SerialPort3_C), typeof(n49.SerialPort3_C), false)]
-[assembly: n1.TypeImportAttribute("VL.CoreLib.IOApplication", "IO", typeof(n49.VL_CoreLib_IOApplication_EtyioAuoHGbOGm6NgPCyAL), typeof(n49.VL_CoreLib_IOApplication_EtyioAuoHGbOGm6NgPCyAL), false)]
-[assembly: n1.TypeImportAttribute("FileParameter", "IO.HTTP", typeof(n79.FileParameter_R), typeof(n79.FileParameter_R), true)]
-[assembly: n1.TypeImportAttribute("NameValueParameter", "IO.HTTP", typeof(n79.NameValueParameter_R), typeof(n79.NameValueParameter_R), true)]
-[assembly: n1.TypeImportAttribute("HTTPPost (MultiPart)", "IO.HTTP", typeof(n79.HTTPPost_MultiPart_UatTgPw0WkwOTteoGmIGaG), typeof(n79.HTTPPost_MultiPart_UatTgPw0WkwOTteoGmIGaG), false)]
-[assembly: n1.TypeImportAttribute("HTTPPost", "IO.HTTP", typeof(n79.HTTPPost_RpG0YiYPPd5QF184dDTNoU), typeof(n79.HTTPPost_RpG0YiYPPd5QF184dDTNoU), false)]
-[assembly: n1.TypeImportAttribute("FileDownloader", "IO.HTTP", typeof(n80.FileDownloader_HILqQAlF0eSQWHcn3yT1A4), typeof(n80.FileDownloader_HILqQAlF0eSQWHcn3yT1A4), false)]
-[assembly: n1.TypeImportAttribute("ProgressReporter", "IO.HTTP.FileDownloader", typeof(n81.ProgressReporter_C), typeof(n81.ProgressReporter_C), false)]
-[assembly: n1.TypeImportAttribute("HTTPGet", "IO.HTTP", typeof(n80.HTTPGet_IYIjPPVGEoFPAAup5UWplL), typeof(n80.HTTPGet_IYIjPPVGEoFPAAup5UWplL), false)]
-[assembly: n1.TypeImportAttribute("HTTPResult", "IO.HTTP.HTTPGet", typeof(n82.HTTPResult_R), typeof(n82.HTTPResult_R), true)]
-[assembly: n1.TypeImportAttribute("VL.HTTPApplication", "IO.HTTP", typeof(n80.VL_HTTPApplication_M3CnIcJ8KaiL5r6VcP70uC), typeof(n80.VL_HTTPApplication_M3CnIcJ8KaiL5r6VcP70uC), false)]
-[assembly: n1.TypeImportAttribute("TryCatch", "Control", typeof(n83.TryCatchStateful<>), typeof(n84._Operations_), false)]
-[assembly: n1.TypeImportAttribute("TryCatch (2Outputs)", "Control", typeof(n83.TryCatchStateful2<>), typeof(n85._Operations_), false)]
-[assembly: n1.TypeImportAttribute("TryCatch (3Outputs)", "Control", typeof(n83.TryCatchStateful3<>), typeof(n86._Operations_), false)]
-[assembly: n1.TypeImportAttribute("TryCatch (4Outputs)", "Control", typeof(n83.TryCatchStateful4<>), typeof(n87._Operations_), false)]
-[assembly: n1.TypeImportAttribute("TryCatch (5Outputs)", "Control", typeof(n83.TryCatchStateful5<>), typeof(n88._Operations_), false)]
-[assembly: n1.TypeImportAttribute("TryCatchFinally", "Control", typeof(n83.TryCatchFinallyStateful<>), typeof(n89._Operations_), false)]
-[assembly: n1.TypeImportAttribute("TryCatchFinally (2Outputs)", "Control", typeof(n83.TryCatchFinallyStateful2<>), typeof(n90._Operations_), false)]
-[assembly: n1.TypeImportAttribute("TryCatchFinally (3Outputs)", "Control", typeof(n83.TryCatchFinallyStateful3<>), typeof(n91._Operations_), false)]
-[assembly: n1.TypeImportAttribute("TryCatchFinally (4Outputs)", "Control", typeof(n83.TryCatchFinallyStateful4<>), typeof(n92._Operations_), false)]
-[assembly: n1.TypeImportAttribute("TryCatchFinally (5Outputs)", "Control", typeof(n83.TryCatchFinallyStateful5<>), typeof(n93._Operations_), false)]
-[assembly: n1.TypeImportAttribute("Synchronizer", "Control", typeof(n83.Synchronizer<,, >), typeof(n94._Operations_), true)]
-[assembly: n1.TypeImportAttribute("Synchronizer (InputIsKey)", "Control", typeof(n83.SynchronizerInputIsKey<,, >), typeof(n95._Operations_), true)]
-[assembly: n1.TypeImportAttribute("Synchronizer (VLObjectInput)", "Control", typeof(n83.SynchronizerVLObjectInput<,, >), typeof(n96._Operations_), true)]
-[assembly: n1.TypeImportAttribute("Try (1 Output)", "Control", typeof(n83.TryStateful<>), typeof(n97._Operations_), false)]
-[assembly: n1.TypeImportAttribute("Try (2Outputs)", "Control", typeof(n83.TryStateful2<>), typeof(n98._Operations_), false)]
-[assembly: n1.TypeImportAttribute("Try (3Outputs)", "Control", typeof(n83.TryStateful3<>), typeof(n99._Operations_), false)]
-[assembly: n1.TypeImportAttribute("Try (4Outputs)", "Control", typeof(n83.TryStateful4<>), typeof(n100._Operations_), false)]
-[assembly: n1.TypeImportAttribute("Try (5Outputs)", "Control", typeof(n83.TryStateful5<>), typeof(n101._Operations_), false)]
-[assembly: n1.TypeImportAttribute("ForEach", "Control.Parallel", typeof(n102.ForEach<, >), typeof(n103._Operations_), false)]
-[assembly: n1.TypeImportAttribute("HTTPServer", "IO.Net", typeof(n104.HTTPServer), typeof(n105._Operations_), false)]
-[assembly: n1.TypeImportAttribute("SocketProvider", "IO.Socket", typeof(n37.SocketProvider), typeof(n106._Operations_), false)]
-[assembly: n1.TypeImportAttribute("Socket", "IO.Socket", typeof(n42.Socket), typeof(n42.Socket), false)]
-[assembly: n1.TypeImportAttribute("FileWebRequest", "IO.WebRequest", typeof(n75.FileWebRequest), null, true)]
-[assembly: n1.TypeImportAttribute("FileWebResponse", "IO.WebRequest", typeof(n75.FileWebResponse), null, true)]
-[assembly: n1.TypeImportAttribute("FtpWebRequest", "IO.WebRequest", typeof(n75.FtpWebRequest), null, true)]
-[assembly: n1.TypeImportAttribute("FtpWebResponse", "IO.WebRequest", typeof(n75.FtpWebResponse), null, true)]
-[assembly: n1.TypeImportAttribute("HttpWebRequest", "IO.WebRequest", typeof(n75.HttpWebRequest), null, true)]
-[assembly: n1.TypeImportAttribute("HttpWebResponse", "IO.WebRequest", typeof(n75.HttpWebResponse), null, true)]
-[assembly: n1.TypeImportAttribute("WebRequest", "IO.WebRequest", typeof(n75.WebRequest), typeof(n107._Operations_), false)]
-[assembly: n1.TypeImportAttribute("WebResponse", "IO.WebRequest", typeof(n75.WebResponse), null, true)]
-[assembly: n1.TypeImportAttribute("PersistentState", "Primitive", typeof(n108.PersistentState_SMiVmmAKtO6ON6v0GtlOUu<>), typeof(n108.PersistentState_SMiVmmAKtO6ON6v0GtlOUu<>), false)]
-[assembly: n1.TypeImportAttribute("JobObject", "System.Process", typeof(n109.JobObject_UW7Y4OEwksVP8fF4I5jRzk), typeof(n109.JobObject_UW7Y4OEwksVP8fF4I5jRzk), false)]
-[assembly: n1.TypeImportAttribute("VL.CoreLib.ExperimentalApplication", "", typeof(n110.VL_CoreLib_ExperimentalApplication_ItYR8atty06M7klus5T2l8), typeof(n110.VL_CoreLib_ExperimentalApplication_ItYR8atty06M7klus5T2l8), false)]
-[assembly: n1.TypeImportAttribute("Dictionary", "Collections", typeof(n111.ImmutableDictionary<, >), typeof(n112._Operations_), true)]
-[assembly: n1.TypeImportAttribute("HashSet", "Collections", typeof(n111.ImmutableHashSet<>), typeof(n113._Operations_), true)]
-[assembly: n1.TypeImportAttribute("SequenceChanged", "Collections", typeof(n114.SequenceChanged_EAvS1XXezCmL7nXpFVvQcX<>), typeof(n114.SequenceChanged_EAvS1XXezCmL7nXpFVvQcX<>), false)]
-[assembly: n1.TypeImportAttribute("IDictionary", "Collections.Interfaces", typeof(n111.IImmutableDictionary<, >), typeof(n115._Operations_), true)]
-[assembly: n1.TypeImportAttribute("Sequence (NonGeneric)", "Collections.Interfaces", typeof(n116.IEnumerable), typeof(n117._Operations_), false)]
-[assembly: n1.TypeImportAttribute("IBuffer", "Collections.Interfaces", typeof(n118.IBuffer<>), null, true)]
-[assembly: n1.TypeImportAttribute("ICollection (NonGeneric)", "Collections.Interfaces", typeof(n116.ICollection), typeof(n119._Operations_), false)]
-[assembly: n1.TypeImportAttribute("IMutableList", "Collections.Interfaces", typeof(n120.IList<>), typeof(n121._Operations_), false)]
-[assembly: n1.TypeImportAttribute("IMutableDictionary", "Collections.Interfaces", typeof(n120.IDictionary<, >), typeof(n122._Operations_), false)]
-[assembly: n1.TypeImportAttribute("IReadOnlyDictionary", "Collections.Interfaces", typeof(n120.IReadOnlyDictionary<, >), typeof(n123._Operations_), false)]
-[assembly: n1.TypeImportAttribute("ICollection", "Collections.Interfaces", typeof(n120.ICollection<>), typeof(n124._Operations_), false)]
-[assembly: n1.TypeImportAttribute("IReadOnlyCollection", "Collections.Interfaces", typeof(n120.IReadOnlyCollection<>), typeof(n125._Operations_), false)]
-[assembly: n1.TypeImportAttribute("ISpread (NonGeneric)", "Collections.Interfaces", typeof(n126.ISpread), null, true)]
-[assembly: n1.TypeImportAttribute("ISpreadBuilder (NonGeneric)", "Collections.Interfaces", typeof(n126.ISpreadBuilder), null, false)]
-[assembly: n1.TypeImportAttribute("SpreadBuilder", "Collections.Builder", typeof(n126.SpreadBuilder<>), typeof(n127._Operations_), false)]
-[assembly: n1.TypeImportAttribute("DictionaryBuilder", "Collections.Builder", typeof(n111.ImmutableDictionary<, >.Builder), typeof(n128._Operations_), false)]
-[assembly: n1.TypeImportAttribute("HashSetBuilder", "Collections.Builder", typeof(n111.ImmutableHashSet<>.Builder), typeof(n129._Operations_), false)]
-[assembly: n1.TypeImportAttribute("SortedDictionaryBuilder", "Collections.Builder", typeof(n111.ImmutableSortedDictionary<, >.Builder), typeof(n130._Operations_), false)]
-[assembly: n1.TypeImportAttribute("SortedSetBuilder", "Collections.Builder", typeof(n111.ImmutableSortedSet<>.Builder), typeof(n131._Operations_), false)]
-[assembly: n1.TypeImportAttribute("ArrayBuilder", "Collections.Builder", typeof(n111.ImmutableArray<>.Builder), typeof(n132._Operations_), false)]
-[assembly: n1.TypeImportAttribute("MutableArrayBuilder", "Collections.Builder", typeof(n126.ArrayBuilder<>), typeof(n126.ArrayBuilder<>), false)]
-[assembly: n1.TypeImportAttribute("MutableList", "Collections.Mutable", typeof(n120.List<>), typeof(n133._Operations_), false)]
-[assembly: n1.TypeImportAttribute("MutableDictionary", "Collections.Mutable", typeof(n120.Dictionary<, >), typeof(n134._Operations_), false)]
-[assembly: n1.TypeImportAttribute("MutableHashSet", "Collections.Mutable", typeof(n120.HashSet<>), typeof(n135._Operations_), false)]
-[assembly: n1.TypeImportAttribute("MutableQueue", "Collections.Mutable", typeof(n120.Queue<>), typeof(n136._Operations_), false)]
-[assembly: n1.TypeImportAttribute("MutableStack", "Collections.Mutable", typeof(n120.Stack<>), typeof(n137._Operations_), false)]
-[assembly: n1.TypeImportAttribute("MutableLinkedList", "Collections.Mutable", typeof(n120.LinkedList<>), typeof(n138._Operations_), false)]
-[assembly: n1.TypeImportAttribute("MutableLinkedListNode", "Collections.Mutable", typeof(n120.LinkedListNode<>), typeof(n139._Operations_), false)]
-[assembly: n1.TypeImportAttribute("MutableObservableCollection", "Collections.Mutable", typeof(n140.ObservableCollection<>), typeof(n141._Operations_), false)]
-[assembly: n1.TypeImportAttribute("NotifyCollectionChangedEventArgs", "Collections.Mutable", typeof(n142.NotifyCollectionChangedEventArgs), typeof(n142.NotifyCollectionChangedEventArgs), false)]
-[assembly: n1.TypeImportAttribute("NotifyCollectionChangedAction", "Collections.Mutable", typeof(n142.NotifyCollectionChangedAction), null, true)]
-[assembly: n1.TypeImportAttribute("MutableSortedList", "Collections.Mutable", typeof(n120.SortedList<, >), typeof(n143._Operations_), false)]
-[assembly: n1.TypeImportAttribute("MutableSortedDictionary", "Collections.Mutable", typeof(n120.SortedDictionary<, >), typeof(n144._Operations_), false)]
-[assembly: n1.TypeImportAttribute("MutableSortedSet", "Collections.Mutable", typeof(n120.SortedSet<>), typeof(n145._Operations_), false)]
-[assembly: n1.TypeImportAttribute("MutableArray", "Collections.Mutable", typeof(n29.Object[]), typeof(n146._Operations_), false)]
-[assembly: n1.TypeImportAttribute("FromImage", "Collections.Mutable.MutableArray", typeof(n146.FromImage_E7MMY2y7nApLJNOyBvxTFt), typeof(n146.FromImage_E7MMY2y7nApLJNOyBvxTFt), false)]
-[assembly: n1.TypeImportAttribute("StoreSequence", "Collections.Mutable.MutableArray", typeof(n146.StoreSequence_C1jOHeGCee4MYa7QQLGZ42<>), typeof(n146.StoreSequence_C1jOHeGCee4MYa7QQLGZ42<>), false)]
-[assembly: n1.TypeImportAttribute("FromValue", "Collections.Mutable.MutableArray", typeof(n146.FromValue_OH4TKYsSUseQU3JpOZF4kZ<>), typeof(n146.FromValue_OH4TKYsSUseQU3JpOZF4kZ<>), false)]
-[assembly: n1.TypeImportAttribute("ConcurrentDictionary", "Collections.Concurrent", typeof(n147.ConcurrentDictionary<, >), typeof(n148._Operations_), false)]
-[assembly: n1.TypeImportAttribute("ConcurrentQueue", "Collections.Concurrent", typeof(n147.ConcurrentQueue<>), typeof(n149._Operations_), false)]
-[assembly: n1.TypeImportAttribute("ConcurrentStack", "Collections.Concurrent", typeof(n147.ConcurrentStack<>), typeof(n150._Operations_), false)]
-[assembly: n1.TypeImportAttribute("ConcurrentBag", "Collections.Concurrent", typeof(n147.ConcurrentBag<>), typeof(n151._Operations_), false)]
-[assembly: n1.TypeImportAttribute("BlockingCollection", "Collections.Concurrent", typeof(n147.BlockingCollection<>), typeof(n152._Operations_), false)]
-[assembly: n1.TypeImportAttribute("SortedDictionary", "Collections", typeof(n111.ImmutableSortedDictionary<, >), typeof(n153._Operations_), true)]
-[assembly: n1.TypeImportAttribute("SortedSet", "Collections", typeof(n111.ImmutableSortedSet<>), typeof(n154._Operations_), true)]
-[assembly: n1.TypeImportAttribute("Stack", "Collections", typeof(n111.ImmutableStack<>), typeof(n155._Operations_), true)]
-[assembly: n1.TypeImportAttribute("Array", "Collections", typeof(n111.ImmutableArray<>), typeof(n156._Operations_), false)]
-[assembly: n1.TypeImportAttribute("Queue", "Collections", typeof(n111.ImmutableQueue<>), typeof(n157._Operations_), true)]
-[assembly: n1.TypeImportAttribute("HoldLatestCopy", "Collections", typeof(n158.HoldLatestCopy<>), typeof(n159._Operations_), false)]
-[assembly: n1.TypeImportAttribute("Spread", "Collections", typeof(n126.Spread<>), typeof(n160._Operations_), true)]
-[assembly: n1.TypeImportAttribute("LinearSpreadAlignment", "Collections.Spread", typeof(n161.LinearSpreadAlignment), null, true)]
-[assembly: n1.TypeImportAttribute("FromSequence (Sustain)", "Collections.Spread", typeof(n160.FromSequence_Sustain_ML1zJ7dEH6TPqxRQZ2sF3E<>), typeof(n160.FromSequence_Sustain_ML1zJ7dEH6TPqxRQZ2sF3E<>), false)]
-[assembly: n1.TypeImportAttribute("KeyValuePair", "Collections.Common", typeof(n120.KeyValuePair<, >), typeof(n162._Operations_), true)]
-[assembly: n1.TypeImportAttribute("CustomEqualityComparer", "Collections.Common", typeof(n163.CustomEqualityComparer_C<>), typeof(n163.CustomEqualityComparer_C<>), false)]
-[assembly: n1.TypeImportAttribute("CustomComparer", "Collections.Common", typeof(n163.CustomComparer_C<>), typeof(n163.CustomComparer_C<>), false)]
-[assembly: n1.TypeImportAttribute("Sequence", "Collections", typeof(n120.IEnumerable<>), typeof(n164._Operations_), false)]
-[assembly: n1.TypeImportAttribute("Grouping", "Collections.Sequence", typeof(n118.IGrouping<, >), null, false)]
-[assembly: n1.TypeImportAttribute("OrderedSequence", "Collections.Sequence", typeof(n118.IOrderedEnumerable<>), null, false)]
-[assembly: n1.TypeImportAttribute("I", "Collections.Spread", typeof(n160.I_Dedn0GP3agoLvHtKBtr1rt), typeof(n160.I_Dedn0GP3agoLvHtKBtr1rt), false)]
-[assembly: n1.TypeImportAttribute("LinearSpread", "Collections.Spread", typeof(n160.LinearSpread_UXyN8H5ad7xPndIfMqu94V), typeof(n160.LinearSpread_UXyN8H5ad7xPndIfMqu94V), false)]
-[assembly: n1.TypeImportAttribute("CircleSpread", "Collections.Spread", typeof(n160.CircleSpread_VtJNkGC54V8Ncx7LSXj8yA), typeof(n160.CircleSpread_VtJNkGC54V8Ncx7LSXj8yA), false)]
-[assembly: n1.TypeImportAttribute("RandomSpread", "Collections.Spread", typeof(n160.RandomSpread_UNv4cR9YdgkPYF08xpFER9), typeof(n160.RandomSpread_UNv4cR9YdgkPYF08xpFER9), false)]
-[assembly: n1.TypeImportAttribute("RandomSpread (2d)", "Collections.Spread", typeof(n160.RandomSpread__2d_I9bqxWe8mNLM5M2fLOR7WK), typeof(n160.RandomSpread__2d_I9bqxWe8mNLM5M2fLOR7WK), false)]
-[assembly: n1.TypeImportAttribute("RandomSpread (3d)", "Collections.Spread", typeof(n160.RandomSpread__3d_OfbWI1PyXJBQNOMT64mrLn), typeof(n160.RandomSpread__3d_OfbWI1PyXJBQNOMT64mrLn), false)]
-[assembly: n1.TypeImportAttribute("RectangleSpread", "Collections.Spread", typeof(n160.RectangleSpread_ImHrgx8LdteMTNwaf5kKle), typeof(n160.RectangleSpread_ImHrgx8LdteMTNwaf5kKle), false)]
-[assembly: n1.TypeImportAttribute("RoundRectSpread", "Collections.Spread", typeof(n160.RoundRectSpread_Rmt2XaCR3RxM2abd2aMFQm), typeof(n160.RoundRectSpread_Rmt2XaCR3RxM2abd2aMFQm), false)]
-[assembly: n1.TypeImportAttribute("SpiralSpread", "Collections.Spread", typeof(n160.SpiralSpread_ITJBOIsA5GyN2o4e0Az4vv), typeof(n160.SpiralSpread_ITJBOIsA5GyN2o4e0Az4vv), false)]
-[assembly: n1.TypeImportAttribute("StarSpread", "Collections.Spread", typeof(n160.StarSpread_FAIbH9p5d7oOdhJHCXhJTA), typeof(n160.StarSpread_FAIbH9p5d7oOdhJHCXhJTA), false)]
-[assembly: n1.TypeImportAttribute("Queue", "Collections.Spread", typeof(n160.Queue_Dsg6LDbSTKKNmL4xybMFXh<>), typeof(n160.Queue_Dsg6LDbSTKKNmL4xybMFXh<>), false)]
-[assembly: n1.TypeImportAttribute("Sort (FormerIndex)", "Collections.Spread", typeof(n160.Sort_FormerIndex_QKHJtW5MfCeOm2LyKhYalN<>), typeof(n160.Sort_FormerIndex_QKHJtW5MfCeOm2LyKhYalN<>), false)]
-[assembly: n1.TypeImportAttribute("SortDescending (FormerIndex)", "Collections.Spread", typeof(n160.SortDescending_FormerIndex_EkN5CW1bEzkOKLlmTrikpv<>), typeof(n160.SortDescending_FormerIndex_EkN5CW1bEzkOKLlmTrikpv<>), false)]
-[assembly: n1.TypeImportAttribute("OrderBy (FormerIndex)", "Collections.Spread", typeof(n160.OrderBy_FormerIndex_SNAab9r0y7NPAcJeyZyvid<>), typeof(n160.OrderBy_FormerIndex_SNAab9r0y7NPAcJeyZyvid<>), false)]
-[assembly: n1.TypeImportAttribute("OrderByDescending (FormerIndex)", "Collections.Spread", typeof(n160.OrderByDescending_FormerIndex_RU0h3y9oSF9Nmb7djv4eij<>), typeof(n160.OrderByDescending_FormerIndex_RU0h3y9oSF9Nmb7djv4eij<>), false)]
-[assembly: n1.TypeImportAttribute("ResamplePoint", "Collections.Spread", typeof(n160.ResamplePoint_O6Ex8Ha7b3gM1UF4tcByx6<, >), typeof(n160.ResamplePoint_O6Ex8Ha7b3gM1UF4tcByx6<, >), false)]
-[assembly: n1.TypeImportAttribute("ResampleLinear", "Collections.Spread", typeof(n160.ResampleLinear_T6XZTYHFIwEPcS5iC1aCi4<, >), typeof(n160.ResampleLinear_T6XZTYHFIwEPcS5iC1aCi4<, >), false)]
-[assembly: n1.TypeImportAttribute("ResampleRepeat", "Collections.Spread", typeof(n160.ResampleRepeat_HcOO13xjH07QObifcX5etq<, >), typeof(n160.ResampleRepeat_HcOO13xjH07QObifcX5etq<, >), false)]
-[assembly: n1.TypeImportAttribute("ResampleBSpline", "Collections.Spread", typeof(n160.ResampleBSpline_Oyxv30P5EeJOlRy2CvOyJW<, >), typeof(n160.ResampleBSpline_Oyxv30P5EeJOlRy2CvOyJW<, >), false)]
-[assembly: n1.TypeImportAttribute("ResampleBSpline (Tangent)", "Collections.Spread", typeof(n160.ResampleBSpline_Tangent_FoeSgW0bZ2tMOSGpSQqnoF<, >), typeof(n160.ResampleBSpline_Tangent_FoeSgW0bZ2tMOSGpSQqnoF<, >), false)]
-[assembly: n1.TypeImportAttribute("ResampleHermite", "Collections.Spread", typeof(n160.ResampleHermite_E3rKHEXR5BEOguuIPaowVl<>), typeof(n160.ResampleHermite_E3rKHEXR5BEOguuIPaowVl<>), false)]
-[assembly: n1.TypeImportAttribute("Randomizer", "Collections.Spread", typeof(n160.Randomizer_UmP6nXJno3hLuovpQ3KDPD<>), typeof(n160.Randomizer_UmP6nXJno3hLuovpQ3KDPD<>), false)]
-[assembly: n1.TypeImportAttribute("RandomSpread (4d)", "Collections.Spread", typeof(n160.RandomSpread__4d_SDaG6L4r0h2LG9nOVLXBCG), typeof(n160.RandomSpread__4d_SDaG6L4r0h2LG9nOVLXBCG), false)]
-[assembly: n1.TypeImportAttribute("LinearSpread (Range)", "Collections.Spread", typeof(n160.LinearSpread_Range_GaTuHYHNNNgQXveRZUAHXI<>), typeof(n160.LinearSpread_Range_GaTuHYHNNNgQXveRZUAHXI<>), false)]
-[assembly: n1.TypeImportAttribute("GridSpread (2D)", "Collections.Spread", typeof(n160.GridSpread__2D_Fhj5xydYiRTNdXppJ1Dvg1), typeof(n160.GridSpread__2D_Fhj5xydYiRTNdXppJ1Dvg1), false)]
-[assembly: n1.TypeImportAttribute("GridSpread (3D)", "Collections.Spread", typeof(n160.GridSpread__3D_GbKoBslUVKWLOhuVujVws1), typeof(n160.GridSpread__3D_GbKoBslUVKWLOhuVujVws1), false)]
-[assembly: n1.TypeImportAttribute("HexGridSpread (2D)", "Collections.Spread", typeof(n160.HexGridSpread__2D_U4wxvrTtAK2MQs93CKjwhp), typeof(n160.HexGridSpread__2D_U4wxvrTtAK2MQs93CKjwhp), false)]
-[assembly: n1.TypeImportAttribute("CountOccurance", "Collections", typeof(n114.CountOccurance_BV2Obs1leaVL5nSQLQYPAJ<>), typeof(n114.CountOccurance_BV2Obs1leaVL5nSQLQYPAJ<>), false)]
-[assembly: n1.TypeImportAttribute("TreeNodeChildrenManager", "Collections.Trees.Patching", typeof(n165.TreeNodeChildrenManager<, >), typeof(n166._Operations_), false)]
-[assembly: n1.TypeImportAttribute("TreeNodeParentManager", "Collections.Trees.Patching", typeof(n165.TreeNodeParentManager<, >), typeof(n167._Operations_), false)]
-[assembly: n1.TypeImportAttribute("TreeNodeParentManager (SetParent)", "Collections.Trees.Patching", typeof(n168.TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<, >), typeof(n168.TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<, >), false)]
-[assembly: n1.TypeImportAttribute("Command", "Collections.Trees", typeof(n169.ITraverseCommand), typeof(n170._Operations_), false)]
-[assembly: n1.TypeImportAttribute("IReadOnlyTreeNode", "Collections.Trees", typeof(n169.IReadOnlyTreeNode), typeof(n171._Operations_), false)]
-[assembly: n1.TypeImportAttribute("IReadOnlyTree", "Collections.Trees", typeof(n169.IReadOnlyTree<>), typeof(n172._Operations_), false)]
-[assembly: n1.TypeImportAttribute("BuildUp", "Collections.Trees.IReadOnlyTree", typeof(n172.BuildUp_S3fE6WSfWlXNbz9jtATkZH<>), typeof(n172.BuildUp_S3fE6WSfWlXNbz9jtATkZH<>), false)]
-[assembly: n1.TypeImportAttribute("DummyTreeNode", "Collections.Trees", typeof(n173.DummyTreeNode_C), typeof(n173.DummyTreeNode_C), false)]
-[assembly: n1.TypeImportAttribute("DummyTree", "Collections.Trees", typeof(n173.DummyTree_C<>), typeof(n173.DummyTree_C<>), false)]
-[assembly: n1.TypeImportAttribute("IReadOnlyList", "Collections", typeof(n120.IReadOnlyList<>), typeof(n174._Operations_), false)]
-[assembly: n1.TypeImportAttribute("VL.CollectionsApplication", "", typeof(n175.VL_CollectionsApplication_OSaGmia5DZRLHgXGyUAbs3), typeof(n175.VL_CollectionsApplication_OSaGmia5DZRLHgXGyUAbs3), false)]
-[assembly: n1.TypeImportAttribute("Sequencer", "Animation", typeof(n176.Sequencer_Gow6VG33IYdQWs58olyP8x<>), typeof(n176.Sequencer_Gow6VG33IYdQWs58olyP8x<>), false)]
-[assembly: n1.TypeImportAttribute("Track", "Animation", typeof(n176.Track_JTJsMOijt7DP1rXh0BfLSa<>), typeof(n176.Track_JTJsMOijt7DP1rXh0BfLSa<>), false)]
-[assembly: n1.TypeImportAttribute("Delay", "Animation", typeof(n176.Delay_IdvSxYASvkgOhJLGiNGDdg<, >), typeof(n176.Delay_IdvSxYASvkgOhJLGiNGDdg<, >), false)]
-[assembly: n1.TypeImportAttribute("Recorder", "Animation", typeof(n176.Recorder_QCyUM9b0UOjLhRjcdjQMmm<>), typeof(n176.Recorder_QCyUM9b0UOjLhRjcdjQMmm<>), false)]
-[assembly: n1.TypeImportAttribute("MassSpring", "Animation.FrameBased", typeof(n177.MassSpring_ThiX3p7ISOINTOij9kpcDi<>), typeof(n177.MassSpring_ThiX3p7ISOINTOij9kpcDi<>), false)]
-[assembly: n1.TypeImportAttribute("Wanderer (2D)", "Animation.FrameBased", typeof(n177.Wanderer__2D_DYC8agHhNE6Lg7Y7GtSql2), typeof(n177.Wanderer__2D_DYC8agHhNE6Lg7Y7GtSql2), false)]
-[assembly: n1.TypeImportAttribute("Wanderer (3D)", "Animation.FrameBased", typeof(n177.Wanderer__3D_JQUTAyrKDKqQA9wwhm7VZl), typeof(n177.Wanderer__3D_JQUTAyrKDKqQA9wwhm7VZl), false)]
-[assembly: n1.TypeImportAttribute("Damper", "Animation", typeof(n176.Damper_Qhw7aQNplhrMCum2sxpG8z), typeof(n176.Damper_Qhw7aQNplhrMCum2sxpG8z), false)]
-[assembly: n1.TypeImportAttribute("Damper (2D)", "Animation", typeof(n176.Damper__2D_SSikkhLCtlgLWqNuUJ8Odr), typeof(n176.Damper__2D_SSikkhLCtlgLWqNuUJ8Odr), false)]
-[assembly: n1.TypeImportAttribute("Damper (3D)", "Animation", typeof(n176.Damper__3D_Q7f7FmZqnvOOvqWrXqfeOx), typeof(n176.Damper__3D_Q7f7FmZqnvOOvqWrXqfeOx), false)]
-[assembly: n1.TypeImportAttribute("Oscillator", "Animation", typeof(n176.Oscillator_LRcaT1Ox9T9Nx62ge5XELl), typeof(n176.Oscillator_LRcaT1Ox9T9Nx62ge5XELl), false)]
-[assembly: n1.TypeImportAttribute("Oscillator (2D)", "Animation", typeof(n176.Oscillator__2D_SlkPnN2OVJ3P4vEXYgjC8r), typeof(n176.Oscillator__2D_SlkPnN2OVJ3P4vEXYgjC8r), false)]
-[assembly: n1.TypeImportAttribute("Oscillator (3D)", "Animation", typeof(n176.Oscillator__3D_GhxWCW2Ah0JP0B7xq1lxaI), typeof(n176.Oscillator__3D_GhxWCW2Ah0JP0B7xq1lxaI), false)]
-[assembly: n1.TypeImportAttribute("OscillatorFunction", "Animation.Functions", typeof(n178.OscillatorFunction_C<>), typeof(n178.OscillatorFunction_C<>), false)]
-[assembly: n1.TypeImportAttribute("OscillatorFunctionOSC", "Animation.Functions.OscillatorFunction", typeof(n179.OscillatorFunctionOSC_C<, >), typeof(n179.OscillatorFunctionOSC_C<, >), false)]
-[assembly: n1.TypeImportAttribute("IInternalOscillatorFunction", "Animation.Functions.OscillatorFunction", typeof(n179.IInternalOscillatorFunction_I<, >), null, false)]
-[assembly: n1.TypeImportAttribute("OscillatorFunctionHYP", "Animation.Functions.OscillatorFunction", typeof(n179.OscillatorFunctionHYP_C<, >), typeof(n179.OscillatorFunctionHYP_C<, >), false)]
-[assembly: n1.TypeImportAttribute("OscillatorFunctionDMP", "Animation.Functions.OscillatorFunction", typeof(n179.OscillatorFunctionDMP_C<>), typeof(n179.OscillatorFunctionDMP_C<>), false)]
-[assembly: n1.TypeImportAttribute("Damper (Fast)", "Animation", typeof(n180.Damper_Fast_E4dfedvLjPfOjMfJ9kcvG7<>), typeof(n180.Damper_Fast_E4dfedvLjPfOjMfJ9kcvG7<>), false)]
-[assembly: n1.TypeImportAttribute("Damper (Generic)", "Animation", typeof(n180.Damper_Generic_DNl6ggbTMUuQd9VdE3AEIB<, >), typeof(n180.Damper_Generic_DNl6ggbTMUuQd9VdE3AEIB<, >), false)]
-[assembly: n1.TypeImportAttribute("Oscillator (Generic)", "Animation", typeof(n180.Oscillator_Generic_VbrPYB0MTDDMEKdVfbV0hS<>), typeof(n180.Oscillator_Generic_VbrPYB0MTDDMEKdVfbV0hS<>), false)]
-[assembly: n1.TypeImportAttribute("Oscillator (Fast)", "Animation", typeof(n180.Oscillator_Fast_NV7Jp8StqbYLmGMQsFc4RH<>), typeof(n180.Oscillator_Fast_NV7Jp8StqbYLmGMQsFc4RH<>), false)]
-[assembly: n1.TypeImportAttribute("Delay (Linear)", "Animation", typeof(n176.Delay_Linear_PJK5DlkbAiFMqldihFJJpm<, >), typeof(n176.Delay_Linear_PJK5DlkbAiFMqldihFJJpm<, >), false)]
-[assembly: n1.TypeImportAttribute("VL.AnimationApplication", "Animation", typeof(n176.VL_AnimationApplication_AqpnaEs3vthPzpyQLCCoCR), typeof(n176.VL_AnimationApplication_AqpnaEs3vthPzpyQLCCoCR), false)]
+[assembly: n1.TypeImportAttribute("Dictionary", "Collections", typeof(n36.ImmutableDictionary<, >), typeof(n37._Operations_), true)]
+[assembly: n1.TypeImportAttribute("HashSet", "Collections", typeof(n36.ImmutableHashSet<>), typeof(n38._Operations_), true)]
+[assembly: n1.TypeImportAttribute("SequenceChanged", "Collections", typeof(n39.SequenceChanged_EAvS1XXezCmL7nXpFVvQcX<>), typeof(n39.SequenceChanged_EAvS1XXezCmL7nXpFVvQcX<>), false)]
+[assembly: n1.TypeImportAttribute("IDictionary", "Collections.Interfaces", typeof(n36.IImmutableDictionary<, >), typeof(n40._Operations_), true)]
+[assembly: n1.TypeImportAttribute("Sequence (NonGeneric)", "Collections.Interfaces", typeof(n41.IEnumerable), typeof(n42._Operations_), false)]
+[assembly: n1.TypeImportAttribute("IBuffer", "Collections.Interfaces", typeof(n43.IBuffer<>), null, true)]
+[assembly: n1.TypeImportAttribute("ICollection (NonGeneric)", "Collections.Interfaces", typeof(n41.ICollection), typeof(n44._Operations_), false)]
+[assembly: n1.TypeImportAttribute("IMutableList", "Collections.Interfaces", typeof(n45.IList<>), typeof(n46._Operations_), false)]
+[assembly: n1.TypeImportAttribute("IMutableDictionary", "Collections.Interfaces", typeof(n45.IDictionary<, >), typeof(n47._Operations_), false)]
+[assembly: n1.TypeImportAttribute("IReadOnlyDictionary", "Collections.Interfaces", typeof(n45.IReadOnlyDictionary<, >), typeof(n48._Operations_), false)]
+[assembly: n1.TypeImportAttribute("ICollection", "Collections.Interfaces", typeof(n45.ICollection<>), typeof(n49._Operations_), false)]
+[assembly: n1.TypeImportAttribute("IReadOnlyCollection", "Collections.Interfaces", typeof(n45.IReadOnlyCollection<>), typeof(n50._Operations_), false)]
+[assembly: n1.TypeImportAttribute("ISpread (NonGeneric)", "Collections.Interfaces", typeof(n51.ISpread), null, true)]
+[assembly: n1.TypeImportAttribute("ISpreadBuilder (NonGeneric)", "Collections.Interfaces", typeof(n51.ISpreadBuilder), null, false)]
+[assembly: n1.TypeImportAttribute("SpreadBuilder", "Collections.Builder", typeof(n51.SpreadBuilder<>), typeof(n52._Operations_), false)]
+[assembly: n1.TypeImportAttribute("DictionaryBuilder", "Collections.Builder", typeof(n36.ImmutableDictionary<, >.Builder), typeof(n53._Operations_), false)]
+[assembly: n1.TypeImportAttribute("HashSetBuilder", "Collections.Builder", typeof(n36.ImmutableHashSet<>.Builder), typeof(n54._Operations_), false)]
+[assembly: n1.TypeImportAttribute("SortedDictionaryBuilder", "Collections.Builder", typeof(n36.ImmutableSortedDictionary<, >.Builder), typeof(n55._Operations_), false)]
+[assembly: n1.TypeImportAttribute("SortedSetBuilder", "Collections.Builder", typeof(n36.ImmutableSortedSet<>.Builder), typeof(n56._Operations_), false)]
+[assembly: n1.TypeImportAttribute("ArrayBuilder", "Collections.Builder", typeof(n36.ImmutableArray<>.Builder), typeof(n57._Operations_), false)]
+[assembly: n1.TypeImportAttribute("MutableArrayBuilder", "Collections.Builder", typeof(n51.ArrayBuilder<>), typeof(n51.ArrayBuilder<>), false)]
+[assembly: n1.TypeImportAttribute("MutableList", "Collections.Mutable", typeof(n45.List<>), typeof(n58._Operations_), false)]
+[assembly: n1.TypeImportAttribute("MutableDictionary", "Collections.Mutable", typeof(n45.Dictionary<, >), typeof(n59._Operations_), false)]
+[assembly: n1.TypeImportAttribute("MutableHashSet", "Collections.Mutable", typeof(n45.HashSet<>), typeof(n60._Operations_), false)]
+[assembly: n1.TypeImportAttribute("MutableQueue", "Collections.Mutable", typeof(n45.Queue<>), typeof(n61._Operations_), false)]
+[assembly: n1.TypeImportAttribute("MutableStack", "Collections.Mutable", typeof(n45.Stack<>), typeof(n62._Operations_), false)]
+[assembly: n1.TypeImportAttribute("MutableLinkedList", "Collections.Mutable", typeof(n45.LinkedList<>), typeof(n63._Operations_), false)]
+[assembly: n1.TypeImportAttribute("MutableLinkedListNode", "Collections.Mutable", typeof(n45.LinkedListNode<>), typeof(n64._Operations_), false)]
+[assembly: n1.TypeImportAttribute("MutableObservableCollection", "Collections.Mutable", typeof(n65.ObservableCollection<>), typeof(n66._Operations_), false)]
+[assembly: n1.TypeImportAttribute("NotifyCollectionChangedEventArgs", "Collections.Mutable", typeof(n67.NotifyCollectionChangedEventArgs), typeof(n67.NotifyCollectionChangedEventArgs), false)]
+[assembly: n1.TypeImportAttribute("NotifyCollectionChangedAction", "Collections.Mutable", typeof(n67.NotifyCollectionChangedAction), null, true)]
+[assembly: n1.TypeImportAttribute("MutableSortedList", "Collections.Mutable", typeof(n45.SortedList<, >), typeof(n68._Operations_), false)]
+[assembly: n1.TypeImportAttribute("MutableSortedDictionary", "Collections.Mutable", typeof(n45.SortedDictionary<, >), typeof(n69._Operations_), false)]
+[assembly: n1.TypeImportAttribute("MutableSortedSet", "Collections.Mutable", typeof(n45.SortedSet<>), typeof(n70._Operations_), false)]
+[assembly: n1.TypeImportAttribute("MutableArray", "Collections.Mutable", typeof(n29.Object[]), typeof(n71._Operations_), false)]
+[assembly: n1.TypeImportAttribute("FromImage", "Collections.Mutable.MutableArray", typeof(n71.FromImage_E7MMY2y7nApLJNOyBvxTFt), typeof(n71.FromImage_E7MMY2y7nApLJNOyBvxTFt), false)]
+[assembly: n1.TypeImportAttribute("StoreSequence", "Collections.Mutable.MutableArray", typeof(n71.StoreSequence_C1jOHeGCee4MYa7QQLGZ42<>), typeof(n71.StoreSequence_C1jOHeGCee4MYa7QQLGZ42<>), false)]
+[assembly: n1.TypeImportAttribute("FromValue", "Collections.Mutable.MutableArray", typeof(n71.FromValue_OH4TKYsSUseQU3JpOZF4kZ<>), typeof(n71.FromValue_OH4TKYsSUseQU3JpOZF4kZ<>), false)]
+[assembly: n1.TypeImportAttribute("ConcurrentDictionary", "Collections.Concurrent", typeof(n72.ConcurrentDictionary<, >), typeof(n73._Operations_), false)]
+[assembly: n1.TypeImportAttribute("ConcurrentQueue", "Collections.Concurrent", typeof(n72.ConcurrentQueue<>), typeof(n74._Operations_), false)]
+[assembly: n1.TypeImportAttribute("ConcurrentStack", "Collections.Concurrent", typeof(n72.ConcurrentStack<>), typeof(n75._Operations_), false)]
+[assembly: n1.TypeImportAttribute("ConcurrentBag", "Collections.Concurrent", typeof(n72.ConcurrentBag<>), typeof(n76._Operations_), false)]
+[assembly: n1.TypeImportAttribute("BlockingCollection", "Collections.Concurrent", typeof(n72.BlockingCollection<>), typeof(n77._Operations_), false)]
+[assembly: n1.TypeImportAttribute("SortedDictionary", "Collections", typeof(n36.ImmutableSortedDictionary<, >), typeof(n78._Operations_), true)]
+[assembly: n1.TypeImportAttribute("SortedSet", "Collections", typeof(n36.ImmutableSortedSet<>), typeof(n79._Operations_), true)]
+[assembly: n1.TypeImportAttribute("Stack", "Collections", typeof(n36.ImmutableStack<>), typeof(n80._Operations_), true)]
+[assembly: n1.TypeImportAttribute("Array", "Collections", typeof(n36.ImmutableArray<>), typeof(n81._Operations_), false)]
+[assembly: n1.TypeImportAttribute("Queue", "Collections", typeof(n36.ImmutableQueue<>), typeof(n82._Operations_), true)]
+[assembly: n1.TypeImportAttribute("HoldLatestCopy", "Collections", typeof(n83.HoldLatestCopy<>), typeof(n84._Operations_), false)]
+[assembly: n1.TypeImportAttribute("Spread", "Collections", typeof(n51.Spread<>), typeof(n85._Operations_), true)]
+[assembly: n1.TypeImportAttribute("LinearSpreadAlignment", "Collections.Spread", typeof(n86.LinearSpreadAlignment), null, true)]
+[assembly: n1.TypeImportAttribute("FromSequence (Sustain)", "Collections.Spread", typeof(n85.FromSequence_Sustain_ML1zJ7dEH6TPqxRQZ2sF3E<>), typeof(n85.FromSequence_Sustain_ML1zJ7dEH6TPqxRQZ2sF3E<>), false)]
+[assembly: n1.TypeImportAttribute("KeyValuePair", "Collections.Common", typeof(n45.KeyValuePair<, >), typeof(n87._Operations_), true)]
+[assembly: n1.TypeImportAttribute("CustomEqualityComparer", "Collections.Common", typeof(n88.CustomEqualityComparer_C<>), typeof(n88.CustomEqualityComparer_C<>), false)]
+[assembly: n1.TypeImportAttribute("CustomComparer", "Collections.Common", typeof(n88.CustomComparer_C<>), typeof(n88.CustomComparer_C<>), false)]
+[assembly: n1.TypeImportAttribute("Sequence", "Collections", typeof(n45.IEnumerable<>), typeof(n89._Operations_), false)]
+[assembly: n1.TypeImportAttribute("Grouping", "Collections.Sequence", typeof(n43.IGrouping<, >), null, false)]
+[assembly: n1.TypeImportAttribute("OrderedSequence", "Collections.Sequence", typeof(n43.IOrderedEnumerable<>), null, false)]
+[assembly: n1.TypeImportAttribute("I", "Collections.Spread", typeof(n85.I_Dedn0GP3agoLvHtKBtr1rt), typeof(n85.I_Dedn0GP3agoLvHtKBtr1rt), false)]
+[assembly: n1.TypeImportAttribute("LinearSpread", "Collections.Spread", typeof(n85.LinearSpread_UXyN8H5ad7xPndIfMqu94V), typeof(n85.LinearSpread_UXyN8H5ad7xPndIfMqu94V), false)]
+[assembly: n1.TypeImportAttribute("CircleSpread", "Collections.Spread", typeof(n85.CircleSpread_VtJNkGC54V8Ncx7LSXj8yA), typeof(n85.CircleSpread_VtJNkGC54V8Ncx7LSXj8yA), false)]
+[assembly: n1.TypeImportAttribute("RandomSpread", "Collections.Spread", typeof(n85.RandomSpread_UNv4cR9YdgkPYF08xpFER9), typeof(n85.RandomSpread_UNv4cR9YdgkPYF08xpFER9), false)]
+[assembly: n1.TypeImportAttribute("RandomSpread (2d)", "Collections.Spread", typeof(n85.RandomSpread__2d_I9bqxWe8mNLM5M2fLOR7WK), typeof(n85.RandomSpread__2d_I9bqxWe8mNLM5M2fLOR7WK), false)]
+[assembly: n1.TypeImportAttribute("RandomSpread (3d)", "Collections.Spread", typeof(n85.RandomSpread__3d_OfbWI1PyXJBQNOMT64mrLn), typeof(n85.RandomSpread__3d_OfbWI1PyXJBQNOMT64mrLn), false)]
+[assembly: n1.TypeImportAttribute("RectangleSpread", "Collections.Spread", typeof(n85.RectangleSpread_ImHrgx8LdteMTNwaf5kKle), typeof(n85.RectangleSpread_ImHrgx8LdteMTNwaf5kKle), false)]
+[assembly: n1.TypeImportAttribute("RoundRectSpread", "Collections.Spread", typeof(n85.RoundRectSpread_Rmt2XaCR3RxM2abd2aMFQm), typeof(n85.RoundRectSpread_Rmt2XaCR3RxM2abd2aMFQm), false)]
+[assembly: n1.TypeImportAttribute("SpiralSpread", "Collections.Spread", typeof(n85.SpiralSpread_ITJBOIsA5GyN2o4e0Az4vv), typeof(n85.SpiralSpread_ITJBOIsA5GyN2o4e0Az4vv), false)]
+[assembly: n1.TypeImportAttribute("StarSpread", "Collections.Spread", typeof(n85.StarSpread_FAIbH9p5d7oOdhJHCXhJTA), typeof(n85.StarSpread_FAIbH9p5d7oOdhJHCXhJTA), false)]
+[assembly: n1.TypeImportAttribute("Queue", "Collections.Spread", typeof(n85.Queue_Dsg6LDbSTKKNmL4xybMFXh<>), typeof(n85.Queue_Dsg6LDbSTKKNmL4xybMFXh<>), false)]
+[assembly: n1.TypeImportAttribute("Sort (FormerIndex)", "Collections.Spread", typeof(n85.Sort_FormerIndex_QKHJtW5MfCeOm2LyKhYalN<>), typeof(n85.Sort_FormerIndex_QKHJtW5MfCeOm2LyKhYalN<>), false)]
+[assembly: n1.TypeImportAttribute("SortDescending (FormerIndex)", "Collections.Spread", typeof(n85.SortDescending_FormerIndex_EkN5CW1bEzkOKLlmTrikpv<>), typeof(n85.SortDescending_FormerIndex_EkN5CW1bEzkOKLlmTrikpv<>), false)]
+[assembly: n1.TypeImportAttribute("OrderBy (FormerIndex)", "Collections.Spread", typeof(n85.OrderBy_FormerIndex_SNAab9r0y7NPAcJeyZyvid<>), typeof(n85.OrderBy_FormerIndex_SNAab9r0y7NPAcJeyZyvid<>), false)]
+[assembly: n1.TypeImportAttribute("OrderByDescending (FormerIndex)", "Collections.Spread", typeof(n85.OrderByDescending_FormerIndex_RU0h3y9oSF9Nmb7djv4eij<>), typeof(n85.OrderByDescending_FormerIndex_RU0h3y9oSF9Nmb7djv4eij<>), false)]
+[assembly: n1.TypeImportAttribute("ResamplePoint", "Collections.Spread", typeof(n85.ResamplePoint_O6Ex8Ha7b3gM1UF4tcByx6<, >), typeof(n85.ResamplePoint_O6Ex8Ha7b3gM1UF4tcByx6<, >), false)]
+[assembly: n1.TypeImportAttribute("ResampleLinear", "Collections.Spread", typeof(n85.ResampleLinear_T6XZTYHFIwEPcS5iC1aCi4<, >), typeof(n85.ResampleLinear_T6XZTYHFIwEPcS5iC1aCi4<, >), false)]
+[assembly: n1.TypeImportAttribute("ResampleRepeat", "Collections.Spread", typeof(n85.ResampleRepeat_HcOO13xjH07QObifcX5etq<, >), typeof(n85.ResampleRepeat_HcOO13xjH07QObifcX5etq<, >), false)]
+[assembly: n1.TypeImportAttribute("ResampleBSpline", "Collections.Spread", typeof(n85.ResampleBSpline_Oyxv30P5EeJOlRy2CvOyJW<, >), typeof(n85.ResampleBSpline_Oyxv30P5EeJOlRy2CvOyJW<, >), false)]
+[assembly: n1.TypeImportAttribute("ResampleBSpline (Tangent)", "Collections.Spread", typeof(n85.ResampleBSpline_Tangent_FoeSgW0bZ2tMOSGpSQqnoF<, >), typeof(n85.ResampleBSpline_Tangent_FoeSgW0bZ2tMOSGpSQqnoF<, >), false)]
+[assembly: n1.TypeImportAttribute("ResampleHermite", "Collections.Spread", typeof(n85.ResampleHermite_E3rKHEXR5BEOguuIPaowVl<>), typeof(n85.ResampleHermite_E3rKHEXR5BEOguuIPaowVl<>), false)]
+[assembly: n1.TypeImportAttribute("Randomizer", "Collections.Spread", typeof(n85.Randomizer_UmP6nXJno3hLuovpQ3KDPD<>), typeof(n85.Randomizer_UmP6nXJno3hLuovpQ3KDPD<>), false)]
+[assembly: n1.TypeImportAttribute("RandomSpread (4d)", "Collections.Spread", typeof(n85.RandomSpread__4d_SDaG6L4r0h2LG9nOVLXBCG), typeof(n85.RandomSpread__4d_SDaG6L4r0h2LG9nOVLXBCG), false)]
+[assembly: n1.TypeImportAttribute("LinearSpread (Range)", "Collections.Spread", typeof(n85.LinearSpread_Range_GaTuHYHNNNgQXveRZUAHXI<>), typeof(n85.LinearSpread_Range_GaTuHYHNNNgQXveRZUAHXI<>), false)]
+[assembly: n1.TypeImportAttribute("GridSpread (2D)", "Collections.Spread", typeof(n85.GridSpread__2D_Fhj5xydYiRTNdXppJ1Dvg1), typeof(n85.GridSpread__2D_Fhj5xydYiRTNdXppJ1Dvg1), false)]
+[assembly: n1.TypeImportAttribute("GridSpread (3D)", "Collections.Spread", typeof(n85.GridSpread__3D_GbKoBslUVKWLOhuVujVws1), typeof(n85.GridSpread__3D_GbKoBslUVKWLOhuVujVws1), false)]
+[assembly: n1.TypeImportAttribute("HexGridSpread (2D)", "Collections.Spread", typeof(n85.HexGridSpread__2D_U4wxvrTtAK2MQs93CKjwhp), typeof(n85.HexGridSpread__2D_U4wxvrTtAK2MQs93CKjwhp), false)]
+[assembly: n1.TypeImportAttribute("CountOccurance", "Collections", typeof(n39.CountOccurance_BV2Obs1leaVL5nSQLQYPAJ<>), typeof(n39.CountOccurance_BV2Obs1leaVL5nSQLQYPAJ<>), false)]
+[assembly: n1.TypeImportAttribute("TreeNodeChildrenManager", "Collections.Trees.Patching", typeof(n90.TreeNodeChildrenManager<, >), typeof(n91._Operations_), false)]
+[assembly: n1.TypeImportAttribute("TreeNodeParentManager", "Collections.Trees.Patching", typeof(n90.TreeNodeParentManager<, >), typeof(n92._Operations_), false)]
+[assembly: n1.TypeImportAttribute("TreeNodeParentManager (SetParent)", "Collections.Trees.Patching", typeof(n93.TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<, >), typeof(n93.TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<, >), false)]
+[assembly: n1.TypeImportAttribute("Command", "Collections.Trees", typeof(n94.ITraverseCommand), typeof(n95._Operations_), false)]
+[assembly: n1.TypeImportAttribute("IReadOnlyTreeNode", "Collections.Trees", typeof(n94.IReadOnlyTreeNode), typeof(n96._Operations_), false)]
+[assembly: n1.TypeImportAttribute("IReadOnlyTree", "Collections.Trees", typeof(n94.IReadOnlyTree<>), typeof(n97._Operations_), false)]
+[assembly: n1.TypeImportAttribute("BuildUp", "Collections.Trees.IReadOnlyTree", typeof(n97.BuildUp_S3fE6WSfWlXNbz9jtATkZH<>), typeof(n97.BuildUp_S3fE6WSfWlXNbz9jtATkZH<>), false)]
+[assembly: n1.TypeImportAttribute("DummyTreeNode", "Collections.Trees", typeof(n98.DummyTreeNode_C), typeof(n98.DummyTreeNode_C), false)]
+[assembly: n1.TypeImportAttribute("DummyTree", "Collections.Trees", typeof(n98.DummyTree_C<>), typeof(n98.DummyTree_C<>), false)]
+[assembly: n1.TypeImportAttribute("IReadOnlyList", "Collections", typeof(n45.IReadOnlyList<>), typeof(n99._Operations_), false)]
+[assembly: n1.TypeImportAttribute("VL.CollectionsApplication", "", typeof(n100.VL_CollectionsApplication_OSaGmia5DZRLHgXGyUAbs3), typeof(n100.VL_CollectionsApplication_OSaGmia5DZRLHgXGyUAbs3), false)]
+[assembly: n1.TypeImportAttribute("UdpClient (Reactive)", "IO.Socket", typeof(n101.UdpClient_Reactive_BOd1NI2Q70rNLdxNE7z8jj), typeof(n101.UdpClient_Reactive_BOd1NI2Q70rNLdxNE7z8jj), false)]
+[assembly: n1.TypeImportAttribute("Datagram", "IO.Socket", typeof(n102.Datagram), typeof(n103._Operations_), true)]
+[assembly: n1.TypeImportAttribute("UdpServer (Reactive)", "IO.Socket", typeof(n101.UdpServer_Reactive_DVOunIaysXuOsl2X0gaBGw), typeof(n101.UdpServer_Reactive_DVOunIaysXuOsl2X0gaBGw), false)]
+[assembly: n1.TypeImportAttribute("ToDatagrams", "IO.Socket", typeof(n101.ToDatagrams_NqOArIZnZHfQJCMXWLcZF9), typeof(n101.ToDatagrams_NqOArIZnZHfQJCMXWLcZF9), false)]
+[assembly: n1.TypeImportAttribute("UdpClient", "IO.Socket", typeof(n101.UdpClient_ABWqm1HsYpNPHycPXOjEv8), typeof(n101.UdpClient_ABWqm1HsYpNPHycPXOjEv8), false)]
+[assembly: n1.TypeImportAttribute("UdpServer", "IO.Socket", typeof(n101.UdpServer_KWe4UurP6xMOND9k3h1iMA), typeof(n101.UdpServer_KWe4UurP6xMOND9k3h1iMA), false)]
+[assembly: n1.TypeImportAttribute("UdpSocket", "IO.Socket", typeof(n102.UDPSocket), typeof(n104._Operations_), false)]
+[assembly: n1.TypeImportAttribute("Receiver (Datagram)", "IO.Socket", typeof(n102.DatagramReceiver), typeof(n105._Operations_), false)]
+[assembly: n1.TypeImportAttribute("Sender (Datagram)", "IO.Socket", typeof(n102.DatagramSender), typeof(n106._Operations_), false)]
+[assembly: n1.TypeImportAttribute("ProtocolType", "IO.Socket", typeof(n107.ProtocolType), null, true)]
+[assembly: n1.TypeImportAttribute("SocketType", "IO.Socket", typeof(n107.SocketType), null, true)]
+[assembly: n1.TypeImportAttribute("AddressFamily", "IO.Socket", typeof(n107.AddressFamily), null, true)]
+[assembly: n1.TypeImportAttribute("ToDatagram", "IO.Socket", typeof(n101.ToDatagram_GUYRku2XzpsMgeeeoNpw2g), typeof(n101.ToDatagram_GUYRku2XzpsMgeeeoNpw2g), false)]
+[assembly: n1.TypeImportAttribute("Handshake", "IO.Ports", typeof(n108.Handshake), null, false)]
+[assembly: n1.TypeImportAttribute("Parity", "IO.Ports", typeof(n108.Parity), null, false)]
+[assembly: n1.TypeImportAttribute("StopBits", "IO.Ports", typeof(n108.StopBits), null, false)]
+[assembly: n1.TypeImportAttribute("SerialPort", "IO.Ports", typeof(n109.SerialPort), typeof(n110._Operations_), false)]
+[assembly: n1.TypeImportAttribute("ComPort", "IO.Ports", typeof(n109.ComPort), typeof(n111._Operations_), true)]
+[assembly: n1.TypeImportAttribute("Receiver", "IO.Ports", typeof(n109.Receiver), typeof(n112._Operations_), false)]
+[assembly: n1.TypeImportAttribute("Sender", "IO.Ports", typeof(n109.Sender), typeof(n113._Operations_), false)]
+[assembly: n1.TypeImportAttribute("SerialPort", "IO", typeof(n114.SerialPort_AiAKpmuYyUIPIlE9TNeP81), typeof(n114.SerialPort_AiAKpmuYyUIPIlE9TNeP81), false)]
+[assembly: n1.TypeImportAttribute("FileReader (1)", "IO", typeof(n115.FileReader__1_IjerHItQqY4PCwNKtTBHV2), typeof(n115.FileReader__1_IjerHItQqY4PCwNKtTBHV2), false)]
+[assembly: n1.TypeImportAttribute("FileReader (String 1)", "IO", typeof(n115.FileReader_String_1_FlSWv1BZxAXQcA8WA0GZhK), typeof(n115.FileReader_String_1_FlSWv1BZxAXQcA8WA0GZhK), false)]
+[assembly: n1.TypeImportAttribute("FileWriter (String 1)", "IO", typeof(n115.FileWriter_String_1_R7mOvMTuwndMvNCG0IO3Dv), typeof(n115.FileWriter_String_1_R7mOvMTuwndMvNCG0IO3Dv), false)]
+[assembly: n1.TypeImportAttribute("FileWriter (1)", "IO", typeof(n115.FileWriter__1_J7vmTTktovMOYBUQelwW3O), typeof(n115.FileWriter__1_J7vmTTktovMOYBUQelwW3O), false)]
+[assembly: n1.TypeImportAttribute("File (1)", "IO", typeof(n116.ObsoleteFile), typeof(n117._Operations_), false)]
+[assembly: n1.TypeImportAttribute("File (NoSharing 1)", "IO", typeof(n116.ObsoleteFileNoSharing), typeof(n118._Operations_), false)]
+[assembly: n1.TypeImportAttribute("ByteReader (Reactive)", "IO", typeof(n119.AsyncByteReader), typeof(n120._Operations_), false)]
+[assembly: n1.TypeImportAttribute("ByteWriter (Reactive)", "IO", typeof(n119.AsyncByteWriter), typeof(n121._Operations_), false)]
+[assembly: n1.TypeImportAttribute("CharReader", "IO", typeof(n119.CharReader), typeof(n122._Operations_), false)]
+[assembly: n1.TypeImportAttribute("StringReader (Reactive)", "IO", typeof(n123.StringReader_Reactive_OZuCM5n4eNWP7pF1DYKlef), typeof(n123.StringReader_Reactive_OZuCM5n4eNWP7pF1DYKlef), false)]
+[assembly: n1.TypeImportAttribute("CharWriter", "IO", typeof(n119.CharWriter), typeof(n124._Operations_), false)]
+[assembly: n1.TypeImportAttribute("StringWriter (Reactive)", "IO", typeof(n123.StringWriter_Reactive_NvLjtZwaL21LuVr42kqkiy), typeof(n123.StringWriter_Reactive_NvLjtZwaL21LuVr42kqkiy), false)]
+[assembly: n1.TypeImportAttribute("ByteChunkifier (Reactive)", "IO", typeof(n119.AsyncByteChunkifier), typeof(n125._Operations_), false)]
+[assembly: n1.TypeImportAttribute("CharChunkifier", "IO", typeof(n119.CharChunkifier), typeof(n126._Operations_), false)]
+[assembly: n1.TypeImportAttribute("ByteCollector (Reactive)", "IO", typeof(n119.AsyncByteCollector), typeof(n127._Operations_), false)]
+[assembly: n1.TypeImportAttribute("CharCollector", "IO", typeof(n119.CharCollector), typeof(n128._Operations_), false)]
+[assembly: n1.TypeImportAttribute("Monitor (Reactive)", "IO", typeof(n119.Monitor<>), typeof(n129._Operations_), false)]
+[assembly: n1.TypeImportAttribute("ByteReader", "IO", typeof(n119.ByteReader), typeof(n130._Operations_), false)]
+[assembly: n1.TypeImportAttribute("ByteCollector", "IO", typeof(n119.ByteCollector), typeof(n131._Operations_), false)]
+[assembly: n1.TypeImportAttribute("ByteWriter", "IO", typeof(n119.ByteWriter), typeof(n132._Operations_), false)]
+[assembly: n1.TypeImportAttribute("ByteChunkifier", "IO", typeof(n119.ByteChunkifier), typeof(n133._Operations_), false)]
+[assembly: n1.TypeImportAttribute("CharReader (Reactive)", "IO", typeof(n119.AsyncCharReader), typeof(n134._Operations_), false)]
+[assembly: n1.TypeImportAttribute("CharWriter (Reactive)", "IO", typeof(n119.AsyncCharWriter), typeof(n135._Operations_), false)]
+[assembly: n1.TypeImportAttribute("CharChunkifier (Reactive)", "IO", typeof(n119.AsyncCharChunkifier), typeof(n136._Operations_), false)]
+[assembly: n1.TypeImportAttribute("CharCollector (Reactive)", "IO", typeof(n119.AsyncCharCollector), typeof(n137._Operations_), false)]
+[assembly: n1.TypeImportAttribute("StringReader", "IO", typeof(n123.StringReader_BOTojDz8Ou7NQQoQbWoirY), typeof(n123.StringReader_BOTojDz8Ou7NQQoQbWoirY), false)]
+[assembly: n1.TypeImportAttribute("StringWriter", "IO", typeof(n123.StringWriter_DcGtmOHsL0sNmgl8AQ442U), typeof(n123.StringWriter_DcGtmOHsL0sNmgl8AQ442U), false)]
+[assembly: n1.TypeImportAttribute("Chunk", "IO", typeof(n119.Chunk<>), typeof(n138._Operations_), false)]
+[assembly: n1.TypeImportAttribute("IPEndPointResolver", "IO.Net", typeof(n139.IPEndPointResolver_I4nudrDB0zZLgxuS5DE6uV), typeof(n139.IPEndPointResolver_I4nudrDB0zZLgxuS5DE6uV), false)]
+[assembly: n1.TypeImportAttribute("CredentialCache", "IO.Net", typeof(n140.CredentialCache), typeof(n140.CredentialCache), false)]
+[assembly: n1.TypeImportAttribute("DuplicateAddressDetectionState", "IO.Net", typeof(n141.DuplicateAddressDetectionState), null, false)]
+[assembly: n1.TypeImportAttribute("ICredentials", "IO.Net", typeof(n140.ICredentials), null, false)]
+[assembly: n1.TypeImportAttribute("IPAddress", "IO.Net", typeof(n140.IPAddress), typeof(n140.IPAddress), false)]
+[assembly: n1.TypeImportAttribute("IPAddressInformation", "IO.Net", typeof(n141.IPAddressInformation), null, false)]
+[assembly: n1.TypeImportAttribute("IPEndPoint", "IO.Net", typeof(n140.IPEndPoint), typeof(n140.IPEndPoint), false)]
+[assembly: n1.TypeImportAttribute("IPInterfaceProperties", "IO.Net", typeof(n141.IPInterfaceProperties), null, false)]
+[assembly: n1.TypeImportAttribute("IPInterfaceStatistics", "IO.Net", typeof(n141.IPInterfaceStatistics), null, false)]
+[assembly: n1.TypeImportAttribute("IPv4InterfaceProperties", "IO.Net", typeof(n141.IPv4InterfaceProperties), null, false)]
+[assembly: n1.TypeImportAttribute("IPv4InterfaceStatistics", "IO.Net", typeof(n141.IPv4InterfaceStatistics), null, false)]
+[assembly: n1.TypeImportAttribute("IPv6InterfaceProperties", "IO.Net", typeof(n141.IPv6InterfaceProperties), null, false)]
+[assembly: n1.TypeImportAttribute("MulticastIPAddressInformation", "IO.Net", typeof(n141.MulticastIPAddressInformation), null, false)]
+[assembly: n1.TypeImportAttribute("NetworkCredential", "IO.Net", typeof(n140.NetworkCredential), typeof(n140.NetworkCredential), false)]
+[assembly: n1.TypeImportAttribute("NetworkInterface", "IO.Net", typeof(n141.NetworkInterface), null, false)]
+[assembly: n1.TypeImportAttribute("NetworkInterfaceType", "IO.Net", typeof(n141.NetworkInterfaceType), null, true)]
+[assembly: n1.TypeImportAttribute("OperationalStatus", "IO.Net", typeof(n141.OperationalStatus), null, true)]
+[assembly: n1.TypeImportAttribute("PhysicalAddress", "IO.Net", typeof(n141.PhysicalAddress), typeof(n141.PhysicalAddress), false)]
+[assembly: n1.TypeImportAttribute("PrefixOrigin", "IO.Net", typeof(n141.PrefixOrigin), null, true)]
+[assembly: n1.TypeImportAttribute("SuffixOrigin", "IO.Net", typeof(n141.SuffixOrigin), null, true)]
+[assembly: n1.TypeImportAttribute("UnicastIPAddressInformation", "IO.Net", typeof(n141.UnicastIPAddressInformation), null, false)]
+[assembly: n1.TypeImportAttribute("IPEndPoint", "IO.Net", typeof(n139.IPEndPoint_LFQAAxLFDLrLGEmZiQz7To), typeof(n139.IPEndPoint_LFQAAxLFDLrLGEmZiQz7To), false)]
+[assembly: n1.TypeImportAttribute("IPAddress", "IO.Net", typeof(n139.IPAddress_MLeJfL0KehEPTxpNGNIs8m), typeof(n139.IPAddress_MLeJfL0KehEPTxpNGNIs8m), false)]
+[assembly: n1.TypeImportAttribute("NetworkInterfaces", "IO.Net", typeof(n139.NetworkInterfaces_IMxwVok0gkqQG3e3tXC736), typeof(n139.NetworkInterfaces_IMxwVok0gkqQG3e3tXC736), false)]
+[assembly: n1.TypeImportAttribute("FileReader (String)", "IO", typeof(n114.FileReader_String_TT8gWSNJDrLPfzy5QjExui), typeof(n114.FileReader_String_TT8gWSNJDrLPfzy5QjExui), false)]
+[assembly: n1.TypeImportAttribute("FileReader", "IO", typeof(n114.FileReader_Nbs971t4mpQOvLXHem7Bzs), typeof(n114.FileReader_Nbs971t4mpQOvLXHem7Bzs), false)]
+[assembly: n1.TypeImportAttribute("FileWriter", "IO", typeof(n114.FileWriter_U2bWfQ8dEnvPg38ttqISAx), typeof(n114.FileWriter_U2bWfQ8dEnvPg38ttqISAx), false)]
+[assembly: n1.TypeImportAttribute("FileWriter (String)", "IO", typeof(n114.FileWriter_String_RhzHb4NoVZQP8wGq101JDK), typeof(n114.FileWriter_String_RhzHb4NoVZQP8wGq101JDK), false)]
+[assembly: n1.TypeImportAttribute("FileReader (Reactive)", "IO", typeof(n114.FileReader_Reactive_VixxmbVX6AtMbizi7gZULo), typeof(n114.FileReader_Reactive_VixxmbVX6AtMbizi7gZULo), false)]
+[assembly: n1.TypeImportAttribute("FileReader (String Reactive)", "IO", typeof(n114.FileReader_String_Reactive_VTFPwrKqLPQOeQrp8g7eWh), typeof(n114.FileReader_String_Reactive_VTFPwrKqLPQOeQrp8g7eWh), false)]
+[assembly: n1.TypeImportAttribute("FileWriter (Reactive)", "IO", typeof(n114.FileWriter_Reactive_AtVTqYvzpFTNOhjHcbX8pA), typeof(n114.FileWriter_Reactive_AtVTqYvzpFTNOhjHcbX8pA), false)]
+[assembly: n1.TypeImportAttribute("FileWriter (String Reactive)", "IO", typeof(n114.FileWriter_String_Reactive_IKMLoIqK7roLwjblZg9cs1), typeof(n114.FileWriter_String_Reactive_IKMLoIqK7roLwjblZg9cs1), false)]
+[assembly: n1.TypeImportAttribute("File", "IO", typeof(n119.FileNode), typeof(n142._Operations_), false)]
+[assembly: n1.TypeImportAttribute("FileCopier", "IO", typeof(n114.FileCopier_M1IAv37BbqlMBsE7EEZOwv), typeof(n114.FileCopier_M1IAv37BbqlMBsE7EEZOwv), false)]
+[assembly: n1.TypeImportAttribute("IPs (Wifi)", "IO.Net", typeof(n143.IPs_Wifi_MOfJFeomvygPhh7bpt6VEW), typeof(n143.IPs_Wifi_MOfJFeomvygPhh7bpt6VEW), false)]
+[assembly: n1.TypeImportAttribute("IPs (Ethernet)", "IO.Net", typeof(n143.IPs_Ethernet_Bka6gkmtoNRQc5HnTGexxa), typeof(n143.IPs_Ethernet_Bka6gkmtoNRQc5HnTGexxa), false)]
+[assembly: n1.TypeImportAttribute("IPs", "IO.Net", typeof(n143.IPs_SU385Q2zoCqLj1U3xPCyTo), typeof(n143.IPs_SU385Q2zoCqLj1U3xPCyTo), false)]
+[assembly: n1.TypeImportAttribute("Ping", "IO.Net", typeof(n143.Ping_MapdEBfx7GmNw3zKjfmzsc), typeof(n143.Ping_MapdEBfx7GmNw3zKjfmzsc), false)]
+[assembly: n1.TypeImportAttribute("SerialPort3", "IO", typeof(n114.SerialPort3_C), typeof(n114.SerialPort3_C), false)]
+[assembly: n1.TypeImportAttribute("VL.CoreLib.IOApplication", "IO", typeof(n114.VL_CoreLib_IOApplication_EtyioAuoHGbOGm6NgPCyAL), typeof(n114.VL_CoreLib_IOApplication_EtyioAuoHGbOGm6NgPCyAL), false)]
+[assembly: n1.TypeImportAttribute("FileParameter", "IO.HTTP", typeof(n144.FileParameter_R), typeof(n144.FileParameter_R), true)]
+[assembly: n1.TypeImportAttribute("NameValueParameter", "IO.HTTP", typeof(n144.NameValueParameter_R), typeof(n144.NameValueParameter_R), true)]
+[assembly: n1.TypeImportAttribute("HTTPPost (MultiPart)", "IO.HTTP", typeof(n144.HTTPPost_MultiPart_UatTgPw0WkwOTteoGmIGaG), typeof(n144.HTTPPost_MultiPart_UatTgPw0WkwOTteoGmIGaG), false)]
+[assembly: n1.TypeImportAttribute("HTTPPost", "IO.HTTP", typeof(n144.HTTPPost_RpG0YiYPPd5QF184dDTNoU), typeof(n144.HTTPPost_RpG0YiYPPd5QF184dDTNoU), false)]
+[assembly: n1.TypeImportAttribute("FileDownloader", "IO.HTTP", typeof(n145.FileDownloader_HILqQAlF0eSQWHcn3yT1A4), typeof(n145.FileDownloader_HILqQAlF0eSQWHcn3yT1A4), false)]
+[assembly: n1.TypeImportAttribute("ProgressReporter", "IO.HTTP.FileDownloader", typeof(n146.ProgressReporter_C), typeof(n146.ProgressReporter_C), false)]
+[assembly: n1.TypeImportAttribute("HTTPGet", "IO.HTTP", typeof(n145.HTTPGet_IYIjPPVGEoFPAAup5UWplL), typeof(n145.HTTPGet_IYIjPPVGEoFPAAup5UWplL), false)]
+[assembly: n1.TypeImportAttribute("HTTPResult", "IO.HTTP.HTTPGet", typeof(n147.HTTPResult_R), typeof(n147.HTTPResult_R), true)]
+[assembly: n1.TypeImportAttribute("VL.HTTPApplication", "IO.HTTP", typeof(n145.VL_HTTPApplication_M3CnIcJ8KaiL5r6VcP70uC), typeof(n145.VL_HTTPApplication_M3CnIcJ8KaiL5r6VcP70uC), false)]
+[assembly: n1.TypeImportAttribute("TryCatch", "Control", typeof(n148.TryCatchStateful<>), typeof(n149._Operations_), false)]
+[assembly: n1.TypeImportAttribute("TryCatch (2Outputs)", "Control", typeof(n148.TryCatchStateful2<>), typeof(n150._Operations_), false)]
+[assembly: n1.TypeImportAttribute("TryCatch (3Outputs)", "Control", typeof(n148.TryCatchStateful3<>), typeof(n151._Operations_), false)]
+[assembly: n1.TypeImportAttribute("TryCatch (4Outputs)", "Control", typeof(n148.TryCatchStateful4<>), typeof(n152._Operations_), false)]
+[assembly: n1.TypeImportAttribute("TryCatch (5Outputs)", "Control", typeof(n148.TryCatchStateful5<>), typeof(n153._Operations_), false)]
+[assembly: n1.TypeImportAttribute("TryCatchFinally", "Control", typeof(n148.TryCatchFinallyStateful<>), typeof(n154._Operations_), false)]
+[assembly: n1.TypeImportAttribute("TryCatchFinally (2Outputs)", "Control", typeof(n148.TryCatchFinallyStateful2<>), typeof(n155._Operations_), false)]
+[assembly: n1.TypeImportAttribute("TryCatchFinally (3Outputs)", "Control", typeof(n148.TryCatchFinallyStateful3<>), typeof(n156._Operations_), false)]
+[assembly: n1.TypeImportAttribute("TryCatchFinally (4Outputs)", "Control", typeof(n148.TryCatchFinallyStateful4<>), typeof(n157._Operations_), false)]
+[assembly: n1.TypeImportAttribute("TryCatchFinally (5Outputs)", "Control", typeof(n148.TryCatchFinallyStateful5<>), typeof(n158._Operations_), false)]
+[assembly: n1.TypeImportAttribute("Synchronizer", "Control", typeof(n148.Synchronizer<,, >), typeof(n159._Operations_), true)]
+[assembly: n1.TypeImportAttribute("Synchronizer (InputIsKey)", "Control", typeof(n148.SynchronizerInputIsKey<,, >), typeof(n160._Operations_), true)]
+[assembly: n1.TypeImportAttribute("Synchronizer (VLObjectInput)", "Control", typeof(n148.SynchronizerVLObjectInput<,, >), typeof(n161._Operations_), true)]
+[assembly: n1.TypeImportAttribute("Try (1 Output)", "Control", typeof(n148.TryStateful<>), typeof(n162._Operations_), false)]
+[assembly: n1.TypeImportAttribute("Try (2Outputs)", "Control", typeof(n148.TryStateful2<>), typeof(n163._Operations_), false)]
+[assembly: n1.TypeImportAttribute("Try (3Outputs)", "Control", typeof(n148.TryStateful3<>), typeof(n164._Operations_), false)]
+[assembly: n1.TypeImportAttribute("Try (4Outputs)", "Control", typeof(n148.TryStateful4<>), typeof(n165._Operations_), false)]
+[assembly: n1.TypeImportAttribute("Try (5Outputs)", "Control", typeof(n148.TryStateful5<>), typeof(n166._Operations_), false)]
+[assembly: n1.TypeImportAttribute("ForEach", "Control.Parallel", typeof(n167.ForEach<, >), typeof(n168._Operations_), false)]
+[assembly: n1.TypeImportAttribute("HTTPServer", "IO.Net", typeof(n169.HTTPServer), typeof(n170._Operations_), false)]
+[assembly: n1.TypeImportAttribute("SocketProvider", "IO.Socket", typeof(n102.SocketProvider), typeof(n171._Operations_), false)]
+[assembly: n1.TypeImportAttribute("Socket", "IO.Socket", typeof(n107.Socket), typeof(n107.Socket), false)]
+[assembly: n1.TypeImportAttribute("FileWebRequest", "IO.WebRequest", typeof(n140.FileWebRequest), null, true)]
+[assembly: n1.TypeImportAttribute("FileWebResponse", "IO.WebRequest", typeof(n140.FileWebResponse), null, true)]
+[assembly: n1.TypeImportAttribute("FtpWebRequest", "IO.WebRequest", typeof(n140.FtpWebRequest), null, true)]
+[assembly: n1.TypeImportAttribute("FtpWebResponse", "IO.WebRequest", typeof(n140.FtpWebResponse), null, true)]
+[assembly: n1.TypeImportAttribute("HttpWebRequest", "IO.WebRequest", typeof(n140.HttpWebRequest), null, true)]
+[assembly: n1.TypeImportAttribute("HttpWebResponse", "IO.WebRequest", typeof(n140.HttpWebResponse), null, true)]
+[assembly: n1.TypeImportAttribute("WebRequest", "IO.WebRequest", typeof(n140.WebRequest), typeof(n172._Operations_), false)]
+[assembly: n1.TypeImportAttribute("WebResponse", "IO.WebRequest", typeof(n140.WebResponse), null, true)]
+[assembly: n1.TypeImportAttribute("PersistentState", "Primitive", typeof(n173.PersistentState_SMiVmmAKtO6ON6v0GtlOUu<>), typeof(n173.PersistentState_SMiVmmAKtO6ON6v0GtlOUu<>), false)]
+[assembly: n1.TypeImportAttribute("JobObject", "System.Process", typeof(n174.JobObject_UW7Y4OEwksVP8fF4I5jRzk), typeof(n174.JobObject_UW7Y4OEwksVP8fF4I5jRzk), false)]
+[assembly: n1.TypeImportAttribute("VL.CoreLib.ExperimentalApplication", "", typeof(n175.VL_CoreLib_ExperimentalApplication_ItYR8atty06M7klus5T2l8), typeof(n175.VL_CoreLib_ExperimentalApplication_ItYR8atty06M7klus5T2l8), false)]
 [assembly: n1.TypeImportAttribute("ISerializer", "System.Serialization", typeof(n32.ISerializer<>), null, false)]
 [assembly: n1.TypeImportAttribute("SerializationContext", "System.Serialization", typeof(n32.SerializationContext), null, false)]
-[assembly: n1.TypeImportAttribute("Persistent", "System.Serialization", typeof(n181.Persistent_Ordux5u8MUjPFUJ6OrYaW1), typeof(n181.Persistent_Ordux5u8MUjPFUJ6OrYaW1), false)]
-[assembly: n1.TypeImportAttribute("System.SerializationApplication", "System.Serialization", typeof(n181.System_SerializationApplication_Im8eY6kiq8sPbl841Co0vs), typeof(n181.System_SerializationApplication_Im8eY6kiq8sPbl841Co0vs), false)]
+[assembly: n1.TypeImportAttribute("Persistent", "System.Serialization", typeof(n176.Persistent_Ordux5u8MUjPFUJ6OrYaW1), typeof(n176.Persistent_Ordux5u8MUjPFUJ6OrYaW1), false)]
+[assembly: n1.TypeImportAttribute("System.SerializationApplication", "System.Serialization", typeof(n176.System_SerializationApplication_Im8eY6kiq8sPbl841Co0vs), typeof(n176.System_SerializationApplication_Im8eY6kiq8sPbl841Co0vs), false)]
+[assembly: n1.TypeImportAttribute("Sequencer", "Animation", typeof(n177.Sequencer_Gow6VG33IYdQWs58olyP8x<>), typeof(n177.Sequencer_Gow6VG33IYdQWs58olyP8x<>), false)]
+[assembly: n1.TypeImportAttribute("Track", "Animation", typeof(n177.Track_JTJsMOijt7DP1rXh0BfLSa<>), typeof(n177.Track_JTJsMOijt7DP1rXh0BfLSa<>), false)]
+[assembly: n1.TypeImportAttribute("Delay", "Animation", typeof(n177.Delay_IdvSxYASvkgOhJLGiNGDdg<, >), typeof(n177.Delay_IdvSxYASvkgOhJLGiNGDdg<, >), false)]
+[assembly: n1.TypeImportAttribute("Recorder", "Animation", typeof(n177.Recorder_QCyUM9b0UOjLhRjcdjQMmm<>), typeof(n177.Recorder_QCyUM9b0UOjLhRjcdjQMmm<>), false)]
+[assembly: n1.TypeImportAttribute("MassSpring", "Animation.FrameBased", typeof(n178.MassSpring_ThiX3p7ISOINTOij9kpcDi<>), typeof(n178.MassSpring_ThiX3p7ISOINTOij9kpcDi<>), false)]
+[assembly: n1.TypeImportAttribute("Wanderer (2D)", "Animation.FrameBased", typeof(n178.Wanderer__2D_DYC8agHhNE6Lg7Y7GtSql2), typeof(n178.Wanderer__2D_DYC8agHhNE6Lg7Y7GtSql2), false)]
+[assembly: n1.TypeImportAttribute("Wanderer (3D)", "Animation.FrameBased", typeof(n178.Wanderer__3D_JQUTAyrKDKqQA9wwhm7VZl), typeof(n178.Wanderer__3D_JQUTAyrKDKqQA9wwhm7VZl), false)]
+[assembly: n1.TypeImportAttribute("Damper", "Animation", typeof(n177.Damper_Qhw7aQNplhrMCum2sxpG8z), typeof(n177.Damper_Qhw7aQNplhrMCum2sxpG8z), false)]
+[assembly: n1.TypeImportAttribute("Damper (2D)", "Animation", typeof(n177.Damper__2D_SSikkhLCtlgLWqNuUJ8Odr), typeof(n177.Damper__2D_SSikkhLCtlgLWqNuUJ8Odr), false)]
+[assembly: n1.TypeImportAttribute("Damper (3D)", "Animation", typeof(n177.Damper__3D_Q7f7FmZqnvOOvqWrXqfeOx), typeof(n177.Damper__3D_Q7f7FmZqnvOOvqWrXqfeOx), false)]
+[assembly: n1.TypeImportAttribute("Oscillator", "Animation", typeof(n177.Oscillator_LRcaT1Ox9T9Nx62ge5XELl), typeof(n177.Oscillator_LRcaT1Ox9T9Nx62ge5XELl), false)]
+[assembly: n1.TypeImportAttribute("Oscillator (2D)", "Animation", typeof(n177.Oscillator__2D_SlkPnN2OVJ3P4vEXYgjC8r), typeof(n177.Oscillator__2D_SlkPnN2OVJ3P4vEXYgjC8r), false)]
+[assembly: n1.TypeImportAttribute("Oscillator (3D)", "Animation", typeof(n177.Oscillator__3D_GhxWCW2Ah0JP0B7xq1lxaI), typeof(n177.Oscillator__3D_GhxWCW2Ah0JP0B7xq1lxaI), false)]
+[assembly: n1.TypeImportAttribute("OscillatorFunction", "Animation.Functions", typeof(n179.OscillatorFunction_C<>), typeof(n179.OscillatorFunction_C<>), false)]
+[assembly: n1.TypeImportAttribute("OscillatorFunctionOSC", "Animation.Functions.OscillatorFunction", typeof(n180.OscillatorFunctionOSC_C<, >), typeof(n180.OscillatorFunctionOSC_C<, >), false)]
+[assembly: n1.TypeImportAttribute("IInternalOscillatorFunction", "Animation.Functions.OscillatorFunction", typeof(n180.IInternalOscillatorFunction_I<, >), null, false)]
+[assembly: n1.TypeImportAttribute("OscillatorFunctionHYP", "Animation.Functions.OscillatorFunction", typeof(n180.OscillatorFunctionHYP_C<, >), typeof(n180.OscillatorFunctionHYP_C<, >), false)]
+[assembly: n1.TypeImportAttribute("OscillatorFunctionDMP", "Animation.Functions.OscillatorFunction", typeof(n180.OscillatorFunctionDMP_C<>), typeof(n180.OscillatorFunctionDMP_C<>), false)]
+[assembly: n1.TypeImportAttribute("Damper (Fast)", "Animation", typeof(n181.Damper_Fast_E4dfedvLjPfOjMfJ9kcvG7<>), typeof(n181.Damper_Fast_E4dfedvLjPfOjMfJ9kcvG7<>), false)]
+[assembly: n1.TypeImportAttribute("Damper (Generic)", "Animation", typeof(n181.Damper_Generic_DNl6ggbTMUuQd9VdE3AEIB<, >), typeof(n181.Damper_Generic_DNl6ggbTMUuQd9VdE3AEIB<, >), false)]
+[assembly: n1.TypeImportAttribute("Oscillator (Generic)", "Animation", typeof(n181.Oscillator_Generic_VbrPYB0MTDDMEKdVfbV0hS<>), typeof(n181.Oscillator_Generic_VbrPYB0MTDDMEKdVfbV0hS<>), false)]
+[assembly: n1.TypeImportAttribute("Oscillator (Fast)", "Animation", typeof(n181.Oscillator_Fast_NV7Jp8StqbYLmGMQsFc4RH<>), typeof(n181.Oscillator_Fast_NV7Jp8StqbYLmGMQsFc4RH<>), false)]
+[assembly: n1.TypeImportAttribute("Delay (Linear)", "Animation", typeof(n177.Delay_Linear_PJK5DlkbAiFMqldihFJJpm<, >), typeof(n177.Delay_Linear_PJK5DlkbAiFMqldihFJJpm<, >), false)]
+[assembly: n1.TypeImportAttribute("VL.AnimationApplication", "Animation", typeof(n177.VL_AnimationApplication_AqpnaEs3vthPzpyQLCCoCR), typeof(n177.VL_AnimationApplication_AqpnaEs3vthPzpyQLCCoCR), false)]
 [assembly: n1.TypeImportAttribute("FileReader (JSON 1)", "IO", typeof(n182.FileReader_JSON_1_ONznqaraFfTO17wD7cHvB2), typeof(n182.FileReader_JSON_1_ONznqaraFfTO17wD7cHvB2), false)]
 [assembly: n1.TypeImportAttribute("FileReader (XML 1)", "IO", typeof(n182.FileReader_XML_1_KNjbqVB34ftQTFNbReBMiE), typeof(n182.FileReader_XML_1_KNjbqVB34ftQTFNbReBMiE), false)]
 [assembly: n1.TypeImportAttribute("FileWriter (JSON 1)", "IO", typeof(n182.FileWriter_JSON_1_LO29WxGQZ6eMZ1jTmWQ24C), typeof(n182.FileWriter_JSON_1_LO29WxGQZ6eMZ1jTmWQ24C), false)]
@@ -763,10 +763,10 @@ using n277 = global::System.IO;
 [assembly: n1.TypeImportAttribute("XElement", "System.XML", typeof(n184.XElement), typeof(n189._Operations_), false)]
 [assembly: n1.TypeImportAttribute("XNode", "System.XML", typeof(n184.XNode), typeof(n190._Operations_), false)]
 [assembly: n1.TypeImportAttribute("ValidationType", "System.XML", typeof(n191.ValidationType), null, true)]
-[assembly: n1.TypeImportAttribute("XDocumentReader", "System.XML", typeof(n54.XDocumentReader), typeof(n192._Operations_), false)]
-[assembly: n1.TypeImportAttribute("XDocumentWriter", "System.XML", typeof(n54.XDocumentWriter), typeof(n193._Operations_), false)]
-[assembly: n1.TypeImportAttribute("XDocumentReader (Reactive)", "System.XML", typeof(n54.AsyncXDocumentReader), typeof(n194._Operations_), false)]
-[assembly: n1.TypeImportAttribute("XDocumentWriter (Reactive)", "System.XML", typeof(n54.AsyncXDocumentWriter), typeof(n195._Operations_), false)]
+[assembly: n1.TypeImportAttribute("XDocumentReader", "System.XML", typeof(n119.XDocumentReader), typeof(n192._Operations_), false)]
+[assembly: n1.TypeImportAttribute("XDocumentWriter", "System.XML", typeof(n119.XDocumentWriter), typeof(n193._Operations_), false)]
+[assembly: n1.TypeImportAttribute("XDocumentReader (Reactive)", "System.XML", typeof(n119.AsyncXDocumentReader), typeof(n194._Operations_), false)]
+[assembly: n1.TypeImportAttribute("XDocumentWriter (Reactive)", "System.XML", typeof(n119.AsyncXDocumentWriter), typeof(n195._Operations_), false)]
 [assembly: n1.TypeImportAttribute("XMLReader (XDocument)", "System.XML", typeof(n196.XMLReader_XDocument_OPrbd3hV1yTQAohaXbZTAZ), typeof(n196.XMLReader_XDocument_OPrbd3hV1yTQAohaXbZTAZ), false)]
 [assembly: n1.TypeImportAttribute("XMLWriter (XDocument)", "System.XML", typeof(n196.XMLWriter_XDocument_PVpTLN2ieLzPuDrY7SZ3Tv), typeof(n196.XMLWriter_XDocument_PVpTLN2ieLzPuDrY7SZ3Tv), false)]
 [assembly: n1.TypeImportAttribute("XMLReader (XDocument Reactive)", "System.XML", typeof(n196.XMLReader_XDocument_Reactive_SYtLNqgLVojLPTlgG6zowT), typeof(n196.XMLReader_XDocument_Reactive_SYtLNqgLVojLPTlgG6zowT), false)]
@@ -978,20 +978,20 @@ using n277 = global::System.IO;
 [assembly: n1.TypeImportAttribute("Do", "Control", typeof(n275.Do_U1j88uAkZsUOzMjOAd4WQA), typeof(n275.Do_U1j88uAkZsUOzMjOAd4WQA), false)]
 [assembly: n1.TypeImportAttribute("Copier", "IO", typeof(n276.Copier_FNW0C0nOSpRMXPPUCLdhqw), typeof(n276.Copier_FNW0C0nOSpRMXPPUCLdhqw), false)]
 [assembly: n1.TypeImportAttribute("FileAccess", "IO", typeof(n277.FileAccess), typeof(n278._Operations_), true)]
-[assembly: n1.TypeImportAttribute("FileDialog (Open)", "IO", typeof(n54.FileDialogOpen), typeof(n279._Operations_), false)]
-[assembly: n1.TypeImportAttribute("FileDialog (Save)", "IO", typeof(n54.FileDialogSave), typeof(n280._Operations_), false)]
+[assembly: n1.TypeImportAttribute("FileDialog (Open)", "IO", typeof(n119.FileDialogOpen), typeof(n279._Operations_), false)]
+[assembly: n1.TypeImportAttribute("FileDialog (Save)", "IO", typeof(n119.FileDialogSave), typeof(n280._Operations_), false)]
 [assembly: n1.TypeImportAttribute("FileMode", "IO", typeof(n277.FileMode), null, true)]
 [assembly: n1.TypeImportAttribute("FileShare", "IO", typeof(n277.FileShare), null, true)]
-[assembly: n1.TypeImportAttribute("FolderDialog", "IO", typeof(n54.FolderDialog), typeof(n281._Operations_), false)]
+[assembly: n1.TypeImportAttribute("FolderDialog", "IO", typeof(n119.FolderDialog), typeof(n281._Operations_), false)]
 [assembly: n1.TypeImportAttribute("Mover", "IO", typeof(n276.Mover_UmRMkEhKJUGNuSot9q4nGp), typeof(n276.Mover_UmRMkEhKJUGNuSot9q4nGp), false)]
 [assembly: n1.TypeImportAttribute("Path", "IO", typeof(n282.Path), typeof(n283._Operations_), true)]
 [assembly: n1.TypeImportAttribute("Dir", "IO.Path", typeof(n283.Dir_MpDjcJT8vHtN0yoPM6imee), typeof(n283.Dir_MpDjcJT8vHtN0yoPM6imee), false)]
 [assembly: n1.TypeImportAttribute("SubDir", "IO.Path", typeof(n283.SubDir_VAtOesayA2hLxn7SBzS6gf), typeof(n283.SubDir_VAtOesayA2hLxn7SBzS6gf), false)]
-[assembly: n1.TypeImportAttribute("SpecialFolder", "IO", typeof(n54.SpecialFolder), null, true)]
+[assembly: n1.TypeImportAttribute("SpecialFolder", "IO", typeof(n119.SpecialFolder), null, true)]
 [assembly: n1.TypeImportAttribute("NotificationSpaceTransformer", "IO.Notifications", typeof(n284.NotificationSpaceTransformer), typeof(n284.NotificationSpaceTransformer), false)]
 [assembly: n1.TypeImportAttribute("NotificationBase", "IO.Notifications", typeof(n284.NotificationBase), null, false)]
 [assembly: n1.TypeImportAttribute("NotificationWithPosition", "IO.Notifications", typeof(n284.NotificationWithPosition), null, true)]
-[assembly: n1.TypeImportAttribute("SpliceNotifications", "IO", typeof(n54.SpliceNotifications), typeof(n285._Operations_), false)]
+[assembly: n1.TypeImportAttribute("SpliceNotifications", "IO", typeof(n119.SpliceNotifications), typeof(n285._Operations_), false)]
 [assembly: n1.TypeImportAttribute("INotification", "IO", typeof(n284.INotification), null, true)]
 [assembly: n1.TypeImportAttribute("Notifications", "IO", typeof(n284.NotificationHelpers), null, false)]
 [assembly: n1.TypeImportAttribute("GestureDevice", "IO.Gesture", typeof(n286.IGestureDevice), typeof(n287._Operations_), true)]
@@ -1019,14 +1019,14 @@ using n277 = global::System.IO;
 [assembly: n1.TypeImportAttribute("TouchDevice", "IO.Touch", typeof(n286.ITouchDevice), typeof(n291._Operations_), true)]
 [assembly: n1.TypeImportAttribute("TouchNotification", "IO.Touch", typeof(n284.TouchNotification), typeof(n284.TouchNotification), true)]
 [assembly: n1.TypeImportAttribute("TouchNotificationKind", "IO.Touch", typeof(n284.TouchNotificationKind), null, true)]
-[assembly: n1.TypeImportAttribute("ToMouse", "IO", typeof(n54.ToMouse), typeof(n292._Operations_), false)]
+[assembly: n1.TypeImportAttribute("ToMouse", "IO", typeof(n119.ToMouse), typeof(n292._Operations_), false)]
 [assembly: n1.TypeImportAttribute("Stream", "IO", typeof(n277.Stream), typeof(n293._Operations_), false)]
 [assembly: n1.TypeImportAttribute("Reader", "IO.Stream", typeof(n293.Reader_LngSNSCMgIdM2gt49FOPlL), typeof(n293.Reader_LngSNSCMgIdM2gt49FOPlL), false)]
-[assembly: n1.TypeImportAttribute("ReaderAll", "IO.Stream", typeof(n54.ReaderString), typeof(n294._Operations_), false)]
+[assembly: n1.TypeImportAttribute("ReaderAll", "IO.Stream", typeof(n119.ReaderString), typeof(n294._Operations_), false)]
 [assembly: n1.TypeImportAttribute("ReaderAll", "IO.Stream", typeof(n293.ReaderAll_I0f0g5bpDcwM7IvfNlL1lC), typeof(n293.ReaderAll_I0f0g5bpDcwM7IvfNlL1lC), false)]
 [assembly: n1.TypeImportAttribute("Writer", "IO.Stream", typeof(n293.Writer_FLTogNdA1Z3OamN18SsMzU), typeof(n293.Writer_FLTogNdA1Z3OamN18SsMzU), false)]
 [assembly: n1.TypeImportAttribute("Writer (String)", "IO.Stream", typeof(n293.Writer_String_KdneNV6fZfcMTOqz2tJw5z), typeof(n293.Writer_String_KdneNV6fZfcMTOqz2tJw5z), false)]
-[assembly: n1.TypeImportAttribute("FileWatcher", "IO", typeof(n54.Watcher), typeof(n295._Operations_), false)]
+[assembly: n1.TypeImportAttribute("FileWatcher", "IO", typeof(n119.Watcher), typeof(n295._Operations_), false)]
 [assembly: n1.TypeImportAttribute("TempFile", "IO", typeof(n276.TempFile_UuOFoZ5aawZQWYM1Je8Jpg), typeof(n276.TempFile_UuOFoZ5aawZQWYM1Je8Jpg), false)]
 [assembly: n1.TypeImportAttribute("Range", "Math.Ranges", typeof(n245.Range<>), typeof(n296._Operations_), true)]
 [assembly: n1.TypeImportAttribute("RangeMapping", "Math.Ranges", typeof(n245.RangeMapping), null, true)]
@@ -1058,9 +1058,9 @@ using n277 = global::System.IO;
 [assembly: n1.TypeImportAttribute("Tuple (8 Items)", "Primitive", typeof(n29.Tuple<,,,,,,, >), typeof(n306._Operations_), true)]
 [assembly: n1.TypeImportAttribute("Void", "Primitive", typeof(void), null, true)]
 [assembly: n1.TypeImportAttribute("Reference", "Primitive", typeof(n307.Reference_C<>), typeof(n307.Reference_C<>), false)]
-[assembly: n1.TypeImportAttribute("DynamicEnum", "Primitive", typeof(n126.IDynamicEnum), typeof(n308._Operations_), true)]
-[assembly: n1.TypeImportAttribute("DynamicEnumDefinition", "Primitive", typeof(n126.IDynamicEnumDefinition), typeof(n309._Operations_), false)]
-[assembly: n1.TypeImportAttribute("ManualDynamicEnumDefinition", "Primitive", typeof(n126.ManualDynamicEnumDefinitionBase<>), null, false)]
+[assembly: n1.TypeImportAttribute("DynamicEnum", "Primitive", typeof(n51.IDynamicEnum), typeof(n308._Operations_), true)]
+[assembly: n1.TypeImportAttribute("DynamicEnumDefinition", "Primitive", typeof(n51.IDynamicEnumDefinition), typeof(n309._Operations_), false)]
+[assembly: n1.TypeImportAttribute("ManualDynamicEnumDefinition", "Primitive", typeof(n51.ManualDynamicEnumDefinitionBase<>), null, false)]
 [assembly: n1.TypeImportAttribute("Exception", "Primitive", typeof(n29.Exception), typeof(n310._Operations_), false)]
 [assembly: n1.TypeImportAttribute("Object", "Primitive", typeof(n29.Object), typeof(n311._Operations_), false)]
 [assembly: n1.TypeImportAttribute("Delegate (0 -> 0)", "Primitive.Delegates", typeof(n29.Action), typeof(n312._Operations_), true)]
@@ -1127,7 +1127,7 @@ using n277 = global::System.IO;
 [assembly: n1.TypeImportAttribute("Using (RefCount)", "System.Resources", typeof(n362.Using<>), typeof(n367._Operations_), false)]
 [assembly: n1.TypeImportAttribute("Producing (RefCount)", "System.Resources", typeof(n362.Producing<>), typeof(n368._Operations_), false)]
 [assembly: n1.TypeImportAttribute("DateTime (UTC)", "System", typeof(n29.DateTimeOffset), typeof(n369._Operations_), true)]
-[assembly: n1.TypeImportAttribute("EqualityComparer", "System", typeof(n120.EqualityComparer<>), typeof(n370._Operations_), true)]
+[assembly: n1.TypeImportAttribute("EqualityComparer", "System", typeof(n45.EqualityComparer<>), typeof(n370._Operations_), true)]
 [assembly: n1.TypeImportAttribute("GUID", "System", typeof(n29.Guid), typeof(n371._Operations_), true)]
 [assembly: n1.TypeImportAttribute("Console", "System", typeof(n29.Console), null, false)]
 [assembly: n1.TypeImportAttribute("Executor", "System", typeof(n372.Executor_RtZZ4FyuI4GMMxV2NAEzhf), typeof(n372.Executor_RtZZ4FyuI4GMMxV2NAEzhf), false)]
@@ -1162,12 +1162,12 @@ using n277 = global::System.IO;
 [assembly: n1.AdaptiveImplementationsAttribute(typeof(n390.__AdaptiveImplementations__Ve9QvEWam1QMhGjejnDn64))]
 [assembly: n1.AdaptiveImplementationsAttribute(typeof(n391.__AdaptiveImplementations__IIXMQwmVKipN4ReHHIGZLy))]
 [assembly: n1.AdaptiveImplementationsAttribute(typeof(n392.__AdaptiveImplementations__TbpIhqjOLSBPFhdxbH8kpm))]
+[assembly: n1.AdaptiveImplementationsAttribute(typeof(n100.__AdaptiveImplementations__CsYvmiCXzFgMbCg5YvFjkW))]
 [assembly: n1.AdaptiveImplementationsAttribute(typeof(n393.__AdaptiveImplementations__PcdEIeqrXeZQCL5lc35ctR))]
 [assembly: n1.AdaptiveImplementationsAttribute(typeof(n394.__AdaptiveImplementations__GLM1d2Y2hD2MHwjLKXZpSR))]
 [assembly: n1.AdaptiveImplementationsAttribute(typeof(n395.__AdaptiveImplementations__E532zsaM79WPN8Rl3xJlaB))]
-[assembly: n1.AdaptiveImplementationsAttribute(typeof(n175.__AdaptiveImplementations__CsYvmiCXzFgMbCg5YvFjkW))]
-[assembly: n1.AdaptiveImplementationsAttribute(typeof(n396.__AdaptiveImplementations__U2O4IiXgnrTMwv9Zd92a14))]
-[assembly: n1.AdaptiveImplementationsAttribute(typeof(n397.__AdaptiveImplementations__UNgTG11dj1YPpT6hEzII3u))]
+[assembly: n1.AdaptiveImplementationsAttribute(typeof(n396.__AdaptiveImplementations__UNgTG11dj1YPpT6hEzII3u))]
+[assembly: n1.AdaptiveImplementationsAttribute(typeof(n397.__AdaptiveImplementations__U2O4IiXgnrTMwv9Zd92a14))]
 [assembly: n1.AdaptiveImplementationsAttribute(typeof(n398.__AdaptiveImplementations__Q2iWAXgl3GDPCvxD5IfFJH))]
 [assembly: n1.AdaptiveImplementationsAttribute(typeof(n399.__AdaptiveImplementations__LiIPinoB4LjLRms7uZqVID))]
 [assembly: n1.AdaptiveImplementationsAttribute(typeof(n400.__AdaptiveImplementations__AeLw27X3UZTPbUKzkJqoag))]

@@ -1,81 +1,81 @@
-﻿extern alias e2;
-extern alias e5;
-extern alias e1;
+﻿extern alias e3;
+extern alias e2;
+extern alias e4;
 
-using n55 = _CoreLibBasics_.Primitive.Delegates.Delegate__2_MG_0.Advanced;
+using n60 = _CoreLibBasics_.Primitive.Delegates.Delegate__2_MG_0.Advanced;
 using n16 = _VL_Collections_.Collections.IReadOnlyList;
-using n34 = _CoreLibBasics_.Primitive.Int3;
-using n59 = _CoreLibBasics_.Primitive.Delegates.Delegate__1_MG_0.Advanced;
+using n37 = _CoreLibBasics_.Primitive.Int3;
+using n64 = _CoreLibBasics_.Primitive.Delegates.Delegate__1_MG_0.Advanced;
 using n14 = _CoreLibBasics_.Control.Advanced;
-using n42 = e2::VL.Lib.Collections;
-using n57 = _VL_Collections_.Collections.Trees.Internal;
-using n10 = e2::VL.Lib.Primitive;
+using n5 = e2::VL.Lib.Collections;
+using n42 = e3::VL.Lib.Primitive.CacheRegion;
+using n62 = _VL_Collections_.Collections.Trees.Internal;
 using n3 = _VL_Collections_.Collections;
-using n53 = global::System.Reactive.Subjects;
+using n58 = global::System.Reactive.Subjects;
 using n11 = _VL_Collections_.Collections.Mutable.MutableDictionary.Advanced;
-using n54 = _CoreLibBasics_.Primitive.Object.Advanced;
-using n22 = _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced;
-using n31 = _CoreLibBasics_.Control;
+using n59 = _CoreLibBasics_.Primitive.Object.Advanced;
+using n24 = _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced;
+using n34 = _CoreLibBasics_.Control;
 using n21 = global::System.Collections.Immutable;
-using n37 = global::System.Collections.ObjectModel;
-using n26 = e2::VL.Lib.Collections.Spread;
-using n25 = e2::VL.Lib.Mathematics;
-using n24 = _CoreLibBasics_._2D;
+using n40 = global::System.Collections.ObjectModel;
+using n56 = e3::VL.Lib.Collections.TreePatching;
+using n29 = _CoreLibBasics_._2D;
 using n15 = global::System.Collections;
-using n4 = e5::VL.Core.CompilerServices;
-using n65 = _CoreLibBasics_.Primitive.Delegates.Delegate__0_MG_1.Advanced;
-using n27 = _CoreLibBasics_.Math.Ranges.Range;
-using n60 = _VL_Collections_.Collections.Trees.Command.Continue;
+using n50 = _CoreLibBasics_.Primitive.Delegates.Delegate__0_MG_1.Advanced;
+using n30 = _CoreLibBasics_.Math.Ranges.Range;
+using n65 = _VL_Collections_.Collections.Trees.Command.Continue;
+using n25 = e3::VL.Lib.Collections.Spread;
 using n6 = global::System.Collections.Generic;
-using n30 = _CoreLibBasics_._2D.Vector2;
-using n23 = e1::Stride.Core.Mathematics;
+using n33 = _CoreLibBasics_._2D.Vector2;
 using n20 = _VL_Collections_.Collections.Common.KeyValuePair;
-using n18 = _CoreLibBasics_.Math.Adaptive;
-using n44 = _VL_Collections_.Collections.Common.Advanced;
-using n19 = _CoreLibBasics_.Primitive.Advanced.Adaptive;
-using n61 = _VL_Collections_.Collections.Mutable.MutableList.Advanced;
-using n40 = e2::VL.Lib.Primitive.CacheRegion;
-using n29 = _VL_Collections_.Collections.Spread.Advanced;
+using n19 = _CoreLibBasics_.Math.Adaptive;
+using n54 = e2::VL.Lib.Basics.Resources;
+using n51 = _VL_Collections_.Collections.Common.Advanced;
+using n18 = _CoreLibBasics_.Primitive.Advanced.Adaptive;
+using n35 = e3::VL.Lib.Collections.Spread.SpreadGenerators;
+using n22 = _VL_Collections_.Collections.Mutable.MutableList.Advanced;
+using n32 = _VL_Collections_.Collections.Spread.Advanced;
+using n61 = e3::VL.Lib.Collections.Trees;
+using n10 = e3::VL.Lib.Primitive;
 using n13 = _CoreLibBasics_.Math.Ranges.Generic.Advanced;
-using n1 = e5::VL.Core;
+using n41 = e2::VL.Lib.Basics.Imaging;
+using n27 = e3::VL.Lib.Mathematics;
 using n69 = _CoreLibBasics_.IO.Stream.Experimental;
-using n62 = e5::VL.Core.CompilerServices.CollectionBuilders;
-using n49 = _VL_Collections_.Collections.Spread.Internal;
-using n32 = e2::VL.Lib.Collections.Spread.SpreadGenerators;
-using n45 = _CoreLibBasics_.Primitive.Delegates.Delegate__2_MG_1.Advanced;
-using n48 = e5::VL.Lib.Basics.Resources;
-using n58 = _VL_Collections_.Collections.Trees.IReadOnlyTree;
+using n48 = _VL_Collections_.Collections.Spread.Internal;
+using n1 = e2::VL.Core;
+using n47 = _CoreLibBasics_.Primitive.Delegates.Delegate__2_MG_1.Advanced;
+using n63 = _VL_Collections_.Collections.Trees.IReadOnlyTree;
 using n2 = global::System;
-using n33 = _CoreLibBasics_.Primitive.Int2;
-using n41 = e2::VL.Lib;
+using n36 = _CoreLibBasics_.Primitive.Int2;
+using n26 = e4::Stride.Core.Mathematics;
 using n17 = _CoreLibBasics_.Primitive.Delegates.Delegate__1_MG_1.Advanced;
-using n46 = e2::VL.Lib.IO;
-using n28 = _CoreLibBasics_._2D.Rectangle;
-using n52 = _VL_Collections_.Collections.Trees.Patching.TreeNodeParentManager.Advanced;
-using n64 = _VL_Collections_.Collections.Spread.ResampleHermite;
-using n43 = global::System.Collections.Concurrent;
-using n38 = _VL_Collections_.Collections.Mutable.MutableArray.Advanced;
+using n31 = _CoreLibBasics_._2D.Rectangle;
+using n57 = _VL_Collections_.Collections.Trees.Patching.TreeNodeParentManager.Advanced;
+using n52 = e3::VL.Lib.IO;
+using n4 = e2::VL.Core.CompilerServices;
+using n49 = _VL_Collections_.Collections.Spread.ResampleHermite;
+using n23 = e3::VL.Lib.Collections;
+using n43 = e3::VL.Lib;
+using n44 = global::System.Collections.Concurrent;
+using n28 = _VL_Collections_.Collections.Mutable.MutableArray.Advanced;
+using n45 = e2::VL.Core.CompilerServices.CollectionBuilders;
 using n12 = _VL_Collections_;
-using n39 = e5::VL.Lib.Basics.Imaging;
-using n51 = e2::VL.Lib.Collections.TreePatching;
 using n8 = _VL_Collections_.Collections.Sequence;
 using n9 = global::System.Runtime.CompilerServices;
-using n35 = _CoreLibBasics_.Math;
-using n5 = e5::VL.Lib.Collections;
-using n50 = _VL_Collections_.Collections.Trees.Patching.Advanced;
-using n36 = global::System.Linq;
+using n38 = _CoreLibBasics_.Math;
+using n55 = _VL_Collections_.Collections.Trees.Patching.Advanced;
+using n39 = global::System.Linq;
 using n70 = _VL_Collections_.Collections.Trees.Command;
 using n7 = _VL_Collections_.Collections.Spread;
-using n63 = _VL_CoreLib_Experimental_.Control.Experimental;
+using n46 = _VL_CoreLib_Experimental_.Control.Experimental;
 using n68 = _CoreLibBasics_.Primitive.Advanced;
 using n67 = _CoreLibBasics_._3D.Vector4;
 using n66 = _CoreLibBasics_._3D.Vector3;
-using n56 = e2::VL.Lib.Collections.Trees;
-using n47 = global::System.IO;
+using n53 = global::System.IO;
 
 namespace _VL_Collections_.Collections
 {
-    [n1.ElementAttribute(TracingId = 223689U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "EAvS1XXezCmL7nXpFVvQcX", Name = "SequenceChanged_EAvS1XXezCmL7nXpFVvQcX")]
+    [n1.ElementAttribute(TracingId = 260685U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "EAvS1XXezCmL7nXpFVvQcX", Name = "SequenceChanged_EAvS1XXezCmL7nXpFVvQcX")]
     [n2.SerializableAttribute]
     public class SequenceChanged_EAvS1XXezCmL7nXpFVvQcX<T> : n1.VLObject, n2.IDisposable
     {
@@ -144,7 +144,7 @@ namespace _VL_Collections_.Collections
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 223694U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "BBzn2bqLt0OP7PKyQQICko", Name = "Old")]
+        [n1.ElementAttribute(TracingId = 260687U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "BBzn2bqLt0OP7PKyQQICko", Name = "Old")]
         public n5.Spread<T> Old;
         public SequenceChanged_EAvS1XXezCmL7nXpFVvQcX(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -175,7 +175,7 @@ namespace _VL_Collections_.Collections
         }
     }
 
-    [n1.ElementAttribute(TracingId = 258162U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "BV2Obs1leaVL5nSQLQYPAJ", Name = "CountOccurance_BV2Obs1leaVL5nSQLQYPAJ")]
+    [n1.ElementAttribute(TracingId = 273535U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "BV2Obs1leaVL5nSQLQYPAJ", Name = "CountOccurance_BV2Obs1leaVL5nSQLQYPAJ")]
     [n2.SerializableAttribute]
     public class CountOccurance_BV2Obs1leaVL5nSQLQYPAJ<T> : n1.VLObject, n2.IDisposable
     {
@@ -243,7 +243,7 @@ namespace _VL_Collections_.Collections
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 258170U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "EJ03L15nYYhQX8P4WGdaSt", Name = "Dictionary")]
+        [n1.ElementAttribute(TracingId = 273540U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "EJ03L15nYYhQX8P4WGdaSt", Name = "Dictionary")]
         public n6.Dictionary<T, int> Dictionary;
         public CountOccurance_BV2Obs1leaVL5nSQLQYPAJ(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -274,7 +274,7 @@ namespace _VL_Collections_.Collections
         }
     }
 
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         public static void SpreadMax([n4.SerializedDefaultValueAttribute("-1", false)] int Accumulator_In, n15.ICollection Input_In, out int Output_Out)
@@ -293,7 +293,7 @@ namespace _VL_Collections_.Collections
         }
 
         public static void BinarySearch_KeySelector<T3, T, T2, AdM>(T3 Input_In, n2.Func<T, T2> Key_Selector_In, T2 Search_Key_In, out T Lower_Value_Out, out T Upper_value_Out, out T2 Lower_Key_Out, out T2 Upper_Key_Out, out int Lower_Index_Out, out int Upper_Index_Out, out bool Success_Out)
-            where T3 : n6.IReadOnlyList<T> where AdM : struct, n18.IAdaptiveOperatorLessThan<T2>, n18.IAdaptiveOperatorLess<T2>, n19.IAdaptiveCreateDefault<T>, n18.IAdaptiveOperatorGreaterThan<T2>, n18.IAdaptiveOperatorGreater<T2>, n19.IAdaptiveCreateDefault<T2>
+            where T3 : n6.IReadOnlyList<T> where AdM : struct, n18.IAdaptiveCreateDefault<T2>, n18.IAdaptiveCreateDefault<T>, n19.IAdaptiveOperatorLess<T2>, n19.IAdaptiveOperatorGreater<T2>, n19.IAdaptiveOperatorLessThan<T2>, n19.IAdaptiveOperatorGreaterThan<T2>
         {
             var w_0 = default(AdM);
             int __pad_E6ljHABzB4CPyUcxJmddcH_1 = __slot_E6ljHABzB4CPyUcxJmddcH;
@@ -482,7 +482,7 @@ namespace _VL_Collections_.Collections
         }
 
         public static void BinarySearch<T2, T, AdM>(T2 Input_In, T Search_Key_In, out T Lower_Value_Out, out T Upper_value_Out, out int Lower_Index_Out, out int Upper_Index_Out, out bool Success_Out)
-            where T2 : n6.IReadOnlyList<T> where AdM : struct, n18.IAdaptiveOperatorGreaterThan<T>, n18.IAdaptiveOperatorGreater<T>, n18.IAdaptiveOperatorLessThan<T>, n19.IAdaptiveCreateDefault<T>, n18.IAdaptiveOperatorLess<T>
+            where T2 : n6.IReadOnlyList<T> where AdM : struct, n19.IAdaptiveOperatorGreater<T>, n18.IAdaptiveCreateDefault<T>, n19.IAdaptiveOperatorGreaterThan<T>, n19.IAdaptiveOperatorLess<T>, n19.IAdaptiveOperatorLessThan<T>
         {
             var w_0 = default(AdM);
             int __pad_LpGRq3iumccLGaANaFDbUv_1 = __slot_LpGRq3iumccLGaANaFDbUv;
@@ -654,7 +654,7 @@ namespace _VL_Collections_.Collections
         }
 
         public static void BinarySearch_KeyValuePair_Lerp<T2, T, AdM>(T2 Input_In, float Search_Key_In, out T Value_Out, out float Position_Out, out T Lower_Value_Out, out T Upper_value_Out, out float Lower_Key_Out, out float Upper_Key_Out, out int Lower_Index_Out, out int Upper_Index_Out, out bool Success_Out)
-            where T2 : n6.IReadOnlyList<n6.KeyValuePair<float, T>> where AdM : struct, n18.IAdaptiveOperatorGreaterThan<float>, n18.IAdaptiveLerp<T>, n18.IAdaptiveOperatorLessThan<float>, n19.IAdaptiveCreateDefault<T>, n18.IAdaptiveOperatorGreater<float>, n18.IAdaptiveOperatorLess<float>, n19.IAdaptiveCreateDefault<float>
+            where T2 : n6.IReadOnlyList<n6.KeyValuePair<float, T>> where AdM : struct, n18.IAdaptiveCreateDefault<T>, n19.IAdaptiveOperatorGreater<float>, n19.IAdaptiveOperatorLess<float>, n19.IAdaptiveOperatorLessThan<float>, n19.IAdaptiveLerp<T>, n19.IAdaptiveOperatorGreaterThan<float>, n18.IAdaptiveCreateDefault<float>
         {
             var w_0 = default(AdM);
             float __pad_IxOnmN7NF35MHbsaN6FgRl_1 = __slot_IxOnmN7NF35MHbsaN6FgRl;
@@ -688,7 +688,7 @@ namespace _VL_Collections_.Collections
         }
 
         public static void BinarySearch_KeySelector_Lerp<T2, T, AdM>(T2 Input_In, n2.Func<T, float> Key_Selector_In, float Search_Key_In, out T Value_Out, out float Position_Out, out T Lower_Value_Out, out T Upper_value_Out, out float Lower_Key_Out, out float Upper_Key_Out, out int Lower_Index_Out, out int Upper_Index_Out, out bool Success_Out)
-            where T2 : n6.IReadOnlyList<T> where AdM : struct, n18.IAdaptiveOperatorGreaterThan<float>, n18.IAdaptiveLerp<T>, n18.IAdaptiveOperatorLessThan<float>, n19.IAdaptiveCreateDefault<T>, n18.IAdaptiveOperatorGreater<float>, n18.IAdaptiveOperatorLess<float>, n19.IAdaptiveCreateDefault<float>
+            where T2 : n6.IReadOnlyList<T> where AdM : struct, n18.IAdaptiveCreateDefault<T>, n19.IAdaptiveOperatorGreater<float>, n19.IAdaptiveOperatorLess<float>, n19.IAdaptiveOperatorLessThan<float>, n19.IAdaptiveLerp<T>, n19.IAdaptiveOperatorGreaterThan<float>, n18.IAdaptiveCreateDefault<float>
         {
             var w_0 = default(AdM);
             float __pad_K2uiaZkYaEFQHtCoOEuv40_1 = __slot_K2uiaZkYaEFQHtCoOEuv40;
@@ -722,7 +722,7 @@ namespace _VL_Collections_.Collections
         }
 
         public static void BinarySearch_KeyValuePair<T3, T2, T, AdM>(T3 Input_In, T2 Search_Key_In, out T Lower_Value_Out, out T Upper_value_Out, out T2 Lower_Key_Out, out T2 Upper_Key_Out, out int Lower_Index_Out, out int Upper_Index_Out, out bool Success_Out)
-            where T3 : n6.IReadOnlyList<n6.KeyValuePair<T2, T>> where AdM : struct, n18.IAdaptiveOperatorLessThan<T2>, n18.IAdaptiveOperatorLess<T2>, n19.IAdaptiveCreateDefault<T>, n18.IAdaptiveOperatorGreaterThan<T2>, n18.IAdaptiveOperatorGreater<T2>, n19.IAdaptiveCreateDefault<T2>
+            where T3 : n6.IReadOnlyList<n6.KeyValuePair<T2, T>> where AdM : struct, n18.IAdaptiveCreateDefault<T2>, n18.IAdaptiveCreateDefault<T>, n19.IAdaptiveOperatorLess<T2>, n19.IAdaptiveOperatorGreater<T2>, n19.IAdaptiveOperatorLessThan<T2>, n19.IAdaptiveOperatorGreaterThan<T2>
         {
             var w_0 = default(AdM);
             int __pad_M1apjjwl88XMkzYjhJBjzk_1 = __slot_M1apjjwl88XMkzYjhJBjzk;
@@ -913,7 +913,7 @@ namespace _VL_Collections_.Collections
         }
 
         public static void IndexOf_KeySelector<T3, T2, T, AdM>(T3 Input_In, n2.Func<T2, T> Key_Selector_In, T Key_In, out int Index_Out, out bool Success_Out)
-            where T3 : n6.IEnumerable<T2> where AdM : struct, n18.IAdaptiveOperatorEquals<T>
+            where T3 : n6.IEnumerable<T2> where AdM : struct, n19.IAdaptiveOperatorEquals<T>
         {
             var w_0 = default(AdM);
             var accumulator_7 = 0;
@@ -943,7 +943,7 @@ namespace _VL_Collections_.Collections
         }
 
         public static void Search_KeySelector<T3, T, T2, AdM>(T3 Input_In, T Default_Value_In, n2.Func<T, T2> Key_Selector_In, T2 Key_In, out T Result_Out, out int Index_Out, out bool Success_Out)
-            where T3 : n6.IReadOnlyList<T> where AdM : struct, n18.IAdaptiveOperatorEquals<T2>
+            where T3 : n6.IReadOnlyList<T> where AdM : struct, n19.IAdaptiveOperatorEquals<T2>
         {
             var w_0 = default(AdM);
             n3._Operations_.IndexOf_KeySelector<T3, T, T2, AdM>(Input_In: Input_In, Key_Selector_In: Key_Selector_In, Key_In: Key_In, Index_Out: out int Index_1, Success_Out: out bool Success_2);
@@ -966,7 +966,7 @@ namespace _VL_Collections_.Collections
         }
 
         public static void Search<T2, T, AdM>(T2 Input_In, T Default_Value_In, T Item_In, out T Result_Out, out int Index_Out, out bool Success_Out)
-            where T2 : n6.IReadOnlyList<T> where AdM : struct, n18.IAdaptiveOperatorEquals<T>
+            where T2 : n6.IReadOnlyList<T> where AdM : struct, n19.IAdaptiveOperatorEquals<T>
         {
             var w_0 = default(AdM);
             n6.IReadOnlyList<T> Input_1 = (n6.IReadOnlyList<T>)Input_In;
@@ -1007,51 +1007,51 @@ namespace _VL_Collections_.Collections
             return;
         }
 
-        [n1.ElementAttribute(TracingId = 224332U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "E6ljHABzB4CPyUcxJmddcH", Name = "__slot_E6ljHABzB4CPyUcxJmddcH")]
+        [n1.ElementAttribute(TracingId = 260896U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "E6ljHABzB4CPyUcxJmddcH", Name = "__slot_E6ljHABzB4CPyUcxJmddcH")]
         public static int __slot_E6ljHABzB4CPyUcxJmddcH = 0;
-        [n1.ElementAttribute(TracingId = 224605U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "ESwmBIYiu5UPNodaCtRpNt", Name = "__slot_ESwmBIYiu5UPNodaCtRpNt")]
+        [n1.ElementAttribute(TracingId = 261048U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "ESwmBIYiu5UPNodaCtRpNt", Name = "__slot_ESwmBIYiu5UPNodaCtRpNt")]
         public static int __slot_ESwmBIYiu5UPNodaCtRpNt = 2;
-        [n1.ElementAttribute(TracingId = 224787U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "FU6bV7S3bZDMylgZ1CLmvg", Name = "__slot_FU6bV7S3bZDMylgZ1CLmvg")]
+        [n1.ElementAttribute(TracingId = 261131U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "FU6bV7S3bZDMylgZ1CLmvg", Name = "__slot_FU6bV7S3bZDMylgZ1CLmvg")]
         public static int __slot_FU6bV7S3bZDMylgZ1CLmvg = 2;
-        [n1.ElementAttribute(TracingId = 224791U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "ExJt0Zvpv3xPLKdRrsohuE", Name = "__slot_ExJt0Zvpv3xPLKdRrsohuE")]
+        [n1.ElementAttribute(TracingId = 261132U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "ExJt0Zvpv3xPLKdRrsohuE", Name = "__slot_ExJt0Zvpv3xPLKdRrsohuE")]
         public static int __slot_ExJt0Zvpv3xPLKdRrsohuE = 64;
-        [n1.ElementAttribute(TracingId = 224159U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "VLWhdpFAa1hOz2VWE8P6FT", Name = "__slot_VLWhdpFAa1hOz2VWE8P6FT")]
+        [n1.ElementAttribute(TracingId = 260826U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "VLWhdpFAa1hOz2VWE8P6FT", Name = "__slot_VLWhdpFAa1hOz2VWE8P6FT")]
         public static int __slot_VLWhdpFAa1hOz2VWE8P6FT = 2;
-        [n1.ElementAttribute(TracingId = 224174U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Aez7tWh4maaNGo9wIkhJPC", Name = "__slot_Aez7tWh4maaNGo9wIkhJPC")]
+        [n1.ElementAttribute(TracingId = 260831U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Aez7tWh4maaNGo9wIkhJPC", Name = "__slot_Aez7tWh4maaNGo9wIkhJPC")]
         public static int __slot_Aez7tWh4maaNGo9wIkhJPC = 0;
-        [n1.ElementAttribute(TracingId = 224215U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Ut33LdMYTimNyyTIzCXbNi", Name = "__slot_Ut33LdMYTimNyyTIzCXbNi")]
+        [n1.ElementAttribute(TracingId = 260851U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Ut33LdMYTimNyyTIzCXbNi", Name = "__slot_Ut33LdMYTimNyyTIzCXbNi")]
         public static int __slot_Ut33LdMYTimNyyTIzCXbNi = 2;
-        [n1.ElementAttribute(TracingId = 225220U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "LpGRq3iumccLGaANaFDbUv", Name = "__slot_LpGRq3iumccLGaANaFDbUv")]
+        [n1.ElementAttribute(TracingId = 261279U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "LpGRq3iumccLGaANaFDbUv", Name = "__slot_LpGRq3iumccLGaANaFDbUv")]
         public static int __slot_LpGRq3iumccLGaANaFDbUv = 0;
-        [n1.ElementAttribute(TracingId = 225750U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "HZXH7m9TzXyNqJL5lBuPJy", Name = "__slot_HZXH7m9TzXyNqJL5lBuPJy")]
+        [n1.ElementAttribute(TracingId = 261407U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "HZXH7m9TzXyNqJL5lBuPJy", Name = "__slot_HZXH7m9TzXyNqJL5lBuPJy")]
         public static int __slot_HZXH7m9TzXyNqJL5lBuPJy = 2;
-        [n1.ElementAttribute(TracingId = 225876U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "U4CcLS7rtkLMCV0sNUF7is", Name = "__slot_U4CcLS7rtkLMCV0sNUF7is")]
+        [n1.ElementAttribute(TracingId = 261473U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "U4CcLS7rtkLMCV0sNUF7is", Name = "__slot_U4CcLS7rtkLMCV0sNUF7is")]
         public static int __slot_U4CcLS7rtkLMCV0sNUF7is = 2;
-        [n1.ElementAttribute(TracingId = 225878U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "GxQFDF4adKROyQkppkNDLi", Name = "__slot_GxQFDF4adKROyQkppkNDLi")]
+        [n1.ElementAttribute(TracingId = 261474U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "GxQFDF4adKROyQkppkNDLi", Name = "__slot_GxQFDF4adKROyQkppkNDLi")]
         public static int __slot_GxQFDF4adKROyQkppkNDLi = 64;
-        [n1.ElementAttribute(TracingId = 225021U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "SSnUmueykTPLl0Nw7ZrK8c", Name = "__slot_SSnUmueykTPLl0Nw7ZrK8c")]
+        [n1.ElementAttribute(TracingId = 261219U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "SSnUmueykTPLl0Nw7ZrK8c", Name = "__slot_SSnUmueykTPLl0Nw7ZrK8c")]
         public static int __slot_SSnUmueykTPLl0Nw7ZrK8c = 2;
-        [n1.ElementAttribute(TracingId = 225050U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "AgSL25BLxD0O79bG1xpZtQ", Name = "__slot_AgSL25BLxD0O79bG1xpZtQ")]
+        [n1.ElementAttribute(TracingId = 261224U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "AgSL25BLxD0O79bG1xpZtQ", Name = "__slot_AgSL25BLxD0O79bG1xpZtQ")]
         public static int __slot_AgSL25BLxD0O79bG1xpZtQ = 0;
-        [n1.ElementAttribute(TracingId = 225101U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "BdI6NcKudw9PBE65xqdpIe", Name = "__slot_BdI6NcKudw9PBE65xqdpIe")]
+        [n1.ElementAttribute(TracingId = 261244U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "BdI6NcKudw9PBE65xqdpIe", Name = "__slot_BdI6NcKudw9PBE65xqdpIe")]
         public static int __slot_BdI6NcKudw9PBE65xqdpIe = 2;
-        [n1.ElementAttribute(TracingId = 225999U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "IxOnmN7NF35MHbsaN6FgRl", Name = "__slot_IxOnmN7NF35MHbsaN6FgRl")]
+        [n1.ElementAttribute(TracingId = 261540U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "IxOnmN7NF35MHbsaN6FgRl", Name = "__slot_IxOnmN7NF35MHbsaN6FgRl")]
         public static float __slot_IxOnmN7NF35MHbsaN6FgRl = 1F;
-        [n1.ElementAttribute(TracingId = 226139U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "K2uiaZkYaEFQHtCoOEuv40", Name = "__slot_K2uiaZkYaEFQHtCoOEuv40")]
+        [n1.ElementAttribute(TracingId = 261618U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "K2uiaZkYaEFQHtCoOEuv40", Name = "__slot_K2uiaZkYaEFQHtCoOEuv40")]
         public static float __slot_K2uiaZkYaEFQHtCoOEuv40 = 1F;
-        [n1.ElementAttribute(TracingId = 226450U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "M1apjjwl88XMkzYjhJBjzk", Name = "__slot_M1apjjwl88XMkzYjhJBjzk")]
+        [n1.ElementAttribute(TracingId = 261792U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "M1apjjwl88XMkzYjhJBjzk", Name = "__slot_M1apjjwl88XMkzYjhJBjzk")]
         public static int __slot_M1apjjwl88XMkzYjhJBjzk = 0;
-        [n1.ElementAttribute(TracingId = 226704U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "SiVEzp5XqZePhsHaLNxM3g", Name = "__slot_SiVEzp5XqZePhsHaLNxM3g")]
+        [n1.ElementAttribute(TracingId = 261946U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "SiVEzp5XqZePhsHaLNxM3g", Name = "__slot_SiVEzp5XqZePhsHaLNxM3g")]
         public static int __slot_SiVEzp5XqZePhsHaLNxM3g = 2;
-        [n1.ElementAttribute(TracingId = 226873U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "BCN8L2TnkXoL4xg42yuf7d", Name = "__slot_BCN8L2TnkXoL4xg42yuf7d")]
+        [n1.ElementAttribute(TracingId = 262034U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "BCN8L2TnkXoL4xg42yuf7d", Name = "__slot_BCN8L2TnkXoL4xg42yuf7d")]
         public static int __slot_BCN8L2TnkXoL4xg42yuf7d = 2;
-        [n1.ElementAttribute(TracingId = 226874U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "JdKYfBdhD9KMsisPRu2S9p", Name = "__slot_JdKYfBdhD9KMsisPRu2S9p")]
+        [n1.ElementAttribute(TracingId = 262035U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "JdKYfBdhD9KMsisPRu2S9p", Name = "__slot_JdKYfBdhD9KMsisPRu2S9p")]
         public static int __slot_JdKYfBdhD9KMsisPRu2S9p = 64;
-        [n1.ElementAttribute(TracingId = 226382U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "HHyaLTZ3pBnNulcjeSgPSA", Name = "__slot_HHyaLTZ3pBnNulcjeSgPSA")]
+        [n1.ElementAttribute(TracingId = 261724U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "HHyaLTZ3pBnNulcjeSgPSA", Name = "__slot_HHyaLTZ3pBnNulcjeSgPSA")]
         public static int __slot_HHyaLTZ3pBnNulcjeSgPSA = 2;
-        [n1.ElementAttribute(TracingId = 226387U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "JEBQqxHkKSPPwxtfWYciIo", Name = "__slot_JEBQqxHkKSPPwxtfWYciIo")]
+        [n1.ElementAttribute(TracingId = 261729U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "JEBQqxHkKSPPwxtfWYciIo", Name = "__slot_JEBQqxHkKSPPwxtfWYciIo")]
         public static int __slot_JEBQqxHkKSPPwxtfWYciIo = 0;
-        [n1.ElementAttribute(TracingId = 226407U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "EQkNSQ8sO8rOEbBF5qq5FQ", Name = "__slot_EQkNSQ8sO8rOEbBF5qq5FQ")]
+        [n1.ElementAttribute(TracingId = 261749U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "EQkNSQ8sO8rOEbBF5qq5FQ", Name = "__slot_EQkNSQ8sO8rOEbBF5qq5FQ")]
         public static int __slot_EQkNSQ8sO8rOEbBF5qq5FQ = 2;
         static _Operations_()
         {
@@ -1061,7 +1061,7 @@ namespace _VL_Collections_.Collections
 
 namespace _VL_Collections_.Collections.Dictionary
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
@@ -1207,7 +1207,7 @@ namespace _VL_Collections_.Collections.Dictionary
 
 namespace _VL_Collections_.Collections.HashSet
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
@@ -1318,7 +1318,7 @@ namespace _VL_Collections_.Collections.HashSet
 
 namespace _VL_Collections_.Collections.Interfaces.IDictionary.Advanced
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
@@ -1332,7 +1332,7 @@ namespace _VL_Collections_.Collections.Interfaces.IDictionary.Advanced
 
 namespace _VL_Collections_.Collections.Interfaces.Sequence_NonGeneric.Advanced
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
@@ -1347,7 +1347,7 @@ namespace _VL_Collections_.Collections.Interfaces.Sequence_NonGeneric.Advanced
 
 namespace _VL_Collections_.Collections.Interfaces.ICollection_NonGeneric.Advanced
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
@@ -1361,20 +1361,20 @@ namespace _VL_Collections_.Collections.Interfaces.ICollection_NonGeneric.Advance
 
 namespace _VL_Collections_.Collections.Interfaces.IMutableList.Advanced
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
         public static n6.List<T> CreateDefault<T>()
         {
-            var Output_0 = n61._Operations_.CreateDefault<T>();
+            var Output_0 = n22._Operations_.CreateDefault<T>();
             return Output_0;
         }
 
         public static void SetSlice<T2, T>(T2 Input_In, T Value_In, int Index_In, out T2 Output_Out)
             where T2 : n6.IList<T>
         {
-            var Output_0 = n42.CollectionNodes.SetSlice<T2, T>(input: Input_In, value: Value_In, index: Index_In);
+            var Output_0 = n23.CollectionNodes.SetSlice<T2, T>(input: Input_In, value: Value_In, index: Index_In);
             Output_Out = Output_0;
             return;
         }
@@ -1383,7 +1383,7 @@ namespace _VL_Collections_.Collections.Interfaces.IMutableList.Advanced
 
 namespace _VL_Collections_.Collections.Interfaces.IMutableDictionary.Advanced
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
@@ -1394,7 +1394,7 @@ namespace _VL_Collections_.Collections.Interfaces.IMutableDictionary.Advanced
             return Output_1;
         }
 
-        [n1.ElementAttribute(TracingId = 227070U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "PR8tDVT42iqP13w5t9tW6J", Name = "__slot_PR8tDVT42iqP13w5t9tW6J")]
+        [n1.ElementAttribute(TracingId = 262129U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "PR8tDVT42iqP13w5t9tW6J", Name = "__slot_PR8tDVT42iqP13w5t9tW6J")]
         public static int __slot_PR8tDVT42iqP13w5t9tW6J = 0;
         static _Operations_()
         {
@@ -1404,7 +1404,7 @@ namespace _VL_Collections_.Collections.Interfaces.IMutableDictionary.Advanced
 
 namespace _VL_Collections_.Collections.Interfaces.IReadOnlyDictionary.Advanced
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
@@ -1418,7 +1418,7 @@ namespace _VL_Collections_.Collections.Interfaces.IReadOnlyDictionary.Advanced
 
 namespace _VL_Collections_.Collections.Interfaces.ICollection.Advanced
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
@@ -1429,7 +1429,7 @@ namespace _VL_Collections_.Collections.Interfaces.ICollection.Advanced
             return Output_1;
         }
 
-        [n1.ElementAttribute(TracingId = 227122U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "RxPBFMeiU1OPgnWCH7002p", Name = "__slot_RxPBFMeiU1OPgnWCH7002p")]
+        [n1.ElementAttribute(TracingId = 262152U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "RxPBFMeiU1OPgnWCH7002p", Name = "__slot_RxPBFMeiU1OPgnWCH7002p")]
         public static int __slot_RxPBFMeiU1OPgnWCH7002p = 0;
         static _Operations_()
         {
@@ -1439,7 +1439,7 @@ namespace _VL_Collections_.Collections.Interfaces.ICollection.Advanced
 
 namespace _VL_Collections_.Collections.Interfaces.IReadOnlyCollection.Advanced
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
@@ -1453,7 +1453,7 @@ namespace _VL_Collections_.Collections.Interfaces.IReadOnlyCollection.Advanced
 
 namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         public static void Add<T>(n5.SpreadBuilder<T> Input_In, T Item_In, out n5.SpreadBuilder<T> Output_Out)
@@ -1593,27 +1593,27 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
 
         public static void Repeat<T>(T Element_In, int Count_In, out n5.SpreadBuilder<T> Result_Out)
         {
-            n1.NodeContext Node_Context_0 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "RjKd4Dc4PtENtLKhDlt028", 227589U);
-            n22._Operations_.Create<T>(Node_Context: Node_Context_0, Capacity_In: Count_In, Output_Out: out n5.SpreadBuilder<T> Output_1);
+            n1.NodeContext Node_Context_0 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "RjKd4Dc4PtENtLKhDlt028", 262362U);
+            n24._Operations_.Create<T>(Node_Context: Node_Context_0, Capacity_In: Count_In, Output_Out: out n5.SpreadBuilder<T> Output_1);
             n8._Operations_.Repeat<T>(Element_In: Element_In, Count_In: Count_In, Result_Out: out n6.IEnumerable<T> Result_2);
-            n22._Operations_.AddRange<T>(Input_In: Output_1, Items_In: Result_2, Output_Out: out n5.SpreadBuilder<T> Output_3);
+            n24._Operations_.AddRange<T>(Input_In: Output_1, Items_In: Result_2, Output_Out: out n5.SpreadBuilder<T> Output_3);
             Result_Out = Output_3;
             return;
         }
 
         public static void RepeatRowsCols<T>(T Element_In, int Row_Count_In, int Column_Count_In, out n5.SpreadBuilder<n5.SpreadBuilder<T>> Result_Out)
         {
-            n1.NodeContext Node_Context_0 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "H0ZKLS5mjgWN0BJYaJqjmf", 227639U);
-            n22._Operations_.Create<n5.SpreadBuilder<T>>(Node_Context: Node_Context_0, Capacity_In: Row_Count_In, Output_Out: out n5.SpreadBuilder<n5.SpreadBuilder<T>> Output_1);
+            n1.NodeContext Node_Context_0 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "H0ZKLS5mjgWN0BJYaJqjmf", 262390U);
+            n24._Operations_.Create<n5.SpreadBuilder<T>>(Node_Context: Node_Context_0, Capacity_In: Row_Count_In, Output_Out: out n5.SpreadBuilder<n5.SpreadBuilder<T>> Output_1);
             n5.SpreadBuilder<n5.SpreadBuilder<T>> accumulator_3 = Output_1;
             for (var i_2 = 0; i_2 < Row_Count_In; i_2++)
             {
                 var i_local_4 = i_2;
                 n8._Operations_.Repeat<T>(Element_In: Element_In, Count_In: Column_Count_In, Result_Out: out n6.IEnumerable<T> Result_5);
-                n1.NodeContext Node_Context_6 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "AB5bvkr3MeUPIvD5VE0pxM", 227661U);
-                n22._Operations_.Create<T>(Node_Context: Node_Context_6, Capacity_In: Column_Count_In, Output_Out: out n5.SpreadBuilder<T> Output_7);
-                n22._Operations_.AddRange<T>(Input_In: Output_7, Items_In: Result_5, Output_Out: out n5.SpreadBuilder<T> Output_8);
-                n22._Operations_.Add<n5.SpreadBuilder<T>>(Input_In: accumulator_3, Item_In: Output_8, Output_Out: out n5.SpreadBuilder<n5.SpreadBuilder<T>> Output_9);
+                n1.NodeContext Node_Context_6 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "AB5bvkr3MeUPIvD5VE0pxM", 262403U);
+                n24._Operations_.Create<T>(Node_Context: Node_Context_6, Capacity_In: Column_Count_In, Output_Out: out n5.SpreadBuilder<T> Output_7);
+                n24._Operations_.AddRange<T>(Input_In: Output_7, Items_In: Result_5, Output_Out: out n5.SpreadBuilder<T> Output_8);
+                n24._Operations_.Add<n5.SpreadBuilder<T>>(Input_In: accumulator_3, Item_In: Output_8, Output_Out: out n5.SpreadBuilder<n5.SpreadBuilder<T>> Output_9);
                 accumulator_3 = Output_9;
             }
 
@@ -1651,8 +1651,8 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
 
         public static void SetRowCol<T>(n5.SpreadBuilder<n5.SpreadBuilder<T>> Input_In, int Row_In, int Column_In, T Value_In, out n5.SpreadBuilder<n5.SpreadBuilder<T>> Output_Out)
         {
-            n22._Operations_.GetItem<n5.SpreadBuilder<T>>(Input_In: Input_In, Index_In: Row_In, Output_Out: out n5.SpreadBuilder<n5.SpreadBuilder<T>> Output_0, Item_Out: out n5.SpreadBuilder<T> Item_1);
-            n22._Operations_.SetItem<T>(Input_In: Item_1, Index_In: Column_In, Value_In: Value_In, Output_Out: out n5.SpreadBuilder<T> Output_2);
+            n24._Operations_.GetItem<n5.SpreadBuilder<T>>(Input_In: Input_In, Index_In: Row_In, Output_Out: out n5.SpreadBuilder<n5.SpreadBuilder<T>> Output_0, Item_Out: out n5.SpreadBuilder<T> Item_1);
+            n24._Operations_.SetItem<T>(Input_In: Item_1, Index_In: Column_In, Value_In: Value_In, Output_Out: out n5.SpreadBuilder<T> Output_2);
             Output_Out = Output_0;
             return;
         }
@@ -1681,7 +1681,7 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
 
         public static void FromValue<T>(T Input_In, out n5.SpreadBuilder<T> Result_Out)
         {
-            var Result_0 = n26.SpreadGenerators.ToSpreadBuilder<T>(input: Input_In);
+            var Result_0 = n25.SpreadGenerators.ToSpreadBuilder<T>(input: Input_In);
             Result_Out = Result_0;
             return;
         }
@@ -1699,7 +1699,7 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
                 {
                     var splicer_1 = item_0;
                     var i_local_3 = i_2;
-                    n22._Operations_.ToSpread<T>(Input_In: splicer_1, Output_Out: out n5.SpreadBuilder<T> Output_4, Result_Out: out n5.Spread<T> Result_5);
+                    n24._Operations_.ToSpread<T>(Input_In: splicer_1, Output_Out: out n5.SpreadBuilder<T> Output_4, Result_Out: out n5.Spread<T> Result_5);
                     builder_6.Add(Result_5);
                     i_2++;
                 }
@@ -1713,29 +1713,29 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
             return;
         }
 
-        public static void ValuesToVectors__2D(n5.SpreadBuilder<n23.Vector2> Input_In, n6.IEnumerable<float> Values_In, out n5.SpreadBuilder<n23.Vector2> Output_Out)
+        public static void ValuesToVectors__2D(n5.SpreadBuilder<n26.Vector2> Input_In, n6.IEnumerable<float> Values_In, out n5.SpreadBuilder<n26.Vector2> Output_Out)
         {
-            var Output_0 = n26.ValuesToVectorsNodes.ValuesToVectors2D(builder: Input_In, values: Values_In);
+            var Output_0 = n25.ValuesToVectorsNodes.ValuesToVectors2D(builder: Input_In, values: Values_In);
             Output_Out = Output_0;
             return;
         }
 
-        public static void ValuesToVectors__3D(n5.SpreadBuilder<n23.Vector3> Input_In, n6.IEnumerable<float> Values_In, out n5.SpreadBuilder<n23.Vector3> Output_Out)
+        public static void ValuesToVectors__3D(n5.SpreadBuilder<n26.Vector3> Input_In, n6.IEnumerable<float> Values_In, out n5.SpreadBuilder<n26.Vector3> Output_Out)
         {
-            var Output_0 = n26.ValuesToVectorsNodes.ValuesToVectors3D(builder: Input_In, values: Values_In);
+            var Output_0 = n25.ValuesToVectorsNodes.ValuesToVectors3D(builder: Input_In, values: Values_In);
             Output_Out = Output_0;
             return;
         }
 
-        public static void ValuesToVectors__4D(n5.SpreadBuilder<n23.Vector4> Input_In, n6.IEnumerable<float> Values_In, out n5.SpreadBuilder<n23.Vector4> Output_Out)
+        public static void ValuesToVectors__4D(n5.SpreadBuilder<n26.Vector4> Input_In, n6.IEnumerable<float> Values_In, out n5.SpreadBuilder<n26.Vector4> Output_Out)
         {
-            var Output_0 = n26.ValuesToVectorsNodes.ValuesToVectors4D(builder: Input_In, values: Values_In);
+            var Output_0 = n25.ValuesToVectorsNodes.ValuesToVectors4D(builder: Input_In, values: Values_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void VectorsToValues__2D<T>(n5.SpreadBuilder<float> Input_In, T Vectors_In, out n5.SpreadBuilder<float> Output_Out)
-            where T : n6.IEnumerable<n23.Vector2>
+            where T : n6.IEnumerable<n26.Vector2>
         {
             n5.SpreadBuilder<float> accumulator_1 = Input_In;
             var i_3 = 0;
@@ -1743,9 +1743,9 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
             {
                 var splicer_2 = item_0;
                 var i_local_4 = i_3;
-                n25.Vector2Nodes.Vector(input: ref splicer_2, x: out float X_5, y: out float Y_6);
-                n22._Operations_.Add<float>(Input_In: accumulator_1, Item_In: X_5, Output_Out: out n5.SpreadBuilder<float> Output_7);
-                n22._Operations_.Add<float>(Input_In: Output_7, Item_In: Y_6, Output_Out: out Output_7);
+                n27.Vector2Nodes.Vector(input: ref splicer_2, x: out float X_5, y: out float Y_6);
+                n24._Operations_.Add<float>(Input_In: accumulator_1, Item_In: X_5, Output_Out: out n5.SpreadBuilder<float> Output_7);
+                n24._Operations_.Add<float>(Input_In: Output_7, Item_In: Y_6, Output_Out: out Output_7);
                 accumulator_1 = Output_7;
                 i_3++;
             }
@@ -1755,7 +1755,7 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
         }
 
         public static void VectorsToValues__3D<T>(n5.SpreadBuilder<float> Input_In, T Vectors_In, out n5.SpreadBuilder<float> Output_Out)
-            where T : n6.IEnumerable<n23.Vector3>
+            where T : n6.IEnumerable<n26.Vector3>
         {
             n5.SpreadBuilder<float> accumulator_1 = Input_In;
             var i_3 = 0;
@@ -1763,10 +1763,10 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
             {
                 var splicer_2 = item_0;
                 var i_local_4 = i_3;
-                n25.Vector3Nodes.Vector(input: ref splicer_2, x: out float X_5, y: out float Y_6, z: out float Z_7);
-                n22._Operations_.Add<float>(Input_In: accumulator_1, Item_In: X_5, Output_Out: out n5.SpreadBuilder<float> Output_8);
-                n22._Operations_.Add<float>(Input_In: Output_8, Item_In: Y_6, Output_Out: out Output_8);
-                n22._Operations_.Add<float>(Input_In: Output_8, Item_In: Z_7, Output_Out: out Output_8);
+                n27.Vector3Nodes.Vector(input: ref splicer_2, x: out float X_5, y: out float Y_6, z: out float Z_7);
+                n24._Operations_.Add<float>(Input_In: accumulator_1, Item_In: X_5, Output_Out: out n5.SpreadBuilder<float> Output_8);
+                n24._Operations_.Add<float>(Input_In: Output_8, Item_In: Y_6, Output_Out: out Output_8);
+                n24._Operations_.Add<float>(Input_In: Output_8, Item_In: Z_7, Output_Out: out Output_8);
                 accumulator_1 = Output_8;
                 i_3++;
             }
@@ -1776,7 +1776,7 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
         }
 
         public static void VectorsToValues__4D<T>(n5.SpreadBuilder<float> Input_In, T Vectors_In, out n5.SpreadBuilder<float> Output_Out)
-            where T : n6.IEnumerable<n23.Vector4>
+            where T : n6.IEnumerable<n26.Vector4>
         {
             n5.SpreadBuilder<float> accumulator_1 = Input_In;
             var i_3 = 0;
@@ -1784,11 +1784,11 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
             {
                 var splicer_2 = item_0;
                 var i_local_4 = i_3;
-                n25.Vector4Nodes.Vector(input: ref splicer_2, x: out float X_5, y: out float Y_6, z: out float Z_7, w: out float W_8);
-                n22._Operations_.Add<float>(Input_In: accumulator_1, Item_In: X_5, Output_Out: out n5.SpreadBuilder<float> Output_9);
-                n22._Operations_.Add<float>(Input_In: Output_9, Item_In: Y_6, Output_Out: out Output_9);
-                n22._Operations_.Add<float>(Input_In: Output_9, Item_In: Z_7, Output_Out: out Output_9);
-                n22._Operations_.Add<float>(Input_In: Output_9, Item_In: W_8, Output_Out: out Output_9);
+                n27.Vector4Nodes.Vector(input: ref splicer_2, x: out float X_5, y: out float Y_6, z: out float Z_7, w: out float W_8);
+                n24._Operations_.Add<float>(Input_In: accumulator_1, Item_In: X_5, Output_Out: out n5.SpreadBuilder<float> Output_9);
+                n24._Operations_.Add<float>(Input_In: Output_9, Item_In: Y_6, Output_Out: out Output_9);
+                n24._Operations_.Add<float>(Input_In: Output_9, Item_In: Z_7, Output_Out: out Output_9);
+                n24._Operations_.Add<float>(Input_In: Output_9, Item_In: W_8, Output_Out: out Output_9);
                 accumulator_1 = Output_9;
                 i_3++;
             }
@@ -1819,10 +1819,10 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
                 __auto_2 = __pad_Sa0emTzVdl5LkW93HwpwkR_0;
             }
 
-            n1.NodeContext Node_Context_4 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "Ny4CCAKV4xLMyP9foErqVF", 228754U);
-            n22._Operations_.Create<byte>(Node_Context: Node_Context_4, Capacity_In: __pad_K7XWcf58Y2DLCRtPFelvlS_1, Output_Out: out n5.SpreadBuilder<byte> Output_5);
+            n1.NodeContext Node_Context_4 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "Ny4CCAKV4xLMyP9foErqVF", 262866U);
+            n24._Operations_.Create<byte>(Node_Context: Node_Context_4, Capacity_In: __pad_K7XWcf58Y2DLCRtPFelvlS_1, Output_Out: out n5.SpreadBuilder<byte> Output_5);
             int Index_6 = 0;
-            n22._Operations_.SetItem<byte>(Input_In: Output_5, Index_In: Index_6, Value_In: __auto_2, Output_Out: out n5.SpreadBuilder<byte> Output_7);
+            n24._Operations_.SetItem<byte>(Input_In: Output_5, Index_In: Index_6, Value_In: __auto_2, Output_Out: out n5.SpreadBuilder<byte> Output_7);
             Output_Out = Output_7;
             return;
         }
@@ -1831,12 +1831,12 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
         {
             int __pad_PTvkhEC6JdGPAt1drffaxQ_0 = __slot_PTvkhEC6JdGPAt1drffaxQ;
             var Result_1 = n2.BitConverter.GetBytes(value: Value_In);
-            n1.NodeContext Node_Context_2 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "DRh8V38xSBpLATTpuUUnTV", 228861U);
-            n22._Operations_.Create<byte>(Node_Context: Node_Context_2, Capacity_In: __pad_PTvkhEC6JdGPAt1drffaxQ_0, Output_Out: out n5.SpreadBuilder<byte> Output_3);
+            n1.NodeContext Node_Context_2 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "DRh8V38xSBpLATTpuUUnTV", 262907U);
+            n24._Operations_.Create<byte>(Node_Context: Node_Context_2, Capacity_In: __pad_PTvkhEC6JdGPAt1drffaxQ_0, Output_Out: out n5.SpreadBuilder<byte> Output_3);
             var Is_Little_Endian_4 = n2.BitConverter.IsLittleEndian;
             var Result_5 = As_Big_Endian_In == Is_Little_Endian_4;
             int Array_Index_6 = 0;
-            n22._Operations_.AddRange_Array<byte>(Input_In: Output_3, Array_In: Result_1, Count_In: __pad_PTvkhEC6JdGPAt1drffaxQ_0, Array_Index_In: Array_Index_6, Reverse_Order_In: Result_5, Output_Out: out n5.SpreadBuilder<byte> Output_7);
+            n24._Operations_.AddRange_Array<byte>(Input_In: Output_3, Array_In: Result_1, Count_In: __pad_PTvkhEC6JdGPAt1drffaxQ_0, Array_Index_In: Array_Index_6, Reverse_Order_In: Result_5, Output_Out: out n5.SpreadBuilder<byte> Output_7);
             Output_Out = Output_7;
             return;
         }
@@ -1845,12 +1845,12 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
         {
             int __pad_FD5DmZ0tUeCNqhU3cjKQ8E_0 = __slot_FD5DmZ0tUeCNqhU3cjKQ8E;
             var Result_1 = n2.BitConverter.GetBytes(value: Value_In);
-            n1.NodeContext Node_Context_2 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "C0KTVrCETz7NgTYLnvCGe9", 228980U);
-            n22._Operations_.Create<byte>(Node_Context: Node_Context_2, Capacity_In: __pad_FD5DmZ0tUeCNqhU3cjKQ8E_0, Output_Out: out n5.SpreadBuilder<byte> Output_3);
+            n1.NodeContext Node_Context_2 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "C0KTVrCETz7NgTYLnvCGe9", 262947U);
+            n24._Operations_.Create<byte>(Node_Context: Node_Context_2, Capacity_In: __pad_FD5DmZ0tUeCNqhU3cjKQ8E_0, Output_Out: out n5.SpreadBuilder<byte> Output_3);
             var Is_Little_Endian_4 = n2.BitConverter.IsLittleEndian;
             var Result_5 = As_Big_Endian_In == Is_Little_Endian_4;
             int Array_Index_6 = 0;
-            n22._Operations_.AddRange_Array<byte>(Input_In: Output_3, Array_In: Result_1, Count_In: __pad_FD5DmZ0tUeCNqhU3cjKQ8E_0, Array_Index_In: Array_Index_6, Reverse_Order_In: Result_5, Output_Out: out n5.SpreadBuilder<byte> Output_7);
+            n24._Operations_.AddRange_Array<byte>(Input_In: Output_3, Array_In: Result_1, Count_In: __pad_FD5DmZ0tUeCNqhU3cjKQ8E_0, Array_Index_In: Array_Index_6, Reverse_Order_In: Result_5, Output_Out: out n5.SpreadBuilder<byte> Output_7);
             Output_Out = Output_7;
             return;
         }
@@ -1859,12 +1859,12 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
         {
             int __pad_EBCI5sItoobLNa0A4s4yfT_0 = __slot_EBCI5sItoobLNa0A4s4yfT;
             var Result_1 = n2.BitConverter.GetBytes(value: Value_In);
-            n1.NodeContext Node_Context_2 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "LcaeRwculVIOdXchk5j2SJ", 229085U);
-            n22._Operations_.Create<byte>(Node_Context: Node_Context_2, Capacity_In: __pad_EBCI5sItoobLNa0A4s4yfT_0, Output_Out: out n5.SpreadBuilder<byte> Output_3);
+            n1.NodeContext Node_Context_2 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "LcaeRwculVIOdXchk5j2SJ", 262987U);
+            n24._Operations_.Create<byte>(Node_Context: Node_Context_2, Capacity_In: __pad_EBCI5sItoobLNa0A4s4yfT_0, Output_Out: out n5.SpreadBuilder<byte> Output_3);
             var Is_Little_Endian_4 = n2.BitConverter.IsLittleEndian;
             var Result_5 = As_Big_Endian_In == Is_Little_Endian_4;
             int Array_Index_6 = 0;
-            n22._Operations_.AddRange_Array<byte>(Input_In: Output_3, Array_In: Result_1, Count_In: __pad_EBCI5sItoobLNa0A4s4yfT_0, Array_Index_In: Array_Index_6, Reverse_Order_In: Result_5, Output_Out: out n5.SpreadBuilder<byte> Output_7);
+            n24._Operations_.AddRange_Array<byte>(Input_In: Output_3, Array_In: Result_1, Count_In: __pad_EBCI5sItoobLNa0A4s4yfT_0, Array_Index_In: Array_Index_6, Reverse_Order_In: Result_5, Output_Out: out n5.SpreadBuilder<byte> Output_7);
             Output_Out = Output_7;
             return;
         }
@@ -1873,12 +1873,12 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
         {
             int __pad_TMcgEDG0I9CN7EGtKrfGBU_0 = __slot_TMcgEDG0I9CN7EGtKrfGBU;
             var Result_1 = n2.BitConverter.GetBytes(value: Value_In);
-            n1.NodeContext Node_Context_2 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "SVDMkrdQ2vaMkLQcD3gvZK", 229194U);
-            n22._Operations_.Create<byte>(Node_Context: Node_Context_2, Capacity_In: __pad_TMcgEDG0I9CN7EGtKrfGBU_0, Output_Out: out n5.SpreadBuilder<byte> Output_3);
+            n1.NodeContext Node_Context_2 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "SVDMkrdQ2vaMkLQcD3gvZK", 263027U);
+            n24._Operations_.Create<byte>(Node_Context: Node_Context_2, Capacity_In: __pad_TMcgEDG0I9CN7EGtKrfGBU_0, Output_Out: out n5.SpreadBuilder<byte> Output_3);
             var Is_Little_Endian_4 = n2.BitConverter.IsLittleEndian;
             var Result_5 = As_Big_Endian_In == Is_Little_Endian_4;
             int Array_Index_6 = 0;
-            n22._Operations_.AddRange_Array<byte>(Input_In: Output_3, Array_In: Result_1, Count_In: __pad_TMcgEDG0I9CN7EGtKrfGBU_0, Array_Index_In: Array_Index_6, Reverse_Order_In: Result_5, Output_Out: out n5.SpreadBuilder<byte> Output_7);
+            n24._Operations_.AddRange_Array<byte>(Input_In: Output_3, Array_In: Result_1, Count_In: __pad_TMcgEDG0I9CN7EGtKrfGBU_0, Array_Index_In: Array_Index_6, Reverse_Order_In: Result_5, Output_Out: out n5.SpreadBuilder<byte> Output_7);
             Output_Out = Output_7;
             return;
         }
@@ -1887,12 +1887,12 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
         {
             int __pad_NWV4aNNgfx3MKwH6Zcn2F0_0 = __slot_NWV4aNNgfx3MKwH6Zcn2F0;
             var Result_1 = n2.BitConverter.GetBytes(value: Value_In);
-            n1.NodeContext Node_Context_2 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "IejU8oIPqz8OdCmZjGLxPd", 229303U);
-            n22._Operations_.Create<byte>(Node_Context: Node_Context_2, Capacity_In: __pad_NWV4aNNgfx3MKwH6Zcn2F0_0, Output_Out: out n5.SpreadBuilder<byte> Output_3);
+            n1.NodeContext Node_Context_2 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "IejU8oIPqz8OdCmZjGLxPd", 263067U);
+            n24._Operations_.Create<byte>(Node_Context: Node_Context_2, Capacity_In: __pad_NWV4aNNgfx3MKwH6Zcn2F0_0, Output_Out: out n5.SpreadBuilder<byte> Output_3);
             var Is_Little_Endian_4 = n2.BitConverter.IsLittleEndian;
             var Result_5 = As_Big_Endian_In == Is_Little_Endian_4;
             int Array_Index_6 = 0;
-            n22._Operations_.AddRange_Array<byte>(Input_In: Output_3, Array_In: Result_1, Count_In: __pad_NWV4aNNgfx3MKwH6Zcn2F0_0, Array_Index_In: Array_Index_6, Reverse_Order_In: Result_5, Output_Out: out n5.SpreadBuilder<byte> Output_7);
+            n24._Operations_.AddRange_Array<byte>(Input_In: Output_3, Array_In: Result_1, Count_In: __pad_NWV4aNNgfx3MKwH6Zcn2F0_0, Array_Index_In: Array_Index_6, Reverse_Order_In: Result_5, Output_Out: out n5.SpreadBuilder<byte> Output_7);
             Output_Out = Output_7;
             return;
         }
@@ -1901,12 +1901,12 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
         {
             int __pad_JavKAQNI849QGzPQA59rFX_0 = __slot_JavKAQNI849QGzPQA59rFX;
             var Result_1 = n2.BitConverter.GetBytes(value: Value_In);
-            n1.NodeContext Node_Context_2 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "E1Lgah6MzcMNHNExNIO0K3", 229446U);
-            n22._Operations_.Create<byte>(Node_Context: Node_Context_2, Capacity_In: __pad_JavKAQNI849QGzPQA59rFX_0, Output_Out: out n5.SpreadBuilder<byte> Output_3);
+            n1.NodeContext Node_Context_2 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "E1Lgah6MzcMNHNExNIO0K3", 263107U);
+            n24._Operations_.Create<byte>(Node_Context: Node_Context_2, Capacity_In: __pad_JavKAQNI849QGzPQA59rFX_0, Output_Out: out n5.SpreadBuilder<byte> Output_3);
             var Is_Little_Endian_4 = n2.BitConverter.IsLittleEndian;
             var Result_5 = As_Big_Endian_In == Is_Little_Endian_4;
             int Array_Index_6 = 0;
-            n22._Operations_.AddRange_Array<byte>(Input_In: Output_3, Array_In: Result_1, Count_In: __pad_JavKAQNI849QGzPQA59rFX_0, Array_Index_In: Array_Index_6, Reverse_Order_In: Result_5, Output_Out: out n5.SpreadBuilder<byte> Output_7);
+            n24._Operations_.AddRange_Array<byte>(Input_In: Output_3, Array_In: Result_1, Count_In: __pad_JavKAQNI849QGzPQA59rFX_0, Array_Index_In: Array_Index_6, Reverse_Order_In: Result_5, Output_Out: out n5.SpreadBuilder<byte> Output_7);
             Output_Out = Output_7;
             return;
         }
@@ -1915,10 +1915,10 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
         {
             int __pad_VkKAOiqlY6cNMinYuKWlBm_0 = __slot_VkKAOiqlY6cNMinYuKWlBm;
             var Result_1 = n10.IntegerConversions.ToByte(input: Value_In);
-            n1.NodeContext Node_Context_2 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "VP7FTXdakzENgKHNHUAJgz", 229515U);
-            n22._Operations_.Create<byte>(Node_Context: Node_Context_2, Capacity_In: __pad_VkKAOiqlY6cNMinYuKWlBm_0, Output_Out: out n5.SpreadBuilder<byte> Output_3);
+            n1.NodeContext Node_Context_2 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "VP7FTXdakzENgKHNHUAJgz", 263131U);
+            n24._Operations_.Create<byte>(Node_Context: Node_Context_2, Capacity_In: __pad_VkKAOiqlY6cNMinYuKWlBm_0, Output_Out: out n5.SpreadBuilder<byte> Output_3);
             int Index_4 = 0;
-            n22._Operations_.SetItem<byte>(Input_In: Output_3, Index_In: Index_4, Value_In: Result_1, Output_Out: out n5.SpreadBuilder<byte> Output_5);
+            n24._Operations_.SetItem<byte>(Input_In: Output_3, Index_In: Index_4, Value_In: Result_1, Output_Out: out n5.SpreadBuilder<byte> Output_5);
             Output_Out = Output_5;
             return;
         }
@@ -1927,12 +1927,12 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
         {
             int __pad_QeGnpyqv6oPQJLSWX5jZ7w_0 = __slot_QeGnpyqv6oPQJLSWX5jZ7w;
             var Result_1 = n2.BitConverter.GetBytes(value: Value_In);
-            n1.NodeContext Node_Context_2 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "PrwAg8CVCNaMWzuikX3I9n", 229630U);
-            n22._Operations_.Create<byte>(Node_Context: Node_Context_2, Capacity_In: __pad_QeGnpyqv6oPQJLSWX5jZ7w_0, Output_Out: out n5.SpreadBuilder<byte> Output_3);
+            n1.NodeContext Node_Context_2 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "PrwAg8CVCNaMWzuikX3I9n", 263172U);
+            n24._Operations_.Create<byte>(Node_Context: Node_Context_2, Capacity_In: __pad_QeGnpyqv6oPQJLSWX5jZ7w_0, Output_Out: out n5.SpreadBuilder<byte> Output_3);
             var Is_Little_Endian_4 = n2.BitConverter.IsLittleEndian;
             var Result_5 = As_Big_Endian_In == Is_Little_Endian_4;
             int Array_Index_6 = 0;
-            n22._Operations_.AddRange_Array<byte>(Input_In: Output_3, Array_In: Result_1, Count_In: __pad_QeGnpyqv6oPQJLSWX5jZ7w_0, Array_Index_In: Array_Index_6, Reverse_Order_In: Result_5, Output_Out: out n5.SpreadBuilder<byte> Output_7);
+            n24._Operations_.AddRange_Array<byte>(Input_In: Output_3, Array_In: Result_1, Count_In: __pad_QeGnpyqv6oPQJLSWX5jZ7w_0, Array_Index_In: Array_Index_6, Reverse_Order_In: Result_5, Output_Out: out n5.SpreadBuilder<byte> Output_7);
             Output_Out = Output_7;
             return;
         }
@@ -1941,12 +1941,12 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
         {
             int __pad_A8CajQE8mjROq08djrW5IL_0 = __slot_A8CajQE8mjROq08djrW5IL;
             var Result_1 = n2.BitConverter.GetBytes(value: Value_In);
-            n1.NodeContext Node_Context_2 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "Jlmmzy3kVAiOjzI2t5vOTW", 232966U);
-            n22._Operations_.Create<byte>(Node_Context: Node_Context_2, Capacity_In: __pad_A8CajQE8mjROq08djrW5IL_0, Output_Out: out n5.SpreadBuilder<byte> Output_3);
+            n1.NodeContext Node_Context_2 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "Jlmmzy3kVAiOjzI2t5vOTW", 263212U);
+            n24._Operations_.Create<byte>(Node_Context: Node_Context_2, Capacity_In: __pad_A8CajQE8mjROq08djrW5IL_0, Output_Out: out n5.SpreadBuilder<byte> Output_3);
             var Is_Little_Endian_4 = n2.BitConverter.IsLittleEndian;
             var Result_5 = As_Big_Endian_In == Is_Little_Endian_4;
             int Array_Index_6 = 0;
-            n22._Operations_.AddRange_Array<byte>(Input_In: Output_3, Array_In: Result_1, Count_In: __pad_A8CajQE8mjROq08djrW5IL_0, Array_Index_In: Array_Index_6, Reverse_Order_In: Result_5, Output_Out: out n5.SpreadBuilder<byte> Output_7);
+            n24._Operations_.AddRange_Array<byte>(Input_In: Output_3, Array_In: Result_1, Count_In: __pad_A8CajQE8mjROq08djrW5IL_0, Array_Index_In: Array_Index_6, Reverse_Order_In: Result_5, Output_Out: out n5.SpreadBuilder<byte> Output_7);
             Output_Out = Output_7;
             return;
         }
@@ -1955,12 +1955,12 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
         {
             int __pad_Gui8tjkv3gKPURNclP2duu_0 = __slot_Gui8tjkv3gKPURNclP2duu;
             var Result_1 = n2.BitConverter.GetBytes(value: Value_In);
-            n1.NodeContext Node_Context_2 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "IZVD3IWJ06aMKJNN6dB09C", 233086U);
-            n22._Operations_.Create<byte>(Node_Context: Node_Context_2, Capacity_In: __pad_Gui8tjkv3gKPURNclP2duu_0, Output_Out: out n5.SpreadBuilder<byte> Output_3);
+            n1.NodeContext Node_Context_2 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "IZVD3IWJ06aMKJNN6dB09C", 263252U);
+            n24._Operations_.Create<byte>(Node_Context: Node_Context_2, Capacity_In: __pad_Gui8tjkv3gKPURNclP2duu_0, Output_Out: out n5.SpreadBuilder<byte> Output_3);
             var Is_Little_Endian_4 = n2.BitConverter.IsLittleEndian;
             var Result_5 = As_Big_Endian_In == Is_Little_Endian_4;
             int Array_Index_6 = 0;
-            n22._Operations_.AddRange_Array<byte>(Input_In: Output_3, Array_In: Result_1, Count_In: __pad_Gui8tjkv3gKPURNclP2duu_0, Array_Index_In: Array_Index_6, Reverse_Order_In: Result_5, Output_Out: out n5.SpreadBuilder<byte> Output_7);
+            n24._Operations_.AddRange_Array<byte>(Input_In: Output_3, Array_In: Result_1, Count_In: __pad_Gui8tjkv3gKPURNclP2duu_0, Array_Index_In: Array_Index_6, Reverse_Order_In: Result_5, Output_Out: out n5.SpreadBuilder<byte> Output_7);
             Output_Out = Output_7;
             return;
         }
@@ -1979,7 +1979,7 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
                 __auto_1 = __pad_Kx3xzQwEqnRQUsXZKYvD2K_0;
             }
 
-            n22._Operations_.SetItem<byte>(Input_In: Input_In, Index_In: Index_In, Value_In: __auto_1, Output_Out: out n5.SpreadBuilder<byte> Output_3);
+            n24._Operations_.SetItem<byte>(Input_In: Input_In, Index_In: Index_In, Value_In: __auto_1, Output_Out: out n5.SpreadBuilder<byte> Output_3);
             Output_Out = Output_3;
             return;
         }
@@ -1991,7 +1991,7 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
             var Is_Little_Endian_2 = n2.BitConverter.IsLittleEndian;
             var Result_3 = As_Big_Endian_In == Is_Little_Endian_2;
             int Array_Index_4 = 0;
-            n22._Operations_.SetRange_Array<byte>(Input_In: Input_In, Array_In: Result_1, Start_Index_In: Start_Index_In, Count_In: __pad_NPj1aYpnjJ7LjAGRHi0zA5_0, Array_Index_In: Array_Index_4, Reverse_Order_In: Result_3, Output_Out: out n5.SpreadBuilder<byte> Output_5);
+            n24._Operations_.SetRange_Array<byte>(Input_In: Input_In, Array_In: Result_1, Start_Index_In: Start_Index_In, Count_In: __pad_NPj1aYpnjJ7LjAGRHi0zA5_0, Array_Index_In: Array_Index_4, Reverse_Order_In: Result_3, Output_Out: out n5.SpreadBuilder<byte> Output_5);
             Output_Out = Output_5;
             return;
         }
@@ -2003,7 +2003,7 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
             var Is_Little_Endian_2 = n2.BitConverter.IsLittleEndian;
             var Result_3 = As_Big_Endian_In == Is_Little_Endian_2;
             int Array_Index_4 = 0;
-            n22._Operations_.SetRange_Array<byte>(Input_In: Input_In, Array_In: Result_1, Start_Index_In: Start_Index_In, Count_In: __pad_RyG1d3WQflTMWnHUYNmA3D_0, Array_Index_In: Array_Index_4, Reverse_Order_In: Result_3, Output_Out: out n5.SpreadBuilder<byte> Output_5);
+            n24._Operations_.SetRange_Array<byte>(Input_In: Input_In, Array_In: Result_1, Start_Index_In: Start_Index_In, Count_In: __pad_RyG1d3WQflTMWnHUYNmA3D_0, Array_Index_In: Array_Index_4, Reverse_Order_In: Result_3, Output_Out: out n5.SpreadBuilder<byte> Output_5);
             Output_Out = Output_5;
             return;
         }
@@ -2015,7 +2015,7 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
             var Is_Little_Endian_2 = n2.BitConverter.IsLittleEndian;
             var Result_3 = As_Big_Endian_In == Is_Little_Endian_2;
             int Array_Index_4 = 0;
-            n22._Operations_.SetRange_Array<byte>(Input_In: Input_In, Array_In: Result_1, Start_Index_In: Start_Index_In, Count_In: __pad_TshweuDXVPZPEpReURMdXO_0, Array_Index_In: Array_Index_4, Reverse_Order_In: Result_3, Output_Out: out n5.SpreadBuilder<byte> Output_5);
+            n24._Operations_.SetRange_Array<byte>(Input_In: Input_In, Array_In: Result_1, Start_Index_In: Start_Index_In, Count_In: __pad_TshweuDXVPZPEpReURMdXO_0, Array_Index_In: Array_Index_4, Reverse_Order_In: Result_3, Output_Out: out n5.SpreadBuilder<byte> Output_5);
             Output_Out = Output_5;
             return;
         }
@@ -2027,7 +2027,7 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
             var Is_Little_Endian_2 = n2.BitConverter.IsLittleEndian;
             var Result_3 = As_Big_Endian_In == Is_Little_Endian_2;
             int Array_Index_4 = 0;
-            n22._Operations_.SetRange_Array<byte>(Input_In: Input_In, Array_In: Result_1, Start_Index_In: Start_Index_In, Count_In: __pad_LZdSUOBU1oTPOObNeWjiQF_0, Array_Index_In: Array_Index_4, Reverse_Order_In: Result_3, Output_Out: out n5.SpreadBuilder<byte> Output_5);
+            n24._Operations_.SetRange_Array<byte>(Input_In: Input_In, Array_In: Result_1, Start_Index_In: Start_Index_In, Count_In: __pad_LZdSUOBU1oTPOObNeWjiQF_0, Array_Index_In: Array_Index_4, Reverse_Order_In: Result_3, Output_Out: out n5.SpreadBuilder<byte> Output_5);
             Output_Out = Output_5;
             return;
         }
@@ -2039,7 +2039,7 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
             var Is_Little_Endian_2 = n2.BitConverter.IsLittleEndian;
             var Result_3 = As_Big_Endian_In == Is_Little_Endian_2;
             int Array_Index_4 = 0;
-            n22._Operations_.SetRange_Array<byte>(Input_In: Input_In, Array_In: Result_1, Start_Index_In: Start_Index_In, Count_In: __pad_G1jrlLFTBZaQCSOc3UNFTA_0, Array_Index_In: Array_Index_4, Reverse_Order_In: Result_3, Output_Out: out n5.SpreadBuilder<byte> Output_5);
+            n24._Operations_.SetRange_Array<byte>(Input_In: Input_In, Array_In: Result_1, Start_Index_In: Start_Index_In, Count_In: __pad_G1jrlLFTBZaQCSOc3UNFTA_0, Array_Index_In: Array_Index_4, Reverse_Order_In: Result_3, Output_Out: out n5.SpreadBuilder<byte> Output_5);
             Output_Out = Output_5;
             return;
         }
@@ -2051,7 +2051,7 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
             var Is_Little_Endian_2 = n2.BitConverter.IsLittleEndian;
             var Result_3 = As_Big_Endian_In == Is_Little_Endian_2;
             int Array_Index_4 = 0;
-            n22._Operations_.SetRange_Array<byte>(Input_In: Input_In, Array_In: Result_1, Start_Index_In: Start_Index_In, Count_In: __pad_H1lRhh1BOEuO78McHrDlFD_0, Array_Index_In: Array_Index_4, Reverse_Order_In: Result_3, Output_Out: out n5.SpreadBuilder<byte> Output_5);
+            n24._Operations_.SetRange_Array<byte>(Input_In: Input_In, Array_In: Result_1, Start_Index_In: Start_Index_In, Count_In: __pad_H1lRhh1BOEuO78McHrDlFD_0, Array_Index_In: Array_Index_4, Reverse_Order_In: Result_3, Output_Out: out n5.SpreadBuilder<byte> Output_5);
             Output_Out = Output_5;
             return;
         }
@@ -2059,7 +2059,7 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
         public static void SetInt8([n4.SerializedDefaultValueAttribute("0", false)] n5.SpreadBuilder<byte> Input_In, int Index_In, sbyte Value_In, out n5.SpreadBuilder<byte> Output_Out)
         {
             var Result_0 = n10.IntegerConversions.ToByte(input: Value_In);
-            n22._Operations_.SetItem<byte>(Input_In: Input_In, Index_In: Index_In, Value_In: Result_0, Output_Out: out n5.SpreadBuilder<byte> Output_1);
+            n24._Operations_.SetItem<byte>(Input_In: Input_In, Index_In: Index_In, Value_In: Result_0, Output_Out: out n5.SpreadBuilder<byte> Output_1);
             Output_Out = Output_1;
             return;
         }
@@ -2071,7 +2071,7 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
             var Is_Little_Endian_2 = n2.BitConverter.IsLittleEndian;
             var Result_3 = As_Big_Endian_In == Is_Little_Endian_2;
             int Array_Index_4 = 0;
-            n22._Operations_.SetRange_Array<byte>(Input_In: Input_In, Array_In: Result_1, Start_Index_In: Start_Index_In, Count_In: __pad_SZRtccbSy3UPLa3zgwcg7x_0, Array_Index_In: Array_Index_4, Reverse_Order_In: Result_3, Output_Out: out n5.SpreadBuilder<byte> Output_5);
+            n24._Operations_.SetRange_Array<byte>(Input_In: Input_In, Array_In: Result_1, Start_Index_In: Start_Index_In, Count_In: __pad_SZRtccbSy3UPLa3zgwcg7x_0, Array_Index_In: Array_Index_4, Reverse_Order_In: Result_3, Output_Out: out n5.SpreadBuilder<byte> Output_5);
             Output_Out = Output_5;
             return;
         }
@@ -2083,7 +2083,7 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
             var Is_Little_Endian_2 = n2.BitConverter.IsLittleEndian;
             var Result_3 = As_Big_Endian_In == Is_Little_Endian_2;
             int Array_Index_4 = 0;
-            n22._Operations_.SetRange_Array<byte>(Input_In: Input_In, Array_In: Result_1, Start_Index_In: Start_Index_In, Count_In: __pad_N4gFkXbgoqyOUN5OVRzKXj_0, Array_Index_In: Array_Index_4, Reverse_Order_In: Result_3, Output_Out: out n5.SpreadBuilder<byte> Output_5);
+            n24._Operations_.SetRange_Array<byte>(Input_In: Input_In, Array_In: Result_1, Start_Index_In: Start_Index_In, Count_In: __pad_N4gFkXbgoqyOUN5OVRzKXj_0, Array_Index_In: Array_Index_4, Reverse_Order_In: Result_3, Output_Out: out n5.SpreadBuilder<byte> Output_5);
             Output_Out = Output_5;
             return;
         }
@@ -2095,14 +2095,14 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
             var Is_Little_Endian_2 = n2.BitConverter.IsLittleEndian;
             var Result_3 = As_Big_Endian_In == Is_Little_Endian_2;
             int Array_Index_4 = 0;
-            n22._Operations_.SetRange_Array<byte>(Input_In: Input_In, Array_In: Result_1, Start_Index_In: Start_Index_In, Count_In: __pad_LRuNj6hhaHjQPU2Jw56yXa_0, Array_Index_In: Array_Index_4, Reverse_Order_In: Result_3, Output_Out: out n5.SpreadBuilder<byte> Output_5);
+            n24._Operations_.SetRange_Array<byte>(Input_In: Input_In, Array_In: Result_1, Start_Index_In: Start_Index_In, Count_In: __pad_LRuNj6hhaHjQPU2Jw56yXa_0, Array_Index_In: Array_Index_4, Reverse_Order_In: Result_3, Output_Out: out n5.SpreadBuilder<byte> Output_5);
             Output_Out = Output_5;
             return;
         }
 
         public static void ToBoolean([n4.SerializedDefaultValueAttribute("0", false)] n5.SpreadBuilder<byte> Input_In, int Index_In, out n5.SpreadBuilder<byte> Output_Out, out bool Result_Out)
         {
-            n22._Operations_.GetItem<byte>(Input_In: Input_In, Index_In: Index_In, Output_Out: out n5.SpreadBuilder<byte> Output_0, Item_Out: out byte Item_1);
+            n24._Operations_.GetItem<byte>(Input_In: Input_In, Index_In: Index_In, Output_Out: out n5.SpreadBuilder<byte> Output_0, Item_Out: out byte Item_1);
             byte Input_2_2 = 0;
             var Result_3 = Item_1 != Input_2_2;
             Output_Out = Output_0;
@@ -2113,12 +2113,12 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
         public static void ToChar([n4.SerializedDefaultValueAttribute("0, 0", false)] n5.SpreadBuilder<byte> Input_In, int Start_Index_In, bool Input_Is_Big_Endian_In, out n5.SpreadBuilder<byte> Output_Out, out char Result_Out)
         {
             int __pad_HqixQ3IRYqhM3MTcTW60ML_0 = __slot_HqixQ3IRYqhM3MTcTW60ML;
-            n1.NodeContext Node_Context_1 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "CmWtbcufxsxPzcYlRBw9b9", 233796U);
-            n38._Operations_.Create<byte>(Node_Context: Node_Context_1, Length_In: __pad_HqixQ3IRYqhM3MTcTW60ML_0, Result_Out: out byte[] Result_2);
+            n1.NodeContext Node_Context_1 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "CmWtbcufxsxPzcYlRBw9b9", 263771U);
+            n28._Operations_.Create<byte>(Node_Context: Node_Context_1, Length_In: __pad_HqixQ3IRYqhM3MTcTW60ML_0, Result_Out: out byte[] Result_2);
             var Is_Little_Endian_3 = n2.BitConverter.IsLittleEndian;
             var Result_4 = Input_Is_Big_Endian_In == Is_Little_Endian_3;
             int Array_Index_5 = 0;
-            n22._Operations_.CopyTo_Count<byte>(Input_In: Input_In, Array_In: Result_2, Start_Index_In: Start_Index_In, Count_In: __pad_HqixQ3IRYqhM3MTcTW60ML_0, Array_Index_In: Array_Index_5, Reverse_Order_In: Result_4, Output_Out: out n5.SpreadBuilder<byte> Output_6, Result_Out: out byte[] Result_7);
+            n24._Operations_.CopyTo_Count<byte>(Input_In: Input_In, Array_In: Result_2, Start_Index_In: Start_Index_In, Count_In: __pad_HqixQ3IRYqhM3MTcTW60ML_0, Array_Index_In: Array_Index_5, Reverse_Order_In: Result_4, Output_Out: out n5.SpreadBuilder<byte> Output_6, Result_Out: out byte[] Result_7);
             int Start_Index_8 = 0;
             var Result_9 = n2.BitConverter.ToChar(value: Result_7, startIndex: Start_Index_8);
             Output_Out = Output_6;
@@ -2129,12 +2129,12 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
         public static void ToFloat32([n4.SerializedDefaultValueAttribute("0, 0, 0, 0", false)] n5.SpreadBuilder<byte> Input_In, int Start_Index_In, bool Input_Is_Big_Endian_In, out n5.SpreadBuilder<byte> Output_Out, out float Result_Out)
         {
             int __pad_I9h4XkCslkAMGPUuh0b5Gu_0 = __slot_I9h4XkCslkAMGPUuh0b5Gu;
-            n1.NodeContext Node_Context_1 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "TAtwTEuGBR8P2R1WOD1fBI", 233847U);
-            n38._Operations_.Create<byte>(Node_Context: Node_Context_1, Length_In: __pad_I9h4XkCslkAMGPUuh0b5Gu_0, Result_Out: out byte[] Result_2);
+            n1.NodeContext Node_Context_1 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "TAtwTEuGBR8P2R1WOD1fBI", 263822U);
+            n28._Operations_.Create<byte>(Node_Context: Node_Context_1, Length_In: __pad_I9h4XkCslkAMGPUuh0b5Gu_0, Result_Out: out byte[] Result_2);
             var Is_Little_Endian_3 = n2.BitConverter.IsLittleEndian;
             var Result_4 = Input_Is_Big_Endian_In == Is_Little_Endian_3;
             int Array_Index_5 = 0;
-            n22._Operations_.CopyTo_Count<byte>(Input_In: Input_In, Array_In: Result_2, Start_Index_In: Start_Index_In, Count_In: __pad_I9h4XkCslkAMGPUuh0b5Gu_0, Array_Index_In: Array_Index_5, Reverse_Order_In: Result_4, Output_Out: out n5.SpreadBuilder<byte> Output_6, Result_Out: out byte[] Result_7);
+            n24._Operations_.CopyTo_Count<byte>(Input_In: Input_In, Array_In: Result_2, Start_Index_In: Start_Index_In, Count_In: __pad_I9h4XkCslkAMGPUuh0b5Gu_0, Array_Index_In: Array_Index_5, Reverse_Order_In: Result_4, Output_Out: out n5.SpreadBuilder<byte> Output_6, Result_Out: out byte[] Result_7);
             int Start_Index_8 = 0;
             var Result_9 = n2.BitConverter.ToSingle(value: Result_7, startIndex: Start_Index_8);
             Output_Out = Output_6;
@@ -2145,12 +2145,12 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
         public static void ToFloat64([n4.SerializedDefaultValueAttribute("0, 0, 0, 0, 0, 0, 0, 0", false)] n5.SpreadBuilder<byte> Input_In, int Start_Index_In, bool Input_Is_Big_Endian_In, out n5.SpreadBuilder<byte> Output_Out, out double Result_Out)
         {
             int __pad_CYcu70nVzevNP7IDEOhaps_0 = __slot_CYcu70nVzevNP7IDEOhaps;
-            n1.NodeContext Node_Context_1 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "S5MCCmT8N1vNsXT1bXKr9l", 233898U);
-            n38._Operations_.Create<byte>(Node_Context: Node_Context_1, Length_In: __pad_CYcu70nVzevNP7IDEOhaps_0, Result_Out: out byte[] Result_2);
+            n1.NodeContext Node_Context_1 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "S5MCCmT8N1vNsXT1bXKr9l", 263873U);
+            n28._Operations_.Create<byte>(Node_Context: Node_Context_1, Length_In: __pad_CYcu70nVzevNP7IDEOhaps_0, Result_Out: out byte[] Result_2);
             var Is_Little_Endian_3 = n2.BitConverter.IsLittleEndian;
             var Result_4 = Input_Is_Big_Endian_In == Is_Little_Endian_3;
             int Array_Index_5 = 0;
-            n22._Operations_.CopyTo_Count<byte>(Input_In: Input_In, Array_In: Result_2, Start_Index_In: Start_Index_In, Count_In: __pad_CYcu70nVzevNP7IDEOhaps_0, Array_Index_In: Array_Index_5, Reverse_Order_In: Result_4, Output_Out: out n5.SpreadBuilder<byte> Output_6, Result_Out: out byte[] Result_7);
+            n24._Operations_.CopyTo_Count<byte>(Input_In: Input_In, Array_In: Result_2, Start_Index_In: Start_Index_In, Count_In: __pad_CYcu70nVzevNP7IDEOhaps_0, Array_Index_In: Array_Index_5, Reverse_Order_In: Result_4, Output_Out: out n5.SpreadBuilder<byte> Output_6, Result_Out: out byte[] Result_7);
             int Start_Index_8 = 0;
             var Result_9 = n2.BitConverter.ToDouble(value: Result_7, startIndex: Start_Index_8);
             Output_Out = Output_6;
@@ -2161,12 +2161,12 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
         public static void ToInt16([n4.SerializedDefaultValueAttribute("0, 0", false)] n5.SpreadBuilder<byte> Input_In, int Start_Index_In, bool Input_Is_Big_Endian_In, out n5.SpreadBuilder<byte> Output_Out, out short Result_Out)
         {
             int __pad_SH2s4Jm0Qm4LOx2167Xi5J_0 = __slot_SH2s4Jm0Qm4LOx2167Xi5J;
-            n1.NodeContext Node_Context_1 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "U9Xjt5dt6BYLylMzpx0xPm", 233949U);
-            n38._Operations_.Create<byte>(Node_Context: Node_Context_1, Length_In: __pad_SH2s4Jm0Qm4LOx2167Xi5J_0, Result_Out: out byte[] Result_2);
+            n1.NodeContext Node_Context_1 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "U9Xjt5dt6BYLylMzpx0xPm", 263924U);
+            n28._Operations_.Create<byte>(Node_Context: Node_Context_1, Length_In: __pad_SH2s4Jm0Qm4LOx2167Xi5J_0, Result_Out: out byte[] Result_2);
             var Is_Little_Endian_3 = n2.BitConverter.IsLittleEndian;
             var Result_4 = Input_Is_Big_Endian_In == Is_Little_Endian_3;
             int Array_Index_5 = 0;
-            n22._Operations_.CopyTo_Count<byte>(Input_In: Input_In, Array_In: Result_2, Start_Index_In: Start_Index_In, Count_In: __pad_SH2s4Jm0Qm4LOx2167Xi5J_0, Array_Index_In: Array_Index_5, Reverse_Order_In: Result_4, Output_Out: out n5.SpreadBuilder<byte> Output_6, Result_Out: out byte[] Result_7);
+            n24._Operations_.CopyTo_Count<byte>(Input_In: Input_In, Array_In: Result_2, Start_Index_In: Start_Index_In, Count_In: __pad_SH2s4Jm0Qm4LOx2167Xi5J_0, Array_Index_In: Array_Index_5, Reverse_Order_In: Result_4, Output_Out: out n5.SpreadBuilder<byte> Output_6, Result_Out: out byte[] Result_7);
             int Start_Index_8 = 0;
             var Result_9 = n2.BitConverter.ToInt16(value: Result_7, startIndex: Start_Index_8);
             Output_Out = Output_6;
@@ -2177,12 +2177,12 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
         public static void ToInt32([n4.SerializedDefaultValueAttribute("0, 0, 0, 0", false)] n5.SpreadBuilder<byte> Input_In, int Start_Index_In, bool Input_Is_Big_Endian_In, out n5.SpreadBuilder<byte> Output_Out, out int Result_Out)
         {
             int __pad_SIukfJ8Z2ssPddwx27eBQ2_0 = __slot_SIukfJ8Z2ssPddwx27eBQ2;
-            n1.NodeContext Node_Context_1 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "LCvZjCKGodtL7QUpVgmaIQ", 234000U);
-            n38._Operations_.Create<byte>(Node_Context: Node_Context_1, Length_In: __pad_SIukfJ8Z2ssPddwx27eBQ2_0, Result_Out: out byte[] Result_2);
+            n1.NodeContext Node_Context_1 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "LCvZjCKGodtL7QUpVgmaIQ", 263975U);
+            n28._Operations_.Create<byte>(Node_Context: Node_Context_1, Length_In: __pad_SIukfJ8Z2ssPddwx27eBQ2_0, Result_Out: out byte[] Result_2);
             var Is_Little_Endian_3 = n2.BitConverter.IsLittleEndian;
             var Result_4 = Input_Is_Big_Endian_In == Is_Little_Endian_3;
             int Array_Index_5 = 0;
-            n22._Operations_.CopyTo_Count<byte>(Input_In: Input_In, Array_In: Result_2, Start_Index_In: Start_Index_In, Count_In: __pad_SIukfJ8Z2ssPddwx27eBQ2_0, Array_Index_In: Array_Index_5, Reverse_Order_In: Result_4, Output_Out: out n5.SpreadBuilder<byte> Output_6, Result_Out: out byte[] Result_7);
+            n24._Operations_.CopyTo_Count<byte>(Input_In: Input_In, Array_In: Result_2, Start_Index_In: Start_Index_In, Count_In: __pad_SIukfJ8Z2ssPddwx27eBQ2_0, Array_Index_In: Array_Index_5, Reverse_Order_In: Result_4, Output_Out: out n5.SpreadBuilder<byte> Output_6, Result_Out: out byte[] Result_7);
             int Start_Index_8 = 0;
             var Result_9 = n2.BitConverter.ToInt32(value: Result_7, startIndex: Start_Index_8);
             Output_Out = Output_6;
@@ -2193,12 +2193,12 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
         public static void ToInt64([n4.SerializedDefaultValueAttribute("0, 0, 0, 0, 0, 0, 0, 0", false)] n5.SpreadBuilder<byte> Input_In, int Start_Index_In, bool Input_Is_Big_Endian_In, out n5.SpreadBuilder<byte> Output_Out, out long Result_Out)
         {
             int __pad_JH0uLgsTQAmQPIk4V77Ezx_0 = __slot_JH0uLgsTQAmQPIk4V77Ezx;
-            n1.NodeContext Node_Context_1 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "NgOrhPVSj6OPyLBQ6zTox0", 234051U);
-            n38._Operations_.Create<byte>(Node_Context: Node_Context_1, Length_In: __pad_JH0uLgsTQAmQPIk4V77Ezx_0, Result_Out: out byte[] Result_2);
+            n1.NodeContext Node_Context_1 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "NgOrhPVSj6OPyLBQ6zTox0", 264026U);
+            n28._Operations_.Create<byte>(Node_Context: Node_Context_1, Length_In: __pad_JH0uLgsTQAmQPIk4V77Ezx_0, Result_Out: out byte[] Result_2);
             var Is_Little_Endian_3 = n2.BitConverter.IsLittleEndian;
             var Result_4 = Input_Is_Big_Endian_In == Is_Little_Endian_3;
             int Array_Index_5 = 0;
-            n22._Operations_.CopyTo_Count<byte>(Input_In: Input_In, Array_In: Result_2, Start_Index_In: Start_Index_In, Count_In: __pad_JH0uLgsTQAmQPIk4V77Ezx_0, Array_Index_In: Array_Index_5, Reverse_Order_In: Result_4, Output_Out: out n5.SpreadBuilder<byte> Output_6, Result_Out: out byte[] Result_7);
+            n24._Operations_.CopyTo_Count<byte>(Input_In: Input_In, Array_In: Result_2, Start_Index_In: Start_Index_In, Count_In: __pad_JH0uLgsTQAmQPIk4V77Ezx_0, Array_Index_In: Array_Index_5, Reverse_Order_In: Result_4, Output_Out: out n5.SpreadBuilder<byte> Output_6, Result_Out: out byte[] Result_7);
             int Start_Index_8 = 0;
             var Result_9 = n2.BitConverter.ToInt64(value: Result_7, startIndex: Start_Index_8);
             Output_Out = Output_6;
@@ -2208,7 +2208,7 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
 
         public static void ToInt8([n4.SerializedDefaultValueAttribute("0", false)] n5.SpreadBuilder<byte> Input_In, int Index_In, out n5.SpreadBuilder<byte> Output_Out, out sbyte Result_Out)
         {
-            n22._Operations_.GetItem<byte>(Input_In: Input_In, Index_In: Index_In, Output_Out: out n5.SpreadBuilder<byte> Output_0, Item_Out: out byte Item_1);
+            n24._Operations_.GetItem<byte>(Input_In: Input_In, Index_In: Index_In, Output_Out: out n5.SpreadBuilder<byte> Output_0, Item_Out: out byte Item_1);
             var Result_2 = n10.IntegerConversions.ToInt8(input: Item_1);
             Output_Out = Output_0;
             Result_Out = Result_2;
@@ -2218,12 +2218,12 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
         public static void ToUInt16([n4.SerializedDefaultValueAttribute("0, 0", false)] n5.SpreadBuilder<byte> Input_In, int Start_Index_In, bool Input_Is_Big_Endian_In, out n5.SpreadBuilder<byte> Output_Out, out ushort Result_Out)
         {
             int __pad_LN7Mz2YVvf3NsEXeneQNlV_0 = __slot_LN7Mz2YVvf3NsEXeneQNlV;
-            n1.NodeContext Node_Context_1 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "MvM74sSzxMNLlftvtvqAxA", 234239U);
-            n38._Operations_.Create<byte>(Node_Context: Node_Context_1, Length_In: __pad_LN7Mz2YVvf3NsEXeneQNlV_0, Result_Out: out byte[] Result_2);
+            n1.NodeContext Node_Context_1 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "MvM74sSzxMNLlftvtvqAxA", 264104U);
+            n28._Operations_.Create<byte>(Node_Context: Node_Context_1, Length_In: __pad_LN7Mz2YVvf3NsEXeneQNlV_0, Result_Out: out byte[] Result_2);
             var Is_Little_Endian_3 = n2.BitConverter.IsLittleEndian;
             var Result_4 = Input_Is_Big_Endian_In == Is_Little_Endian_3;
             int Array_Index_5 = 0;
-            n22._Operations_.CopyTo_Count<byte>(Input_In: Input_In, Array_In: Result_2, Start_Index_In: Start_Index_In, Count_In: __pad_LN7Mz2YVvf3NsEXeneQNlV_0, Array_Index_In: Array_Index_5, Reverse_Order_In: Result_4, Output_Out: out n5.SpreadBuilder<byte> Output_6, Result_Out: out byte[] Result_7);
+            n24._Operations_.CopyTo_Count<byte>(Input_In: Input_In, Array_In: Result_2, Start_Index_In: Start_Index_In, Count_In: __pad_LN7Mz2YVvf3NsEXeneQNlV_0, Array_Index_In: Array_Index_5, Reverse_Order_In: Result_4, Output_Out: out n5.SpreadBuilder<byte> Output_6, Result_Out: out byte[] Result_7);
             int Start_Index_8 = 0;
             var Result_9 = n2.BitConverter.ToUInt16(value: Result_7, startIndex: Start_Index_8);
             Output_Out = Output_6;
@@ -2234,12 +2234,12 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
         public static void ToUInt32([n4.SerializedDefaultValueAttribute("0, 0, 0, 0", false)] n5.SpreadBuilder<byte> Input_In, int Start_Index_In, bool Input_Is_Big_Endian_In, out n5.SpreadBuilder<byte> Output_Out, out uint Result_Out)
         {
             int __pad_Vev5OkLSsEEOGQ59NTEOVs_0 = __slot_Vev5OkLSsEEOGQ59NTEOVs;
-            n1.NodeContext Node_Context_1 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "S4SZNj2ci9gP09BxeRqfBR", 234348U);
-            n38._Operations_.Create<byte>(Node_Context: Node_Context_1, Length_In: __pad_Vev5OkLSsEEOGQ59NTEOVs_0, Result_Out: out byte[] Result_2);
+            n1.NodeContext Node_Context_1 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "S4SZNj2ci9gP09BxeRqfBR", 264155U);
+            n28._Operations_.Create<byte>(Node_Context: Node_Context_1, Length_In: __pad_Vev5OkLSsEEOGQ59NTEOVs_0, Result_Out: out byte[] Result_2);
             var Is_Little_Endian_3 = n2.BitConverter.IsLittleEndian;
             var Result_4 = Input_Is_Big_Endian_In == Is_Little_Endian_3;
             int Array_Index_5 = 0;
-            n22._Operations_.CopyTo_Count<byte>(Input_In: Input_In, Array_In: Result_2, Start_Index_In: Start_Index_In, Count_In: __pad_Vev5OkLSsEEOGQ59NTEOVs_0, Array_Index_In: Array_Index_5, Reverse_Order_In: Result_4, Output_Out: out n5.SpreadBuilder<byte> Output_6, Result_Out: out byte[] Result_7);
+            n24._Operations_.CopyTo_Count<byte>(Input_In: Input_In, Array_In: Result_2, Start_Index_In: Start_Index_In, Count_In: __pad_Vev5OkLSsEEOGQ59NTEOVs_0, Array_Index_In: Array_Index_5, Reverse_Order_In: Result_4, Output_Out: out n5.SpreadBuilder<byte> Output_6, Result_Out: out byte[] Result_7);
             int Start_Index_8 = 0;
             var Result_9 = n2.BitConverter.ToUInt32(value: Result_7, startIndex: Start_Index_8);
             Output_Out = Output_6;
@@ -2250,12 +2250,12 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
         public static void ToUInt64([n4.SerializedDefaultValueAttribute("0, 0, 0, 0, 0, 0, 0, 0", false)] n5.SpreadBuilder<byte> Input_In, int Start_Index_In, bool Input_Is_Big_Endian_In, out n5.SpreadBuilder<byte> Output_Out, out ulong Result_Out)
         {
             int __pad_QmMJgjK5tGgPRqD5hkFQGJ_0 = __slot_QmMJgjK5tGgPRqD5hkFQGJ;
-            n1.NodeContext Node_Context_1 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "Q51Aal7mnyxNsbskKlhucb", 234457U);
-            n38._Operations_.Create<byte>(Node_Context: Node_Context_1, Length_In: __pad_QmMJgjK5tGgPRqD5hkFQGJ_0, Result_Out: out byte[] Result_2);
+            n1.NodeContext Node_Context_1 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "Q51Aal7mnyxNsbskKlhucb", 264206U);
+            n28._Operations_.Create<byte>(Node_Context: Node_Context_1, Length_In: __pad_QmMJgjK5tGgPRqD5hkFQGJ_0, Result_Out: out byte[] Result_2);
             var Is_Little_Endian_3 = n2.BitConverter.IsLittleEndian;
             var Result_4 = Input_Is_Big_Endian_In == Is_Little_Endian_3;
             int Array_Index_5 = 0;
-            n22._Operations_.CopyTo_Count<byte>(Input_In: Input_In, Array_In: Result_2, Start_Index_In: Start_Index_In, Count_In: __pad_QmMJgjK5tGgPRqD5hkFQGJ_0, Array_Index_In: Array_Index_5, Reverse_Order_In: Result_4, Output_Out: out n5.SpreadBuilder<byte> Output_6, Result_Out: out byte[] Result_7);
+            n24._Operations_.CopyTo_Count<byte>(Input_In: Input_In, Array_In: Result_2, Start_Index_In: Start_Index_In, Count_In: __pad_QmMJgjK5tGgPRqD5hkFQGJ_0, Array_Index_In: Array_Index_5, Reverse_Order_In: Result_4, Output_Out: out n5.SpreadBuilder<byte> Output_6, Result_Out: out byte[] Result_7);
             int Start_Index_8 = 0;
             var Result_9 = n2.BitConverter.ToUInt64(value: Result_7, startIndex: Start_Index_8);
             Output_Out = Output_6;
@@ -2263,71 +2263,71 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
             return;
         }
 
-        [n1.ElementAttribute(TracingId = 228746U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Sa0emTzVdl5LkW93HwpwkR", Name = "__slot_Sa0emTzVdl5LkW93HwpwkR")]
+        [n1.ElementAttribute(TracingId = 262861U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Sa0emTzVdl5LkW93HwpwkR", Name = "__slot_Sa0emTzVdl5LkW93HwpwkR")]
         public static byte __slot_Sa0emTzVdl5LkW93HwpwkR = 0;
-        [n1.ElementAttribute(TracingId = 228761U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "K7XWcf58Y2DLCRtPFelvlS", Name = "__slot_K7XWcf58Y2DLCRtPFelvlS")]
+        [n1.ElementAttribute(TracingId = 262869U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "K7XWcf58Y2DLCRtPFelvlS", Name = "__slot_K7XWcf58Y2DLCRtPFelvlS")]
         public static int __slot_K7XWcf58Y2DLCRtPFelvlS = 1;
-        [n1.ElementAttribute(TracingId = 228722U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "AnMhT22J3DTMrurTAqRDsm", Name = "__slot_AnMhT22J3DTMrurTAqRDsm")]
+        [n1.ElementAttribute(TracingId = 262855U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "AnMhT22J3DTMrurTAqRDsm", Name = "__slot_AnMhT22J3DTMrurTAqRDsm")]
         public static byte __slot_AnMhT22J3DTMrurTAqRDsm = 1;
-        [n1.ElementAttribute(TracingId = 228852U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "PTvkhEC6JdGPAt1drffaxQ", Name = "__slot_PTvkhEC6JdGPAt1drffaxQ")]
+        [n1.ElementAttribute(TracingId = 262903U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "PTvkhEC6JdGPAt1drffaxQ", Name = "__slot_PTvkhEC6JdGPAt1drffaxQ")]
         public static int __slot_PTvkhEC6JdGPAt1drffaxQ = 2;
-        [n1.ElementAttribute(TracingId = 228971U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "FD5DmZ0tUeCNqhU3cjKQ8E", Name = "__slot_FD5DmZ0tUeCNqhU3cjKQ8E")]
+        [n1.ElementAttribute(TracingId = 262943U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "FD5DmZ0tUeCNqhU3cjKQ8E", Name = "__slot_FD5DmZ0tUeCNqhU3cjKQ8E")]
         public static int __slot_FD5DmZ0tUeCNqhU3cjKQ8E = 4;
-        [n1.ElementAttribute(TracingId = 229074U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "EBCI5sItoobLNa0A4s4yfT", Name = "__slot_EBCI5sItoobLNa0A4s4yfT")]
+        [n1.ElementAttribute(TracingId = 262983U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "EBCI5sItoobLNa0A4s4yfT", Name = "__slot_EBCI5sItoobLNa0A4s4yfT")]
         public static int __slot_EBCI5sItoobLNa0A4s4yfT = 8;
-        [n1.ElementAttribute(TracingId = 229184U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "TMcgEDG0I9CN7EGtKrfGBU", Name = "__slot_TMcgEDG0I9CN7EGtKrfGBU")]
+        [n1.ElementAttribute(TracingId = 263023U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "TMcgEDG0I9CN7EGtKrfGBU", Name = "__slot_TMcgEDG0I9CN7EGtKrfGBU")]
         public static int __slot_TMcgEDG0I9CN7EGtKrfGBU = 2;
-        [n1.ElementAttribute(TracingId = 229292U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "NWV4aNNgfx3MKwH6Zcn2F0", Name = "__slot_NWV4aNNgfx3MKwH6Zcn2F0")]
+        [n1.ElementAttribute(TracingId = 263063U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "NWV4aNNgfx3MKwH6Zcn2F0", Name = "__slot_NWV4aNNgfx3MKwH6Zcn2F0")]
         public static int __slot_NWV4aNNgfx3MKwH6Zcn2F0 = 4;
-        [n1.ElementAttribute(TracingId = 229437U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "JavKAQNI849QGzPQA59rFX", Name = "__slot_JavKAQNI849QGzPQA59rFX")]
+        [n1.ElementAttribute(TracingId = 263103U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "JavKAQNI849QGzPQA59rFX", Name = "__slot_JavKAQNI849QGzPQA59rFX")]
         public static int __slot_JavKAQNI849QGzPQA59rFX = 8;
-        [n1.ElementAttribute(TracingId = 229526U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "VkKAOiqlY6cNMinYuKWlBm", Name = "__slot_VkKAOiqlY6cNMinYuKWlBm")]
+        [n1.ElementAttribute(TracingId = 263135U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "VkKAOiqlY6cNMinYuKWlBm", Name = "__slot_VkKAOiqlY6cNMinYuKWlBm")]
         public static int __slot_VkKAOiqlY6cNMinYuKWlBm = 1;
-        [n1.ElementAttribute(TracingId = 229618U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "QeGnpyqv6oPQJLSWX5jZ7w", Name = "__slot_QeGnpyqv6oPQJLSWX5jZ7w")]
+        [n1.ElementAttribute(TracingId = 263168U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "QeGnpyqv6oPQJLSWX5jZ7w", Name = "__slot_QeGnpyqv6oPQJLSWX5jZ7w")]
         public static int __slot_QeGnpyqv6oPQJLSWX5jZ7w = 2;
-        [n1.ElementAttribute(TracingId = 232957U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "A8CajQE8mjROq08djrW5IL", Name = "__slot_A8CajQE8mjROq08djrW5IL")]
+        [n1.ElementAttribute(TracingId = 263208U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "A8CajQE8mjROq08djrW5IL", Name = "__slot_A8CajQE8mjROq08djrW5IL")]
         public static int __slot_A8CajQE8mjROq08djrW5IL = 4;
-        [n1.ElementAttribute(TracingId = 233078U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Gui8tjkv3gKPURNclP2duu", Name = "__slot_Gui8tjkv3gKPURNclP2duu")]
+        [n1.ElementAttribute(TracingId = 263248U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Gui8tjkv3gKPURNclP2duu", Name = "__slot_Gui8tjkv3gKPURNclP2duu")]
         public static int __slot_Gui8tjkv3gKPURNclP2duu = 8;
-        [n1.ElementAttribute(TracingId = 233144U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Kx3xzQwEqnRQUsXZKYvD2K", Name = "__slot_Kx3xzQwEqnRQUsXZKYvD2K")]
+        [n1.ElementAttribute(TracingId = 263288U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Kx3xzQwEqnRQUsXZKYvD2K", Name = "__slot_Kx3xzQwEqnRQUsXZKYvD2K")]
         public static byte __slot_Kx3xzQwEqnRQUsXZKYvD2K = 0;
-        [n1.ElementAttribute(TracingId = 233126U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "AkPiOfZ9TTeMBILcYVemhP", Name = "__slot_AkPiOfZ9TTeMBILcYVemhP")]
+        [n1.ElementAttribute(TracingId = 263282U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "AkPiOfZ9TTeMBILcYVemhP", Name = "__slot_AkPiOfZ9TTeMBILcYVemhP")]
         public static byte __slot_AkPiOfZ9TTeMBILcYVemhP = 1;
-        [n1.ElementAttribute(TracingId = 233236U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "NPj1aYpnjJ7LjAGRHi0zA5", Name = "__slot_NPj1aYpnjJ7LjAGRHi0zA5")]
+        [n1.ElementAttribute(TracingId = 263333U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "NPj1aYpnjJ7LjAGRHi0zA5", Name = "__slot_NPj1aYpnjJ7LjAGRHi0zA5")]
         public static int __slot_NPj1aYpnjJ7LjAGRHi0zA5 = 2;
-        [n1.ElementAttribute(TracingId = 233322U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "RyG1d3WQflTMWnHUYNmA3D", Name = "__slot_RyG1d3WQflTMWnHUYNmA3D")]
+        [n1.ElementAttribute(TracingId = 263377U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "RyG1d3WQflTMWnHUYNmA3D", Name = "__slot_RyG1d3WQflTMWnHUYNmA3D")]
         public static int __slot_RyG1d3WQflTMWnHUYNmA3D = 4;
-        [n1.ElementAttribute(TracingId = 233405U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "TshweuDXVPZPEpReURMdXO", Name = "__slot_TshweuDXVPZPEpReURMdXO")]
+        [n1.ElementAttribute(TracingId = 263421U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "TshweuDXVPZPEpReURMdXO", Name = "__slot_TshweuDXVPZPEpReURMdXO")]
         public static int __slot_TshweuDXVPZPEpReURMdXO = 8;
-        [n1.ElementAttribute(TracingId = 233485U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "LZdSUOBU1oTPOObNeWjiQF", Name = "__slot_LZdSUOBU1oTPOObNeWjiQF")]
+        [n1.ElementAttribute(TracingId = 263465U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "LZdSUOBU1oTPOObNeWjiQF", Name = "__slot_LZdSUOBU1oTPOObNeWjiQF")]
         public static int __slot_LZdSUOBU1oTPOObNeWjiQF = 2;
-        [n1.ElementAttribute(TracingId = 233534U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "G1jrlLFTBZaQCSOc3UNFTA", Name = "__slot_G1jrlLFTBZaQCSOc3UNFTA")]
+        [n1.ElementAttribute(TracingId = 263509U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "G1jrlLFTBZaQCSOc3UNFTA", Name = "__slot_G1jrlLFTBZaQCSOc3UNFTA")]
         public static int __slot_G1jrlLFTBZaQCSOc3UNFTA = 4;
-        [n1.ElementAttribute(TracingId = 233578U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "H1lRhh1BOEuO78McHrDlFD", Name = "__slot_H1lRhh1BOEuO78McHrDlFD")]
+        [n1.ElementAttribute(TracingId = 263553U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "H1lRhh1BOEuO78McHrDlFD", Name = "__slot_H1lRhh1BOEuO78McHrDlFD")]
         public static int __slot_H1lRhh1BOEuO78McHrDlFD = 8;
-        [n1.ElementAttribute(TracingId = 233649U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "SZRtccbSy3UPLa3zgwcg7x", Name = "__slot_SZRtccbSy3UPLa3zgwcg7x")]
+        [n1.ElementAttribute(TracingId = 263624U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "SZRtccbSy3UPLa3zgwcg7x", Name = "__slot_SZRtccbSy3UPLa3zgwcg7x")]
         public static int __slot_SZRtccbSy3UPLa3zgwcg7x = 2;
-        [n1.ElementAttribute(TracingId = 233693U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "N4gFkXbgoqyOUN5OVRzKXj", Name = "__slot_N4gFkXbgoqyOUN5OVRzKXj")]
+        [n1.ElementAttribute(TracingId = 263668U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "N4gFkXbgoqyOUN5OVRzKXj", Name = "__slot_N4gFkXbgoqyOUN5OVRzKXj")]
         public static int __slot_N4gFkXbgoqyOUN5OVRzKXj = 4;
-        [n1.ElementAttribute(TracingId = 233737U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "LRuNj6hhaHjQPU2Jw56yXa", Name = "__slot_LRuNj6hhaHjQPU2Jw56yXa")]
+        [n1.ElementAttribute(TracingId = 263712U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "LRuNj6hhaHjQPU2Jw56yXa", Name = "__slot_LRuNj6hhaHjQPU2Jw56yXa")]
         public static int __slot_LRuNj6hhaHjQPU2Jw56yXa = 8;
-        [n1.ElementAttribute(TracingId = 233799U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "HqixQ3IRYqhM3MTcTW60ML", Name = "__slot_HqixQ3IRYqhM3MTcTW60ML")]
+        [n1.ElementAttribute(TracingId = 263774U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "HqixQ3IRYqhM3MTcTW60ML", Name = "__slot_HqixQ3IRYqhM3MTcTW60ML")]
         public static int __slot_HqixQ3IRYqhM3MTcTW60ML = 2;
-        [n1.ElementAttribute(TracingId = 233850U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "I9h4XkCslkAMGPUuh0b5Gu", Name = "__slot_I9h4XkCslkAMGPUuh0b5Gu")]
+        [n1.ElementAttribute(TracingId = 263825U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "I9h4XkCslkAMGPUuh0b5Gu", Name = "__slot_I9h4XkCslkAMGPUuh0b5Gu")]
         public static int __slot_I9h4XkCslkAMGPUuh0b5Gu = 4;
-        [n1.ElementAttribute(TracingId = 233901U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "CYcu70nVzevNP7IDEOhaps", Name = "__slot_CYcu70nVzevNP7IDEOhaps")]
+        [n1.ElementAttribute(TracingId = 263876U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "CYcu70nVzevNP7IDEOhaps", Name = "__slot_CYcu70nVzevNP7IDEOhaps")]
         public static int __slot_CYcu70nVzevNP7IDEOhaps = 8;
-        [n1.ElementAttribute(TracingId = 233952U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "SH2s4Jm0Qm4LOx2167Xi5J", Name = "__slot_SH2s4Jm0Qm4LOx2167Xi5J")]
+        [n1.ElementAttribute(TracingId = 263927U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "SH2s4Jm0Qm4LOx2167Xi5J", Name = "__slot_SH2s4Jm0Qm4LOx2167Xi5J")]
         public static int __slot_SH2s4Jm0Qm4LOx2167Xi5J = 2;
-        [n1.ElementAttribute(TracingId = 234003U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "SIukfJ8Z2ssPddwx27eBQ2", Name = "__slot_SIukfJ8Z2ssPddwx27eBQ2")]
+        [n1.ElementAttribute(TracingId = 263978U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "SIukfJ8Z2ssPddwx27eBQ2", Name = "__slot_SIukfJ8Z2ssPddwx27eBQ2")]
         public static int __slot_SIukfJ8Z2ssPddwx27eBQ2 = 4;
-        [n1.ElementAttribute(TracingId = 234057U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "JH0uLgsTQAmQPIk4V77Ezx", Name = "__slot_JH0uLgsTQAmQPIk4V77Ezx")]
+        [n1.ElementAttribute(TracingId = 264029U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "JH0uLgsTQAmQPIk4V77Ezx", Name = "__slot_JH0uLgsTQAmQPIk4V77Ezx")]
         public static int __slot_JH0uLgsTQAmQPIk4V77Ezx = 8;
-        [n1.ElementAttribute(TracingId = 234250U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "LN7Mz2YVvf3NsEXeneQNlV", Name = "__slot_LN7Mz2YVvf3NsEXeneQNlV")]
+        [n1.ElementAttribute(TracingId = 264107U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "LN7Mz2YVvf3NsEXeneQNlV", Name = "__slot_LN7Mz2YVvf3NsEXeneQNlV")]
         public static int __slot_LN7Mz2YVvf3NsEXeneQNlV = 2;
-        [n1.ElementAttribute(TracingId = 234355U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Vev5OkLSsEEOGQ59NTEOVs", Name = "__slot_Vev5OkLSsEEOGQ59NTEOVs")]
+        [n1.ElementAttribute(TracingId = 264158U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Vev5OkLSsEEOGQ59NTEOVs", Name = "__slot_Vev5OkLSsEEOGQ59NTEOVs")]
         public static int __slot_Vev5OkLSsEEOGQ59NTEOVs = 4;
-        [n1.ElementAttribute(TracingId = 234466U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "QmMJgjK5tGgPRqD5hkFQGJ", Name = "__slot_QmMJgjK5tGgPRqD5hkFQGJ")]
+        [n1.ElementAttribute(TracingId = 264209U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "QmMJgjK5tGgPRqD5hkFQGJ", Name = "__slot_QmMJgjK5tGgPRqD5hkFQGJ")]
         public static int __slot_QmMJgjK5tGgPRqD5hkFQGJ = 8;
         static _Operations_()
         {
@@ -2337,7 +2337,7 @@ namespace _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced
 
 namespace _VL_Collections_.Collections.Builder.DictionaryBuilder.Advanced
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
@@ -2375,7 +2375,7 @@ namespace _VL_Collections_.Collections.Builder.DictionaryBuilder.Advanced
 
 namespace _VL_Collections_.Collections.Builder.HashSetBuilder.Advanced
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
@@ -2405,7 +2405,7 @@ namespace _VL_Collections_.Collections.Builder.HashSetBuilder.Advanced
 
 namespace _VL_Collections_.Collections.Builder.SortedDictionaryBuilder.Advanced
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateNewAttribute]
@@ -2443,7 +2443,7 @@ namespace _VL_Collections_.Collections.Builder.SortedDictionaryBuilder.Advanced
 
 namespace _VL_Collections_.Collections.Builder.SortedSetBuilder.Advanced
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateNewAttribute]
@@ -2473,7 +2473,7 @@ namespace _VL_Collections_.Collections.Builder.SortedSetBuilder.Advanced
 
 namespace _VL_Collections_.Collections.Builder.ArrayBuilder.Advanced
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
@@ -2500,7 +2500,7 @@ namespace _VL_Collections_.Collections.Builder.ArrayBuilder.Advanced
             return;
         }
 
-        [n1.ElementAttribute(TracingId = 234619U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "FBy4tiqqBMHOkfOuj9EQnj", Name = "__slot_FBy4tiqqBMHOkfOuj9EQnj")]
+        [n1.ElementAttribute(TracingId = 264297U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "FBy4tiqqBMHOkfOuj9EQnj", Name = "__slot_FBy4tiqqBMHOkfOuj9EQnj")]
         public static int __slot_FBy4tiqqBMHOkfOuj9EQnj = 0;
         static _Operations_()
         {
@@ -2510,7 +2510,7 @@ namespace _VL_Collections_.Collections.Builder.ArrayBuilder.Advanced
 
 namespace _VL_Collections_.Collections.Builder.MutableArrayBuilder.Advanced
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         public static void AsMemory_H<T>(n5.ArrayBuilder<T> Input_In, out n5.ArrayBuilder<T> Output_Out, out n2.Memory<T> Result_Out)
@@ -2533,7 +2533,7 @@ namespace _VL_Collections_.Collections.Builder.MutableArrayBuilder.Advanced
 
 namespace _VL_Collections_.Collections.Spread.Advanced
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         public static void FromBoolean(bool Value_In, out n5.Spread<byte> Output_Out)
@@ -2561,48 +2561,48 @@ namespace _VL_Collections_.Collections.Spread.Advanced
 
         public static void FromChar(char Value_In, bool As_Big_Endian_In, out n5.Spread<byte> Output_Out)
         {
-            n22._Operations_.FromChar(Value_In: Value_In, As_Big_Endian_In: As_Big_Endian_In, Output_Out: out n5.SpreadBuilder<byte> Output_0);
-            n22._Operations_.ToSpread<byte>(Input_In: Output_0, Output_Out: out n5.SpreadBuilder<byte> Output_1, Result_Out: out n5.Spread<byte> Result_2);
+            n24._Operations_.FromChar(Value_In: Value_In, As_Big_Endian_In: As_Big_Endian_In, Output_Out: out n5.SpreadBuilder<byte> Output_0);
+            n24._Operations_.ToSpread<byte>(Input_In: Output_0, Output_Out: out n5.SpreadBuilder<byte> Output_1, Result_Out: out n5.Spread<byte> Result_2);
             Output_Out = Result_2;
             return;
         }
 
         public static void FromFloat32(float Value_In, bool As_Big_Endian_In, out n5.Spread<byte> Output_Out)
         {
-            n22._Operations_.FromFloat32(Value_In: Value_In, As_Big_Endian_In: As_Big_Endian_In, Output_Out: out n5.SpreadBuilder<byte> Output_0);
-            n22._Operations_.ToSpread<byte>(Input_In: Output_0, Output_Out: out n5.SpreadBuilder<byte> Output_1, Result_Out: out n5.Spread<byte> Result_2);
+            n24._Operations_.FromFloat32(Value_In: Value_In, As_Big_Endian_In: As_Big_Endian_In, Output_Out: out n5.SpreadBuilder<byte> Output_0);
+            n24._Operations_.ToSpread<byte>(Input_In: Output_0, Output_Out: out n5.SpreadBuilder<byte> Output_1, Result_Out: out n5.Spread<byte> Result_2);
             Output_Out = Result_2;
             return;
         }
 
         public static void FromFloat64(double Value_In, bool As_Big_Endian_In, out n5.Spread<byte> Output_Out)
         {
-            n22._Operations_.FromFloat64(Value_In: Value_In, As_Big_Endian_In: As_Big_Endian_In, Output_Out: out n5.SpreadBuilder<byte> Output_0);
-            n22._Operations_.ToSpread<byte>(Input_In: Output_0, Output_Out: out n5.SpreadBuilder<byte> Output_1, Result_Out: out n5.Spread<byte> Result_2);
+            n24._Operations_.FromFloat64(Value_In: Value_In, As_Big_Endian_In: As_Big_Endian_In, Output_Out: out n5.SpreadBuilder<byte> Output_0);
+            n24._Operations_.ToSpread<byte>(Input_In: Output_0, Output_Out: out n5.SpreadBuilder<byte> Output_1, Result_Out: out n5.Spread<byte> Result_2);
             Output_Out = Result_2;
             return;
         }
 
         public static void FromInt16(short Value_In, bool As_Big_Endian_In, out n5.Spread<byte> Output_Out)
         {
-            n22._Operations_.FromInt16(Value_In: Value_In, As_Big_Endian_In: As_Big_Endian_In, Output_Out: out n5.SpreadBuilder<byte> Output_0);
-            n22._Operations_.ToSpread<byte>(Input_In: Output_0, Output_Out: out n5.SpreadBuilder<byte> Output_1, Result_Out: out n5.Spread<byte> Result_2);
+            n24._Operations_.FromInt16(Value_In: Value_In, As_Big_Endian_In: As_Big_Endian_In, Output_Out: out n5.SpreadBuilder<byte> Output_0);
+            n24._Operations_.ToSpread<byte>(Input_In: Output_0, Output_Out: out n5.SpreadBuilder<byte> Output_1, Result_Out: out n5.Spread<byte> Result_2);
             Output_Out = Result_2;
             return;
         }
 
         public static void FromInt32(int Value_In, bool As_Big_Endian_In, out n5.Spread<byte> Output_Out)
         {
-            n22._Operations_.FromInt32(Value_In: Value_In, As_Big_Endian_In: As_Big_Endian_In, Output_Out: out n5.SpreadBuilder<byte> Output_0);
-            n22._Operations_.ToSpread<byte>(Input_In: Output_0, Output_Out: out n5.SpreadBuilder<byte> Output_1, Result_Out: out n5.Spread<byte> Result_2);
+            n24._Operations_.FromInt32(Value_In: Value_In, As_Big_Endian_In: As_Big_Endian_In, Output_Out: out n5.SpreadBuilder<byte> Output_0);
+            n24._Operations_.ToSpread<byte>(Input_In: Output_0, Output_Out: out n5.SpreadBuilder<byte> Output_1, Result_Out: out n5.Spread<byte> Result_2);
             Output_Out = Result_2;
             return;
         }
 
         public static void FromInt64(long Value_In, bool As_Big_Endian_In, out n5.Spread<byte> Output_Out)
         {
-            n22._Operations_.FromInt64(Value_In: Value_In, As_Big_Endian_In: As_Big_Endian_In, Output_Out: out n5.SpreadBuilder<byte> Output_0);
-            n22._Operations_.ToSpread<byte>(Input_In: Output_0, Output_Out: out n5.SpreadBuilder<byte> Output_1, Result_Out: out n5.Spread<byte> Result_2);
+            n24._Operations_.FromInt64(Value_In: Value_In, As_Big_Endian_In: As_Big_Endian_In, Output_Out: out n5.SpreadBuilder<byte> Output_0);
+            n24._Operations_.ToSpread<byte>(Input_In: Output_0, Output_Out: out n5.SpreadBuilder<byte> Output_1, Result_Out: out n5.Spread<byte> Result_2);
             Output_Out = Result_2;
             return;
         }
@@ -2621,24 +2621,24 @@ namespace _VL_Collections_.Collections.Spread.Advanced
 
         public static void FromUInt16(ushort Value_In, bool As_Big_Endian_In, out n5.Spread<byte> Output_Out)
         {
-            n22._Operations_.FromUInt16(Value_In: Value_In, As_Big_Endian_In: As_Big_Endian_In, Output_Out: out n5.SpreadBuilder<byte> Output_0);
-            n22._Operations_.ToSpread<byte>(Input_In: Output_0, Output_Out: out n5.SpreadBuilder<byte> Output_1, Result_Out: out n5.Spread<byte> Result_2);
+            n24._Operations_.FromUInt16(Value_In: Value_In, As_Big_Endian_In: As_Big_Endian_In, Output_Out: out n5.SpreadBuilder<byte> Output_0);
+            n24._Operations_.ToSpread<byte>(Input_In: Output_0, Output_Out: out n5.SpreadBuilder<byte> Output_1, Result_Out: out n5.Spread<byte> Result_2);
             Output_Out = Result_2;
             return;
         }
 
         public static void FromUInt32(uint Value_In, bool As_Big_Endian_In, out n5.Spread<byte> Output_Out)
         {
-            n22._Operations_.FromUInt32(Value_In: Value_In, As_Big_Endian_In: As_Big_Endian_In, Output_Out: out n5.SpreadBuilder<byte> Output_0);
-            n22._Operations_.ToSpread<byte>(Input_In: Output_0, Output_Out: out n5.SpreadBuilder<byte> Output_1, Result_Out: out n5.Spread<byte> Result_2);
+            n24._Operations_.FromUInt32(Value_In: Value_In, As_Big_Endian_In: As_Big_Endian_In, Output_Out: out n5.SpreadBuilder<byte> Output_0);
+            n24._Operations_.ToSpread<byte>(Input_In: Output_0, Output_Out: out n5.SpreadBuilder<byte> Output_1, Result_Out: out n5.Spread<byte> Result_2);
             Output_Out = Result_2;
             return;
         }
 
         public static void FromUInt64(ulong Value_In, bool As_Big_Endian_In, out n5.Spread<byte> Output_Out)
         {
-            n22._Operations_.FromUInt64(Value_In: Value_In, As_Big_Endian_In: As_Big_Endian_In, Output_Out: out n5.SpreadBuilder<byte> Output_0);
-            n22._Operations_.ToSpread<byte>(Input_In: Output_0, Output_Out: out n5.SpreadBuilder<byte> Output_1, Result_Out: out n5.Spread<byte> Result_2);
+            n24._Operations_.FromUInt64(Value_In: Value_In, As_Big_Endian_In: As_Big_Endian_In, Output_Out: out n5.SpreadBuilder<byte> Output_0);
+            n24._Operations_.ToSpread<byte>(Input_In: Output_0, Output_Out: out n5.SpreadBuilder<byte> Output_1, Result_Out: out n5.Spread<byte> Result_2);
             Output_Out = Result_2;
             return;
         }
@@ -2720,12 +2720,12 @@ namespace _VL_Collections_.Collections.Spread.Advanced
             return;
         }
 
-        public static void CreateCircleSpread(n23.Vector2 Center_In, [n4.SerializedDefaultValueAttribute("1, 1", false)] n23.Vector2 Size_In, [n4.SerializedDefaultValueAttribute("1", false)] float Factor_In, float Phase_In, [n4.SerializedDefaultValueAttribute("1", false)] int Count_In, out n5.Spread<n23.Vector2> Output_Out)
+        public static void CreateCircleSpread(n26.Vector2 Center_In, [n4.SerializedDefaultValueAttribute("1, 1", false)] n26.Vector2 Size_In, [n4.SerializedDefaultValueAttribute("1", false)] float Factor_In, float Phase_In, [n4.SerializedDefaultValueAttribute("1", false)] int Count_In, out n5.Spread<n26.Vector2> Output_Out)
         {
-            n5.Spread<n23.Vector2> __cp_LWwNpByhhZDQMsCcAlmAGY = n7._Operations_.CreateDefault<n23.Vector2>();
+            n5.Spread<n26.Vector2> __cp_LWwNpByhhZDQMsCcAlmAGY = n7._Operations_.CreateDefault<n26.Vector2>();
             float Input_2_0 = (float)Count_In;
             var builder_13 = n4.CollectionBuilders.GetBuilder(__cp_LWwNpByhhZDQMsCcAlmAGY, 16);
-            n5.Spread<n23.Vector2> output_14;
+            n5.Spread<n26.Vector2> output_14;
             try
             {
                 for (var i_1 = 0; i_1 < Count_In; i_1++)
@@ -2737,10 +2737,10 @@ namespace _VL_Collections_.Collections.Spread.Advanced
                     var Output_6 = (float)Input_5 / Input_2_0;
                     var Output_7 = Output_6 * Factor_In;
                     var Output_8 = Output_7 + Phase_In;
-                    n24._Operations_.FromPolar(Angle_In: Output_8, Radius_In: __pad_UpkjHgobUAKOyHL7cpQZco_3, Output_Out: out n23.Vector2 Output_9);
-                    n25.Vector2Nodes.Scale(input: ref Size_In, scalar: __pad_Ffa2IPVXjY0QXsJkzpIXgO_4, output: out n23.Vector2 Output_10);
-                    n25.Vector2Nodes.Multiply(left: ref Output_9, right: ref Output_10, result: out n23.Vector2 Output_11);
-                    n23.Vector2.Add(left: ref Output_11, right: ref Center_In, result: out n23.Vector2 Output_12);
+                    n29._Operations_.FromPolar(Angle_In: Output_8, Radius_In: __pad_UpkjHgobUAKOyHL7cpQZco_3, Output_Out: out n26.Vector2 Output_9);
+                    n27.Vector2Nodes.Scale(input: ref Size_In, scalar: __pad_Ffa2IPVXjY0QXsJkzpIXgO_4, output: out n26.Vector2 Output_10);
+                    n27.Vector2Nodes.Multiply(left: ref Output_9, right: ref Output_10, result: out n26.Vector2 Output_11);
+                    n26.Vector2.Add(left: ref Output_11, right: ref Center_In, result: out n26.Vector2 Output_12);
                     builder_13.Add(Output_12);
                 }
             }
@@ -2776,20 +2776,20 @@ namespace _VL_Collections_.Collections.Spread.Advanced
             return;
         }
 
-        public static void CreateRandomSpread__2D(n23.Vector2 Center_In, [n4.SerializedDefaultValueAttribute("1, 1", false)] n23.Vector2 Size_In, [n4.SerializedDefaultValueAttribute("0", false)] int Seed_In, [n4.SerializedDefaultValueAttribute("1", false)] int Count_In, out n5.Spread<n23.Vector2> Output_Out)
+        public static void CreateRandomSpread__2D(n26.Vector2 Center_In, [n4.SerializedDefaultValueAttribute("1, 1", false)] n26.Vector2 Size_In, [n4.SerializedDefaultValueAttribute("0", false)] int Seed_In, [n4.SerializedDefaultValueAttribute("1", false)] int Count_In, out n5.Spread<n26.Vector2> Output_Out)
         {
-            n5.Spread<n23.Vector2> __cp_IxwAjLGYvbFLY8prmuMu0m = n7._Operations_.CreateDefault<n23.Vector2>();
+            n5.Spread<n26.Vector2> __cp_IxwAjLGYvbFLY8prmuMu0m = n7._Operations_.CreateDefault<n26.Vector2>();
             float __pad_BsjicetXGw6QZtVENwUPtf_0 = __slot_BsjicetXGw6QZtVENwUPtf;
             int __pad_Vt6z7ltHiOjLxhzkH5zCDw_1 = __slot_Vt6z7ltHiOjLxhzkH5zCDw;
             var Output_2 = Count_In * __pad_Vt6z7ltHiOjLxhzkH5zCDw_1;
             float Width_3 = 1F;
-            var Result_4 = n26.SpreadGenerators.RandomSpread(center: __pad_BsjicetXGw6QZtVENwUPtf_0, width: Width_3, seed: Seed_In, count: Output_2);
+            var Result_4 = n25.SpreadGenerators.RandomSpread(center: __pad_BsjicetXGw6QZtVENwUPtf_0, width: Width_3, seed: Seed_In, count: Output_2);
             n6.IEnumerable<float> Values_5 = (n6.IEnumerable<float>)Result_4;
-            var Result_6 = n26.ValuesToVectorsNodes.ValuesToVectors2D(values: Values_5);
-            n13._Operations_.UnitRange<n23.Vector2, n12.__AdaptiveImplementations__CsYvmiCXzFgMbCg5YvFjkW>(Range_Out: out n25.Range<n23.Vector2> Range_7);
-            n27._Operations_.Range_Join_Center_Width<n23.Vector2, n12.__AdaptiveImplementations__CsYvmiCXzFgMbCg5YvFjkW>(Center_In: Center_In, Width_In: Size_In, Output_Out: out n25.Range<n23.Vector2> Output_8);
+            var Result_6 = n25.ValuesToVectorsNodes.ValuesToVectors2D(values: Values_5);
+            n13._Operations_.UnitRange<n26.Vector2, n12.__AdaptiveImplementations__CsYvmiCXzFgMbCg5YvFjkW>(Range_Out: out n27.Range<n26.Vector2> Range_7);
+            n30._Operations_.Range_Join_Center_Width<n26.Vector2, n12.__AdaptiveImplementations__CsYvmiCXzFgMbCg5YvFjkW>(Center_In: Center_In, Width_In: Size_In, Output_Out: out n27.Range<n26.Vector2> Output_8);
             var builder_14 = n4.CollectionBuilders.GetBuilder(__cp_IxwAjLGYvbFLY8prmuMu0m, 16);
-            n5.Spread<n23.Vector2> output_15;
+            n5.Spread<n26.Vector2> output_15;
             try
             {
                 var i_11 = 0;
@@ -2797,7 +2797,7 @@ namespace _VL_Collections_.Collections.Spread.Advanced
                 {
                     var splicer_10 = item_9;
                     var i_local_12 = i_11;
-                    n13._Operations_.Map_Range<n23.Vector2, n12.__AdaptiveImplementations__CsYvmiCXzFgMbCg5YvFjkW>(Input_In: splicer_10, From_In: Range_7, To_In: Output_8, Output_Out: out n23.Vector2 Output_13);
+                    n13._Operations_.Map_Range<n26.Vector2, n12.__AdaptiveImplementations__CsYvmiCXzFgMbCg5YvFjkW>(Input_In: splicer_10, From_In: Range_7, To_In: Output_8, Output_Out: out n26.Vector2 Output_13);
                     builder_14.Add(Output_13);
                     i_11++;
                 }
@@ -2811,20 +2811,20 @@ namespace _VL_Collections_.Collections.Spread.Advanced
             return;
         }
 
-        public static void CreateRandomSpread__3D(n23.Vector3 Center_In, [n4.SerializedDefaultValueAttribute("1, 1, 1", false)] n23.Vector3 Size_In, [n4.SerializedDefaultValueAttribute("0", false)] int Seed_In, [n4.SerializedDefaultValueAttribute("1", false)] int Count_In, out n5.Spread<n23.Vector3> Output_Out)
+        public static void CreateRandomSpread__3D(n26.Vector3 Center_In, [n4.SerializedDefaultValueAttribute("1, 1, 1", false)] n26.Vector3 Size_In, [n4.SerializedDefaultValueAttribute("0", false)] int Seed_In, [n4.SerializedDefaultValueAttribute("1", false)] int Count_In, out n5.Spread<n26.Vector3> Output_Out)
         {
-            n5.Spread<n23.Vector3> __cp_E2SNo8jCk4PPJ8RCZNVCC5 = n7._Operations_.CreateDefault<n23.Vector3>();
+            n5.Spread<n26.Vector3> __cp_E2SNo8jCk4PPJ8RCZNVCC5 = n7._Operations_.CreateDefault<n26.Vector3>();
             float __pad_LvjpH9ct2vSNxQyXHtFSvV_0 = __slot_LvjpH9ct2vSNxQyXHtFSvV;
             int __pad_C11j5RZ7YS1Ose69sHI8TJ_1 = __slot_C11j5RZ7YS1Ose69sHI8TJ;
             var Output_2 = Count_In * __pad_C11j5RZ7YS1Ose69sHI8TJ_1;
             float Width_3 = 1F;
-            var Result_4 = n26.SpreadGenerators.RandomSpread(center: __pad_LvjpH9ct2vSNxQyXHtFSvV_0, width: Width_3, seed: Seed_In, count: Output_2);
+            var Result_4 = n25.SpreadGenerators.RandomSpread(center: __pad_LvjpH9ct2vSNxQyXHtFSvV_0, width: Width_3, seed: Seed_In, count: Output_2);
             n6.IEnumerable<float> Values_5 = (n6.IEnumerable<float>)Result_4;
-            var Result_6 = n26.ValuesToVectorsNodes.ValuesToVectors3D(values: Values_5);
-            n13._Operations_.UnitRange<n23.Vector3, n12.__AdaptiveImplementations__CsYvmiCXzFgMbCg5YvFjkW>(Range_Out: out n25.Range<n23.Vector3> Range_7);
-            n27._Operations_.Range_Join_Center_Width<n23.Vector3, n12.__AdaptiveImplementations__CsYvmiCXzFgMbCg5YvFjkW>(Center_In: Center_In, Width_In: Size_In, Output_Out: out n25.Range<n23.Vector3> Output_8);
+            var Result_6 = n25.ValuesToVectorsNodes.ValuesToVectors3D(values: Values_5);
+            n13._Operations_.UnitRange<n26.Vector3, n12.__AdaptiveImplementations__CsYvmiCXzFgMbCg5YvFjkW>(Range_Out: out n27.Range<n26.Vector3> Range_7);
+            n30._Operations_.Range_Join_Center_Width<n26.Vector3, n12.__AdaptiveImplementations__CsYvmiCXzFgMbCg5YvFjkW>(Center_In: Center_In, Width_In: Size_In, Output_Out: out n27.Range<n26.Vector3> Output_8);
             var builder_14 = n4.CollectionBuilders.GetBuilder(__cp_E2SNo8jCk4PPJ8RCZNVCC5, 16);
-            n5.Spread<n23.Vector3> output_15;
+            n5.Spread<n26.Vector3> output_15;
             try
             {
                 var i_11 = 0;
@@ -2832,7 +2832,7 @@ namespace _VL_Collections_.Collections.Spread.Advanced
                 {
                     var splicer_10 = item_9;
                     var i_local_12 = i_11;
-                    n13._Operations_.Map_Range<n23.Vector3, n12.__AdaptiveImplementations__CsYvmiCXzFgMbCg5YvFjkW>(Input_In: splicer_10, From_In: Range_7, To_In: Output_8, Output_Out: out n23.Vector3 Output_13);
+                    n13._Operations_.Map_Range<n26.Vector3, n12.__AdaptiveImplementations__CsYvmiCXzFgMbCg5YvFjkW>(Input_In: splicer_10, From_In: Range_7, To_In: Output_8, Output_Out: out n26.Vector3 Output_13);
                     builder_14.Add(Output_13);
                     i_11++;
                 }
@@ -2846,11 +2846,11 @@ namespace _VL_Collections_.Collections.Spread.Advanced
             return;
         }
 
-        public static void CreateRectangleSpread(n23.Vector2 Center_In, [n4.SerializedDefaultValueAttribute("1, 1", false)] n23.Vector2 Size_In, [n4.SerializedDefaultValueAttribute("1", false)] int Subdivision_Count_In, out n5.Spread<n23.Vector2> Output_Out)
+        public static void CreateRectangleSpread(n26.Vector2 Center_In, [n4.SerializedDefaultValueAttribute("1, 1", false)] n26.Vector2 Size_In, [n4.SerializedDefaultValueAttribute("1", false)] int Subdivision_Count_In, out n5.Spread<n26.Vector2> Output_Out)
         {
-            n5.Spread<n23.Vector2> __pin_group_Input_In_NZwbpDQCneTNHPC1NENkfH = default(n5.Spread<n23.Vector2>);
-            var Result_0 = n25.RectangleNodes.FromCenterSize(center: ref Center_In, size: ref Size_In);
-            n28._Operations_.Corners(Input_In: Result_0, Top_Left_Out: out n23.Vector2 Top_Left_1, Top_Right_Out: out n23.Vector2 Top_Right_2, Bottom_Right_Out: out n23.Vector2 Bottom_Right_3, Bottom_Left_Out: out n23.Vector2 Bottom_Left_4);
+            n5.Spread<n26.Vector2> __pin_group_Input_In_NZwbpDQCneTNHPC1NENkfH = default(n5.Spread<n26.Vector2>);
+            var Result_0 = n27.RectangleNodes.FromCenterSize(center: ref Center_In, size: ref Size_In);
+            n31._Operations_.Corners(Input_In: Result_0, Top_Left_Out: out n26.Vector2 Top_Left_1, Top_Right_Out: out n26.Vector2 Top_Right_2, Bottom_Right_Out: out n26.Vector2 Bottom_Right_3, Bottom_Left_Out: out n26.Vector2 Bottom_Left_4);
             var builder_5 = n4.CollectionBuilders.GetBuilder(__pin_group_Input_In_NZwbpDQCneTNHPC1NENkfH, 5);
             builder_5.Add(Top_Left_1);
             builder_5.Add(Top_Right_2);
@@ -2858,17 +2858,17 @@ namespace _VL_Collections_.Collections.Spread.Advanced
             builder_5.Add(Bottom_Left_4);
             builder_5.Add(Top_Left_1);
             var __pin_group_Input_In_NZwbpDQCneTNHPC1NENkfH_6 = builder_5.Commit();
-            n7._Operations_.Cons<n23.Vector2>(Input_In: __pin_group_Input_In_NZwbpDQCneTNHPC1NENkfH_6, Result_Out: out n5.Spread<n23.Vector2> Result_7);
+            n7._Operations_.Cons<n26.Vector2>(Input_In: __pin_group_Input_In_NZwbpDQCneTNHPC1NENkfH_6, Result_Out: out n5.Spread<n26.Vector2> Result_7);
             var __fallback___8 = n1.ServiceRegistry.Current;
-            n7._Operations_.Pairwise<n23.Vector2, n5.Spread<n23.Vector2>>(Input_In: Result_7, Selector_In: (n23.Vector2 Input_1_In_10, n23.Vector2 Input_2_In_11) =>
+            n7._Operations_.Pairwise<n26.Vector2, n5.Spread<n26.Vector2>>(Input_In: Result_7, Selector_In: (n26.Vector2 Input_1_In_10, n26.Vector2 Input_2_In_11) =>
             {
                 using var __current_9 = __fallback___8.MakeCurrentIfNone();
-                n5.Spread<n23.Vector2> __cp_ODBzco4Yp7WNNVlkMUHAi3 = n7._Operations_.CreateDefault<n23.Vector2>();
+                n5.Spread<n26.Vector2> __cp_ODBzco4Yp7WNNVlkMUHAi3 = n7._Operations_.CreateDefault<n26.Vector2>();
                 int __pad_SsZPDsphdOmLZngeIg7x3S_12 = __slot_SsZPDsphdOmLZngeIg7x3S;
                 var Output_13 = Subdivision_Count_In + __pad_SsZPDsphdOmLZngeIg7x3S_12;
                 float Input_2_14 = (float)Output_13;
                 var builder_20 = n4.CollectionBuilders.GetBuilder(__cp_ODBzco4Yp7WNNVlkMUHAi3, 16);
-                n5.Spread<n23.Vector2> output_21;
+                n5.Spread<n26.Vector2> output_21;
                 try
                 {
                     for (var i_15 = 0; i_15 < Output_13; i_15++)
@@ -2876,7 +2876,7 @@ namespace _VL_Collections_.Collections.Spread.Advanced
                         var i_local_16 = i_15;
                         float Input_17 = (float)i_local_16;
                         var Output_18 = (float)Input_17 / Input_2_14;
-                        var Output_19 = n25.Vector2Nodes.Lerp(input: ref Input_1_In_10, input2: ref Input_2_In_11, scalar: Output_18);
+                        var Output_19 = n27.Vector2Nodes.Lerp(input: ref Input_1_In_10, input2: ref Input_2_In_11, scalar: Output_18);
                         builder_20.Add(Output_19);
                     }
                 }
@@ -2888,13 +2888,13 @@ namespace _VL_Collections_.Collections.Spread.Advanced
                 return output_21;
             }
 
-            , Output_Out: out n5.Spread<n5.Spread<n23.Vector2>> Output_22);
-            n7._Operations_.Flatten<n5.Spread<n5.Spread<n23.Vector2>>, n23.Vector2>(Input_In: Output_22, Output_Out: out n5.Spread<n23.Vector2> Output_23);
+            , Output_Out: out n5.Spread<n5.Spread<n26.Vector2>> Output_22);
+            n7._Operations_.Flatten<n5.Spread<n5.Spread<n26.Vector2>>, n26.Vector2>(Input_In: Output_22, Output_Out: out n5.Spread<n26.Vector2> Output_23);
             Output_Out = Output_23;
             return;
         }
 
-        public static void CreateRoundRectSpread(n23.Vector2 Center_In, [n4.SerializedDefaultValueAttribute("1, 1", false)] n23.Vector2 Size_In, [n4.SerializedDefaultValueAttribute("1", false)] float Corner_Radius_In, [n4.SerializedDefaultValueAttribute("1", false)] int Corner_Resolution_In, [n4.SerializedDefaultValueAttribute("1", false)] int Subdivision_Count_In, out n5.Spread<n23.Vector2> Output_Out)
+        public static void CreateRoundRectSpread(n26.Vector2 Center_In, [n4.SerializedDefaultValueAttribute("1, 1", false)] n26.Vector2 Size_In, [n4.SerializedDefaultValueAttribute("1", false)] float Corner_Radius_In, [n4.SerializedDefaultValueAttribute("1", false)] int Corner_Resolution_In, [n4.SerializedDefaultValueAttribute("1", false)] int Subdivision_Count_In, out n5.Spread<n26.Vector2> Output_Out)
         {
             float __pad_VQFLHyY2pcKPWnrveTa16q_0 = __slot_VQFLHyY2pcKPWnrveTa16q;
             int __pad_RPF7fas2W1KMnC7YVrcwy2_1 = __slot_RPF7fas2W1KMnC7YVrcwy2;
@@ -2902,22 +2902,22 @@ namespace _VL_Collections_.Collections.Spread.Advanced
             var Result_3 = Corner_Resolution_In > __pad_RPF7fas2W1KMnC7YVrcwy2_1;
             var Output_4 = Result_2 && Result_3;
             var Output_5 = !Output_4;
-            n5.Spread<n23.Vector2> Output_6;
+            n5.Spread<n26.Vector2> Output_6;
             if (Output_5)
             {
-                n29._Operations_.CreateRectangleSpread(Center_In: Center_In, Size_In: Size_In, Subdivision_Count_In: Subdivision_Count_In, Output_Out: out n5.Spread<n23.Vector2> Output_7);
+                n32._Operations_.CreateRectangleSpread(Center_In: Center_In, Size_In: Size_In, Subdivision_Count_In: Subdivision_Count_In, Output_Out: out n5.Spread<n26.Vector2> Output_7);
                 Output_6 = Output_7;
             }
             else
             {
-                Output_6 = n7._Operations_.CreateDefault<n23.Vector2>();
+                Output_6 = n7._Operations_.CreateDefault<n26.Vector2>();
             }
 
             float Input_8 = (float)Corner_Resolution_In;
-            n5.Spread<n23.Vector2> Output_9;
+            n5.Spread<n26.Vector2> Output_9;
             if (Output_4)
             {
-                n5.Spread<n6.IEnumerable<n23.Vector2>> __pin_group_Input_In_Cpcm3G8pCwmQGL5olN4LrZ = default(n5.Spread<n6.IEnumerable<n23.Vector2>>);
+                n5.Spread<n6.IEnumerable<n26.Vector2>> __pin_group_Input_In_Cpcm3G8pCwmQGL5olN4LrZ = default(n5.Spread<n6.IEnumerable<n26.Vector2>>);
                 float __pad_UguWUsaH1S3MOXi5scX86v_10 = __slot_UguWUsaH1S3MOXi5scX86v;
                 float __pad_P4Y1iqVedbiQSBc6QlzW5i_11 = __slot_P4Y1iqVedbiQSBc6QlzW5i;
                 float __pad_VmMJQd2lOUZLJsQo2wKOub_12 = __slot_VmMJQd2lOUZLJsQo2wKOub;
@@ -2929,14 +2929,14 @@ namespace _VL_Collections_.Collections.Spread.Advanced
                 float __pad_Iia2GYSrbOwMGMPpcrzJ0E_18 = __slot_Iia2GYSrbOwMGMPpcrzJ0E;
                 float __pad_E6Dd7rmjoe1Ph6zSCDZqEg_19 = __slot_E6Dd7rmjoe1Ph6zSCDZqEg;
                 float __pad_PRBRtt4aRNSMx8ZAIn2bsv_20 = __slot_PRBRtt4aRNSMx8ZAIn2bsv;
-                var Result_21 = n25.RectangleNodes.FromCenterSize(center: ref Center_In, size: ref Size_In);
-                n28._Operations_.Corners(Input_In: Result_21, Top_Left_Out: out n23.Vector2 Top_Left_22, Top_Right_Out: out n23.Vector2 Top_Right_23, Bottom_Right_Out: out n23.Vector2 Bottom_Right_24, Bottom_Left_Out: out n23.Vector2 Bottom_Left_25);
-                n25.Vector2Nodes.Scale(input: ref Size_In, scalar: Corner_Radius_In, output: out n23.Vector2 Output_26);
-                n23.Vector2 Center_27 = n30._Operations_.CreateDefault();
-                var Result_28 = n25.RectangleNodes.FromCenterSize(center: ref Center_27, size: ref Output_26);
-                n28._Operations_.Corners(Input_In: Result_28, Top_Left_Out: out n23.Vector2 Top_Left_29, Top_Right_Out: out n23.Vector2 Top_Right_30, Bottom_Right_Out: out n23.Vector2 Bottom_Right_31, Bottom_Left_Out: out n23.Vector2 Bottom_Left_32);
-                n23.Vector2.Subtract(left: ref Top_Left_22, right: ref Top_Left_29, result: out n23.Vector2 Output_33);
-                n23.Vector2.Subtract(left: ref Bottom_Left_25, right: ref Bottom_Left_32, result: out n23.Vector2 Output_34);
+                var Result_21 = n27.RectangleNodes.FromCenterSize(center: ref Center_In, size: ref Size_In);
+                n31._Operations_.Corners(Input_In: Result_21, Top_Left_Out: out n26.Vector2 Top_Left_22, Top_Right_Out: out n26.Vector2 Top_Right_23, Bottom_Right_Out: out n26.Vector2 Bottom_Right_24, Bottom_Left_Out: out n26.Vector2 Bottom_Left_25);
+                n27.Vector2Nodes.Scale(input: ref Size_In, scalar: Corner_Radius_In, output: out n26.Vector2 Output_26);
+                n26.Vector2 Center_27 = n33._Operations_.CreateDefault();
+                var Result_28 = n27.RectangleNodes.FromCenterSize(center: ref Center_27, size: ref Output_26);
+                n31._Operations_.Corners(Input_In: Result_28, Top_Left_Out: out n26.Vector2 Top_Left_29, Top_Right_Out: out n26.Vector2 Top_Right_30, Bottom_Right_Out: out n26.Vector2 Bottom_Right_31, Bottom_Left_Out: out n26.Vector2 Bottom_Left_32);
+                n26.Vector2.Subtract(left: ref Top_Left_22, right: ref Top_Left_29, result: out n26.Vector2 Output_33);
+                n26.Vector2.Subtract(left: ref Bottom_Left_25, right: ref Bottom_Left_32, result: out n26.Vector2 Output_34);
                 var Output_35 = Input_8 - __pad_VmMJQd2lOUZLJsQo2wKOub_12;
                 var Output_36 = (float)__pad_P4Y1iqVedbiQSBc6QlzW5i_11 / Output_35;
                 var Output_37 = Output_36 * __pad_PRBRtt4aRNSMx8ZAIn2bsv_20;
@@ -2945,26 +2945,26 @@ namespace _VL_Collections_.Collections.Spread.Advanced
                 var Output_40 = (float)__pad_FuwHXWnxjaFNCp3AsCgAh3_14 / Output_39;
                 var Output_41 = Output_40 * __pad_Km9khMY5B05NHSQmtLgHje_15;
                 var Output_42 = __pad_VYPZfJ3BmRCNv9XoNcoUtr_16 + Output_41;
-                n29._Operations_.CreateCircleSpread(Center_In: Output_34, Size_In: Output_26, Factor_In: Output_38, Phase_In: Output_42, Count_In: Corner_Resolution_In, Output_Out: out n5.Spread<n23.Vector2> Output_43);
+                n32._Operations_.CreateCircleSpread(Center_In: Output_34, Size_In: Output_26, Factor_In: Output_38, Phase_In: Output_42, Count_In: Corner_Resolution_In, Output_Out: out n5.Spread<n26.Vector2> Output_43);
                 var Output_44 = __pad_Qn0UtceVCd9P3qHA1Sut8p_17 + Output_41;
-                n23.Vector2.Subtract(left: ref Bottom_Right_24, right: ref Bottom_Right_31, result: out n23.Vector2 Output_45);
-                n29._Operations_.CreateCircleSpread(Center_In: Output_45, Size_In: Output_26, Factor_In: Output_38, Phase_In: Output_44, Count_In: Corner_Resolution_In, Output_Out: out n5.Spread<n23.Vector2> Output_46);
-                n6.IEnumerable<n23.Vector2> Input_3_47 = (n6.IEnumerable<n23.Vector2>)Output_46;
+                n26.Vector2.Subtract(left: ref Bottom_Right_24, right: ref Bottom_Right_31, result: out n26.Vector2 Output_45);
+                n32._Operations_.CreateCircleSpread(Center_In: Output_45, Size_In: Output_26, Factor_In: Output_38, Phase_In: Output_44, Count_In: Corner_Resolution_In, Output_Out: out n5.Spread<n26.Vector2> Output_46);
+                n6.IEnumerable<n26.Vector2> Input_3_47 = (n6.IEnumerable<n26.Vector2>)Output_46;
                 var Output_48 = __pad_Iia2GYSrbOwMGMPpcrzJ0E_18 + Output_41;
-                n29._Operations_.CreateCircleSpread(Center_In: Output_33, Size_In: Output_26, Factor_In: Output_38, Phase_In: Output_48, Count_In: Corner_Resolution_In, Output_Out: out n5.Spread<n23.Vector2> Output_49);
-                n6.IEnumerable<n23.Vector2> Input_50 = (n6.IEnumerable<n23.Vector2>)Output_49;
-                n23.Vector2.Subtract(left: ref Top_Right_23, right: ref Top_Right_30, result: out n23.Vector2 Output_51);
+                n32._Operations_.CreateCircleSpread(Center_In: Output_33, Size_In: Output_26, Factor_In: Output_38, Phase_In: Output_48, Count_In: Corner_Resolution_In, Output_Out: out n5.Spread<n26.Vector2> Output_49);
+                n6.IEnumerable<n26.Vector2> Input_50 = (n6.IEnumerable<n26.Vector2>)Output_49;
+                n26.Vector2.Subtract(left: ref Top_Right_23, right: ref Top_Right_30, result: out n26.Vector2 Output_51);
                 var Output_52 = __pad_E6Dd7rmjoe1Ph6zSCDZqEg_19 + Output_41;
-                n29._Operations_.CreateCircleSpread(Center_In: Output_51, Size_In: Output_26, Factor_In: Output_38, Phase_In: Output_52, Count_In: Corner_Resolution_In, Output_Out: out n5.Spread<n23.Vector2> Output_53);
-                n6.IEnumerable<n23.Vector2> Input_2_54 = (n6.IEnumerable<n23.Vector2>)Output_53;
-                n6.IEnumerable<n23.Vector2> Input_4_55 = (n6.IEnumerable<n23.Vector2>)Output_43;
+                n32._Operations_.CreateCircleSpread(Center_In: Output_51, Size_In: Output_26, Factor_In: Output_38, Phase_In: Output_52, Count_In: Corner_Resolution_In, Output_Out: out n5.Spread<n26.Vector2> Output_53);
+                n6.IEnumerable<n26.Vector2> Input_2_54 = (n6.IEnumerable<n26.Vector2>)Output_53;
+                n6.IEnumerable<n26.Vector2> Input_4_55 = (n6.IEnumerable<n26.Vector2>)Output_43;
                 var builder_56 = n4.CollectionBuilders.GetBuilder(__pin_group_Input_In_Cpcm3G8pCwmQGL5olN4LrZ, 4);
                 builder_56.Add(Input_50);
                 builder_56.Add(Input_2_54);
                 builder_56.Add(Input_3_47);
                 builder_56.Add(Input_4_55);
                 var __pin_group_Input_In_Cpcm3G8pCwmQGL5olN4LrZ_57 = builder_56.Commit();
-                n7._Operations_.Concat<n23.Vector2>(Input_In: __pin_group_Input_In_Cpcm3G8pCwmQGL5olN4LrZ_57, Output_Out: out n5.Spread<n23.Vector2> Output_58);
+                n7._Operations_.Concat<n26.Vector2>(Input_In: __pin_group_Input_In_Cpcm3G8pCwmQGL5olN4LrZ_57, Output_Out: out n5.Spread<n26.Vector2> Output_58);
                 Output_9 = Output_58;
             }
             else
@@ -2976,12 +2976,12 @@ namespace _VL_Collections_.Collections.Spread.Advanced
             return;
         }
 
-        public static void CreateSpiralSpread(n23.Vector2 Center_In, [n4.SerializedDefaultValueAttribute("1, 1", false)] n23.Vector2 Size_In, [n4.SerializedDefaultValueAttribute("1", false)] float Factor_In, float Phase_In, [n4.SerializedDefaultValueAttribute("1", false)] int Count_In, out n5.Spread<n23.Vector2> Output_Out)
+        public static void CreateSpiralSpread(n26.Vector2 Center_In, [n4.SerializedDefaultValueAttribute("1, 1", false)] n26.Vector2 Size_In, [n4.SerializedDefaultValueAttribute("1", false)] float Factor_In, float Phase_In, [n4.SerializedDefaultValueAttribute("1", false)] int Count_In, out n5.Spread<n26.Vector2> Output_Out)
         {
-            n5.Spread<n23.Vector2> __cp_BJWOUIXDC5WODn7dSGQ5h2 = n7._Operations_.CreateDefault<n23.Vector2>();
+            n5.Spread<n26.Vector2> __cp_BJWOUIXDC5WODn7dSGQ5h2 = n7._Operations_.CreateDefault<n26.Vector2>();
             float Input_2_0 = (float)Count_In;
             var builder_12 = n4.CollectionBuilders.GetBuilder(__cp_BJWOUIXDC5WODn7dSGQ5h2, 16);
-            n5.Spread<n23.Vector2> output_13;
+            n5.Spread<n26.Vector2> output_13;
             try
             {
                 for (var i_1 = 0; i_1 < Count_In; i_1++)
@@ -2992,10 +2992,10 @@ namespace _VL_Collections_.Collections.Spread.Advanced
                     var Output_5 = (float)Input_4 / Input_2_0;
                     var Output_6 = Output_5 * Factor_In;
                     var Output_7 = Output_6 + Phase_In;
-                    n24._Operations_.FromPolar(Angle_In: Output_6, Radius_In: Output_7, Output_Out: out n23.Vector2 Output_8);
-                    n25.Vector2Nodes.Scale(input: ref Size_In, scalar: __pad_DrS4cPaQLDoNVbKJWtJ8ez_3, output: out n23.Vector2 Output_9);
-                    n25.Vector2Nodes.Multiply(left: ref Output_8, right: ref Output_9, result: out n23.Vector2 Output_10);
-                    n23.Vector2.Add(left: ref Output_10, right: ref Center_In, result: out n23.Vector2 Output_11);
+                    n29._Operations_.FromPolar(Angle_In: Output_6, Radius_In: Output_7, Output_Out: out n26.Vector2 Output_8);
+                    n27.Vector2Nodes.Scale(input: ref Size_In, scalar: __pad_DrS4cPaQLDoNVbKJWtJ8ez_3, output: out n26.Vector2 Output_9);
+                    n27.Vector2Nodes.Multiply(left: ref Output_8, right: ref Output_9, result: out n26.Vector2 Output_10);
+                    n26.Vector2.Add(left: ref Output_10, right: ref Center_In, result: out n26.Vector2 Output_11);
                     builder_12.Add(Output_11);
                 }
             }
@@ -3008,10 +3008,10 @@ namespace _VL_Collections_.Collections.Spread.Advanced
             return;
         }
 
-        public static void CreateStarSpread(n23.Vector2 Center_In, [n4.SerializedDefaultValueAttribute("0.25", false)] float Radius_1_In, [n4.SerializedDefaultValueAttribute("0.5", false)] float Radius_2_In, float Phase_In, [n4.SerializedDefaultValueAttribute("3", false)] int Spike_Count_In, out n5.Spread<n23.Vector2> Output_Out)
+        public static void CreateStarSpread(n26.Vector2 Center_In, [n4.SerializedDefaultValueAttribute("0.25", false)] float Radius_1_In, [n4.SerializedDefaultValueAttribute("0.5", false)] float Radius_2_In, float Phase_In, [n4.SerializedDefaultValueAttribute("3", false)] int Spike_Count_In, out n5.Spread<n26.Vector2> Output_Out)
         {
             n5.Spread<float> __pin_group_Input_In_CxOmAitnFgbOy2mvDm7sKV = default(n5.Spread<float>);
-            n5.Spread<n23.Vector2> __cp_UjPlB4Mk3paNKI8vj1sHK1 = n7._Operations_.CreateDefault<n23.Vector2>();
+            n5.Spread<n26.Vector2> __cp_UjPlB4Mk3paNKI8vj1sHK1 = n7._Operations_.CreateDefault<n26.Vector2>();
             int __pad_Sl8Hs2zdn4UM727P2pqk8o_0 = __slot_Sl8Hs2zdn4UM727P2pqk8o;
             var Output_1 = Spike_Count_In * __pad_Sl8Hs2zdn4UM727P2pqk8o_0;
             var builder_2 = n4.CollectionBuilders.GetBuilder(__pin_group_Input_In_CxOmAitnFgbOy2mvDm7sKV, 2);
@@ -3021,7 +3021,7 @@ namespace _VL_Collections_.Collections.Spread.Advanced
             n7._Operations_.Cons<float>(Input_In: __pin_group_Input_In_CxOmAitnFgbOy2mvDm7sKV_3, Result_Out: out n5.Spread<float> Result_4);
             float Input_2_5 = (float)Output_1;
             var builder_16 = n4.CollectionBuilders.GetBuilder(__cp_UjPlB4Mk3paNKI8vj1sHK1, 16);
-            n5.Spread<n23.Vector2> output_17;
+            n5.Spread<n26.Vector2> output_17;
             try
             {
                 var Radius_Count_7 = Result_4.Count;
@@ -3033,8 +3033,8 @@ namespace _VL_Collections_.Collections.Spread.Advanced
                     float Input_11 = (float)i_local_10;
                     var Output_12 = (float)Input_11 / Input_2_5;
                     var Output_13 = Output_12 + Phase_In;
-                    n24._Operations_.FromPolar(Angle_In: Output_13, Radius_In: splicer_9, Output_Out: out n23.Vector2 Output_14);
-                    n23.Vector2.Add(left: ref Output_14, right: ref Center_In, result: out n23.Vector2 Output_15);
+                    n29._Operations_.FromPolar(Angle_In: Output_13, Radius_In: splicer_9, Output_Out: out n26.Vector2 Output_14);
+                    n26.Vector2.Add(left: ref Output_14, right: ref Center_In, result: out n26.Vector2 Output_15);
                     builder_16.Add(Output_15);
                 }
             }
@@ -3049,7 +3049,7 @@ namespace _VL_Collections_.Collections.Spread.Advanced
 
         public static void CreateRandomSpread([n4.SerializedDefaultValueAttribute("0", false)] float Center_In, [n4.SerializedDefaultValueAttribute("1", false)] float Width_In, [n4.SerializedDefaultValueAttribute("0", false)] int Seed_In, [n4.SerializedDefaultValueAttribute("1", false)] int Count_In, out n5.Spread<float> Output_Out)
         {
-            var Result_0 = n26.SpreadGenerators.RandomSpread(center: Center_In, width: Width_In, seed: Seed_In, count: Count_In);
+            var Result_0 = n25.SpreadGenerators.RandomSpread(center: Center_In, width: Width_In, seed: Seed_In, count: Count_In);
             Output_Out = Result_0;
             return;
         }
@@ -3061,20 +3061,20 @@ namespace _VL_Collections_.Collections.Spread.Advanced
             return;
         }
 
-        public static void CreateRandomSpread__4D([n4.SerializedDefaultValueAttribute("0, 0, 0, 0", false)] n23.Vector4 Center_In, [n4.SerializedDefaultValueAttribute("1, 1, 1, 1", false)] n23.Vector4 Size_In, [n4.SerializedDefaultValueAttribute("0", false)] int Seed_In, [n4.SerializedDefaultValueAttribute("1", false)] int Count_In, out n5.Spread<n23.Vector4> Output_Out)
+        public static void CreateRandomSpread__4D([n4.SerializedDefaultValueAttribute("0, 0, 0, 0", false)] n26.Vector4 Center_In, [n4.SerializedDefaultValueAttribute("1, 1, 1, 1", false)] n26.Vector4 Size_In, [n4.SerializedDefaultValueAttribute("0", false)] int Seed_In, [n4.SerializedDefaultValueAttribute("1", false)] int Count_In, out n5.Spread<n26.Vector4> Output_Out)
         {
-            n5.Spread<n23.Vector4> __cp_E8a5yvWt3eLN0Fj5CHlOGW = n7._Operations_.CreateDefault<n23.Vector4>();
+            n5.Spread<n26.Vector4> __cp_E8a5yvWt3eLN0Fj5CHlOGW = n7._Operations_.CreateDefault<n26.Vector4>();
             float __pad_LnnMyRNgYPRQXuSrP9JI7H_0 = __slot_LnnMyRNgYPRQXuSrP9JI7H;
             int __pad_ObcovdnzbozQBZJ8qjfW3D_1 = __slot_ObcovdnzbozQBZJ8qjfW3D;
             var Output_2 = Count_In * __pad_ObcovdnzbozQBZJ8qjfW3D_1;
             float Width_3 = 1F;
-            var Result_4 = n26.SpreadGenerators.RandomSpread(center: __pad_LnnMyRNgYPRQXuSrP9JI7H_0, width: Width_3, seed: Seed_In, count: Output_2);
+            var Result_4 = n25.SpreadGenerators.RandomSpread(center: __pad_LnnMyRNgYPRQXuSrP9JI7H_0, width: Width_3, seed: Seed_In, count: Output_2);
             n6.IEnumerable<float> Values_5 = (n6.IEnumerable<float>)Result_4;
-            var Result_6 = n26.ValuesToVectorsNodes.ValuesToVectors4D(values: Values_5);
-            n13._Operations_.UnitRange<n23.Vector4, n12.__AdaptiveImplementations__CsYvmiCXzFgMbCg5YvFjkW>(Range_Out: out n25.Range<n23.Vector4> Range_7);
-            n27._Operations_.Range_Join_Center_Width<n23.Vector4, n12.__AdaptiveImplementations__CsYvmiCXzFgMbCg5YvFjkW>(Center_In: Center_In, Width_In: Size_In, Output_Out: out n25.Range<n23.Vector4> Output_8);
+            var Result_6 = n25.ValuesToVectorsNodes.ValuesToVectors4D(values: Values_5);
+            n13._Operations_.UnitRange<n26.Vector4, n12.__AdaptiveImplementations__CsYvmiCXzFgMbCg5YvFjkW>(Range_Out: out n27.Range<n26.Vector4> Range_7);
+            n30._Operations_.Range_Join_Center_Width<n26.Vector4, n12.__AdaptiveImplementations__CsYvmiCXzFgMbCg5YvFjkW>(Center_In: Center_In, Width_In: Size_In, Output_Out: out n27.Range<n26.Vector4> Output_8);
             var builder_14 = n4.CollectionBuilders.GetBuilder(__cp_E8a5yvWt3eLN0Fj5CHlOGW, 16);
-            n5.Spread<n23.Vector4> output_15;
+            n5.Spread<n26.Vector4> output_15;
             try
             {
                 var i_11 = 0;
@@ -3082,7 +3082,7 @@ namespace _VL_Collections_.Collections.Spread.Advanced
                 {
                     var splicer_10 = item_9;
                     var i_local_12 = i_11;
-                    n13._Operations_.Map_Range<n23.Vector4, n12.__AdaptiveImplementations__CsYvmiCXzFgMbCg5YvFjkW>(Input_In: splicer_10, From_In: Range_7, To_In: Output_8, Output_Out: out n23.Vector4 Output_13);
+                    n13._Operations_.Map_Range<n26.Vector4, n12.__AdaptiveImplementations__CsYvmiCXzFgMbCg5YvFjkW>(Input_In: splicer_10, From_In: Range_7, To_In: Output_8, Output_Out: out n26.Vector4 Output_13);
                     builder_14.Add(Output_13);
                     i_11++;
                 }
@@ -3096,8 +3096,8 @@ namespace _VL_Collections_.Collections.Spread.Advanced
             return;
         }
 
-        public static void CreateLinearSpread_Range<T, AdM>(n25.Range<T> Range_In, n32.LinearSpreadAlignment Alignment_In, float Phase_In, [n4.SerializedDefaultValueAttribute("1", false)] int Count_In, out n5.Spread<T> Output_Out)
-            where AdM : struct, n18.IAdaptiveLerp<T>, n19.IAdaptiveCreateDefault<n5.Spread<T>>, n18.IAdaptiveOperatorPlus<T>, n18.IAdaptiveOperatorMulitply_Scale<T>
+        public static void CreateLinearSpread_Range<T, AdM>(n27.Range<T> Range_In, n35.LinearSpreadAlignment Alignment_In, float Phase_In, [n4.SerializedDefaultValueAttribute("1", false)] int Count_In, out n5.Spread<T> Output_Out)
+            where AdM : struct, n18.IAdaptiveCreateDefault<n5.Spread<T>>, n19.IAdaptiveOperatorMulitply_Scale<T>, n19.IAdaptiveOperatorPlus<T>, n19.IAdaptiveLerp<T>
         {
             var w_0 = default(AdM);
             Range_In.Split(from: out T From_1, to: out T To_2);
@@ -3106,7 +3106,7 @@ namespace _VL_Collections_.Collections.Spread.Advanced
             float Input_2_5 = (float)Count_In;
             float Input_2_6 = (float)Count_In;
             var __fallback___7 = n1.ServiceRegistry.Current;
-            n29._Operations_.LinearSpreadAlignmentSwitch<n5.Spread<T>>(Alignment_In: Alignment_In, Centered_In: () =>
+            n32._Operations_.LinearSpreadAlignmentSwitch<n5.Spread<T>>(Alignment_In: Alignment_In, Centered_In: () =>
             {
                 using var __current_8 = __fallback___7.MakeCurrentIfNone();
                 n5.Spread<T> __cp_Ql6j7o0ynXxMuTmgwmXeyy = n7._Operations_.CreateDefault<T>();
@@ -3226,7 +3226,7 @@ namespace _VL_Collections_.Collections.Spread.Advanced
                     output_63 = builder_62.Commit();
                 }
 
-                n27._Operations_.GetCenter<T, AdM>(Input_In: Range_In, Center_Out: out T Center_64);
+                n30._Operations_.GetCenter<T, AdM>(Input_In: Range_In, Center_Out: out T Center_64);
                 var builder_65 = n4.CollectionBuilders.GetBuilder(__pin_group_Input_In_J3t1d7kzbPyOz1FyyQq244, 1);
                 builder_65.Add(Center_64);
                 var __pin_group_Input_In_J3t1d7kzbPyOz1FyyQq244_66 = builder_65.Commit();
@@ -3235,7 +3235,7 @@ namespace _VL_Collections_.Collections.Spread.Advanced
                 builder_68.Add(output_63);
                 builder_68.Add(Result_67);
                 var __pin_group_Input_In_Ol9geBFONw2QR2VQUENJnQ_69 = builder_68.Commit();
-                n31._Operations_.Switch<n5.Spread<T>, AdM>(Index_In: Index_53, Input_In: __pin_group_Input_In_Ol9geBFONw2QR2VQUENJnQ_69, Output_Out: out n5.Spread<T> Output_70);
+                n34._Operations_.Switch<n5.Spread<T>, AdM>(Index_In: Index_53, Input_In: __pin_group_Input_In_Ol9geBFONw2QR2VQUENJnQ_69, Output_Out: out n5.Spread<T> Output_70);
                 return Output_70;
             }
 
@@ -3244,51 +3244,51 @@ namespace _VL_Collections_.Collections.Spread.Advanced
             return;
         }
 
-        public static void LinearSpreadAlignmentSwitch<T>(n32.LinearSpreadAlignment Alignment_In, n2.Func<T> Centered_In, n2.Func<T> Left_In, n2.Func<T> Right_In, n2.Func<T> Block_In, out T Result_Out)
+        public static void LinearSpreadAlignmentSwitch<T>(n35.LinearSpreadAlignment Alignment_In, n2.Func<T> Centered_In, n2.Func<T> Left_In, n2.Func<T> Right_In, n2.Func<T> Block_In, out T Result_Out)
         {
-            var Result_0 = n26.SpreadGenerators.LinearSpreadAlignmentSwitch<T>(alignment: Alignment_In, centered: Centered_In, left: Left_In, right: Right_In, block: Block_In);
+            var Result_0 = n25.SpreadGenerators.LinearSpreadAlignmentSwitch<T>(alignment: Alignment_In, centered: Centered_In, left: Left_In, right: Right_In, block: Block_In);
             Result_Out = Result_0;
             return;
         }
 
-        public static void CreateLinearSpread(float Center_In, [n4.SerializedDefaultValueAttribute("1", false)] float Width_In, n32.LinearSpreadAlignment Alignment_In, float Phase_In, [n4.SerializedDefaultValueAttribute("1", false)] int Count_In, out n5.Spread<float> Output_Out)
+        public static void CreateLinearSpread(float Center_In, [n4.SerializedDefaultValueAttribute("1", false)] float Width_In, n35.LinearSpreadAlignment Alignment_In, float Phase_In, [n4.SerializedDefaultValueAttribute("1", false)] int Count_In, out n5.Spread<float> Output_Out)
         {
-            n27._Operations_.Range_Join_Center_Width<float, n12.__AdaptiveImplementations__CsYvmiCXzFgMbCg5YvFjkW>(Center_In: Center_In, Width_In: Width_In, Output_Out: out n25.Range<float> Output_0);
-            n29._Operations_.CreateLinearSpread_Range<float, n12.__AdaptiveImplementations__CsYvmiCXzFgMbCg5YvFjkW>(Range_In: Output_0, Alignment_In: Alignment_In, Phase_In: Phase_In, Count_In: Count_In, Output_Out: out n5.Spread<float> Output_1);
+            n30._Operations_.Range_Join_Center_Width<float, n12.__AdaptiveImplementations__CsYvmiCXzFgMbCg5YvFjkW>(Center_In: Center_In, Width_In: Width_In, Output_Out: out n27.Range<float> Output_0);
+            n32._Operations_.CreateLinearSpread_Range<float, n12.__AdaptiveImplementations__CsYvmiCXzFgMbCg5YvFjkW>(Range_In: Output_0, Alignment_In: Alignment_In, Phase_In: Phase_In, Count_In: Count_In, Output_Out: out n5.Spread<float> Output_1);
             Output_Out = Output_1;
             return;
         }
 
-        public static void CreateGridSpread__2D(n23.Vector2 Center_In, [n4.SerializedDefaultValueAttribute("1, 1", false)] n23.Vector2 Width_In, n32.LinearSpreadAlignment Alignment_In, n23.Vector2 Phase_In, n5.SpreadBuilder<n23.Vector2> Builder_To_Fill_In, [n4.SerializedDefaultValueAttribute("True", false)] bool Clear_Builder_In, [n4.SerializedDefaultValueAttribute("1, 1", false)] n23.Int2 Count_In, out n5.Spread<n23.Vector2> Output_Out)
+        public static void CreateGridSpread__2D(n26.Vector2 Center_In, [n4.SerializedDefaultValueAttribute("1, 1", false)] n26.Vector2 Width_In, n35.LinearSpreadAlignment Alignment_In, n26.Vector2 Phase_In, n5.SpreadBuilder<n26.Vector2> Builder_To_Fill_In, [n4.SerializedDefaultValueAttribute("True", false)] bool Clear_Builder_In, [n4.SerializedDefaultValueAttribute("1, 1", false)] n26.Int2 Count_In, out n5.Spread<n26.Vector2> Output_Out)
         {
-            n33._Operations_.Split(Input_In: Count_In, X_Out: out int X_0, Y_Out: out int Y_1);
+            n36._Operations_.Split(Input_In: Count_In, X_Out: out int X_0, Y_Out: out int Y_1);
             var Output_2 = Builder_To_Fill_In;
             if (Clear_Builder_In)
             {
-                n22._Operations_.Clear<n23.Vector2>(Input_In: Builder_To_Fill_In, Output_Out: out Output_2);
+                n24._Operations_.Clear<n26.Vector2>(Input_In: Builder_To_Fill_In, Output_Out: out Output_2);
             }
 
-            n25.Vector2Nodes.Vector(input: ref Center_In, x: out float X_3, y: out float Y_4);
-            n25.Vector2Nodes.Vector(input: ref Width_In, x: out float X_5, y: out float Y_6);
+            n27.Vector2Nodes.Vector(input: ref Center_In, x: out float X_3, y: out float Y_4);
+            n27.Vector2Nodes.Vector(input: ref Width_In, x: out float X_5, y: out float Y_6);
             float Input_2_7 = -1F;
             var Output_8 = Y_6 * Input_2_7;
-            n25.Vector2Nodes.Vector(input: ref Phase_In, x: out float X_9, y: out float Y_10);
-            n29._Operations_.CreateLinearSpread(Center_In: Y_4, Width_In: Output_8, Alignment_In: Alignment_In, Phase_In: Y_10, Count_In: Y_1, Output_Out: out n5.Spread<float> Output_11);
-            n5.SpreadBuilder<n23.Vector2> accumulator_13 = Output_2;
+            n27.Vector2Nodes.Vector(input: ref Phase_In, x: out float X_9, y: out float Y_10);
+            n32._Operations_.CreateLinearSpread(Center_In: Y_4, Width_In: Output_8, Alignment_In: Alignment_In, Phase_In: Y_10, Count_In: Y_1, Output_Out: out n5.Spread<float> Output_11);
+            n5.SpreadBuilder<n26.Vector2> accumulator_13 = Output_2;
             var i_15 = 0;
             foreach (var item_12 in n4.CollectionExtensions.AsSpan(Output_11))
             {
                 var splicer_14 = item_12;
                 var i_local_16 = i_15;
-                n29._Operations_.CreateLinearSpread(Center_In: X_3, Width_In: X_5, Alignment_In: Alignment_In, Phase_In: X_9, Count_In: X_0, Output_Out: out n5.Spread<float> Output_17);
-                n5.SpreadBuilder<n23.Vector2> accumulator_19 = accumulator_13;
+                n32._Operations_.CreateLinearSpread(Center_In: X_3, Width_In: X_5, Alignment_In: Alignment_In, Phase_In: X_9, Count_In: X_0, Output_Out: out n5.Spread<float> Output_17);
+                n5.SpreadBuilder<n26.Vector2> accumulator_19 = accumulator_13;
                 var i_21 = 0;
                 foreach (var item_18 in n4.CollectionExtensions.AsSpan(Output_17))
                 {
                     var splicer_20 = item_18;
                     var i_local_22 = i_21;
-                    var Output_23 = new n23.Vector2(x: splicer_20, y: splicer_14);
-                    n22._Operations_.Add<n23.Vector2>(Input_In: accumulator_19, Item_In: Output_23, Output_Out: out n5.SpreadBuilder<n23.Vector2> Output_24);
+                    var Output_23 = new n26.Vector2(x: splicer_20, y: splicer_14);
+                    n24._Operations_.Add<n26.Vector2>(Input_In: accumulator_19, Item_In: Output_23, Output_Out: out n5.SpreadBuilder<n26.Vector2> Output_24);
                     accumulator_19 = Output_24;
                     i_21++;
                 }
@@ -3297,48 +3297,48 @@ namespace _VL_Collections_.Collections.Spread.Advanced
                 i_15++;
             }
 
-            n22._Operations_.ToSpread<n23.Vector2>(Input_In: accumulator_13, Output_Out: out n5.SpreadBuilder<n23.Vector2> Output_25, Result_Out: out n5.Spread<n23.Vector2> Result_26);
+            n24._Operations_.ToSpread<n26.Vector2>(Input_In: accumulator_13, Output_Out: out n5.SpreadBuilder<n26.Vector2> Output_25, Result_Out: out n5.Spread<n26.Vector2> Result_26);
             Output_Out = Result_26;
             return;
         }
 
-        public static void CreateGridSpread__3D(n23.Vector3 Center_In, [n4.SerializedDefaultValueAttribute("1, 1", false)] n23.Vector3 Width_In, n32.LinearSpreadAlignment Alignment_In, n23.Vector3 Phase_In, n5.SpreadBuilder<n23.Vector3> Builder_To_Fill_In, [n4.SerializedDefaultValueAttribute("True", false)] bool Clear_Builder_In, [n4.SerializedDefaultValueAttribute("1, 1", false)] n23.Int3 Count_In, out n5.Spread<n23.Vector3> Output_Out)
+        public static void CreateGridSpread__3D(n26.Vector3 Center_In, [n4.SerializedDefaultValueAttribute("1, 1", false)] n26.Vector3 Width_In, n35.LinearSpreadAlignment Alignment_In, n26.Vector3 Phase_In, n5.SpreadBuilder<n26.Vector3> Builder_To_Fill_In, [n4.SerializedDefaultValueAttribute("True", false)] bool Clear_Builder_In, [n4.SerializedDefaultValueAttribute("1, 1", false)] n26.Int3 Count_In, out n5.Spread<n26.Vector3> Output_Out)
         {
-            n34._Operations_.Split(Input_In: Count_In, X_Out: out int X_0, Y_Out: out int Y_1, Z_Out: out int Z_2);
+            n37._Operations_.Split(Input_In: Count_In, X_Out: out int X_0, Y_Out: out int Y_1, Z_Out: out int Z_2);
             var Output_3 = Builder_To_Fill_In;
             if (Clear_Builder_In)
             {
-                n22._Operations_.Clear<n23.Vector3>(Input_In: Builder_To_Fill_In, Output_Out: out Output_3);
+                n24._Operations_.Clear<n26.Vector3>(Input_In: Builder_To_Fill_In, Output_Out: out Output_3);
             }
 
-            n25.Vector3Nodes.Vector(input: ref Center_In, x: out float X_4, y: out float Y_5, z: out float Z_6);
-            n25.Vector3Nodes.Vector(input: ref Width_In, x: out float X_7, y: out float Y_8, z: out float Z_9);
-            n25.Vector3Nodes.Vector(input: ref Phase_In, x: out float X_10, y: out float Y_11, z: out float Z_12);
-            n29._Operations_.CreateLinearSpread(Center_In: Z_6, Width_In: Z_9, Alignment_In: Alignment_In, Phase_In: Z_12, Count_In: Z_2, Output_Out: out n5.Spread<float> Output_13);
+            n27.Vector3Nodes.Vector(input: ref Center_In, x: out float X_4, y: out float Y_5, z: out float Z_6);
+            n27.Vector3Nodes.Vector(input: ref Width_In, x: out float X_7, y: out float Y_8, z: out float Z_9);
+            n27.Vector3Nodes.Vector(input: ref Phase_In, x: out float X_10, y: out float Y_11, z: out float Z_12);
+            n32._Operations_.CreateLinearSpread(Center_In: Z_6, Width_In: Z_9, Alignment_In: Alignment_In, Phase_In: Z_12, Count_In: Z_2, Output_Out: out n5.Spread<float> Output_13);
             float Input_2_14 = -1F;
             var Output_15 = Y_8 * Input_2_14;
-            n5.SpreadBuilder<n23.Vector3> accumulator_17 = Output_3;
+            n5.SpreadBuilder<n26.Vector3> accumulator_17 = Output_3;
             var i_19 = 0;
             foreach (var item_16 in n4.CollectionExtensions.AsSpan(Output_13))
             {
                 var splicer_18 = item_16;
                 var i_local_20 = i_19;
-                n29._Operations_.CreateLinearSpread(Center_In: Y_5, Width_In: Output_15, Alignment_In: Alignment_In, Phase_In: Y_11, Count_In: Y_1, Output_Out: out n5.Spread<float> Output_21);
-                n5.SpreadBuilder<n23.Vector3> accumulator_23 = accumulator_17;
+                n32._Operations_.CreateLinearSpread(Center_In: Y_5, Width_In: Output_15, Alignment_In: Alignment_In, Phase_In: Y_11, Count_In: Y_1, Output_Out: out n5.Spread<float> Output_21);
+                n5.SpreadBuilder<n26.Vector3> accumulator_23 = accumulator_17;
                 var i_25 = 0;
                 foreach (var item_22 in n4.CollectionExtensions.AsSpan(Output_21))
                 {
                     var splicer_24 = item_22;
                     var i_local_26 = i_25;
-                    n29._Operations_.CreateLinearSpread(Center_In: X_4, Width_In: X_7, Alignment_In: Alignment_In, Phase_In: X_10, Count_In: X_0, Output_Out: out n5.Spread<float> Output_27);
-                    var accumulator_34 = n22._Operations_.CreateDefault<n23.Vector3>();
+                    n32._Operations_.CreateLinearSpread(Center_In: X_4, Width_In: X_7, Alignment_In: Alignment_In, Phase_In: X_10, Count_In: X_0, Output_Out: out n5.Spread<float> Output_27);
+                    var accumulator_34 = n24._Operations_.CreateDefault<n26.Vector3>();
                     var i_30 = 0;
                     foreach (var item_28 in n4.CollectionExtensions.AsSpan(Output_27))
                     {
                         var splicer_29 = item_28;
                         var i_local_31 = i_30;
-                        var Output_32 = new n23.Vector3(x: splicer_29, y: splicer_24, z: splicer_18);
-                        n22._Operations_.Add<n23.Vector3>(Input_In: accumulator_23, Item_In: Output_32, Output_Out: out n5.SpreadBuilder<n23.Vector3> Output_33);
+                        var Output_32 = new n26.Vector3(x: splicer_29, y: splicer_24, z: splicer_18);
+                        n24._Operations_.Add<n26.Vector3>(Input_In: accumulator_23, Item_In: Output_32, Output_Out: out n5.SpreadBuilder<n26.Vector3> Output_33);
                         accumulator_34 = Output_33;
                         i_30++;
                     }
@@ -3351,15 +3351,15 @@ namespace _VL_Collections_.Collections.Spread.Advanced
                 i_19++;
             }
 
-            n22._Operations_.ToSpread<n23.Vector3>(Input_In: accumulator_17, Output_Out: out n5.SpreadBuilder<n23.Vector3> Output_35, Result_Out: out n5.Spread<n23.Vector3> Result_36);
+            n24._Operations_.ToSpread<n26.Vector3>(Input_In: accumulator_17, Output_Out: out n5.SpreadBuilder<n26.Vector3> Output_35, Result_Out: out n5.Spread<n26.Vector3> Result_36);
             Output_Out = Result_36;
             return;
         }
 
-        public static void CreateHexGridSpread__2D(n23.Vector2 Center_In, [n4.SerializedDefaultValueAttribute("0.09999999", false)] float Radius_In, bool Even_Lower_In, [n4.SerializedDefaultValueAttribute("1, 1", false)] n23.Int2 Count_In, out n5.Spread<n23.Vector2> Result_Out)
+        public static void CreateHexGridSpread__2D(n26.Vector2 Center_In, [n4.SerializedDefaultValueAttribute("0.09999999", false)] float Radius_In, bool Even_Lower_In, [n4.SerializedDefaultValueAttribute("1, 1", false)] n26.Int2 Count_In, out n5.Spread<n26.Vector2> Result_Out)
         {
-            n5.Spread<n23.Vector2> __cp_VN6iSqSrM56QK34OqRiFuS = n7._Operations_.CreateDefault<n23.Vector2>();
-            n5.Spread<n5.Spread<n23.Vector2>> __cp_Ge9y57JijBWLFKuN7I9KjS = n7._Operations_.CreateDefault<n5.Spread<n23.Vector2>>();
+            n5.Spread<n26.Vector2> __cp_VN6iSqSrM56QK34OqRiFuS = n7._Operations_.CreateDefault<n26.Vector2>();
+            n5.Spread<n5.Spread<n26.Vector2>> __cp_Ge9y57JijBWLFKuN7I9KjS = n7._Operations_.CreateDefault<n5.Spread<n26.Vector2>>();
             float __pad_SpbPCiT8mjiPXCJgxOXB1r_0 = __slot_SpbPCiT8mjiPXCJgxOXB1r;
             float __pad_UUMnqbj8RAUL5XC7SKP1pr_1 = __slot_UUMnqbj8RAUL5XC7SKP1pr;
             float __pad_Lt91sDNLTWKNow9v6FOMRM_2 = __slot_Lt91sDNLTWKNow9v6FOMRM;
@@ -3373,21 +3373,21 @@ namespace _VL_Collections_.Collections.Spread.Advanced
             var Output_10 = (float)__pad_SpbPCiT8mjiPXCJgxOXB1r_0 / __pad_UUMnqbj8RAUL5XC7SKP1pr_1;
             var Output_11 = Output_10 * __pad_TxVkScgMmQ0L4ENfgNi3wi_3;
             var Output_12 = Output_11 * __pad_Lt91sDNLTWKNow9v6FOMRM_2;
-            n35._Operations_.SineWave(Phase_In: Output_10, Output_Out: out float Output_13);
+            n38._Operations_.SineWave(Phase_In: Output_10, Output_Out: out float Output_13);
             var Output_14 = Radius_In * Output_13;
             var Output_15 = Output_14 * __pad_DXTtw6iLsCTMLNEBxQPvWW_4;
-            n24._Operations_.FromPolar(Angle_In: Output_12, Radius_In: Output_15, Output_Out: out n23.Vector2 Output_16);
-            n33._Operations_.Split(Input_In: Count_In, X_Out: out int X_17, Y_Out: out int Y_18);
+            n29._Operations_.FromPolar(Angle_In: Output_12, Radius_In: Output_15, Output_Out: out n26.Vector2 Output_16);
+            n36._Operations_.Split(Input_In: Count_In, X_Out: out int X_17, Y_Out: out int Y_18);
             var Output_19 = X_17 - __pad_OY7MQab57oJMnTAhOD4GIu_5;
             float Input_20 = (float)Output_19;
             var Output_21 = Input_20 * __pad_NmeWrZHl0S0PzgQ7Bmmnwk_6;
             var Output_22 = Output_21 * Radius_In;
             int Input_2_23 = n2.Convert.ToInt32(Even_Lower_In);
-            n24._Operations_.FromPolar(Angle_In: Output_11, Radius_In: Output_15, Output_Out: out n23.Vector2 Output_24);
-            n14._Operations_.Switch_Boolean<n23.Vector2>(Condition_In: Even_Lower_In, Input_In: Output_16, Input_2_In: Output_24, Output_Out: out n23.Vector2 Output_25);
-            n23.Vector2 accumulator_27 = n30._Operations_.CreateDefault();
+            n29._Operations_.FromPolar(Angle_In: Output_11, Radius_In: Output_15, Output_Out: out n26.Vector2 Output_24);
+            n14._Operations_.Switch_Boolean<n26.Vector2>(Condition_In: Even_Lower_In, Input_In: Output_16, Input_2_In: Output_24, Output_Out: out n26.Vector2 Output_25);
+            n26.Vector2 accumulator_27 = n33._Operations_.CreateDefault();
             var builder_37 = n4.CollectionBuilders.GetBuilder(__cp_VN6iSqSrM56QK34OqRiFuS, 16);
-            n5.Spread<n23.Vector2> output_38;
+            n5.Spread<n26.Vector2> output_38;
             try
             {
                 for (var i_26 = 0; i_26 < X_17; i_26++)
@@ -3398,9 +3398,9 @@ namespace _VL_Collections_.Collections.Spread.Advanced
                     var Output_31 = Output_30 % __pad_NBIEHax1Xc2Noavb0SnDFa_29;
                     int Input_2_32 = 0;
                     var Result_33 = Output_31 == Input_2_32;
-                    n14._Operations_.Switch_Boolean<n23.Vector2>(Condition_In: Result_33, Input_In: Output_24, Input_2_In: Output_16, Output_Out: out n23.Vector2 Output_34);
-                    n23.Vector2.Add(left: ref accumulator_27, right: ref Output_34, result: out n23.Vector2 Output_35);
-                    n23.Vector2.Subtract(left: ref Output_35, right: ref Output_25, result: out n23.Vector2 Output_36);
+                    n14._Operations_.Switch_Boolean<n26.Vector2>(Condition_In: Result_33, Input_In: Output_24, Input_2_In: Output_16, Output_Out: out n26.Vector2 Output_34);
+                    n26.Vector2.Add(left: ref accumulator_27, right: ref Output_34, result: out n26.Vector2 Output_35);
+                    n26.Vector2.Subtract(left: ref Output_35, right: ref Output_25, result: out n26.Vector2 Output_36);
                     builder_37.Add(Output_36);
                     accumulator_27 = Output_35;
                 }
@@ -3424,16 +3424,16 @@ namespace _VL_Collections_.Collections.Spread.Advanced
             }
 
             var builder_61 = n4.CollectionBuilders.GetBuilder(__cp_Ge9y57JijBWLFKuN7I9KjS, 16);
-            n5.Spread<n5.Spread<n23.Vector2>> output_62;
+            n5.Spread<n5.Spread<n26.Vector2>> output_62;
             try
             {
                 for (var i_47 = 0; i_47 < Y_18; i_47++)
                 {
                     var i_local_48 = i_47;
-                    n5.Spread<n23.Vector2> __cp_CPgolr57tlMMWJ1RGkr0f4 = n7._Operations_.CreateDefault<n23.Vector2>();
+                    n5.Spread<n26.Vector2> __cp_CPgolr57tlMMWJ1RGkr0f4 = n7._Operations_.CreateDefault<n26.Vector2>();
                     float Input_49 = (float)i_local_48;
                     var builder_59 = n4.CollectionBuilders.GetBuilder(__cp_CPgolr57tlMMWJ1RGkr0f4, 16);
-                    n5.Spread<n23.Vector2> output_60;
+                    n5.Spread<n26.Vector2> output_60;
                     try
                     {
                         var i_52 = 0;
@@ -3443,9 +3443,9 @@ namespace _VL_Collections_.Collections.Spread.Advanced
                             var i_local_53 = i_52;
                             var Output_54 = Input_49 * Output_15;
                             var Output_55 = Output_54 - Output_45;
-                            var Output_56 = new n23.Vector2(x: Output_22, y: Output_55);
-                            n23.Vector2.Subtract(left: ref splicer_51, right: ref Output_56, result: out n23.Vector2 Output_57);
-                            n23.Vector2.Add(left: ref Output_57, right: ref Center_In, result: out n23.Vector2 Output_58);
+                            var Output_56 = new n26.Vector2(x: Output_22, y: Output_55);
+                            n26.Vector2.Subtract(left: ref splicer_51, right: ref Output_56, result: out n26.Vector2 Output_57);
+                            n26.Vector2.Add(left: ref Output_57, right: ref Center_In, result: out n26.Vector2 Output_58);
                             builder_59.Add(Output_58);
                             i_52++;
                         }
@@ -3463,84 +3463,84 @@ namespace _VL_Collections_.Collections.Spread.Advanced
                 output_62 = builder_61.Commit();
             }
 
-            n7._Operations_.Flatten<n5.Spread<n5.Spread<n23.Vector2>>, n23.Vector2>(Input_In: output_62, Output_Out: out n5.Spread<n23.Vector2> Output_63);
+            n7._Operations_.Flatten<n5.Spread<n5.Spread<n26.Vector2>>, n26.Vector2>(Input_In: output_62, Output_Out: out n5.Spread<n26.Vector2> Output_63);
             Result_Out = Output_63;
             return;
         }
 
-        [n1.ElementAttribute(TracingId = 234680U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "V6fcb3GAgjNP7DjfQwuCho", Name = "__slot_V6fcb3GAgjNP7DjfQwuCho")]
+        [n1.ElementAttribute(TracingId = 264358U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "V6fcb3GAgjNP7DjfQwuCho", Name = "__slot_V6fcb3GAgjNP7DjfQwuCho")]
         public static byte __slot_V6fcb3GAgjNP7DjfQwuCho = 0;
-        [n1.ElementAttribute(TracingId = 234674U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "EXd3NFNlRyhLx2wfL3T1qT", Name = "__slot_EXd3NFNlRyhLx2wfL3T1qT")]
+        [n1.ElementAttribute(TracingId = 264352U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "EXd3NFNlRyhLx2wfL3T1qT", Name = "__slot_EXd3NFNlRyhLx2wfL3T1qT")]
         public static byte __slot_EXd3NFNlRyhLx2wfL3T1qT = 1;
-        [n1.ElementAttribute(TracingId = 242208U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "UpkjHgobUAKOyHL7cpQZco", Name = "__slot_UpkjHgobUAKOyHL7cpQZco")]
+        [n1.ElementAttribute(TracingId = 267094U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "UpkjHgobUAKOyHL7cpQZco", Name = "__slot_UpkjHgobUAKOyHL7cpQZco")]
         public static float __slot_UpkjHgobUAKOyHL7cpQZco = 1F;
-        [n1.ElementAttribute(TracingId = 242210U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Ffa2IPVXjY0QXsJkzpIXgO", Name = "__slot_Ffa2IPVXjY0QXsJkzpIXgO")]
+        [n1.ElementAttribute(TracingId = 267095U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Ffa2IPVXjY0QXsJkzpIXgO", Name = "__slot_Ffa2IPVXjY0QXsJkzpIXgO")]
         public static float __slot_Ffa2IPVXjY0QXsJkzpIXgO = 0.49999994F;
-        [n1.ElementAttribute(TracingId = 242508U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "BsjicetXGw6QZtVENwUPtf", Name = "__slot_BsjicetXGw6QZtVENwUPtf")]
+        [n1.ElementAttribute(TracingId = 267258U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "BsjicetXGw6QZtVENwUPtf", Name = "__slot_BsjicetXGw6QZtVENwUPtf")]
         public static float __slot_BsjicetXGw6QZtVENwUPtf = 0.5F;
-        [n1.ElementAttribute(TracingId = 242432U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Vt6z7ltHiOjLxhzkH5zCDw", Name = "__slot_Vt6z7ltHiOjLxhzkH5zCDw")]
+        [n1.ElementAttribute(TracingId = 267221U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Vt6z7ltHiOjLxhzkH5zCDw", Name = "__slot_Vt6z7ltHiOjLxhzkH5zCDw")]
         public static int __slot_Vt6z7ltHiOjLxhzkH5zCDw = 2;
-        [n1.ElementAttribute(TracingId = 242699U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "LvjpH9ct2vSNxQyXHtFSvV", Name = "__slot_LvjpH9ct2vSNxQyXHtFSvV")]
+        [n1.ElementAttribute(TracingId = 267321U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "LvjpH9ct2vSNxQyXHtFSvV", Name = "__slot_LvjpH9ct2vSNxQyXHtFSvV")]
         public static float __slot_LvjpH9ct2vSNxQyXHtFSvV = 0.5F;
-        [n1.ElementAttribute(TracingId = 242586U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "C11j5RZ7YS1Ose69sHI8TJ", Name = "__slot_C11j5RZ7YS1Ose69sHI8TJ")]
+        [n1.ElementAttribute(TracingId = 267286U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "C11j5RZ7YS1Ose69sHI8TJ", Name = "__slot_C11j5RZ7YS1Ose69sHI8TJ")]
         public static int __slot_C11j5RZ7YS1Ose69sHI8TJ = 3;
-        [n1.ElementAttribute(TracingId = 242786U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "SsZPDsphdOmLZngeIg7x3S", Name = "__slot_SsZPDsphdOmLZngeIg7x3S")]
+        [n1.ElementAttribute(TracingId = 267348U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "SsZPDsphdOmLZngeIg7x3S", Name = "__slot_SsZPDsphdOmLZngeIg7x3S")]
         public static int __slot_SsZPDsphdOmLZngeIg7x3S = 1;
-        [n1.ElementAttribute(TracingId = 243037U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "VQFLHyY2pcKPWnrveTa16q", Name = "__slot_VQFLHyY2pcKPWnrveTa16q")]
+        [n1.ElementAttribute(TracingId = 267419U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "VQFLHyY2pcKPWnrveTa16q", Name = "__slot_VQFLHyY2pcKPWnrveTa16q")]
         public static float __slot_VQFLHyY2pcKPWnrveTa16q = 0F;
-        [n1.ElementAttribute(TracingId = 243044U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "RPF7fas2W1KMnC7YVrcwy2", Name = "__slot_RPF7fas2W1KMnC7YVrcwy2")]
+        [n1.ElementAttribute(TracingId = 267420U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "RPF7fas2W1KMnC7YVrcwy2", Name = "__slot_RPF7fas2W1KMnC7YVrcwy2")]
         public static int __slot_RPF7fas2W1KMnC7YVrcwy2 = 1;
-        [n1.ElementAttribute(TracingId = 243157U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "UguWUsaH1S3MOXi5scX86v", Name = "__slot_UguWUsaH1S3MOXi5scX86v")]
+        [n1.ElementAttribute(TracingId = 267454U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "UguWUsaH1S3MOXi5scX86v", Name = "__slot_UguWUsaH1S3MOXi5scX86v")]
         public static float __slot_UguWUsaH1S3MOXi5scX86v = 0.25F;
-        [n1.ElementAttribute(TracingId = 243148U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "P4Y1iqVedbiQSBc6QlzW5i", Name = "__slot_P4Y1iqVedbiQSBc6QlzW5i")]
+        [n1.ElementAttribute(TracingId = 267453U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "P4Y1iqVedbiQSBc6QlzW5i", Name = "__slot_P4Y1iqVedbiQSBc6QlzW5i")]
         public static float __slot_P4Y1iqVedbiQSBc6QlzW5i = 1F;
-        [n1.ElementAttribute(TracingId = 243174U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "VmMJQd2lOUZLJsQo2wKOub", Name = "__slot_VmMJQd2lOUZLJsQo2wKOub")]
+        [n1.ElementAttribute(TracingId = 267456U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "VmMJQd2lOUZLJsQo2wKOub", Name = "__slot_VmMJQd2lOUZLJsQo2wKOub")]
         public static float __slot_VmMJQd2lOUZLJsQo2wKOub = 1F;
-        [n1.ElementAttribute(TracingId = 243231U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Q2eVvSNGInXQLbdZuYHEQ1", Name = "__slot_Q2eVvSNGInXQLbdZuYHEQ1")]
+        [n1.ElementAttribute(TracingId = 267463U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Q2eVvSNGInXQLbdZuYHEQ1", Name = "__slot_Q2eVvSNGInXQLbdZuYHEQ1")]
         public static float __slot_Q2eVvSNGInXQLbdZuYHEQ1 = 0F;
-        [n1.ElementAttribute(TracingId = 243226U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "FuwHXWnxjaFNCp3AsCgAh3", Name = "__slot_FuwHXWnxjaFNCp3AsCgAh3")]
+        [n1.ElementAttribute(TracingId = 267462U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "FuwHXWnxjaFNCp3AsCgAh3", Name = "__slot_FuwHXWnxjaFNCp3AsCgAh3")]
         public static float __slot_FuwHXWnxjaFNCp3AsCgAh3 = 1F;
-        [n1.ElementAttribute(TracingId = 243217U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Km9khMY5B05NHSQmtLgHje", Name = "__slot_Km9khMY5B05NHSQmtLgHje")]
+        [n1.ElementAttribute(TracingId = 267461U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Km9khMY5B05NHSQmtLgHje", Name = "__slot_Km9khMY5B05NHSQmtLgHje")]
         public static float __slot_Km9khMY5B05NHSQmtLgHje = 0.125F;
-        [n1.ElementAttribute(TracingId = 243165U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "VYPZfJ3BmRCNv9XoNcoUtr", Name = "__slot_VYPZfJ3BmRCNv9XoNcoUtr")]
+        [n1.ElementAttribute(TracingId = 267455U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "VYPZfJ3BmRCNv9XoNcoUtr", Name = "__slot_VYPZfJ3BmRCNv9XoNcoUtr")]
         public static float __slot_VYPZfJ3BmRCNv9XoNcoUtr = 0.25F;
-        [n1.ElementAttribute(TracingId = 243192U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Qn0UtceVCd9P3qHA1Sut8p", Name = "__slot_Qn0UtceVCd9P3qHA1Sut8p")]
+        [n1.ElementAttribute(TracingId = 267458U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Qn0UtceVCd9P3qHA1Sut8p", Name = "__slot_Qn0UtceVCd9P3qHA1Sut8p")]
         public static float __slot_Qn0UtceVCd9P3qHA1Sut8p = 0F;
-        [n1.ElementAttribute(TracingId = 243182U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Iia2GYSrbOwMGMPpcrzJ0E", Name = "__slot_Iia2GYSrbOwMGMPpcrzJ0E")]
+        [n1.ElementAttribute(TracingId = 267457U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Iia2GYSrbOwMGMPpcrzJ0E", Name = "__slot_Iia2GYSrbOwMGMPpcrzJ0E")]
         public static float __slot_Iia2GYSrbOwMGMPpcrzJ0E = 0.50000006F;
-        [n1.ElementAttribute(TracingId = 243200U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "E6Dd7rmjoe1Ph6zSCDZqEg", Name = "__slot_E6Dd7rmjoe1Ph6zSCDZqEg")]
+        [n1.ElementAttribute(TracingId = 267459U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "E6Dd7rmjoe1Ph6zSCDZqEg", Name = "__slot_E6Dd7rmjoe1Ph6zSCDZqEg")]
         public static float __slot_E6Dd7rmjoe1Ph6zSCDZqEg = 0.7499997F;
-        [n1.ElementAttribute(TracingId = 243205U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "PRBRtt4aRNSMx8ZAIn2bsv", Name = "__slot_PRBRtt4aRNSMx8ZAIn2bsv")]
+        [n1.ElementAttribute(TracingId = 267460U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "PRBRtt4aRNSMx8ZAIn2bsv", Name = "__slot_PRBRtt4aRNSMx8ZAIn2bsv")]
         public static float __slot_PRBRtt4aRNSMx8ZAIn2bsv = 0.125F;
-        [n1.ElementAttribute(TracingId = 243842U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "DrS4cPaQLDoNVbKJWtJ8ez", Name = "__slot_DrS4cPaQLDoNVbKJWtJ8ez")]
+        [n1.ElementAttribute(TracingId = 267688U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "DrS4cPaQLDoNVbKJWtJ8ez", Name = "__slot_DrS4cPaQLDoNVbKJWtJ8ez")]
         public static float __slot_DrS4cPaQLDoNVbKJWtJ8ez = 0.49999994F;
-        [n1.ElementAttribute(TracingId = 244053U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Sl8Hs2zdn4UM727P2pqk8o", Name = "__slot_Sl8Hs2zdn4UM727P2pqk8o")]
+        [n1.ElementAttribute(TracingId = 267760U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Sl8Hs2zdn4UM727P2pqk8o", Name = "__slot_Sl8Hs2zdn4UM727P2pqk8o")]
         public static int __slot_Sl8Hs2zdn4UM727P2pqk8o = 2;
-        [n1.ElementAttribute(TracingId = 244493U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "LnnMyRNgYPRQXuSrP9JI7H", Name = "__slot_LnnMyRNgYPRQXuSrP9JI7H")]
+        [n1.ElementAttribute(TracingId = 267914U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "LnnMyRNgYPRQXuSrP9JI7H", Name = "__slot_LnnMyRNgYPRQXuSrP9JI7H")]
         public static float __slot_LnnMyRNgYPRQXuSrP9JI7H = 0.5F;
-        [n1.ElementAttribute(TracingId = 244388U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "ObcovdnzbozQBZJ8qjfW3D", Name = "__slot_ObcovdnzbozQBZJ8qjfW3D")]
+        [n1.ElementAttribute(TracingId = 267879U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "ObcovdnzbozQBZJ8qjfW3D", Name = "__slot_ObcovdnzbozQBZJ8qjfW3D")]
         public static int __slot_ObcovdnzbozQBZJ8qjfW3D = 4;
-        [n1.ElementAttribute(TracingId = 246186U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "SpbPCiT8mjiPXCJgxOXB1r", Name = "__slot_SpbPCiT8mjiPXCJgxOXB1r")]
+        [n1.ElementAttribute(TracingId = 268493U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "SpbPCiT8mjiPXCJgxOXB1r", Name = "__slot_SpbPCiT8mjiPXCJgxOXB1r")]
         public static float __slot_SpbPCiT8mjiPXCJgxOXB1r = 1F;
-        [n1.ElementAttribute(TracingId = 246192U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "UUMnqbj8RAUL5XC7SKP1pr", Name = "__slot_UUMnqbj8RAUL5XC7SKP1pr")]
+        [n1.ElementAttribute(TracingId = 268494U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "UUMnqbj8RAUL5XC7SKP1pr", Name = "__slot_UUMnqbj8RAUL5XC7SKP1pr")]
         public static float __slot_UUMnqbj8RAUL5XC7SKP1pr = 6F;
-        [n1.ElementAttribute(TracingId = 246197U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Lt91sDNLTWKNow9v6FOMRM", Name = "__slot_Lt91sDNLTWKNow9v6FOMRM")]
+        [n1.ElementAttribute(TracingId = 268495U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Lt91sDNLTWKNow9v6FOMRM", Name = "__slot_Lt91sDNLTWKNow9v6FOMRM")]
         public static float __slot_Lt91sDNLTWKNow9v6FOMRM = -1F;
-        [n1.ElementAttribute(TracingId = 246201U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "TxVkScgMmQ0L4ENfgNi3wi", Name = "__slot_TxVkScgMmQ0L4ENfgNi3wi")]
+        [n1.ElementAttribute(TracingId = 268496U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "TxVkScgMmQ0L4ENfgNi3wi", Name = "__slot_TxVkScgMmQ0L4ENfgNi3wi")]
         public static float __slot_TxVkScgMmQ0L4ENfgNi3wi = 0.5F;
-        [n1.ElementAttribute(TracingId = 246204U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "DXTtw6iLsCTMLNEBxQPvWW", Name = "__slot_DXTtw6iLsCTMLNEBxQPvWW")]
+        [n1.ElementAttribute(TracingId = 268497U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "DXTtw6iLsCTMLNEBxQPvWW", Name = "__slot_DXTtw6iLsCTMLNEBxQPvWW")]
         public static float __slot_DXTtw6iLsCTMLNEBxQPvWW = 2F;
-        [n1.ElementAttribute(TracingId = 246208U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "OY7MQab57oJMnTAhOD4GIu", Name = "__slot_OY7MQab57oJMnTAhOD4GIu")]
+        [n1.ElementAttribute(TracingId = 268498U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "OY7MQab57oJMnTAhOD4GIu", Name = "__slot_OY7MQab57oJMnTAhOD4GIu")]
         public static int __slot_OY7MQab57oJMnTAhOD4GIu = 1;
-        [n1.ElementAttribute(TracingId = 246212U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "NmeWrZHl0S0PzgQ7Bmmnwk", Name = "__slot_NmeWrZHl0S0PzgQ7Bmmnwk")]
+        [n1.ElementAttribute(TracingId = 268499U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "NmeWrZHl0S0PzgQ7Bmmnwk", Name = "__slot_NmeWrZHl0S0PzgQ7Bmmnwk")]
         public static float __slot_NmeWrZHl0S0PzgQ7Bmmnwk = 0.75F;
-        [n1.ElementAttribute(TracingId = 246215U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Tt0kJVjlA0KN9rbCcXIAuI", Name = "__slot_Tt0kJVjlA0KN9rbCcXIAuI")]
+        [n1.ElementAttribute(TracingId = 268500U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Tt0kJVjlA0KN9rbCcXIAuI", Name = "__slot_Tt0kJVjlA0KN9rbCcXIAuI")]
         public static float __slot_Tt0kJVjlA0KN9rbCcXIAuI = 0.5F;
-        [n1.ElementAttribute(TracingId = 246222U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Ef1SYc5c6NDP4GqGlmLEVY", Name = "__slot_Ef1SYc5c6NDP4GqGlmLEVY")]
+        [n1.ElementAttribute(TracingId = 268501U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Ef1SYc5c6NDP4GqGlmLEVY", Name = "__slot_Ef1SYc5c6NDP4GqGlmLEVY")]
         public static int __slot_Ef1SYc5c6NDP4GqGlmLEVY = 1;
-        [n1.ElementAttribute(TracingId = 246227U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "FyOsc0PylomL7eUQYFhzW4", Name = "__slot_FyOsc0PylomL7eUQYFhzW4")]
+        [n1.ElementAttribute(TracingId = 268502U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "FyOsc0PylomL7eUQYFhzW4", Name = "__slot_FyOsc0PylomL7eUQYFhzW4")]
         public static int __slot_FyOsc0PylomL7eUQYFhzW4 = 1;
-        [n1.ElementAttribute(TracingId = 246493U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "NBIEHax1Xc2Noavb0SnDFa", Name = "__slot_NBIEHax1Xc2Noavb0SnDFa")]
+        [n1.ElementAttribute(TracingId = 268580U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "NBIEHax1Xc2Noavb0SnDFa", Name = "__slot_NBIEHax1Xc2Noavb0SnDFa")]
         public static int __slot_NBIEHax1Xc2Noavb0SnDFa = 2;
         static _Operations_()
         {
@@ -3550,7 +3550,7 @@ namespace _VL_Collections_.Collections.Spread.Advanced
 
 namespace _VL_Collections_.Collections.Mutable.MutableList.Advanced
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
@@ -3561,7 +3561,7 @@ namespace _VL_Collections_.Collections.Mutable.MutableList.Advanced
             return Output_1;
         }
 
-        [n1.ElementAttribute(TracingId = 235290U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "H1BVllIKabEOiKJB4o6Fci", Name = "__slot_H1BVllIKabEOiKJB4o6Fci")]
+        [n1.ElementAttribute(TracingId = 264843U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "H1BVllIKabEOiKJB4o6Fci", Name = "__slot_H1BVllIKabEOiKJB4o6Fci")]
         public static int __slot_H1BVllIKabEOiKJB4o6Fci = 0;
         static _Operations_()
         {
@@ -3571,7 +3571,7 @@ namespace _VL_Collections_.Collections.Mutable.MutableList.Advanced
 
 namespace _VL_Collections_.Collections.Mutable.MutableDictionary.Advanced
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
@@ -3584,28 +3584,28 @@ namespace _VL_Collections_.Collections.Mutable.MutableDictionary.Advanced
 
         public static void FromSequence<T, T2>(n6.IEnumerable<T> Input_In, n2.Func<T, T2> Key_Selector_In, out n6.Dictionary<T2, T> Result_Out)
         {
-            var Result_0 = n36.Enumerable.ToDictionary<T, T2>(source: Input_In, keySelector: Key_Selector_In);
+            var Result_0 = n39.Enumerable.ToDictionary<T, T2>(source: Input_In, keySelector: Key_Selector_In);
             Result_Out = Result_0;
             return;
         }
 
         public static void FromSequence<T, T2, T3>(n6.IEnumerable<T> Input_In, n2.Func<T, T2> Key_Selector_In, n2.Func<T, T3> Element_Selector_In, out n6.Dictionary<T2, T3> Result_Out)
         {
-            var Result_0 = n36.Enumerable.ToDictionary<T, T2, T3>(source: Input_In, keySelector: Key_Selector_In, elementSelector: Element_Selector_In);
+            var Result_0 = n39.Enumerable.ToDictionary<T, T2, T3>(source: Input_In, keySelector: Key_Selector_In, elementSelector: Element_Selector_In);
             Result_Out = Result_0;
             return;
         }
 
         public static void FromSequence<T, T2>(n6.IEnumerable<T> Input_In, n2.Func<T, T2> Key_Selector_In, n6.IEqualityComparer<T2> Comparer_In, out n6.Dictionary<T2, T> Result_Out)
         {
-            var Result_0 = n36.Enumerable.ToDictionary<T, T2>(source: Input_In, keySelector: Key_Selector_In, comparer: Comparer_In);
+            var Result_0 = n39.Enumerable.ToDictionary<T, T2>(source: Input_In, keySelector: Key_Selector_In, comparer: Comparer_In);
             Result_Out = Result_0;
             return;
         }
 
         public static void FromSequence<T, T2, T3>(n6.IEnumerable<T> Input_In, n2.Func<T, T2> Key_Selector_In, n2.Func<T, T3> Element_Selector_In, n6.IEqualityComparer<T2> Comparer_In, out n6.Dictionary<T2, T3> Result_Out)
         {
-            var Result_0 = n36.Enumerable.ToDictionary<T, T2, T3>(source: Input_In, keySelector: Key_Selector_In, elementSelector: Element_Selector_In, comparer: Comparer_In);
+            var Result_0 = n39.Enumerable.ToDictionary<T, T2, T3>(source: Input_In, keySelector: Key_Selector_In, elementSelector: Element_Selector_In, comparer: Comparer_In);
             Result_Out = Result_0;
             return;
         }
@@ -3622,7 +3622,7 @@ namespace _VL_Collections_.Collections.Mutable.MutableDictionary.Advanced
             return;
         }
 
-        [n1.ElementAttribute(TracingId = 235330U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "FoPfiyGA2BSLixOTvy4bEe", Name = "__slot_FoPfiyGA2BSLixOTvy4bEe")]
+        [n1.ElementAttribute(TracingId = 264859U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "FoPfiyGA2BSLixOTvy4bEe", Name = "__slot_FoPfiyGA2BSLixOTvy4bEe")]
         public static int __slot_FoPfiyGA2BSLixOTvy4bEe = 0;
         static _Operations_()
         {
@@ -3632,7 +3632,7 @@ namespace _VL_Collections_.Collections.Mutable.MutableDictionary.Advanced
 
 namespace _VL_Collections_.Collections.Mutable.MutableHashSet.Advanced
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
@@ -3646,7 +3646,7 @@ namespace _VL_Collections_.Collections.Mutable.MutableHashSet.Advanced
 
 namespace _VL_Collections_.Collections.Mutable.MutableQueue.Advanced
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
@@ -3657,7 +3657,7 @@ namespace _VL_Collections_.Collections.Mutable.MutableQueue.Advanced
             return Output_1;
         }
 
-        [n1.ElementAttribute(TracingId = 235444U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "O9IdPIQuK29PzvdJceEYAb", Name = "__slot_O9IdPIQuK29PzvdJceEYAb")]
+        [n1.ElementAttribute(TracingId = 264953U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "O9IdPIQuK29PzvdJceEYAb", Name = "__slot_O9IdPIQuK29PzvdJceEYAb")]
         public static int __slot_O9IdPIQuK29PzvdJceEYAb = 0;
         static _Operations_()
         {
@@ -3667,7 +3667,7 @@ namespace _VL_Collections_.Collections.Mutable.MutableQueue.Advanced
 
 namespace _VL_Collections_.Collections.Mutable.MutableStack.Advanced
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
@@ -3678,7 +3678,7 @@ namespace _VL_Collections_.Collections.Mutable.MutableStack.Advanced
             return Output_1;
         }
 
-        [n1.ElementAttribute(TracingId = 235457U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "DV57CXsFXh4LP2XRrh0eCL", Name = "__slot_DV57CXsFXh4LP2XRrh0eCL")]
+        [n1.ElementAttribute(TracingId = 264966U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "DV57CXsFXh4LP2XRrh0eCL", Name = "__slot_DV57CXsFXh4LP2XRrh0eCL")]
         public static int __slot_DV57CXsFXh4LP2XRrh0eCL = 0;
         static _Operations_()
         {
@@ -3688,7 +3688,7 @@ namespace _VL_Collections_.Collections.Mutable.MutableStack.Advanced
 
 namespace _VL_Collections_.Collections.Mutable.MutableLinkedList.Advanced
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
@@ -3702,12 +3702,12 @@ namespace _VL_Collections_.Collections.Mutable.MutableLinkedList.Advanced
 
 namespace _VL_Collections_.Collections.Mutable.MutableLinkedListNode.Advanced
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
         public static n6.LinkedListNode<T> CreateDefault<T, AdM>()
-            where AdM : struct, n19.IAdaptiveCreateDefault<T>
+            where AdM : struct, n18.IAdaptiveCreateDefault<T>
         {
             var w_0 = default(AdM);
             w_0.CreateDefault(Output_Out: out T Output_1);
@@ -3719,105 +3719,105 @@ namespace _VL_Collections_.Collections.Mutable.MutableLinkedListNode.Advanced
 
 namespace _VL_Collections_.Collections.Mutable.MutableObservableCollection.Advanced
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
-        public static n37.ObservableCollection<T> CreateDefault<T>()
+        public static n40.ObservableCollection<T> CreateDefault<T>()
         {
-            var Output_0 = new n37.ObservableCollection<T>();
+            var Output_0 = new n40.ObservableCollection<T>();
             return Output_0;
         }
 
-        public static void Count<T>(n37.ObservableCollection<T> Input_In, out n37.ObservableCollection<T> Output_Out, out int Count_Out)
+        public static void Count<T>(n40.ObservableCollection<T> Input_In, out n40.ObservableCollection<T> Output_Out, out int Count_Out)
         {
             var Count_0 = Input_In.Count;
-            n37.Collection<T> __pad_Taph9mvREoaMPj70KGNM1v_1 = Input_In;
+            n40.Collection<T> __pad_Taph9mvREoaMPj70KGNM1v_1 = Input_In;
             Output_Out = Input_In;
             Count_Out = Count_0;
             return;
         }
 
-        public static void GetItem<T>(n37.ObservableCollection<T> Input_In, int Index_In, out n37.ObservableCollection<T> Output_Out, out T Item_Out)
+        public static void GetItem<T>(n40.ObservableCollection<T> Input_In, int Index_In, out n40.ObservableCollection<T> Output_Out, out T Item_Out)
         {
             var Item_0 = Input_In[Index_In];
-            n37.Collection<T> __pad_D9pBBSuuz4AOkzQgeiYRHi_1 = Input_In;
+            n40.Collection<T> __pad_D9pBBSuuz4AOkzQgeiYRHi_1 = Input_In;
             Output_Out = Input_In;
             Item_Out = Item_0;
             return;
         }
 
-        public static void SetItem<T>(n37.ObservableCollection<T> Input_In, int Index_In, T Value_In, out n37.ObservableCollection<T> Output_Out)
+        public static void SetItem<T>(n40.ObservableCollection<T> Input_In, int Index_In, T Value_In, out n40.ObservableCollection<T> Output_Out)
         {
             Input_In[Index_In] = Value_In;
-            n37.Collection<T> __pad_DPUoRCqclpKPAgU0YmHz0C_0 = Input_In;
+            n40.Collection<T> __pad_DPUoRCqclpKPAgU0YmHz0C_0 = Input_In;
             Output_Out = Input_In;
             return;
         }
 
-        public static void Add<T>(n37.Collection<T> Input_In, T Item_In, out n37.Collection<T> Output_2_Out)
+        public static void Add<T>(n40.Collection<T> Input_In, T Item_In, out n40.Collection<T> Output_2_Out)
         {
             Input_In.Add(item: Item_In);
-            n37.Collection<T> __pad_TNqvFk3TjnrOlEGMgpajgf_0 = Input_In;
+            n40.Collection<T> __pad_TNqvFk3TjnrOlEGMgpajgf_0 = Input_In;
             Output_2_Out = Input_In;
             return;
         }
 
-        public static void Clear<T>(n37.Collection<T> Input_In, out n37.Collection<T> Output_2_Out)
+        public static void Clear<T>(n40.Collection<T> Input_In, out n40.Collection<T> Output_2_Out)
         {
             Input_In.Clear();
-            n37.Collection<T> __pad_HqTAm2HahelQMFhaOsptZB_0 = Input_In;
+            n40.Collection<T> __pad_HqTAm2HahelQMFhaOsptZB_0 = Input_In;
             Output_2_Out = Input_In;
             return;
         }
 
-        public static void Contains<T>(n37.Collection<T> Input_In, T Item_In, out n37.Collection<T> Output_2_Out, out bool Result_Out)
+        public static void Contains<T>(n40.Collection<T> Input_In, T Item_In, out n40.Collection<T> Output_2_Out, out bool Result_Out)
         {
             var Result_0 = Input_In.Contains(item: Item_In);
-            n37.Collection<T> __pad_NZT3zZlwB7RPufKHto6OIF_1 = Input_In;
+            n40.Collection<T> __pad_NZT3zZlwB7RPufKHto6OIF_1 = Input_In;
             Output_2_Out = Input_In;
             Result_Out = Result_0;
             return;
         }
 
-        public static void CopyTo<T>(n37.Collection<T> Input_In, T[] Array_In, int Index_In, out n37.Collection<T> Output_2_Out)
+        public static void CopyTo<T>(n40.Collection<T> Input_In, T[] Array_In, int Index_In, out n40.Collection<T> Output_2_Out)
         {
             Input_In.CopyTo(array: Array_In, index: Index_In);
-            n37.Collection<T> __pad_CNt4HvFyYNcMsCC8NbE3Nn_0 = Input_In;
+            n40.Collection<T> __pad_CNt4HvFyYNcMsCC8NbE3Nn_0 = Input_In;
             Output_2_Out = Input_In;
             return;
         }
 
-        public static void IndexOf<T>(n37.Collection<T> Input_In, T Item_In, out n37.Collection<T> Output_2_Out, out int Result_Out)
+        public static void IndexOf<T>(n40.Collection<T> Input_In, T Item_In, out n40.Collection<T> Output_2_Out, out int Result_Out)
         {
             var Result_0 = Input_In.IndexOf(item: Item_In);
-            n37.Collection<T> __pad_Ea9kwwMsGsoLskwZmHx8mi_1 = Input_In;
+            n40.Collection<T> __pad_Ea9kwwMsGsoLskwZmHx8mi_1 = Input_In;
             Output_2_Out = Input_In;
             Result_Out = Result_0;
             return;
         }
 
-        public static void Insert<T>(n37.Collection<T> Input_In, int Index_In, T Item_In, out n37.Collection<T> Output_2_Out)
+        public static void Insert<T>(n40.Collection<T> Input_In, int Index_In, T Item_In, out n40.Collection<T> Output_2_Out)
         {
             Input_In.Insert(index: Index_In, item: Item_In);
-            n37.Collection<T> __pad_UKjsxcZFVYCNsUDn2ZMHUc_0 = Input_In;
+            n40.Collection<T> __pad_UKjsxcZFVYCNsUDn2ZMHUc_0 = Input_In;
             Output_2_Out = Input_In;
             return;
         }
 
-        public static void Remove<T>(n37.Collection<T> Input_In, T Item_In, out n37.Collection<T> Output_2_Out, out bool Result_Out)
+        public static void Remove<T>(n40.Collection<T> Input_In, T Item_In, out n40.Collection<T> Output_2_Out, out bool Result_Out)
         {
             var Result_0 = Input_In.Remove(item: Item_In);
-            n37.Collection<T> __pad_VThyHDASPmAQDdPseJyTsh_1 = Input_In;
+            n40.Collection<T> __pad_VThyHDASPmAQDdPseJyTsh_1 = Input_In;
             Output_2_Out = Input_In;
             Result_Out = Result_0;
             return;
         }
 
-        public static void RemoveAt<T>(n37.Collection<T> Input_In, int Index_In, out n37.Collection<T> Output_2_Out)
+        public static void RemoveAt<T>(n40.Collection<T> Input_In, int Index_In, out n40.Collection<T> Output_2_Out)
         {
             Input_In.RemoveAt(index: Index_In);
-            n37.Collection<T> __pad_DAujEctKMnjLk08CtdcgIL_0 = Input_In;
+            n40.Collection<T> __pad_DAujEctKMnjLk08CtdcgIL_0 = Input_In;
             Output_2_Out = Input_In;
             return;
         }
@@ -3826,7 +3826,7 @@ namespace _VL_Collections_.Collections.Mutable.MutableObservableCollection.Advan
 
 namespace _VL_Collections_.Collections.Mutable.MutableSortedList.Advanced
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
@@ -3837,7 +3837,7 @@ namespace _VL_Collections_.Collections.Mutable.MutableSortedList.Advanced
             return Output_1;
         }
 
-        [n1.ElementAttribute(TracingId = 235723U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "PAUmmpKu5DTQcTpKtN6cyd", Name = "__slot_PAUmmpKu5DTQcTpKtN6cyd")]
+        [n1.ElementAttribute(TracingId = 265232U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "PAUmmpKu5DTQcTpKtN6cyd", Name = "__slot_PAUmmpKu5DTQcTpKtN6cyd")]
         public static int __slot_PAUmmpKu5DTQcTpKtN6cyd = 0;
         static _Operations_()
         {
@@ -3847,7 +3847,7 @@ namespace _VL_Collections_.Collections.Mutable.MutableSortedList.Advanced
 
 namespace _VL_Collections_.Collections.Mutable.MutableSortedDictionary.Advanced
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
@@ -3861,7 +3861,7 @@ namespace _VL_Collections_.Collections.Mutable.MutableSortedDictionary.Advanced
 
 namespace _VL_Collections_.Collections.Mutable.MutableSortedSet.Advanced
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
@@ -3875,27 +3875,27 @@ namespace _VL_Collections_.Collections.Mutable.MutableSortedSet.Advanced
 
 namespace _VL_Collections_.Collections.Mutable.MutableArray.Advanced
 {
-    [n1.ElementAttribute(TracingId = 235912U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "E7MMY2y7nApLJNOyBvxTFt", Name = "FromImage_E7MMY2y7nApLJNOyBvxTFt")]
+    [n1.ElementAttribute(TracingId = 265388U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "E7MMY2y7nApLJNOyBvxTFt", Name = "FromImage_E7MMY2y7nApLJNOyBvxTFt")]
     [n2.SerializableAttribute]
     public class FromImage_E7MMY2y7nApLJNOyBvxTFt : n1.VLObject, n2.IDisposable
     {
         [n4.CreateNewAttribute]
-        public static n38.FromImage_E7MMY2y7nApLJNOyBvxTFt Create(n1.NodeContext Node_Context)
+        public static n28.FromImage_E7MMY2y7nApLJNOyBvxTFt Create(n1.NodeContext Node_Context)
         {
             var instance = new FromImage_E7MMY2y7nApLJNOyBvxTFt(Node_Context, n1.VLObject.NewIdentity());
             return instance.__Create__(Node_Context);
         }
 
         [n4.CreateDefaultAttribute]
-        public static n38.FromImage_E7MMY2y7nApLJNOyBvxTFt CreateDefault()
+        public static n28.FromImage_E7MMY2y7nApLJNOyBvxTFt CreateDefault()
         {
             var instance = new FromImage_E7MMY2y7nApLJNOyBvxTFt(n1.NodeContext.Default, n1.VLObject.NewIdentity());
             return instance.__CreateDefault__();
         }
 
-        public n38.FromImage_E7MMY2y7nApLJNOyBvxTFt Update(n39.IImage Input_In, out byte[] Output_Out)
+        public n28.FromImage_E7MMY2y7nApLJNOyBvxTFt Update(n41.IImage Input_In, out byte[] Output_Out)
         {
-            var Result_0 = ((n39.IImage)Input_In).GetData();
+            var Result_0 = ((n41.IImage)Input_In).GetData();
             byte[] __auto_1;
             var state_2 = n1.CompilationHelper.Restore<__TFwaQxuHBgCOrlfzw77q4s>(this.__using_Do3aaP6I3OENyfZ0YzBEky, __GetContext__());
             using (Result_0)
@@ -3912,7 +3912,7 @@ namespace _VL_Collections_.Collections.Mutable.MutableArray.Advanced
                 var manager_7 = state_2.__cache_AKn0BN23pidONSbdEBDq1u;
                 if (manager_7 is null)
                 {
-                    manager_7 = new n40.Manager<n2.ValueTuple<int>, n2.ValueTuple<byte[]>>(n2.ValueTuple.Create(n38._Operations_.CreateDefault<byte>()));
+                    manager_7 = new n42.Manager<n2.ValueTuple<int>, n2.ValueTuple<byte[]>>(n2.ValueTuple.Create(n28._Operations_.CreateDefault<byte>()));
                 }
 
                 var inputs_8 = n2.ValueTuple.Create(Length_4);
@@ -3922,8 +3922,8 @@ namespace _VL_Collections_.Collections.Mutable.MutableArray.Advanced
                 {
                     if (Dispose_Cached_Outputs_6)
                         manager_7.DisposeOutputs();
-                    n1.NodeContext Node_Context_12 = __GetContext__().CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "CyvOTnRKqIMLzNCk1LbioU", 235949U);
-                    n38._Operations_.Create<byte>(Node_Context: Node_Context_12, Length_In: Length_4, Result_Out: out byte[] Result_13);
+                    n1.NodeContext Node_Context_12 = __GetContext__().CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "CyvOTnRKqIMLzNCk1LbioU", 265408U);
+                    n28._Operations_.Create<byte>(Node_Context: Node_Context_12, Length_In: Length_4, Result_Out: out byte[] Result_13);
                     outputs_9 = n2.ValueTuple.Create(Result_13);
                     manager_7 = manager_7.Update(inputs_8, __GetContext__().IsImmutable, Dispose_Cached_Outputs_6, default, outputs_9);
                 }
@@ -3933,7 +3933,7 @@ namespace _VL_Collections_.Collections.Mutable.MutableArray.Advanced
                 }
 
                 var __auto_14 = outputs_9.Item1;
-                var Result_15 = n41.MemoryUtils.AsMemory<byte>(input: __auto_14);
+                var Result_15 = n43.MemoryUtils.AsMemory<byte>(input: __auto_14);
                 Bytes_3.CopyTo(destination: Result_15);
                 __auto_1 = __auto_14;
                 if (state_2.__GetContext__().IsImmutable)
@@ -3948,7 +3948,7 @@ namespace _VL_Collections_.Collections.Mutable.MutableArray.Advanced
             }
 
             Output_Out = __auto_1;
-            n38.FromImage_E7MMY2y7nApLJNOyBvxTFt that_16 = this;
+            n28.FromImage_E7MMY2y7nApLJNOyBvxTFt that_16 = this;
             if (this.__GetContext__().IsImmutable)
                 that_16 = state_2 != this.__using_Do3aaP6I3OENyfZ0YzBEky ? new FromImage_E7MMY2y7nApLJNOyBvxTFt(this)
                 {__using_Do3aaP6I3OENyfZ0YzBEky = state_2} : that_16;
@@ -3960,17 +3960,17 @@ namespace _VL_Collections_.Collections.Mutable.MutableArray.Advanced
             return that_16;
         }
 
-        public n38.FromImage_E7MMY2y7nApLJNOyBvxTFt __Create__(n1.NodeContext Node_Context)
+        public n28.FromImage_E7MMY2y7nApLJNOyBvxTFt __Create__(n1.NodeContext Node_Context)
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n38.FromImage_E7MMY2y7nApLJNOyBvxTFt that_0 = this;
+            n28.FromImage_E7MMY2y7nApLJNOyBvxTFt that_0 = this;
             this.__using_Do3aaP6I3OENyfZ0YzBEky = default(n2.Object);
             return that_0;
         }
 
-        public n38.FromImage_E7MMY2y7nApLJNOyBvxTFt __CreateDefault__()
+        public n28.FromImage_E7MMY2y7nApLJNOyBvxTFt __CreateDefault__()
         {
-            n38.FromImage_E7MMY2y7nApLJNOyBvxTFt that_0 = this;
+            n28.FromImage_E7MMY2y7nApLJNOyBvxTFt that_0 = this;
             this.__using_Do3aaP6I3OENyfZ0YzBEky = default(n2.Object);
             return that_0;
         }
@@ -4005,7 +4005,7 @@ namespace _VL_Collections_.Collections.Mutable.MutableArray.Advanced
 
         internal FromImage_E7MMY2y7nApLJNOyBvxTFt __WITH__(n2.Object __using_Do3aaP6I3OENyfZ0YzBEky)
         {
-            n38.FromImage_E7MMY2y7nApLJNOyBvxTFt that_0 = this;
+            n28.FromImage_E7MMY2y7nApLJNOyBvxTFt that_0 = this;
             if (this.__GetContext__().IsImmutable)
                 that_0 = __using_Do3aaP6I3OENyfZ0YzBEky != this.__using_Do3aaP6I3OENyfZ0YzBEky ? new FromImage_E7MMY2y7nApLJNOyBvxTFt(this)
                 {__using_Do3aaP6I3OENyfZ0YzBEky = __using_Do3aaP6I3OENyfZ0YzBEky} : that_0;
@@ -4027,8 +4027,8 @@ namespace _VL_Collections_.Collections.Mutable.MutableArray.Advanced
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 235936U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "AKn0BN23pidONSbdEBDq1u", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
-            public n40.Manager<n2.ValueTuple<int>, n2.ValueTuple<byte[]>> __cache_AKn0BN23pidONSbdEBDq1u = null;
+            [n1.ElementAttribute(TracingId = 265401U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "AKn0BN23pidONSbdEBDq1u", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+            public n42.Manager<n2.ValueTuple<int>, n2.ValueTuple<byte[]>> __cache_AKn0BN23pidONSbdEBDq1u = null;
             public __TFwaQxuHBgCOrlfzw77q4s(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
             }
@@ -4043,7 +4043,7 @@ namespace _VL_Collections_.Collections.Mutable.MutableArray.Advanced
                 return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__cache_AKn0BN23pidONSbdEBDq1u", in __cache_AKn0BN23pidONSbdEBDq1u));
             }
 
-            internal __TFwaQxuHBgCOrlfzw77q4s __WITH__(n40.Manager<n2.ValueTuple<int>, n2.ValueTuple<byte[]>> __cache_AKn0BN23pidONSbdEBDq1u)
+            internal __TFwaQxuHBgCOrlfzw77q4s __WITH__(n42.Manager<n2.ValueTuple<int>, n2.ValueTuple<byte[]>> __cache_AKn0BN23pidONSbdEBDq1u)
             {
                 __TFwaQxuHBgCOrlfzw77q4s that_0 = this;
                 if (this.__GetContext__().IsImmutable)
@@ -4059,25 +4059,25 @@ namespace _VL_Collections_.Collections.Mutable.MutableArray.Advanced
         }
     }
 
-    [n1.ElementAttribute(TracingId = 236033U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "C1jOHeGCee4MYa7QQLGZ42", Name = "StoreSequence_C1jOHeGCee4MYa7QQLGZ42")]
+    [n1.ElementAttribute(TracingId = 265451U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "C1jOHeGCee4MYa7QQLGZ42", Name = "StoreSequence_C1jOHeGCee4MYa7QQLGZ42")]
     [n2.SerializableAttribute]
     public class StoreSequence_C1jOHeGCee4MYa7QQLGZ42<T> : n1.VLObject, n2.IDisposable
     {
         [n4.CreateNewAttribute]
-        public static n38.StoreSequence_C1jOHeGCee4MYa7QQLGZ42<T> Create(n1.NodeContext Node_Context)
+        public static n28.StoreSequence_C1jOHeGCee4MYa7QQLGZ42<T> Create(n1.NodeContext Node_Context)
         {
             var instance = new StoreSequence_C1jOHeGCee4MYa7QQLGZ42<T>(Node_Context, n1.VLObject.NewIdentity());
             return instance.__Create__(Node_Context);
         }
 
         [n4.CreateDefaultAttribute]
-        public static n38.StoreSequence_C1jOHeGCee4MYa7QQLGZ42<T> CreateDefault()
+        public static n28.StoreSequence_C1jOHeGCee4MYa7QQLGZ42<T> CreateDefault()
         {
             var instance = new StoreSequence_C1jOHeGCee4MYa7QQLGZ42<T>(n1.NodeContext.Default, n1.VLObject.NewIdentity());
             return instance.__CreateDefault__();
         }
 
-        public n38.StoreSequence_C1jOHeGCee4MYa7QQLGZ42<T> Update<T2>(T2 Input_In, out T[] Output_Out)
+        public n28.StoreSequence_C1jOHeGCee4MYa7QQLGZ42<T> Update<T2>(T2 Input_In, out T[] Output_Out)
             where T2 : n6.IEnumerable<T>
         {
             n5.ArrayBuilder<T> __auto_0 = this.Builder;
@@ -4087,20 +4087,20 @@ namespace _VL_Collections_.Collections.Mutable.MutableArray.Advanced
             return this;
         }
 
-        public n38.StoreSequence_C1jOHeGCee4MYa7QQLGZ42<T> __Create__(n1.NodeContext Node_Context)
+        public n28.StoreSequence_C1jOHeGCee4MYa7QQLGZ42<T> __Create__(n1.NodeContext Node_Context)
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
             int Capacity_0 = 0;
             var Output_1 = new n5.ArrayBuilder<T>(capacity: Capacity_0);
             n5.ArrayBuilder<T> __auto_2 = Output_1;
-            n38.StoreSequence_C1jOHeGCee4MYa7QQLGZ42<T> that_3 = this;
+            n28.StoreSequence_C1jOHeGCee4MYa7QQLGZ42<T> that_3 = this;
             this.Builder = Output_1;
             return that_3;
         }
 
-        public n38.StoreSequence_C1jOHeGCee4MYa7QQLGZ42<T> __CreateDefault__()
+        public n28.StoreSequence_C1jOHeGCee4MYa7QQLGZ42<T> __CreateDefault__()
         {
-            n38.StoreSequence_C1jOHeGCee4MYa7QQLGZ42<T> that_0 = this;
+            n28.StoreSequence_C1jOHeGCee4MYa7QQLGZ42<T> that_0 = this;
             this.Builder = default(n5.ArrayBuilder<T>);
             return that_0;
         }
@@ -4116,7 +4116,7 @@ namespace _VL_Collections_.Collections.Mutable.MutableArray.Advanced
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 236040U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "PRt9t3BCRAhN2ChHt0WOi2", Name = "Builder")]
+        [n1.ElementAttribute(TracingId = 265456U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "PRt9t3BCRAhN2ChHt0WOi2", Name = "Builder")]
         public n5.ArrayBuilder<T> Builder;
         public StoreSequence_C1jOHeGCee4MYa7QQLGZ42(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -4134,7 +4134,7 @@ namespace _VL_Collections_.Collections.Mutable.MutableArray.Advanced
 
         internal StoreSequence_C1jOHeGCee4MYa7QQLGZ42<T> __WITH__(n5.ArrayBuilder<T> Builder)
         {
-            n38.StoreSequence_C1jOHeGCee4MYa7QQLGZ42<T> that_0 = this;
+            n28.StoreSequence_C1jOHeGCee4MYa7QQLGZ42<T> that_0 = this;
             if (this.__GetContext__().IsImmutable)
                 that_0 = !n6.EqualityComparer<n5.ArrayBuilder<T>>.Default.Equals(Builder, this.Builder) ? new StoreSequence_C1jOHeGCee4MYa7QQLGZ42<T>(this)
                 {Builder = Builder} : that_0;
@@ -4147,31 +4147,31 @@ namespace _VL_Collections_.Collections.Mutable.MutableArray.Advanced
         }
     }
 
-    [n1.ElementAttribute(TracingId = 236100U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "OH4TKYsSUseQU3JpOZF4kZ", Name = "FromValue_OH4TKYsSUseQU3JpOZF4kZ")]
+    [n1.ElementAttribute(TracingId = 265479U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "OH4TKYsSUseQU3JpOZF4kZ", Name = "FromValue_OH4TKYsSUseQU3JpOZF4kZ")]
     [n2.SerializableAttribute]
     public class FromValue_OH4TKYsSUseQU3JpOZF4kZ<T> : n1.VLObject, n2.IDisposable
     {
         [n4.CreateNewAttribute]
-        public static n38.FromValue_OH4TKYsSUseQU3JpOZF4kZ<T> Create(n1.NodeContext Node_Context)
+        public static n28.FromValue_OH4TKYsSUseQU3JpOZF4kZ<T> Create(n1.NodeContext Node_Context)
         {
             var instance = new FromValue_OH4TKYsSUseQU3JpOZF4kZ<T>(Node_Context, n1.VLObject.NewIdentity());
             return instance.__Create__(Node_Context);
         }
 
         [n4.CreateDefaultAttribute]
-        public static n38.FromValue_OH4TKYsSUseQU3JpOZF4kZ<T> CreateDefault()
+        public static n28.FromValue_OH4TKYsSUseQU3JpOZF4kZ<T> CreateDefault()
         {
             var instance = new FromValue_OH4TKYsSUseQU3JpOZF4kZ<T>(n1.NodeContext.Default, n1.VLObject.NewIdentity());
             return instance.__CreateDefault__();
         }
 
-        public n38.FromValue_OH4TKYsSUseQU3JpOZF4kZ<T> Update(T Input_In, bool Force_In, out T[] Output_Out)
+        public n28.FromValue_OH4TKYsSUseQU3JpOZF4kZ<T> Update(T Input_In, bool Force_In, out T[] Output_Out)
         {
             bool Dispose_Cached_Outputs_0 = false;
             var manager_1 = this.__cache_SbLPLSbUEuCPmIUoCn9f3X;
             if (manager_1 is null)
             {
-                manager_1 = new n40.Manager<n2.ValueTuple<T>, n2.ValueTuple<T[]>>(n2.ValueTuple.Create(n38._Operations_.CreateDefault<T>()));
+                manager_1 = new n42.Manager<n2.ValueTuple<T>, n2.ValueTuple<T[]>>(n2.ValueTuple.Create(n28._Operations_.CreateDefault<T>()));
             }
 
             var inputs_2 = n2.ValueTuple.Create(Input_In);
@@ -4181,7 +4181,7 @@ namespace _VL_Collections_.Collections.Mutable.MutableArray.Advanced
             {
                 if (Dispose_Cached_Outputs_0)
                     manager_1.DisposeOutputs();
-                n38._Operations_.ToArray<T>(Input_In: Input_In, Result_Out: out T[] Result_6);
+                n28._Operations_.ToArray<T>(Input_In: Input_In, Result_Out: out T[] Result_6);
                 outputs_3 = n2.ValueTuple.Create(Result_6);
                 manager_1 = manager_1.Update(inputs_2, __GetContext__().IsImmutable, Dispose_Cached_Outputs_0, default, outputs_3);
             }
@@ -4192,7 +4192,7 @@ namespace _VL_Collections_.Collections.Mutable.MutableArray.Advanced
 
             var __auto_7 = outputs_3.Item1;
             Output_Out = __auto_7;
-            n38.FromValue_OH4TKYsSUseQU3JpOZF4kZ<T> that_8 = this;
+            n28.FromValue_OH4TKYsSUseQU3JpOZF4kZ<T> that_8 = this;
             if (this.__GetContext__().IsImmutable)
                 that_8 = manager_1 != this.__cache_SbLPLSbUEuCPmIUoCn9f3X ? new FromValue_OH4TKYsSUseQU3JpOZF4kZ<T>(this)
                 {__cache_SbLPLSbUEuCPmIUoCn9f3X = manager_1} : that_8;
@@ -4204,17 +4204,17 @@ namespace _VL_Collections_.Collections.Mutable.MutableArray.Advanced
             return that_8;
         }
 
-        public n38.FromValue_OH4TKYsSUseQU3JpOZF4kZ<T> __Create__(n1.NodeContext Node_Context)
+        public n28.FromValue_OH4TKYsSUseQU3JpOZF4kZ<T> __Create__(n1.NodeContext Node_Context)
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n38.FromValue_OH4TKYsSUseQU3JpOZF4kZ<T> that_0 = this;
+            n28.FromValue_OH4TKYsSUseQU3JpOZF4kZ<T> that_0 = this;
             this.__cache_SbLPLSbUEuCPmIUoCn9f3X = null;
             return that_0;
         }
 
-        public n38.FromValue_OH4TKYsSUseQU3JpOZF4kZ<T> __CreateDefault__()
+        public n28.FromValue_OH4TKYsSUseQU3JpOZF4kZ<T> __CreateDefault__()
         {
-            n38.FromValue_OH4TKYsSUseQU3JpOZF4kZ<T> that_0 = this;
+            n28.FromValue_OH4TKYsSUseQU3JpOZF4kZ<T> that_0 = this;
             this.__cache_SbLPLSbUEuCPmIUoCn9f3X = null;
             return that_0;
         }
@@ -4231,8 +4231,8 @@ namespace _VL_Collections_.Collections.Mutable.MutableArray.Advanced
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 236103U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "SbLPLSbUEuCPmIUoCn9f3X", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
-        public n40.Manager<n2.ValueTuple<T>, n2.ValueTuple<T[]>> __cache_SbLPLSbUEuCPmIUoCn9f3X = null;
+        [n1.ElementAttribute(TracingId = 265482U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "SbLPLSbUEuCPmIUoCn9f3X", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        public n42.Manager<n2.ValueTuple<T>, n2.ValueTuple<T[]>> __cache_SbLPLSbUEuCPmIUoCn9f3X = null;
         public FromValue_OH4TKYsSUseQU3JpOZF4kZ(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
         }
@@ -4247,9 +4247,9 @@ namespace _VL_Collections_.Collections.Mutable.MutableArray.Advanced
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__cache_SbLPLSbUEuCPmIUoCn9f3X", in __cache_SbLPLSbUEuCPmIUoCn9f3X));
         }
 
-        internal FromValue_OH4TKYsSUseQU3JpOZF4kZ<T> __WITH__(n40.Manager<n2.ValueTuple<T>, n2.ValueTuple<T[]>> __cache_SbLPLSbUEuCPmIUoCn9f3X)
+        internal FromValue_OH4TKYsSUseQU3JpOZF4kZ<T> __WITH__(n42.Manager<n2.ValueTuple<T>, n2.ValueTuple<T[]>> __cache_SbLPLSbUEuCPmIUoCn9f3X)
         {
-            n38.FromValue_OH4TKYsSUseQU3JpOZF4kZ<T> that_0 = this;
+            n28.FromValue_OH4TKYsSUseQU3JpOZF4kZ<T> that_0 = this;
             if (this.__GetContext__().IsImmutable)
                 that_0 = __cache_SbLPLSbUEuCPmIUoCn9f3X != this.__cache_SbLPLSbUEuCPmIUoCn9f3X ? new FromValue_OH4TKYsSUseQU3JpOZF4kZ<T>(this)
                 {__cache_SbLPLSbUEuCPmIUoCn9f3X = __cache_SbLPLSbUEuCPmIUoCn9f3X} : that_0;
@@ -4262,13 +4262,13 @@ namespace _VL_Collections_.Collections.Mutable.MutableArray.Advanced
         }
     }
 
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateNewAttribute]
         public static void Create<T>(n1.NodeContext Node_Context, int Length_In, out T[] Result_Out)
         {
-            var Result_0 = n42.ArrayNodes.Create<T>(length: Length_In);
+            var Result_0 = n23.ArrayNodes.Create<T>(length: Length_In);
             Result_Out = Result_0;
             return;
         }
@@ -4305,14 +4305,14 @@ namespace _VL_Collections_.Collections.Mutable.MutableArray.Advanced
 
         public static void Reverse<T>(T[] Input_In, out T[] Output_Out)
         {
-            var Output_0 = n42.ArrayNodes.Reverse<T>(input: Input_In);
+            var Output_0 = n23.ArrayNodes.Reverse<T>(input: Input_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void ReverseRange<T>(T[] Input_In, int Index_In, int Count_In, out T[] Output_Out)
         {
-            var Output_0 = n42.ArrayNodes.ReverseRange<T>(input: Input_In, index: Index_In, count: Count_In);
+            var Output_0 = n23.ArrayNodes.ReverseRange<T>(input: Input_In, index: Index_In, count: Count_In);
             Output_Out = Output_0;
             return;
         }
@@ -4324,10 +4324,10 @@ namespace _VL_Collections_.Collections.Mutable.MutableArray.Advanced
             return;
         }
 
-        public static void ToImage<T>(T[] Input_In, int Width_In, int Height_In, n39.PixelFormat Format_In, string Original_Format_In, [n4.SerializedDefaultValueAttribute("False", false)] bool Is_Volatile_In, out n39.IImage Result_Out)
+        public static void ToImage<T>(T[] Input_In, int Width_In, int Height_In, n41.PixelFormat Format_In, string Original_Format_In, [n4.SerializedDefaultValueAttribute("False", false)] bool Is_Volatile_In, out n41.IImage Result_Out)
             where T : struct
         {
-            var Result_0 = n39.ImageExtensions.ToImage<T>(data: Input_In, width: Width_In, height: Height_In, format: Format_In, originalFormat: Original_Format_In, isVolatile: Is_Volatile_In);
+            var Result_0 = n41.ImageExtensions.ToImage<T>(data: Input_In, width: Width_In, height: Height_In, format: Format_In, originalFormat: Original_Format_In, isVolatile: Is_Volatile_In);
             Result_Out = Result_0;
             return;
         }
@@ -4335,17 +4335,17 @@ namespace _VL_Collections_.Collections.Mutable.MutableArray.Advanced
         public static void ToArray<T>(T Input_In, out T[] Result_Out)
         {
             int __pad_K4vRZsVSX5ePOexihSBKYY_0 = __slot_K4vRZsVSX5ePOexihSBKYY;
-            n1.NodeContext Node_Context_1 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "DG0wVPmhm5pNfxRrddUbHC", 235836U);
-            n38._Operations_.Create<T>(Node_Context: Node_Context_1, Length_In: __pad_K4vRZsVSX5ePOexihSBKYY_0, Result_Out: out T[] Result_2);
+            n1.NodeContext Node_Context_1 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "DG0wVPmhm5pNfxRrddUbHC", 265345U);
+            n28._Operations_.Create<T>(Node_Context: Node_Context_1, Length_In: __pad_K4vRZsVSX5ePOexihSBKYY_0, Result_Out: out T[] Result_2);
             int Index_3 = 0;
-            n38._Operations_.SetItem<T>(Input_In: Result_2, Index_In: Index_3, Value_In: Input_In, Output_Out: out T[] Output_4);
+            n28._Operations_.SetItem<T>(Input_In: Result_2, Index_In: Index_3, Value_In: Input_In, Output_Out: out T[] Output_4);
             Result_Out = Output_4;
             return;
         }
 
         public static void FromSequence<T>(n6.IEnumerable<T> Input_In, out T[] Result_Out)
         {
-            var Result_0 = n42.EnumerableNodes.ToArray<T>(input: Input_In);
+            var Result_0 = n23.EnumerableNodes.ToArray<T>(input: Input_In);
             Result_Out = Result_0;
             return;
         }
@@ -4362,7 +4362,7 @@ namespace _VL_Collections_.Collections.Mutable.MutableArray.Advanced
             return;
         }
 
-        [n1.ElementAttribute(TracingId = 235835U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "K4vRZsVSX5ePOexihSBKYY", Name = "__slot_K4vRZsVSX5ePOexihSBKYY")]
+        [n1.ElementAttribute(TracingId = 265344U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "K4vRZsVSX5ePOexihSBKYY", Name = "__slot_K4vRZsVSX5ePOexihSBKYY")]
         public static int __slot_K4vRZsVSX5ePOexihSBKYY = 1;
         static _Operations_()
         {
@@ -4372,21 +4372,21 @@ namespace _VL_Collections_.Collections.Mutable.MutableArray.Advanced
 
 namespace _VL_Collections_.Collections.Concurrent.ConcurrentDictionary.Advanced
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
-        public static n43.ConcurrentDictionary<T, T2> CreateDefault<T, T2>()
+        public static n44.ConcurrentDictionary<T, T2> CreateDefault<T, T2>()
         {
             int __pad_O6nluVBJj4LNmXPQmJczwG_0 = __slot_O6nluVBJj4LNmXPQmJczwG;
             int __pad_Q1OOJSNylzhMVXK2c0ZnY2_1 = __slot_Q1OOJSNylzhMVXK2c0ZnY2;
-            var Output_2 = new n43.ConcurrentDictionary<T, T2>(concurrencyLevel: __pad_O6nluVBJj4LNmXPQmJczwG_0, capacity: __pad_Q1OOJSNylzhMVXK2c0ZnY2_1);
+            var Output_2 = new n44.ConcurrentDictionary<T, T2>(concurrencyLevel: __pad_O6nluVBJj4LNmXPQmJczwG_0, capacity: __pad_Q1OOJSNylzhMVXK2c0ZnY2_1);
             return Output_2;
         }
 
-        [n1.ElementAttribute(TracingId = 236197U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "O6nluVBJj4LNmXPQmJczwG", Name = "__slot_O6nluVBJj4LNmXPQmJczwG")]
+        [n1.ElementAttribute(TracingId = 265539U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "O6nluVBJj4LNmXPQmJczwG", Name = "__slot_O6nluVBJj4LNmXPQmJczwG")]
         public static int __slot_O6nluVBJj4LNmXPQmJczwG = 1;
-        [n1.ElementAttribute(TracingId = 236195U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Q1OOJSNylzhMVXK2c0ZnY2", Name = "__slot_Q1OOJSNylzhMVXK2c0ZnY2")]
+        [n1.ElementAttribute(TracingId = 265537U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Q1OOJSNylzhMVXK2c0ZnY2", Name = "__slot_Q1OOJSNylzhMVXK2c0ZnY2")]
         public static int __slot_Q1OOJSNylzhMVXK2c0ZnY2 = 0;
         static _Operations_()
         {
@@ -4396,13 +4396,13 @@ namespace _VL_Collections_.Collections.Concurrent.ConcurrentDictionary.Advanced
 
 namespace _VL_Collections_.Collections.Concurrent.ConcurrentQueue.Advanced
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
-        public static n43.ConcurrentQueue<T> CreateDefault<T>()
+        public static n44.ConcurrentQueue<T> CreateDefault<T>()
         {
-            var Output_0 = new n43.ConcurrentQueue<T>();
+            var Output_0 = new n44.ConcurrentQueue<T>();
             return Output_0;
         }
     }
@@ -4410,13 +4410,13 @@ namespace _VL_Collections_.Collections.Concurrent.ConcurrentQueue.Advanced
 
 namespace _VL_Collections_.Collections.Concurrent.ConcurrentStack.Advanced
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
-        public static n43.ConcurrentStack<T> CreateDefault<T>()
+        public static n44.ConcurrentStack<T> CreateDefault<T>()
         {
-            var Output_0 = new n43.ConcurrentStack<T>();
+            var Output_0 = new n44.ConcurrentStack<T>();
             return Output_0;
         }
     }
@@ -4424,13 +4424,13 @@ namespace _VL_Collections_.Collections.Concurrent.ConcurrentStack.Advanced
 
 namespace _VL_Collections_.Collections.Concurrent.ConcurrentBag.Advanced
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
-        public static n43.ConcurrentBag<T> CreateDefault<T>()
+        public static n44.ConcurrentBag<T> CreateDefault<T>()
         {
-            var Output_0 = new n43.ConcurrentBag<T>();
+            var Output_0 = new n44.ConcurrentBag<T>();
             return Output_0;
         }
     }
@@ -4438,13 +4438,13 @@ namespace _VL_Collections_.Collections.Concurrent.ConcurrentBag.Advanced
 
 namespace _VL_Collections_.Collections.Concurrent.BlockingCollection.Advanced
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
-        public static n43.BlockingCollection<T> CreateDefault<T>()
+        public static n44.BlockingCollection<T> CreateDefault<T>()
         {
-            var Output_0 = new n43.BlockingCollection<T>();
+            var Output_0 = new n44.BlockingCollection<T>();
             return Output_0;
         }
     }
@@ -4452,7 +4452,7 @@ namespace _VL_Collections_.Collections.Concurrent.BlockingCollection.Advanced
 
 namespace _VL_Collections_.Collections.SortedDictionary.Advanced
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
@@ -4553,7 +4553,7 @@ namespace _VL_Collections_.Collections.SortedDictionary.Advanced
 
 namespace _VL_Collections_.Collections.SortedSet.Advanced
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
@@ -4643,7 +4643,7 @@ namespace _VL_Collections_.Collections.SortedSet.Advanced
 
 namespace _VL_Collections_.Collections.Stack.Advanced
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
@@ -4695,7 +4695,7 @@ namespace _VL_Collections_.Collections.Stack.Advanced
 
 namespace _VL_Collections_.Collections.Array.Advanced
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
@@ -4871,7 +4871,7 @@ namespace _VL_Collections_.Collections.Array.Advanced
 
 namespace _VL_Collections_.Collections.Queue.Advanced
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateNewAttribute]
@@ -4922,19 +4922,19 @@ namespace _VL_Collections_.Collections.Queue.Advanced
 
 namespace _VL_Collections_.Collections.HoldLatestCopy.Advanced
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateNewAttribute]
-        public static void Create<T>(n1.NodeContext Node_Context, n5.Spread<T> Initial_Result_In, out n42.HoldLatestCopy<T> Output_Out)
+        public static void Create<T>(n1.NodeContext Node_Context, n5.Spread<T> Initial_Result_In, out n23.HoldLatestCopy<T> Output_Out)
         {
             n6.IReadOnlyList<T> Initial_Result_0 = (n6.IReadOnlyList<T>)Initial_Result_In;
-            var Output_1 = new n42.HoldLatestCopy<T>(initialResult: Initial_Result_0);
+            var Output_1 = new n23.HoldLatestCopy<T>(initialResult: Initial_Result_0);
             Output_Out = Output_1;
             return;
         }
 
-        public static void Update<T>(n42.HoldLatestCopy<T> Input_In, n2.IObservable<n6.IReadOnlyList<T>> Async_Notifications_In, [n4.SerializedDefaultValueAttribute("16", false)] int Timeout_In, bool Reset_In, out n42.HoldLatestCopy<T> Output_Out, out n6.IReadOnlyList<T> Result_Out, out int Swap_Count_Out, out int Drop_Count_Out)
+        public static void Update<T>(n23.HoldLatestCopy<T> Input_In, n2.IObservable<n6.IReadOnlyList<T>> Async_Notifications_In, [n4.SerializedDefaultValueAttribute("16", false)] int Timeout_In, bool Reset_In, out n23.HoldLatestCopy<T> Output_Out, out n6.IReadOnlyList<T> Result_Out, out int Swap_Count_Out, out int Drop_Count_Out)
         {
             var Result_2 = Input_In.Update(asyncNotifications: Async_Notifications_In, timeout: Timeout_In, reset: Reset_In, swapCount: out int Swap_Count_0, dropCount: out int Drop_Count_1);
             Output_Out = Input_In;
@@ -4948,7 +4948,7 @@ namespace _VL_Collections_.Collections.HoldLatestCopy.Advanced
 
 namespace _VL_Collections_.Collections.Spread
 {
-    [n1.ElementAttribute(TracingId = 246917U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "ML1zJ7dEH6TPqxRQZ2sF3E", Name = "FromSequence_Sustain_ML1zJ7dEH6TPqxRQZ2sF3E")]
+    [n1.ElementAttribute(TracingId = 268763U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "ML1zJ7dEH6TPqxRQZ2sF3E", Name = "FromSequence_Sustain_ML1zJ7dEH6TPqxRQZ2sF3E")]
     [n2.SerializableAttribute]
     public class FromSequence_Sustain_ML1zJ7dEH6TPqxRQZ2sF3E<T> : n1.VLObject, n2.IDisposable
     {
@@ -4971,12 +4971,12 @@ namespace _VL_Collections_.Collections.Spread
         {
             n5.Spread<T> __auto_0 = this.Spread;
             var __fallback___1 = n1.ServiceRegistry.Current;
-            n63._Operations_.TryCatchFinally_Stateless<n62.SpreadBuilder<T>, n5.Spread<T>>(Try_In: () =>
+            n46._Operations_.TryCatchFinally_Stateless<n45.SpreadBuilder<T>, n5.Spread<T>>(Try_In: () =>
             {
                 using var __current_2 = __fallback___1.MakeCurrentIfNone();
                 int __pad_TLmACxlAHrSLIfZ24AIr8F_3 = __slot_TLmACxlAHrSLIfZ24AIr8F;
                 var Result_4 = n4.CollectionBuilders.GetBuilder<T>(collection: __auto_0, capacity: __pad_TLmACxlAHrSLIfZ24AIr8F_3);
-                n62.SpreadBuilder<T> accumulator_6 = Result_4;
+                n45.SpreadBuilder<T> accumulator_6 = Result_4;
                 var i_8 = 0;
                 foreach (var item_5 in Input_In)
                 {
@@ -4992,10 +4992,10 @@ namespace _VL_Collections_.Collections.Spread
             , Catch_In: (n2.Exception Input_In_11) =>
             {
                 using var __current_10 = __fallback___1.MakeCurrentIfNone();
-                return default(n62.SpreadBuilder<T>);
+                return default(n45.SpreadBuilder<T>);
             }
 
-            , Finally_In: (n62.SpreadBuilder<T> Input_In_13) =>
+            , Finally_In: (n45.SpreadBuilder<T> Input_In_13) =>
             {
                 using var __current_12 = __fallback___1.MakeCurrentIfNone();
                 var Result_14 = Input_In_13.Commit();
@@ -5043,9 +5043,9 @@ namespace _VL_Collections_.Collections.Spread
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 246924U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "G2YQvwhDGnILBTrb1eVNbd", Name = "Spread")]
+        [n1.ElementAttribute(TracingId = 268767U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "G2YQvwhDGnILBTrb1eVNbd", Name = "Spread")]
         public n5.Spread<T> Spread;
-        [n1.ElementAttribute(TracingId = 246972U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "TLmACxlAHrSLIfZ24AIr8F", Name = "__slot_TLmACxlAHrSLIfZ24AIr8F")]
+        [n1.ElementAttribute(TracingId = 268793U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "TLmACxlAHrSLIfZ24AIr8F", Name = "__slot_TLmACxlAHrSLIfZ24AIr8F")]
         public static int __slot_TLmACxlAHrSLIfZ24AIr8F = 32;
         static FromSequence_Sustain_ML1zJ7dEH6TPqxRQZ2sF3E()
         {
@@ -5080,7 +5080,7 @@ namespace _VL_Collections_.Collections.Spread
         }
     }
 
-    [n1.ElementAttribute(TracingId = 251296U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Dedn0GP3agoLvHtKBtr1rt", Name = "I_Dedn0GP3agoLvHtKBtr1rt")]
+    [n1.ElementAttribute(TracingId = 270209U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Dedn0GP3agoLvHtKBtr1rt", Name = "I_Dedn0GP3agoLvHtKBtr1rt")]
     [n2.SerializableAttribute]
     public class I_Dedn0GP3agoLvHtKBtr1rt : n1.VLObject, n2.IDisposable
     {
@@ -5105,7 +5105,7 @@ namespace _VL_Collections_.Collections.Spread
             var manager_2 = this.__cache_OmwSgnKdo9CL3oH54kLpLX;
             if (manager_2 is null)
             {
-                manager_2 = new n40.Manager<n2.ValueTuple<int, int>, n2.ValueTuple<n5.Spread<int>>>(n2.ValueTuple.Create(n7._Operations_.CreateDefault<int>()));
+                manager_2 = new n42.Manager<n2.ValueTuple<int, int>, n2.ValueTuple<n5.Spread<int>>>(n2.ValueTuple.Create(n7._Operations_.CreateDefault<int>()));
             }
 
             var inputs_3 = (Start_In, Count_In);
@@ -5115,7 +5115,7 @@ namespace _VL_Collections_.Collections.Spread
             {
                 if (Dispose_Cached_Outputs_1)
                     manager_2.DisposeOutputs();
-                n29._Operations_.CreateISpread(Start_In: Start_In, Count_In: Count_In, Output_Out: out n5.Spread<int> Output_7);
+                n32._Operations_.CreateISpread(Start_In: Start_In, Count_In: Count_In, Output_Out: out n5.Spread<int> Output_7);
                 outputs_4 = n2.ValueTuple.Create(Output_7);
                 manager_2 = manager_2.Update(inputs_3, __GetContext__().IsImmutable, Dispose_Cached_Outputs_1, default, outputs_4);
             }
@@ -5165,8 +5165,8 @@ namespace _VL_Collections_.Collections.Spread
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 251299U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "OmwSgnKdo9CL3oH54kLpLX", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
-        public n40.Manager<n2.ValueTuple<int, int>, n2.ValueTuple<n5.Spread<int>>> __cache_OmwSgnKdo9CL3oH54kLpLX = null;
+        [n1.ElementAttribute(TracingId = 270212U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "OmwSgnKdo9CL3oH54kLpLX", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        public n42.Manager<n2.ValueTuple<int, int>, n2.ValueTuple<n5.Spread<int>>> __cache_OmwSgnKdo9CL3oH54kLpLX = null;
         public I_Dedn0GP3agoLvHtKBtr1rt(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
         }
@@ -5181,7 +5181,7 @@ namespace _VL_Collections_.Collections.Spread
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__cache_OmwSgnKdo9CL3oH54kLpLX", in __cache_OmwSgnKdo9CL3oH54kLpLX));
         }
 
-        internal I_Dedn0GP3agoLvHtKBtr1rt __WITH__(n40.Manager<n2.ValueTuple<int, int>, n2.ValueTuple<n5.Spread<int>>> __cache_OmwSgnKdo9CL3oH54kLpLX)
+        internal I_Dedn0GP3agoLvHtKBtr1rt __WITH__(n42.Manager<n2.ValueTuple<int, int>, n2.ValueTuple<n5.Spread<int>>> __cache_OmwSgnKdo9CL3oH54kLpLX)
         {
             n7.I_Dedn0GP3agoLvHtKBtr1rt that_0 = this;
             if (this.__GetContext__().IsImmutable)
@@ -5196,7 +5196,7 @@ namespace _VL_Collections_.Collections.Spread
         }
     }
 
-    [n1.ElementAttribute(TracingId = 251333U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "UXyN8H5ad7xPndIfMqu94V", Name = "LinearSpread_UXyN8H5ad7xPndIfMqu94V")]
+    [n1.ElementAttribute(TracingId = 270246U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "UXyN8H5ad7xPndIfMqu94V", Name = "LinearSpread_UXyN8H5ad7xPndIfMqu94V")]
     [n2.SerializableAttribute]
     public class LinearSpread_UXyN8H5ad7xPndIfMqu94V : n1.VLObject, n2.IDisposable
     {
@@ -5214,14 +5214,14 @@ namespace _VL_Collections_.Collections.Spread
             return instance.__CreateDefault__();
         }
 
-        public n7.LinearSpread_UXyN8H5ad7xPndIfMqu94V Update(float Center_In, [n4.SerializedDefaultValueAttribute("1", false)] float Width_In, n32.LinearSpreadAlignment Alignment_In, float Phase_In, [n4.SerializedDefaultValueAttribute("1", false)] int Count_In, out n5.Spread<float> Output_Out)
+        public n7.LinearSpread_UXyN8H5ad7xPndIfMqu94V Update(float Center_In, [n4.SerializedDefaultValueAttribute("1", false)] float Width_In, n35.LinearSpreadAlignment Alignment_In, float Phase_In, [n4.SerializedDefaultValueAttribute("1", false)] int Count_In, out n5.Spread<float> Output_Out)
         {
             bool Force_0 = false;
             bool Dispose_Cached_Outputs_1 = false;
             var manager_2 = this.__cache_I9DWg2JO7pIMXdzYYo7c1H;
             if (manager_2 is null)
             {
-                manager_2 = new n40.Manager<n2.ValueTuple<float, float, n32.LinearSpreadAlignment, float, int>, n2.ValueTuple<n5.Spread<float>>>(n2.ValueTuple.Create(n7._Operations_.CreateDefault<float>()));
+                manager_2 = new n42.Manager<n2.ValueTuple<float, float, n35.LinearSpreadAlignment, float, int>, n2.ValueTuple<n5.Spread<float>>>(n2.ValueTuple.Create(n7._Operations_.CreateDefault<float>()));
             }
 
             var inputs_3 = (Center_In, Width_In, Alignment_In, Phase_In, Count_In);
@@ -5231,7 +5231,7 @@ namespace _VL_Collections_.Collections.Spread
             {
                 if (Dispose_Cached_Outputs_1)
                     manager_2.DisposeOutputs();
-                n29._Operations_.CreateLinearSpread(Center_In: Center_In, Width_In: Width_In, Alignment_In: Alignment_In, Phase_In: Phase_In, Count_In: Count_In, Output_Out: out n5.Spread<float> Output_7);
+                n32._Operations_.CreateLinearSpread(Center_In: Center_In, Width_In: Width_In, Alignment_In: Alignment_In, Phase_In: Phase_In, Count_In: Count_In, Output_Out: out n5.Spread<float> Output_7);
                 outputs_4 = n2.ValueTuple.Create(Output_7);
                 manager_2 = manager_2.Update(inputs_3, __GetContext__().IsImmutable, Dispose_Cached_Outputs_1, default, outputs_4);
             }
@@ -5281,8 +5281,8 @@ namespace _VL_Collections_.Collections.Spread
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 251338U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "I9DWg2JO7pIMXdzYYo7c1H", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
-        public n40.Manager<n2.ValueTuple<float, float, n32.LinearSpreadAlignment, float, int>, n2.ValueTuple<n5.Spread<float>>> __cache_I9DWg2JO7pIMXdzYYo7c1H = null;
+        [n1.ElementAttribute(TracingId = 270251U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "I9DWg2JO7pIMXdzYYo7c1H", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        public n42.Manager<n2.ValueTuple<float, float, n35.LinearSpreadAlignment, float, int>, n2.ValueTuple<n5.Spread<float>>> __cache_I9DWg2JO7pIMXdzYYo7c1H = null;
         public LinearSpread_UXyN8H5ad7xPndIfMqu94V(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
         }
@@ -5297,7 +5297,7 @@ namespace _VL_Collections_.Collections.Spread
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__cache_I9DWg2JO7pIMXdzYYo7c1H", in __cache_I9DWg2JO7pIMXdzYYo7c1H));
         }
 
-        internal LinearSpread_UXyN8H5ad7xPndIfMqu94V __WITH__(n40.Manager<n2.ValueTuple<float, float, n32.LinearSpreadAlignment, float, int>, n2.ValueTuple<n5.Spread<float>>> __cache_I9DWg2JO7pIMXdzYYo7c1H)
+        internal LinearSpread_UXyN8H5ad7xPndIfMqu94V __WITH__(n42.Manager<n2.ValueTuple<float, float, n35.LinearSpreadAlignment, float, int>, n2.ValueTuple<n5.Spread<float>>> __cache_I9DWg2JO7pIMXdzYYo7c1H)
         {
             n7.LinearSpread_UXyN8H5ad7xPndIfMqu94V that_0 = this;
             if (this.__GetContext__().IsImmutable)
@@ -5312,7 +5312,7 @@ namespace _VL_Collections_.Collections.Spread
         }
     }
 
-    [n1.ElementAttribute(TracingId = 251391U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "VtJNkGC54V8Ncx7LSXj8yA", Name = "CircleSpread_VtJNkGC54V8Ncx7LSXj8yA")]
+    [n1.ElementAttribute(TracingId = 270304U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "VtJNkGC54V8Ncx7LSXj8yA", Name = "CircleSpread_VtJNkGC54V8Ncx7LSXj8yA")]
     [n2.SerializableAttribute]
     public class CircleSpread_VtJNkGC54V8Ncx7LSXj8yA : n1.VLObject, n2.IDisposable
     {
@@ -5330,14 +5330,14 @@ namespace _VL_Collections_.Collections.Spread
             return instance.__CreateDefault__();
         }
 
-        public n7.CircleSpread_VtJNkGC54V8Ncx7LSXj8yA Update(n23.Vector2 Center_In, [n4.SerializedDefaultValueAttribute("1, 1", false)] n23.Vector2 Width_In, [n4.SerializedDefaultValueAttribute("1", false)] float Factor_In, float Phase_In, [n4.SerializedDefaultValueAttribute("1", false)] int Count_In, out n5.Spread<n23.Vector2> Output_Out)
+        public n7.CircleSpread_VtJNkGC54V8Ncx7LSXj8yA Update(n26.Vector2 Center_In, [n4.SerializedDefaultValueAttribute("1, 1", false)] n26.Vector2 Width_In, [n4.SerializedDefaultValueAttribute("1", false)] float Factor_In, float Phase_In, [n4.SerializedDefaultValueAttribute("1", false)] int Count_In, out n5.Spread<n26.Vector2> Output_Out)
         {
             bool Force_0 = false;
             bool Dispose_Cached_Outputs_1 = false;
             var manager_2 = this.__cache_HrWV8nAJBYjO4rQ8ZFBqNi;
             if (manager_2 is null)
             {
-                manager_2 = new n40.Manager<n2.ValueTuple<n23.Vector2, n23.Vector2, float, float, int>, n2.ValueTuple<n5.Spread<n23.Vector2>>>(n2.ValueTuple.Create(n7._Operations_.CreateDefault<n23.Vector2>()));
+                manager_2 = new n42.Manager<n2.ValueTuple<n26.Vector2, n26.Vector2, float, float, int>, n2.ValueTuple<n5.Spread<n26.Vector2>>>(n2.ValueTuple.Create(n7._Operations_.CreateDefault<n26.Vector2>()));
             }
 
             var inputs_3 = (Center_In, Width_In, Factor_In, Phase_In, Count_In);
@@ -5347,7 +5347,7 @@ namespace _VL_Collections_.Collections.Spread
             {
                 if (Dispose_Cached_Outputs_1)
                     manager_2.DisposeOutputs();
-                n29._Operations_.CreateCircleSpread(Center_In: Center_In, Size_In: Width_In, Factor_In: Factor_In, Phase_In: Phase_In, Count_In: Count_In, Output_Out: out n5.Spread<n23.Vector2> Output_7);
+                n32._Operations_.CreateCircleSpread(Center_In: Center_In, Size_In: Width_In, Factor_In: Factor_In, Phase_In: Phase_In, Count_In: Count_In, Output_Out: out n5.Spread<n26.Vector2> Output_7);
                 outputs_4 = n2.ValueTuple.Create(Output_7);
                 manager_2 = manager_2.Update(inputs_3, __GetContext__().IsImmutable, Dispose_Cached_Outputs_1, default, outputs_4);
             }
@@ -5397,8 +5397,8 @@ namespace _VL_Collections_.Collections.Spread
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 251394U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "HrWV8nAJBYjO4rQ8ZFBqNi", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
-        public n40.Manager<n2.ValueTuple<n23.Vector2, n23.Vector2, float, float, int>, n2.ValueTuple<n5.Spread<n23.Vector2>>> __cache_HrWV8nAJBYjO4rQ8ZFBqNi = null;
+        [n1.ElementAttribute(TracingId = 270307U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "HrWV8nAJBYjO4rQ8ZFBqNi", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        public n42.Manager<n2.ValueTuple<n26.Vector2, n26.Vector2, float, float, int>, n2.ValueTuple<n5.Spread<n26.Vector2>>> __cache_HrWV8nAJBYjO4rQ8ZFBqNi = null;
         public CircleSpread_VtJNkGC54V8Ncx7LSXj8yA(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
         }
@@ -5413,7 +5413,7 @@ namespace _VL_Collections_.Collections.Spread
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__cache_HrWV8nAJBYjO4rQ8ZFBqNi", in __cache_HrWV8nAJBYjO4rQ8ZFBqNi));
         }
 
-        internal CircleSpread_VtJNkGC54V8Ncx7LSXj8yA __WITH__(n40.Manager<n2.ValueTuple<n23.Vector2, n23.Vector2, float, float, int>, n2.ValueTuple<n5.Spread<n23.Vector2>>> __cache_HrWV8nAJBYjO4rQ8ZFBqNi)
+        internal CircleSpread_VtJNkGC54V8Ncx7LSXj8yA __WITH__(n42.Manager<n2.ValueTuple<n26.Vector2, n26.Vector2, float, float, int>, n2.ValueTuple<n5.Spread<n26.Vector2>>> __cache_HrWV8nAJBYjO4rQ8ZFBqNi)
         {
             n7.CircleSpread_VtJNkGC54V8Ncx7LSXj8yA that_0 = this;
             if (this.__GetContext__().IsImmutable)
@@ -5428,7 +5428,7 @@ namespace _VL_Collections_.Collections.Spread
         }
     }
 
-    [n1.ElementAttribute(TracingId = 251449U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "UNv4cR9YdgkPYF08xpFER9", Name = "RandomSpread_UNv4cR9YdgkPYF08xpFER9")]
+    [n1.ElementAttribute(TracingId = 270362U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "UNv4cR9YdgkPYF08xpFER9", Name = "RandomSpread_UNv4cR9YdgkPYF08xpFER9")]
     [n2.SerializableAttribute]
     public class RandomSpread_UNv4cR9YdgkPYF08xpFER9 : n1.VLObject, n2.IDisposable
     {
@@ -5453,7 +5453,7 @@ namespace _VL_Collections_.Collections.Spread
             var manager_2 = this.__cache_FVDVEtTx2gjOYUDQcyVGoJ;
             if (manager_2 is null)
             {
-                manager_2 = new n40.Manager<n2.ValueTuple<float, float, int, int>, n2.ValueTuple<n5.Spread<float>>>(n2.ValueTuple.Create(n7._Operations_.CreateDefault<float>()));
+                manager_2 = new n42.Manager<n2.ValueTuple<float, float, int, int>, n2.ValueTuple<n5.Spread<float>>>(n2.ValueTuple.Create(n7._Operations_.CreateDefault<float>()));
             }
 
             var inputs_3 = (Center_In, Width_In, Seed_In, Count_In);
@@ -5463,7 +5463,7 @@ namespace _VL_Collections_.Collections.Spread
             {
                 if (Dispose_Cached_Outputs_1)
                     manager_2.DisposeOutputs();
-                var Result_7 = n26.SpreadGenerators.RandomSpread(center: Center_In, width: Width_In, seed: Seed_In, count: Count_In);
+                var Result_7 = n25.SpreadGenerators.RandomSpread(center: Center_In, width: Width_In, seed: Seed_In, count: Count_In);
                 outputs_4 = n2.ValueTuple.Create(Result_7);
                 manager_2 = manager_2.Update(inputs_3, __GetContext__().IsImmutable, Dispose_Cached_Outputs_1, default, outputs_4);
             }
@@ -5513,8 +5513,8 @@ namespace _VL_Collections_.Collections.Spread
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 251452U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "FVDVEtTx2gjOYUDQcyVGoJ", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
-        public n40.Manager<n2.ValueTuple<float, float, int, int>, n2.ValueTuple<n5.Spread<float>>> __cache_FVDVEtTx2gjOYUDQcyVGoJ = null;
+        [n1.ElementAttribute(TracingId = 270365U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "FVDVEtTx2gjOYUDQcyVGoJ", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        public n42.Manager<n2.ValueTuple<float, float, int, int>, n2.ValueTuple<n5.Spread<float>>> __cache_FVDVEtTx2gjOYUDQcyVGoJ = null;
         public RandomSpread_UNv4cR9YdgkPYF08xpFER9(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
         }
@@ -5529,7 +5529,7 @@ namespace _VL_Collections_.Collections.Spread
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__cache_FVDVEtTx2gjOYUDQcyVGoJ", in __cache_FVDVEtTx2gjOYUDQcyVGoJ));
         }
 
-        internal RandomSpread_UNv4cR9YdgkPYF08xpFER9 __WITH__(n40.Manager<n2.ValueTuple<float, float, int, int>, n2.ValueTuple<n5.Spread<float>>> __cache_FVDVEtTx2gjOYUDQcyVGoJ)
+        internal RandomSpread_UNv4cR9YdgkPYF08xpFER9 __WITH__(n42.Manager<n2.ValueTuple<float, float, int, int>, n2.ValueTuple<n5.Spread<float>>> __cache_FVDVEtTx2gjOYUDQcyVGoJ)
         {
             n7.RandomSpread_UNv4cR9YdgkPYF08xpFER9 that_0 = this;
             if (this.__GetContext__().IsImmutable)
@@ -5544,7 +5544,7 @@ namespace _VL_Collections_.Collections.Spread
         }
     }
 
-    [n1.ElementAttribute(TracingId = 251500U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "I9bqxWe8mNLM5M2fLOR7WK", Name = "RandomSpread__2d_I9bqxWe8mNLM5M2fLOR7WK")]
+    [n1.ElementAttribute(TracingId = 270413U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "I9bqxWe8mNLM5M2fLOR7WK", Name = "RandomSpread__2d_I9bqxWe8mNLM5M2fLOR7WK")]
     [n2.SerializableAttribute]
     public class RandomSpread__2d_I9bqxWe8mNLM5M2fLOR7WK : n1.VLObject, n2.IDisposable
     {
@@ -5562,14 +5562,14 @@ namespace _VL_Collections_.Collections.Spread
             return instance.__CreateDefault__();
         }
 
-        public n7.RandomSpread__2d_I9bqxWe8mNLM5M2fLOR7WK Update(n23.Vector2 Center_In, [n4.SerializedDefaultValueAttribute("1, 1", false)] n23.Vector2 Size_In, int Seed_In, [n4.SerializedDefaultValueAttribute("1", false)] int Count_In, out n5.Spread<n23.Vector2> Output_Out)
+        public n7.RandomSpread__2d_I9bqxWe8mNLM5M2fLOR7WK Update(n26.Vector2 Center_In, [n4.SerializedDefaultValueAttribute("1, 1", false)] n26.Vector2 Size_In, int Seed_In, [n4.SerializedDefaultValueAttribute("1", false)] int Count_In, out n5.Spread<n26.Vector2> Output_Out)
         {
             bool Force_0 = false;
             bool Dispose_Cached_Outputs_1 = false;
             var manager_2 = this.__cache_DNWloS3MLPkPPtPXnV3DVP;
             if (manager_2 is null)
             {
-                manager_2 = new n40.Manager<n2.ValueTuple<n23.Vector2, n23.Vector2, int, int>, n2.ValueTuple<n5.Spread<n23.Vector2>>>(n2.ValueTuple.Create(n7._Operations_.CreateDefault<n23.Vector2>()));
+                manager_2 = new n42.Manager<n2.ValueTuple<n26.Vector2, n26.Vector2, int, int>, n2.ValueTuple<n5.Spread<n26.Vector2>>>(n2.ValueTuple.Create(n7._Operations_.CreateDefault<n26.Vector2>()));
             }
 
             var inputs_3 = (Center_In, Size_In, Seed_In, Count_In);
@@ -5579,7 +5579,7 @@ namespace _VL_Collections_.Collections.Spread
             {
                 if (Dispose_Cached_Outputs_1)
                     manager_2.DisposeOutputs();
-                n29._Operations_.CreateRandomSpread__2D(Center_In: Center_In, Size_In: Size_In, Seed_In: Seed_In, Count_In: Count_In, Output_Out: out n5.Spread<n23.Vector2> Output_7);
+                n32._Operations_.CreateRandomSpread__2D(Center_In: Center_In, Size_In: Size_In, Seed_In: Seed_In, Count_In: Count_In, Output_Out: out n5.Spread<n26.Vector2> Output_7);
                 outputs_4 = n2.ValueTuple.Create(Output_7);
                 manager_2 = manager_2.Update(inputs_3, __GetContext__().IsImmutable, Dispose_Cached_Outputs_1, default, outputs_4);
             }
@@ -5629,8 +5629,8 @@ namespace _VL_Collections_.Collections.Spread
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 251503U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "DNWloS3MLPkPPtPXnV3DVP", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
-        public n40.Manager<n2.ValueTuple<n23.Vector2, n23.Vector2, int, int>, n2.ValueTuple<n5.Spread<n23.Vector2>>> __cache_DNWloS3MLPkPPtPXnV3DVP = null;
+        [n1.ElementAttribute(TracingId = 270416U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "DNWloS3MLPkPPtPXnV3DVP", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        public n42.Manager<n2.ValueTuple<n26.Vector2, n26.Vector2, int, int>, n2.ValueTuple<n5.Spread<n26.Vector2>>> __cache_DNWloS3MLPkPPtPXnV3DVP = null;
         public RandomSpread__2d_I9bqxWe8mNLM5M2fLOR7WK(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
         }
@@ -5645,7 +5645,7 @@ namespace _VL_Collections_.Collections.Spread
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__cache_DNWloS3MLPkPPtPXnV3DVP", in __cache_DNWloS3MLPkPPtPXnV3DVP));
         }
 
-        internal RandomSpread__2d_I9bqxWe8mNLM5M2fLOR7WK __WITH__(n40.Manager<n2.ValueTuple<n23.Vector2, n23.Vector2, int, int>, n2.ValueTuple<n5.Spread<n23.Vector2>>> __cache_DNWloS3MLPkPPtPXnV3DVP)
+        internal RandomSpread__2d_I9bqxWe8mNLM5M2fLOR7WK __WITH__(n42.Manager<n2.ValueTuple<n26.Vector2, n26.Vector2, int, int>, n2.ValueTuple<n5.Spread<n26.Vector2>>> __cache_DNWloS3MLPkPPtPXnV3DVP)
         {
             n7.RandomSpread__2d_I9bqxWe8mNLM5M2fLOR7WK that_0 = this;
             if (this.__GetContext__().IsImmutable)
@@ -5660,7 +5660,7 @@ namespace _VL_Collections_.Collections.Spread
         }
     }
 
-    [n1.ElementAttribute(TracingId = 251551U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "OfbWI1PyXJBQNOMT64mrLn", Name = "RandomSpread__3d_OfbWI1PyXJBQNOMT64mrLn")]
+    [n1.ElementAttribute(TracingId = 270464U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "OfbWI1PyXJBQNOMT64mrLn", Name = "RandomSpread__3d_OfbWI1PyXJBQNOMT64mrLn")]
     [n2.SerializableAttribute]
     public class RandomSpread__3d_OfbWI1PyXJBQNOMT64mrLn : n1.VLObject, n2.IDisposable
     {
@@ -5678,14 +5678,14 @@ namespace _VL_Collections_.Collections.Spread
             return instance.__CreateDefault__();
         }
 
-        public n7.RandomSpread__3d_OfbWI1PyXJBQNOMT64mrLn Update(n23.Vector3 Center_In, [n4.SerializedDefaultValueAttribute("1, 1, 1", false)] n23.Vector3 Size_In, int Seed_In, [n4.SerializedDefaultValueAttribute("1", false)] int Count_In, out n5.Spread<n23.Vector3> Output_Out)
+        public n7.RandomSpread__3d_OfbWI1PyXJBQNOMT64mrLn Update(n26.Vector3 Center_In, [n4.SerializedDefaultValueAttribute("1, 1, 1", false)] n26.Vector3 Size_In, int Seed_In, [n4.SerializedDefaultValueAttribute("1", false)] int Count_In, out n5.Spread<n26.Vector3> Output_Out)
         {
             bool Force_0 = false;
             bool Dispose_Cached_Outputs_1 = false;
             var manager_2 = this.__cache_FQJg55cA336OPHpgciiHHr;
             if (manager_2 is null)
             {
-                manager_2 = new n40.Manager<n2.ValueTuple<n23.Vector3, n23.Vector3, int, int>, n2.ValueTuple<n5.Spread<n23.Vector3>>>(n2.ValueTuple.Create(n7._Operations_.CreateDefault<n23.Vector3>()));
+                manager_2 = new n42.Manager<n2.ValueTuple<n26.Vector3, n26.Vector3, int, int>, n2.ValueTuple<n5.Spread<n26.Vector3>>>(n2.ValueTuple.Create(n7._Operations_.CreateDefault<n26.Vector3>()));
             }
 
             var inputs_3 = (Center_In, Size_In, Seed_In, Count_In);
@@ -5695,7 +5695,7 @@ namespace _VL_Collections_.Collections.Spread
             {
                 if (Dispose_Cached_Outputs_1)
                     manager_2.DisposeOutputs();
-                n29._Operations_.CreateRandomSpread__3D(Center_In: Center_In, Size_In: Size_In, Seed_In: Seed_In, Count_In: Count_In, Output_Out: out n5.Spread<n23.Vector3> Output_7);
+                n32._Operations_.CreateRandomSpread__3D(Center_In: Center_In, Size_In: Size_In, Seed_In: Seed_In, Count_In: Count_In, Output_Out: out n5.Spread<n26.Vector3> Output_7);
                 outputs_4 = n2.ValueTuple.Create(Output_7);
                 manager_2 = manager_2.Update(inputs_3, __GetContext__().IsImmutable, Dispose_Cached_Outputs_1, default, outputs_4);
             }
@@ -5745,8 +5745,8 @@ namespace _VL_Collections_.Collections.Spread
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 251554U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "FQJg55cA336OPHpgciiHHr", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
-        public n40.Manager<n2.ValueTuple<n23.Vector3, n23.Vector3, int, int>, n2.ValueTuple<n5.Spread<n23.Vector3>>> __cache_FQJg55cA336OPHpgciiHHr = null;
+        [n1.ElementAttribute(TracingId = 270467U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "FQJg55cA336OPHpgciiHHr", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        public n42.Manager<n2.ValueTuple<n26.Vector3, n26.Vector3, int, int>, n2.ValueTuple<n5.Spread<n26.Vector3>>> __cache_FQJg55cA336OPHpgciiHHr = null;
         public RandomSpread__3d_OfbWI1PyXJBQNOMT64mrLn(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
         }
@@ -5761,7 +5761,7 @@ namespace _VL_Collections_.Collections.Spread
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__cache_FQJg55cA336OPHpgciiHHr", in __cache_FQJg55cA336OPHpgciiHHr));
         }
 
-        internal RandomSpread__3d_OfbWI1PyXJBQNOMT64mrLn __WITH__(n40.Manager<n2.ValueTuple<n23.Vector3, n23.Vector3, int, int>, n2.ValueTuple<n5.Spread<n23.Vector3>>> __cache_FQJg55cA336OPHpgciiHHr)
+        internal RandomSpread__3d_OfbWI1PyXJBQNOMT64mrLn __WITH__(n42.Manager<n2.ValueTuple<n26.Vector3, n26.Vector3, int, int>, n2.ValueTuple<n5.Spread<n26.Vector3>>> __cache_FQJg55cA336OPHpgciiHHr)
         {
             n7.RandomSpread__3d_OfbWI1PyXJBQNOMT64mrLn that_0 = this;
             if (this.__GetContext__().IsImmutable)
@@ -5776,7 +5776,7 @@ namespace _VL_Collections_.Collections.Spread
         }
     }
 
-    [n1.ElementAttribute(TracingId = 251602U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "ImHrgx8LdteMTNwaf5kKle", Name = "RectangleSpread_ImHrgx8LdteMTNwaf5kKle")]
+    [n1.ElementAttribute(TracingId = 270515U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "ImHrgx8LdteMTNwaf5kKle", Name = "RectangleSpread_ImHrgx8LdteMTNwaf5kKle")]
     [n2.SerializableAttribute]
     public class RectangleSpread_ImHrgx8LdteMTNwaf5kKle : n1.VLObject, n2.IDisposable
     {
@@ -5794,14 +5794,14 @@ namespace _VL_Collections_.Collections.Spread
             return instance.__CreateDefault__();
         }
 
-        public n7.RectangleSpread_ImHrgx8LdteMTNwaf5kKle Update(n23.Vector2 Center_In, [n4.SerializedDefaultValueAttribute("1, 1", false)] n23.Vector2 Size_In, [n4.SerializedDefaultValueAttribute("1", false)] int Subdivision_Count_In, out n5.Spread<n23.Vector2> Output_Out)
+        public n7.RectangleSpread_ImHrgx8LdteMTNwaf5kKle Update(n26.Vector2 Center_In, [n4.SerializedDefaultValueAttribute("1, 1", false)] n26.Vector2 Size_In, [n4.SerializedDefaultValueAttribute("1", false)] int Subdivision_Count_In, out n5.Spread<n26.Vector2> Output_Out)
         {
             bool Force_0 = false;
             bool Dispose_Cached_Outputs_1 = false;
             var manager_2 = this.__cache_QTKoAtSM5BMNse09FOeTeD;
             if (manager_2 is null)
             {
-                manager_2 = new n40.Manager<n2.ValueTuple<n23.Vector2, n23.Vector2, int>, n2.ValueTuple<n5.Spread<n23.Vector2>>>(n2.ValueTuple.Create(n7._Operations_.CreateDefault<n23.Vector2>()));
+                manager_2 = new n42.Manager<n2.ValueTuple<n26.Vector2, n26.Vector2, int>, n2.ValueTuple<n5.Spread<n26.Vector2>>>(n2.ValueTuple.Create(n7._Operations_.CreateDefault<n26.Vector2>()));
             }
 
             var inputs_3 = (Center_In, Size_In, Subdivision_Count_In);
@@ -5811,7 +5811,7 @@ namespace _VL_Collections_.Collections.Spread
             {
                 if (Dispose_Cached_Outputs_1)
                     manager_2.DisposeOutputs();
-                n29._Operations_.CreateRectangleSpread(Center_In: Center_In, Size_In: Size_In, Subdivision_Count_In: Subdivision_Count_In, Output_Out: out n5.Spread<n23.Vector2> Output_7);
+                n32._Operations_.CreateRectangleSpread(Center_In: Center_In, Size_In: Size_In, Subdivision_Count_In: Subdivision_Count_In, Output_Out: out n5.Spread<n26.Vector2> Output_7);
                 outputs_4 = n2.ValueTuple.Create(Output_7);
                 manager_2 = manager_2.Update(inputs_3, __GetContext__().IsImmutable, Dispose_Cached_Outputs_1, default, outputs_4);
             }
@@ -5861,8 +5861,8 @@ namespace _VL_Collections_.Collections.Spread
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 251605U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "QTKoAtSM5BMNse09FOeTeD", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
-        public n40.Manager<n2.ValueTuple<n23.Vector2, n23.Vector2, int>, n2.ValueTuple<n5.Spread<n23.Vector2>>> __cache_QTKoAtSM5BMNse09FOeTeD = null;
+        [n1.ElementAttribute(TracingId = 270518U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "QTKoAtSM5BMNse09FOeTeD", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        public n42.Manager<n2.ValueTuple<n26.Vector2, n26.Vector2, int>, n2.ValueTuple<n5.Spread<n26.Vector2>>> __cache_QTKoAtSM5BMNse09FOeTeD = null;
         public RectangleSpread_ImHrgx8LdteMTNwaf5kKle(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
         }
@@ -5877,7 +5877,7 @@ namespace _VL_Collections_.Collections.Spread
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__cache_QTKoAtSM5BMNse09FOeTeD", in __cache_QTKoAtSM5BMNse09FOeTeD));
         }
 
-        internal RectangleSpread_ImHrgx8LdteMTNwaf5kKle __WITH__(n40.Manager<n2.ValueTuple<n23.Vector2, n23.Vector2, int>, n2.ValueTuple<n5.Spread<n23.Vector2>>> __cache_QTKoAtSM5BMNse09FOeTeD)
+        internal RectangleSpread_ImHrgx8LdteMTNwaf5kKle __WITH__(n42.Manager<n2.ValueTuple<n26.Vector2, n26.Vector2, int>, n2.ValueTuple<n5.Spread<n26.Vector2>>> __cache_QTKoAtSM5BMNse09FOeTeD)
         {
             n7.RectangleSpread_ImHrgx8LdteMTNwaf5kKle that_0 = this;
             if (this.__GetContext__().IsImmutable)
@@ -5892,7 +5892,7 @@ namespace _VL_Collections_.Collections.Spread
         }
     }
 
-    [n1.ElementAttribute(TracingId = 251683U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Rmt2XaCR3RxM2abd2aMFQm", Name = "RoundRectSpread_Rmt2XaCR3RxM2abd2aMFQm")]
+    [n1.ElementAttribute(TracingId = 270559U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Rmt2XaCR3RxM2abd2aMFQm", Name = "RoundRectSpread_Rmt2XaCR3RxM2abd2aMFQm")]
     [n2.SerializableAttribute]
     public class RoundRectSpread_Rmt2XaCR3RxM2abd2aMFQm : n1.VLObject, n2.IDisposable
     {
@@ -5910,14 +5910,14 @@ namespace _VL_Collections_.Collections.Spread
             return instance.__CreateDefault__();
         }
 
-        public n7.RoundRectSpread_Rmt2XaCR3RxM2abd2aMFQm Update(n23.Vector2 Center_In, [n4.SerializedDefaultValueAttribute("1, 1", false)] n23.Vector2 Size_In, [n4.SerializedDefaultValueAttribute("1", false)] float Corner_Radius_In, [n4.SerializedDefaultValueAttribute("1", false)] int Corner_Resolution_In, [n4.SerializedDefaultValueAttribute("1", false)] int Subdivision_Count_In, out n5.Spread<n23.Vector2> Output_Out)
+        public n7.RoundRectSpread_Rmt2XaCR3RxM2abd2aMFQm Update(n26.Vector2 Center_In, [n4.SerializedDefaultValueAttribute("1, 1", false)] n26.Vector2 Size_In, [n4.SerializedDefaultValueAttribute("1", false)] float Corner_Radius_In, [n4.SerializedDefaultValueAttribute("1", false)] int Corner_Resolution_In, [n4.SerializedDefaultValueAttribute("1", false)] int Subdivision_Count_In, out n5.Spread<n26.Vector2> Output_Out)
         {
             bool Force_0 = false;
             bool Dispose_Cached_Outputs_1 = false;
             var manager_2 = this.__cache_BFqanpebIzmOy5mnRxEe3E;
             if (manager_2 is null)
             {
-                manager_2 = new n40.Manager<n2.ValueTuple<n23.Vector2, n23.Vector2, float, int, int>, n2.ValueTuple<n5.Spread<n23.Vector2>>>(n2.ValueTuple.Create(n7._Operations_.CreateDefault<n23.Vector2>()));
+                manager_2 = new n42.Manager<n2.ValueTuple<n26.Vector2, n26.Vector2, float, int, int>, n2.ValueTuple<n5.Spread<n26.Vector2>>>(n2.ValueTuple.Create(n7._Operations_.CreateDefault<n26.Vector2>()));
             }
 
             var inputs_3 = (Center_In, Size_In, Corner_Radius_In, Corner_Resolution_In, Subdivision_Count_In);
@@ -5927,7 +5927,7 @@ namespace _VL_Collections_.Collections.Spread
             {
                 if (Dispose_Cached_Outputs_1)
                     manager_2.DisposeOutputs();
-                n29._Operations_.CreateRoundRectSpread(Center_In: Center_In, Size_In: Size_In, Corner_Radius_In: Corner_Radius_In, Corner_Resolution_In: Corner_Resolution_In, Subdivision_Count_In: Subdivision_Count_In, Output_Out: out n5.Spread<n23.Vector2> Output_7);
+                n32._Operations_.CreateRoundRectSpread(Center_In: Center_In, Size_In: Size_In, Corner_Radius_In: Corner_Radius_In, Corner_Resolution_In: Corner_Resolution_In, Subdivision_Count_In: Subdivision_Count_In, Output_Out: out n5.Spread<n26.Vector2> Output_7);
                 outputs_4 = n2.ValueTuple.Create(Output_7);
                 manager_2 = manager_2.Update(inputs_3, __GetContext__().IsImmutable, Dispose_Cached_Outputs_1, default, outputs_4);
             }
@@ -5977,8 +5977,8 @@ namespace _VL_Collections_.Collections.Spread
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 251686U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "BFqanpebIzmOy5mnRxEe3E", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
-        public n40.Manager<n2.ValueTuple<n23.Vector2, n23.Vector2, float, int, int>, n2.ValueTuple<n5.Spread<n23.Vector2>>> __cache_BFqanpebIzmOy5mnRxEe3E = null;
+        [n1.ElementAttribute(TracingId = 270562U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "BFqanpebIzmOy5mnRxEe3E", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        public n42.Manager<n2.ValueTuple<n26.Vector2, n26.Vector2, float, int, int>, n2.ValueTuple<n5.Spread<n26.Vector2>>> __cache_BFqanpebIzmOy5mnRxEe3E = null;
         public RoundRectSpread_Rmt2XaCR3RxM2abd2aMFQm(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
         }
@@ -5993,7 +5993,7 @@ namespace _VL_Collections_.Collections.Spread
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__cache_BFqanpebIzmOy5mnRxEe3E", in __cache_BFqanpebIzmOy5mnRxEe3E));
         }
 
-        internal RoundRectSpread_Rmt2XaCR3RxM2abd2aMFQm __WITH__(n40.Manager<n2.ValueTuple<n23.Vector2, n23.Vector2, float, int, int>, n2.ValueTuple<n5.Spread<n23.Vector2>>> __cache_BFqanpebIzmOy5mnRxEe3E)
+        internal RoundRectSpread_Rmt2XaCR3RxM2abd2aMFQm __WITH__(n42.Manager<n2.ValueTuple<n26.Vector2, n26.Vector2, float, int, int>, n2.ValueTuple<n5.Spread<n26.Vector2>>> __cache_BFqanpebIzmOy5mnRxEe3E)
         {
             n7.RoundRectSpread_Rmt2XaCR3RxM2abd2aMFQm that_0 = this;
             if (this.__GetContext__().IsImmutable)
@@ -6008,7 +6008,7 @@ namespace _VL_Collections_.Collections.Spread
         }
     }
 
-    [n1.ElementAttribute(TracingId = 251804U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "ITJBOIsA5GyN2o4e0Az4vv", Name = "SpiralSpread_ITJBOIsA5GyN2o4e0Az4vv")]
+    [n1.ElementAttribute(TracingId = 270617U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "ITJBOIsA5GyN2o4e0Az4vv", Name = "SpiralSpread_ITJBOIsA5GyN2o4e0Az4vv")]
     [n2.SerializableAttribute]
     public class SpiralSpread_ITJBOIsA5GyN2o4e0Az4vv : n1.VLObject, n2.IDisposable
     {
@@ -6026,14 +6026,14 @@ namespace _VL_Collections_.Collections.Spread
             return instance.__CreateDefault__();
         }
 
-        public n7.SpiralSpread_ITJBOIsA5GyN2o4e0Az4vv Update(n23.Vector2 Center_In, [n4.SerializedDefaultValueAttribute("1, 1", false)] n23.Vector2 Size_In, [n4.SerializedDefaultValueAttribute("1", false)] float Factor_In, float Phase_In, [n4.SerializedDefaultValueAttribute("1", false)] int Count_In, out n5.Spread<n23.Vector2> Output_Out)
+        public n7.SpiralSpread_ITJBOIsA5GyN2o4e0Az4vv Update(n26.Vector2 Center_In, [n4.SerializedDefaultValueAttribute("1, 1", false)] n26.Vector2 Size_In, [n4.SerializedDefaultValueAttribute("1", false)] float Factor_In, float Phase_In, [n4.SerializedDefaultValueAttribute("1", false)] int Count_In, out n5.Spread<n26.Vector2> Output_Out)
         {
             bool Force_0 = false;
             bool Dispose_Cached_Outputs_1 = false;
             var manager_2 = this.__cache_IkZeMJ8X7GGNnqlE8wR34R;
             if (manager_2 is null)
             {
-                manager_2 = new n40.Manager<n2.ValueTuple<n23.Vector2, n23.Vector2, float, float, int>, n2.ValueTuple<n5.Spread<n23.Vector2>>>(n2.ValueTuple.Create(n7._Operations_.CreateDefault<n23.Vector2>()));
+                manager_2 = new n42.Manager<n2.ValueTuple<n26.Vector2, n26.Vector2, float, float, int>, n2.ValueTuple<n5.Spread<n26.Vector2>>>(n2.ValueTuple.Create(n7._Operations_.CreateDefault<n26.Vector2>()));
             }
 
             var inputs_3 = (Center_In, Size_In, Factor_In, Phase_In, Count_In);
@@ -6043,7 +6043,7 @@ namespace _VL_Collections_.Collections.Spread
             {
                 if (Dispose_Cached_Outputs_1)
                     manager_2.DisposeOutputs();
-                n29._Operations_.CreateSpiralSpread(Center_In: Center_In, Size_In: Size_In, Factor_In: Factor_In, Phase_In: Phase_In, Count_In: Count_In, Output_Out: out n5.Spread<n23.Vector2> Output_7);
+                n32._Operations_.CreateSpiralSpread(Center_In: Center_In, Size_In: Size_In, Factor_In: Factor_In, Phase_In: Phase_In, Count_In: Count_In, Output_Out: out n5.Spread<n26.Vector2> Output_7);
                 outputs_4 = n2.ValueTuple.Create(Output_7);
                 manager_2 = manager_2.Update(inputs_3, __GetContext__().IsImmutable, Dispose_Cached_Outputs_1, default, outputs_4);
             }
@@ -6093,8 +6093,8 @@ namespace _VL_Collections_.Collections.Spread
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 251809U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "IkZeMJ8X7GGNnqlE8wR34R", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
-        public n40.Manager<n2.ValueTuple<n23.Vector2, n23.Vector2, float, float, int>, n2.ValueTuple<n5.Spread<n23.Vector2>>> __cache_IkZeMJ8X7GGNnqlE8wR34R = null;
+        [n1.ElementAttribute(TracingId = 270620U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "IkZeMJ8X7GGNnqlE8wR34R", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        public n42.Manager<n2.ValueTuple<n26.Vector2, n26.Vector2, float, float, int>, n2.ValueTuple<n5.Spread<n26.Vector2>>> __cache_IkZeMJ8X7GGNnqlE8wR34R = null;
         public SpiralSpread_ITJBOIsA5GyN2o4e0Az4vv(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
         }
@@ -6109,7 +6109,7 @@ namespace _VL_Collections_.Collections.Spread
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__cache_IkZeMJ8X7GGNnqlE8wR34R", in __cache_IkZeMJ8X7GGNnqlE8wR34R));
         }
 
-        internal SpiralSpread_ITJBOIsA5GyN2o4e0Az4vv __WITH__(n40.Manager<n2.ValueTuple<n23.Vector2, n23.Vector2, float, float, int>, n2.ValueTuple<n5.Spread<n23.Vector2>>> __cache_IkZeMJ8X7GGNnqlE8wR34R)
+        internal SpiralSpread_ITJBOIsA5GyN2o4e0Az4vv __WITH__(n42.Manager<n2.ValueTuple<n26.Vector2, n26.Vector2, float, float, int>, n2.ValueTuple<n5.Spread<n26.Vector2>>> __cache_IkZeMJ8X7GGNnqlE8wR34R)
         {
             n7.SpiralSpread_ITJBOIsA5GyN2o4e0Az4vv that_0 = this;
             if (this.__GetContext__().IsImmutable)
@@ -6124,7 +6124,7 @@ namespace _VL_Collections_.Collections.Spread
         }
     }
 
-    [n1.ElementAttribute(TracingId = 251935U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "FAIbH9p5d7oOdhJHCXhJTA", Name = "StarSpread_FAIbH9p5d7oOdhJHCXhJTA")]
+    [n1.ElementAttribute(TracingId = 270675U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "FAIbH9p5d7oOdhJHCXhJTA", Name = "StarSpread_FAIbH9p5d7oOdhJHCXhJTA")]
     [n2.SerializableAttribute]
     public class StarSpread_FAIbH9p5d7oOdhJHCXhJTA : n1.VLObject, n2.IDisposable
     {
@@ -6142,14 +6142,14 @@ namespace _VL_Collections_.Collections.Spread
             return instance.__CreateDefault__();
         }
 
-        public n7.StarSpread_FAIbH9p5d7oOdhJHCXhJTA Update(n23.Vector2 Center_In, [n4.SerializedDefaultValueAttribute("0.25", false)] float Radius_1_In, [n4.SerializedDefaultValueAttribute("0.5", false)] float Radius_2_In, float Phase_In, [n4.SerializedDefaultValueAttribute("3", false)] int Spike_Count_In, out n5.Spread<n23.Vector2> Output_Out)
+        public n7.StarSpread_FAIbH9p5d7oOdhJHCXhJTA Update(n26.Vector2 Center_In, [n4.SerializedDefaultValueAttribute("0.25", false)] float Radius_1_In, [n4.SerializedDefaultValueAttribute("0.5", false)] float Radius_2_In, float Phase_In, [n4.SerializedDefaultValueAttribute("3", false)] int Spike_Count_In, out n5.Spread<n26.Vector2> Output_Out)
         {
             bool Force_0 = false;
             bool Dispose_Cached_Outputs_1 = false;
             var manager_2 = this.__cache_TpEDQOjlEitLGXeaMztKhQ;
             if (manager_2 is null)
             {
-                manager_2 = new n40.Manager<n2.ValueTuple<n23.Vector2, float, float, float, int>, n2.ValueTuple<n5.Spread<n23.Vector2>>>(n2.ValueTuple.Create(n7._Operations_.CreateDefault<n23.Vector2>()));
+                manager_2 = new n42.Manager<n2.ValueTuple<n26.Vector2, float, float, float, int>, n2.ValueTuple<n5.Spread<n26.Vector2>>>(n2.ValueTuple.Create(n7._Operations_.CreateDefault<n26.Vector2>()));
             }
 
             var inputs_3 = (Center_In, Radius_1_In, Radius_2_In, Phase_In, Spike_Count_In);
@@ -6159,7 +6159,7 @@ namespace _VL_Collections_.Collections.Spread
             {
                 if (Dispose_Cached_Outputs_1)
                     manager_2.DisposeOutputs();
-                n29._Operations_.CreateStarSpread(Center_In: Center_In, Radius_1_In: Radius_1_In, Radius_2_In: Radius_2_In, Phase_In: Phase_In, Spike_Count_In: Spike_Count_In, Output_Out: out n5.Spread<n23.Vector2> Output_7);
+                n32._Operations_.CreateStarSpread(Center_In: Center_In, Radius_1_In: Radius_1_In, Radius_2_In: Radius_2_In, Phase_In: Phase_In, Spike_Count_In: Spike_Count_In, Output_Out: out n5.Spread<n26.Vector2> Output_7);
                 outputs_4 = n2.ValueTuple.Create(Output_7);
                 manager_2 = manager_2.Update(inputs_3, __GetContext__().IsImmutable, Dispose_Cached_Outputs_1, default, outputs_4);
             }
@@ -6209,8 +6209,8 @@ namespace _VL_Collections_.Collections.Spread
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 251938U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "TpEDQOjlEitLGXeaMztKhQ", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
-        public n40.Manager<n2.ValueTuple<n23.Vector2, float, float, float, int>, n2.ValueTuple<n5.Spread<n23.Vector2>>> __cache_TpEDQOjlEitLGXeaMztKhQ = null;
+        [n1.ElementAttribute(TracingId = 270678U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "TpEDQOjlEitLGXeaMztKhQ", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        public n42.Manager<n2.ValueTuple<n26.Vector2, float, float, float, int>, n2.ValueTuple<n5.Spread<n26.Vector2>>> __cache_TpEDQOjlEitLGXeaMztKhQ = null;
         public StarSpread_FAIbH9p5d7oOdhJHCXhJTA(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
         }
@@ -6225,7 +6225,7 @@ namespace _VL_Collections_.Collections.Spread
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__cache_TpEDQOjlEitLGXeaMztKhQ", in __cache_TpEDQOjlEitLGXeaMztKhQ));
         }
 
-        internal StarSpread_FAIbH9p5d7oOdhJHCXhJTA __WITH__(n40.Manager<n2.ValueTuple<n23.Vector2, float, float, float, int>, n2.ValueTuple<n5.Spread<n23.Vector2>>> __cache_TpEDQOjlEitLGXeaMztKhQ)
+        internal StarSpread_FAIbH9p5d7oOdhJHCXhJTA __WITH__(n42.Manager<n2.ValueTuple<n26.Vector2, float, float, float, int>, n2.ValueTuple<n5.Spread<n26.Vector2>>> __cache_TpEDQOjlEitLGXeaMztKhQ)
         {
             n7.StarSpread_FAIbH9p5d7oOdhJHCXhJTA that_0 = this;
             if (this.__GetContext__().IsImmutable)
@@ -6240,7 +6240,7 @@ namespace _VL_Collections_.Collections.Spread
         }
     }
 
-    [n1.ElementAttribute(TracingId = 252064U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Dsg6LDbSTKKNmL4xybMFXh", Name = "Queue_Dsg6LDbSTKKNmL4xybMFXh")]
+    [n1.ElementAttribute(TracingId = 270733U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Dsg6LDbSTKKNmL4xybMFXh", Name = "Queue_Dsg6LDbSTKKNmL4xybMFXh")]
     [n2.SerializableAttribute]
     public class Queue_Dsg6LDbSTKKNmL4xybMFXh<T> : n1.VLObject, n2.IDisposable
     {
@@ -6265,10 +6265,10 @@ namespace _VL_Collections_.Collections.Spread
             var Output_2 = __auto_0;
             if (Insert_In)
             {
-                n22._Operations_.Insert<T>(Input_In: __auto_0, Index_In: Index_1, Item_In: Input_In, Output_Out: out Output_2);
+                n24._Operations_.Insert<T>(Input_In: __auto_0, Index_In: Index_1, Item_In: Input_In, Output_Out: out Output_2);
             }
 
-            n22._Operations_.Count<T>(Input_In: Output_2, Output_Out: out n5.SpreadBuilder<T> Output_3, Count_Out: out int Count_4);
+            n24._Operations_.Count<T>(Input_In: Output_2, Output_Out: out n5.SpreadBuilder<T> Output_3, Count_Out: out int Count_4);
             int Input_2_5 = 0;
             var Result_6 = Frame_Count_In >= Input_2_5;
             n5.SpreadBuilder<T> __auto_7;
@@ -6279,7 +6279,7 @@ namespace _VL_Collections_.Collections.Spread
                 n13._Operations_.Max<int, n12.__AdaptiveImplementations__CsYvmiCXzFgMbCg5YvFjkW>(Input_In: Output_9, Input_2_In: Input_2_10, Output_Out: out int Output_11);
                 n13._Operations_.Min<int, n12.__AdaptiveImplementations__CsYvmiCXzFgMbCg5YvFjkW>(Input_In: Output_11, Input_2_In: Count_4, Output_Out: out int Output_12);
                 var Output_13 = Count_4 - Output_12;
-                n22._Operations_.RemoveRange<T>(Input_In: Output_3, Index_In: Output_13, Count_In: Output_12, Output_Out: out n5.SpreadBuilder<T> Output_14);
+                n24._Operations_.RemoveRange<T>(Input_In: Output_3, Index_In: Output_13, Count_In: Output_12, Output_Out: out n5.SpreadBuilder<T> Output_14);
                 __auto_7 = Output_14;
             }
             else
@@ -6290,10 +6290,10 @@ namespace _VL_Collections_.Collections.Spread
             var Output_15 = __auto_7;
             if (Clear_In)
             {
-                n22._Operations_.Clear<T>(Input_In: __auto_7, Output_Out: out Output_15);
+                n24._Operations_.Clear<T>(Input_In: __auto_7, Output_Out: out Output_15);
             }
 
-            n22._Operations_.ToSpread<T>(Input_In: Output_15, Output_Out: out n5.SpreadBuilder<T> Output_16, Result_Out: out n5.Spread<T> Result_17);
+            n24._Operations_.ToSpread<T>(Input_In: Output_15, Output_Out: out n5.SpreadBuilder<T> Output_16, Result_Out: out n5.Spread<T> Result_17);
             Output_Out = Result_17;
             return this;
         }
@@ -6302,14 +6302,14 @@ namespace _VL_Collections_.Collections.Spread
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
             n7.Queue_Dsg6LDbSTKKNmL4xybMFXh<T> that_0 = this;
-            this.Data = n22._Operations_.CreateDefault<T>();
+            this.Data = n24._Operations_.CreateDefault<T>();
             return that_0;
         }
 
         public n7.Queue_Dsg6LDbSTKKNmL4xybMFXh<T> __CreateDefault__()
         {
             n7.Queue_Dsg6LDbSTKKNmL4xybMFXh<T> that_0 = this;
-            this.Data = n22._Operations_.CreateDefault<T>();
+            this.Data = n24._Operations_.CreateDefault<T>();
             return that_0;
         }
 
@@ -6324,7 +6324,7 @@ namespace _VL_Collections_.Collections.Spread
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 252089U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "G5GNYT1waQRNsY5F2C5qHW", Name = "Data")]
+        [n1.ElementAttribute(TracingId = 270743U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "G5GNYT1waQRNsY5F2C5qHW", Name = "Data")]
         public n5.SpreadBuilder<T> Data;
         public Queue_Dsg6LDbSTKKNmL4xybMFXh(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -6355,13 +6355,13 @@ namespace _VL_Collections_.Collections.Spread
         }
     }
 
-    [n1.ElementAttribute(TracingId = 252620U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "QKHJtW5MfCeOm2LyKhYalN", Name = "Sort_FormerIndex_QKHJtW5MfCeOm2LyKhYalN")]
+    [n1.ElementAttribute(TracingId = 270951U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "QKHJtW5MfCeOm2LyKhYalN", Name = "Sort_FormerIndex_QKHJtW5MfCeOm2LyKhYalN")]
     [n2.SerializableAttribute]
     public class Sort_FormerIndex_QKHJtW5MfCeOm2LyKhYalN<T> : n1.VLObject, n2.IDisposable
     {
         [n4.CreateNewAttribute]
         public static n7.Sort_FormerIndex_QKHJtW5MfCeOm2LyKhYalN<T> Create<AdM>(n1.NodeContext Node_Context)
-            where AdM : struct, n19.IAdaptiveCreateDefault<n6.KeyValuePair<T, int>>, n19.IAdaptiveCreateDefault<T>
+            where AdM : struct, n18.IAdaptiveCreateDefault<n6.KeyValuePair<T, int>>, n18.IAdaptiveCreateDefault<T>
         {
             var instance = new Sort_FormerIndex_QKHJtW5MfCeOm2LyKhYalN<T>(Node_Context, n1.VLObject.NewIdentity());
             return instance.__Create__<AdM>(Node_Context);
@@ -6369,7 +6369,7 @@ namespace _VL_Collections_.Collections.Spread
 
         [n4.CreateDefaultAttribute]
         public static n7.Sort_FormerIndex_QKHJtW5MfCeOm2LyKhYalN<T> CreateDefault<AdM>()
-            where AdM : struct, n19.IAdaptiveCreateDefault<n6.KeyValuePair<T, int>>, n19.IAdaptiveCreateDefault<T>
+            where AdM : struct, n18.IAdaptiveCreateDefault<n6.KeyValuePair<T, int>>, n18.IAdaptiveCreateDefault<T>
         {
             var instance = new Sort_FormerIndex_QKHJtW5MfCeOm2LyKhYalN<T>(n1.NodeContext.Default, n1.VLObject.NewIdentity());
             return instance.__CreateDefault__<AdM>();
@@ -6382,7 +6382,7 @@ namespace _VL_Collections_.Collections.Spread
             n2.Func<n6.KeyValuePair<T, int>, T> __pad_KP5iYWj7kpuQZyhFySAk1m_1 = this.__slot_KP5iYWj7kpuQZyhFySAk1m;
             n6.IEnumerable<T> Input_2 = (n6.IEnumerable<T>)Input_In;
             n8._Operations_.Select<T, n6.KeyValuePair<T, int>>(Input_In: Input_2, Transformer_In: __pad_U7siay3b3OvQM8GU7e3mJ5_0, Output_Out: out n6.IEnumerable<n6.KeyValuePair<T, int>> Output_3);
-            n8._Operations_.OrderBy<n6.KeyValuePair<T, int>, T>(Input_In: Output_3, Key_Selector_In: __pad_KP5iYWj7kpuQZyhFySAk1m_1, Result_Out: out n36.IOrderedEnumerable<n6.KeyValuePair<T, int>> Result_4);
+            n8._Operations_.OrderBy<n6.KeyValuePair<T, int>, T>(Input_In: Output_3, Key_Selector_In: __pad_KP5iYWj7kpuQZyhFySAk1m_1, Result_Out: out n39.IOrderedEnumerable<n6.KeyValuePair<T, int>> Result_4);
             var builder_12 = n4.CollectionBuilders.GetBuilder(this.__cp_TQzgZZtcOpNMKh0kEZnhj8, 16);
             n5.Spread<T> output_13;
             var builder_14 = n4.CollectionBuilders.GetBuilder(this.__cp_I35RqWsXXGyNOM3ybEi2Lk, 16);
@@ -6422,7 +6422,7 @@ namespace _VL_Collections_.Collections.Spread
         }
 
         public n7.Sort_FormerIndex_QKHJtW5MfCeOm2LyKhYalN<T> __Create__<AdM>(n1.NodeContext Node_Context)
-            where AdM : struct, n19.IAdaptiveCreateDefault<n6.KeyValuePair<T, int>>, n19.IAdaptiveCreateDefault<T>
+            where AdM : struct, n18.IAdaptiveCreateDefault<n6.KeyValuePair<T, int>>, n18.IAdaptiveCreateDefault<T>
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
             var w_0 = default(AdM);
@@ -6454,12 +6454,12 @@ namespace _VL_Collections_.Collections.Spread
         }
 
         public n7.Sort_FormerIndex_QKHJtW5MfCeOm2LyKhYalN<T> __CreateDefault__<AdM>()
-            where AdM : struct, n19.IAdaptiveCreateDefault<n6.KeyValuePair<T, int>>, n19.IAdaptiveCreateDefault<T>
+            where AdM : struct, n18.IAdaptiveCreateDefault<n6.KeyValuePair<T, int>>, n18.IAdaptiveCreateDefault<T>
         {
             var w_0 = default(AdM);
             n7.Sort_FormerIndex_QKHJtW5MfCeOm2LyKhYalN<T> that_1 = this;
             this.__slot_KP5iYWj7kpuQZyhFySAk1m = n17._Operations_.CreateDefault<n6.KeyValuePair<T, int>, T, AdM>();
-            this.__slot_U7siay3b3OvQM8GU7e3mJ5 = n45._Operations_.CreateDefault<T, int, n6.KeyValuePair<T, int>, AdM>();
+            this.__slot_U7siay3b3OvQM8GU7e3mJ5 = n47._Operations_.CreateDefault<T, int, n6.KeyValuePair<T, int>, AdM>();
             this.__cp_TQzgZZtcOpNMKh0kEZnhj8 = n7._Operations_.CreateDefault<T>();
             this.__cp_I35RqWsXXGyNOM3ybEi2Lk = n7._Operations_.CreateDefault<int>();
             return that_1;
@@ -6476,9 +6476,9 @@ namespace _VL_Collections_.Collections.Spread
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 252723U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "KP5iYWj7kpuQZyhFySAk1m", Name = "__slot_KP5iYWj7kpuQZyhFySAk1m")]
+        [n1.ElementAttribute(TracingId = 270984U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "KP5iYWj7kpuQZyhFySAk1m", Name = "__slot_KP5iYWj7kpuQZyhFySAk1m")]
         public n2.Func<n6.KeyValuePair<T, int>, T> __slot_KP5iYWj7kpuQZyhFySAk1m;
-        [n1.ElementAttribute(TracingId = 252767U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "U7siay3b3OvQM8GU7e3mJ5", Name = "__slot_U7siay3b3OvQM8GU7e3mJ5")]
+        [n1.ElementAttribute(TracingId = 271002U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "U7siay3b3OvQM8GU7e3mJ5", Name = "__slot_U7siay3b3OvQM8GU7e3mJ5")]
         public n2.Func<T, int, n6.KeyValuePair<T, int>> __slot_U7siay3b3OvQM8GU7e3mJ5;
         [n1.ElementAttribute(IsAutoGenerated = true)]
         public n5.Spread<T> __cp_TQzgZZtcOpNMKh0kEZnhj8;
@@ -6519,13 +6519,13 @@ namespace _VL_Collections_.Collections.Spread
         }
     }
 
-    [n1.ElementAttribute(TracingId = 252826U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "EkN5CW1bEzkOKLlmTrikpv", Name = "SortDescending_FormerIndex_EkN5CW1bEzkOKLlmTrikpv")]
+    [n1.ElementAttribute(TracingId = 271036U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "EkN5CW1bEzkOKLlmTrikpv", Name = "SortDescending_FormerIndex_EkN5CW1bEzkOKLlmTrikpv")]
     [n2.SerializableAttribute]
     public class SortDescending_FormerIndex_EkN5CW1bEzkOKLlmTrikpv<T> : n1.VLObject, n2.IDisposable
     {
         [n4.CreateNewAttribute]
         public static n7.SortDescending_FormerIndex_EkN5CW1bEzkOKLlmTrikpv<T> Create<AdM>(n1.NodeContext Node_Context)
-            where AdM : struct, n19.IAdaptiveCreateDefault<n6.KeyValuePair<T, int>>, n19.IAdaptiveCreateDefault<T>
+            where AdM : struct, n18.IAdaptiveCreateDefault<n6.KeyValuePair<T, int>>, n18.IAdaptiveCreateDefault<T>
         {
             var instance = new SortDescending_FormerIndex_EkN5CW1bEzkOKLlmTrikpv<T>(Node_Context, n1.VLObject.NewIdentity());
             return instance.__Create__<AdM>(Node_Context);
@@ -6533,7 +6533,7 @@ namespace _VL_Collections_.Collections.Spread
 
         [n4.CreateDefaultAttribute]
         public static n7.SortDescending_FormerIndex_EkN5CW1bEzkOKLlmTrikpv<T> CreateDefault<AdM>()
-            where AdM : struct, n19.IAdaptiveCreateDefault<n6.KeyValuePair<T, int>>, n19.IAdaptiveCreateDefault<T>
+            where AdM : struct, n18.IAdaptiveCreateDefault<n6.KeyValuePair<T, int>>, n18.IAdaptiveCreateDefault<T>
         {
             var instance = new SortDescending_FormerIndex_EkN5CW1bEzkOKLlmTrikpv<T>(n1.NodeContext.Default, n1.VLObject.NewIdentity());
             return instance.__CreateDefault__<AdM>();
@@ -6546,7 +6546,7 @@ namespace _VL_Collections_.Collections.Spread
             n2.Func<n6.KeyValuePair<T, int>, T> __pad_QDcjzz2xMSCNa6arMulu19_1 = this.__slot_QDcjzz2xMSCNa6arMulu19;
             n6.IEnumerable<T> Input_2 = (n6.IEnumerable<T>)Input_In;
             n8._Operations_.Select<T, n6.KeyValuePair<T, int>>(Input_In: Input_2, Transformer_In: __pad_EZNu6IAbhlgMbzZeKEdCNF_0, Output_Out: out n6.IEnumerable<n6.KeyValuePair<T, int>> Output_3);
-            n8._Operations_.OrderByDescending<n6.KeyValuePair<T, int>, T>(Input_In: Output_3, Key_Selector_In: __pad_QDcjzz2xMSCNa6arMulu19_1, Result_Out: out n36.IOrderedEnumerable<n6.KeyValuePair<T, int>> Result_4);
+            n8._Operations_.OrderByDescending<n6.KeyValuePair<T, int>, T>(Input_In: Output_3, Key_Selector_In: __pad_QDcjzz2xMSCNa6arMulu19_1, Result_Out: out n39.IOrderedEnumerable<n6.KeyValuePair<T, int>> Result_4);
             var builder_12 = n4.CollectionBuilders.GetBuilder(this.__cp_ATPK9A4iDCUMdqQujZnlgK, 16);
             n5.Spread<T> output_13;
             var builder_14 = n4.CollectionBuilders.GetBuilder(this.__cp_UEyPtNTYBoBLXEM2BM7xtc, 16);
@@ -6586,7 +6586,7 @@ namespace _VL_Collections_.Collections.Spread
         }
 
         public n7.SortDescending_FormerIndex_EkN5CW1bEzkOKLlmTrikpv<T> __Create__<AdM>(n1.NodeContext Node_Context)
-            where AdM : struct, n19.IAdaptiveCreateDefault<n6.KeyValuePair<T, int>>, n19.IAdaptiveCreateDefault<T>
+            where AdM : struct, n18.IAdaptiveCreateDefault<n6.KeyValuePair<T, int>>, n18.IAdaptiveCreateDefault<T>
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
             var w_0 = default(AdM);
@@ -6618,12 +6618,12 @@ namespace _VL_Collections_.Collections.Spread
         }
 
         public n7.SortDescending_FormerIndex_EkN5CW1bEzkOKLlmTrikpv<T> __CreateDefault__<AdM>()
-            where AdM : struct, n19.IAdaptiveCreateDefault<n6.KeyValuePair<T, int>>, n19.IAdaptiveCreateDefault<T>
+            where AdM : struct, n18.IAdaptiveCreateDefault<n6.KeyValuePair<T, int>>, n18.IAdaptiveCreateDefault<T>
         {
             var w_0 = default(AdM);
             n7.SortDescending_FormerIndex_EkN5CW1bEzkOKLlmTrikpv<T> that_1 = this;
             this.__slot_QDcjzz2xMSCNa6arMulu19 = n17._Operations_.CreateDefault<n6.KeyValuePair<T, int>, T, AdM>();
-            this.__slot_EZNu6IAbhlgMbzZeKEdCNF = n45._Operations_.CreateDefault<T, int, n6.KeyValuePair<T, int>, AdM>();
+            this.__slot_EZNu6IAbhlgMbzZeKEdCNF = n47._Operations_.CreateDefault<T, int, n6.KeyValuePair<T, int>, AdM>();
             this.__cp_ATPK9A4iDCUMdqQujZnlgK = n7._Operations_.CreateDefault<T>();
             this.__cp_UEyPtNTYBoBLXEM2BM7xtc = n7._Operations_.CreateDefault<int>();
             return that_1;
@@ -6640,9 +6640,9 @@ namespace _VL_Collections_.Collections.Spread
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 252893U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "QDcjzz2xMSCNa6arMulu19", Name = "__slot_QDcjzz2xMSCNa6arMulu19")]
+        [n1.ElementAttribute(TracingId = 271069U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "QDcjzz2xMSCNa6arMulu19", Name = "__slot_QDcjzz2xMSCNa6arMulu19")]
         public n2.Func<n6.KeyValuePair<T, int>, T> __slot_QDcjzz2xMSCNa6arMulu19;
-        [n1.ElementAttribute(TracingId = 252921U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "EZNu6IAbhlgMbzZeKEdCNF", Name = "__slot_EZNu6IAbhlgMbzZeKEdCNF")]
+        [n1.ElementAttribute(TracingId = 271087U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "EZNu6IAbhlgMbzZeKEdCNF", Name = "__slot_EZNu6IAbhlgMbzZeKEdCNF")]
         public n2.Func<T, int, n6.KeyValuePair<T, int>> __slot_EZNu6IAbhlgMbzZeKEdCNF;
         [n1.ElementAttribute(IsAutoGenerated = true)]
         public n5.Spread<T> __cp_ATPK9A4iDCUMdqQujZnlgK;
@@ -6683,13 +6683,13 @@ namespace _VL_Collections_.Collections.Spread
         }
     }
 
-    [n1.ElementAttribute(TracingId = 252973U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "SNAab9r0y7NPAcJeyZyvid", Name = "OrderBy_FormerIndex_SNAab9r0y7NPAcJeyZyvid")]
+    [n1.ElementAttribute(TracingId = 271121U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "SNAab9r0y7NPAcJeyZyvid", Name = "OrderBy_FormerIndex_SNAab9r0y7NPAcJeyZyvid")]
     [n2.SerializableAttribute]
     public class OrderBy_FormerIndex_SNAab9r0y7NPAcJeyZyvid<T> : n1.VLObject, n2.IDisposable
     {
         [n4.CreateNewAttribute]
         public static n7.OrderBy_FormerIndex_SNAab9r0y7NPAcJeyZyvid<T> Create<AdM>(n1.NodeContext Node_Context)
-            where AdM : struct, n19.IAdaptiveCreateDefault<n6.KeyValuePair<T, int>>
+            where AdM : struct, n18.IAdaptiveCreateDefault<n6.KeyValuePair<T, int>>
         {
             var instance = new OrderBy_FormerIndex_SNAab9r0y7NPAcJeyZyvid<T>(Node_Context, n1.VLObject.NewIdentity());
             return instance.__Create__<AdM>(Node_Context);
@@ -6697,7 +6697,7 @@ namespace _VL_Collections_.Collections.Spread
 
         [n4.CreateDefaultAttribute]
         public static n7.OrderBy_FormerIndex_SNAab9r0y7NPAcJeyZyvid<T> CreateDefault<AdM>()
-            where AdM : struct, n19.IAdaptiveCreateDefault<n6.KeyValuePair<T, int>>
+            where AdM : struct, n18.IAdaptiveCreateDefault<n6.KeyValuePair<T, int>>
         {
             var instance = new OrderBy_FormerIndex_SNAab9r0y7NPAcJeyZyvid<T>(n1.NodeContext.Default, n1.VLObject.NewIdentity());
             return instance.__CreateDefault__<AdM>();
@@ -6718,7 +6718,7 @@ namespace _VL_Collections_.Collections.Spread
                 return Result_7;
             }
 
-            , Result_Out: out n36.IOrderedEnumerable<n6.KeyValuePair<T, int>> Result_8);
+            , Result_Out: out n39.IOrderedEnumerable<n6.KeyValuePair<T, int>> Result_8);
             var builder_16 = n4.CollectionBuilders.GetBuilder(this.__cp_MQ0ZmrG8y3TOIFJ3KCySFH, 16);
             n5.Spread<T> output_17;
             var builder_18 = n4.CollectionBuilders.GetBuilder(this.__cp_IICPHALlv9EQWmetmlTvSz, 16);
@@ -6763,7 +6763,7 @@ namespace _VL_Collections_.Collections.Spread
         }
 
         public n7.OrderBy_FormerIndex_SNAab9r0y7NPAcJeyZyvid<T> __Create__<AdM>(n1.NodeContext Node_Context)
-            where AdM : struct, n19.IAdaptiveCreateDefault<n6.KeyValuePair<T, int>>
+            where AdM : struct, n18.IAdaptiveCreateDefault<n6.KeyValuePair<T, int>>
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
             var w_0 = default(AdM);
@@ -6785,11 +6785,11 @@ namespace _VL_Collections_.Collections.Spread
         }
 
         public n7.OrderBy_FormerIndex_SNAab9r0y7NPAcJeyZyvid<T> __CreateDefault__<AdM>()
-            where AdM : struct, n19.IAdaptiveCreateDefault<n6.KeyValuePair<T, int>>
+            where AdM : struct, n18.IAdaptiveCreateDefault<n6.KeyValuePair<T, int>>
         {
             var w_0 = default(AdM);
             n7.OrderBy_FormerIndex_SNAab9r0y7NPAcJeyZyvid<T> that_1 = this;
-            this.__slot_UiZPCvswE9YOcgmqJPT811 = n45._Operations_.CreateDefault<T, int, n6.KeyValuePair<T, int>, AdM>();
+            this.__slot_UiZPCvswE9YOcgmqJPT811 = n47._Operations_.CreateDefault<T, int, n6.KeyValuePair<T, int>, AdM>();
             this.__cp_MQ0ZmrG8y3TOIFJ3KCySFH = n7._Operations_.CreateDefault<T>();
             this.__cp_IICPHALlv9EQWmetmlTvSz = n7._Operations_.CreateDefault<int>();
             return that_1;
@@ -6806,7 +6806,7 @@ namespace _VL_Collections_.Collections.Spread
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 253036U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "UiZPCvswE9YOcgmqJPT811", Name = "__slot_UiZPCvswE9YOcgmqJPT811")]
+        [n1.ElementAttribute(TracingId = 271158U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "UiZPCvswE9YOcgmqJPT811", Name = "__slot_UiZPCvswE9YOcgmqJPT811")]
         public n2.Func<T, int, n6.KeyValuePair<T, int>> __slot_UiZPCvswE9YOcgmqJPT811;
         [n1.ElementAttribute(IsAutoGenerated = true)]
         public n5.Spread<T> __cp_MQ0ZmrG8y3TOIFJ3KCySFH;
@@ -6845,13 +6845,13 @@ namespace _VL_Collections_.Collections.Spread
         }
     }
 
-    [n1.ElementAttribute(TracingId = 253129U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "RU0h3y9oSF9Nmb7djv4eij", Name = "OrderByDescending_FormerIndex_RU0h3y9oSF9Nmb7djv4eij")]
+    [n1.ElementAttribute(TracingId = 271212U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "RU0h3y9oSF9Nmb7djv4eij", Name = "OrderByDescending_FormerIndex_RU0h3y9oSF9Nmb7djv4eij")]
     [n2.SerializableAttribute]
     public class OrderByDescending_FormerIndex_RU0h3y9oSF9Nmb7djv4eij<T> : n1.VLObject, n2.IDisposable
     {
         [n4.CreateNewAttribute]
         public static n7.OrderByDescending_FormerIndex_RU0h3y9oSF9Nmb7djv4eij<T> Create<AdM>(n1.NodeContext Node_Context)
-            where AdM : struct, n19.IAdaptiveCreateDefault<n6.KeyValuePair<T, int>>
+            where AdM : struct, n18.IAdaptiveCreateDefault<n6.KeyValuePair<T, int>>
         {
             var instance = new OrderByDescending_FormerIndex_RU0h3y9oSF9Nmb7djv4eij<T>(Node_Context, n1.VLObject.NewIdentity());
             return instance.__Create__<AdM>(Node_Context);
@@ -6859,7 +6859,7 @@ namespace _VL_Collections_.Collections.Spread
 
         [n4.CreateDefaultAttribute]
         public static n7.OrderByDescending_FormerIndex_RU0h3y9oSF9Nmb7djv4eij<T> CreateDefault<AdM>()
-            where AdM : struct, n19.IAdaptiveCreateDefault<n6.KeyValuePair<T, int>>
+            where AdM : struct, n18.IAdaptiveCreateDefault<n6.KeyValuePair<T, int>>
         {
             var instance = new OrderByDescending_FormerIndex_RU0h3y9oSF9Nmb7djv4eij<T>(n1.NodeContext.Default, n1.VLObject.NewIdentity());
             return instance.__CreateDefault__<AdM>();
@@ -6880,7 +6880,7 @@ namespace _VL_Collections_.Collections.Spread
                 return Result_7;
             }
 
-            , Result_Out: out n36.IOrderedEnumerable<n6.KeyValuePair<T, int>> Result_8);
+            , Result_Out: out n39.IOrderedEnumerable<n6.KeyValuePair<T, int>> Result_8);
             var builder_16 = n4.CollectionBuilders.GetBuilder(this.__cp_OyrnaRLxzB7NhsRvSWRr5b, 16);
             n5.Spread<T> output_17;
             var builder_18 = n4.CollectionBuilders.GetBuilder(this.__cp_PdeEqNStY7EQYP7vXbwXWI, 16);
@@ -6925,7 +6925,7 @@ namespace _VL_Collections_.Collections.Spread
         }
 
         public n7.OrderByDescending_FormerIndex_RU0h3y9oSF9Nmb7djv4eij<T> __Create__<AdM>(n1.NodeContext Node_Context)
-            where AdM : struct, n19.IAdaptiveCreateDefault<n6.KeyValuePair<T, int>>
+            where AdM : struct, n18.IAdaptiveCreateDefault<n6.KeyValuePair<T, int>>
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
             var w_0 = default(AdM);
@@ -6947,11 +6947,11 @@ namespace _VL_Collections_.Collections.Spread
         }
 
         public n7.OrderByDescending_FormerIndex_RU0h3y9oSF9Nmb7djv4eij<T> __CreateDefault__<AdM>()
-            where AdM : struct, n19.IAdaptiveCreateDefault<n6.KeyValuePair<T, int>>
+            where AdM : struct, n18.IAdaptiveCreateDefault<n6.KeyValuePair<T, int>>
         {
             var w_0 = default(AdM);
             n7.OrderByDescending_FormerIndex_RU0h3y9oSF9Nmb7djv4eij<T> that_1 = this;
-            this.__slot_M2prkoJmOmCPLw8RacKhZu = n45._Operations_.CreateDefault<T, int, n6.KeyValuePair<T, int>, AdM>();
+            this.__slot_M2prkoJmOmCPLw8RacKhZu = n47._Operations_.CreateDefault<T, int, n6.KeyValuePair<T, int>, AdM>();
             this.__cp_OyrnaRLxzB7NhsRvSWRr5b = n7._Operations_.CreateDefault<T>();
             this.__cp_PdeEqNStY7EQYP7vXbwXWI = n7._Operations_.CreateDefault<int>();
             return that_1;
@@ -6968,7 +6968,7 @@ namespace _VL_Collections_.Collections.Spread
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 253198U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "M2prkoJmOmCPLw8RacKhZu", Name = "__slot_M2prkoJmOmCPLw8RacKhZu")]
+        [n1.ElementAttribute(TracingId = 271249U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "M2prkoJmOmCPLw8RacKhZu", Name = "__slot_M2prkoJmOmCPLw8RacKhZu")]
         public n2.Func<T, int, n6.KeyValuePair<T, int>> __slot_M2prkoJmOmCPLw8RacKhZu;
         [n1.ElementAttribute(IsAutoGenerated = true)]
         public n5.Spread<T> __cp_OyrnaRLxzB7NhsRvSWRr5b;
@@ -7007,7 +7007,7 @@ namespace _VL_Collections_.Collections.Spread
         }
     }
 
-    [n1.ElementAttribute(TracingId = 253288U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "O6Ex8Ha7b3gM1UF4tcByx6", Name = "ResamplePoint_O6Ex8Ha7b3gM1UF4tcByx6")]
+    [n1.ElementAttribute(TracingId = 271303U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "O6Ex8Ha7b3gM1UF4tcByx6", Name = "ResamplePoint_O6Ex8Ha7b3gM1UF4tcByx6")]
     [n2.SerializableAttribute]
     public class ResamplePoint_O6Ex8Ha7b3gM1UF4tcByx6<T2, T> : n1.VLObject, n2.IDisposable where T2 : n6.IReadOnlyList<T>
     {
@@ -7026,7 +7026,7 @@ namespace _VL_Collections_.Collections.Spread
         }
 
         public n7.ResamplePoint_O6Ex8Ha7b3gM1UF4tcByx6<T2, T> Update<AdM>(T2 Input_In, [n4.SerializedDefaultValueAttribute("1", false)] int Count_In, out n5.Spread<T> Output_Out, out n5.Spread<float> Interval_Out)
-            where AdM : struct, n19.IAdaptiveCreateDefault<T>
+            where AdM : struct, n18.IAdaptiveCreateDefault<T>
         {
             var w_0 = default(AdM);
             bool Force_1 = false;
@@ -7034,7 +7034,7 @@ namespace _VL_Collections_.Collections.Spread
             var manager_3 = this.__cache_GL92Pd5MuiLP4pZxYqrgNk;
             if (manager_3 is null)
             {
-                manager_3 = new n40.Manager<n2.ValueTuple<T2, int>, n2.ValueTuple<n5.Spread<T>, n5.Spread<float>>>((n7._Operations_.CreateDefault<T>(), n7._Operations_.CreateDefault<float>()));
+                manager_3 = new n42.Manager<n2.ValueTuple<T2, int>, n2.ValueTuple<n5.Spread<T>, n5.Spread<float>>>((n7._Operations_.CreateDefault<T>(), n7._Operations_.CreateDefault<float>()));
             }
 
             var inputs_4 = (Input_In, Count_In);
@@ -7140,8 +7140,8 @@ namespace _VL_Collections_.Collections.Spread
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 253294U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "GL92Pd5MuiLP4pZxYqrgNk", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
-        public n40.Manager<n2.ValueTuple<T2, int>, n2.ValueTuple<n5.Spread<T>, n5.Spread<float>>> __cache_GL92Pd5MuiLP4pZxYqrgNk = null;
+        [n1.ElementAttribute(TracingId = 271309U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "GL92Pd5MuiLP4pZxYqrgNk", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        public n42.Manager<n2.ValueTuple<T2, int>, n2.ValueTuple<n5.Spread<T>, n5.Spread<float>>> __cache_GL92Pd5MuiLP4pZxYqrgNk = null;
         public ResamplePoint_O6Ex8Ha7b3gM1UF4tcByx6(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
         }
@@ -7156,7 +7156,7 @@ namespace _VL_Collections_.Collections.Spread
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__cache_GL92Pd5MuiLP4pZxYqrgNk", in __cache_GL92Pd5MuiLP4pZxYqrgNk));
         }
 
-        internal ResamplePoint_O6Ex8Ha7b3gM1UF4tcByx6<T2, T> __WITH__(n40.Manager<n2.ValueTuple<T2, int>, n2.ValueTuple<n5.Spread<T>, n5.Spread<float>>> __cache_GL92Pd5MuiLP4pZxYqrgNk)
+        internal ResamplePoint_O6Ex8Ha7b3gM1UF4tcByx6<T2, T> __WITH__(n42.Manager<n2.ValueTuple<T2, int>, n2.ValueTuple<n5.Spread<T>, n5.Spread<float>>> __cache_GL92Pd5MuiLP4pZxYqrgNk)
         {
             n7.ResamplePoint_O6Ex8Ha7b3gM1UF4tcByx6<T2, T> that_0 = this;
             if (this.__GetContext__().IsImmutable)
@@ -7215,7 +7215,7 @@ namespace _VL_Collections_.Collections.Spread
         }
     }
 
-    [n1.ElementAttribute(TracingId = 253417U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "T6XZTYHFIwEPcS5iC1aCi4", Name = "ResampleLinear_T6XZTYHFIwEPcS5iC1aCi4")]
+    [n1.ElementAttribute(TracingId = 271384U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "T6XZTYHFIwEPcS5iC1aCi4", Name = "ResampleLinear_T6XZTYHFIwEPcS5iC1aCi4")]
     [n2.SerializableAttribute]
     public class ResampleLinear_T6XZTYHFIwEPcS5iC1aCi4<T2, T> : n1.VLObject, n2.IDisposable where T2 : n6.IReadOnlyList<T>
     {
@@ -7234,7 +7234,7 @@ namespace _VL_Collections_.Collections.Spread
         }
 
         public n7.ResampleLinear_T6XZTYHFIwEPcS5iC1aCi4<T2, T> Update<AdM>(T2 Input_In, [n4.SerializedDefaultValueAttribute("1", false)] int Count_In, out n5.Spread<T> Output_Out, out n5.Spread<float> Interval_Out)
-            where AdM : struct, n18.IAdaptiveLerp<T>, n19.IAdaptiveCreateDefault<T>
+            where AdM : struct, n18.IAdaptiveCreateDefault<T>, n19.IAdaptiveLerp<T>
         {
             var w_0 = default(AdM);
             bool Force_1 = false;
@@ -7242,7 +7242,7 @@ namespace _VL_Collections_.Collections.Spread
             var manager_3 = this.__cache_QXdoT3E2BodLrMIPgXo1Yf;
             if (manager_3 is null)
             {
-                manager_3 = new n40.Manager<n2.ValueTuple<T2, int>, n2.ValueTuple<n5.Spread<T>, n5.Spread<float>>>((n7._Operations_.CreateDefault<T>(), n7._Operations_.CreateDefault<float>()));
+                manager_3 = new n42.Manager<n2.ValueTuple<T2, int>, n2.ValueTuple<n5.Spread<T>, n5.Spread<float>>>((n7._Operations_.CreateDefault<T>(), n7._Operations_.CreateDefault<float>()));
             }
 
             var inputs_4 = (Input_In, Count_In);
@@ -7376,8 +7376,8 @@ namespace _VL_Collections_.Collections.Spread
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 253429U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "QXdoT3E2BodLrMIPgXo1Yf", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
-        public n40.Manager<n2.ValueTuple<T2, int>, n2.ValueTuple<n5.Spread<T>, n5.Spread<float>>> __cache_QXdoT3E2BodLrMIPgXo1Yf = null;
+        [n1.ElementAttribute(TracingId = 271391U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "QXdoT3E2BodLrMIPgXo1Yf", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        public n42.Manager<n2.ValueTuple<T2, int>, n2.ValueTuple<n5.Spread<T>, n5.Spread<float>>> __cache_QXdoT3E2BodLrMIPgXo1Yf = null;
         public ResampleLinear_T6XZTYHFIwEPcS5iC1aCi4(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
         }
@@ -7392,7 +7392,7 @@ namespace _VL_Collections_.Collections.Spread
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__cache_QXdoT3E2BodLrMIPgXo1Yf", in __cache_QXdoT3E2BodLrMIPgXo1Yf));
         }
 
-        internal ResampleLinear_T6XZTYHFIwEPcS5iC1aCi4<T2, T> __WITH__(n40.Manager<n2.ValueTuple<T2, int>, n2.ValueTuple<n5.Spread<T>, n5.Spread<float>>> __cache_QXdoT3E2BodLrMIPgXo1Yf)
+        internal ResampleLinear_T6XZTYHFIwEPcS5iC1aCi4<T2, T> __WITH__(n42.Manager<n2.ValueTuple<T2, int>, n2.ValueTuple<n5.Spread<T>, n5.Spread<float>>> __cache_QXdoT3E2BodLrMIPgXo1Yf)
         {
             n7.ResampleLinear_T6XZTYHFIwEPcS5iC1aCi4<T2, T> that_0 = this;
             if (this.__GetContext__().IsImmutable)
@@ -7451,7 +7451,7 @@ namespace _VL_Collections_.Collections.Spread
         }
     }
 
-    [n1.ElementAttribute(TracingId = 253592U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "HcOO13xjH07QObifcX5etq", Name = "ResampleRepeat_HcOO13xjH07QObifcX5etq")]
+    [n1.ElementAttribute(TracingId = 271495U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "HcOO13xjH07QObifcX5etq", Name = "ResampleRepeat_HcOO13xjH07QObifcX5etq")]
     [n2.SerializableAttribute]
     public class ResampleRepeat_HcOO13xjH07QObifcX5etq<T2, T> : n1.VLObject, n2.IDisposable where T2 : n6.IReadOnlyList<T>
     {
@@ -7470,7 +7470,7 @@ namespace _VL_Collections_.Collections.Spread
         }
 
         public n7.ResampleRepeat_HcOO13xjH07QObifcX5etq<T2, T> Update<AdM>(T2 Input_In, [n4.SerializedDefaultValueAttribute("1", false)] int Count_In, out n5.Spread<T> Output_Out, out n5.Spread<float> Interval_Out)
-            where AdM : struct, n19.IAdaptiveCreateDefault<T>
+            where AdM : struct, n18.IAdaptiveCreateDefault<T>
         {
             var w_0 = default(AdM);
             bool Force_1 = false;
@@ -7478,7 +7478,7 @@ namespace _VL_Collections_.Collections.Spread
             var manager_3 = this.__cache_BW6WMMU5g9RMTy9N3DzNRc;
             if (manager_3 is null)
             {
-                manager_3 = new n40.Manager<n2.ValueTuple<int, T2>, n2.ValueTuple<n5.Spread<T>, n5.Spread<float>>>((n7._Operations_.CreateDefault<T>(), n7._Operations_.CreateDefault<float>()));
+                manager_3 = new n42.Manager<n2.ValueTuple<int, T2>, n2.ValueTuple<n5.Spread<T>, n5.Spread<float>>>((n7._Operations_.CreateDefault<T>(), n7._Operations_.CreateDefault<float>()));
             }
 
             var inputs_4 = (Count_In, Input_In);
@@ -7582,8 +7582,8 @@ namespace _VL_Collections_.Collections.Spread
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 253606U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "BW6WMMU5g9RMTy9N3DzNRc", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
-        public n40.Manager<n2.ValueTuple<int, T2>, n2.ValueTuple<n5.Spread<T>, n5.Spread<float>>> __cache_BW6WMMU5g9RMTy9N3DzNRc = null;
+        [n1.ElementAttribute(TracingId = 271502U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "BW6WMMU5g9RMTy9N3DzNRc", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        public n42.Manager<n2.ValueTuple<int, T2>, n2.ValueTuple<n5.Spread<T>, n5.Spread<float>>> __cache_BW6WMMU5g9RMTy9N3DzNRc = null;
         public ResampleRepeat_HcOO13xjH07QObifcX5etq(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
         }
@@ -7598,7 +7598,7 @@ namespace _VL_Collections_.Collections.Spread
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__cache_BW6WMMU5g9RMTy9N3DzNRc", in __cache_BW6WMMU5g9RMTy9N3DzNRc));
         }
 
-        internal ResampleRepeat_HcOO13xjH07QObifcX5etq<T2, T> __WITH__(n40.Manager<n2.ValueTuple<int, T2>, n2.ValueTuple<n5.Spread<T>, n5.Spread<float>>> __cache_BW6WMMU5g9RMTy9N3DzNRc)
+        internal ResampleRepeat_HcOO13xjH07QObifcX5etq<T2, T> __WITH__(n42.Manager<n2.ValueTuple<int, T2>, n2.ValueTuple<n5.Spread<T>, n5.Spread<float>>> __cache_BW6WMMU5g9RMTy9N3DzNRc)
         {
             n7.ResampleRepeat_HcOO13xjH07QObifcX5etq<T2, T> that_0 = this;
             if (this.__GetContext__().IsImmutable)
@@ -7657,7 +7657,7 @@ namespace _VL_Collections_.Collections.Spread
         }
     }
 
-    [n1.ElementAttribute(TracingId = 254891U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Oyxv30P5EeJOlRy2CvOyJW", Name = "ResampleBSpline_Oyxv30P5EeJOlRy2CvOyJW")]
+    [n1.ElementAttribute(TracingId = 272196U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Oyxv30P5EeJOlRy2CvOyJW", Name = "ResampleBSpline_Oyxv30P5EeJOlRy2CvOyJW")]
     [n2.SerializableAttribute]
     public class ResampleBSpline_Oyxv30P5EeJOlRy2CvOyJW<T6, T> : n1.VLObject, n2.IDisposable where T6 : n6.IReadOnlyList<T>
     {
@@ -7676,7 +7676,7 @@ namespace _VL_Collections_.Collections.Spread
         }
 
         public n7.ResampleBSpline_Oyxv30P5EeJOlRy2CvOyJW<T6, T> Update<AdM>(T6 Input_In, bool Close_In, [n4.SerializedDefaultValueAttribute("1", false)] int Count_In, out n5.Spread<T> Output_Out, out n5.Spread<float> Interval_Out)
-            where AdM : struct, n18.IAdaptiveOperatorPlus<T>, n18.IAdaptiveOperatorMulitply_Scale<T>, n18.IAdaptiveOperatorDivide_Scale<T>, n19.IAdaptiveCreateDefault<T>, n18.IAdaptiveOperatorMinus<T>
+            where AdM : struct, n19.IAdaptiveOperatorMinus<T>, n18.IAdaptiveCreateDefault<T>, n19.IAdaptiveOperatorMulitply_Scale<T>, n19.IAdaptiveOperatorPlus<T>, n19.IAdaptiveOperatorDivide_Scale<T>
         {
             var w_0 = default(AdM);
             bool Force_1 = false;
@@ -7684,7 +7684,7 @@ namespace _VL_Collections_.Collections.Spread
             var manager_3 = this.__cache_OQs6pID1l5bQdHz7VVFLMy;
             if (manager_3 is null)
             {
-                manager_3 = new n40.Manager<n2.ValueTuple<T6, int, bool>, n2.ValueTuple<n5.Spread<float>, n5.Spread<T>>>((n7._Operations_.CreateDefault<float>(), n7._Operations_.CreateDefault<T>()));
+                manager_3 = new n42.Manager<n2.ValueTuple<T6, int, bool>, n2.ValueTuple<n5.Spread<float>, n5.Spread<T>>>((n7._Operations_.CreateDefault<float>(), n7._Operations_.CreateDefault<T>()));
             }
 
             var inputs_4 = (Input_In, Count_In, Close_In);
@@ -7769,7 +7769,7 @@ namespace _VL_Collections_.Collections.Spread
                         }
 
                         n16._Operations_.GetSlice<T>(Input_In: Input_24, Default_Value_In: Output_43, Index_In: Output_45, Result_Out: out T Result_46);
-                        n49._Operations_.BSplineCubic<T, AdM>(Control_1_In: Result_36, Control_2_In: Result_38, Control_3_In: Result_42, Control_4_In: Result_46, Range_In: Fractional_Part_31, Position_Out: out T Position_47);
+                        n48._Operations_.BSplineCubic<T, AdM>(Control_1_In: Result_36, Control_2_In: Result_38, Control_3_In: Result_42, Control_4_In: Result_46, Range_In: Fractional_Part_31, Position_Out: out T Position_47);
                         builder_48.Add(Output_29);
                         builder_50.Add(Position_47);
                     }
@@ -7839,8 +7839,8 @@ namespace _VL_Collections_.Collections.Spread
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 254902U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "OQs6pID1l5bQdHz7VVFLMy", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
-        public n40.Manager<n2.ValueTuple<T6, int, bool>, n2.ValueTuple<n5.Spread<float>, n5.Spread<T>>> __cache_OQs6pID1l5bQdHz7VVFLMy = null;
+        [n1.ElementAttribute(TracingId = 272204U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "OQs6pID1l5bQdHz7VVFLMy", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        public n42.Manager<n2.ValueTuple<T6, int, bool>, n2.ValueTuple<n5.Spread<float>, n5.Spread<T>>> __cache_OQs6pID1l5bQdHz7VVFLMy = null;
         public ResampleBSpline_Oyxv30P5EeJOlRy2CvOyJW(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
         }
@@ -7855,7 +7855,7 @@ namespace _VL_Collections_.Collections.Spread
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__cache_OQs6pID1l5bQdHz7VVFLMy", in __cache_OQs6pID1l5bQdHz7VVFLMy));
         }
 
-        internal ResampleBSpline_Oyxv30P5EeJOlRy2CvOyJW<T6, T> __WITH__(n40.Manager<n2.ValueTuple<T6, int, bool>, n2.ValueTuple<n5.Spread<float>, n5.Spread<T>>> __cache_OQs6pID1l5bQdHz7VVFLMy)
+        internal ResampleBSpline_Oyxv30P5EeJOlRy2CvOyJW<T6, T> __WITH__(n42.Manager<n2.ValueTuple<T6, int, bool>, n2.ValueTuple<n5.Spread<float>, n5.Spread<T>>> __cache_OQs6pID1l5bQdHz7VVFLMy)
         {
             n7.ResampleBSpline_Oyxv30P5EeJOlRy2CvOyJW<T6, T> that_0 = this;
             if (this.__GetContext__().IsImmutable)
@@ -7914,7 +7914,7 @@ namespace _VL_Collections_.Collections.Spread
         }
     }
 
-    [n1.ElementAttribute(TracingId = 255187U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "FoeSgW0bZ2tMOSGpSQqnoF", Name = "ResampleBSpline_Tangent_FoeSgW0bZ2tMOSGpSQqnoF")]
+    [n1.ElementAttribute(TracingId = 272368U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "FoeSgW0bZ2tMOSGpSQqnoF", Name = "ResampleBSpline_Tangent_FoeSgW0bZ2tMOSGpSQqnoF")]
     [n2.SerializableAttribute]
     public class ResampleBSpline_Tangent_FoeSgW0bZ2tMOSGpSQqnoF<T2, T> : n1.VLObject, n2.IDisposable where T2 : n6.IReadOnlyList<T>
     {
@@ -7933,7 +7933,7 @@ namespace _VL_Collections_.Collections.Spread
         }
 
         public n7.ResampleBSpline_Tangent_FoeSgW0bZ2tMOSGpSQqnoF<T2, T> Update<AdM>(T2 Input_In, bool Close_In, [n4.SerializedDefaultValueAttribute("1", false)] int Count_In, out n5.Spread<T> Output_Out, out n5.Spread<T> Tangent_Out, out n5.Spread<float> Interval_Out)
-            where AdM : struct, n18.IAdaptiveOperatorPlus<T>, n18.IAdaptiveOperatorMulitply_Scale<T>, n18.IAdaptiveOperatorDivide_Scale<T>, n19.IAdaptiveCreateDefault<T>, n18.IAdaptiveOperatorMinus<T>
+            where AdM : struct, n19.IAdaptiveOperatorMinus<T>, n18.IAdaptiveCreateDefault<T>, n19.IAdaptiveOperatorMulitply_Scale<T>, n19.IAdaptiveOperatorPlus<T>, n19.IAdaptiveOperatorDivide_Scale<T>
         {
             var w_0 = default(AdM);
             n6.IReadOnlyList<T> Input_1 = (n6.IReadOnlyList<T>)Input_In;
@@ -7945,7 +7945,7 @@ namespace _VL_Collections_.Collections.Spread
             var manager_7 = this.__cache_FxdQDv3AkFrOu4oqr2Au3g;
             if (manager_7 is null)
             {
-                manager_7 = new n40.Manager<n2.ValueTuple<T2, int, bool>, n2.ValueTuple<n5.Spread<float>, n5.Spread<T>, n5.Spread<T>>>((n7._Operations_.CreateDefault<float>(), n7._Operations_.CreateDefault<T>(), n7._Operations_.CreateDefault<T>()));
+                manager_7 = new n42.Manager<n2.ValueTuple<T2, int, bool>, n2.ValueTuple<n5.Spread<float>, n5.Spread<T>, n5.Spread<T>>>((n7._Operations_.CreateDefault<float>(), n7._Operations_.CreateDefault<T>(), n7._Operations_.CreateDefault<T>()));
             }
 
             var inputs_8 = (Input_In, Count_In, Close_In);
@@ -8028,7 +8028,7 @@ namespace _VL_Collections_.Collections.Spread
                         }
 
                         n16._Operations_.GetSlice<T>(Input_In: Input_4, Default_Value_In: Output_43, Index_In: Output_45, Result_Out: out T Result_46);
-                        n49._Operations_.BSplineCubic<T, AdM>(Control_1_In: Result_36, Control_2_In: Result_38, Control_3_In: Result_42, Control_4_In: Result_46, Range_In: Fractional_Part_31, Position_Out: out T Position_47, Tangent_Out: out T Tangent_48);
+                        n48._Operations_.BSplineCubic<T, AdM>(Control_1_In: Result_36, Control_2_In: Result_38, Control_3_In: Result_42, Control_4_In: Result_46, Range_In: Fractional_Part_31, Position_Out: out T Position_47, Tangent_Out: out T Tangent_48);
                         builder_49.Add(Output_29);
                         builder_51.Add(Position_47);
                         builder_53.Add(Tangent_48);
@@ -8102,8 +8102,8 @@ namespace _VL_Collections_.Collections.Spread
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 255202U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "FxdQDv3AkFrOu4oqr2Au3g", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
-        public n40.Manager<n2.ValueTuple<T2, int, bool>, n2.ValueTuple<n5.Spread<float>, n5.Spread<T>, n5.Spread<T>>> __cache_FxdQDv3AkFrOu4oqr2Au3g = null;
+        [n1.ElementAttribute(TracingId = 272378U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "FxdQDv3AkFrOu4oqr2Au3g", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        public n42.Manager<n2.ValueTuple<T2, int, bool>, n2.ValueTuple<n5.Spread<float>, n5.Spread<T>, n5.Spread<T>>> __cache_FxdQDv3AkFrOu4oqr2Au3g = null;
         public ResampleBSpline_Tangent_FoeSgW0bZ2tMOSGpSQqnoF(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
         }
@@ -8118,7 +8118,7 @@ namespace _VL_Collections_.Collections.Spread
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__cache_FxdQDv3AkFrOu4oqr2Au3g", in __cache_FxdQDv3AkFrOu4oqr2Au3g));
         }
 
-        internal ResampleBSpline_Tangent_FoeSgW0bZ2tMOSGpSQqnoF<T2, T> __WITH__(n40.Manager<n2.ValueTuple<T2, int, bool>, n2.ValueTuple<n5.Spread<float>, n5.Spread<T>, n5.Spread<T>>> __cache_FxdQDv3AkFrOu4oqr2Au3g)
+        internal ResampleBSpline_Tangent_FoeSgW0bZ2tMOSGpSQqnoF<T2, T> __WITH__(n42.Manager<n2.ValueTuple<T2, int, bool>, n2.ValueTuple<n5.Spread<float>, n5.Spread<T>, n5.Spread<T>>> __cache_FxdQDv3AkFrOu4oqr2Au3g)
         {
             n7.ResampleBSpline_Tangent_FoeSgW0bZ2tMOSGpSQqnoF<T2, T> that_0 = this;
             if (this.__GetContext__().IsImmutable)
@@ -8181,7 +8181,7 @@ namespace _VL_Collections_.Collections.Spread
         }
     }
 
-    [n1.ElementAttribute(TracingId = 255573U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "E3rKHEXR5BEOguuIPaowVl", Name = "ResampleHermite_E3rKHEXR5BEOguuIPaowVl")]
+    [n1.ElementAttribute(TracingId = 272547U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "E3rKHEXR5BEOguuIPaowVl", Name = "ResampleHermite_E3rKHEXR5BEOguuIPaowVl")]
     [n2.SerializableAttribute]
     public class ResampleHermite_E3rKHEXR5BEOguuIPaowVl<T> : n1.VLObject, n2.IDisposable
     {
@@ -8200,7 +8200,7 @@ namespace _VL_Collections_.Collections.Spread
         }
 
         public n7.ResampleHermite_E3rKHEXR5BEOguuIPaowVl<T> Update<T4, AdM>(T4 Input_In, float Tension_In, float Bias_In, [n4.SerializedDefaultValueAttribute("1", false)] int Count_In, out n5.Spread<T> Output_Out, out n5.Spread<float> Interval_Out)
-            where T4 : n6.IReadOnlyList<T> where AdM : struct, n19.IAdaptiveCreateDefault<T>, n64.IAdaptiveHermite2<T>
+            where T4 : n6.IReadOnlyList<T> where AdM : struct, n18.IAdaptiveCreateDefault<T>, n49.IAdaptiveHermite2<T>
         {
             var w_0 = default(AdM);
             var Output_3 = this.__p_KAzmPWNzA6BNrKqHwn1V5E.Update<T4>(Value_In: Input_In, Result_Out: out bool Result_1, Unchanged_Out: out bool Unchanged_2);
@@ -8209,7 +8209,7 @@ namespace _VL_Collections_.Collections.Spread
             var manager_6 = this.__cache_HJlJUys9sGOLDkqJ6v97d9;
             if (manager_6 is null)
             {
-                manager_6 = new n40.Manager<n2.ValueTuple<int, float, float>, n2.ValueTuple<n5.Spread<T>, n5.Spread<float>>>((n7._Operations_.CreateDefault<T>(), n7._Operations_.CreateDefault<float>()));
+                manager_6 = new n42.Manager<n2.ValueTuple<int, float, float>, n2.ValueTuple<n5.Spread<T>, n5.Spread<float>>>((n7._Operations_.CreateDefault<T>(), n7._Operations_.CreateDefault<float>()));
             }
 
             var inputs_7 = (Count_In, Tension_In, Bias_In);
@@ -8360,7 +8360,7 @@ namespace _VL_Collections_.Collections.Spread
         public n7.ResampleHermite_E3rKHEXR5BEOguuIPaowVl<T> __Create__(n1.NodeContext Node_Context)
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "KAzmPWNzA6BNrKqHwn1V5E", 256611U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "KAzmPWNzA6BNrKqHwn1V5E", 272946U);
             var Output_1 = n3.SequenceChanged_EAvS1XXezCmL7nXpFVvQcX<T>.Create(Node_Context: Node_Context_0);
             n7.ResampleHermite_E3rKHEXR5BEOguuIPaowVl<T> that_2 = this;
             this.__p_KAzmPWNzA6BNrKqHwn1V5E = Output_1;
@@ -8389,10 +8389,10 @@ namespace _VL_Collections_.Collections.Spread
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 256611U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "KAzmPWNzA6BNrKqHwn1V5E", Name = "SequenceChanged", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 272946U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "KAzmPWNzA6BNrKqHwn1V5E", Name = "SequenceChanged", IsManaged = true, IsAutoGenerated = true)]
         public n3.SequenceChanged_EAvS1XXezCmL7nXpFVvQcX<T> __p_KAzmPWNzA6BNrKqHwn1V5E;
-        [n1.ElementAttribute(TracingId = 255589U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "HJlJUys9sGOLDkqJ6v97d9", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
-        public n40.Manager<n2.ValueTuple<int, float, float>, n2.ValueTuple<n5.Spread<T>, n5.Spread<float>>> __cache_HJlJUys9sGOLDkqJ6v97d9 = null;
+        [n1.ElementAttribute(TracingId = 272554U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "HJlJUys9sGOLDkqJ6v97d9", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        public n42.Manager<n2.ValueTuple<int, float, float>, n2.ValueTuple<n5.Spread<T>, n5.Spread<float>>> __cache_HJlJUys9sGOLDkqJ6v97d9 = null;
         public ResampleHermite_E3rKHEXR5BEOguuIPaowVl(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
         }
@@ -8408,7 +8408,7 @@ namespace _VL_Collections_.Collections.Spread
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__p_KAzmPWNzA6BNrKqHwn1V5E", in __p_KAzmPWNzA6BNrKqHwn1V5E), n1.CompilationHelper.GetValueOrExisting(values, "__cache_HJlJUys9sGOLDkqJ6v97d9", in __cache_HJlJUys9sGOLDkqJ6v97d9));
         }
 
-        internal ResampleHermite_E3rKHEXR5BEOguuIPaowVl<T> __WITH__(n3.SequenceChanged_EAvS1XXezCmL7nXpFVvQcX<T> __p_KAzmPWNzA6BNrKqHwn1V5E, n40.Manager<n2.ValueTuple<int, float, float>, n2.ValueTuple<n5.Spread<T>, n5.Spread<float>>> __cache_HJlJUys9sGOLDkqJ6v97d9)
+        internal ResampleHermite_E3rKHEXR5BEOguuIPaowVl<T> __WITH__(n3.SequenceChanged_EAvS1XXezCmL7nXpFVvQcX<T> __p_KAzmPWNzA6BNrKqHwn1V5E, n42.Manager<n2.ValueTuple<int, float, float>, n2.ValueTuple<n5.Spread<T>, n5.Spread<float>>> __cache_HJlJUys9sGOLDkqJ6v97d9)
         {
             n7.ResampleHermite_E3rKHEXR5BEOguuIPaowVl<T> that_0 = this;
             if (this.__GetContext__().IsImmutable)
@@ -8476,7 +8476,7 @@ namespace _VL_Collections_.Collections.Spread
         }
     }
 
-    [n1.ElementAttribute(TracingId = 256766U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "UmP6nXJno3hLuovpQ3KDPD", Name = "Randomizer_UmP6nXJno3hLuovpQ3KDPD")]
+    [n1.ElementAttribute(TracingId = 273021U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "UmP6nXJno3hLuovpQ3KDPD", Name = "Randomizer_UmP6nXJno3hLuovpQ3KDPD")]
     [n2.SerializableAttribute]
     public class Randomizer_UmP6nXJno3hLuovpQ3KDPD<T> : n1.VLObject, n2.IDisposable
     {
@@ -8541,9 +8541,9 @@ namespace _VL_Collections_.Collections.Spread
         public n7.Randomizer_UmP6nXJno3hLuovpQ3KDPD<T> __Create__(n1.NodeContext Node_Context)
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "DAH0NHgQImTPN4LsiUTQpN", 256770U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "DAH0NHgQImTPN4LsiUTQpN", 273024U);
             var Output_1 = n7.RandomSpread_UNv4cR9YdgkPYF08xpFER9.Create(Node_Context: Node_Context_0);
-            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "RIHbllwMqUEPdBZhBwG5ro", 256832U);
+            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "RIHbllwMqUEPdBZhBwG5ro", 273046U);
             var Output_3 = n7.Sort_FormerIndex_QKHJtW5MfCeOm2LyKhYalN<float>.Create<n12.__AdaptiveImplementations__CsYvmiCXzFgMbCg5YvFjkW>(Node_Context: Node_Context_2);
             n7.Randomizer_UmP6nXJno3hLuovpQ3KDPD<T> that_4 = this;
             this.__cp_SKT7j83eUHFLoeUHYOnIu1 = n7._Operations_.CreateDefault<T>();
@@ -8574,9 +8574,9 @@ namespace _VL_Collections_.Collections.Spread
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 256770U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "DAH0NHgQImTPN4LsiUTQpN", Name = "RandomSpread", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 273024U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "DAH0NHgQImTPN4LsiUTQpN", Name = "RandomSpread", IsManaged = true, IsAutoGenerated = true)]
         public n7.RandomSpread_UNv4cR9YdgkPYF08xpFER9 __p_DAH0NHgQImTPN4LsiUTQpN;
-        [n1.ElementAttribute(TracingId = 256832U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "RIHbllwMqUEPdBZhBwG5ro", Name = "Sort (FormerIndex)", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 273046U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "RIHbllwMqUEPdBZhBwG5ro", Name = "Sort (FormerIndex)", IsManaged = true, IsAutoGenerated = true)]
         public n7.Sort_FormerIndex_QKHJtW5MfCeOm2LyKhYalN<float> __p_RIHbllwMqUEPdBZhBwG5ro;
         [n1.ElementAttribute(IsAutoGenerated = true)]
         public n5.Spread<T> __cp_SKT7j83eUHFLoeUHYOnIu1;
@@ -8613,7 +8613,7 @@ namespace _VL_Collections_.Collections.Spread
         }
     }
 
-    [n1.ElementAttribute(TracingId = 256899U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "SDaG6L4r0h2LG9nOVLXBCG", Name = "RandomSpread__4d_SDaG6L4r0h2LG9nOVLXBCG")]
+    [n1.ElementAttribute(TracingId = 273073U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "SDaG6L4r0h2LG9nOVLXBCG", Name = "RandomSpread__4d_SDaG6L4r0h2LG9nOVLXBCG")]
     [n2.SerializableAttribute]
     public class RandomSpread__4d_SDaG6L4r0h2LG9nOVLXBCG : n1.VLObject, n2.IDisposable
     {
@@ -8631,14 +8631,14 @@ namespace _VL_Collections_.Collections.Spread
             return instance.__CreateDefault__();
         }
 
-        public n7.RandomSpread__4d_SDaG6L4r0h2LG9nOVLXBCG Update([n4.SerializedDefaultValueAttribute("0, 0, 0, 0", false)] n23.Vector4 Center_In, [n4.SerializedDefaultValueAttribute("1, 1, 1, 1", false)] n23.Vector4 Size_In, int Seed_In, [n4.SerializedDefaultValueAttribute("1", false)] int Count_In, out n5.Spread<n23.Vector4> Output_Out)
+        public n7.RandomSpread__4d_SDaG6L4r0h2LG9nOVLXBCG Update([n4.SerializedDefaultValueAttribute("0, 0, 0, 0", false)] n26.Vector4 Center_In, [n4.SerializedDefaultValueAttribute("1, 1, 1, 1", false)] n26.Vector4 Size_In, int Seed_In, [n4.SerializedDefaultValueAttribute("1", false)] int Count_In, out n5.Spread<n26.Vector4> Output_Out)
         {
             bool Force_0 = false;
             bool Dispose_Cached_Outputs_1 = false;
             var manager_2 = this.__cache_VdeQj9BCJxnNCa04DPF53v;
             if (manager_2 is null)
             {
-                manager_2 = new n40.Manager<n2.ValueTuple<n23.Vector4, n23.Vector4, int, int>, n2.ValueTuple<n5.Spread<n23.Vector4>>>(n2.ValueTuple.Create(n7._Operations_.CreateDefault<n23.Vector4>()));
+                manager_2 = new n42.Manager<n2.ValueTuple<n26.Vector4, n26.Vector4, int, int>, n2.ValueTuple<n5.Spread<n26.Vector4>>>(n2.ValueTuple.Create(n7._Operations_.CreateDefault<n26.Vector4>()));
             }
 
             var inputs_3 = (Center_In, Size_In, Seed_In, Count_In);
@@ -8648,7 +8648,7 @@ namespace _VL_Collections_.Collections.Spread
             {
                 if (Dispose_Cached_Outputs_1)
                     manager_2.DisposeOutputs();
-                n29._Operations_.CreateRandomSpread__4D(Center_In: Center_In, Size_In: Size_In, Seed_In: Seed_In, Count_In: Count_In, Output_Out: out n5.Spread<n23.Vector4> Output_7);
+                n32._Operations_.CreateRandomSpread__4D(Center_In: Center_In, Size_In: Size_In, Seed_In: Seed_In, Count_In: Count_In, Output_Out: out n5.Spread<n26.Vector4> Output_7);
                 outputs_4 = n2.ValueTuple.Create(Output_7);
                 manager_2 = manager_2.Update(inputs_3, __GetContext__().IsImmutable, Dispose_Cached_Outputs_1, default, outputs_4);
             }
@@ -8698,8 +8698,8 @@ namespace _VL_Collections_.Collections.Spread
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 256903U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "VdeQj9BCJxnNCa04DPF53v", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
-        public n40.Manager<n2.ValueTuple<n23.Vector4, n23.Vector4, int, int>, n2.ValueTuple<n5.Spread<n23.Vector4>>> __cache_VdeQj9BCJxnNCa04DPF53v = null;
+        [n1.ElementAttribute(TracingId = 273076U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "VdeQj9BCJxnNCa04DPF53v", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        public n42.Manager<n2.ValueTuple<n26.Vector4, n26.Vector4, int, int>, n2.ValueTuple<n5.Spread<n26.Vector4>>> __cache_VdeQj9BCJxnNCa04DPF53v = null;
         public RandomSpread__4d_SDaG6L4r0h2LG9nOVLXBCG(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
         }
@@ -8714,7 +8714,7 @@ namespace _VL_Collections_.Collections.Spread
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__cache_VdeQj9BCJxnNCa04DPF53v", in __cache_VdeQj9BCJxnNCa04DPF53v));
         }
 
-        internal RandomSpread__4d_SDaG6L4r0h2LG9nOVLXBCG __WITH__(n40.Manager<n2.ValueTuple<n23.Vector4, n23.Vector4, int, int>, n2.ValueTuple<n5.Spread<n23.Vector4>>> __cache_VdeQj9BCJxnNCa04DPF53v)
+        internal RandomSpread__4d_SDaG6L4r0h2LG9nOVLXBCG __WITH__(n42.Manager<n2.ValueTuple<n26.Vector4, n26.Vector4, int, int>, n2.ValueTuple<n5.Spread<n26.Vector4>>> __cache_VdeQj9BCJxnNCa04DPF53v)
         {
             n7.RandomSpread__4d_SDaG6L4r0h2LG9nOVLXBCG that_0 = this;
             if (this.__GetContext__().IsImmutable)
@@ -8729,7 +8729,7 @@ namespace _VL_Collections_.Collections.Spread
         }
     }
 
-    [n1.ElementAttribute(TracingId = 257025U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "GaTuHYHNNNgQXveRZUAHXI", Name = "LinearSpread_Range_GaTuHYHNNNgQXveRZUAHXI")]
+    [n1.ElementAttribute(TracingId = 273124U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "GaTuHYHNNNgQXveRZUAHXI", Name = "LinearSpread_Range_GaTuHYHNNNgQXveRZUAHXI")]
     [n2.SerializableAttribute]
     public class LinearSpread_Range_GaTuHYHNNNgQXveRZUAHXI<T> : n1.VLObject, n2.IDisposable
     {
@@ -8747,8 +8747,8 @@ namespace _VL_Collections_.Collections.Spread
             return instance.__CreateDefault__();
         }
 
-        public n7.LinearSpread_Range_GaTuHYHNNNgQXveRZUAHXI<T> Update<AdM>(n25.Range<T> Range_In, [n4.SerializedDefaultValueAttribute("Centered", false)] n32.LinearSpreadAlignment Alignment_In, float Phase_In, [n4.SerializedDefaultValueAttribute("1", false)] int Count_In, out n5.Spread<T> Output_Out)
-            where AdM : struct, n18.IAdaptiveLerp<T>, n19.IAdaptiveCreateDefault<n5.Spread<T>>, n18.IAdaptiveOperatorPlus<T>, n18.IAdaptiveOperatorMulitply_Scale<T>
+        public n7.LinearSpread_Range_GaTuHYHNNNgQXveRZUAHXI<T> Update<AdM>(n27.Range<T> Range_In, [n4.SerializedDefaultValueAttribute("Centered", false)] n35.LinearSpreadAlignment Alignment_In, float Phase_In, [n4.SerializedDefaultValueAttribute("1", false)] int Count_In, out n5.Spread<T> Output_Out)
+            where AdM : struct, n18.IAdaptiveCreateDefault<n5.Spread<T>>, n19.IAdaptiveOperatorMulitply_Scale<T>, n19.IAdaptiveOperatorPlus<T>, n19.IAdaptiveLerp<T>
         {
             var w_0 = default(AdM);
             bool Force_1 = false;
@@ -8756,7 +8756,7 @@ namespace _VL_Collections_.Collections.Spread
             var manager_3 = this.__cache_IAUiijFyDmlOkz4pZydyas;
             if (manager_3 is null)
             {
-                manager_3 = new n40.Manager<n2.ValueTuple<n25.Range<T>, n32.LinearSpreadAlignment, float, int>, n2.ValueTuple<n5.Spread<T>>>(n2.ValueTuple.Create(n7._Operations_.CreateDefault<T>()));
+                manager_3 = new n42.Manager<n2.ValueTuple<n27.Range<T>, n35.LinearSpreadAlignment, float, int>, n2.ValueTuple<n5.Spread<T>>>(n2.ValueTuple.Create(n7._Operations_.CreateDefault<T>()));
             }
 
             var inputs_4 = (Range_In, Alignment_In, Phase_In, Count_In);
@@ -8766,7 +8766,7 @@ namespace _VL_Collections_.Collections.Spread
             {
                 if (Dispose_Cached_Outputs_2)
                     manager_3.DisposeOutputs();
-                n29._Operations_.CreateLinearSpread_Range<T, AdM>(Range_In: Range_In, Alignment_In: Alignment_In, Phase_In: Phase_In, Count_In: Count_In, Output_Out: out n5.Spread<T> Output_8);
+                n32._Operations_.CreateLinearSpread_Range<T, AdM>(Range_In: Range_In, Alignment_In: Alignment_In, Phase_In: Phase_In, Count_In: Count_In, Output_Out: out n5.Spread<T> Output_8);
                 outputs_5 = n2.ValueTuple.Create(Output_8);
                 manager_3 = manager_3.Update(inputs_4, __GetContext__().IsImmutable, Dispose_Cached_Outputs_2, default, outputs_5);
             }
@@ -8816,8 +8816,8 @@ namespace _VL_Collections_.Collections.Spread
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 257030U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "IAUiijFyDmlOkz4pZydyas", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
-        public n40.Manager<n2.ValueTuple<n25.Range<T>, n32.LinearSpreadAlignment, float, int>, n2.ValueTuple<n5.Spread<T>>> __cache_IAUiijFyDmlOkz4pZydyas = null;
+        [n1.ElementAttribute(TracingId = 273127U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "IAUiijFyDmlOkz4pZydyas", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        public n42.Manager<n2.ValueTuple<n27.Range<T>, n35.LinearSpreadAlignment, float, int>, n2.ValueTuple<n5.Spread<T>>> __cache_IAUiijFyDmlOkz4pZydyas = null;
         public LinearSpread_Range_GaTuHYHNNNgQXveRZUAHXI(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
         }
@@ -8832,7 +8832,7 @@ namespace _VL_Collections_.Collections.Spread
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__cache_IAUiijFyDmlOkz4pZydyas", in __cache_IAUiijFyDmlOkz4pZydyas));
         }
 
-        internal LinearSpread_Range_GaTuHYHNNNgQXveRZUAHXI<T> __WITH__(n40.Manager<n2.ValueTuple<n25.Range<T>, n32.LinearSpreadAlignment, float, int>, n2.ValueTuple<n5.Spread<T>>> __cache_IAUiijFyDmlOkz4pZydyas)
+        internal LinearSpread_Range_GaTuHYHNNNgQXveRZUAHXI<T> __WITH__(n42.Manager<n2.ValueTuple<n27.Range<T>, n35.LinearSpreadAlignment, float, int>, n2.ValueTuple<n5.Spread<T>>> __cache_IAUiijFyDmlOkz4pZydyas)
         {
             n7.LinearSpread_Range_GaTuHYHNNNgQXveRZUAHXI<T> that_0 = this;
             if (this.__GetContext__().IsImmutable)
@@ -8847,7 +8847,7 @@ namespace _VL_Collections_.Collections.Spread
         }
     }
 
-    [n1.ElementAttribute(TracingId = 257151U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Fhj5xydYiRTNdXppJ1Dvg1", Name = "GridSpread__2D_Fhj5xydYiRTNdXppJ1Dvg1")]
+    [n1.ElementAttribute(TracingId = 273175U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Fhj5xydYiRTNdXppJ1Dvg1", Name = "GridSpread__2D_Fhj5xydYiRTNdXppJ1Dvg1")]
     [n2.SerializableAttribute]
     public class GridSpread__2D_Fhj5xydYiRTNdXppJ1Dvg1 : n1.VLObject, n2.IDisposable
     {
@@ -8865,14 +8865,14 @@ namespace _VL_Collections_.Collections.Spread
             return instance.__CreateDefault__();
         }
 
-        public n7.GridSpread__2D_Fhj5xydYiRTNdXppJ1Dvg1 Update(n23.Vector2 Center_In, [n4.SerializedDefaultValueAttribute("1, 1", false)] n23.Vector2 Width_In, n32.LinearSpreadAlignment Alignment_In, n23.Vector2 Phase_In, [n4.SerializedDefaultValueAttribute("1, 1", false)] n23.Int2 Count_In, out n5.Spread<n23.Vector2> Output_Out)
+        public n7.GridSpread__2D_Fhj5xydYiRTNdXppJ1Dvg1 Update(n26.Vector2 Center_In, [n4.SerializedDefaultValueAttribute("1, 1", false)] n26.Vector2 Width_In, n35.LinearSpreadAlignment Alignment_In, n26.Vector2 Phase_In, [n4.SerializedDefaultValueAttribute("1, 1", false)] n26.Int2 Count_In, out n5.Spread<n26.Vector2> Output_Out)
         {
             bool Force_0 = false;
             bool Dispose_Cached_Outputs_1 = false;
             var manager_2 = this.__cache_VLbbaPvvRaaMSrkc3NK88R;
             if (manager_2 is null)
             {
-                manager_2 = new n40.Manager<n2.ValueTuple<n23.Vector2, n23.Vector2, n32.LinearSpreadAlignment, n23.Vector2, n23.Int2>, n2.ValueTuple<n5.Spread<n23.Vector2>>>(n2.ValueTuple.Create(n7._Operations_.CreateDefault<n23.Vector2>()));
+                manager_2 = new n42.Manager<n2.ValueTuple<n26.Vector2, n26.Vector2, n35.LinearSpreadAlignment, n26.Vector2, n26.Int2>, n2.ValueTuple<n5.Spread<n26.Vector2>>>(n2.ValueTuple.Create(n7._Operations_.CreateDefault<n26.Vector2>()));
             }
 
             var inputs_3 = (Center_In, Width_In, Alignment_In, Phase_In, Count_In);
@@ -8886,12 +8886,12 @@ namespace _VL_Collections_.Collections.Spread
                 if (state_6 == null)
                 {
                     state_6 = new __UTLVrLMi5cJPgJU6DWtRJx(__GetContext__(), n1.VLObject.NewIdentity())
-                    {Builder_To_Fill = n22._Operations_.CreateDefault<n23.Vector2>()};
+                    {Builder_To_Fill = n24._Operations_.CreateDefault<n26.Vector2>()};
                 }
 
-                n5.SpreadBuilder<n23.Vector2> __auto_7 = state_6.Builder_To_Fill;
+                n5.SpreadBuilder<n26.Vector2> __auto_7 = state_6.Builder_To_Fill;
                 bool Clear_Builder_8 = true;
-                n29._Operations_.CreateGridSpread__2D(Center_In: Center_In, Width_In: Width_In, Alignment_In: Alignment_In, Phase_In: Phase_In, Builder_To_Fill_In: __auto_7, Clear_Builder_In: Clear_Builder_8, Count_In: Count_In, Output_Out: out n5.Spread<n23.Vector2> Output_9);
+                n32._Operations_.CreateGridSpread__2D(Center_In: Center_In, Width_In: Width_In, Alignment_In: Alignment_In, Phase_In: Phase_In, Builder_To_Fill_In: __auto_7, Clear_Builder_In: Clear_Builder_8, Count_In: Count_In, Output_Out: out n5.Spread<n26.Vector2> Output_9);
                 outputs_4 = n2.ValueTuple.Create(Output_9);
                 manager_2 = manager_2.Update(inputs_3, __GetContext__().IsImmutable, Dispose_Cached_Outputs_1, state_6, outputs_4);
             }
@@ -8941,8 +8941,8 @@ namespace _VL_Collections_.Collections.Spread
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 257162U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "VLbbaPvvRaaMSrkc3NK88R", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
-        public n40.Manager<n2.ValueTuple<n23.Vector2, n23.Vector2, n32.LinearSpreadAlignment, n23.Vector2, n23.Int2>, n2.ValueTuple<n5.Spread<n23.Vector2>>> __cache_VLbbaPvvRaaMSrkc3NK88R = null;
+        [n1.ElementAttribute(TracingId = 273180U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "VLbbaPvvRaaMSrkc3NK88R", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        public n42.Manager<n2.ValueTuple<n26.Vector2, n26.Vector2, n35.LinearSpreadAlignment, n26.Vector2, n26.Int2>, n2.ValueTuple<n5.Spread<n26.Vector2>>> __cache_VLbbaPvvRaaMSrkc3NK88R = null;
         public GridSpread__2D_Fhj5xydYiRTNdXppJ1Dvg1(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
         }
@@ -8957,7 +8957,7 @@ namespace _VL_Collections_.Collections.Spread
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__cache_VLbbaPvvRaaMSrkc3NK88R", in __cache_VLbbaPvvRaaMSrkc3NK88R));
         }
 
-        internal GridSpread__2D_Fhj5xydYiRTNdXppJ1Dvg1 __WITH__(n40.Manager<n2.ValueTuple<n23.Vector2, n23.Vector2, n32.LinearSpreadAlignment, n23.Vector2, n23.Int2>, n2.ValueTuple<n5.Spread<n23.Vector2>>> __cache_VLbbaPvvRaaMSrkc3NK88R)
+        internal GridSpread__2D_Fhj5xydYiRTNdXppJ1Dvg1 __WITH__(n42.Manager<n2.ValueTuple<n26.Vector2, n26.Vector2, n35.LinearSpreadAlignment, n26.Vector2, n26.Int2>, n2.ValueTuple<n5.Spread<n26.Vector2>>> __cache_VLbbaPvvRaaMSrkc3NK88R)
         {
             n7.GridSpread__2D_Fhj5xydYiRTNdXppJ1Dvg1 that_0 = this;
             if (this.__GetContext__().IsImmutable)
@@ -8980,8 +8980,8 @@ namespace _VL_Collections_.Collections.Spread
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 257226U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "OdLGvGlxm9pQVrZBRDXPk2", Name = "Builder To Fill")]
-            public n5.SpreadBuilder<n23.Vector2> Builder_To_Fill;
+            [n1.ElementAttribute(TracingId = 273203U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "OdLGvGlxm9pQVrZBRDXPk2", Name = "Builder To Fill")]
+            public n5.SpreadBuilder<n26.Vector2> Builder_To_Fill;
             public __UTLVrLMi5cJPgJU6DWtRJx(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
             }
@@ -8996,7 +8996,7 @@ namespace _VL_Collections_.Collections.Spread
                 return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "Builder_To_Fill", in Builder_To_Fill));
             }
 
-            internal __UTLVrLMi5cJPgJU6DWtRJx __WITH__(n5.SpreadBuilder<n23.Vector2> Builder_To_Fill)
+            internal __UTLVrLMi5cJPgJU6DWtRJx __WITH__(n5.SpreadBuilder<n26.Vector2> Builder_To_Fill)
             {
                 __UTLVrLMi5cJPgJU6DWtRJx that_0 = this;
                 if (this.__GetContext__().IsImmutable)
@@ -9012,7 +9012,7 @@ namespace _VL_Collections_.Collections.Spread
         }
     }
 
-    [n1.ElementAttribute(TracingId = 257313U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "GbKoBslUVKWLOhuVujVws1", Name = "GridSpread__3D_GbKoBslUVKWLOhuVujVws1")]
+    [n1.ElementAttribute(TracingId = 273238U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "GbKoBslUVKWLOhuVujVws1", Name = "GridSpread__3D_GbKoBslUVKWLOhuVujVws1")]
     [n2.SerializableAttribute]
     public class GridSpread__3D_GbKoBslUVKWLOhuVujVws1 : n1.VLObject, n2.IDisposable
     {
@@ -9030,14 +9030,14 @@ namespace _VL_Collections_.Collections.Spread
             return instance.__CreateDefault__();
         }
 
-        public n7.GridSpread__3D_GbKoBslUVKWLOhuVujVws1 Update(n23.Vector3 Center_In, [n4.SerializedDefaultValueAttribute("1, 1", false)] n23.Vector3 Width_In, n32.LinearSpreadAlignment Alignment_In, n23.Vector3 Phase_In, [n4.SerializedDefaultValueAttribute("1, 1", false)] n23.Int3 Count_In, out n5.Spread<n23.Vector3> Output_Out)
+        public n7.GridSpread__3D_GbKoBslUVKWLOhuVujVws1 Update(n26.Vector3 Center_In, [n4.SerializedDefaultValueAttribute("1, 1", false)] n26.Vector3 Width_In, n35.LinearSpreadAlignment Alignment_In, n26.Vector3 Phase_In, [n4.SerializedDefaultValueAttribute("1, 1", false)] n26.Int3 Count_In, out n5.Spread<n26.Vector3> Output_Out)
         {
             bool Force_0 = false;
             bool Dispose_Cached_Outputs_1 = false;
             var manager_2 = this.__cache_OIyyfHxvlZoNUqzFR10TZz;
             if (manager_2 is null)
             {
-                manager_2 = new n40.Manager<n2.ValueTuple<n23.Vector3, n23.Vector3, n32.LinearSpreadAlignment, n23.Vector3, n23.Int3>, n2.ValueTuple<n5.Spread<n23.Vector3>>>(n2.ValueTuple.Create(n7._Operations_.CreateDefault<n23.Vector3>()));
+                manager_2 = new n42.Manager<n2.ValueTuple<n26.Vector3, n26.Vector3, n35.LinearSpreadAlignment, n26.Vector3, n26.Int3>, n2.ValueTuple<n5.Spread<n26.Vector3>>>(n2.ValueTuple.Create(n7._Operations_.CreateDefault<n26.Vector3>()));
             }
 
             var inputs_3 = (Center_In, Width_In, Alignment_In, Phase_In, Count_In);
@@ -9051,12 +9051,12 @@ namespace _VL_Collections_.Collections.Spread
                 if (state_6 == null)
                 {
                     state_6 = new __UT3e6eGHob6MHJFq4By1uf(__GetContext__(), n1.VLObject.NewIdentity())
-                    {Builder_To_Fill = n22._Operations_.CreateDefault<n23.Vector3>()};
+                    {Builder_To_Fill = n24._Operations_.CreateDefault<n26.Vector3>()};
                 }
 
-                n5.SpreadBuilder<n23.Vector3> __auto_7 = state_6.Builder_To_Fill;
+                n5.SpreadBuilder<n26.Vector3> __auto_7 = state_6.Builder_To_Fill;
                 bool Clear_Builder_8 = true;
-                n29._Operations_.CreateGridSpread__3D(Center_In: Center_In, Width_In: Width_In, Alignment_In: Alignment_In, Phase_In: Phase_In, Builder_To_Fill_In: __auto_7, Clear_Builder_In: Clear_Builder_8, Count_In: Count_In, Output_Out: out n5.Spread<n23.Vector3> Output_9);
+                n32._Operations_.CreateGridSpread__3D(Center_In: Center_In, Width_In: Width_In, Alignment_In: Alignment_In, Phase_In: Phase_In, Builder_To_Fill_In: __auto_7, Clear_Builder_In: Clear_Builder_8, Count_In: Count_In, Output_Out: out n5.Spread<n26.Vector3> Output_9);
                 outputs_4 = n2.ValueTuple.Create(Output_9);
                 manager_2 = manager_2.Update(inputs_3, __GetContext__().IsImmutable, Dispose_Cached_Outputs_1, state_6, outputs_4);
             }
@@ -9106,8 +9106,8 @@ namespace _VL_Collections_.Collections.Spread
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 257321U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "OIyyfHxvlZoNUqzFR10TZz", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
-        public n40.Manager<n2.ValueTuple<n23.Vector3, n23.Vector3, n32.LinearSpreadAlignment, n23.Vector3, n23.Int3>, n2.ValueTuple<n5.Spread<n23.Vector3>>> __cache_OIyyfHxvlZoNUqzFR10TZz = null;
+        [n1.ElementAttribute(TracingId = 273243U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "OIyyfHxvlZoNUqzFR10TZz", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        public n42.Manager<n2.ValueTuple<n26.Vector3, n26.Vector3, n35.LinearSpreadAlignment, n26.Vector3, n26.Int3>, n2.ValueTuple<n5.Spread<n26.Vector3>>> __cache_OIyyfHxvlZoNUqzFR10TZz = null;
         public GridSpread__3D_GbKoBslUVKWLOhuVujVws1(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
         }
@@ -9122,7 +9122,7 @@ namespace _VL_Collections_.Collections.Spread
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__cache_OIyyfHxvlZoNUqzFR10TZz", in __cache_OIyyfHxvlZoNUqzFR10TZz));
         }
 
-        internal GridSpread__3D_GbKoBslUVKWLOhuVujVws1 __WITH__(n40.Manager<n2.ValueTuple<n23.Vector3, n23.Vector3, n32.LinearSpreadAlignment, n23.Vector3, n23.Int3>, n2.ValueTuple<n5.Spread<n23.Vector3>>> __cache_OIyyfHxvlZoNUqzFR10TZz)
+        internal GridSpread__3D_GbKoBslUVKWLOhuVujVws1 __WITH__(n42.Manager<n2.ValueTuple<n26.Vector3, n26.Vector3, n35.LinearSpreadAlignment, n26.Vector3, n26.Int3>, n2.ValueTuple<n5.Spread<n26.Vector3>>> __cache_OIyyfHxvlZoNUqzFR10TZz)
         {
             n7.GridSpread__3D_GbKoBslUVKWLOhuVujVws1 that_0 = this;
             if (this.__GetContext__().IsImmutable)
@@ -9145,8 +9145,8 @@ namespace _VL_Collections_.Collections.Spread
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 257371U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "LeSMww3zDelMoRgv0IaJt4", Name = "Builder To Fill")]
-            public n5.SpreadBuilder<n23.Vector3> Builder_To_Fill;
+            [n1.ElementAttribute(TracingId = 273266U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "LeSMww3zDelMoRgv0IaJt4", Name = "Builder To Fill")]
+            public n5.SpreadBuilder<n26.Vector3> Builder_To_Fill;
             public __UT3e6eGHob6MHJFq4By1uf(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
             }
@@ -9161,7 +9161,7 @@ namespace _VL_Collections_.Collections.Spread
                 return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "Builder_To_Fill", in Builder_To_Fill));
             }
 
-            internal __UT3e6eGHob6MHJFq4By1uf __WITH__(n5.SpreadBuilder<n23.Vector3> Builder_To_Fill)
+            internal __UT3e6eGHob6MHJFq4By1uf __WITH__(n5.SpreadBuilder<n26.Vector3> Builder_To_Fill)
             {
                 __UT3e6eGHob6MHJFq4By1uf that_0 = this;
                 if (this.__GetContext__().IsImmutable)
@@ -9177,7 +9177,7 @@ namespace _VL_Collections_.Collections.Spread
         }
     }
 
-    [n1.ElementAttribute(TracingId = 257448U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "U4wxvrTtAK2MQs93CKjwhp", Name = "HexGridSpread__2D_U4wxvrTtAK2MQs93CKjwhp")]
+    [n1.ElementAttribute(TracingId = 273301U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "U4wxvrTtAK2MQs93CKjwhp", Name = "HexGridSpread__2D_U4wxvrTtAK2MQs93CKjwhp")]
     [n2.SerializableAttribute]
     public class HexGridSpread__2D_U4wxvrTtAK2MQs93CKjwhp : n1.VLObject, n2.IDisposable
     {
@@ -9195,14 +9195,14 @@ namespace _VL_Collections_.Collections.Spread
             return instance.__CreateDefault__();
         }
 
-        public n7.HexGridSpread__2D_U4wxvrTtAK2MQs93CKjwhp Update(n23.Vector2 Center_In, [n4.SerializedDefaultValueAttribute("0.1", false)] float Radius_In, bool Even_Lower_In, [n4.SerializedDefaultValueAttribute("1, 1", false)] n23.Int2 Count_In, out n5.Spread<n23.Vector2> Output_Out)
+        public n7.HexGridSpread__2D_U4wxvrTtAK2MQs93CKjwhp Update(n26.Vector2 Center_In, [n4.SerializedDefaultValueAttribute("0.1", false)] float Radius_In, bool Even_Lower_In, [n4.SerializedDefaultValueAttribute("1, 1", false)] n26.Int2 Count_In, out n5.Spread<n26.Vector2> Output_Out)
         {
             bool Force_0 = false;
             bool Dispose_Cached_Outputs_1 = false;
             var manager_2 = this.__cache_HqNwgRzhgsTM11ZGtp5czu;
             if (manager_2 is null)
             {
-                manager_2 = new n40.Manager<n2.ValueTuple<n23.Vector2, float, bool, n23.Int2>, n2.ValueTuple<n5.Spread<n23.Vector2>>>(n2.ValueTuple.Create(n7._Operations_.CreateDefault<n23.Vector2>()));
+                manager_2 = new n42.Manager<n2.ValueTuple<n26.Vector2, float, bool, n26.Int2>, n2.ValueTuple<n5.Spread<n26.Vector2>>>(n2.ValueTuple.Create(n7._Operations_.CreateDefault<n26.Vector2>()));
             }
 
             var inputs_3 = (Center_In, Radius_In, Even_Lower_In, Count_In);
@@ -9212,7 +9212,7 @@ namespace _VL_Collections_.Collections.Spread
             {
                 if (Dispose_Cached_Outputs_1)
                     manager_2.DisposeOutputs();
-                n29._Operations_.CreateHexGridSpread__2D(Center_In: Center_In, Radius_In: Radius_In, Even_Lower_In: Even_Lower_In, Count_In: Count_In, Result_Out: out n5.Spread<n23.Vector2> Result_7);
+                n32._Operations_.CreateHexGridSpread__2D(Center_In: Center_In, Radius_In: Radius_In, Even_Lower_In: Even_Lower_In, Count_In: Count_In, Result_Out: out n5.Spread<n26.Vector2> Result_7);
                 outputs_4 = n2.ValueTuple.Create(Result_7);
                 manager_2 = manager_2.Update(inputs_3, __GetContext__().IsImmutable, Dispose_Cached_Outputs_1, default, outputs_4);
             }
@@ -9262,8 +9262,8 @@ namespace _VL_Collections_.Collections.Spread
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 257453U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "HqNwgRzhgsTM11ZGtp5czu", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
-        public n40.Manager<n2.ValueTuple<n23.Vector2, float, bool, n23.Int2>, n2.ValueTuple<n5.Spread<n23.Vector2>>> __cache_HqNwgRzhgsTM11ZGtp5czu = null;
+        [n1.ElementAttribute(TracingId = 273305U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "HqNwgRzhgsTM11ZGtp5czu", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        public n42.Manager<n2.ValueTuple<n26.Vector2, float, bool, n26.Int2>, n2.ValueTuple<n5.Spread<n26.Vector2>>> __cache_HqNwgRzhgsTM11ZGtp5czu = null;
         public HexGridSpread__2D_U4wxvrTtAK2MQs93CKjwhp(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
         }
@@ -9278,7 +9278,7 @@ namespace _VL_Collections_.Collections.Spread
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__cache_HqNwgRzhgsTM11ZGtp5czu", in __cache_HqNwgRzhgsTM11ZGtp5czu));
         }
 
-        internal HexGridSpread__2D_U4wxvrTtAK2MQs93CKjwhp __WITH__(n40.Manager<n2.ValueTuple<n23.Vector2, float, bool, n23.Int2>, n2.ValueTuple<n5.Spread<n23.Vector2>>> __cache_HqNwgRzhgsTM11ZGtp5czu)
+        internal HexGridSpread__2D_U4wxvrTtAK2MQs93CKjwhp __WITH__(n42.Manager<n2.ValueTuple<n26.Vector2, float, bool, n26.Int2>, n2.ValueTuple<n5.Spread<n26.Vector2>>> __cache_HqNwgRzhgsTM11ZGtp5czu)
         {
             n7.HexGridSpread__2D_U4wxvrTtAK2MQs93CKjwhp that_0 = this;
             if (this.__GetContext__().IsImmutable)
@@ -9293,33 +9293,33 @@ namespace _VL_Collections_.Collections.Spread
         }
     }
 
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         public static void Add<T>(n5.Spread<T> Input_In, T Item_In, out n5.Spread<T> Output_Out)
         {
-            var Output_0 = n42.SpreadNodes.Add<T>(input: Input_In, item: Item_In);
+            var Output_0 = n23.SpreadNodes.Add<T>(input: Input_In, item: Item_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void AddRange<T>(n5.Spread<T> Input_In, n6.IEnumerable<T> Items_In, out n5.Spread<T> Output_Out)
         {
-            var Output_0 = n42.SpreadNodes.AddRange<T>(input: Input_In, items: Items_In);
+            var Output_0 = n23.SpreadNodes.AddRange<T>(input: Input_In, items: Items_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void Clear<T>(n5.Spread<T> Input_In, out n5.Spread<T> Output_Out)
         {
-            var Output_0 = n42.SpreadNodes.Clear<T>(input: Input_In);
+            var Output_0 = n23.SpreadNodes.Clear<T>(input: Input_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void Concat<T>(n5.Spread<n6.IEnumerable<T>> Input_In, out n5.Spread<T> Output_Out)
         {
-            var Output_0 = n42.SpreadNodes.Concat<T>(input: Input_In);
+            var Output_0 = n23.SpreadNodes.Concat<T>(input: Input_In);
             Output_Out = Output_0;
             return;
         }
@@ -9353,7 +9353,7 @@ namespace _VL_Collections_.Collections.Spread
 
         public static void Distinct<T>(n5.Spread<T> Input_In, out n5.Spread<T> Output_Out)
         {
-            var Output_0 = n42.SpreadNodes.Distinct<T>(input: Input_In);
+            var Output_0 = n23.SpreadNodes.Distinct<T>(input: Input_In);
             Output_Out = Output_0;
             return;
         }
@@ -9367,13 +9367,13 @@ namespace _VL_Collections_.Collections.Spread
 
         public static void Except<T>(n5.Spread<T> Input_In, n5.Spread<T> Input_2_In, out n5.Spread<T> Output_Out)
         {
-            var Output_0 = n42.SpreadNodes.Except<T>(input: Input_In, input2: Input_2_In);
+            var Output_0 = n23.SpreadNodes.Except<T>(input: Input_In, input2: Input_2_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void Factorial<T2, T, AdM>(T2 Input_In, out n5.Spread<T> Output_Out)
-            where T2 : n6.IEnumerable<T> where AdM : struct, n18.IAdaptiveOne<T>, n18.IAdaptiveOperatorMulitply<T>, n19.IAdaptiveCreateDefault<T>
+            where T2 : n6.IEnumerable<T> where AdM : struct, n19.IAdaptiveOne<T>, n18.IAdaptiveCreateDefault<T>, n19.IAdaptiveOperatorMulitply<T>
         {
             n5.Spread<T> __cp_VytzREvTiZWMS9f4GNlmOo = n7._Operations_.CreateDefault<T>();
             n5.Spread<n6.IEnumerable<T>> __pin_group_Input_In_Oggg1yzpx8UPxw4RTVTO8a = default(n5.Spread<n6.IEnumerable<T>>);
@@ -9440,14 +9440,14 @@ namespace _VL_Collections_.Collections.Spread
 
         public static void GetSlice<T>(n5.Spread<T> Input_In, T Default_Value_In, int Index_In, out T Result_Out)
         {
-            var Result_0 = n42.SpreadNodes.GetSlice<T>(input: Input_In, defaultValue: Default_Value_In, index: Index_In);
+            var Result_0 = n23.SpreadNodes.GetSlice<T>(input: Input_In, defaultValue: Default_Value_In, index: Index_In);
             Result_Out = Result_0;
             return;
         }
 
         public static void GetSpread<T>(n5.Spread<T> Input_In, int Index_In, int Count_In, out n5.Spread<T> Output_Out)
         {
-            var Output_0 = n42.SpreadNodes.GetSpread<T>(input: Input_In, index: Index_In, count: Count_In);
+            var Output_0 = n23.SpreadNodes.GetSpread<T>(input: Input_In, index: Index_In, count: Count_In);
             Output_Out = Output_0;
             return;
         }
@@ -9461,20 +9461,20 @@ namespace _VL_Collections_.Collections.Spread
 
         public static void Insert<T>(n5.Spread<T> Input_In, int Index_In, T Item_In, out n5.Spread<T> Output_Out)
         {
-            var Output_0 = n42.SpreadNodes.Insert<T>(input: Input_In, index: Index_In, item: Item_In);
+            var Output_0 = n23.SpreadNodes.Insert<T>(input: Input_In, index: Index_In, item: Item_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void InsertSlice<T>(n5.Spread<T> Input_In, int Index_In, T Value_In, out n5.Spread<T> Output_Out)
         {
-            var Output_0 = n42.SpreadNodes.InsertSlice<T>(input: Input_In, index: Index_In, value: Value_In);
+            var Output_0 = n23.SpreadNodes.InsertSlice<T>(input: Input_In, index: Index_In, value: Value_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void Integral<T2, T, AdM>(T2 Input_In, out n5.Spread<T> Output_Out)
-            where T2 : n6.IEnumerable<T> where AdM : struct, n18.IAdaptiveOperatorPlus<T>, n19.IAdaptiveCreateDefault<T>
+            where T2 : n6.IEnumerable<T> where AdM : struct, n18.IAdaptiveCreateDefault<T>, n19.IAdaptiveOperatorPlus<T>
         {
             n5.Spread<T> __cp_PSA5RNpRZ84OqOsKpuetNp = n7._Operations_.CreateDefault<T>();
             n5.Spread<n6.IEnumerable<T>> __pin_group_Input_In_OyfPFQcA0g6L8gYKHCiqPf = default(n5.Spread<n6.IEnumerable<T>>);
@@ -9524,56 +9524,56 @@ namespace _VL_Collections_.Collections.Spread
 
         public static void OrderBy<T, T2>(n5.Spread<T> Input_In, bool Descending_In, n2.Func<T, T2> Key_Selector_In, out n5.Spread<T> Output_Out)
         {
-            var Output_0 = n42.SpreadNodes.OrderBy<T, T2>(input: Input_In, descending: Descending_In, keySelector: Key_Selector_In);
+            var Output_0 = n23.SpreadNodes.OrderBy<T, T2>(input: Input_In, descending: Descending_In, keySelector: Key_Selector_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void Pairwise<T, T2>(n5.Spread<T> Input_In, n2.Func<T, T, T2> Selector_In, out n5.Spread<T2> Output_Out)
         {
-            var Output_0 = n42.SpreadNodes.Pairwise<T, T2>(input: Input_In, selector: Selector_In);
+            var Output_0 = n23.SpreadNodes.Pairwise<T, T2>(input: Input_In, selector: Selector_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void Select_Many<T, T2>(n5.Spread<T> Input_In, n2.Func<T, n6.IEnumerable<T2>> Transformer_In, out n5.Spread<T2> Output_Out)
         {
-            var Output_0 = n42.SpreadNodes.Project<T, T2>(input: Input_In, transformer: Transformer_In);
+            var Output_0 = n23.SpreadNodes.Project<T, T2>(input: Input_In, transformer: Transformer_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void RemoveAt<T>(n5.Spread<T> Input_In, int Index_In, out n5.Spread<T> Output_Out)
         {
-            var Output_0 = n42.SpreadNodes.RemoveAt<T>(input: Input_In, index: Index_In);
+            var Output_0 = n23.SpreadNodes.RemoveAt<T>(input: Input_In, index: Index_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void RemoveSliceAt<T>(n5.Spread<T> Input_In, int Index_In, out n5.Spread<T> Output_Out)
         {
-            var Output_0 = n42.SpreadNodes.RemoveSliceAt<T>(input: Input_In, index: Index_In);
+            var Output_0 = n23.SpreadNodes.RemoveSliceAt<T>(input: Input_In, index: Index_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void Repeat<T>(T Element_In, int Count_In, out n5.Spread<T> Result_Out)
         {
-            var Result_0 = n26.SpreadGenerators.Repeat<T>(element: Element_In, count: Count_In);
+            var Result_0 = n25.SpreadGenerators.Repeat<T>(element: Element_In, count: Count_In);
             Result_Out = Result_0;
             return;
         }
 
         public static void Resize<T>(n5.Spread<T> Input_In, int Size_In, n2.Func<T> Item_Factory_In, out n5.Spread<T> Output_Out)
         {
-            var Output_0 = n42.SpreadNodes.Resize<T>(input: Input_In, size: Size_In, itemFactory: Item_Factory_In);
+            var Output_0 = n23.SpreadNodes.Resize<T>(input: Input_In, size: Size_In, itemFactory: Item_Factory_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void Reverse<T>(n5.Spread<T> Input_In, out n5.Spread<T> Output_Out)
         {
-            var Output_0 = n42.SpreadNodes.Reverse<T>(input: Input_In);
+            var Output_0 = n23.SpreadNodes.Reverse<T>(input: Input_In);
             Output_Out = Output_0;
             return;
         }
@@ -9581,7 +9581,7 @@ namespace _VL_Collections_.Collections.Spread
         public static void Select<T3, T, T2>(T3 Input_In, T2 Alive_Values_In, out n5.Spread<T> Output_Out)
             where T3 : n6.IEnumerable<T> where T2 : n6.IEnumerable<bool>
         {
-            var Output_0 = n22._Operations_.CreateDefault<T>();
+            var Output_0 = n24._Operations_.CreateDefault<T>();
             n5.SpreadBuilder<T> accumulator_1 = Output_0;
             var enumerator_2 = Input_In.GetEnumerator();
             var enumerator_4 = Alive_Values_In.GetEnumerator();
@@ -9596,7 +9596,7 @@ namespace _VL_Collections_.Collections.Spread
                     var Output_8 = accumulator_1;
                     if (splicer_5)
                     {
-                        n22._Operations_.Add<T>(Input_In: accumulator_1, Item_In: splicer_3, Output_Out: out Output_8);
+                        n24._Operations_.Add<T>(Input_In: accumulator_1, Item_In: splicer_3, Output_Out: out Output_8);
                     }
 
                     accumulator_1 = Output_8;
@@ -9609,13 +9609,13 @@ namespace _VL_Collections_.Collections.Spread
                 enumerator_4.Dispose();
             }
 
-            n22._Operations_.ToSpread<T>(Input_In: accumulator_1, Output_Out: out n5.SpreadBuilder<T> Output_9, Result_Out: out n5.Spread<T> Result_10);
+            n24._Operations_.ToSpread<T>(Input_In: accumulator_1, Output_Out: out n5.SpreadBuilder<T> Output_9, Result_Out: out n5.Spread<T> Result_10);
             Output_Out = Result_10;
             return;
         }
 
         public static void SetCount<T, AdM>(n5.Spread<T> Input_In, int Count_In, out n5.Spread<T> Output_Out)
-            where AdM : struct, n19.IAdaptiveCreateDefault<T>
+            where AdM : struct, n18.IAdaptiveCreateDefault<T>
         {
             n5.Spread<T> __cp_Q8vdfRtBpsPMuRi80mqk2n = n7._Operations_.CreateDefault<T>();
             var w_0 = default(AdM);
@@ -9642,49 +9642,49 @@ namespace _VL_Collections_.Collections.Spread
 
         public static void SetItem<T>(n5.Spread<T> Input_In, int Index_In, T Item_In, out n5.Spread<T> Output_Out)
         {
-            var Output_0 = n42.SpreadNodes.SetItem<T>(input: Input_In, index: Index_In, item: Item_In);
+            var Output_0 = n23.SpreadNodes.SetItem<T>(input: Input_In, index: Index_In, item: Item_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void SetSlice<T>(n5.Spread<T> Input_In, T Value_In, int Index_In, out n5.Spread<T> Output_Out)
         {
-            var Output_0 = n42.SpreadNodes.SetSlice<T>(input: Input_In, value: Value_In, index: Index_In);
+            var Output_0 = n23.SpreadNodes.SetSlice<T>(input: Input_In, value: Value_In, index: Index_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void Skip<T>(n5.Spread<T> Input_In, int Count_In, out n5.Spread<T> Output_Out)
         {
-            var Output_0 = n42.SpreadNodes.Skip<T>(input: Input_In, count: Count_In);
+            var Output_0 = n23.SpreadNodes.Skip<T>(input: Input_In, count: Count_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void SkipLast<T>(n5.Spread<T> Input_In, int Count_In, out n5.Spread<T> Output_Out)
         {
-            var Output_0 = n42.SpreadNodes.SkipLast<T>(input: Input_In, count: Count_In);
+            var Output_0 = n23.SpreadNodes.SkipLast<T>(input: Input_In, count: Count_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void Sort<T>(n5.Spread<T> Input_In, out n5.Spread<T> Output_Out)
         {
-            var Output_0 = n42.SpreadNodes.Sort<T>(input: Input_In);
+            var Output_0 = n23.SpreadNodes.Sort<T>(input: Input_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void Sort_Comparer<T>(n5.Spread<T> Input_In, n2.Func<T, T, int> Comparer_In, out n5.Spread<T> Output_Out)
         {
-            var Output_0 = n42.SpreadNodes.Sort<T>(input: Input_In, comparer: Comparer_In);
+            var Output_0 = n23.SpreadNodes.Sort<T>(input: Input_In, comparer: Comparer_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void SplitAt<T>(n5.Spread<T> Input_In, int Index_In, out n5.Spread<T> Output_Out, out n5.Spread<T> Output_2_Out)
         {
-            n42.SpreadNodes.SplitAt<T>(input: Input_In, index: Index_In, output: out n5.Spread<T> Output_0, output2: out n5.Spread<T> Output_2_1);
+            n23.SpreadNodes.SplitAt<T>(input: Input_In, index: Index_In, output: out n5.Spread<T> Output_0, output2: out n5.Spread<T> Output_2_1);
             Output_Out = Output_0;
             Output_2_Out = Output_2_1;
             return;
@@ -9692,7 +9692,7 @@ namespace _VL_Collections_.Collections.Spread
 
         public static void SplitFirst<T>(n5.Spread<T> Input_In, T Default_Value_In, out n5.Spread<T> Output_Out, out T Result_Out)
         {
-            n42.SpreadNodes.SplitFirst<T>(input: Input_In, defaultValue: Default_Value_In, output: out n5.Spread<T> Output_0, result: out T Result_1);
+            n23.SpreadNodes.SplitFirst<T>(input: Input_In, defaultValue: Default_Value_In, output: out n5.Spread<T> Output_0, result: out T Result_1);
             Output_Out = Output_0;
             Result_Out = Result_1;
             return;
@@ -9700,7 +9700,7 @@ namespace _VL_Collections_.Collections.Spread
 
         public static void SplitLast<T>(n5.Spread<T> Input_In, T Default_Value_In, out n5.Spread<T> Output_Out, out T Result_Out)
         {
-            n42.SpreadNodes.SplitLast<T>(input: Input_In, defaultValue: Default_Value_In, output: out n5.Spread<T> Output_0, result: out T Result_1);
+            n23.SpreadNodes.SplitLast<T>(input: Input_In, defaultValue: Default_Value_In, output: out n5.Spread<T> Output_0, result: out T Result_1);
             Output_Out = Output_0;
             Result_Out = Result_1;
             return;
@@ -9708,14 +9708,14 @@ namespace _VL_Collections_.Collections.Spread
 
         public static void Take<T>(n5.Spread<T> Input_In, int Count_In, out n5.Spread<T> Output_Out)
         {
-            var Output_0 = n42.SpreadNodes.Take<T>(input: Input_In, count: Count_In);
+            var Output_0 = n23.SpreadNodes.Take<T>(input: Input_In, count: Count_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void TakeLast<T>(n5.Spread<T> Input_In, int Count_In, out n5.Spread<T> Output_Out)
         {
-            var Output_0 = n42.SpreadNodes.TakeLast<T>(input: Input_In, count: Count_In);
+            var Output_0 = n23.SpreadNodes.TakeLast<T>(input: Input_In, count: Count_In);
             Output_Out = Output_0;
             return;
         }
@@ -9767,7 +9767,7 @@ namespace _VL_Collections_.Collections.Spread
                 {
                     var splicer_1 = item_0;
                     var i_local_3 = i_2;
-                    n22._Operations_.ToSpread<T>(Input_In: splicer_1, Output_Out: out n5.SpreadBuilder<T> Output_4, Result_Out: out n5.Spread<T> Result_5);
+                    n24._Operations_.ToSpread<T>(Input_In: splicer_1, Output_Out: out n5.SpreadBuilder<T> Output_4, Result_Out: out n5.Spread<T> Result_5);
                     builder_6.Add(Result_5);
                     i_2++;
                 }
@@ -9783,88 +9783,88 @@ namespace _VL_Collections_.Collections.Spread
 
         public static void Union<T>(n5.Spread<T> Input_In, n5.Spread<T> Input_2_In, out n5.Spread<T> Output_Out)
         {
-            var Output_0 = n42.SpreadNodes.Union<T>(input: Input_In, input2: Input_2_In);
+            var Output_0 = n23.SpreadNodes.Union<T>(input: Input_In, input2: Input_2_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void UnZip<T>(n5.Spread<T> Input_In, out n5.Spread<T> Output_Out, out n5.Spread<T> Output_2_Out)
         {
-            n42.SpreadNodes.UnZip<T>(input: Input_In, output: out n5.Spread<T> Output_0, output2: out n5.Spread<T> Output_2_1);
+            n23.SpreadNodes.UnZip<T>(input: Input_In, output: out n5.Spread<T> Output_0, output2: out n5.Spread<T> Output_2_1);
             Output_Out = Output_0;
             Output_2_Out = Output_2_1;
             return;
         }
 
-        public static void ValuesToVectors__2D(n6.IEnumerable<float> Values_In, out n5.Spread<n23.Vector2> Result_Out)
+        public static void ValuesToVectors__2D(n6.IEnumerable<float> Values_In, out n5.Spread<n26.Vector2> Result_Out)
         {
-            var Result_0 = n26.ValuesToVectorsNodes.ValuesToVectors2D(values: Values_In);
+            var Result_0 = n25.ValuesToVectorsNodes.ValuesToVectors2D(values: Values_In);
             Result_Out = Result_0;
             return;
         }
 
-        public static void ValuesToVectors__3D(n6.IEnumerable<float> Values_In, out n5.Spread<n23.Vector3> Result_Out)
+        public static void ValuesToVectors__3D(n6.IEnumerable<float> Values_In, out n5.Spread<n26.Vector3> Result_Out)
         {
-            var Result_0 = n26.ValuesToVectorsNodes.ValuesToVectors3D(values: Values_In);
+            var Result_0 = n25.ValuesToVectorsNodes.ValuesToVectors3D(values: Values_In);
             Result_Out = Result_0;
             return;
         }
 
-        public static void ValuesToVectors__4D(n6.IEnumerable<float> Values_In, out n5.Spread<n23.Vector4> Result_Out)
+        public static void ValuesToVectors__4D(n6.IEnumerable<float> Values_In, out n5.Spread<n26.Vector4> Result_Out)
         {
-            var Result_0 = n26.ValuesToVectorsNodes.ValuesToVectors4D(values: Values_In);
+            var Result_0 = n25.ValuesToVectorsNodes.ValuesToVectors4D(values: Values_In);
             Result_Out = Result_0;
             return;
         }
 
         public static void VectorsToValues__2D<T>(T Vectors_In, out n5.Spread<float> Output_Out)
-            where T : n6.IEnumerable<n23.Vector2>
+            where T : n6.IEnumerable<n26.Vector2>
         {
-            n5.SpreadBuilder<float> Input_0 = n22._Operations_.CreateDefault<float>();
-            n22._Operations_.VectorsToValues__2D<T>(Input_In: Input_0, Vectors_In: Vectors_In, Output_Out: out n5.SpreadBuilder<float> Output_1);
-            n22._Operations_.ToSpread<float>(Input_In: Output_1, Output_Out: out n5.SpreadBuilder<float> Output_2, Result_Out: out n5.Spread<float> Result_3);
+            n5.SpreadBuilder<float> Input_0 = n24._Operations_.CreateDefault<float>();
+            n24._Operations_.VectorsToValues__2D<T>(Input_In: Input_0, Vectors_In: Vectors_In, Output_Out: out n5.SpreadBuilder<float> Output_1);
+            n24._Operations_.ToSpread<float>(Input_In: Output_1, Output_Out: out n5.SpreadBuilder<float> Output_2, Result_Out: out n5.Spread<float> Result_3);
             Output_Out = Result_3;
             return;
         }
 
         public static void VectorsToValues__3D<T>(T Vectors_In, out n5.Spread<float> Output_Out)
-            where T : n6.IEnumerable<n23.Vector3>
+            where T : n6.IEnumerable<n26.Vector3>
         {
-            n5.SpreadBuilder<float> Input_0 = n22._Operations_.CreateDefault<float>();
-            n22._Operations_.VectorsToValues__3D<T>(Input_In: Input_0, Vectors_In: Vectors_In, Output_Out: out n5.SpreadBuilder<float> Output_1);
-            n22._Operations_.ToSpread<float>(Input_In: Output_1, Output_Out: out n5.SpreadBuilder<float> Output_2, Result_Out: out n5.Spread<float> Result_3);
+            n5.SpreadBuilder<float> Input_0 = n24._Operations_.CreateDefault<float>();
+            n24._Operations_.VectorsToValues__3D<T>(Input_In: Input_0, Vectors_In: Vectors_In, Output_Out: out n5.SpreadBuilder<float> Output_1);
+            n24._Operations_.ToSpread<float>(Input_In: Output_1, Output_Out: out n5.SpreadBuilder<float> Output_2, Result_Out: out n5.Spread<float> Result_3);
             Output_Out = Result_3;
             return;
         }
 
         public static void VectorsToValues__4D<T>(T Vectors_In, out n5.Spread<float> Output_Out)
-            where T : n6.IEnumerable<n23.Vector4>
+            where T : n6.IEnumerable<n26.Vector4>
         {
-            n5.SpreadBuilder<float> Input_0 = n22._Operations_.CreateDefault<float>();
-            n22._Operations_.VectorsToValues__4D<T>(Input_In: Input_0, Vectors_In: Vectors_In, Output_Out: out n5.SpreadBuilder<float> Output_1);
-            n22._Operations_.ToSpread<float>(Input_In: Output_1, Output_Out: out n5.SpreadBuilder<float> Output_2, Result_Out: out n5.Spread<float> Result_3);
+            n5.SpreadBuilder<float> Input_0 = n24._Operations_.CreateDefault<float>();
+            n24._Operations_.VectorsToValues__4D<T>(Input_In: Input_0, Vectors_In: Vectors_In, Output_Out: out n5.SpreadBuilder<float> Output_1);
+            n24._Operations_.ToSpread<float>(Input_In: Output_1, Output_Out: out n5.SpreadBuilder<float> Output_2, Result_Out: out n5.Spread<float> Result_3);
             Output_Out = Result_3;
             return;
         }
 
         public static void Where<T>(n5.Spread<T> Input_In, n2.Func<T, int, bool> Predicate_In, out n5.Spread<T> Output_Out)
         {
-            var Output_0 = n42.SpreadNodes.Where<T>(input: Input_In, predicate: Predicate_In);
+            var Output_0 = n23.SpreadNodes.Where<T>(input: Input_In, predicate: Predicate_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void Zip<T>(n5.Spread<T> Input_In, n5.Spread<T> Input_2_In, [n4.SerializedDefaultValueAttribute("False", false)] bool Use_Min_Count_In, out n5.Spread<T> Output_Out)
         {
-            var Output_0 = n42.SpreadNodes.Zip<T>(input: Input_In, input2: Input_2_In, useMinCount: Use_Min_Count_In);
+            var Output_0 = n23.SpreadNodes.Zip<T>(input: Input_In, input2: Input_2_In, useMinCount: Use_Min_Count_In);
             Output_Out = Output_0;
             return;
         }
 
-        public static void ToImage<T>(n5.Spread<T> Input_In, int Width_In, int Height_In, n39.PixelFormat Format_In, bool Is_Premultiplied_Alpha_In, string Original_Format_In, out n39.IImage Result_Out)
+        public static void ToImage<T>(n5.Spread<T> Input_In, int Width_In, int Height_In, n41.PixelFormat Format_In, bool Is_Premultiplied_Alpha_In, string Original_Format_In, out n41.IImage Result_Out)
             where T : struct
         {
-            var Result_0 = n39.ImageExtensions.ToImage<T>(data: Input_In, width: Width_In, height: Height_In, format: Format_In, isPremultipliedAlpha: Is_Premultiplied_Alpha_In, originalFormat: Original_Format_In);
+            var Result_0 = n41.ImageExtensions.ToImage<T>(data: Input_In, width: Width_In, height: Height_In, format: Format_In, isPremultipliedAlpha: Is_Premultiplied_Alpha_In, originalFormat: Original_Format_In);
             Result_Out = Result_0;
             return;
         }
@@ -9923,7 +9923,7 @@ namespace _VL_Collections_.Collections.Spread
             if (Result_2)
             {
                 n5.Spread<T> __pin_group_Input_In_AH34NQvcwNXMUkoE8vLY8J = default(n5.Spread<T>);
-                n65._Operations_.Invoke<T>(Input_In: Default_Element_Creator_In, Result_Out: out T Result_4);
+                n50._Operations_.Invoke<T>(Input_In: Default_Element_Creator_In, Result_Out: out T Result_4);
                 var builder_5 = n4.CollectionBuilders.GetBuilder(__pin_group_Input_In_AH34NQvcwNXMUkoE8vLY8J, 1);
                 builder_5.Add(Result_4);
                 var __pin_group_Input_In_AH34NQvcwNXMUkoE8vLY8J_6 = builder_5.Commit();
@@ -9948,7 +9948,7 @@ namespace _VL_Collections_.Collections.Spread
             n5.Spread<T> __auto_3;
             if (Result_2)
             {
-                n65._Operations_.Invoke<n5.Spread<T>>(Input_In: Default_Spread_Creator_In, Result_Out: out n5.Spread<T> Result_4);
+                n50._Operations_.Invoke<n5.Spread<T>>(Input_In: Default_Spread_Creator_In, Result_Out: out n5.Spread<T> Result_4);
                 __auto_3 = Result_4;
             }
             else
@@ -9982,7 +9982,7 @@ namespace _VL_Collections_.Collections.Spread
 
         public static void RemoveAll<T>(n5.Spread<T> Input_In, n2.Func<T, bool> Match_In, out n5.Spread<T> Output_Out)
         {
-            var Output_0 = n42.SpreadNodes.RemoveAll<T>(input: Input_In, match: Match_In);
+            var Output_0 = n23.SpreadNodes.RemoveAll<T>(input: Input_In, match: Match_In);
             Output_Out = Output_0;
             return;
         }
@@ -10043,9 +10043,9 @@ namespace _VL_Collections_.Collections.Spread
             return;
         }
 
-        [n1.ElementAttribute(TracingId = 240191U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "NGPaFGGDk9tQUnL7NeGnoW", Name = "__slot_NGPaFGGDk9tQUnL7NeGnoW")]
+        [n1.ElementAttribute(TracingId = 266344U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "NGPaFGGDk9tQUnL7NeGnoW", Name = "__slot_NGPaFGGDk9tQUnL7NeGnoW")]
         public static int __slot_NGPaFGGDk9tQUnL7NeGnoW = 1;
-        [n1.ElementAttribute(TracingId = 240529U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "RuXmzbeByV0O4Cewd5JS6t", Name = "__slot_RuXmzbeByV0O4Cewd5JS6t")]
+        [n1.ElementAttribute(TracingId = 266477U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "RuXmzbeByV0O4Cewd5JS6t", Name = "__slot_RuXmzbeByV0O4Cewd5JS6t")]
         public static int __slot_RuXmzbeByV0O4Cewd5JS6t = 1;
         static _Operations_()
         {
@@ -10055,7 +10055,7 @@ namespace _VL_Collections_.Collections.Spread
 
 namespace _VL_Collections_.Collections.Common.KeyValuePair
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         public static void Split<T2, T>(n6.KeyValuePair<T2, T> Input_In, out T2 Key_Out, out T Value_Out)
@@ -10069,7 +10069,7 @@ namespace _VL_Collections_.Collections.Common.KeyValuePair
 
         [n4.CreateDefaultAttribute]
         public static n6.KeyValuePair<T, T2> CreateDefault<T, T2, AdM>()
-            where AdM : struct, n19.IAdaptiveCreateDefault<T>, n19.IAdaptiveCreateDefault<T2>
+            where AdM : struct, n18.IAdaptiveCreateDefault<T2>, n18.IAdaptiveCreateDefault<T>
         {
             var w_0 = default(AdM);
             w_0.CreateDefault(Output_Out: out T Output_1);
@@ -10082,12 +10082,12 @@ namespace _VL_Collections_.Collections.Common.KeyValuePair
 
 namespace _VL_Collections_.Collections.Common.Advanced
 {
-    [n1.ElementAttribute(TracingId = 247299U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "IhQaHLIXJ1hLTpwql9lQg0", Name = "CustomEqualityComparer_C")]
+    [n1.ElementAttribute(TracingId = 268965U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "IhQaHLIXJ1hLTpwql9lQg0", Name = "CustomEqualityComparer_C")]
     [n2.SerializableAttribute]
     public class CustomEqualityComparer_C<T> : n1.VLObject, n6.IEqualityComparer<T>, n2.IDisposable
     {
         [n4.CreateNewAttribute]
-        public static n44.CustomEqualityComparer_C<T> Create(n1.NodeContext Node_Context, n2.Func<T, T, bool> Equals_In, n2.Func<T, int> HashCode_In)
+        public static n51.CustomEqualityComparer_C<T> Create(n1.NodeContext Node_Context, n2.Func<T, T, bool> Equals_In, n2.Func<T, int> HashCode_In)
         {
             Node_Context = Node_Context.WithIsImmutable(false);
             var instance = new CustomEqualityComparer_C<T>(Node_Context, n1.VLObject.NewIdentity());
@@ -10095,22 +10095,22 @@ namespace _VL_Collections_.Collections.Common.Advanced
         }
 
         [n4.CreateDefaultAttribute]
-        public static n44.CustomEqualityComparer_C<T> CreateDefault()
+        public static n51.CustomEqualityComparer_C<T> CreateDefault()
         {
             var context = n1.NodeContext.Default.WithIsImmutable(false);
             var instance = new CustomEqualityComparer_C<T>(context, n1.VLObject.NewIdentity());
             return instance.__CreateDefault__();
         }
 
-        public n44.CustomEqualityComparer_C<T> Equals_(T X_In, T Y_In, out bool Result_Out)
+        public n51.CustomEqualityComparer_C<T> Equals_(T X_In, T Y_In, out bool Result_Out)
         {
             n2.Func<T, T, bool> __auto_0 = this.Equals_Delegate;
-            n45._Operations_.Invoke<T, T, bool>(Input_In: __auto_0, Arg_1_In: X_In, Arg_2_In: Y_In, Result_Out: out bool Result_1);
+            n47._Operations_.Invoke<T, T, bool>(Input_In: __auto_0, Arg_1_In: X_In, Arg_2_In: Y_In, Result_Out: out bool Result_1);
             Result_Out = Result_1;
             return this;
         }
 
-        public n44.CustomEqualityComparer_C<T> GetHashCode_(T Obj_In, out int Result_Out)
+        public n51.CustomEqualityComparer_C<T> GetHashCode_(T Obj_In, out int Result_Out)
         {
             n2.Func<T, int> __auto_0 = this.HashCode_Delegate;
             n17._Operations_.Invoke<T, int>(Input_In: __auto_0, Arg_In: Obj_In, Result_Out: out int Result_1);
@@ -10118,15 +10118,15 @@ namespace _VL_Collections_.Collections.Common.Advanced
             return this;
         }
 
-        public n44.CustomEqualityComparer_C<T> Compare()
+        public n51.CustomEqualityComparer_C<T> Compare()
         {
             return this;
         }
 
-        public n44.CustomEqualityComparer_C<T> __Create__(n1.NodeContext Node_Context, n2.Func<T, T, bool> Equals_In, n2.Func<T, int> HashCode_In)
+        public n51.CustomEqualityComparer_C<T> __Create__(n1.NodeContext Node_Context, n2.Func<T, T, bool> Equals_In, n2.Func<T, int> HashCode_In)
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
-            this.Equals_Delegate = n45._Operations_.CreateDefault<T, T, bool, n12.__AdaptiveImplementations__CsYvmiCXzFgMbCg5YvFjkW>();
+            this.Equals_Delegate = n47._Operations_.CreateDefault<T, T, bool, n12.__AdaptiveImplementations__CsYvmiCXzFgMbCg5YvFjkW>();
             this.HashCode_Delegate = n17._Operations_.CreateDefault<T, int, n12.__AdaptiveImplementations__CsYvmiCXzFgMbCg5YvFjkW>();
             this.Equals_Delegate = Equals_In;
             n2.Func<T, T, bool> __auto_0 = Equals_In;
@@ -10135,9 +10135,9 @@ namespace _VL_Collections_.Collections.Common.Advanced
             return this;
         }
 
-        public n44.CustomEqualityComparer_C<T> __CreateDefault__()
+        public n51.CustomEqualityComparer_C<T> __CreateDefault__()
         {
-            this.Equals_Delegate = n45._Operations_.CreateDefault<T, T, bool, n12.__AdaptiveImplementations__CsYvmiCXzFgMbCg5YvFjkW>();
+            this.Equals_Delegate = n47._Operations_.CreateDefault<T, T, bool, n12.__AdaptiveImplementations__CsYvmiCXzFgMbCg5YvFjkW>();
             this.HashCode_Delegate = n17._Operations_.CreateDefault<T, int, n12.__AdaptiveImplementations__CsYvmiCXzFgMbCg5YvFjkW>();
             return this;
         }
@@ -10167,9 +10167,9 @@ namespace _VL_Collections_.Collections.Common.Advanced
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 247315U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "OoOQoc3SOLFPJBkuaqCii3", Name = "Equals Delegate")]
+        [n1.ElementAttribute(TracingId = 268974U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "OoOQoc3SOLFPJBkuaqCii3", Name = "Equals Delegate")]
         public n2.Func<T, T, bool> Equals_Delegate;
-        [n1.ElementAttribute(TracingId = 247317U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "KLG0uQRh05dO8iJOaTGStg", Name = "HashCode Delegate")]
+        [n1.ElementAttribute(TracingId = 268976U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "KLG0uQRh05dO8iJOaTGStg", Name = "HashCode Delegate")]
         public n2.Func<T, int> HashCode_Delegate;
         public CustomEqualityComparer_C(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -10188,19 +10188,19 @@ namespace _VL_Collections_.Collections.Common.Advanced
 
         internal CustomEqualityComparer_C<T> __WITH__(n2.Func<T, T, bool> Equals_Delegate, n2.Func<T, int> HashCode_Delegate)
         {
-            n44.CustomEqualityComparer_C<T> that_0 = this;
+            n51.CustomEqualityComparer_C<T> that_0 = this;
             this.Equals_Delegate = Equals_Delegate;
             this.HashCode_Delegate = HashCode_Delegate;
             return that_0;
         }
     }
 
-    [n1.ElementAttribute(TracingId = 247402U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "UukD261h7BQMFmNeUcyYb4", Name = "CustomComparer_C")]
+    [n1.ElementAttribute(TracingId = 269020U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "UukD261h7BQMFmNeUcyYb4", Name = "CustomComparer_C")]
     [n2.SerializableAttribute]
     public class CustomComparer_C<T> : n1.VLObject, n6.IComparer<T>, n2.IDisposable
     {
         [n4.CreateNewAttribute]
-        public static n44.CustomComparer_C<T> Create(n1.NodeContext Node_Context, n2.Func<T, T, int> Compare_In)
+        public static n51.CustomComparer_C<T> Create(n1.NodeContext Node_Context, n2.Func<T, T, int> Compare_In)
         {
             Node_Context = Node_Context.WithIsImmutable(false);
             var instance = new CustomComparer_C<T>(Node_Context, n1.VLObject.NewIdentity());
@@ -10208,33 +10208,33 @@ namespace _VL_Collections_.Collections.Common.Advanced
         }
 
         [n4.CreateDefaultAttribute]
-        public static n44.CustomComparer_C<T> CreateDefault()
+        public static n51.CustomComparer_C<T> CreateDefault()
         {
             var context = n1.NodeContext.Default.WithIsImmutable(false);
             var instance = new CustomComparer_C<T>(context, n1.VLObject.NewIdentity());
             return instance.__CreateDefault__();
         }
 
-        public n44.CustomComparer_C<T> Compare_(T X_In, T Y_In, out int Result_Out)
+        public n51.CustomComparer_C<T> Compare_(T X_In, T Y_In, out int Result_Out)
         {
             n2.Func<T, T, int> __auto_0 = this.Compare_Delegate;
-            n45._Operations_.Invoke<T, T, int>(Input_In: __auto_0, Arg_1_In: X_In, Arg_2_In: Y_In, Result_Out: out int Result_1);
+            n47._Operations_.Invoke<T, T, int>(Input_In: __auto_0, Arg_1_In: X_In, Arg_2_In: Y_In, Result_Out: out int Result_1);
             Result_Out = Result_1;
             return this;
         }
 
-        public n44.CustomComparer_C<T> __Create__(n1.NodeContext Node_Context, n2.Func<T, T, int> Compare_In)
+        public n51.CustomComparer_C<T> __Create__(n1.NodeContext Node_Context, n2.Func<T, T, int> Compare_In)
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
-            this.Compare_Delegate = n45._Operations_.CreateDefault<T, T, int, n12.__AdaptiveImplementations__CsYvmiCXzFgMbCg5YvFjkW>();
+            this.Compare_Delegate = n47._Operations_.CreateDefault<T, T, int, n12.__AdaptiveImplementations__CsYvmiCXzFgMbCg5YvFjkW>();
             this.Compare_Delegate = Compare_In;
             n2.Func<T, T, int> __auto_0 = Compare_In;
             return this;
         }
 
-        public n44.CustomComparer_C<T> __CreateDefault__()
+        public n51.CustomComparer_C<T> __CreateDefault__()
         {
-            this.Compare_Delegate = n45._Operations_.CreateDefault<T, T, int, n12.__AdaptiveImplementations__CsYvmiCXzFgMbCg5YvFjkW>();
+            this.Compare_Delegate = n47._Operations_.CreateDefault<T, T, int, n12.__AdaptiveImplementations__CsYvmiCXzFgMbCg5YvFjkW>();
             return this;
         }
 
@@ -10256,7 +10256,7 @@ namespace _VL_Collections_.Collections.Common.Advanced
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 247412U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "IZRhBk1ZEm3NeU8HFAGMYE", Name = "Compare Delegate")]
+        [n1.ElementAttribute(TracingId = 269027U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "IZRhBk1ZEm3NeU8HFAGMYE", Name = "Compare Delegate")]
         public n2.Func<T, T, int> Compare_Delegate;
         public CustomComparer_C(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -10274,7 +10274,7 @@ namespace _VL_Collections_.Collections.Common.Advanced
 
         internal CustomComparer_C<T> __WITH__(n2.Func<T, T, int> Compare_Delegate)
         {
-            n44.CustomComparer_C<T> that_0 = this;
+            n51.CustomComparer_C<T> that_0 = this;
             this.Compare_Delegate = Compare_Delegate;
             return that_0;
         }
@@ -10283,39 +10283,39 @@ namespace _VL_Collections_.Collections.Common.Advanced
 
 namespace _VL_Collections_.Collections.Sequence
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         public static void All<T>(n6.IEnumerable<T> Input_In, n2.Func<T, bool> Predicate_In, out bool Result_Out)
         {
-            var Result_0 = n42.EnumerableNodes.All<T>(input: Input_In, predicate: Predicate_In);
+            var Result_0 = n23.EnumerableNodes.All<T>(input: Input_In, predicate: Predicate_In);
             Result_Out = Result_0;
             return;
         }
 
         public static void AND_Spectral(n6.IEnumerable<bool> Input_In, out bool Result_Out)
         {
-            var Result_0 = n42.EnumerableNodes.AND(input: Input_In);
+            var Result_0 = n23.EnumerableNodes.AND(input: Input_In);
             Result_Out = Result_0;
             return;
         }
 
         public static void Any<T>(n6.IEnumerable<T> Input_In, out bool Result_Out)
         {
-            var Result_0 = n42.EnumerableNodes.Any<T>(input: Input_In);
+            var Result_0 = n23.EnumerableNodes.Any<T>(input: Input_In);
             Result_Out = Result_0;
             return;
         }
 
         public static void Any_Predicate<T>(n6.IEnumerable<T> Input_In, n2.Func<T, bool> Predicate_In, out bool Result_Out)
         {
-            var Result_0 = n42.EnumerableNodes.Any<T>(input: Input_In, predicate: Predicate_In);
+            var Result_0 = n23.EnumerableNodes.Any<T>(input: Input_In, predicate: Predicate_In);
             Result_Out = Result_0;
             return;
         }
 
         public static void Average<T2, T, AdM>(T2 Input_In, out T Result_Out)
-            where T2 : n6.IEnumerable<T> where AdM : struct, n18.IAdaptiveOperatorPlus<T>, n18.IAdaptiveOperatorDivide_Scale<T>, n19.IAdaptiveCreateDefault<T>
+            where T2 : n6.IEnumerable<T> where AdM : struct, n18.IAdaptiveCreateDefault<T>, n19.IAdaptiveOperatorPlus<T>, n19.IAdaptiveOperatorDivide_Scale<T>
         {
             var w_0 = default(AdM);
             int __pad_AVHKqZ1HxdCMkwblfNESJG_1 = __slot_AVHKqZ1HxdCMkwblfNESJG;
@@ -10341,7 +10341,7 @@ namespace _VL_Collections_.Collections.Sequence
         }
 
         public static void Average_Selector<T3, T2, T, AdM>(T3 Input_In, n2.Func<T2, T> Selector_In, out T Result_Out)
-            where T3 : n6.IEnumerable<T2> where AdM : struct, n18.IAdaptiveOperatorPlus<T>, n18.IAdaptiveOperatorDivide_Scale<T>, n19.IAdaptiveCreateDefault<T>
+            where T3 : n6.IEnumerable<T2> where AdM : struct, n18.IAdaptiveCreateDefault<T>, n19.IAdaptiveOperatorPlus<T>, n19.IAdaptiveOperatorDivide_Scale<T>
         {
             var w_0 = default(AdM);
             int __pad_H4xl3WlQWS9MV59AI9Syxx_1 = __slot_H4xl3WlQWS9MV59AI9Syxx;
@@ -10368,7 +10368,7 @@ namespace _VL_Collections_.Collections.Sequence
         }
 
         public static void Contains<T2, T, AdM>(T2 Input_In, T Value_In, out bool Result_Out)
-            where T2 : n6.IEnumerable<T> where AdM : struct, n18.IAdaptiveOperatorEquals<T>
+            where T2 : n6.IEnumerable<T> where AdM : struct, n19.IAdaptiveOperatorEquals<T>
         {
             var w_0 = default(AdM);
             var breakOutput_6 = false;
@@ -10392,7 +10392,7 @@ namespace _VL_Collections_.Collections.Sequence
         }
 
         public static void Contains_Selector<T4, T2, T3, T, AdM>(T4 Input_In, T3 Value_In, n2.Func<T3, T> Selector_In, out bool Result_Out)
-            where T4 : n6.IEnumerable<T2> where AdM : struct, n18.IAdaptiveOperatorEquals<T>, n19.IAdaptiveCreateDefault<T>
+            where T4 : n6.IEnumerable<T2> where AdM : struct, n19.IAdaptiveOperatorEquals<T>, n18.IAdaptiveCreateDefault<T>
         {
             var w_0 = default(AdM);
             n17._Operations_.Invoke<T3, T>(Input_In: Selector_In, Arg_In: Value_In, Result_Out: out T Result_1);
@@ -10421,14 +10421,14 @@ namespace _VL_Collections_.Collections.Sequence
         [n4.CreateDefaultAttribute]
         public static n6.IEnumerable<T> CreateDefault<T>()
         {
-            var Result_0 = n42.EnumerableNodes.Empty<T>();
+            var Result_0 = n23.EnumerableNodes.Empty<T>();
             return Result_0;
         }
 
         public static void FirstOrDefault<T2, T>(T2 Input_In, T Default_Value_In, out T2 Output_Out, out T Result_Out)
             where T2 : n6.IEnumerable<T>
         {
-            var Output_1 = n42.EnumerableNodes.FirstOrDefault<T, T2>(input: Input_In, defaultValue: Default_Value_In, result: out T Result_0);
+            var Output_1 = n23.EnumerableNodes.FirstOrDefault<T, T2>(input: Input_In, defaultValue: Default_Value_In, result: out T Result_0);
             Output_Out = Output_1;
             Result_Out = Result_0;
             return;
@@ -10437,7 +10437,7 @@ namespace _VL_Collections_.Collections.Sequence
         public static void FirstOrDefault_Predicate<T2, T>(T2 Input_In, T Default_Value_In, n2.Func<T, bool> Predicate_In, out T2 Output_Out, out T Result_Out)
             where T2 : n6.IEnumerable<T>
         {
-            var Output_1 = n42.EnumerableNodes.FirstOrDefault<T, T2>(input: Input_In, defaultValue: Default_Value_In, predicate: Predicate_In, result: out T Result_0);
+            var Output_1 = n23.EnumerableNodes.FirstOrDefault<T, T2>(input: Input_In, defaultValue: Default_Value_In, predicate: Predicate_In, result: out T Result_0);
             Output_Out = Output_1;
             Result_Out = Result_0;
             return;
@@ -10445,7 +10445,7 @@ namespace _VL_Collections_.Collections.Sequence
 
         public static void GetPairedSpreadsSwapped<T>(n6.IEnumerable<T> Input_In, out n5.Spread<T> Ouput_Out, out n5.Spread<T> Output_2_Out)
         {
-            n42.EnumerableNodes.GetPairedSpreadsSwapped<T>(input: Input_In, ouput: out n5.Spread<T> Ouput_0, output2: out n5.Spread<T> Output_2_1);
+            n23.EnumerableNodes.GetPairedSpreadsSwapped<T>(input: Input_In, ouput: out n5.Spread<T> Ouput_0, output2: out n5.Spread<T> Output_2_1);
             Ouput_Out = Ouput_0;
             Output_2_Out = Output_2_1;
             return;
@@ -10454,7 +10454,7 @@ namespace _VL_Collections_.Collections.Sequence
         public static void LastOrDefault<T2, T>(T2 Input_In, T Default_Value_In, out T2 Output_Out, out T Result_Out)
             where T2 : n6.IEnumerable<T>
         {
-            var Output_1 = n42.EnumerableNodes.LastOrDefault<T, T2>(input: Input_In, defaultValue: Default_Value_In, result: out T Result_0);
+            var Output_1 = n23.EnumerableNodes.LastOrDefault<T, T2>(input: Input_In, defaultValue: Default_Value_In, result: out T Result_0);
             Output_Out = Output_1;
             Result_Out = Result_0;
             return;
@@ -10463,14 +10463,14 @@ namespace _VL_Collections_.Collections.Sequence
         public static void LastOrDefault_Predicate<T2, T>(T2 Input_In, T Default_Value_In, n2.Func<T, bool> Predicate_In, out T2 Output_Out, out T Result_Out)
             where T2 : n6.IEnumerable<T>
         {
-            var Output_1 = n42.EnumerableNodes.LastOrDefault<T, T2>(input: Input_In, defaultValue: Default_Value_In, predicate: Predicate_In, result: out T Result_0);
+            var Output_1 = n23.EnumerableNodes.LastOrDefault<T, T2>(input: Input_In, defaultValue: Default_Value_In, predicate: Predicate_In, result: out T Result_0);
             Output_Out = Output_1;
             Result_Out = Result_0;
             return;
         }
 
         public static void Max<T2, T, AdM>(T2 Input_In, out T Result_Out)
-            where T2 : n6.IEnumerable<T> where AdM : struct, n18.IAdaptiveOperatorGreater<T>, n19.IAdaptiveCreateDefault<T>
+            where T2 : n6.IEnumerable<T> where AdM : struct, n19.IAdaptiveOperatorGreater<T>, n18.IAdaptiveCreateDefault<T>
         {
             var w_0 = default(AdM);
             w_0.CreateDefault(Output_Out: out T Output_1);
@@ -10491,7 +10491,7 @@ namespace _VL_Collections_.Collections.Sequence
         }
 
         public static void Max_Selector<T3, T2, T, AdM>(T3 Input_In, n2.Func<T2, T> Selector_In, out T Result_Out)
-            where T3 : n6.IEnumerable<T2> where AdM : struct, n18.IAdaptiveOperatorGreater<T>, n19.IAdaptiveCreateDefault<T>
+            where T3 : n6.IEnumerable<T2> where AdM : struct, n19.IAdaptiveOperatorGreater<T>, n18.IAdaptiveCreateDefault<T>
         {
             n5.Spread<T> __cp_EkmSBA3FCLOPHw5VucP6AO = n7._Operations_.CreateDefault<T>();
             var w_0 = default(AdM);
@@ -10532,7 +10532,7 @@ namespace _VL_Collections_.Collections.Sequence
         }
 
         public static void Min<T2, T, AdM>(T2 Input_In, out T Result_Out)
-            where T2 : n6.IEnumerable<T> where AdM : struct, n19.IAdaptiveCreateDefault<T>, n18.IAdaptiveOperatorLess<T>
+            where T2 : n6.IEnumerable<T> where AdM : struct, n18.IAdaptiveCreateDefault<T>, n19.IAdaptiveOperatorLess<T>
         {
             var w_0 = default(AdM);
             w_0.CreateDefault(Output_Out: out T Output_1);
@@ -10553,7 +10553,7 @@ namespace _VL_Collections_.Collections.Sequence
         }
 
         public static void Min_Selector<T3, T2, T, AdM>(T3 Input_In, n2.Func<T2, T> Selector_In, out T Result_Out)
-            where T3 : n6.IEnumerable<T2> where AdM : struct, n19.IAdaptiveCreateDefault<T>, n18.IAdaptiveOperatorLess<T>
+            where T3 : n6.IEnumerable<T2> where AdM : struct, n18.IAdaptiveCreateDefault<T>, n19.IAdaptiveOperatorLess<T>
         {
             n5.Spread<T> __cp_VxUx5putQIFNVp3qSyYBkp = n7._Operations_.CreateDefault<T>();
             var w_0 = default(AdM);
@@ -10595,21 +10595,21 @@ namespace _VL_Collections_.Collections.Sequence
 
         public static void None<T>(n6.IEnumerable<T> Input_In, out bool Result_Out)
         {
-            var Result_0 = n42.EnumerableNodes.None<T>(input: Input_In);
+            var Result_0 = n23.EnumerableNodes.None<T>(input: Input_In);
             Result_Out = Result_0;
             return;
         }
 
         public static void None_Predicate<T>(n6.IEnumerable<T> Input_In, n2.Func<T, bool> Predicate_In, out bool Result_Out)
         {
-            var Result_0 = n42.EnumerableNodes.None<T>(input: Input_In, predicate: Predicate_In);
+            var Result_0 = n23.EnumerableNodes.None<T>(input: Input_In, predicate: Predicate_In);
             Result_Out = Result_0;
             return;
         }
 
         public static void OR_Spectral(n6.IEnumerable<bool> Input_In, out bool Result_Out)
         {
-            var Result_0 = n42.EnumerableNodes.OR(input: Input_In);
+            var Result_0 = n23.EnumerableNodes.OR(input: Input_In);
             Result_Out = Result_0;
             return;
         }
@@ -10617,52 +10617,52 @@ namespace _VL_Collections_.Collections.Sequence
         public static void RecursiveTree<T, T2>(int Max_Depth_In, T Initial_Element_In, n2.Func<T, int, T2> Create_Children_In, out n5.Spread<T> Result_Out)
             where T2 : n6.IEnumerable<T>
         {
-            n1.NodeContext Node_Context_0 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "MsdX2uCw2SuNPKsE52h4Zq", 249004U);
+            n1.NodeContext Node_Context_0 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "MsdX2uCw2SuNPKsE52h4Zq", 269545U);
             int Capacity_1 = 0;
-            n22._Operations_.Create<T>(Node_Context: Node_Context_0, Capacity_In: Capacity_1, Output_Out: out n5.SpreadBuilder<T> Output_2);
-            n22._Operations_.Add<T>(Input_In: Output_2, Item_In: Initial_Element_In, Output_Out: out n5.SpreadBuilder<T> Output_3);
+            n24._Operations_.Create<T>(Node_Context: Node_Context_0, Capacity_In: Capacity_1, Output_Out: out n5.SpreadBuilder<T> Output_2);
+            n24._Operations_.Add<T>(Input_In: Output_2, Item_In: Initial_Element_In, Output_Out: out n5.SpreadBuilder<T> Output_3);
             n5.SpreadBuilder<T> accumulator_5 = Output_3;
             n5.SpreadBuilder<T> accumulator_6 = Output_3;
             for (var i_4 = 0; i_4 < Max_Depth_In; i_4++)
             {
                 var i_local_7 = i_4;
-                n1.NodeContext Node_Context_8 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "J2M2kM8p87QPnmoXsYrCpR", 249056U);
+                n1.NodeContext Node_Context_8 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "J2M2kM8p87QPnmoXsYrCpR", 269564U);
                 int Capacity_9 = 0;
-                n22._Operations_.Create<T>(Node_Context: Node_Context_8, Capacity_In: Capacity_9, Output_Out: out n5.SpreadBuilder<T> Output_10);
+                n24._Operations_.Create<T>(Node_Context: Node_Context_8, Capacity_In: Capacity_9, Output_Out: out n5.SpreadBuilder<T> Output_10);
                 n5.SpreadBuilder<T> accumulator_12 = Output_10;
                 var i_14 = 0;
                 foreach (var item_11 in accumulator_6)
                 {
                     var splicer_13 = item_11;
                     var i_local_15 = i_14;
-                    n45._Operations_.Invoke<T, int, T2>(Input_In: Create_Children_In, Arg_1_In: splicer_13, Arg_2_In: i_local_7, Result_Out: out T2 Result_16);
+                    n47._Operations_.Invoke<T, int, T2>(Input_In: Create_Children_In, Arg_1_In: splicer_13, Arg_2_In: i_local_7, Result_Out: out T2 Result_16);
                     n6.IEnumerable<T> Items_17 = (n6.IEnumerable<T>)Result_16;
-                    n22._Operations_.AddRange<T>(Input_In: accumulator_12, Items_In: Items_17, Output_Out: out n5.SpreadBuilder<T> Output_18);
+                    n24._Operations_.AddRange<T>(Input_In: accumulator_12, Items_In: Items_17, Output_Out: out n5.SpreadBuilder<T> Output_18);
                     accumulator_12 = Output_18;
                     i_14++;
                 }
 
                 n6.IEnumerable<T> Items_19 = (n6.IEnumerable<T>)accumulator_12;
-                n22._Operations_.AddRange<T>(Input_In: accumulator_5, Items_In: Items_19, Output_Out: out n5.SpreadBuilder<T> Output_20);
+                n24._Operations_.AddRange<T>(Input_In: accumulator_5, Items_In: Items_19, Output_Out: out n5.SpreadBuilder<T> Output_20);
                 accumulator_5 = Output_20;
                 accumulator_6 = accumulator_12;
             }
 
-            n22._Operations_.ToSpread<T>(Input_In: accumulator_5, Output_Out: out n5.SpreadBuilder<T> Output_21, Result_Out: out n5.Spread<T> Result_22);
+            n24._Operations_.ToSpread<T>(Input_In: accumulator_5, Output_Out: out n5.SpreadBuilder<T> Output_21, Result_Out: out n5.Spread<T> Result_22);
             Result_Out = Result_22;
             return;
         }
 
         public static void SequenceEqual<T>(n6.IEnumerable<T> Input_In, n6.IEnumerable<T> Second_In, out bool Result_Out)
         {
-            var Result_0 = n42.EnumerableNodes.SequenceEqual<T>(input: Input_In, second: Second_In);
+            var Result_0 = n23.EnumerableNodes.SequenceEqual<T>(input: Input_In, second: Second_In);
             Result_Out = Result_0;
             return;
         }
 
         public static void SplitFirst<T>(n6.IEnumerable<T> Input_In, T Default_Value_In, out n6.IEnumerable<T> Output_Out, out T Result_Out)
         {
-            n42.EnumerableNodes.SplitFirst<T>(input: Input_In, defaultValue: Default_Value_In, output: out n6.IEnumerable<T> Output_0, result: out T Result_1);
+            n23.EnumerableNodes.SplitFirst<T>(input: Input_In, defaultValue: Default_Value_In, output: out n6.IEnumerable<T> Output_0, result: out T Result_1);
             Output_Out = Output_0;
             Result_Out = Result_1;
             return;
@@ -10670,14 +10670,14 @@ namespace _VL_Collections_.Collections.Sequence
 
         public static void SplitLast<T>(n6.IEnumerable<T> Input_In, T Default_Value_In, out n6.IEnumerable<T> Output_Out, out T Result_Out)
         {
-            n42.EnumerableNodes.SplitLast<T>(input: Input_In, defaultValue: Default_Value_In, output: out n6.IEnumerable<T> Output_0, result: out T Result_1);
+            n23.EnumerableNodes.SplitLast<T>(input: Input_In, defaultValue: Default_Value_In, output: out n6.IEnumerable<T> Output_0, result: out T Result_1);
             Output_Out = Output_0;
             Result_Out = Result_1;
             return;
         }
 
         public static void Sum<T2, T, AdM>(T2 Input_In, out T Result_Out)
-            where T2 : n6.IEnumerable<T> where AdM : struct, n18.IAdaptiveOperatorPlus<T>, n19.IAdaptiveCreateDefault<T>
+            where T2 : n6.IEnumerable<T> where AdM : struct, n18.IAdaptiveCreateDefault<T>, n19.IAdaptiveOperatorPlus<T>
         {
             var w_0 = default(AdM);
             w_0.CreateDefault(Output_Out: out T Output_1);
@@ -10697,7 +10697,7 @@ namespace _VL_Collections_.Collections.Sequence
         }
 
         public static void Sum_Selector<T3, T2, T, AdM>(T3 Input_In, n2.Func<T2, T> Selector_In, out T Result_Out)
-            where T3 : n6.IEnumerable<T2> where AdM : struct, n18.IAdaptiveOperatorPlus<T>, n19.IAdaptiveCreateDefault<T>
+            where T3 : n6.IEnumerable<T2> where AdM : struct, n18.IAdaptiveCreateDefault<T>, n19.IAdaptiveOperatorPlus<T>
         {
             var w_0 = default(AdM);
             w_0.CreateDefault(Output_Out: out T Output_1);
@@ -10717,23 +10717,23 @@ namespace _VL_Collections_.Collections.Sequence
             return;
         }
 
-        public static void ToStream(n6.IEnumerable<byte> Input_In, bool Writeable_In, out n48.IResourceProvider<n47.Stream> Result_Out)
+        public static void ToStream(n6.IEnumerable<byte> Input_In, bool Writeable_In, out n54.IResourceProvider<n53.Stream> Result_Out)
         {
-            var Result_0 = n46.StreamUtils.ToStream(input: Input_In, writeable: Writeable_In);
+            var Result_0 = n52.StreamUtils.ToStream(input: Input_In, writeable: Writeable_In);
             Result_Out = Result_0;
             return;
         }
 
         public static void ToString(n6.IEnumerable<char> Input_In, out string Result_Out)
         {
-            var Result_0 = n42.EnumerableNodes.ToString(input: Input_In);
+            var Result_0 = n23.EnumerableNodes.ToString(input: Input_In);
             Result_Out = Result_0;
             return;
         }
 
         public static void GetPairedSpreads<T>(n6.IEnumerable<T> Input_In, out n5.Spread<T> Output_Out, out n5.Spread<T> Output_2_Out)
         {
-            n42.EnumerableNodes.GetPairedSpreads<T>(input: Input_In, output: out n5.Spread<T> Output_0, output2: out n5.Spread<T> Output_2_1);
+            n23.EnumerableNodes.GetPairedSpreads<T>(input: Input_In, output: out n5.Spread<T> Output_0, output2: out n5.Spread<T> Output_2_1);
             Output_Out = Output_0;
             Output_2_Out = Output_2_1;
             return;
@@ -10741,259 +10741,259 @@ namespace _VL_Collections_.Collections.Sequence
 
         public static void ToList<T>(n6.IEnumerable<T> Input_In, out n6.List<T> Result_Out)
         {
-            var Result_0 = n36.Enumerable.ToList<T>(source: Input_In);
+            var Result_0 = n39.Enumerable.ToList<T>(source: Input_In);
             Result_Out = Result_0;
             return;
         }
 
         public static void Aggregate<T2, T>(n6.IEnumerable<T2> Input_In, T Seed_In, n2.Func<T, T2, T> Accumulator_In, out T Result_Out)
         {
-            var Result_0 = n42.EnumerableNodes.Aggregate<T2, T>(input: Input_In, seed: Seed_In, accumulator: Accumulator_In);
+            var Result_0 = n23.EnumerableNodes.Aggregate<T2, T>(input: Input_In, seed: Seed_In, accumulator: Accumulator_In);
             Result_Out = Result_0;
             return;
         }
 
         public static void Cast<T>(n15.IEnumerable Input_In, out n6.IEnumerable<T> Result_Out)
         {
-            var Result_0 = n42.EnumerableNodes.Cast<T>(input: Input_In);
+            var Result_0 = n23.EnumerableNodes.Cast<T>(input: Input_In);
             Result_Out = Result_0;
             return;
         }
 
         public static void Concat<T>(n6.IEnumerable<T> Input_In, n6.IEnumerable<T> Input_2_In, out n6.IEnumerable<T> Output_Out)
         {
-            var Output_0 = n42.EnumerableNodes.Concat<T>(input: Input_In, input2: Input_2_In);
+            var Output_0 = n23.EnumerableNodes.Concat<T>(input: Input_In, input2: Input_2_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void Count<T>(n6.IEnumerable<T> Input_In, out int Result_Out)
         {
-            var Result_0 = n42.EnumerableNodes.Count<T>(input: Input_In);
+            var Result_0 = n23.EnumerableNodes.Count<T>(input: Input_In);
             Result_Out = Result_0;
             return;
         }
 
         public static void Count_Predicate<T>(n6.IEnumerable<T> Input_In, n2.Func<T, bool> Predicate_In, out int Result_Out)
         {
-            var Result_0 = n42.EnumerableNodes.Count<T>(input: Input_In, predicate: Predicate_In);
+            var Result_0 = n23.EnumerableNodes.Count<T>(input: Input_In, predicate: Predicate_In);
             Result_Out = Result_0;
             return;
         }
 
         public static void DefaultIfEmpty<T>(n6.IEnumerable<T> Input_In, T Default_Value_In, out n6.IEnumerable<T> Output_Out)
         {
-            var Output_0 = n42.EnumerableNodes.DefaultIfEmpty<T>(input: Input_In, defaultValue: Default_Value_In);
+            var Output_0 = n23.EnumerableNodes.DefaultIfEmpty<T>(input: Input_In, defaultValue: Default_Value_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void Distinct<T>(n6.IEnumerable<T> Input_In, out n6.IEnumerable<T> Output_Out)
         {
-            var Output_0 = n42.EnumerableNodes.Distinct<T>(input: Input_In);
+            var Output_0 = n23.EnumerableNodes.Distinct<T>(input: Input_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void Distinct_Selector<T, T2>(n6.IEnumerable<T> Input_In, n2.Func<T, T2> Key_Selector_In, out n6.IEnumerable<T> Output_Out)
         {
-            var Output_0 = n36.EnumerableEx.Distinct<T, T2>(source: Input_In, keySelector: Key_Selector_In);
+            var Output_0 = n39.EnumerableEx.Distinct<T, T2>(source: Input_In, keySelector: Key_Selector_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void DistinctUntilChanged<T>(n6.IEnumerable<T> Input_In, out n6.IEnumerable<T> Output_Out)
         {
-            var Output_0 = n36.EnumerableEx.DistinctUntilChanged<T>(source: Input_In);
+            var Output_0 = n39.EnumerableEx.DistinctUntilChanged<T>(source: Input_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void DistinctUntilChanged_Selector<T, T2>(n6.IEnumerable<T> Input_In, n2.Func<T, T2> Key_Selector_In, out n6.IEnumerable<T> Output_Out)
         {
-            var Output_0 = n36.EnumerableEx.DistinctUntilChanged<T, T2>(source: Input_In, keySelector: Key_Selector_In);
+            var Output_0 = n39.EnumerableEx.DistinctUntilChanged<T, T2>(source: Input_In, keySelector: Key_Selector_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void Do<T>(n6.IEnumerable<T> Input_In, n2.Action<T> On_Next_In, n2.Action On_Completed_In, out n6.IEnumerable<T> Output_Out)
         {
-            var Output_0 = n36.EnumerableEx.Do<T>(source: Input_In, onNext: On_Next_In, onCompleted: On_Completed_In);
+            var Output_0 = n39.EnumerableEx.Do<T>(source: Input_In, onNext: On_Next_In, onCompleted: On_Completed_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void Empty<T>(out n6.IEnumerable<T> Result_Out)
         {
-            var Result_0 = n42.EnumerableNodes.Empty<T>();
+            var Result_0 = n23.EnumerableNodes.Empty<T>();
             Result_Out = Result_0;
             return;
         }
 
         public static void Except<T>(n6.IEnumerable<T> Input_In, n6.IEnumerable<T> Input_2_In, out n6.IEnumerable<T> Output_Out)
         {
-            var Output_0 = n42.EnumerableNodes.Except<T>(input: Input_In, input2: Input_2_In);
+            var Output_0 = n23.EnumerableNodes.Except<T>(input: Input_In, input2: Input_2_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void Except_Selector<T, T2>(n6.IEnumerable<T> Input_In, n6.IEnumerable<T> Input_2_In, n2.Func<T, T2> Selector_In, out n6.IEnumerable<T> Output_Out)
         {
-            var Output_0 = n42.EnumerableNodes.ExceptByKey<T, T2>(input: Input_In, input2: Input_2_In, selector: Selector_In);
+            var Output_0 = n23.EnumerableNodes.ExceptByKey<T, T2>(input: Input_In, input2: Input_2_In, selector: Selector_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void Expand<T>(n6.IEnumerable<T> Input_In, n2.Func<T, n6.IEnumerable<T>> Selector_In, out n6.IEnumerable<T> Output_Out)
         {
-            var Output_0 = n36.EnumerableEx.Expand<T>(source: Input_In, selector: Selector_In);
+            var Output_0 = n39.EnumerableEx.Expand<T>(source: Input_In, selector: Selector_In);
             Output_Out = Output_0;
             return;
         }
 
-        public static void GroupBy<T, T2>(n6.IEnumerable<T> Input_In, n2.Func<T, T2> Key_Selector_In, out n6.IEnumerable<n36.IGrouping<T2, T>> Output_Out)
+        public static void GroupBy<T, T2>(n6.IEnumerable<T> Input_In, n2.Func<T, T2> Key_Selector_In, out n6.IEnumerable<n39.IGrouping<T2, T>> Output_Out)
         {
-            var Output_0 = n42.EnumerableNodes.GroupBy<T, T2>(input: Input_In, keySelector: Key_Selector_In);
+            var Output_0 = n23.EnumerableNodes.GroupBy<T, T2>(input: Input_In, keySelector: Key_Selector_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void Intersect<T>(n6.IEnumerable<T> Input_In, n6.IEnumerable<T> Input_2_In, out n6.IEnumerable<T> Output_Out)
         {
-            var Output_0 = n42.EnumerableNodes.Intersect<T>(input: Input_In, input2: Input_2_In);
+            var Output_0 = n23.EnumerableNodes.Intersect<T>(input: Input_In, input2: Input_2_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void Intersect_Selector<T, T2>(n6.IEnumerable<T> Input_In, n6.IEnumerable<T> Input_2_In, n2.Func<T, T2> Selector_In, out n6.IEnumerable<T> Output_Out)
         {
-            var Output_0 = n42.EnumerableNodes.IntersectByKey<T, T2>(input: Input_In, input2: Input_2_In, selector: Selector_In);
+            var Output_0 = n23.EnumerableNodes.IntersectByKey<T, T2>(input: Input_In, input2: Input_2_In, selector: Selector_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void IsEmpty<T>(n6.IEnumerable<T> Input_In, out bool Result_Out)
         {
-            var Result_0 = n36.EnumerableEx.IsEmpty<T>(source: Input_In);
+            var Result_0 = n39.EnumerableEx.IsEmpty<T>(source: Input_In);
             Result_Out = Result_0;
             return;
         }
 
         public static void MaxBy<T, T2>(n6.IEnumerable<T> Input_In, n2.Func<T, T2> Key_Selector_In, out n6.IList<T> Result_Out)
         {
-            var Result_0 = n36.EnumerableEx.MaxBy<T, T2>(source: Input_In, keySelector: Key_Selector_In);
+            var Result_0 = n39.EnumerableEx.MaxBy<T, T2>(source: Input_In, keySelector: Key_Selector_In);
             Result_Out = Result_0;
             return;
         }
 
-        public static void Memoize<T>(n6.IEnumerable<T> Input_In, out n36.IBuffer<T> Result_Out)
+        public static void Memoize<T>(n6.IEnumerable<T> Input_In, out n39.IBuffer<T> Result_Out)
         {
-            var Result_0 = n36.EnumerableEx.Memoize<T>(source: Input_In);
+            var Result_0 = n39.EnumerableEx.Memoize<T>(source: Input_In);
             Result_Out = Result_0;
             return;
         }
 
         public static void MinBy<T, T2>(n6.IEnumerable<T> Input_In, n2.Func<T, T2> Key_Selector_In, out n6.IList<T> Result_Out)
         {
-            var Result_0 = n36.EnumerableEx.MinBy<T, T2>(source: Input_In, keySelector: Key_Selector_In);
+            var Result_0 = n39.EnumerableEx.MinBy<T, T2>(source: Input_In, keySelector: Key_Selector_In);
             Result_Out = Result_0;
             return;
         }
 
         public static void OfType<T>(n15.IEnumerable Input_In, out n6.IEnumerable<T> Result_Out)
         {
-            var Result_0 = n42.EnumerableNodes.OfType<T>(input: Input_In);
+            var Result_0 = n23.EnumerableNodes.OfType<T>(input: Input_In);
             Result_Out = Result_0;
             return;
         }
 
-        public static void OrderBy<T, T2>(n6.IEnumerable<T> Input_In, n2.Func<T, T2> Key_Selector_In, out n36.IOrderedEnumerable<T> Result_Out)
+        public static void OrderBy<T, T2>(n6.IEnumerable<T> Input_In, n2.Func<T, T2> Key_Selector_In, out n39.IOrderedEnumerable<T> Result_Out)
         {
-            var Result_0 = n42.EnumerableNodes.OrderBy<T, T2>(input: Input_In, keySelector: Key_Selector_In);
+            var Result_0 = n23.EnumerableNodes.OrderBy<T, T2>(input: Input_In, keySelector: Key_Selector_In);
             Result_Out = Result_0;
             return;
         }
 
-        public static void OrderByDescending<T, T2>(n6.IEnumerable<T> Input_In, n2.Func<T, T2> Key_Selector_In, out n36.IOrderedEnumerable<T> Result_Out)
+        public static void OrderByDescending<T, T2>(n6.IEnumerable<T> Input_In, n2.Func<T, T2> Key_Selector_In, out n39.IOrderedEnumerable<T> Result_Out)
         {
-            var Result_0 = n42.EnumerableNodes.OrderByDescending<T, T2>(input: Input_In, keySelector: Key_Selector_In);
+            var Result_0 = n23.EnumerableNodes.OrderByDescending<T, T2>(input: Input_In, keySelector: Key_Selector_In);
             Result_Out = Result_0;
             return;
         }
 
         public static void Select<T, T2>(n6.IEnumerable<T> Input_In, n2.Func<T, int, T2> Transformer_In, out n6.IEnumerable<T2> Output_Out)
         {
-            var Output_0 = n42.EnumerableNodes.Project<T, T2>(input: Input_In, transformer: Transformer_In);
+            var Output_0 = n23.EnumerableNodes.Project<T, T2>(input: Input_In, transformer: Transformer_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void Select_Many<T, T2>(n6.IEnumerable<T> Input_In, n2.Func<T, int, n6.IEnumerable<T2>> Transformer_In, out n6.IEnumerable<T2> Output_Out)
         {
-            var Output_0 = n42.EnumerableNodes.Project<T, T2>(input: Input_In, transformer: Transformer_In);
+            var Output_0 = n23.EnumerableNodes.Project<T, T2>(input: Input_In, transformer: Transformer_In);
             Output_Out = Output_0;
             return;
         }
 
-        public static void Publish<T>(n6.IEnumerable<T> Input_In, out n36.IBuffer<T> Result_Out)
+        public static void Publish<T>(n6.IEnumerable<T> Input_In, out n39.IBuffer<T> Result_Out)
         {
-            var Result_0 = n36.EnumerableEx.Publish<T>(source: Input_In);
+            var Result_0 = n39.EnumerableEx.Publish<T>(source: Input_In);
             Result_Out = Result_0;
             return;
         }
 
         public static void Repeat<T>(T Element_In, int Count_In, out n6.IEnumerable<T> Result_Out)
         {
-            var Result_0 = n36.EnumerableEx.Repeat<T>(element: Element_In, count: Count_In);
+            var Result_0 = n39.EnumerableEx.Repeat<T>(element: Element_In, count: Count_In);
             Result_Out = Result_0;
             return;
         }
 
         public static void Reverse<T>(n6.IEnumerable<T> Input_In, out n6.IEnumerable<T> Output_Out)
         {
-            var Output_0 = n42.EnumerableNodes.Reverse<T>(input: Input_In);
+            var Output_0 = n23.EnumerableNodes.Reverse<T>(input: Input_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void Scan<T2, T>(n6.IEnumerable<T2> Input_In, T Seed_In, n2.Func<T, T2, T> Accumulator_In, out n6.IEnumerable<T> Output_Out)
         {
-            var Output_0 = n36.EnumerableEx.Scan<T2, T>(source: Input_In, seed: Seed_In, accumulator: Accumulator_In);
+            var Output_0 = n39.EnumerableEx.Scan<T2, T>(source: Input_In, seed: Seed_In, accumulator: Accumulator_In);
             Output_Out = Output_0;
             return;
         }
 
-        public static void Share<T>(n6.IEnumerable<T> Input_In, out n36.IBuffer<T> Result_Out)
+        public static void Share<T>(n6.IEnumerable<T> Input_In, out n39.IBuffer<T> Result_Out)
         {
-            var Result_0 = n36.EnumerableEx.Share<T>(source: Input_In);
+            var Result_0 = n39.EnumerableEx.Share<T>(source: Input_In);
             Result_Out = Result_0;
             return;
         }
 
         public static void Skip<T>(n6.IEnumerable<T> Input_In, int Count_In, out n6.IEnumerable<T> Output_Out)
         {
-            var Output_0 = n42.EnumerableNodes.Skip<T>(input: Input_In, count: Count_In);
+            var Output_0 = n23.EnumerableNodes.Skip<T>(input: Input_In, count: Count_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void SkipLast<T>(n6.IEnumerable<T> Input_In, int Count_In, out n6.IEnumerable<T> Output_Out)
         {
-            var Output_0 = n36.EnumerableEx.SkipLast<T>(source: Input_In, count: Count_In);
+            var Output_0 = n39.EnumerableEx.SkipLast<T>(source: Input_In, count: Count_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void SkipWhile<T>(n6.IEnumerable<T> Input_In, n2.Func<T, int, bool> Predicate_In, out n6.IEnumerable<T> Output_Out)
         {
-            var Output_0 = n42.EnumerableNodes.SkipWhile<T>(input: Input_In, predicate: Predicate_In);
+            var Output_0 = n23.EnumerableNodes.SkipWhile<T>(input: Input_In, predicate: Predicate_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void SplitAt<T>(n6.IEnumerable<T> Input_In, int Index_In, out n6.IEnumerable<T> Output_Out, out n6.IEnumerable<T> Output_2_Out)
         {
-            n42.EnumerableNodes.SplitAt<T>(input: Input_In, index: Index_In, output: out n6.IEnumerable<T> Output_0, output2: out n6.IEnumerable<T> Output_2_1);
+            n23.EnumerableNodes.SplitAt<T>(input: Input_In, index: Index_In, output: out n6.IEnumerable<T> Output_0, output2: out n6.IEnumerable<T> Output_2_1);
             Output_Out = Output_0;
             Output_2_Out = Output_2_1;
             return;
@@ -11001,63 +11001,63 @@ namespace _VL_Collections_.Collections.Sequence
 
         public static void Take<T>(n6.IEnumerable<T> Input_In, int Count_In, out n6.IEnumerable<T> Output_Out)
         {
-            var Output_0 = n42.EnumerableNodes.Take<T>(input: Input_In, count: Count_In);
+            var Output_0 = n23.EnumerableNodes.Take<T>(input: Input_In, count: Count_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void TakeLast<T>(n6.IEnumerable<T> Input_In, int Count_In, out n6.IEnumerable<T> Output_Out)
         {
-            var Output_0 = n36.EnumerableEx.TakeLast<T>(source: Input_In, count: Count_In);
+            var Output_0 = n39.EnumerableEx.TakeLast<T>(source: Input_In, count: Count_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void TakeWhile<T>(n6.IEnumerable<T> Input_In, n2.Func<T, int, bool> Predicate_In, out n6.IEnumerable<T> Output_Out)
         {
-            var Output_0 = n42.EnumerableNodes.TakeWhile<T>(input: Input_In, predicate: Predicate_In);
+            var Output_0 = n23.EnumerableNodes.TakeWhile<T>(input: Input_In, predicate: Predicate_In);
             Output_Out = Output_0;
             return;
         }
 
-        public static void ThenBy<T, T2>(n36.IOrderedEnumerable<T> Input_In, n2.Func<T, T2> Key_Selector_In, out n36.IOrderedEnumerable<T> Output_Out)
+        public static void ThenBy<T, T2>(n39.IOrderedEnumerable<T> Input_In, n2.Func<T, T2> Key_Selector_In, out n39.IOrderedEnumerable<T> Output_Out)
         {
-            var Output_0 = n42.EnumerableNodes.ThenBy<T, T2>(input: Input_In, keySelector: Key_Selector_In);
+            var Output_0 = n23.EnumerableNodes.ThenBy<T, T2>(input: Input_In, keySelector: Key_Selector_In);
             Output_Out = Output_0;
             return;
         }
 
-        public static void ThenByDescending<T, T2>(n36.IOrderedEnumerable<T> Input_In, n2.Func<T, T2> Key_Selector_In, out n36.IOrderedEnumerable<T> Output_Out)
+        public static void ThenByDescending<T, T2>(n39.IOrderedEnumerable<T> Input_In, n2.Func<T, T2> Key_Selector_In, out n39.IOrderedEnumerable<T> Output_Out)
         {
-            var Output_0 = n42.EnumerableNodes.ThenByDescending<T, T2>(input: Input_In, keySelector: Key_Selector_In);
+            var Output_0 = n23.EnumerableNodes.ThenByDescending<T, T2>(input: Input_In, keySelector: Key_Selector_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void FromValue<T>(T Input_In, out n6.IEnumerable<T> Result_Out)
         {
-            var Result_0 = n42.EnumerableNodes.ToSequence<T>(input: Input_In);
+            var Result_0 = n23.EnumerableNodes.ToSequence<T>(input: Input_In);
             Result_Out = Result_0;
             return;
         }
 
         public static void Union<T>(n6.IEnumerable<T> Input_In, n6.IEnumerable<T> Input_2_In, out n6.IEnumerable<T> Output_Out)
         {
-            var Output_0 = n42.EnumerableNodes.Union<T>(input: Input_In, input2: Input_2_In);
+            var Output_0 = n23.EnumerableNodes.Union<T>(input: Input_In, input2: Input_2_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void Union_Selector<T, T2>(n6.IEnumerable<T> Input_In, n6.IEnumerable<T> Input_2_In, n2.Func<T, T2> Selector_In, out n6.IEnumerable<T> Output_Out)
         {
-            var Output_0 = n42.EnumerableNodes.UnionByKey<T, T2>(input: Input_In, input2: Input_2_In, selector: Selector_In);
+            var Output_0 = n23.EnumerableNodes.UnionByKey<T, T2>(input: Input_In, input2: Input_2_In, selector: Selector_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void UnZip<T>(n6.IEnumerable<T> Input_In, out n6.IEnumerable<T> Output_Out, out n6.IEnumerable<T> Output_2_Out)
         {
-            n42.EnumerableNodes.UnZip<T>(input: Input_In, output: out n6.IEnumerable<T> Output_0, output2: out n6.IEnumerable<T> Output_2_1);
+            n23.EnumerableNodes.UnZip<T>(input: Input_In, output: out n6.IEnumerable<T> Output_0, output2: out n6.IEnumerable<T> Output_2_1);
             Output_Out = Output_0;
             Output_2_Out = Output_2_1;
             return;
@@ -11065,28 +11065,28 @@ namespace _VL_Collections_.Collections.Sequence
 
         public static void Where<T>(n6.IEnumerable<T> Input_In, n2.Func<T, int, bool> Predicate_In, out n6.IEnumerable<T> Output_Out)
         {
-            var Output_0 = n42.EnumerableNodes.Where<T>(input: Input_In, predicate: Predicate_In);
+            var Output_0 = n23.EnumerableNodes.Where<T>(input: Input_In, predicate: Predicate_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void Zip<T>(n6.IEnumerable<T> Input_In, n6.IEnumerable<T> Input_2_In, [n4.SerializedDefaultValueAttribute("False", false)] bool Use_Min_Count_In, out n6.IEnumerable<T> Output_Out)
         {
-            var Output_0 = n42.EnumerableNodes.ZipIt<T>(input: Input_In, input2: Input_2_In, useMinCount: Use_Min_Count_In);
+            var Output_0 = n23.EnumerableNodes.ZipIt<T>(input: Input_In, input2: Input_2_In, useMinCount: Use_Min_Count_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void Zip_LINQ<T, T2, T3>(n6.IEnumerable<T> Input_In, n6.IEnumerable<T2> Input_2_In, n2.Func<T, T2, T3> Result_Selector_In, out n6.IEnumerable<T3> Output_Out)
         {
-            var Output_0 = n42.EnumerableNodes.Zip<T, T2, T3>(input: Input_In, input2: Input_2_In, resultSelector: Result_Selector_In);
+            var Output_0 = n23.EnumerableNodes.Zip<T, T2, T3>(input: Input_In, input2: Input_2_In, resultSelector: Result_Selector_In);
             Output_Out = Output_0;
             return;
         }
 
-        [n1.ElementAttribute(TracingId = 247686U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "AVHKqZ1HxdCMkwblfNESJG", Name = "__slot_AVHKqZ1HxdCMkwblfNESJG")]
+        [n1.ElementAttribute(TracingId = 269107U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "AVHKqZ1HxdCMkwblfNESJG", Name = "__slot_AVHKqZ1HxdCMkwblfNESJG")]
         public static int __slot_AVHKqZ1HxdCMkwblfNESJG = 1;
-        [n1.ElementAttribute(TracingId = 247816U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "H4xl3WlQWS9MV59AI9Syxx", Name = "__slot_H4xl3WlQWS9MV59AI9Syxx")]
+        [n1.ElementAttribute(TracingId = 269151U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "H4xl3WlQWS9MV59AI9Syxx", Name = "__slot_H4xl3WlQWS9MV59AI9Syxx")]
         public static int __slot_H4xl3WlQWS9MV59AI9Syxx = 1;
         static _Operations_()
         {
@@ -11096,10 +11096,10 @@ namespace _VL_Collections_.Collections.Sequence
 
 namespace _VL_Collections_.Collections.Sequence.Grouping
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
-        public static void Key<T, T2>(n36.IGrouping<T, T2> Input_In, out n36.IGrouping<T, T2> Output_Out, out T Key_Out)
+        public static void Key<T, T2>(n39.IGrouping<T, T2> Input_In, out n39.IGrouping<T, T2> Output_Out, out T Key_Out)
         {
             var Key_0 = Input_In.Key;
             Output_Out = Input_In;
@@ -11111,11 +11111,11 @@ namespace _VL_Collections_.Collections.Sequence.Grouping
 
 namespace _VL_Collections_.Collections.Spread.Internal
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         public static void BSplineCubic<T, AdM>(T Control_1_In, T Control_2_In, T Control_3_In, T Control_4_In, float Range_In, out T Position_Out, out T Tangent_Out)
-            where AdM : struct, n18.IAdaptiveOperatorPlus<T>, n18.IAdaptiveOperatorMulitply_Scale<T>, n18.IAdaptiveOperatorDivide_Scale<T>, n18.IAdaptiveOperatorMinus<T>
+            where AdM : struct, n19.IAdaptiveOperatorMinus<T>, n19.IAdaptiveOperatorMulitply_Scale<T>, n19.IAdaptiveOperatorPlus<T>, n19.IAdaptiveOperatorDivide_Scale<T>
         {
             var w_0 = default(AdM);
             float Scalar_1 = 3F;
@@ -11160,7 +11160,7 @@ namespace _VL_Collections_.Collections.Spread.Internal
         }
 
         public static void BSplineCubic<T, AdM>(T Control_1_In, T Control_2_In, T Control_3_In, T Control_4_In, float Range_In, out T Position_Out)
-            where AdM : struct, n18.IAdaptiveOperatorPlus<T>, n18.IAdaptiveOperatorMulitply_Scale<T>, n18.IAdaptiveOperatorDivide_Scale<T>, n18.IAdaptiveOperatorMinus<T>
+            where AdM : struct, n19.IAdaptiveOperatorMinus<T>, n19.IAdaptiveOperatorMulitply_Scale<T>, n19.IAdaptiveOperatorPlus<T>, n19.IAdaptiveOperatorDivide_Scale<T>
         {
             var w_0 = default(AdM);
             float Scalar_1 = 3F;
@@ -11197,7 +11197,7 @@ namespace _VL_Collections_.Collections.Spread.Internal
         }
 
         public static void BSpline<T, AdM>(n5.Spread<T> Control_Points_In, bool Close_In, [n4.SerializedDefaultValueAttribute("True", false)] bool Normalized_Sampling_Range_In, [n4.SerializedDefaultValueAttribute("1", false)] float Sample_Position_In, out T Output_Out, out T Tangent_Out)
-            where AdM : struct, n18.IAdaptiveOperatorPlus<T>, n18.IAdaptiveOperatorMulitply_Scale<T>, n18.IAdaptiveOperatorDivide_Scale<T>, n19.IAdaptiveCreateDefault<T>, n18.IAdaptiveOperatorMinus<T>
+            where AdM : struct, n19.IAdaptiveOperatorMinus<T>, n18.IAdaptiveCreateDefault<T>, n19.IAdaptiveOperatorMulitply_Scale<T>, n19.IAdaptiveOperatorPlus<T>, n19.IAdaptiveOperatorDivide_Scale<T>
         {
             var w_0 = default(AdM);
             n7._Operations_.Count<T>(Input_In: Control_Points_In, Count_Out: out int Count_1);
@@ -11251,14 +11251,14 @@ namespace _VL_Collections_.Collections.Spread.Internal
             }
 
             n7._Operations_.GetSlice<T>(Input_In: Control_Points_In, Default_Value_In: Output_24, Index_In: Output_26, Result_Out: out T Result_27);
-            n49._Operations_.BSplineCubic<T, AdM>(Control_1_In: Result_19, Control_2_In: Result_21, Control_3_In: Result_23, Control_4_In: Result_27, Range_In: Fractional_Part_11, Position_Out: out T Position_28, Tangent_Out: out T Tangent_29);
+            n48._Operations_.BSplineCubic<T, AdM>(Control_1_In: Result_19, Control_2_In: Result_21, Control_3_In: Result_23, Control_4_In: Result_27, Range_In: Fractional_Part_11, Position_Out: out T Position_28, Tangent_Out: out T Tangent_29);
             Output_Out = Position_28;
             Tangent_Out = Tangent_29;
             return;
         }
 
         public static void BSpline<T, AdM>(n5.Spread<T> Control_Points_In, bool Close_In, [n4.SerializedDefaultValueAttribute("True", false)] bool Normalized_Sampling_Range_In, [n4.SerializedDefaultValueAttribute("1", false)] float Sample_Position_In, out T Output_Out)
-            where AdM : struct, n18.IAdaptiveOperatorPlus<T>, n18.IAdaptiveOperatorMulitply_Scale<T>, n18.IAdaptiveOperatorDivide_Scale<T>, n19.IAdaptiveCreateDefault<T>, n18.IAdaptiveOperatorMinus<T>
+            where AdM : struct, n19.IAdaptiveOperatorMinus<T>, n18.IAdaptiveCreateDefault<T>, n19.IAdaptiveOperatorMulitply_Scale<T>, n19.IAdaptiveOperatorPlus<T>, n19.IAdaptiveOperatorDivide_Scale<T>
         {
             var w_0 = default(AdM);
             n7._Operations_.Count<T>(Input_In: Control_Points_In, Count_Out: out int Count_1);
@@ -11312,7 +11312,7 @@ namespace _VL_Collections_.Collections.Spread.Internal
             }
 
             n7._Operations_.GetSlice<T>(Input_In: Control_Points_In, Default_Value_In: Output_24, Index_In: Output_26, Result_Out: out T Result_27);
-            n49._Operations_.BSplineCubic<T, AdM>(Control_1_In: Result_19, Control_2_In: Result_21, Control_3_In: Result_23, Control_4_In: Result_27, Range_In: Fractional_Part_11, Position_Out: out T Position_28);
+            n48._Operations_.BSplineCubic<T, AdM>(Control_1_In: Result_19, Control_2_In: Result_21, Control_3_In: Result_23, Control_4_In: Result_27, Range_In: Fractional_Part_11, Position_Out: out T Position_28);
             Output_Out = Position_28;
             return;
         }
@@ -11321,39 +11321,39 @@ namespace _VL_Collections_.Collections.Spread.Internal
 
 namespace _VL_Collections_.Collections.Spread.ResampleHermite
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         public static void Hermite2(float Y_0_In, float Y_1_In, float Y_2_In, float Y_3_In, float Phase_In, float Tension_In, float Bias_In, out float Output_Out)
         {
-            var Output_0 = n42.ResampleNodes.HermiteInterpolate(y0: Y_0_In, y1: Y_1_In, y2: Y_2_In, y3: Y_3_In, phase: Phase_In, tension: Tension_In, bias: Bias_In);
+            var Output_0 = n23.ResampleNodes.HermiteInterpolate(y0: Y_0_In, y1: Y_1_In, y2: Y_2_In, y3: Y_3_In, phase: Phase_In, tension: Tension_In, bias: Bias_In);
             Output_Out = Output_0;
             return;
         }
 
-        public static void Hermite2(n23.Vector3 Y_0_In, n23.Vector3 Y_1_In, n23.Vector3 Y_2_In, n23.Vector3 Y_3_In, float Phase_In, float Tension_In, float Bias_In, out n23.Vector3 Output_Out)
+        public static void Hermite2(n26.Vector3 Y_0_In, n26.Vector3 Y_1_In, n26.Vector3 Y_2_In, n26.Vector3 Y_3_In, float Phase_In, float Tension_In, float Bias_In, out n26.Vector3 Output_Out)
         {
-            n25.Vector3Nodes.Vector(input: ref Y_0_In, x: out float X_0, y: out float Y_1, z: out float Z_2);
-            n25.Vector3Nodes.Vector(input: ref Y_1_In, x: out float X_3, y: out float Y_4, z: out float Z_5);
-            n25.Vector3Nodes.Vector(input: ref Y_2_In, x: out float X_6, y: out float Y_7, z: out float Z_8);
-            n25.Vector3Nodes.Vector(input: ref Y_3_In, x: out float X_9, y: out float Y_10, z: out float Z_11);
-            var Output_12 = n42.ResampleNodes.HermiteInterpolate(y0: X_0, y1: X_3, y2: X_6, y3: X_9, phase: Phase_In, tension: Tension_In, bias: Bias_In);
-            var Output_13 = n42.ResampleNodes.HermiteInterpolate(y0: Y_1, y1: Y_4, y2: Y_7, y3: Y_10, phase: Phase_In, tension: Tension_In, bias: Bias_In);
-            var Output_14 = n42.ResampleNodes.HermiteInterpolate(y0: Z_2, y1: Z_5, y2: Z_8, y3: Z_11, phase: Phase_In, tension: Tension_In, bias: Bias_In);
-            var Output_15 = new n23.Vector3(x: Output_12, y: Output_13, z: Output_14);
+            n27.Vector3Nodes.Vector(input: ref Y_0_In, x: out float X_0, y: out float Y_1, z: out float Z_2);
+            n27.Vector3Nodes.Vector(input: ref Y_1_In, x: out float X_3, y: out float Y_4, z: out float Z_5);
+            n27.Vector3Nodes.Vector(input: ref Y_2_In, x: out float X_6, y: out float Y_7, z: out float Z_8);
+            n27.Vector3Nodes.Vector(input: ref Y_3_In, x: out float X_9, y: out float Y_10, z: out float Z_11);
+            var Output_12 = n23.ResampleNodes.HermiteInterpolate(y0: X_0, y1: X_3, y2: X_6, y3: X_9, phase: Phase_In, tension: Tension_In, bias: Bias_In);
+            var Output_13 = n23.ResampleNodes.HermiteInterpolate(y0: Y_1, y1: Y_4, y2: Y_7, y3: Y_10, phase: Phase_In, tension: Tension_In, bias: Bias_In);
+            var Output_14 = n23.ResampleNodes.HermiteInterpolate(y0: Z_2, y1: Z_5, y2: Z_8, y3: Z_11, phase: Phase_In, tension: Tension_In, bias: Bias_In);
+            var Output_15 = new n26.Vector3(x: Output_12, y: Output_13, z: Output_14);
             Output_Out = Output_15;
             return;
         }
 
-        public static void Hermite2(n23.Vector2 Y_0_In, n23.Vector2 Y_1_In, n23.Vector2 Y_2_In, n23.Vector2 Y_3_In, float Phase_In, float Tension_In, float Bias_In, out n23.Vector2 Output_Out)
+        public static void Hermite2(n26.Vector2 Y_0_In, n26.Vector2 Y_1_In, n26.Vector2 Y_2_In, n26.Vector2 Y_3_In, float Phase_In, float Tension_In, float Bias_In, out n26.Vector2 Output_Out)
         {
-            n25.Vector2Nodes.Vector(input: ref Y_0_In, x: out float X_0, y: out float Y_1);
-            n25.Vector2Nodes.Vector(input: ref Y_1_In, x: out float X_2, y: out float Y_3);
-            n25.Vector2Nodes.Vector(input: ref Y_2_In, x: out float X_4, y: out float Y_5);
-            n25.Vector2Nodes.Vector(input: ref Y_3_In, x: out float X_6, y: out float Y_7);
-            var Output_8 = n42.ResampleNodes.HermiteInterpolate(y0: X_0, y1: X_2, y2: X_4, y3: X_6, phase: Phase_In, tension: Tension_In, bias: Bias_In);
-            var Output_9 = n42.ResampleNodes.HermiteInterpolate(y0: Y_1, y1: Y_3, y2: Y_5, y3: Y_7, phase: Phase_In, tension: Tension_In, bias: Bias_In);
-            var Output_10 = new n23.Vector2(x: Output_8, y: Output_9);
+            n27.Vector2Nodes.Vector(input: ref Y_0_In, x: out float X_0, y: out float Y_1);
+            n27.Vector2Nodes.Vector(input: ref Y_1_In, x: out float X_2, y: out float Y_3);
+            n27.Vector2Nodes.Vector(input: ref Y_2_In, x: out float X_4, y: out float Y_5);
+            n27.Vector2Nodes.Vector(input: ref Y_3_In, x: out float X_6, y: out float Y_7);
+            var Output_8 = n23.ResampleNodes.HermiteInterpolate(y0: X_0, y1: X_2, y2: X_4, y3: X_6, phase: Phase_In, tension: Tension_In, bias: Bias_In);
+            var Output_9 = n23.ResampleNodes.HermiteInterpolate(y0: Y_1, y1: Y_3, y2: Y_5, y3: Y_7, phase: Phase_In, tension: Tension_In, bias: Bias_In);
+            var Output_10 = new n26.Vector2(x: Output_8, y: Output_9);
             Output_Out = Output_10;
             return;
         }
@@ -11367,35 +11367,35 @@ namespace _VL_Collections_.Collections.Spread.ResampleHermite
 
 namespace _VL_Collections_.Collections.Trees.Patching.Advanced
 {
-    [n1.ElementAttribute(TracingId = 258438U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "NOf9dxEyKDUPe0guw7xDWw", Name = "TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw")]
+    [n1.ElementAttribute(TracingId = 273685U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "NOf9dxEyKDUPe0guw7xDWw", Name = "TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw")]
     [n2.SerializableAttribute]
     public class TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<T, T2> : n1.VLObject, n2.IDisposable
     {
-        public static n50.TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<T, T2> Create(n1.NodeContext Node_Context, T2 Node_In, n2.Action<T, T2> Attach_To_New_Parent_In, out n51.TreeNodeParentManager<T, T2> Output_Out)
+        public static n55.TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<T, T2> Create(n1.NodeContext Node_Context, T2 Node_In, n2.Action<T, T2> Attach_To_New_Parent_In, out n56.TreeNodeParentManager<T, T2> Output_Out)
         {
             var instance = new TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<T, T2>(Node_Context, n1.VLObject.NewIdentity());
             return instance.__Create__(Node_Context, Node_In, Attach_To_New_Parent_In, out Output_Out);
         }
 
         [n4.CreateDefaultAttribute]
-        public static n50.TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<T, T2> CreateDefault()
+        public static n55.TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<T, T2> CreateDefault()
         {
             var instance = new TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<T, T2>(n1.NodeContext.Default, n1.VLObject.NewIdentity());
             return instance.__CreateDefault__();
         }
 
         [n4.CreateNewAttribute]
-        public static n50.TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<T, T2> Create(n1.NodeContext Node_Context)
+        public static n55.TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<T, T2> Create(n1.NodeContext Node_Context)
         {
             var instance = new TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<T, T2>(Node_Context, n1.VLObject.NewIdentity());
             return instance.__Create__(Node_Context);
         }
 
-        public n50.TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<T, T2> ManyWannaBeParents(out bool Many_Wanna_Be_Parents_Out)
+        public n55.TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<T, T2> ManyWannaBeParents(out bool Many_Wanna_Be_Parents_Out)
         {
-            n52._Operations_.ManyWannaBeParents<T, T2>(Input_In: this.__p_Ur7Sqm5azIJLfGIPnq1NTB, Output_Out: out n51.TreeNodeParentManager<T, T2> Output_0, Many_Wanna_Be_Parents_Out: out bool Many_Wanna_Be_Parents_1);
+            n57._Operations_.ManyWannaBeParents<T, T2>(Input_In: this.__p_Ur7Sqm5azIJLfGIPnq1NTB, Output_Out: out n56.TreeNodeParentManager<T, T2> Output_0, Many_Wanna_Be_Parents_Out: out bool Many_Wanna_Be_Parents_1);
             Many_Wanna_Be_Parents_Out = Many_Wanna_Be_Parents_1;
-            n50.TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<T, T2> that_2 = this;
+            n55.TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<T, T2> that_2 = this;
             if (this.__GetContext__().IsImmutable)
                 that_2 = Output_0 != this.__p_Ur7Sqm5azIJLfGIPnq1NTB ? new TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<T, T2>(this)
                 {__p_Ur7Sqm5azIJLfGIPnq1NTB = Output_0} : that_2;
@@ -11407,11 +11407,11 @@ namespace _VL_Collections_.Collections.Trees.Patching.Advanced
             return that_2;
         }
 
-        public n50.TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<T, T2> ToggleWarning(out n53.Subject<bool> Toggle_Warning_Out)
+        public n55.TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<T, T2> ToggleWarning(out n58.Subject<bool> Toggle_Warning_Out)
         {
-            n52._Operations_.ToggleWarning<T, T2>(Input_In: this.__p_Ur7Sqm5azIJLfGIPnq1NTB, Output_Out: out n51.TreeNodeParentManager<T, T2> Output_0, Toggle_Warning_Out: out n53.Subject<bool> Toggle_Warning_1);
+            n57._Operations_.ToggleWarning<T, T2>(Input_In: this.__p_Ur7Sqm5azIJLfGIPnq1NTB, Output_Out: out n56.TreeNodeParentManager<T, T2> Output_0, Toggle_Warning_Out: out n58.Subject<bool> Toggle_Warning_1);
             Toggle_Warning_Out = Toggle_Warning_1;
-            n50.TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<T, T2> that_2 = this;
+            n55.TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<T, T2> that_2 = this;
             if (this.__GetContext__().IsImmutable)
                 that_2 = Output_0 != this.__p_Ur7Sqm5azIJLfGIPnq1NTB ? new TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<T, T2>(this)
                 {__p_Ur7Sqm5azIJLfGIPnq1NTB = Output_0} : that_2;
@@ -11423,16 +11423,16 @@ namespace _VL_Collections_.Collections.Trees.Patching.Advanced
             return that_2;
         }
 
-        public n50.TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<T, T2> SetAllowMultipleConnectionsToSameParent([n4.SerializedDefaultValueAttribute("True", false)] bool Allow_Multiple_Connections_To_Same_Parent_In)
+        public n55.TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<T, T2> SetAllowMultipleConnectionsToSameParent([n4.SerializedDefaultValueAttribute("True", false)] bool Allow_Multiple_Connections_To_Same_Parent_In)
         {
             bool SetAllowMultipleConnectionsToSameParent_0 = true;
             var Output_1 = this.__p_Ur7Sqm5azIJLfGIPnq1NTB;
             if (SetAllowMultipleConnectionsToSameParent_0)
             {
-                n52._Operations_.SetAllowMultipleConnectionsToSameParent<T, T2>(Input_In: this.__p_Ur7Sqm5azIJLfGIPnq1NTB, Allow_Multiple_Connections_To_Same_Parent_In: Allow_Multiple_Connections_To_Same_Parent_In, Output_Out: out Output_1);
+                n57._Operations_.SetAllowMultipleConnectionsToSameParent<T, T2>(Input_In: this.__p_Ur7Sqm5azIJLfGIPnq1NTB, Allow_Multiple_Connections_To_Same_Parent_In: Allow_Multiple_Connections_To_Same_Parent_In, Output_Out: out Output_1);
             }
 
-            n50.TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<T, T2> that_2 = this;
+            n55.TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<T, T2> that_2 = this;
             if (this.__GetContext__().IsImmutable)
                 that_2 = Output_1 != this.__p_Ur7Sqm5azIJLfGIPnq1NTB ? new TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<T, T2>(this)
                 {__p_Ur7Sqm5azIJLfGIPnq1NTB = Output_1} : that_2;
@@ -11444,40 +11444,40 @@ namespace _VL_Collections_.Collections.Trees.Patching.Advanced
             return that_2;
         }
 
-        public n50.TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<T, T2> __Create__(n1.NodeContext Node_Context, T2 Node_In, n2.Action<T, T2> Attach_To_New_Parent_In, out n51.TreeNodeParentManager<T, T2> Output_Out)
+        public n55.TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<T, T2> __Create__(n1.NodeContext Node_Context, T2 Node_In, n2.Action<T, T2> Attach_To_New_Parent_In, out n56.TreeNodeParentManager<T, T2> Output_Out)
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
             var __fallback___0 = n1.ServiceRegistry.Current;
             n2.Action<T, T2> Functionality_5 = (T parent_In_2, T2 me_In_3) =>
             {
                 using var __current_1 = __fallback___0.MakeCurrentIfNone();
-                n54._Operations_.NULL<T>(Result_Out: out T Result_4);
-                n55._Operations_.Invoke<T, T2>(Input_In: Attach_To_New_Parent_In, Arg_1_In: Result_4, Arg_2_In: me_In_3);
+                n59._Operations_.NULL<T>(Result_Out: out T Result_4);
+                n60._Operations_.Invoke<T, T2>(Input_In: Attach_To_New_Parent_In, Arg_1_In: Result_4, Arg_2_In: me_In_3);
             }
 
             ;
-            n1.NodeContext Node_Context_6 = Node_Context.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "Ur7Sqm5azIJLfGIPnq1NTB", 258449U);
-            n52._Operations_.Create<T2, T>(Node_Context: Node_Context_6, Node_In: Node_In, Attach_To_New_Parent_In: Attach_To_New_Parent_In, Detach_From_Current_Parent_In: Functionality_5, Output_Out: out n51.TreeNodeParentManager<T, T2> Output_7);
+            n1.NodeContext Node_Context_6 = Node_Context.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "Ur7Sqm5azIJLfGIPnq1NTB", 273692U);
+            n57._Operations_.Create<T2, T>(Node_Context: Node_Context_6, Node_In: Node_In, Attach_To_New_Parent_In: Attach_To_New_Parent_In, Detach_From_Current_Parent_In: Functionality_5, Output_Out: out n56.TreeNodeParentManager<T, T2> Output_7);
             Output_Out = Output_7;
-            n50.TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<T, T2> that_8 = this;
+            n55.TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<T, T2> that_8 = this;
             this.__p_Ur7Sqm5azIJLfGIPnq1NTB = Output_7;
             return that_8;
         }
 
-        public n50.TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<T, T2> __CreateDefault__()
+        public n55.TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<T, T2> __CreateDefault__()
         {
-            n50.TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<T, T2> that_0 = this;
-            this.__p_Ur7Sqm5azIJLfGIPnq1NTB = default(n51.TreeNodeParentManager<T, T2>);
+            n55.TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<T, T2> that_0 = this;
+            this.__p_Ur7Sqm5azIJLfGIPnq1NTB = default(n56.TreeNodeParentManager<T, T2>);
             return that_0;
         }
 
-        public n50.TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<T, T2> __Create__(n1.NodeContext Node_Context)
+        public n55.TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<T, T2> __Create__(n1.NodeContext Node_Context)
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
             n1.NodeContext Node_Context_0 = Node_Context;
             T2 Node_1 = default(T2);
-            n2.Action<T, T2> Attach_To_New_Parent_2 = n55._Operations_.CreateDefault<T, T2>();
-            var State_Output_4 = Create(Node_Context: Node_Context_0, Node_In: Node_1, Attach_To_New_Parent_In: Attach_To_New_Parent_2, Output_Out: out n51.TreeNodeParentManager<T, T2> Output_3);
+            n2.Action<T, T2> Attach_To_New_Parent_2 = n60._Operations_.CreateDefault<T, T2>();
+            var State_Output_4 = Create(Node_Context: Node_Context_0, Node_In: Node_1, Attach_To_New_Parent_In: Attach_To_New_Parent_2, Output_Out: out n56.TreeNodeParentManager<T, T2> Output_3);
             return this;
         }
 
@@ -11493,8 +11493,8 @@ namespace _VL_Collections_.Collections.Trees.Patching.Advanced
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 258449U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Ur7Sqm5azIJLfGIPnq1NTB", Name = "TreeNodeParentManager", IsManaged = true, IsAutoGenerated = true)]
-        public n51.TreeNodeParentManager<T, T2> __p_Ur7Sqm5azIJLfGIPnq1NTB;
+        [n1.ElementAttribute(TracingId = 273692U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "Ur7Sqm5azIJLfGIPnq1NTB", Name = "TreeNodeParentManager", IsManaged = true, IsAutoGenerated = true)]
+        public n56.TreeNodeParentManager<T, T2> __p_Ur7Sqm5azIJLfGIPnq1NTB;
         public TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
         }
@@ -11509,9 +11509,9 @@ namespace _VL_Collections_.Collections.Trees.Patching.Advanced
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__p_Ur7Sqm5azIJLfGIPnq1NTB", in __p_Ur7Sqm5azIJLfGIPnq1NTB));
         }
 
-        internal TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<T, T2> __WITH__(n51.TreeNodeParentManager<T, T2> __p_Ur7Sqm5azIJLfGIPnq1NTB)
+        internal TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<T, T2> __WITH__(n56.TreeNodeParentManager<T, T2> __p_Ur7Sqm5azIJLfGIPnq1NTB)
         {
-            n50.TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<T, T2> that_0 = this;
+            n55.TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<T, T2> that_0 = this;
             if (this.__GetContext__().IsImmutable)
                 that_0 = __p_Ur7Sqm5azIJLfGIPnq1NTB != this.__p_Ur7Sqm5azIJLfGIPnq1NTB ? new TreeNodeParentManager_SetParent_NOf9dxEyKDUPe0guw7xDWw<T, T2>(this)
                 {__p_Ur7Sqm5azIJLfGIPnq1NTB = __p_Ur7Sqm5azIJLfGIPnq1NTB} : that_0;
@@ -11527,25 +11527,25 @@ namespace _VL_Collections_.Collections.Trees.Patching.Advanced
 
 namespace _VL_Collections_.Collections.Trees.Patching.TreeNodeChildrenManager.Advanced
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateNewAttribute]
-        public static void Create<T, T2>(n1.NodeContext Node_Context, T Node_In, bool Children_Ordering_Matters_In, n2.Func<T2, n51.TreeNodeParentManager<T, T2>> Parent_Manager_Provider_In, out n51.TreeNodeChildrenManager<T, T2> Output_Out)
+        public static void Create<T, T2>(n1.NodeContext Node_Context, T Node_In, bool Children_Ordering_Matters_In, n2.Func<T2, n56.TreeNodeParentManager<T, T2>> Parent_Manager_Provider_In, out n56.TreeNodeChildrenManager<T, T2> Output_Out)
         {
-            var Output_0 = new n51.TreeNodeChildrenManager<T, T2>(node: Node_In, childrenOrderingMatters: Children_Ordering_Matters_In, parentManagerProvider: Parent_Manager_Provider_In);
+            var Output_0 = new n56.TreeNodeChildrenManager<T, T2>(node: Node_In, childrenOrderingMatters: Children_Ordering_Matters_In, parentManagerProvider: Parent_Manager_Provider_In);
             Output_Out = Output_0;
             return;
         }
 
-        public static void Dispose<T, T2>(n51.TreeNodeChildrenManager<T, T2> Input_In, out n51.TreeNodeChildrenManager<T, T2> Output_Out)
+        public static void Dispose<T, T2>(n56.TreeNodeChildrenManager<T, T2> Input_In, out n56.TreeNodeChildrenManager<T, T2> Output_Out)
         {
             Input_In.Dispose();
             Output_Out = Input_In;
             return;
         }
 
-        public static void Update<T, T2>(n51.TreeNodeChildrenManager<T, T2> Input_In, n5.Spread<T2> Children_In, out n51.TreeNodeChildrenManager<T, T2> Output_Out)
+        public static void Update<T, T2>(n56.TreeNodeChildrenManager<T, T2> Input_In, n5.Spread<T2> Children_In, out n56.TreeNodeChildrenManager<T, T2> Output_Out)
         {
             Input_In.Update(children: Children_In);
             Output_Out = Input_In;
@@ -11556,25 +11556,25 @@ namespace _VL_Collections_.Collections.Trees.Patching.TreeNodeChildrenManager.Ad
 
 namespace _VL_Collections_.Collections.Trees.Patching.TreeNodeParentManager.Advanced
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateNewAttribute]
-        public static void Create<T, T2>(n1.NodeContext Node_Context, T Node_In, n2.Action<T2, T> Attach_To_New_Parent_In, n2.Action<T2, T> Detach_From_Current_Parent_In, out n51.TreeNodeParentManager<T2, T> Output_Out)
+        public static void Create<T, T2>(n1.NodeContext Node_Context, T Node_In, n2.Action<T2, T> Attach_To_New_Parent_In, n2.Action<T2, T> Detach_From_Current_Parent_In, out n56.TreeNodeParentManager<T2, T> Output_Out)
         {
-            var Output_0 = new n51.TreeNodeParentManager<T2, T>(node: Node_In, attachToNewParent: Attach_To_New_Parent_In, detachFromCurrentParent: Detach_From_Current_Parent_In);
+            var Output_0 = new n56.TreeNodeParentManager<T2, T>(node: Node_In, attachToNewParent: Attach_To_New_Parent_In, detachFromCurrentParent: Detach_From_Current_Parent_In);
             Output_Out = Output_0;
             return;
         }
 
-        public static void Dispose<T, T2>(n51.TreeNodeParentManager<T, T2> Input_In, out n51.TreeNodeParentManager<T, T2> Output_Out)
+        public static void Dispose<T, T2>(n56.TreeNodeParentManager<T, T2> Input_In, out n56.TreeNodeParentManager<T, T2> Output_Out)
         {
             Input_In.Dispose();
             Output_Out = Input_In;
             return;
         }
 
-        public static void ManyWannaBeParents<T, T2>(n51.TreeNodeParentManager<T, T2> Input_In, out n51.TreeNodeParentManager<T, T2> Output_Out, out bool Many_Wanna_Be_Parents_Out)
+        public static void ManyWannaBeParents<T, T2>(n56.TreeNodeParentManager<T, T2> Input_In, out n56.TreeNodeParentManager<T, T2> Output_Out, out bool Many_Wanna_Be_Parents_Out)
         {
             var Many_Wanna_Be_Parents_0 = Input_In.ManyWannaBeParents;
             Output_Out = Input_In;
@@ -11582,7 +11582,7 @@ namespace _VL_Collections_.Collections.Trees.Patching.TreeNodeParentManager.Adva
             return;
         }
 
-        public static void ToggleWarning<T, T2>(n51.TreeNodeParentManager<T, T2> Input_In, out n51.TreeNodeParentManager<T, T2> Output_Out, out n53.Subject<bool> Toggle_Warning_Out)
+        public static void ToggleWarning<T, T2>(n56.TreeNodeParentManager<T, T2> Input_In, out n56.TreeNodeParentManager<T, T2> Output_Out, out n58.Subject<bool> Toggle_Warning_Out)
         {
             var Toggle_Warning_0 = Input_In.ToggleWarning;
             Output_Out = Input_In;
@@ -11590,7 +11590,7 @@ namespace _VL_Collections_.Collections.Trees.Patching.TreeNodeParentManager.Adva
             return;
         }
 
-        public static void SetAllowMultipleConnectionsToSameParent<T, T2>(n51.TreeNodeParentManager<T, T2> Input_In, [n4.SerializedDefaultValueAttribute("True", false)] bool Allow_Multiple_Connections_To_Same_Parent_In, out n51.TreeNodeParentManager<T, T2> Output_Out)
+        public static void SetAllowMultipleConnectionsToSameParent<T, T2>(n56.TreeNodeParentManager<T, T2> Input_In, [n4.SerializedDefaultValueAttribute("True", false)] bool Allow_Multiple_Connections_To_Same_Parent_In, out n56.TreeNodeParentManager<T, T2> Output_Out)
         {
             Input_In.AllowMultipleConnectionsToSameParent = Allow_Multiple_Connections_To_Same_Parent_In;
             Output_Out = Input_In;
@@ -11601,64 +11601,64 @@ namespace _VL_Collections_.Collections.Trees.Patching.TreeNodeParentManager.Adva
 
 namespace _VL_Collections_.Collections.Trees.Command
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
-        public static n56.ITraverseCommand CreateDefault_H()
+        public static n61.ITraverseCommand CreateDefault_H()
         {
-            var Fail_0 = n42.Trees.Fail;
+            var Fail_0 = n23.Trees.Fail;
             return Fail_0;
         }
 
-        public static void IsFail(n56.ITraverseCommand Input_In, out bool Result_Out)
+        public static void IsFail(n61.ITraverseCommand Input_In, out bool Result_Out)
         {
-            var Result_0 = n42.Trees.IsFail(command: Input_In);
+            var Result_0 = n23.Trees.IsFail(command: Input_In);
             Result_Out = Result_0;
             return;
         }
 
-        public static void TryGetNode<T>(n56.ITraverseCommand Input_In, out T Node_Out, out bool Success_Out)
-            where T : n56.IReadOnlyTreeNode
+        public static void TryGetNode<T>(n61.ITraverseCommand Input_In, out T Node_Out, out bool Success_Out)
+            where T : n61.IReadOnlyTreeNode
         {
-            n42.Trees.TryGetNode<T>(command: Input_In, node: out T Node_0, success: out bool Success_1);
+            n23.Trees.TryGetNode<T>(command: Input_In, node: out T Node_0, success: out bool Success_1);
             Node_Out = Node_0;
             Success_Out = Success_1;
             return;
         }
 
-        public static void IsSuccess(n56.ITraverseCommand Input_In, out bool Result_Out)
+        public static void IsSuccess(n61.ITraverseCommand Input_In, out bool Result_Out)
         {
-            var Result_0 = n42.Trees.IsSuccess(command: Input_In);
+            var Result_0 = n23.Trees.IsSuccess(command: Input_In);
             Result_Out = Result_0;
             return;
         }
 
-        public static void IsStop(n56.ITraverseCommand Input_In, out bool Result_Out)
+        public static void IsStop(n61.ITraverseCommand Input_In, out bool Result_Out)
         {
-            var Result_0 = n42.Trees.IsStop(command: Input_In);
+            var Result_0 = n23.Trees.IsStop(command: Input_In);
             Result_Out = Result_0;
             return;
         }
 
-        public static void TryGetMessage<T>(n56.ITraverseCommand Input_In, out T Message_Out, out bool Success_Out)
+        public static void TryGetMessage<T>(n61.ITraverseCommand Input_In, out T Message_Out, out bool Success_Out)
         {
-            n42.Trees.TryGetMessage<T>(command: Input_In, message: out T Message_0, success: out bool Success_1);
+            n23.Trees.TryGetMessage<T>(command: Input_In, message: out T Message_0, success: out bool Success_1);
             Message_Out = Message_0;
             Success_Out = Success_1;
             return;
         }
 
-        public static void IsGoOn(n56.ITraverseCommand Input_In, out bool Result_Out)
+        public static void IsGoOn(n61.ITraverseCommand Input_In, out bool Result_Out)
         {
-            var Result_0 = n42.Trees.IsGoOn(command: Input_In);
+            var Result_0 = n23.Trees.IsGoOn(command: Input_In);
             Result_Out = Result_0;
             return;
         }
 
-        public static void IsOneUp(n56.ITraverseCommand Input_In, out bool Result_Out)
+        public static void IsOneUp(n61.ITraverseCommand Input_In, out bool Result_Out)
         {
-            var Result_0 = n42.Trees.IsOneUp(command: Input_In);
+            var Result_0 = n23.Trees.IsOneUp(command: Input_In);
             Result_Out = Result_0;
             return;
         }
@@ -11667,49 +11667,49 @@ namespace _VL_Collections_.Collections.Trees.Command
 
 namespace _VL_Collections_.Collections.Trees.Command.Continue
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
-        public static void TraverseNode<T>(T Node_In, out n56.ITraverseCommand Result_Out)
-            where T : n56.IReadOnlyTree<T>
+        public static void TraverseNode<T>(T Node_In, out n61.ITraverseCommand Result_Out)
+            where T : n61.IReadOnlyTree<T>
         {
-            var Result_0 = n42.Trees.TraverseNode<T>(node: Node_In);
+            var Result_0 = n23.Trees.TraverseNode<T>(node: Node_In);
             Result_Out = Result_0;
             return;
         }
 
-        public static void TraverseNodeWithMessage<T2, T>(T2 Node_In, T Message_In, out n56.ITraverseCommand Result_Out)
-            where T2 : n56.IReadOnlyTree<T2>
+        public static void TraverseNodeWithMessage<T2, T>(T2 Node_In, T Message_In, out n61.ITraverseCommand Result_Out)
+            where T2 : n61.IReadOnlyTree<T2>
         {
-            var Result_0 = n42.Trees.TraverseNodeWithMessage<T2, T>(node: Node_In, message: Message_In);
+            var Result_0 = n23.Trees.TraverseNodeWithMessage<T2, T>(node: Node_In, message: Message_In);
             Result_Out = Result_0;
             return;
         }
 
-        public static void SkipChildrenButContinue(out n56.ITraverseCommand Result_Out)
+        public static void SkipChildrenButContinue(out n61.ITraverseCommand Result_Out)
         {
-            var Skip_All_Childs_0 = n42.Trees.SkipAllChilds;
+            var Skip_All_Childs_0 = n23.Trees.SkipAllChilds;
             Result_Out = Skip_All_Childs_0;
             return;
         }
 
-        public static void TraverseChildren(out n56.ITraverseCommand Result_Out)
+        public static void TraverseChildren(out n61.ITraverseCommand Result_Out)
         {
-            var Traverse_All_Childs_0 = n42.Trees.TraverseAllChilds;
+            var Traverse_All_Childs_0 = n23.Trees.TraverseAllChilds;
             Result_Out = Traverse_All_Childs_0;
             return;
         }
 
-        public static void TraverseChildrenWithMessage<T>(T Message_In, out n56.ITraverseCommand Result_Out)
+        public static void TraverseChildrenWithMessage<T>(T Message_In, out n61.ITraverseCommand Result_Out)
         {
-            var Result_0 = n42.Trees.TraverseAllChildsWithMessage<T>(message: Message_In);
+            var Result_0 = n23.Trees.TraverseAllChildsWithMessage<T>(message: Message_In);
             Result_Out = Result_0;
             return;
         }
 
-        public static void OneUp(out n56.ITraverseCommand Result_Out)
+        public static void OneUp(out n61.ITraverseCommand Result_Out)
         {
-            var One_Up_0 = n42.Trees.OneUp;
+            var One_Up_0 = n23.Trees.OneUp;
             Result_Out = One_Up_0;
             return;
         }
@@ -11718,33 +11718,33 @@ namespace _VL_Collections_.Collections.Trees.Command.Continue
 
 namespace _VL_Collections_.Collections.Trees.Command.Stop
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
-        public static void Fail(out n56.ITraverseCommand Result_Out)
+        public static void Fail(out n61.ITraverseCommand Result_Out)
         {
-            var Fail_0 = n42.Trees.Fail;
+            var Fail_0 = n23.Trees.Fail;
             Result_Out = Fail_0;
             return;
         }
 
-        public static void Return(out n56.ITraverseCommand Result_Out)
+        public static void Return(out n61.ITraverseCommand Result_Out)
         {
-            var Return_0 = n42.Trees.Return;
+            var Return_0 = n23.Trees.Return;
             Result_Out = Return_0;
             return;
         }
 
-        public static void FailWithMessage<T>(T Message_In, out n56.ITraverseCommand Result_Out)
+        public static void FailWithMessage<T>(T Message_In, out n61.ITraverseCommand Result_Out)
         {
-            var Result_0 = n42.Trees.FailWithMessage<T>(message: Message_In);
+            var Result_0 = n23.Trees.FailWithMessage<T>(message: Message_In);
             Result_Out = Result_0;
             return;
         }
 
-        public static void ReturnWithMessage<T>(T Message_In, out n56.ITraverseCommand Result_Out)
+        public static void ReturnWithMessage<T>(T Message_In, out n61.ITraverseCommand Result_Out)
         {
-            var Result_0 = n42.Trees.ReturnWithMessage<T>(message: Message_In);
+            var Result_0 = n23.Trees.ReturnWithMessage<T>(message: Message_In);
             Result_Out = Result_0;
             return;
         }
@@ -11753,64 +11753,64 @@ namespace _VL_Collections_.Collections.Trees.Command.Stop
 
 namespace _VL_Collections_.Collections.Trees.IReadOnlyTreeNode
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
-        public static void Flatten(n56.IReadOnlyTreeNode Input_In, out n5.Spread<n56.IReadOnlyTreeNode> Result_Out)
+        public static void Flatten(n61.IReadOnlyTreeNode Input_In, out n5.Spread<n61.IReadOnlyTreeNode> Result_Out)
         {
-            var Result_0 = n56.ReadOnlyTreeNode.Flatten(input: Input_In);
-            n7._Operations_.FromSequence<n56.IReadOnlyTreeNode>(Input_In: Result_0, Result_Out: out n5.Spread<n56.IReadOnlyTreeNode> Result_1);
+            var Result_0 = n61.ReadOnlyTreeNode.Flatten(input: Input_In);
+            n7._Operations_.FromSequence<n61.IReadOnlyTreeNode>(Input_In: Result_0, Result_Out: out n5.Spread<n61.IReadOnlyTreeNode> Result_1);
             Result_Out = Result_1;
             return;
         }
 
-        public static void HasChildren(n56.IReadOnlyTreeNode Input_In, out bool Result_Out)
+        public static void HasChildren(n61.IReadOnlyTreeNode Input_In, out bool Result_Out)
         {
-            var Result_0 = n56.ReadOnlyTreeNode.HasChildren(input: Input_In);
+            var Result_0 = n61.ReadOnlyTreeNode.HasChildren(input: Input_In);
             Result_Out = Result_0;
             return;
         }
 
-        public static void Traverse<T>(T Input_In, n2.Func<n56.IReadOnlyTreeNode, n56.ITraverseCommand> Update_In, out T Output_Out, out n56.ITraverseCommand Last_Command_Out)
-            where T : n56.IReadOnlyTreeNode
+        public static void Traverse<T>(T Input_In, n2.Func<n61.IReadOnlyTreeNode, n61.ITraverseCommand> Update_In, out T Output_Out, out n61.ITraverseCommand Last_Command_Out)
+            where T : n61.IReadOnlyTreeNode
         {
-            n56.ReadOnlyTreeNode.Traverse<T>(input: Input_In, update: Update_In, output: out T Output_0, lastCommand: out n56.ITraverseCommand Last_Command_1);
+            n61.ReadOnlyTreeNode.Traverse<T>(input: Input_In, update: Update_In, output: out T Output_0, lastCommand: out n61.ITraverseCommand Last_Command_1);
             Output_Out = Output_0;
             Last_Command_Out = Last_Command_1;
             return;
         }
 
-        public static void TraverseBreadthFirst<T>(T Input_In, n2.Func<n56.IReadOnlyTreeNode, n56.ITraverseCommand> Update_In, out T Output_Out)
-            where T : n56.IReadOnlyTreeNode
+        public static void TraverseBreadthFirst<T>(T Input_In, n2.Func<n61.IReadOnlyTreeNode, n61.ITraverseCommand> Update_In, out T Output_Out)
+            where T : n61.IReadOnlyTreeNode
         {
-            n56.ReadOnlyTreeNode.TraverseBreadthFirst<T>(input: Input_In, update: Update_In, output: out T Output_0);
+            n61.ReadOnlyTreeNode.TraverseBreadthFirst<T>(input: Input_In, update: Update_In, output: out T Output_0);
             Output_Out = Output_0;
             return;
         }
 
-        public static void TraverseBreadthFirstMessageToChilds<T2, T>(T2 Input_In, T Message_In, n2.Func<n56.IReadOnlyTreeNode, T, n56.ITraverseCommand> Update_In, out T2 Output_Out)
-            where T2 : n56.IReadOnlyTreeNode
+        public static void TraverseBreadthFirstMessageToChilds<T2, T>(T2 Input_In, T Message_In, n2.Func<n61.IReadOnlyTreeNode, T, n61.ITraverseCommand> Update_In, out T2 Output_Out)
+            where T2 : n61.IReadOnlyTreeNode
         {
-            n56.ReadOnlyTreeNode.TraverseBreadthFirstMessageToChilds<T2, T>(input: Input_In, message: Message_In, update: Update_In, output: out T2 Output_0);
+            n61.ReadOnlyTreeNode.TraverseBreadthFirstMessageToChilds<T2, T>(input: Input_In, message: Message_In, update: Update_In, output: out T2 Output_0);
             Output_Out = Output_0;
             return;
         }
 
-        public static void TraverseMessageToChilds<T2, T>(T2 Input_In, T Message_In, n2.Func<n56.IReadOnlyTreeNode, T, n56.ITraverseCommand> Update_In, out T2 Output_Out, out n56.ITraverseCommand Last_Command_Out)
-            where T2 : n56.IReadOnlyTreeNode
+        public static void TraverseMessageToChilds<T2, T>(T2 Input_In, T Message_In, n2.Func<n61.IReadOnlyTreeNode, T, n61.ITraverseCommand> Update_In, out T2 Output_Out, out n61.ITraverseCommand Last_Command_Out)
+            where T2 : n61.IReadOnlyTreeNode
         {
-            n56.ReadOnlyTreeNode.TraverseMessageToChilds<T2, T>(input: Input_In, message: Message_In, update: Update_In, output: out T2 Output_0, lastCommand: out n56.ITraverseCommand Last_Command_1);
+            n61.ReadOnlyTreeNode.TraverseMessageToChilds<T2, T>(input: Input_In, message: Message_In, update: Update_In, output: out T2 Output_0, lastCommand: out n61.ITraverseCommand Last_Command_1);
             Output_Out = Output_0;
             Last_Command_Out = Last_Command_1;
             return;
         }
 
         [n4.CreateDefaultAttribute]
-        public static n56.IReadOnlyTreeNode CreateDefault()
+        public static n61.IReadOnlyTreeNode CreateDefault()
         {
-            n1.NodeContext Node_Context_0 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "MoZKhPb1zpfOq0WOfkPDZB", 259271U);
-            var Output_1 = n57.DummyTreeNode_C.Create(Node_Context: Node_Context_0);
-            n56.IReadOnlyTreeNode Output_Out_2 = (n56.IReadOnlyTreeNode)Output_1;
+            n1.NodeContext Node_Context_0 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "MoZKhPb1zpfOq0WOfkPDZB", 273981U);
+            var Output_1 = n62.DummyTreeNode_C.Create(Node_Context: Node_Context_0);
+            n61.IReadOnlyTreeNode Output_Out_2 = (n61.IReadOnlyTreeNode)Output_1;
             return Output_Out_2;
         }
     }
@@ -11818,28 +11818,28 @@ namespace _VL_Collections_.Collections.Trees.IReadOnlyTreeNode
 
 namespace _VL_Collections_.Collections.Trees.IReadOnlyTree
 {
-    [n1.ElementAttribute(TracingId = 259423U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "S3fE6WSfWlXNbz9jtATkZH", Name = "BuildUp_S3fE6WSfWlXNbz9jtATkZH")]
+    [n1.ElementAttribute(TracingId = 274050U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "S3fE6WSfWlXNbz9jtATkZH", Name = "BuildUp_S3fE6WSfWlXNbz9jtATkZH")]
     [n2.SerializableAttribute]
-    public class BuildUp_S3fE6WSfWlXNbz9jtATkZH<T> : n1.VLObject, n2.IDisposable where T : n56.IReadOnlyTree<T>
+    public class BuildUp_S3fE6WSfWlXNbz9jtATkZH<T> : n1.VLObject, n2.IDisposable where T : n61.IReadOnlyTree<T>
     {
         [n4.CreateNewAttribute]
-        public static n58.BuildUp_S3fE6WSfWlXNbz9jtATkZH<T> Create<AdM>(n1.NodeContext Node_Context)
-            where AdM : struct, n19.IAdaptiveCreateDefault<T>
+        public static n63.BuildUp_S3fE6WSfWlXNbz9jtATkZH<T> Create<AdM>(n1.NodeContext Node_Context)
+            where AdM : struct, n18.IAdaptiveCreateDefault<T>
         {
             var instance = new BuildUp_S3fE6WSfWlXNbz9jtATkZH<T>(Node_Context, n1.VLObject.NewIdentity());
             return instance.__Create__<AdM>(Node_Context);
         }
 
         [n4.CreateDefaultAttribute]
-        public static n58.BuildUp_S3fE6WSfWlXNbz9jtATkZH<T> CreateDefault<AdM>()
-            where AdM : struct, n19.IAdaptiveCreateDefault<T>
+        public static n63.BuildUp_S3fE6WSfWlXNbz9jtATkZH<T> CreateDefault<AdM>()
+            where AdM : struct, n18.IAdaptiveCreateDefault<T>
         {
             var instance = new BuildUp_S3fE6WSfWlXNbz9jtATkZH<T>(n1.NodeContext.Default, n1.VLObject.NewIdentity());
             return instance.__CreateDefault__<AdM>();
         }
 
-        public n58.BuildUp_S3fE6WSfWlXNbz9jtATkZH<T> Update<AdM>(T Input_In, n2.Action<T> Update_In, [n4.SerializedDefaultValueAttribute("8", false)] int Max_Level_Count_In, bool Trigger_In, out T Output_Out, out bool Success_Out)
-            where AdM : struct, n19.IAdaptiveCreateDefault<T>
+        public n63.BuildUp_S3fE6WSfWlXNbz9jtATkZH<T> Update<AdM>(T Input_In, n2.Action<T> Update_In, [n4.SerializedDefaultValueAttribute("8", false)] int Max_Level_Count_In, bool Trigger_In, out T Output_Out, out bool Success_Out)
+            where AdM : struct, n18.IAdaptiveCreateDefault<T>
         {
             var w_0 = default(AdM);
             bool Dispose_Cached_Outputs_1 = false;
@@ -11847,7 +11847,7 @@ namespace _VL_Collections_.Collections.Trees.IReadOnlyTree
             if (manager_2 is null)
             {
                 w_0.CreateDefault(out T __out_0);
-                manager_2 = new n40.Manager<n2.ValueTuple, n2.ValueTuple<T, bool>>((__out_0, false));
+                manager_2 = new n42.Manager<n2.ValueTuple, n2.ValueTuple<T, bool>>((__out_0, false));
             }
 
             var inputs_3 = n2.ValueTuple.Create();
@@ -11859,20 +11859,20 @@ namespace _VL_Collections_.Collections.Trees.IReadOnlyTree
                     manager_2.DisposeOutputs();
                 int Message_7 = 0;
                 var __fallback___8 = n1.ServiceRegistry.Current;
-                n58._Operations_.Traverse_MessageToChilds<T, int>(Input_In: Input_In, Message_In: Message_7, Update_In: (T Node_In_10, int Arg_2_In_11) =>
+                n63._Operations_.Traverse_MessageToChilds<T, int>(Input_In: Input_In, Message_In: Message_7, Update_In: (T Node_In_10, int Arg_2_In_11) =>
                 {
                     using var __current_9 = __fallback___8.MakeCurrentIfNone();
-                    n59._Operations_.Invoke<T>(Input_In: Update_In, Arg_In: Node_In_10);
+                    n64._Operations_.Invoke<T>(Input_In: Update_In, Arg_In: Node_In_10);
                     var Output_12 = n10.Integer32Extensions.Inc(input: Arg_2_In_11);
-                    n60._Operations_.TraverseChildrenWithMessage<int>(Message_In: Output_12, Result_Out: out n56.ITraverseCommand Result_13);
+                    n65._Operations_.TraverseChildrenWithMessage<int>(Message_In: Output_12, Result_Out: out n61.ITraverseCommand Result_13);
                     var Result_14 = Arg_2_In_11 < Max_Level_Count_In;
-                    var Skip_All_Childs_15 = n42.Trees.SkipAllChilds;
-                    n14._Operations_.Switch_Boolean<n56.ITraverseCommand>(Condition_In: Result_14, Input_In: Skip_All_Childs_15, Input_2_In: Result_13, Output_Out: out n56.ITraverseCommand Output_16);
+                    var Skip_All_Childs_15 = n23.Trees.SkipAllChilds;
+                    n14._Operations_.Switch_Boolean<n61.ITraverseCommand>(Condition_In: Result_14, Input_In: Skip_All_Childs_15, Input_2_In: Result_13, Output_Out: out n61.ITraverseCommand Output_16);
                     return Output_16;
                 }
 
-                , Output_Out: out T Output_17, Last_Command_Out: out n56.ITraverseCommand Last_Command_18);
-                var Result_19 = n42.Trees.IsSuccess(command: Last_Command_18);
+                , Output_Out: out T Output_17, Last_Command_Out: out n61.ITraverseCommand Last_Command_18);
+                var Result_19 = n23.Trees.IsSuccess(command: Last_Command_18);
                 outputs_4 = (Output_17, Result_19);
                 manager_2 = manager_2.Update(inputs_3, __GetContext__().IsImmutable, Dispose_Cached_Outputs_1, default, outputs_4);
             }
@@ -11884,7 +11884,7 @@ namespace _VL_Collections_.Collections.Trees.IReadOnlyTree
             var(__auto_20, __auto_21) = outputs_4;
             Output_Out = __auto_20;
             Success_Out = __auto_21;
-            n58.BuildUp_S3fE6WSfWlXNbz9jtATkZH<T> that_22 = this;
+            n63.BuildUp_S3fE6WSfWlXNbz9jtATkZH<T> that_22 = this;
             if (this.__GetContext__().IsImmutable)
                 that_22 = manager_2 != this.__cache_FwNSZQyz3CgNNmoV3SNnPy ? new BuildUp_S3fE6WSfWlXNbz9jtATkZH<T>(this)
                 {__cache_FwNSZQyz3CgNNmoV3SNnPy = manager_2} : that_22;
@@ -11896,21 +11896,21 @@ namespace _VL_Collections_.Collections.Trees.IReadOnlyTree
             return that_22;
         }
 
-        public n58.BuildUp_S3fE6WSfWlXNbz9jtATkZH<T> __Create__<AdM>(n1.NodeContext Node_Context)
-            where AdM : struct, n19.IAdaptiveCreateDefault<T>
+        public n63.BuildUp_S3fE6WSfWlXNbz9jtATkZH<T> __Create__<AdM>(n1.NodeContext Node_Context)
+            where AdM : struct, n18.IAdaptiveCreateDefault<T>
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
             var w_0 = default(AdM);
-            n58.BuildUp_S3fE6WSfWlXNbz9jtATkZH<T> that_1 = this;
+            n63.BuildUp_S3fE6WSfWlXNbz9jtATkZH<T> that_1 = this;
             this.__cache_FwNSZQyz3CgNNmoV3SNnPy = null;
             return that_1;
         }
 
-        public n58.BuildUp_S3fE6WSfWlXNbz9jtATkZH<T> __CreateDefault__<AdM>()
-            where AdM : struct, n19.IAdaptiveCreateDefault<T>
+        public n63.BuildUp_S3fE6WSfWlXNbz9jtATkZH<T> __CreateDefault__<AdM>()
+            where AdM : struct, n18.IAdaptiveCreateDefault<T>
         {
             var w_0 = default(AdM);
-            n58.BuildUp_S3fE6WSfWlXNbz9jtATkZH<T> that_1 = this;
+            n63.BuildUp_S3fE6WSfWlXNbz9jtATkZH<T> that_1 = this;
             this.__cache_FwNSZQyz3CgNNmoV3SNnPy = null;
             return that_1;
         }
@@ -11927,8 +11927,8 @@ namespace _VL_Collections_.Collections.Trees.IReadOnlyTree
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 259436U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "FwNSZQyz3CgNNmoV3SNnPy", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
-        public n40.Manager<n2.ValueTuple, n2.ValueTuple<T, bool>> __cache_FwNSZQyz3CgNNmoV3SNnPy = null;
+        [n1.ElementAttribute(TracingId = 274058U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "FwNSZQyz3CgNNmoV3SNnPy", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        public n42.Manager<n2.ValueTuple, n2.ValueTuple<T, bool>> __cache_FwNSZQyz3CgNNmoV3SNnPy = null;
         public BuildUp_S3fE6WSfWlXNbz9jtATkZH(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
         }
@@ -11943,9 +11943,9 @@ namespace _VL_Collections_.Collections.Trees.IReadOnlyTree
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__cache_FwNSZQyz3CgNNmoV3SNnPy", in __cache_FwNSZQyz3CgNNmoV3SNnPy));
         }
 
-        internal BuildUp_S3fE6WSfWlXNbz9jtATkZH<T> __WITH__(n40.Manager<n2.ValueTuple, n2.ValueTuple<T, bool>> __cache_FwNSZQyz3CgNNmoV3SNnPy)
+        internal BuildUp_S3fE6WSfWlXNbz9jtATkZH<T> __WITH__(n42.Manager<n2.ValueTuple, n2.ValueTuple<T, bool>> __cache_FwNSZQyz3CgNNmoV3SNnPy)
         {
-            n58.BuildUp_S3fE6WSfWlXNbz9jtATkZH<T> that_0 = this;
+            n63.BuildUp_S3fE6WSfWlXNbz9jtATkZH<T> that_0 = this;
             if (this.__GetContext__().IsImmutable)
                 that_0 = __cache_FwNSZQyz3CgNNmoV3SNnPy != this.__cache_FwNSZQyz3CgNNmoV3SNnPy ? new BuildUp_S3fE6WSfWlXNbz9jtATkZH<T>(this)
                 {__cache_FwNSZQyz3CgNNmoV3SNnPy = __cache_FwNSZQyz3CgNNmoV3SNnPy} : that_0;
@@ -11958,59 +11958,59 @@ namespace _VL_Collections_.Collections.Trees.IReadOnlyTree
         }
     }
 
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         public static void Flatten<T>(T Input_In, out n5.Spread<T> Result_Out)
-            where T : n56.IReadOnlyTree<T>
+            where T : n61.IReadOnlyTree<T>
         {
-            var Result_0 = n56.ReadOnlyTree.Flatten<T>(input: Input_In);
+            var Result_0 = n61.ReadOnlyTree.Flatten<T>(input: Input_In);
             n7._Operations_.FromSequence<T>(Input_In: Result_0, Result_Out: out n5.Spread<T> Result_1);
             Result_Out = Result_1;
             return;
         }
 
-        public static void Traverse<T>(T Input_In, n2.Func<T, n56.ITraverseCommand> Update_In, out T Output_Out, out n56.ITraverseCommand Last_Command_Out)
-            where T : n56.IReadOnlyTree<T>
+        public static void Traverse<T>(T Input_In, n2.Func<T, n61.ITraverseCommand> Update_In, out T Output_Out, out n61.ITraverseCommand Last_Command_Out)
+            where T : n61.IReadOnlyTree<T>
         {
-            n56.ReadOnlyTree.Traverse<T>(input: Input_In, update: Update_In, output: out T Output_0, lastCommand: out n56.ITraverseCommand Last_Command_1);
+            n61.ReadOnlyTree.Traverse<T>(input: Input_In, update: Update_In, output: out T Output_0, lastCommand: out n61.ITraverseCommand Last_Command_1);
             Output_Out = Output_0;
             Last_Command_Out = Last_Command_1;
             return;
         }
 
-        public static void Traverse_BreadthFirst<T>(T Input_In, n2.Func<T, n56.ITraverseCommand> Update_In, out T Output_Out)
-            where T : n56.IReadOnlyTree<T>
+        public static void Traverse_BreadthFirst<T>(T Input_In, n2.Func<T, n61.ITraverseCommand> Update_In, out T Output_Out)
+            where T : n61.IReadOnlyTree<T>
         {
-            n56.ReadOnlyTree.TraverseBreadthFirst<T>(input: Input_In, update: Update_In, output: out T Output_0);
+            n61.ReadOnlyTree.TraverseBreadthFirst<T>(input: Input_In, update: Update_In, output: out T Output_0);
             Output_Out = Output_0;
             return;
         }
 
-        public static void Traverse_BreadthFirst_MessageToChilds<T2, T>(T2 Input_In, T Message_In, n2.Func<T2, T, n56.ITraverseCommand> Update_In, out T2 Output_Out)
-            where T2 : n56.IReadOnlyTree<T2>
+        public static void Traverse_BreadthFirst_MessageToChilds<T2, T>(T2 Input_In, T Message_In, n2.Func<T2, T, n61.ITraverseCommand> Update_In, out T2 Output_Out)
+            where T2 : n61.IReadOnlyTree<T2>
         {
-            n56.ReadOnlyTree.TraverseBreadthFirstMessageToChilds<T2, T>(input: Input_In, message: Message_In, update: Update_In, output: out T2 Output_0);
+            n61.ReadOnlyTree.TraverseBreadthFirstMessageToChilds<T2, T>(input: Input_In, message: Message_In, update: Update_In, output: out T2 Output_0);
             Output_Out = Output_0;
             return;
         }
 
-        public static void Traverse_MessageToChilds<T2, T>(T2 Input_In, T Message_In, n2.Func<T2, T, n56.ITraverseCommand> Update_In, out T2 Output_Out, out n56.ITraverseCommand Last_Command_Out)
-            where T2 : n56.IReadOnlyTree<T2>
+        public static void Traverse_MessageToChilds<T2, T>(T2 Input_In, T Message_In, n2.Func<T2, T, n61.ITraverseCommand> Update_In, out T2 Output_Out, out n61.ITraverseCommand Last_Command_Out)
+            where T2 : n61.IReadOnlyTree<T2>
         {
-            n56.ReadOnlyTree.TraverseMessageToChilds<T2, T>(input: Input_In, message: Message_In, update: Update_In, output: out T2 Output_0, lastCommand: out n56.ITraverseCommand Last_Command_1);
+            n61.ReadOnlyTree.TraverseMessageToChilds<T2, T>(input: Input_In, message: Message_In, update: Update_In, output: out T2 Output_0, lastCommand: out n61.ITraverseCommand Last_Command_1);
             Output_Out = Output_0;
             Last_Command_Out = Last_Command_1;
             return;
         }
 
         [n4.CreateDefaultAttribute]
-        public static n56.IReadOnlyTree<T> CreateDefault<T>()
-            where T : n56.IReadOnlyTree<T>
+        public static n61.IReadOnlyTree<T> CreateDefault<T>()
+            where T : n61.IReadOnlyTree<T>
         {
-            n1.NodeContext Node_Context_0 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "AsNcyNJaiVQPGVapuVjKMV", 259596U);
-            var Output_1 = n57.DummyTree_C<T>.Create(Node_Context: Node_Context_0);
-            n56.IReadOnlyTree<T> Output_Out_2 = (n56.IReadOnlyTree<T>)Output_1;
+            n1.NodeContext Node_Context_0 = n1.NodeContext.Default.CreateSubContext("CsYvmiCXzFgMbCg5YvFjkW", "AsNcyNJaiVQPGVapuVjKMV", 274145U);
+            var Output_1 = n62.DummyTree_C<T>.Create(Node_Context: Node_Context_0);
+            n61.IReadOnlyTree<T> Output_Out_2 = (n61.IReadOnlyTree<T>)Output_1;
             return Output_Out_2;
         }
     }
@@ -12018,12 +12018,12 @@ namespace _VL_Collections_.Collections.Trees.IReadOnlyTree
 
 namespace _VL_Collections_.Collections.Trees.Internal
 {
-    [n1.ElementAttribute(TracingId = 259619U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "OwrcsPMTEYiLW28qrcb1i0", Name = "DummyTreeNode_C")]
+    [n1.ElementAttribute(TracingId = 274156U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "OwrcsPMTEYiLW28qrcb1i0", Name = "DummyTreeNode_C")]
     [n2.SerializableAttribute]
-    public class DummyTreeNode_C : n1.VLObject, n56.IReadOnlyTreeNode, n2.IDisposable
+    public class DummyTreeNode_C : n1.VLObject, n61.IReadOnlyTreeNode, n2.IDisposable
     {
         [n4.CreateNewAttribute]
-        public static n57.DummyTreeNode_C Create(n1.NodeContext Node_Context)
+        public static n62.DummyTreeNode_C Create(n1.NodeContext Node_Context)
         {
             Node_Context = Node_Context.WithIsImmutable(false);
             var instance = new DummyTreeNode_C(Node_Context, n1.VLObject.NewIdentity());
@@ -12031,30 +12031,30 @@ namespace _VL_Collections_.Collections.Trees.Internal
         }
 
         [n4.CreateDefaultAttribute]
-        public static n57.DummyTreeNode_C CreateDefault()
+        public static n62.DummyTreeNode_C CreateDefault()
         {
             var context = n1.NodeContext.Default.WithIsImmutable(false);
             var instance = new DummyTreeNode_C(context, n1.VLObject.NewIdentity());
             return instance.__CreateDefault__();
         }
 
-        public n57.DummyTreeNode_C Children_(out n6.IReadOnlyList<n56.IReadOnlyTreeNode> Children_Out)
+        public n62.DummyTreeNode_C Children_(out n6.IReadOnlyList<n61.IReadOnlyTreeNode> Children_Out)
         {
-            n6.IReadOnlyList<n56.IReadOnlyTreeNode> __auto_0 = this.Children;
+            n6.IReadOnlyList<n61.IReadOnlyTreeNode> __auto_0 = this.Children;
             Children_Out = __auto_0;
             return this;
         }
 
-        public n57.DummyTreeNode_C __Create__(n1.NodeContext Node_Context)
+        public n62.DummyTreeNode_C __Create__(n1.NodeContext Node_Context)
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
-            this.Children = n16._Operations_.CreateDefault<n56.IReadOnlyTreeNode>();
+            this.Children = n16._Operations_.CreateDefault<n61.IReadOnlyTreeNode>();
             return this;
         }
 
-        public n57.DummyTreeNode_C __CreateDefault__()
+        public n62.DummyTreeNode_C __CreateDefault__()
         {
-            this.Children = n16._Operations_.CreateDefault<n56.IReadOnlyTreeNode>();
+            this.Children = n16._Operations_.CreateDefault<n61.IReadOnlyTreeNode>();
             return this;
         }
 
@@ -12063,12 +12063,12 @@ namespace _VL_Collections_.Collections.Trees.Internal
             return;
         }
 
-        n6.IReadOnlyList<n56.IReadOnlyTreeNode> n56.IReadOnlyTreeNode.Children
+        n6.IReadOnlyList<n61.IReadOnlyTreeNode> n61.IReadOnlyTreeNode.Children
         {
             get
             {
                 using var __current_services = __GetServiceRegistry__().MakeCurrentIfNone();
-                var __returnValue__ = Children_(out n6.IReadOnlyList<n56.IReadOnlyTreeNode> out_Children_Out);
+                var __returnValue__ = Children_(out n6.IReadOnlyList<n61.IReadOnlyTreeNode> out_Children_Out);
                 return out_Children_Out;
             }
         }
@@ -12079,8 +12079,8 @@ namespace _VL_Collections_.Collections.Trees.Internal
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 259625U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "PM2u9YfjFliLhOQngpvRVx", Name = "Children")]
-        public n6.IReadOnlyList<n56.IReadOnlyTreeNode> Children;
+        [n1.ElementAttribute(TracingId = 274161U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "PM2u9YfjFliLhOQngpvRVx", Name = "Children")]
+        public n6.IReadOnlyList<n61.IReadOnlyTreeNode> Children;
         public DummyTreeNode_C(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
         }
@@ -12095,20 +12095,20 @@ namespace _VL_Collections_.Collections.Trees.Internal
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "Children", in Children));
         }
 
-        internal DummyTreeNode_C __WITH__(n6.IReadOnlyList<n56.IReadOnlyTreeNode> Children)
+        internal DummyTreeNode_C __WITH__(n6.IReadOnlyList<n61.IReadOnlyTreeNode> Children)
         {
-            n57.DummyTreeNode_C that_0 = this;
+            n62.DummyTreeNode_C that_0 = this;
             this.Children = Children;
             return that_0;
         }
     }
 
-    [n1.ElementAttribute(TracingId = 259643U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "AQ6qm5pzx6YOh0mgYBb0g7", Name = "DummyTree_C")]
+    [n1.ElementAttribute(TracingId = 274170U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "AQ6qm5pzx6YOh0mgYBb0g7", Name = "DummyTree_C")]
     [n2.SerializableAttribute]
-    public class DummyTree_C<T> : n1.VLObject, n56.IReadOnlyTree<T>, n2.IDisposable where T : n56.IReadOnlyTree<T>
+    public class DummyTree_C<T> : n1.VLObject, n61.IReadOnlyTree<T>, n2.IDisposable where T : n61.IReadOnlyTree<T>
     {
         [n4.CreateNewAttribute]
-        public static n57.DummyTree_C<T> Create(n1.NodeContext Node_Context)
+        public static n62.DummyTree_C<T> Create(n1.NodeContext Node_Context)
         {
             Node_Context = Node_Context.WithIsImmutable(false);
             var instance = new DummyTree_C<T>(Node_Context, n1.VLObject.NewIdentity());
@@ -12116,28 +12116,28 @@ namespace _VL_Collections_.Collections.Trees.Internal
         }
 
         [n4.CreateDefaultAttribute]
-        public static n57.DummyTree_C<T> CreateDefault()
+        public static n62.DummyTree_C<T> CreateDefault()
         {
             var context = n1.NodeContext.Default.WithIsImmutable(false);
             var instance = new DummyTree_C<T>(context, n1.VLObject.NewIdentity());
             return instance.__CreateDefault__();
         }
 
-        public n57.DummyTree_C<T> Children_(out n6.IReadOnlyList<T> Children_Out)
+        public n62.DummyTree_C<T> Children_(out n6.IReadOnlyList<T> Children_Out)
         {
             n6.IReadOnlyList<T> __auto_0 = this.Children;
             Children_Out = __auto_0;
             return this;
         }
 
-        public n57.DummyTree_C<T> __Create__(n1.NodeContext Node_Context)
+        public n62.DummyTree_C<T> __Create__(n1.NodeContext Node_Context)
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
             this.Children = n16._Operations_.CreateDefault<T>();
             return this;
         }
 
-        public n57.DummyTree_C<T> __CreateDefault__()
+        public n62.DummyTree_C<T> __CreateDefault__()
         {
             this.Children = n16._Operations_.CreateDefault<T>();
             return this;
@@ -12148,7 +12148,7 @@ namespace _VL_Collections_.Collections.Trees.Internal
             return;
         }
 
-        n6.IReadOnlyList<T> n56.IReadOnlyTree<T>.Children
+        n6.IReadOnlyList<T> n61.IReadOnlyTree<T>.Children
         {
             get
             {
@@ -12164,17 +12164,17 @@ namespace _VL_Collections_.Collections.Trees.Internal
             Dispose();
         }
 
-        n6.IReadOnlyList<n56.IReadOnlyTreeNode> n56.IReadOnlyTreeNode.Children
+        n6.IReadOnlyList<n61.IReadOnlyTreeNode> n61.IReadOnlyTreeNode.Children
         {
             get
             {
                 using var __current_services = __GetServiceRegistry__().MakeCurrentIfNone();
                 var __returnValue__ = Children_(out n6.IReadOnlyList<T> out_Children_Out);
-                return n16._Operations_.CreateDefault<n56.IReadOnlyTreeNode>();
+                return n16._Operations_.CreateDefault<n61.IReadOnlyTreeNode>();
             }
         }
 
-        [n1.ElementAttribute(TracingId = 259650U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "P4FUC67zlijLObZGH6ZvyW", Name = "Children")]
+        [n1.ElementAttribute(TracingId = 274175U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "P4FUC67zlijLObZGH6ZvyW", Name = "Children")]
         public n6.IReadOnlyList<T> Children;
         public DummyTree_C(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -12192,7 +12192,7 @@ namespace _VL_Collections_.Collections.Trees.Internal
 
         internal DummyTree_C<T> __WITH__(n6.IReadOnlyList<T> Children)
         {
-            n57.DummyTree_C<T> that_0 = this;
+            n62.DummyTree_C<T> that_0 = this;
             this.Children = Children;
             return that_0;
         }
@@ -12201,7 +12201,7 @@ namespace _VL_Collections_.Collections.Trees.Internal
 
 namespace _VL_Collections_.Collections.IReadOnlyList
 {
-    [n1.ElementAttribute(TracingId = 222614U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 260345U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
@@ -12220,31 +12220,31 @@ namespace _VL_Collections_.Collections.IReadOnlyList
             return;
         }
 
-        public static void ToImage<T>(n6.IReadOnlyList<T> Input_In, int Width_In, int Height_In, n39.PixelFormat Format_In, string Original_Format_In, [n4.SerializedDefaultValueAttribute("False", false)] bool Is_Volatile_In, out n39.IImage Result_Out)
+        public static void ToImage<T>(n6.IReadOnlyList<T> Input_In, int Width_In, int Height_In, n41.PixelFormat Format_In, string Original_Format_In, [n4.SerializedDefaultValueAttribute("False", false)] bool Is_Volatile_In, out n41.IImage Result_Out)
             where T : struct
         {
-            var Result_0 = n39.ImageExtensions.ToImage<T>(data: Input_In, width: Width_In, height: Height_In, format: Format_In, originalFormat: Original_Format_In, isVolatile: Is_Volatile_In);
+            var Result_0 = n41.ImageExtensions.ToImage<T>(data: Input_In, width: Width_In, height: Height_In, format: Format_In, originalFormat: Original_Format_In, isVolatile: Is_Volatile_In);
             Result_Out = Result_0;
             return;
         }
 
         public static void GetList<T>(n6.IReadOnlyList<T> Input_In, int Index_In, int Count_In, out n6.IReadOnlyList<T> Output_Out)
         {
-            var Output_0 = n42.CollectionNodes.GetList<T>(input: Input_In, index: Index_In, count: Count_In);
+            var Output_0 = n23.CollectionNodes.GetList<T>(input: Input_In, index: Index_In, count: Count_In);
             Output_Out = Output_0;
             return;
         }
 
         public static void GetSlice<T>(n6.IReadOnlyList<T> Input_In, T Default_Value_In, int Index_In, out T Result_Out)
         {
-            var Result_0 = n42.CollectionNodes.GetSlice<T>(input: Input_In, defaultValue: Default_Value_In, index: Index_In);
+            var Result_0 = n23.CollectionNodes.GetSlice<T>(input: Input_In, defaultValue: Default_Value_In, index: Index_In);
             Result_Out = Result_0;
             return;
         }
 
         public static void Pairwise<T, T2>(n6.IReadOnlyList<T> Input_In, n2.Func<T, T, T2> Selector_In, out n6.IReadOnlyList<T2> Output_Out)
         {
-            var Output_0 = n42.CollectionNodes.Pairwise<T, T2>(input: Input_In, selector: Selector_In);
+            var Output_0 = n23.CollectionNodes.Pairwise<T, T2>(input: Input_In, selector: Selector_In);
             Output_Out = Output_0;
             return;
         }
@@ -12253,7 +12253,7 @@ namespace _VL_Collections_.Collections.IReadOnlyList
 
 namespace _VL_Collections_
 {
-    [n1.ElementAttribute(TracingId = 259976U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "OSaGmia5DZRLHgXGyUAbs3", Name = "VL_CollectionsApplication_OSaGmia5DZRLHgXGyUAbs3")]
+    [n1.ElementAttribute(TracingId = 274265U, DocumentId = "CsYvmiCXzFgMbCg5YvFjkW", PersistentId = "OSaGmia5DZRLHgXGyUAbs3", Name = "VL_CollectionsApplication_OSaGmia5DZRLHgXGyUAbs3")]
     [n2.SerializableAttribute]
     public class VL_CollectionsApplication_OSaGmia5DZRLHgXGyUAbs3 : n1.VLObject, n2.IDisposable
     {
@@ -12320,7 +12320,7 @@ namespace _VL_Collections_
 
 namespace _VL_Collections_
 {
-    public struct __AdaptiveImplementations__CsYvmiCXzFgMbCg5YvFjkW : n18.IAdaptiveOperatorGreater<int>, n18.IAdaptiveOperatorLess<int>, n18.IAdaptiveOperatorMulitply<float>, n18.IAdaptiveOperatorDivide<float>, n18.IAdaptiveOperatorPlus<float>, n18.IAdaptiveOperatorMinus<float>, n18.IAdaptiveOperatorMulitply<n23.Vector2>, n18.IAdaptiveOperatorDivide<n23.Vector2>, n18.IAdaptiveOperatorPlus<n23.Vector2>, n18.IAdaptiveOperatorMinus<n23.Vector2>, n18.IAdaptiveOne<n23.Vector2>, n18.IAdaptiveZero<n23.Vector2>, n19.IAdaptiveCreateDefault<n23.Vector2>, n18.IAdaptiveOperatorMulitply_Scale<n23.Vector2>, n18.IAdaptiveOperatorMulitply<n23.Vector3>, n18.IAdaptiveOperatorDivide<n23.Vector3>, n18.IAdaptiveOperatorPlus<n23.Vector3>, n18.IAdaptiveOperatorMinus<n23.Vector3>, n18.IAdaptiveOne<n23.Vector3>, n18.IAdaptiveZero<n23.Vector3>, n19.IAdaptiveCreateDefault<n23.Vector3>, n18.IAdaptiveOperatorMulitply_Scale<n23.Vector3>, n18.IAdaptiveOperatorMulitply<n23.Vector4>, n18.IAdaptiveOperatorDivide<n23.Vector4>, n18.IAdaptiveOperatorPlus<n23.Vector4>, n18.IAdaptiveOperatorMinus<n23.Vector4>, n18.IAdaptiveOne<n23.Vector4>, n18.IAdaptiveZero<n23.Vector4>, n19.IAdaptiveCreateDefault<n23.Vector4>, n18.IAdaptiveOperatorMulitply_Scale<n23.Vector4>, n18.IAdaptiveLerp<float>, n19.IAdaptiveCreateDefault<n5.Spread<float>>, n18.IAdaptiveOperatorMulitply_Scale<float>, n19.IAdaptiveCreateDefault<float>, n19.IAdaptiveCreateDefault<bool>, n19.IAdaptiveCreateDefault<int>, n19.IAdaptiveCreateDefault<n47.Stream>, n19.IAdaptiveCreateDefault<n6.KeyValuePair<float, int>>, n19.IAdaptiveCreateDefault<n56.ITraverseCommand>
+    public struct __AdaptiveImplementations__CsYvmiCXzFgMbCg5YvFjkW : n19.IAdaptiveOperatorGreater<int>, n19.IAdaptiveOperatorLess<int>, n19.IAdaptiveOperatorMinus<float>, n19.IAdaptiveOperatorDivide<float>, n19.IAdaptiveOperatorMulitply<float>, n19.IAdaptiveOperatorPlus<float>, n19.IAdaptiveOperatorMinus<n26.Vector2>, n19.IAdaptiveOperatorDivide<n26.Vector2>, n19.IAdaptiveOperatorMulitply<n26.Vector2>, n19.IAdaptiveOperatorPlus<n26.Vector2>, n19.IAdaptiveOne<n26.Vector2>, n19.IAdaptiveZero<n26.Vector2>, n18.IAdaptiveCreateDefault<n26.Vector2>, n19.IAdaptiveOperatorMulitply_Scale<n26.Vector2>, n19.IAdaptiveOperatorMinus<n26.Vector3>, n19.IAdaptiveOperatorDivide<n26.Vector3>, n19.IAdaptiveOperatorMulitply<n26.Vector3>, n19.IAdaptiveOperatorPlus<n26.Vector3>, n19.IAdaptiveOne<n26.Vector3>, n19.IAdaptiveZero<n26.Vector3>, n18.IAdaptiveCreateDefault<n26.Vector3>, n19.IAdaptiveOperatorMulitply_Scale<n26.Vector3>, n19.IAdaptiveOperatorMinus<n26.Vector4>, n19.IAdaptiveOperatorDivide<n26.Vector4>, n19.IAdaptiveOperatorMulitply<n26.Vector4>, n19.IAdaptiveOperatorPlus<n26.Vector4>, n19.IAdaptiveOne<n26.Vector4>, n19.IAdaptiveZero<n26.Vector4>, n18.IAdaptiveCreateDefault<n26.Vector4>, n19.IAdaptiveOperatorMulitply_Scale<n26.Vector4>, n18.IAdaptiveCreateDefault<n5.Spread<float>>, n19.IAdaptiveOperatorMulitply_Scale<float>, n19.IAdaptiveLerp<float>, n18.IAdaptiveCreateDefault<float>, n18.IAdaptiveCreateDefault<bool>, n18.IAdaptiveCreateDefault<int>, n18.IAdaptiveCreateDefault<n53.Stream>, n18.IAdaptiveCreateDefault<n6.KeyValuePair<float, int>>, n18.IAdaptiveCreateDefault<n61.ITraverseCommand>
     {
         public void OperatorGreater(int Input_In, int Input_2_In, out bool Result_Out)
         {
@@ -12336,9 +12336,9 @@ namespace _VL_Collections_
             return;
         }
 
-        public void OperatorMulitply(float Input_In, float Input_2_In, out float Output_Out)
+        public void OperatorMinus(float Input_In, float Input_2_In, out float Output_Out)
         {
-            var Output_0 = Input_In * Input_2_In;
+            var Output_0 = Input_In - Input_2_In;
             Output_Out = Output_0;
             return;
         }
@@ -12350,6 +12350,13 @@ namespace _VL_Collections_
             return;
         }
 
+        public void OperatorMulitply(float Input_In, float Input_2_In, out float Output_Out)
+        {
+            var Output_0 = Input_In * Input_2_In;
+            Output_Out = Output_0;
+            return;
+        }
+
         public void OperatorPlus(float Input_In, float Input_2_In, out float Output_Out)
         {
             var Output_0 = Input_In + Input_2_In;
@@ -12357,184 +12364,170 @@ namespace _VL_Collections_
             return;
         }
 
-        public void OperatorMinus(float Input_In, float Input_2_In, out float Output_Out)
+        public void OperatorMinus(n26.Vector2 Input_In, n26.Vector2 Input_2_In, out n26.Vector2 Output_Out)
         {
-            var Output_0 = Input_In - Input_2_In;
+            n26.Vector2.Subtract(left: ref Input_In, right: ref Input_2_In, result: out n26.Vector2 Output_0);
             Output_Out = Output_0;
             return;
         }
 
-        public void OperatorMulitply(n23.Vector2 Input_In, n23.Vector2 Input_2_In, out n23.Vector2 Output_Out)
+        public void OperatorDivide(n26.Vector2 Input_In, n26.Vector2 Input_2_In, out n26.Vector2 Output_Out)
         {
-            n25.Vector2Nodes.Multiply(left: ref Input_In, right: ref Input_2_In, result: out n23.Vector2 Output_0);
+            var Output_0 = (n26.Vector2)Input_In / Input_2_In;
             Output_Out = Output_0;
             return;
         }
 
-        public void OperatorDivide(n23.Vector2 Input_In, n23.Vector2 Input_2_In, out n23.Vector2 Output_Out)
+        public void OperatorMulitply(n26.Vector2 Input_In, n26.Vector2 Input_2_In, out n26.Vector2 Output_Out)
         {
-            var Output_0 = (n23.Vector2)Input_In / Input_2_In;
+            n27.Vector2Nodes.Multiply(left: ref Input_In, right: ref Input_2_In, result: out n26.Vector2 Output_0);
             Output_Out = Output_0;
             return;
         }
 
-        public void OperatorPlus(n23.Vector2 Input_In, n23.Vector2 Input_2_In, out n23.Vector2 Output_Out)
+        public void OperatorPlus(n26.Vector2 Input_In, n26.Vector2 Input_2_In, out n26.Vector2 Output_Out)
         {
-            n23.Vector2.Add(left: ref Input_In, right: ref Input_2_In, result: out n23.Vector2 Output_0);
+            n26.Vector2.Add(left: ref Input_In, right: ref Input_2_In, result: out n26.Vector2 Output_0);
             Output_Out = Output_0;
             return;
         }
 
-        public void OperatorMinus(n23.Vector2 Input_In, n23.Vector2 Input_2_In, out n23.Vector2 Output_Out)
+        public void One(out n26.Vector2 One_Out)
         {
-            n23.Vector2.Subtract(left: ref Input_In, right: ref Input_2_In, result: out n23.Vector2 Output_0);
-            Output_Out = Output_0;
-            return;
-        }
-
-        public void One(out n23.Vector2 One_Out)
-        {
-            var One_0 = n23.Vector2.One;
+            var One_0 = n26.Vector2.One;
             One_Out = One_0;
             return;
         }
 
-        public void Zero(out n23.Vector2 Zero_Out)
+        public void Zero(out n26.Vector2 Zero_Out)
         {
-            var Zero_0 = n23.Vector2.Zero;
+            var Zero_0 = n26.Vector2.Zero;
             Zero_Out = Zero_0;
             return;
         }
 
-        public void CreateDefault(out n23.Vector2 Output_Out)
+        public void CreateDefault(out n26.Vector2 Output_Out)
         {
-            var Zero_0 = n30._Operations_.CreateDefault();
+            var Zero_0 = n33._Operations_.CreateDefault();
             Output_Out = Zero_0;
             return;
         }
 
-        public void OperatorMulitply_Scale(n23.Vector2 Input_In, float Scalar_In, out n23.Vector2 Output_Out)
+        public void OperatorMulitply_Scale(n26.Vector2 Input_In, float Scalar_In, out n26.Vector2 Output_Out)
         {
-            n25.Vector2Nodes.Scale(input: ref Input_In, scalar: Scalar_In, output: out n23.Vector2 Output_0);
+            n27.Vector2Nodes.Scale(input: ref Input_In, scalar: Scalar_In, output: out n26.Vector2 Output_0);
             Output_Out = Output_0;
             return;
         }
 
-        public void OperatorMulitply(n23.Vector3 Input_In, n23.Vector3 Input_2_In, out n23.Vector3 Output_Out)
+        public void OperatorMinus(n26.Vector3 Input_In, n26.Vector3 Input_2_In, out n26.Vector3 Output_Out)
         {
-            n25.Vector3Nodes.Multiply(left: ref Input_In, right: ref Input_2_In, result: out n23.Vector3 Output_0);
+            n26.Vector3.Subtract(left: ref Input_In, right: ref Input_2_In, result: out n26.Vector3 Output_0);
             Output_Out = Output_0;
             return;
         }
 
-        public void OperatorDivide(n23.Vector3 Input_In, n23.Vector3 Input_2_In, out n23.Vector3 Output_Out)
+        public void OperatorDivide(n26.Vector3 Input_In, n26.Vector3 Input_2_In, out n26.Vector3 Output_Out)
         {
-            var Output_0 = (n23.Vector3)Input_In / Input_2_In;
+            var Output_0 = (n26.Vector3)Input_In / Input_2_In;
             Output_Out = Output_0;
             return;
         }
 
-        public void OperatorPlus(n23.Vector3 Input_In, n23.Vector3 Input_2_In, out n23.Vector3 Output_Out)
+        public void OperatorMulitply(n26.Vector3 Input_In, n26.Vector3 Input_2_In, out n26.Vector3 Output_Out)
         {
-            n23.Vector3.Add(left: ref Input_In, right: ref Input_2_In, result: out n23.Vector3 Output_0);
+            n27.Vector3Nodes.Multiply(left: ref Input_In, right: ref Input_2_In, result: out n26.Vector3 Output_0);
             Output_Out = Output_0;
             return;
         }
 
-        public void OperatorMinus(n23.Vector3 Input_In, n23.Vector3 Input_2_In, out n23.Vector3 Output_Out)
+        public void OperatorPlus(n26.Vector3 Input_In, n26.Vector3 Input_2_In, out n26.Vector3 Output_Out)
         {
-            n23.Vector3.Subtract(left: ref Input_In, right: ref Input_2_In, result: out n23.Vector3 Output_0);
+            n26.Vector3.Add(left: ref Input_In, right: ref Input_2_In, result: out n26.Vector3 Output_0);
             Output_Out = Output_0;
             return;
         }
 
-        public void One(out n23.Vector3 One_Out)
+        public void One(out n26.Vector3 One_Out)
         {
-            var One_0 = n23.Vector3.One;
+            var One_0 = n26.Vector3.One;
             One_Out = One_0;
             return;
         }
 
-        public void Zero(out n23.Vector3 Zero_Out)
+        public void Zero(out n26.Vector3 Zero_Out)
         {
-            var Zero_0 = n23.Vector3.Zero;
+            var Zero_0 = n26.Vector3.Zero;
             Zero_Out = Zero_0;
             return;
         }
 
-        public void CreateDefault(out n23.Vector3 Output_Out)
+        public void CreateDefault(out n26.Vector3 Output_Out)
         {
             var Zero_0 = n66._Operations_.CreateDefault();
             Output_Out = Zero_0;
             return;
         }
 
-        public void OperatorMulitply_Scale(n23.Vector3 Input_In, float Scalar_In, out n23.Vector3 Output_Out)
+        public void OperatorMulitply_Scale(n26.Vector3 Input_In, float Scalar_In, out n26.Vector3 Output_Out)
         {
-            n25.Vector3Nodes.Scale(input: ref Input_In, scalar: Scalar_In, output: out n23.Vector3 Output_0);
+            n27.Vector3Nodes.Scale(input: ref Input_In, scalar: Scalar_In, output: out n26.Vector3 Output_0);
             Output_Out = Output_0;
             return;
         }
 
-        public void OperatorMulitply(n23.Vector4 Input_In, n23.Vector4 Input_2_In, out n23.Vector4 Output_Out)
+        public void OperatorMinus(n26.Vector4 Input_In, n26.Vector4 Input_2_In, out n26.Vector4 Output_Out)
         {
-            n25.Vector4Nodes.Multiply(left: ref Input_In, right: ref Input_2_In, result: out n23.Vector4 Output_0);
+            n26.Vector4.Subtract(left: ref Input_In, right: ref Input_2_In, result: out n26.Vector4 Output_0);
             Output_Out = Output_0;
             return;
         }
 
-        public void OperatorDivide(n23.Vector4 Input_In, n23.Vector4 Input_2_In, out n23.Vector4 Output_Out)
+        public void OperatorDivide(n26.Vector4 Input_In, n26.Vector4 Input_2_In, out n26.Vector4 Output_Out)
         {
-            var Output_0 = (n23.Vector4)Input_In / Input_2_In;
+            var Output_0 = (n26.Vector4)Input_In / Input_2_In;
             Output_Out = Output_0;
             return;
         }
 
-        public void OperatorPlus(n23.Vector4 Input_In, n23.Vector4 Input_2_In, out n23.Vector4 Output_Out)
+        public void OperatorMulitply(n26.Vector4 Input_In, n26.Vector4 Input_2_In, out n26.Vector4 Output_Out)
         {
-            n23.Vector4.Add(left: ref Input_In, right: ref Input_2_In, result: out n23.Vector4 Output_0);
+            n27.Vector4Nodes.Multiply(left: ref Input_In, right: ref Input_2_In, result: out n26.Vector4 Output_0);
             Output_Out = Output_0;
             return;
         }
 
-        public void OperatorMinus(n23.Vector4 Input_In, n23.Vector4 Input_2_In, out n23.Vector4 Output_Out)
+        public void OperatorPlus(n26.Vector4 Input_In, n26.Vector4 Input_2_In, out n26.Vector4 Output_Out)
         {
-            n23.Vector4.Subtract(left: ref Input_In, right: ref Input_2_In, result: out n23.Vector4 Output_0);
+            n26.Vector4.Add(left: ref Input_In, right: ref Input_2_In, result: out n26.Vector4 Output_0);
             Output_Out = Output_0;
             return;
         }
 
-        public void One(out n23.Vector4 One_Out)
+        public void One(out n26.Vector4 One_Out)
         {
-            var One_0 = n23.Vector4.One;
+            var One_0 = n26.Vector4.One;
             One_Out = One_0;
             return;
         }
 
-        public void Zero(out n23.Vector4 Zero_Out)
+        public void Zero(out n26.Vector4 Zero_Out)
         {
-            var Zero_0 = n23.Vector4.Zero;
+            var Zero_0 = n26.Vector4.Zero;
             Zero_Out = Zero_0;
             return;
         }
 
-        public void CreateDefault(out n23.Vector4 Output_Out)
+        public void CreateDefault(out n26.Vector4 Output_Out)
         {
             var Unit_W_0 = n67._Operations_.CreateDefault();
             Output_Out = Unit_W_0;
             return;
         }
 
-        public void OperatorMulitply_Scale(n23.Vector4 Input_In, float Scalar_In, out n23.Vector4 Output_Out)
+        public void OperatorMulitply_Scale(n26.Vector4 Input_In, float Scalar_In, out n26.Vector4 Output_Out)
         {
-            n25.Vector4Nodes.Scale(input: ref Input_In, scalar: Scalar_In, output: out n23.Vector4 Output_0);
-            Output_Out = Output_0;
-            return;
-        }
-
-        public void Lerp(float Input_In, float Input_2_In, float Scalar_In, out float Output_Out)
-        {
-            var Output_0 = n10.Float32Extensions.Lerp(input: Input_In, input2: Input_2_In, scalar: Scalar_In);
+            n27.Vector4Nodes.Scale(input: ref Input_In, scalar: Scalar_In, output: out n26.Vector4 Output_0);
             Output_Out = Output_0;
             return;
         }
@@ -12549,6 +12542,13 @@ namespace _VL_Collections_
         public void OperatorMulitply_Scale(float Input_In, float Scalar_In, out float Output_Out)
         {
             var Output_0 = n10.Float32Extensions.Scale(input: Input_In, scalar: Scalar_In);
+            Output_Out = Output_0;
+            return;
+        }
+
+        public void Lerp(float Input_In, float Input_2_In, float Scalar_In, out float Output_Out)
+        {
+            var Output_0 = n10.Float32Extensions.Lerp(input: Input_In, input2: Input_2_In, scalar: Scalar_In);
             Output_Out = Output_0;
             return;
         }
@@ -12574,7 +12574,7 @@ namespace _VL_Collections_
             return;
         }
 
-        public void CreateDefault(out n47.Stream Output_Out)
+        public void CreateDefault(out n53.Stream Output_Out)
         {
             var Null_0 = n69._Operations_.CreateDefault();
             Output_Out = Null_0;
@@ -12588,7 +12588,7 @@ namespace _VL_Collections_
             return;
         }
 
-        public void CreateDefault(out n56.ITraverseCommand Output_Out)
+        public void CreateDefault(out n61.ITraverseCommand Output_Out)
         {
             var Output_0 = n70._Operations_.CreateDefault_H();
             Output_Out = Output_0;

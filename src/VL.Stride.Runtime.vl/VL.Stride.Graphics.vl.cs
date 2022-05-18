@@ -1,18 +1,20 @@
-﻿extern alias e27;
+﻿extern alias e22;
+extern alias e31;
+extern alias e26;
+extern alias e3;
 extern alias e2;
-extern alias e40;
-extern alias e5;
-extern alias e1;
-extern alias e20;
+extern alias e4;
 
 using n58 = _VL_Sync_.IO;
 using n35 = _CoreLibBasics_.Primitive.Int3;
 using n18 = _VL_Stride_Graphics_.Stride.Buffers.Internal;
+using n17 = e26::Stride.Graphics;
 using n28 = _VL_Stride_Runtime_TypeForwards_.Stride.API.Graphics.Texture.Advanced;
 using n10 = _VL_Stride_Graphics_.Stride.Utils.Advanced;
 using n19 = _CoreLibBasics_.Control.Advanced;
+using n26 = e2::VL.Lib.Collections;
 using n54 = _VL_Stride_Graphics_.Video.ImagePlayer_FrameBased_Stride;
-using n53 = e2::VL.Lib.Primitive;
+using n6 = e3::VL.Lib.Primitive.CacheRegion;
 using n15 = _CoreLibBasics_.Primitive.Object.Advanced;
 using n40 = _CoreLibBasics_.System.Resources.Provider.Advanced;
 using n21 = _CoreLibBasics_.Control;
@@ -23,53 +25,51 @@ using n60 = _CoreLibBasics_.Math.Generic.Advanced;
 using n25 = _VL_Stride_Graphics_.Stride.Buffers.Advanced;
 using n33 = _VL_CoreLib_Experimental_.Control.Try__1_Output.Obsolete.Experimental;
 using n65 = _System_Memory_.System.Advanced.Adaptive;
-using n14 = e40::VL.Stride.Graphics;
 using n46 = _CoreLibBasics_.Primitive.IntPtr.Advanced;
-using n8 = e27::Stride.Graphics;
-using n32 = e2::VL.Lib.Control;
-using n57 = e5::VL.Lib.Animation;
+using n50 = e3::VL.Lib.Reactive;
+using n64 = e31::VL.Stride;
 using n70 = _CoreLibBasics_.Primitive.String;
-using n5 = e2::VL.Lib.Primitive.Object;
-using n4 = e5::VL.Core.CompilerServices;
+using n32 = e3::VL.Lib.Control;
+using n14 = e31::VL.Stride.Graphics;
 using n61 = _CoreLibBasics_.Animation.IFrameClock.Advanced;
 using n11 = global::System.Collections.Generic;
-using n12 = e1::Stride.Core.Mathematics;
 using n44 = _CoreLibBasics_.Math.Adaptive;
+using n39 = e2::VL.Lib.Basics.Resources;
 using n49 = _CoreLibBasics_.IO.Path;
 using n20 = _CoreLibBasics_.Primitive.Advanced.Adaptive;
 using n24 = _VL_Stride_Graphics_.Stride.Textures.Utils.Advanced;
 using n22 = _VL_Stride_Graphics_;
-using n6 = e2::VL.Lib.Primitive.CacheRegion;
 using n16 = _CoreLibBasics_.Primitive.Boolean;
+using n53 = e3::VL.Lib.Primitive;
+using n55 = e2::VL.Lib.Runtime;
 using n23 = _CoreLibBasics_.Math.Ranges.Generic.Advanced;
 using n34 = _VL_Stride_Graphics_.Stride.Textures.Internal;
 using n48 = global::System.Threading;
-using n64 = e40::VL.Stride;
-using n50 = e2::VL.Lib.Reactive;
-using n1 = e5::VL.Core;
-using n17 = e20::Stride.Graphics;
+using n66 = e2::VL.Lib.Basics.Imaging;
 using n43 = global::System.Threading.Tasks;
 using n31 = _VL_Stride_Graphics_.Stride.Textures.Advanced;
+using n1 = e2::VL.Core;
+using n8 = e22::Stride.Graphics;
 using n3 = _VL_Stride_Graphics_.Stride.Buffers.ReadBack;
-using n39 = e5::VL.Lib.Basics.Resources;
-using n55 = e5::VL.Lib.Runtime;
 using n2 = global::System;
 using n51 = _VL_Reactive_.Reactive.AsyncTask;
 using n29 = _CoreLibBasics_.Primitive.Int2;
-using n68 = e2::VL.Lib;
+using n12 = e4::Stride.Core.Mathematics;
 using n47 = _VL_Stride_Graphics_.Video;
 using n13 = _VL_Stride_Graphics_.Stride.Buffers;
 using n27 = _VL_Stride_Graphics_.Stride.Textures;
+using n36 = e2::VL.Lib.IO;
+using n5 = e3::VL.Lib.Primitive.Object;
+using n4 = e2::VL.Core.CompilerServices;
 using n67 = _VL_Stride_Graphics_.Stride;
+using n68 = e3::VL.Lib;
 using n7 = _VL_Collections_.Collections.Mutable.MutableArray.Advanced;
 using n52 = _VL_Reactive_.Reactive.HoldLatest;
-using n66 = e5::VL.Lib.Basics.Imaging;
 using n63 = _VL_Stride_Graphics_.Stride.Windowing;
+using n57 = e2::VL.Lib.Animation;
 using n56 = _VL_Collections_.Collections.Sequence;
 using n9 = global::System.Runtime.CompilerServices;
-using n26 = e5::VL.Lib.Collections;
 using n30 = _VL_Stride_Runtime_TypeForwards_.Stride.API.Core.Utils.Advanced;
-using n36 = e5::VL.Lib.IO;
 using n37 = _VL_Collections_.Collections.Spread;
 using n41 = _CoreLibBasics_.Primitive.ValueTuple__2_Items.Advanced;
 using n38 = _VL_Stride_Graphics_.Stride.Textures.TextureReader_Async.Advanced;
@@ -78,7 +78,7 @@ using n69 = _CoreLibBasics_.Primitive.Advanced;
 
 namespace _VL_Stride_Graphics_.Stride.Buffers.ReadBack
 {
-    [n1.ElementAttribute(TracingId = 107561U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "RH2RUpkkU3qOkXmvMgGVUB", Name = "ReadBack_RH2RUpkkU3qOkXmvMgGVUB")]
+    [n1.ElementAttribute(TracingId = 20882U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "RH2RUpkkU3qOkXmvMgGVUB", Name = "ReadBack_RH2RUpkkU3qOkXmvMgGVUB")]
     [n2.SerializableAttribute]
     public class ReadBack_RH2RUpkkU3qOkXmvMgGVUB<T> : n1.VLObject, n2.IDisposable where T : struct
     {
@@ -116,7 +116,7 @@ namespace _VL_Stride_Graphics_.Stride.Buffers.ReadBack
                 if (Dispose_Cached_Outputs_4)
                     manager_5.DisposeOutputs();
                 var Output_10 = Element_Count_In * Elements_Per_Buffer_Structure_In;
-                n1.NodeContext Node_Context_11 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "BhJf8MohmVcOGbWit9RGYd", 107568U);
+                n1.NodeContext Node_Context_11 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "BhJf8MohmVcOGbWit9RGYd", 20894U);
                 n7._Operations_.Create<T>(Node_Context: Node_Context_11, Length_In: Output_10, Result_Out: out T[] Result_12);
                 int Index_13 = 0;
                 n7._Operations_.SetItem<T>(Input_In: Result_12, Index_In: Index_13, Value_In: Example_Element_Of_Type_In, Output_Out: out T[] Output_14);
@@ -155,7 +155,7 @@ namespace _VL_Stride_Graphics_.Stride.Buffers.ReadBack
         public n3.ReadBack_RH2RUpkkU3qOkXmvMgGVUB<T> __Create__(n1.NodeContext Node_Context)
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "Np7WVhIe5C5Qd8pFnDJ7B6", 107616U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "Np7WVhIe5C5Qd8pFnDJ7B6", 21131U);
             var Output_1 = n10.GraphicsContext_LZGVLOdpi83QS6XklGOZVK.Create(Node_Context_In: Node_Context_0);
             n3.ReadBack_RH2RUpkkU3qOkXmvMgGVUB<T> that_2 = this;
             this.Command_List = default(n8.CommandList);
@@ -186,11 +186,11 @@ namespace _VL_Stride_Graphics_.Stride.Buffers.ReadBack
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 107596U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "EzzVoV1VDoDOggfh43VKtY", Name = "Command List")]
+        [n1.ElementAttribute(TracingId = 21034U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "EzzVoV1VDoDOggfh43VKtY", Name = "Command List")]
         public n8.CommandList Command_List;
-        [n1.ElementAttribute(TracingId = 107564U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "EOLLBuyqSuFMKWtFfL1s6Q", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 20888U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "EOLLBuyqSuFMKWtFfL1s6Q", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
         public n6.Manager<n2.ValueTuple<int, int>, n2.ValueTuple<T[]>> __cache_EOLLBuyqSuFMKWtFfL1s6Q = null;
-        [n1.ElementAttribute(TracingId = 107616U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Np7WVhIe5C5Qd8pFnDJ7B6", Name = "GraphicsContext", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 21131U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Np7WVhIe5C5Qd8pFnDJ7B6", Name = "GraphicsContext", IsManaged = true, IsAutoGenerated = true)]
         public n10.GraphicsContext_LZGVLOdpi83QS6XklGOZVK __p_Np7WVhIe5C5Qd8pFnDJ7B6;
         public ReadBack_RH2RUpkkU3qOkXmvMgGVUB(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -225,7 +225,7 @@ namespace _VL_Stride_Graphics_.Stride.Buffers.ReadBack
         }
     }
 
-    [n1.ElementAttribute(TracingId = 107653U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "CTLWvUbjPuRQD6igVPwvzF", Name = "ReadBackVec4_CTLWvUbjPuRQD6igVPwvzF")]
+    [n1.ElementAttribute(TracingId = 21247U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "CTLWvUbjPuRQD6igVPwvzF", Name = "ReadBackVec4_CTLWvUbjPuRQD6igVPwvzF")]
     [n2.SerializableAttribute]
     public class ReadBackVec4_CTLWvUbjPuRQD6igVPwvzF : n1.VLObject, n2.IDisposable
     {
@@ -264,7 +264,7 @@ namespace _VL_Stride_Graphics_.Stride.Buffers.ReadBack
         public n3.ReadBackVec4_CTLWvUbjPuRQD6igVPwvzF __Create__(n1.NodeContext Node_Context)
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "KIh3lltro2BLjVKGulZIYP", 107656U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "KIh3lltro2BLjVKGulZIYP", 21250U);
             var Output_1 = n3.ReadBack_RH2RUpkkU3qOkXmvMgGVUB<n12.Vector4>.Create(Node_Context: Node_Context_0);
             n3.ReadBackVec4_CTLWvUbjPuRQD6igVPwvzF that_2 = this;
             this.__p_KIh3lltro2BLjVKGulZIYP = Output_1;
@@ -290,7 +290,7 @@ namespace _VL_Stride_Graphics_.Stride.Buffers.ReadBack
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 107656U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "KIh3lltro2BLjVKGulZIYP", Name = "ReadBack", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 21250U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "KIh3lltro2BLjVKGulZIYP", Name = "ReadBack", IsManaged = true, IsAutoGenerated = true)]
         public n3.ReadBack_RH2RUpkkU3qOkXmvMgGVUB<n12.Vector4> __p_KIh3lltro2BLjVKGulZIYP;
         public ReadBackVec4_CTLWvUbjPuRQD6igVPwvzF(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -321,7 +321,7 @@ namespace _VL_Stride_Graphics_.Stride.Buffers.ReadBack
         }
     }
 
-    [n1.ElementAttribute(TracingId = 107687U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "DXB7LW5AyOQPlCtxrmxokb", Name = "ReadBackFloat_DXB7LW5AyOQPlCtxrmxokb")]
+    [n1.ElementAttribute(TracingId = 21337U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "DXB7LW5AyOQPlCtxrmxokb", Name = "ReadBackFloat_DXB7LW5AyOQPlCtxrmxokb")]
     [n2.SerializableAttribute]
     public class ReadBackFloat_DXB7LW5AyOQPlCtxrmxokb : n1.VLObject, n2.IDisposable
     {
@@ -360,7 +360,7 @@ namespace _VL_Stride_Graphics_.Stride.Buffers.ReadBack
         public n3.ReadBackFloat_DXB7LW5AyOQPlCtxrmxokb __Create__(n1.NodeContext Node_Context)
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "S42n7accQuGOmKDG3tO0Ee", 107690U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "S42n7accQuGOmKDG3tO0Ee", 21343U);
             var Output_1 = n3.ReadBack_RH2RUpkkU3qOkXmvMgGVUB<float>.Create(Node_Context: Node_Context_0);
             n3.ReadBackFloat_DXB7LW5AyOQPlCtxrmxokb that_2 = this;
             this.__p_S42n7accQuGOmKDG3tO0Ee = Output_1;
@@ -386,9 +386,9 @@ namespace _VL_Stride_Graphics_.Stride.Buffers.ReadBack
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 107701U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Amchh0YrFLpMV9W7iNt0I8", Name = "__slot_Amchh0YrFLpMV9W7iNt0I8")]
+        [n1.ElementAttribute(TracingId = 21365U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Amchh0YrFLpMV9W7iNt0I8", Name = "__slot_Amchh0YrFLpMV9W7iNt0I8")]
         public static float __slot_Amchh0YrFLpMV9W7iNt0I8 = 0F;
-        [n1.ElementAttribute(TracingId = 107690U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "S42n7accQuGOmKDG3tO0Ee", Name = "ReadBack", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 21343U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "S42n7accQuGOmKDG3tO0Ee", Name = "ReadBack", IsManaged = true, IsAutoGenerated = true)]
         public n3.ReadBack_RH2RUpkkU3qOkXmvMgGVUB<float> __p_S42n7accQuGOmKDG3tO0Ee;
         static ReadBackFloat_DXB7LW5AyOQPlCtxrmxokb()
         {
@@ -423,7 +423,7 @@ namespace _VL_Stride_Graphics_.Stride.Buffers.ReadBack
         }
     }
 
-    [n1.ElementAttribute(TracingId = 107720U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "G9MH2IMMz2JMo3cQulW6NI", Name = "ReadBackVec3_G9MH2IMMz2JMo3cQulW6NI")]
+    [n1.ElementAttribute(TracingId = 21404U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "G9MH2IMMz2JMo3cQulW6NI", Name = "ReadBackVec3_G9MH2IMMz2JMo3cQulW6NI")]
     [n2.SerializableAttribute]
     public class ReadBackVec3_G9MH2IMMz2JMo3cQulW6NI : n1.VLObject, n2.IDisposable
     {
@@ -462,7 +462,7 @@ namespace _VL_Stride_Graphics_.Stride.Buffers.ReadBack
         public n3.ReadBackVec3_G9MH2IMMz2JMo3cQulW6NI __Create__(n1.NodeContext Node_Context)
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "FUC6J6OmNSDLKuIqLgX4Ri", 107723U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "FUC6J6OmNSDLKuIqLgX4Ri", 21411U);
             var Output_1 = n3.ReadBack_RH2RUpkkU3qOkXmvMgGVUB<n12.Vector3>.Create(Node_Context: Node_Context_0);
             n3.ReadBackVec3_G9MH2IMMz2JMo3cQulW6NI that_2 = this;
             this.__p_FUC6J6OmNSDLKuIqLgX4Ri = Output_1;
@@ -488,7 +488,7 @@ namespace _VL_Stride_Graphics_.Stride.Buffers.ReadBack
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 107723U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "FUC6J6OmNSDLKuIqLgX4Ri", Name = "ReadBack", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 21411U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "FUC6J6OmNSDLKuIqLgX4Ri", Name = "ReadBack", IsManaged = true, IsAutoGenerated = true)]
         public n3.ReadBack_RH2RUpkkU3qOkXmvMgGVUB<n12.Vector3> __p_FUC6J6OmNSDLKuIqLgX4Ri;
         public ReadBackVec3_G9MH2IMMz2JMo3cQulW6NI(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -519,7 +519,7 @@ namespace _VL_Stride_Graphics_.Stride.Buffers.ReadBack
         }
     }
 
-    [n1.ElementAttribute(TracingId = 107754U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "E0mMo8bcQLQPNgFse9hCMF", Name = "ReadBackVec2_E0mMo8bcQLQPNgFse9hCMF")]
+    [n1.ElementAttribute(TracingId = 21471U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "E0mMo8bcQLQPNgFse9hCMF", Name = "ReadBackVec2_E0mMo8bcQLQPNgFse9hCMF")]
     [n2.SerializableAttribute]
     public class ReadBackVec2_E0mMo8bcQLQPNgFse9hCMF : n1.VLObject, n2.IDisposable
     {
@@ -558,7 +558,7 @@ namespace _VL_Stride_Graphics_.Stride.Buffers.ReadBack
         public n3.ReadBackVec2_E0mMo8bcQLQPNgFse9hCMF __Create__(n1.NodeContext Node_Context)
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "BaXznCtdp8wPMt3lSm028c", 107757U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "BaXznCtdp8wPMt3lSm028c", 21476U);
             var Output_1 = n3.ReadBack_RH2RUpkkU3qOkXmvMgGVUB<n12.Vector2>.Create(Node_Context: Node_Context_0);
             n3.ReadBackVec2_E0mMo8bcQLQPNgFse9hCMF that_2 = this;
             this.__p_BaXznCtdp8wPMt3lSm028c = Output_1;
@@ -584,7 +584,7 @@ namespace _VL_Stride_Graphics_.Stride.Buffers.ReadBack
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 107757U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "BaXznCtdp8wPMt3lSm028c", Name = "ReadBack", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 21476U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "BaXznCtdp8wPMt3lSm028c", Name = "ReadBack", IsManaged = true, IsAutoGenerated = true)]
         public n3.ReadBack_RH2RUpkkU3qOkXmvMgGVUB<n12.Vector2> __p_BaXznCtdp8wPMt3lSm028c;
         public ReadBackVec2_E0mMo8bcQLQPNgFse9hCMF(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -618,7 +618,7 @@ namespace _VL_Stride_Graphics_.Stride.Buffers.ReadBack
 
 namespace _VL_Stride_Graphics_.Stride.Buffers
 {
-    [n1.ElementAttribute(TracingId = 107788U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "PFT0uUgEsf0MJ7bFzVugSk", Name = "SetData_PFT0uUgEsf0MJ7bFzVugSk")]
+    [n1.ElementAttribute(TracingId = 21561U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "PFT0uUgEsf0MJ7bFzVugSk", Name = "SetData_PFT0uUgEsf0MJ7bFzVugSk")]
     [n2.SerializableAttribute]
     public class SetData_PFT0uUgEsf0MJ7bFzVugSk : n1.VLObject, n2.IDisposable
     {
@@ -658,7 +658,7 @@ namespace _VL_Stride_Graphics_.Stride.Buffers
         public n13.SetData_PFT0uUgEsf0MJ7bFzVugSk __Create__(n1.NodeContext Node_Context)
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "IXjKlKru3AlNaL4RCmniL3", 107810U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "IXjKlKru3AlNaL4RCmniL3", 21760U);
             var Output_1 = n10.GraphicsContext_LZGVLOdpi83QS6XklGOZVK.Create(Node_Context_In: Node_Context_0);
             var State_Output_3 = Output_1.Update(Output_Out: out n8.GraphicsContext Output_2);
             n8.GraphicsContext __auto_4 = Output_2;
@@ -688,9 +688,9 @@ namespace _VL_Stride_Graphics_.Stride.Buffers
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 107813U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "DmgB44v2j5uOLLfLMwymTN", Name = "Output")]
+        [n1.ElementAttribute(TracingId = 21775U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "DmgB44v2j5uOLLfLMwymTN", Name = "Output")]
         public n8.GraphicsContext Output;
-        [n1.ElementAttribute(TracingId = 107810U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "IXjKlKru3AlNaL4RCmniL3", Name = "GraphicsContext", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 21760U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "IXjKlKru3AlNaL4RCmniL3", Name = "GraphicsContext", IsManaged = true, IsAutoGenerated = true)]
         public n10.GraphicsContext_LZGVLOdpi83QS6XklGOZVK __p_IXjKlKru3AlNaL4RCmniL3;
         public SetData_PFT0uUgEsf0MJ7bFzVugSk(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -723,7 +723,7 @@ namespace _VL_Stride_Graphics_.Stride.Buffers
         }
     }
 
-    [n1.ElementAttribute(TracingId = 107843U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "C82b44KM7nmOgoP82JqMWO", Name = "DynamicBuffer_C82b44KM7nmOgoP82JqMWO")]
+    [n1.ElementAttribute(TracingId = 21851U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "C82b44KM7nmOgoP82JqMWO", Name = "DynamicBuffer_C82b44KM7nmOgoP82JqMWO")]
     [n2.SerializableAttribute]
     public class DynamicBuffer_C82b44KM7nmOgoP82JqMWO<T> : n1.VLObject, n2.IDisposable
     {
@@ -755,7 +755,7 @@ namespace _VL_Stride_Graphics_.Stride.Buffers
                 if (state_6 == null)
                 {
                     state_6 = new __MmRL8LTTWmIMFVzYXUoR3G(__GetContext__(), n1.VLObject.NewIdentity());
-                    n1.NodeContext Node_Context_7 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "NqG63rkt8IqNbNdRz2xeta", 107937U);
+                    n1.NodeContext Node_Context_7 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "NqG63rkt8IqNbNdRz2xeta", 22143U);
                     var Output_8 = n10.GraphicsData_Jyp9mYJHExJNVTwXieAIds<T>.Create(Node_Context: Node_Context_7);
                     state_6.__p_NqG63rkt8IqNbNdRz2xeta = Output_8;
                 }
@@ -880,7 +880,7 @@ namespace _VL_Stride_Graphics_.Stride.Buffers
         public n13.DynamicBuffer_C82b44KM7nmOgoP82JqMWO<T> __Create__(n1.NodeContext Node_Context)
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "CknwO4VC78aQJM2ElqNucP", 107954U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "CknwO4VC78aQJM2ElqNucP", 22211U);
             var Output_1 = n13.SetData_PFT0uUgEsf0MJ7bFzVugSk.Create(Node_Context: Node_Context_0);
             n13.DynamicBuffer_C82b44KM7nmOgoP82JqMWO<T> that_2 = this;
             this.__p_CknwO4VC78aQJM2ElqNucP = Output_1;
@@ -914,15 +914,15 @@ namespace _VL_Stride_Graphics_.Stride.Buffers
 
         [n1.ElementAttribute(IsManaged = true, IsAutoGenerated = true)]
         public n2.Object __if_FixYrbUmWWmNhxx5ScuYkn;
-        [n1.ElementAttribute(TracingId = 107847U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "QRuKOIDKTCjQEXispb5UiS", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 21863U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "QRuKOIDKTCjQEXispb5UiS", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
         public n6.Manager<n2.ValueTuple<int, int, bool, bool, bool, bool>, n2.ValueTuple<n8.Buffer>> __cache_QRuKOIDKTCjQEXispb5UiS = null;
-        [n1.ElementAttribute(TracingId = 107917U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "CFeoR1mQLTILhVpIIPDd6Y", Name = "__slot_CFeoR1mQLTILhVpIIPDd6Y")]
+        [n1.ElementAttribute(TracingId = 22087U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "CFeoR1mQLTILhVpIIPDd6Y", Name = "__slot_CFeoR1mQLTILhVpIIPDd6Y")]
         public static n14.StructuredBufferType __slot_CFeoR1mQLTILhVpIIPDd6Y = n1.CompilationHelper.Deserialize<n14.StructuredBufferType>("None", false, "Dky5PMnuvcKN4CxmfNs7Uv", "CFeoR1mQLTILhVpIIPDd6Y");
-        [n1.ElementAttribute(TracingId = 107916U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "VYz1JM6cNIoLN2X94xv3cg", Name = "__slot_VYz1JM6cNIoLN2X94xv3cg")]
+        [n1.ElementAttribute(TracingId = 22083U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "VYz1JM6cNIoLN2X94xv3cg", Name = "__slot_VYz1JM6cNIoLN2X94xv3cg")]
         public static n14.StructuredBufferType __slot_VYz1JM6cNIoLN2X94xv3cg = n1.CompilationHelper.Deserialize<n14.StructuredBufferType>("StructuredBuffer", false, "Dky5PMnuvcKN4CxmfNs7Uv", "VYz1JM6cNIoLN2X94xv3cg");
-        [n1.ElementAttribute(TracingId = 107861U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "HrjjC2A5sVNMOgsIap8AuS", Name = "__slot_HrjjC2A5sVNMOgsIap8AuS")]
+        [n1.ElementAttribute(TracingId = 21902U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "HrjjC2A5sVNMOgsIap8AuS", Name = "__slot_HrjjC2A5sVNMOgsIap8AuS")]
         public static n8.GraphicsResourceUsage __slot_HrjjC2A5sVNMOgsIap8AuS = n1.CompilationHelper.Deserialize<n8.GraphicsResourceUsage>("Dynamic", false, "Dky5PMnuvcKN4CxmfNs7Uv", "HrjjC2A5sVNMOgsIap8AuS");
-        [n1.ElementAttribute(TracingId = 107954U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "CknwO4VC78aQJM2ElqNucP", Name = "SetData", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 22211U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "CknwO4VC78aQJM2ElqNucP", Name = "SetData", IsManaged = true, IsAutoGenerated = true)]
         public n13.SetData_PFT0uUgEsf0MJ7bFzVugSk __p_CknwO4VC78aQJM2ElqNucP;
         static DynamicBuffer_C82b44KM7nmOgoP82JqMWO()
         {
@@ -970,7 +970,7 @@ namespace _VL_Stride_Graphics_.Stride.Buffers
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 107937U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "NqG63rkt8IqNbNdRz2xeta", Name = "GraphicsData", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 22143U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "NqG63rkt8IqNbNdRz2xeta", Name = "GraphicsData", IsManaged = true, IsAutoGenerated = true)]
             public n10.GraphicsData_Jyp9mYJHExJNVTwXieAIds<T> __p_NqG63rkt8IqNbNdRz2xeta;
             public __MmRL8LTTWmIMFVzYXUoR3G(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -1013,11 +1013,11 @@ namespace _VL_Stride_Graphics_.Stride.Buffers
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 107862U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "RQC24rnEnTaPDsb3GpzWS7", Name = "Buffer", IsManaged = true, IsAutoGenerated = true, NodeName = "Buffer", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 21910U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "RQC24rnEnTaPDsb3GpzWS7", Name = "Buffer", IsManaged = true, IsAutoGenerated = true, NodeName = "Buffer", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_RQC24rnEnTaPDsb3GpzWS7;
-            [n1.ElementAttribute(TracingId = 107868U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "DSoFIC6ZRMEPUrsyKkpTH5", Name = "BufferDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "BufferDescription", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 21928U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "DSoFIC6ZRMEPUrsyKkpTH5", Name = "BufferDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "BufferDescription", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_DSoFIC6ZRMEPUrsyKkpTH5;
-            [n1.ElementAttribute(TracingId = 107874U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "SFLqj3TP9TlLRbmyW7K6QG", Name = "BufferViewDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "BufferViewDescription", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 21948U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "SFLqj3TP9TlLRbmyW7K6QG", Name = "BufferViewDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "BufferViewDescription", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_SFLqj3TP9TlLRbmyW7K6QG;
             public __E6M5AizEqR0PwMOSaIV9au(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -1053,7 +1053,7 @@ namespace _VL_Stride_Graphics_.Stride.Buffers
         }
     }
 
-    [n1.ElementAttribute(TracingId = 108047U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "DmEfvnY9LhgL0IgudEOxyM", Name = "ComputeBuffer_DmEfvnY9LhgL0IgudEOxyM")]
+    [n1.ElementAttribute(TracingId = 22514U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "DmEfvnY9LhgL0IgudEOxyM", Name = "ComputeBuffer_DmEfvnY9LhgL0IgudEOxyM")]
     [n2.SerializableAttribute]
     public class ComputeBuffer_DmEfvnY9LhgL0IgudEOxyM : n1.VLObject, n2.IDisposable
     {
@@ -1181,11 +1181,11 @@ namespace _VL_Stride_Graphics_.Stride.Buffers
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 108051U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "RlTyhxj03PYPXcNipLKAtU", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 22519U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "RlTyhxj03PYPXcNipLKAtU", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
         public n6.Manager<n2.ValueTuple<int, int, bool, n14.StructuredBufferType, bool, bool>, n2.ValueTuple<n8.Buffer>> __cache_RlTyhxj03PYPXcNipLKAtU = null;
-        [n1.ElementAttribute(TracingId = 108107U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "TSrZFhx9MNqO2AuXq1NgrD", Name = "__slot_TSrZFhx9MNqO2AuXq1NgrD")]
+        [n1.ElementAttribute(TracingId = 24704U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "TSrZFhx9MNqO2AuXq1NgrD", Name = "__slot_TSrZFhx9MNqO2AuXq1NgrD")]
         public static n14.StructuredBufferType __slot_TSrZFhx9MNqO2AuXq1NgrD = n1.CompilationHelper.Deserialize<n14.StructuredBufferType>("None", false, "Dky5PMnuvcKN4CxmfNs7Uv", "TSrZFhx9MNqO2AuXq1NgrD");
-        [n1.ElementAttribute(TracingId = 108065U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "LLP9BXCcwefMGM1nDKx4zd", Name = "__slot_LLP9BXCcwefMGM1nDKx4zd")]
+        [n1.ElementAttribute(TracingId = 24610U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "LLP9BXCcwefMGM1nDKx4zd", Name = "__slot_LLP9BXCcwefMGM1nDKx4zd")]
         public static n8.GraphicsResourceUsage __slot_LLP9BXCcwefMGM1nDKx4zd = n1.CompilationHelper.Deserialize<n8.GraphicsResourceUsage>("Default", false, "Dky5PMnuvcKN4CxmfNs7Uv", "LLP9BXCcwefMGM1nDKx4zd");
         static ComputeBuffer_DmEfvnY9LhgL0IgudEOxyM()
         {
@@ -1231,11 +1231,11 @@ namespace _VL_Stride_Graphics_.Stride.Buffers
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 108066U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "LnWWBICuY1lN2PQGvQtCAh", Name = "Buffer", IsManaged = true, IsAutoGenerated = true, NodeName = "Buffer", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 24613U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "LnWWBICuY1lN2PQGvQtCAh", Name = "Buffer", IsManaged = true, IsAutoGenerated = true, NodeName = "Buffer", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_LnWWBICuY1lN2PQGvQtCAh;
-            [n1.ElementAttribute(TracingId = 108072U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "FRxFPsIH1F9Nf6lWY2FPvO", Name = "BufferDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "BufferDescription", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 24631U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "FRxFPsIH1F9Nf6lWY2FPvO", Name = "BufferDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "BufferDescription", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_FRxFPsIH1F9Nf6lWY2FPvO;
-            [n1.ElementAttribute(TracingId = 108078U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "K3PHfsagHgQLBjZbytHeqO", Name = "BufferViewDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "BufferViewDescription", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 24642U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "K3PHfsagHgQLBjZbytHeqO", Name = "BufferViewDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "BufferViewDescription", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_K3PHfsagHgQLBjZbytHeqO;
             public __QXYp41kgWsmLmXjIF5BS0i(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -1271,7 +1271,7 @@ namespace _VL_Stride_Graphics_.Stride.Buffers
         }
     }
 
-    [n1.ElementAttribute(TracingId = 108184U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "FbLI4KQBLiqPWqVmsjtSvI", Name = "VertexBufferView_FbLI4KQBLiqPWqVmsjtSvI")]
+    [n1.ElementAttribute(TracingId = 24837U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "FbLI4KQBLiqPWqVmsjtSvI", Name = "VertexBufferView_FbLI4KQBLiqPWqVmsjtSvI")]
     [n2.SerializableAttribute]
     public class VertexBufferView_FbLI4KQBLiqPWqVmsjtSvI : n1.VLObject, n2.IDisposable
     {
@@ -1384,11 +1384,11 @@ namespace _VL_Stride_Graphics_.Stride.Buffers
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 108187U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "GIEzvLtYa1WOn9VRUj9xNG", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 24840U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "GIEzvLtYa1WOn9VRUj9xNG", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
         public n6.Manager<n2.ValueTuple<n8.Buffer>, n2.ValueTuple<n8.Buffer>> __cache_GIEzvLtYa1WOn9VRUj9xNG = null;
-        [n1.ElementAttribute(TracingId = 108198U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "CRukRx4IniXOvBVUDOhYcm", Name = "__slot_CRukRx4IniXOvBVUDOhYcm")]
+        [n1.ElementAttribute(TracingId = 24853U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "CRukRx4IniXOvBVUDOhYcm", Name = "__slot_CRukRx4IniXOvBVUDOhYcm")]
         public static n8.BufferFlags __slot_CRukRx4IniXOvBVUDOhYcm = n1.CompilationHelper.Deserialize<n8.BufferFlags>("VertexBuffer", false, "Dky5PMnuvcKN4CxmfNs7Uv", "CRukRx4IniXOvBVUDOhYcm");
-        [n1.ElementAttribute(TracingId = 108203U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "HdI9Wb1tupeLuPQe3TuUhK", Name = "__slot_HdI9Wb1tupeLuPQe3TuUhK")]
+        [n1.ElementAttribute(TracingId = 24858U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "HdI9Wb1tupeLuPQe3TuUhK", Name = "__slot_HdI9Wb1tupeLuPQe3TuUhK")]
         public static n8.BufferFlags __slot_HdI9Wb1tupeLuPQe3TuUhK = n1.CompilationHelper.Deserialize<n8.BufferFlags>("RawBuffer", false, "Dky5PMnuvcKN4CxmfNs7Uv", "HdI9Wb1tupeLuPQe3TuUhK");
         [n1.ElementAttribute(IsAutoGenerated = true)]
         public static n17.PixelFormat __c_AddXFtjivFROC3NKpiRCvn = n1.CompilationHelper.Deserialize<n17.PixelFormat>("None", false, "Dky5PMnuvcKN4CxmfNs7Uv", "AddXFtjivFROC3NKpiRCvn");
@@ -1435,9 +1435,9 @@ namespace _VL_Stride_Graphics_.Stride.Buffers
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 108194U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Q25ukbYr74HOjrJ3XsW8Wh", Name = "BufferViewDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "BufferViewDescription", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 24849U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Q25ukbYr74HOjrJ3XsW8Wh", Name = "BufferViewDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "BufferViewDescription", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_Q25ukbYr74HOjrJ3XsW8Wh;
-            [n1.ElementAttribute(TracingId = 108204U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "RRBriULKaUoPHD25XJRUQi", Name = "BufferView", IsManaged = true, IsAutoGenerated = true, NodeName = "BufferView", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 24859U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "RRBriULKaUoPHD25XJRUQi", Name = "BufferView", IsManaged = true, IsAutoGenerated = true, NodeName = "BufferView", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_RRBriULKaUoPHD25XJRUQi;
             public __AS4uWZI8yzhN9tsbMinsWy(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -1471,7 +1471,7 @@ namespace _VL_Stride_Graphics_.Stride.Buffers
         }
     }
 
-    [n1.ElementAttribute(TracingId = 108235U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "KrHH8P5aaGPLw8xFASXRV9", Name = "IndexBufferView_KrHH8P5aaGPLw8xFASXRV9")]
+    [n1.ElementAttribute(TracingId = 24890U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "KrHH8P5aaGPLw8xFASXRV9", Name = "IndexBufferView_KrHH8P5aaGPLw8xFASXRV9")]
     [n2.SerializableAttribute]
     public class IndexBufferView_KrHH8P5aaGPLw8xFASXRV9 : n1.VLObject, n2.IDisposable
     {
@@ -1584,11 +1584,11 @@ namespace _VL_Stride_Graphics_.Stride.Buffers
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 108238U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "NStUWaF5iUgOkFkNbCxLpZ", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 24893U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "NStUWaF5iUgOkFkNbCxLpZ", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
         public n6.Manager<n2.ValueTuple<n8.Buffer>, n2.ValueTuple<n8.Buffer>> __cache_NStUWaF5iUgOkFkNbCxLpZ = null;
-        [n1.ElementAttribute(TracingId = 108249U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "AgD7ERS6jtiNNgU2oYlGNC", Name = "__slot_AgD7ERS6jtiNNgU2oYlGNC")]
+        [n1.ElementAttribute(TracingId = 24904U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "AgD7ERS6jtiNNgU2oYlGNC", Name = "__slot_AgD7ERS6jtiNNgU2oYlGNC")]
         public static n8.BufferFlags __slot_AgD7ERS6jtiNNgU2oYlGNC = n1.CompilationHelper.Deserialize<n8.BufferFlags>("IndexBuffer", false, "Dky5PMnuvcKN4CxmfNs7Uv", "AgD7ERS6jtiNNgU2oYlGNC");
-        [n1.ElementAttribute(TracingId = 108254U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "VBY8qWXl4u0OElKwPUgCjF", Name = "__slot_VBY8qWXl4u0OElKwPUgCjF")]
+        [n1.ElementAttribute(TracingId = 24909U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "VBY8qWXl4u0OElKwPUgCjF", Name = "__slot_VBY8qWXl4u0OElKwPUgCjF")]
         public static n8.BufferFlags __slot_VBY8qWXl4u0OElKwPUgCjF = n1.CompilationHelper.Deserialize<n8.BufferFlags>("RawBuffer", false, "Dky5PMnuvcKN4CxmfNs7Uv", "VBY8qWXl4u0OElKwPUgCjF");
         [n1.ElementAttribute(IsAutoGenerated = true)]
         public static n17.PixelFormat __c_SwYqbBCy2qYO4yBDvzVluy = n1.CompilationHelper.Deserialize<n17.PixelFormat>("None", false, "Dky5PMnuvcKN4CxmfNs7Uv", "SwYqbBCy2qYO4yBDvzVluy");
@@ -1635,9 +1635,9 @@ namespace _VL_Stride_Graphics_.Stride.Buffers
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 108245U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "QD8Ybm8k643MbLbU10RlSP", Name = "BufferViewDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "BufferViewDescription", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 24900U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "QD8Ybm8k643MbLbU10RlSP", Name = "BufferViewDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "BufferViewDescription", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_QD8Ybm8k643MbLbU10RlSP;
-            [n1.ElementAttribute(TracingId = 108255U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Tj8xNrXj8wBOYVKo5WmAPa", Name = "BufferView", IsManaged = true, IsAutoGenerated = true, NodeName = "BufferView", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 24910U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Tj8xNrXj8wBOYVKo5WmAPa", Name = "BufferView", IsManaged = true, IsAutoGenerated = true, NodeName = "BufferView", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_Tj8xNrXj8wBOYVKo5WmAPa;
             public __N1ocZoocnwwLtyfVd8CMZM(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -1671,7 +1671,7 @@ namespace _VL_Stride_Graphics_.Stride.Buffers
         }
     }
 
-    [n1.ElementAttribute(TracingId = 108945U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "UzEm5Ymj4cZN8XONjvbNX9", Name = "ImmutableBuffer_UzEm5Ymj4cZN8XONjvbNX9")]
+    [n1.ElementAttribute(TracingId = 37954U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "UzEm5Ymj4cZN8XONjvbNX9", Name = "ImmutableBuffer_UzEm5Ymj4cZN8XONjvbNX9")]
     [n2.SerializableAttribute]
     public class ImmutableBuffer_UzEm5Ymj4cZN8XONjvbNX9<T> : n1.VLObject, n2.IDisposable
     {
@@ -1722,7 +1722,7 @@ namespace _VL_Stride_Graphics_.Stride.Buffers
                     state_11.__p_QrU6eEGw5jEPnafXrMggfP = node_13;
                     var node_14 = n1.CompilationHelper.CreateNodeById(__GetContext__(), "BufferViewDescription", "Stride.Graphics.Advanced");
                     state_11.__p_D8gJ9ZsVjYsPR2yQnEog2B = node_14;
-                    n1.NodeContext Node_Context_15 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "ARnsow89RqFPK8DQlxA9V7", 109055U);
+                    n1.NodeContext Node_Context_15 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "ARnsow89RqFPK8DQlxA9V7", 38178U);
                     var Output_16 = n10.GraphicsData_Jyp9mYJHExJNVTwXieAIds<T>.Create(Node_Context: Node_Context_15);
                     state_11.__p_ARnsow89RqFPK8DQlxA9V7 = Output_16;
                 }
@@ -1804,7 +1804,7 @@ namespace _VL_Stride_Graphics_.Stride.Buffers
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
             var w_0 = default(AdM);
-            n1.NodeContext Node_Context_1 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "Bur2WIUVPUaMe7Fs5BzWmR", 109117U);
+            n1.NodeContext Node_Context_1 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "Bur2WIUVPUaMe7Fs5BzWmR", 38324U);
             bool Changed_On_Create_2 = true;
             var Output_3 = n21.Changed_A8JGbead2bxNdnPybiEqVS<T>.Create<AdM>(Node_Context: Node_Context_1, Changed_On_Create_In: Changed_On_Create_2);
             n13.ImmutableBuffer_UzEm5Ymj4cZN8XONjvbNX9<T> that_4 = this;
@@ -1836,15 +1836,15 @@ namespace _VL_Stride_Graphics_.Stride.Buffers
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 109117U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Bur2WIUVPUaMe7Fs5BzWmR", Name = "Changed", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 38324U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Bur2WIUVPUaMe7Fs5BzWmR", Name = "Changed", IsManaged = true, IsAutoGenerated = true)]
         public n21.Changed_A8JGbead2bxNdnPybiEqVS<T> __p_Bur2WIUVPUaMe7Fs5BzWmR;
-        [n1.ElementAttribute(TracingId = 108950U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "K78An1XzB64PPdvPYXgYar", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 37959U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "K78An1XzB64PPdvPYXgYar", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
         public n6.Manager<n2.ValueTuple<int, bool, bool, bool, bool>, n2.ValueTuple<n8.Buffer>> __cache_K78An1XzB64PPdvPYXgYar = null;
-        [n1.ElementAttribute(TracingId = 109085U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "DWbY8cJ5tZ2Nzwx7YREGvN", Name = "__slot_DWbY8cJ5tZ2Nzwx7YREGvN")]
+        [n1.ElementAttribute(TracingId = 38255U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "DWbY8cJ5tZ2Nzwx7YREGvN", Name = "__slot_DWbY8cJ5tZ2Nzwx7YREGvN")]
         public static n14.StructuredBufferType __slot_DWbY8cJ5tZ2Nzwx7YREGvN = n1.CompilationHelper.Deserialize<n14.StructuredBufferType>("None", false, "Dky5PMnuvcKN4CxmfNs7Uv", "DWbY8cJ5tZ2Nzwx7YREGvN");
-        [n1.ElementAttribute(TracingId = 109083U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "UCMRsIMnRxXLbqvb47pgzV", Name = "__slot_UCMRsIMnRxXLbqvb47pgzV")]
+        [n1.ElementAttribute(TracingId = 38246U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "UCMRsIMnRxXLbqvb47pgzV", Name = "__slot_UCMRsIMnRxXLbqvb47pgzV")]
         public static n14.StructuredBufferType __slot_UCMRsIMnRxXLbqvb47pgzV = n1.CompilationHelper.Deserialize<n14.StructuredBufferType>("StructuredBuffer", false, "Dky5PMnuvcKN4CxmfNs7Uv", "UCMRsIMnRxXLbqvb47pgzV");
-        [n1.ElementAttribute(TracingId = 108972U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "OZp4cg3VmUINDSHHlCjoiz", Name = "__slot_OZp4cg3VmUINDSHHlCjoiz")]
+        [n1.ElementAttribute(TracingId = 38000U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "OZp4cg3VmUINDSHHlCjoiz", Name = "__slot_OZp4cg3VmUINDSHHlCjoiz")]
         public static n8.GraphicsResourceUsage __slot_OZp4cg3VmUINDSHHlCjoiz = n1.CompilationHelper.Deserialize<n8.GraphicsResourceUsage>("Immutable", false, "Dky5PMnuvcKN4CxmfNs7Uv", "OZp4cg3VmUINDSHHlCjoiz");
         static ImmutableBuffer_UzEm5Ymj4cZN8XONjvbNX9()
         {
@@ -1893,13 +1893,13 @@ namespace _VL_Stride_Graphics_.Stride.Buffers
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 108975U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "F0URCzfPX9VOz7QAEINpMB", Name = "Buffer", IsManaged = true, IsAutoGenerated = true, NodeName = "Buffer", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 38007U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "F0URCzfPX9VOz7QAEINpMB", Name = "Buffer", IsManaged = true, IsAutoGenerated = true, NodeName = "Buffer", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_F0URCzfPX9VOz7QAEINpMB;
-            [n1.ElementAttribute(TracingId = 108989U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "QrU6eEGw5jEPnafXrMggfP", Name = "BufferDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "BufferDescription", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 38043U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "QrU6eEGw5jEPnafXrMggfP", Name = "BufferDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "BufferDescription", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_QrU6eEGw5jEPnafXrMggfP;
-            [n1.ElementAttribute(TracingId = 108999U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "D8gJ9ZsVjYsPR2yQnEog2B", Name = "BufferViewDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "BufferViewDescription", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 38062U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "D8gJ9ZsVjYsPR2yQnEog2B", Name = "BufferViewDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "BufferViewDescription", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_D8gJ9ZsVjYsPR2yQnEog2B;
-            [n1.ElementAttribute(TracingId = 109055U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "ARnsow89RqFPK8DQlxA9V7", Name = "GraphicsData", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 38178U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "ARnsow89RqFPK8DQlxA9V7", Name = "GraphicsData", IsManaged = true, IsAutoGenerated = true)]
             public n10.GraphicsData_Jyp9mYJHExJNVTwXieAIds<T> __p_ARnsow89RqFPK8DQlxA9V7;
             public __BVvAmZXu8tKNhym69ztj3L(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -1940,7 +1940,7 @@ namespace _VL_Stride_Graphics_.Stride.Buffers
 
 namespace _VL_Stride_Graphics_.Stride.Buffers.Internal
 {
-    [n1.ElementAttribute(TracingId = 107555U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 20856U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", Name = "_Operations_")]
     public static partial class _Operations_
     {
         public static void BufferFlags(bool Is_Unordered_Access_In, n14.StructuredBufferType Structured_Buffer_Type_In, bool Is_Vertex_Buffer_In, bool Is_Index_Buffer_In, [n4.SerializedDefaultValueAttribute("True", false)] bool Allow_Raw_Views_In, bool Is_View_In, bool Is_Stream_Output_In, out n8.BufferFlags Output_Out)
@@ -2126,43 +2126,43 @@ namespace _VL_Stride_Graphics_.Stride.Buffers.Internal
             return;
         }
 
-        [n1.ElementAttribute(TracingId = 108289U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "F9EzfyGs93DPJLiClJ93Bi", Name = "__slot_F9EzfyGs93DPJLiClJ93Bi")]
+        [n1.ElementAttribute(TracingId = 24944U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "F9EzfyGs93DPJLiClJ93Bi", Name = "__slot_F9EzfyGs93DPJLiClJ93Bi")]
         public static n8.BufferFlags __slot_F9EzfyGs93DPJLiClJ93Bi = n1.CompilationHelper.Deserialize<n8.BufferFlags>("ShaderResource", false, "Dky5PMnuvcKN4CxmfNs7Uv", "F9EzfyGs93DPJLiClJ93Bi");
-        [n1.ElementAttribute(TracingId = 108301U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "NHXbU450JC4PY6cPGwrYvc", Name = "__slot_NHXbU450JC4PY6cPGwrYvc")]
+        [n1.ElementAttribute(TracingId = 24956U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "NHXbU450JC4PY6cPGwrYvc", Name = "__slot_NHXbU450JC4PY6cPGwrYvc")]
         public static n8.BufferFlags __slot_NHXbU450JC4PY6cPGwrYvc = n1.CompilationHelper.Deserialize<n8.BufferFlags>("IndexBuffer", false, "Dky5PMnuvcKN4CxmfNs7Uv", "NHXbU450JC4PY6cPGwrYvc");
-        [n1.ElementAttribute(TracingId = 108295U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "UXdlSGuG5BzQAr8hlAl5dH", Name = "__slot_UXdlSGuG5BzQAr8hlAl5dH")]
+        [n1.ElementAttribute(TracingId = 24950U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "UXdlSGuG5BzQAr8hlAl5dH", Name = "__slot_UXdlSGuG5BzQAr8hlAl5dH")]
         public static n8.BufferFlags __slot_UXdlSGuG5BzQAr8hlAl5dH = n1.CompilationHelper.Deserialize<n8.BufferFlags>("VertexBuffer", false, "Dky5PMnuvcKN4CxmfNs7Uv", "UXdlSGuG5BzQAr8hlAl5dH");
-        [n1.ElementAttribute(TracingId = 108343U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "PHM6SUOGo9yPGrlDKBcEeQ", Name = "__slot_PHM6SUOGo9yPGrlDKBcEeQ")]
+        [n1.ElementAttribute(TracingId = 24998U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "PHM6SUOGo9yPGrlDKBcEeQ", Name = "__slot_PHM6SUOGo9yPGrlDKBcEeQ")]
         public static n8.BufferFlags __slot_PHM6SUOGo9yPGrlDKBcEeQ = n1.CompilationHelper.Deserialize<n8.BufferFlags>("UnorderedAccess", false, "Dky5PMnuvcKN4CxmfNs7Uv", "PHM6SUOGo9yPGrlDKBcEeQ");
-        [n1.ElementAttribute(TracingId = 108325U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "QXFb7n6ZLkmLLXUm7KBYEN", Name = "__slot_QXFb7n6ZLkmLLXUm7KBYEN")]
+        [n1.ElementAttribute(TracingId = 24980U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "QXFb7n6ZLkmLLXUm7KBYEN", Name = "__slot_QXFb7n6ZLkmLLXUm7KBYEN")]
         public static n8.BufferFlags __slot_QXFb7n6ZLkmLLXUm7KBYEN = n1.CompilationHelper.Deserialize<n8.BufferFlags>("RawBuffer", false, "Dky5PMnuvcKN4CxmfNs7Uv", "QXFb7n6ZLkmLLXUm7KBYEN");
-        [n1.ElementAttribute(TracingId = 108368U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "JAgZLwBjXwVQVLsVTlqXQW", Name = "__slot_JAgZLwBjXwVQVLsVTlqXQW")]
+        [n1.ElementAttribute(TracingId = 25023U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "JAgZLwBjXwVQVLsVTlqXQW", Name = "__slot_JAgZLwBjXwVQVLsVTlqXQW")]
         public static n8.BufferFlags __slot_JAgZLwBjXwVQVLsVTlqXQW = n1.CompilationHelper.Deserialize<n8.BufferFlags>("StreamOutput", false, "Dky5PMnuvcKN4CxmfNs7Uv", "JAgZLwBjXwVQVLsVTlqXQW");
-        [n1.ElementAttribute(TracingId = 108460U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "IVaTdLrPphLQZsudLAUgM2", Name = "__slot_IVaTdLrPphLQZsudLAUgM2")]
+        [n1.ElementAttribute(TracingId = 35924U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "IVaTdLrPphLQZsudLAUgM2", Name = "__slot_IVaTdLrPphLQZsudLAUgM2")]
         public static int __slot_IVaTdLrPphLQZsudLAUgM2 = 12;
-        [n1.ElementAttribute(TracingId = 108429U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "LNKP2jE496lLKQTPhmI8u2", Name = "__slot_LNKP2jE496lLKQTPhmI8u2")]
+        [n1.ElementAttribute(TracingId = 35859U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "LNKP2jE496lLKQTPhmI8u2", Name = "__slot_LNKP2jE496lLKQTPhmI8u2")]
         public static n17.PixelFormat __slot_LNKP2jE496lLKQTPhmI8u2 = n1.CompilationHelper.Deserialize<n17.PixelFormat>("R32_Float", false, "Dky5PMnuvcKN4CxmfNs7Uv", "LNKP2jE496lLKQTPhmI8u2");
-        [n1.ElementAttribute(TracingId = 108500U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "EdwA6PRdqooMl3zKj5WDFi", Name = "__slot_EdwA6PRdqooMl3zKj5WDFi")]
+        [n1.ElementAttribute(TracingId = 35981U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "EdwA6PRdqooMl3zKj5WDFi", Name = "__slot_EdwA6PRdqooMl3zKj5WDFi")]
         public static int __slot_EdwA6PRdqooMl3zKj5WDFi = 16;
-        [n1.ElementAttribute(TracingId = 108436U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "ECgIHVQmSQrMZ42h38jPvr", Name = "__slot_ECgIHVQmSQrMZ42h38jPvr")]
+        [n1.ElementAttribute(TracingId = 35872U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "ECgIHVQmSQrMZ42h38jPvr", Name = "__slot_ECgIHVQmSQrMZ42h38jPvr")]
         public static int __slot_ECgIHVQmSQrMZ42h38jPvr = 8;
-        [n1.ElementAttribute(TracingId = 108426U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "DdTopO8xYE5MmkMP3NFhAu", Name = "__slot_DdTopO8xYE5MmkMP3NFhAu")]
+        [n1.ElementAttribute(TracingId = 35847U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "DdTopO8xYE5MmkMP3NFhAu", Name = "__slot_DdTopO8xYE5MmkMP3NFhAu")]
         public static n17.PixelFormat __slot_DdTopO8xYE5MmkMP3NFhAu = n1.CompilationHelper.Deserialize<n17.PixelFormat>("R32G32_Float", false, "Dky5PMnuvcKN4CxmfNs7Uv", "DdTopO8xYE5MmkMP3NFhAu");
-        [n1.ElementAttribute(TracingId = 108451U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "PuJg5iOIkElMZsuiheCO0p", Name = "__slot_PuJg5iOIkElMZsuiheCO0p")]
+        [n1.ElementAttribute(TracingId = 35905U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "PuJg5iOIkElMZsuiheCO0p", Name = "__slot_PuJg5iOIkElMZsuiheCO0p")]
         public static n17.PixelFormat __slot_PuJg5iOIkElMZsuiheCO0p = n1.CompilationHelper.Deserialize<n17.PixelFormat>("R32G32B32_Float", false, "Dky5PMnuvcKN4CxmfNs7Uv", "PuJg5iOIkElMZsuiheCO0p");
-        [n1.ElementAttribute(TracingId = 108489U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "ANVcAQmvk9OPomQqpuTuR4", Name = "__slot_ANVcAQmvk9OPomQqpuTuR4")]
+        [n1.ElementAttribute(TracingId = 35964U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "ANVcAQmvk9OPomQqpuTuR4", Name = "__slot_ANVcAQmvk9OPomQqpuTuR4")]
         public static n17.PixelFormat __slot_ANVcAQmvk9OPomQqpuTuR4 = n1.CompilationHelper.Deserialize<n17.PixelFormat>("R32G32B32A32_Float", false, "Dky5PMnuvcKN4CxmfNs7Uv", "ANVcAQmvk9OPomQqpuTuR4");
-        [n1.ElementAttribute(TracingId = 108580U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "PxkzrOlm1P3NpAKcN99DYV", Name = "__slot_PxkzrOlm1P3NpAKcN99DYV")]
+        [n1.ElementAttribute(TracingId = 36127U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "PxkzrOlm1P3NpAKcN99DYV", Name = "__slot_PxkzrOlm1P3NpAKcN99DYV")]
         public static int __slot_PxkzrOlm1P3NpAKcN99DYV = 4;
-        [n1.ElementAttribute(TracingId = 108537U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "BYr2ykX4Cz4PSj499HwEOK", Name = "__slot_BYr2ykX4Cz4PSj499HwEOK")]
+        [n1.ElementAttribute(TracingId = 36031U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "BYr2ykX4Cz4PSj499HwEOK", Name = "__slot_BYr2ykX4Cz4PSj499HwEOK")]
         public static n17.PixelFormat __slot_BYr2ykX4Cz4PSj499HwEOK = n1.CompilationHelper.Deserialize<n17.PixelFormat>("None", false, "Dky5PMnuvcKN4CxmfNs7Uv", "BYr2ykX4Cz4PSj499HwEOK");
-        [n1.ElementAttribute(TracingId = 108670U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Jxi0i0cJjqcQXgMVMzORUm", Name = "__slot_Jxi0i0cJjqcQXgMVMzORUm")]
+        [n1.ElementAttribute(TracingId = 37354U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Jxi0i0cJjqcQXgMVMzORUm", Name = "__slot_Jxi0i0cJjqcQXgMVMzORUm")]
         public static int __slot_Jxi0i0cJjqcQXgMVMzORUm = 4;
-        [n1.ElementAttribute(TracingId = 108760U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "AkLZKj6aHsTNmUbs319DT4", Name = "__slot_AkLZKj6aHsTNmUbs319DT4")]
+        [n1.ElementAttribute(TracingId = 37518U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "AkLZKj6aHsTNmUbs319DT4", Name = "__slot_AkLZKj6aHsTNmUbs319DT4")]
         public static int __slot_AkLZKj6aHsTNmUbs319DT4 = 4;
-        [n1.ElementAttribute(TracingId = 108701U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "KROD5C9NYYwOLI5sFACyOl", Name = "__slot_KROD5C9NYYwOLI5sFACyOl")]
+        [n1.ElementAttribute(TracingId = 37403U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "KROD5C9NYYwOLI5sFACyOl", Name = "__slot_KROD5C9NYYwOLI5sFACyOl")]
         public static n17.PixelFormat __slot_KROD5C9NYYwOLI5sFACyOl = n1.CompilationHelper.Deserialize<n17.PixelFormat>("None", false, "Dky5PMnuvcKN4CxmfNs7Uv", "KROD5C9NYYwOLI5sFACyOl");
-        [n1.ElementAttribute(TracingId = 108923U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "VanDymO0ulePfnfGXHYEJz", Name = "__slot_VanDymO0ulePfnfGXHYEJz")]
+        [n1.ElementAttribute(TracingId = 37878U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "VanDymO0ulePfnfGXHYEJz", Name = "__slot_VanDymO0ulePfnfGXHYEJz")]
         public static bool __slot_VanDymO0ulePfnfGXHYEJz = true;
         static _Operations_()
         {
@@ -2172,7 +2172,7 @@ namespace _VL_Stride_Graphics_.Stride.Buffers.Internal
 
 namespace _VL_Stride_Graphics_.Stride.Buffers.Advanced
 {
-    [n1.ElementAttribute(TracingId = 111384U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "DfBGipv0gMxM1yarAzmJmh", Name = "DispatchArgsBuffer_DfBGipv0gMxM1yarAzmJmh")]
+    [n1.ElementAttribute(TracingId = 40573U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "DfBGipv0gMxM1yarAzmJmh", Name = "DispatchArgsBuffer_DfBGipv0gMxM1yarAzmJmh")]
     [n2.SerializableAttribute]
     public class DispatchArgsBuffer_DfBGipv0gMxM1yarAzmJmh : n1.VLObject, n2.IDisposable
     {
@@ -2217,7 +2217,7 @@ namespace _VL_Stride_Graphics_.Stride.Buffers.Advanced
                     state_7.__p_REYGhIHMfjDOqByvdtTZyW = node_9;
                     var node_10 = n1.CompilationHelper.CreateNodeById(__GetContext__(), "BufferViewDescription", "Stride.Graphics.Advanced");
                     state_7.__p_K7bfXw0Y7nmPblvKCbzDJm = node_10;
-                    n1.NodeContext Node_Context_11 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "LLIaUxgrnZQLoCF2DstPji", 111471U);
+                    n1.NodeContext Node_Context_11 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "LLIaUxgrnZQLoCF2DstPji", 40680U);
                     var Output_12 = n10.GraphicsData_Jyp9mYJHExJNVTwXieAIds<n26.Spread<uint>>.Create(Node_Context: Node_Context_11);
                     state_7.__p_LLIaUxgrnZQLoCF2DstPji = Output_12;
                 }
@@ -2289,7 +2289,7 @@ namespace _VL_Stride_Graphics_.Stride.Buffers.Advanced
         public n25.DispatchArgsBuffer_DfBGipv0gMxM1yarAzmJmh __Create__(n1.NodeContext Node_Context)
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "BjlfULNJQ3TOnCTorZ98KP", 111940U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "BjlfULNJQ3TOnCTorZ98KP", 40720U);
             var Output_1 = n21.OnOpen_FuW9Q3o4A1QLNwSJwTBGFz.Create(Node_Context: Node_Context_0);
             n25.DispatchArgsBuffer_DfBGipv0gMxM1yarAzmJmh that_2 = this;
             this.__p_BjlfULNJQ3TOnCTorZ98KP = Output_1;
@@ -2318,21 +2318,21 @@ namespace _VL_Stride_Graphics_.Stride.Buffers.Advanced
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 111940U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "BjlfULNJQ3TOnCTorZ98KP", Name = "OnOpen", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 40720U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "BjlfULNJQ3TOnCTorZ98KP", Name = "OnOpen", IsManaged = true, IsAutoGenerated = true)]
         public n21.OnOpen_FuW9Q3o4A1QLNwSJwTBGFz __p_BjlfULNJQ3TOnCTorZ98KP;
-        [n1.ElementAttribute(TracingId = 111390U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "RBQFJAYHRD8Nspc1efKn5w", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 40580U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "RBQFJAYHRD8Nspc1efKn5w", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
         public n6.Manager<n2.ValueTuple, n2.ValueTuple<n8.Buffer>> __cache_RBQFJAYHRD8Nspc1efKn5w = null;
-        [n1.ElementAttribute(TracingId = 111425U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "JfsclSY8m6ANYuw9S9Khep", Name = "__slot_JfsclSY8m6ANYuw9S9Khep")]
+        [n1.ElementAttribute(TracingId = 40632U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "JfsclSY8m6ANYuw9S9Khep", Name = "__slot_JfsclSY8m6ANYuw9S9Khep")]
         public static int __slot_JfsclSY8m6ANYuw9S9Khep = 12;
-        [n1.ElementAttribute(TracingId = 111440U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "SsQXCkHJCTAOWFUf2RuaUI", Name = "__slot_SsQXCkHJCTAOWFUf2RuaUI")]
+        [n1.ElementAttribute(TracingId = 40655U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "SsQXCkHJCTAOWFUf2RuaUI", Name = "__slot_SsQXCkHJCTAOWFUf2RuaUI")]
         public static n8.BufferFlags __slot_SsQXCkHJCTAOWFUf2RuaUI = n1.CompilationHelper.Deserialize<n8.BufferFlags>("ShaderResource", false, "Dky5PMnuvcKN4CxmfNs7Uv", "SsQXCkHJCTAOWFUf2RuaUI");
-        [n1.ElementAttribute(TracingId = 111462U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "FKnM0R7LNssQQYP5r4TQ4j", Name = "__slot_FKnM0R7LNssQQYP5r4TQ4j")]
+        [n1.ElementAttribute(TracingId = 40672U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "FKnM0R7LNssQQYP5r4TQ4j", Name = "__slot_FKnM0R7LNssQQYP5r4TQ4j")]
         public static n8.BufferFlags __slot_FKnM0R7LNssQQYP5r4TQ4j = n1.CompilationHelper.Deserialize<n8.BufferFlags>("UnorderedAccess", false, "Dky5PMnuvcKN4CxmfNs7Uv", "FKnM0R7LNssQQYP5r4TQ4j");
-        [n1.ElementAttribute(TracingId = 111467U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "V5FQnLZcrOtPZD8WPskDat", Name = "__slot_V5FQnLZcrOtPZD8WPskDat")]
+        [n1.ElementAttribute(TracingId = 40676U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "V5FQnLZcrOtPZD8WPskDat", Name = "__slot_V5FQnLZcrOtPZD8WPskDat")]
         public static n8.BufferFlags __slot_V5FQnLZcrOtPZD8WPskDat = n1.CompilationHelper.Deserialize<n8.BufferFlags>("RawBuffer", false, "Dky5PMnuvcKN4CxmfNs7Uv", "V5FQnLZcrOtPZD8WPskDat");
-        [n1.ElementAttribute(TracingId = 111434U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "JaF6mNH4XmmL4TW90rhtcn", Name = "__slot_JaF6mNH4XmmL4TW90rhtcn")]
+        [n1.ElementAttribute(TracingId = 40652U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "JaF6mNH4XmmL4TW90rhtcn", Name = "__slot_JaF6mNH4XmmL4TW90rhtcn")]
         public static n8.BufferFlags __slot_JaF6mNH4XmmL4TW90rhtcn = n1.CompilationHelper.Deserialize<n8.BufferFlags>("ArgumentBuffer", false, "Dky5PMnuvcKN4CxmfNs7Uv", "JaF6mNH4XmmL4TW90rhtcn");
-        [n1.ElementAttribute(TracingId = 111919U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "GfFq2uZpOAAQJ8Tdrplrvf", Name = "__slot_GfFq2uZpOAAQJ8Tdrplrvf")]
+        [n1.ElementAttribute(TracingId = 40705U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "GfFq2uZpOAAQJ8Tdrplrvf", Name = "__slot_GfFq2uZpOAAQJ8Tdrplrvf")]
         public static n26.Spread<uint> __slot_GfFq2uZpOAAQJ8Tdrplrvf = n1.CompilationHelper.Deserialize<n26.Spread<uint>>("1, 1, 1", false, "Dky5PMnuvcKN4CxmfNs7Uv", "GfFq2uZpOAAQJ8Tdrplrvf");
         static DispatchArgsBuffer_DfBGipv0gMxM1yarAzmJmh()
         {
@@ -2381,13 +2381,13 @@ namespace _VL_Stride_Graphics_.Stride.Buffers.Advanced
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 111401U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "BXg1SHl0PufQIWWHGA7SAn", Name = "BufferDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "BufferDescription", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 40595U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "BXg1SHl0PufQIWWHGA7SAn", Name = "BufferDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "BufferDescription", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_BXg1SHl0PufQIWWHGA7SAn;
-            [n1.ElementAttribute(TracingId = 111413U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "REYGhIHMfjDOqByvdtTZyW", Name = "Buffer", IsManaged = true, IsAutoGenerated = true, NodeName = "Buffer", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 40608U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "REYGhIHMfjDOqByvdtTZyW", Name = "Buffer", IsManaged = true, IsAutoGenerated = true, NodeName = "Buffer", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_REYGhIHMfjDOqByvdtTZyW;
-            [n1.ElementAttribute(TracingId = 111428U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "K7bfXw0Y7nmPblvKCbzDJm", Name = "BufferViewDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "BufferViewDescription", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 40637U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "K7bfXw0Y7nmPblvKCbzDJm", Name = "BufferViewDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "BufferViewDescription", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_K7bfXw0Y7nmPblvKCbzDJm;
-            [n1.ElementAttribute(TracingId = 111471U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "LLIaUxgrnZQLoCF2DstPji", Name = "GraphicsData", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 40680U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "LLIaUxgrnZQLoCF2DstPji", Name = "GraphicsData", IsManaged = true, IsAutoGenerated = true)]
             public n10.GraphicsData_Jyp9mYJHExJNVTwXieAIds<n26.Spread<uint>> __p_LLIaUxgrnZQLoCF2DstPji;
             public __QYQ66yver3FPOxZaNxh5oV(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -2425,7 +2425,7 @@ namespace _VL_Stride_Graphics_.Stride.Buffers.Advanced
         }
     }
 
-    [n1.ElementAttribute(TracingId = 112010U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "J7akI1tpQ2SQOwszi02xqf", Name = "DrawArgsBuffer_J7akI1tpQ2SQOwszi02xqf")]
+    [n1.ElementAttribute(TracingId = 40775U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "J7akI1tpQ2SQOwszi02xqf", Name = "DrawArgsBuffer_J7akI1tpQ2SQOwszi02xqf")]
     [n2.SerializableAttribute]
     public class DrawArgsBuffer_J7akI1tpQ2SQOwszi02xqf : n1.VLObject, n2.IDisposable
     {
@@ -2470,7 +2470,7 @@ namespace _VL_Stride_Graphics_.Stride.Buffers.Advanced
                     state_7.__p_BpCHHeLTmAQOtr71RJRl0C = node_9;
                     var node_10 = n1.CompilationHelper.CreateNodeById(__GetContext__(), "BufferViewDescription", "Stride.Graphics.Advanced");
                     state_7.__p_HlwpNsUD1MmP096xGomn20 = node_10;
-                    n1.NodeContext Node_Context_11 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "IYOYPAza2uxOO2YdG18FZE", 112135U);
+                    n1.NodeContext Node_Context_11 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "IYOYPAza2uxOO2YdG18FZE", 40893U);
                     var Output_12 = n10.GraphicsData_Jyp9mYJHExJNVTwXieAIds<n26.Spread<uint>>.Create(Node_Context: Node_Context_11);
                     state_7.__p_IYOYPAza2uxOO2YdG18FZE = Output_12;
                 }
@@ -2542,7 +2542,7 @@ namespace _VL_Stride_Graphics_.Stride.Buffers.Advanced
         public n25.DrawArgsBuffer_J7akI1tpQ2SQOwszi02xqf __Create__(n1.NodeContext Node_Context)
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "BV0w232dsKWNi6pZ9KHE65", 112197U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "BV0w232dsKWNi6pZ9KHE65", 40924U);
             var Output_1 = n21.OnOpen_FuW9Q3o4A1QLNwSJwTBGFz.Create(Node_Context: Node_Context_0);
             n25.DrawArgsBuffer_J7akI1tpQ2SQOwszi02xqf that_2 = this;
             this.__p_BV0w232dsKWNi6pZ9KHE65 = Output_1;
@@ -2571,21 +2571,21 @@ namespace _VL_Stride_Graphics_.Stride.Buffers.Advanced
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 112197U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "BV0w232dsKWNi6pZ9KHE65", Name = "OnOpen", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 40924U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "BV0w232dsKWNi6pZ9KHE65", Name = "OnOpen", IsManaged = true, IsAutoGenerated = true)]
         public n21.OnOpen_FuW9Q3o4A1QLNwSJwTBGFz __p_BV0w232dsKWNi6pZ9KHE65;
-        [n1.ElementAttribute(TracingId = 112019U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "IYtHh7tBs3aPDeGjTt3lL7", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 40779U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "IYtHh7tBs3aPDeGjTt3lL7", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
         public n6.Manager<n2.ValueTuple, n2.ValueTuple<n8.Buffer>> __cache_IYtHh7tBs3aPDeGjTt3lL7 = null;
-        [n1.ElementAttribute(TracingId = 112076U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "PbwrqsfTAi7Lwh5C3lQP2E", Name = "__slot_PbwrqsfTAi7Lwh5C3lQP2E")]
+        [n1.ElementAttribute(TracingId = 40839U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "PbwrqsfTAi7Lwh5C3lQP2E", Name = "__slot_PbwrqsfTAi7Lwh5C3lQP2E")]
         public static int __slot_PbwrqsfTAi7Lwh5C3lQP2E = 16;
-        [n1.ElementAttribute(TracingId = 112097U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "FMMCqNejipjLX2yrWJVWKZ", Name = "__slot_FMMCqNejipjLX2yrWJVWKZ")]
+        [n1.ElementAttribute(TracingId = 40861U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "FMMCqNejipjLX2yrWJVWKZ", Name = "__slot_FMMCqNejipjLX2yrWJVWKZ")]
         public static n8.BufferFlags __slot_FMMCqNejipjLX2yrWJVWKZ = n1.CompilationHelper.Deserialize<n8.BufferFlags>("ShaderResource", false, "Dky5PMnuvcKN4CxmfNs7Uv", "FMMCqNejipjLX2yrWJVWKZ");
-        [n1.ElementAttribute(TracingId = 112121U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "F4RrLxd1tmWOEv3tG6gLuG", Name = "__slot_F4RrLxd1tmWOEv3tG6gLuG")]
+        [n1.ElementAttribute(TracingId = 40884U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "F4RrLxd1tmWOEv3tG6gLuG", Name = "__slot_F4RrLxd1tmWOEv3tG6gLuG")]
         public static n8.BufferFlags __slot_F4RrLxd1tmWOEv3tG6gLuG = n1.CompilationHelper.Deserialize<n8.BufferFlags>("UnorderedAccess", false, "Dky5PMnuvcKN4CxmfNs7Uv", "F4RrLxd1tmWOEv3tG6gLuG");
-        [n1.ElementAttribute(TracingId = 112127U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "QH14QdJCo49NeM0hfRQ8tU", Name = "__slot_QH14QdJCo49NeM0hfRQ8tU")]
+        [n1.ElementAttribute(TracingId = 40888U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "QH14QdJCo49NeM0hfRQ8tU", Name = "__slot_QH14QdJCo49NeM0hfRQ8tU")]
         public static n8.BufferFlags __slot_QH14QdJCo49NeM0hfRQ8tU = n1.CompilationHelper.Deserialize<n8.BufferFlags>("RawBuffer", false, "Dky5PMnuvcKN4CxmfNs7Uv", "QH14QdJCo49NeM0hfRQ8tU");
-        [n1.ElementAttribute(TracingId = 112094U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "J0r039JAl97Ll30V5nKVzF", Name = "__slot_J0r039JAl97Ll30V5nKVzF")]
+        [n1.ElementAttribute(TracingId = 40857U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "J0r039JAl97Ll30V5nKVzF", Name = "__slot_J0r039JAl97Ll30V5nKVzF")]
         public static n8.BufferFlags __slot_J0r039JAl97Ll30V5nKVzF = n1.CompilationHelper.Deserialize<n8.BufferFlags>("ArgumentBuffer", false, "Dky5PMnuvcKN4CxmfNs7Uv", "J0r039JAl97Ll30V5nKVzF");
-        [n1.ElementAttribute(TracingId = 112164U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "OAAJlUJ22iaNK4xKOa7yhs", Name = "__slot_OAAJlUJ22iaNK4xKOa7yhs")]
+        [n1.ElementAttribute(TracingId = 40911U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "OAAJlUJ22iaNK4xKOa7yhs", Name = "__slot_OAAJlUJ22iaNK4xKOa7yhs")]
         public static n26.Spread<uint> __slot_OAAJlUJ22iaNK4xKOa7yhs = n1.CompilationHelper.Deserialize<n26.Spread<uint>>("1, 1, 0, 0", false, "Dky5PMnuvcKN4CxmfNs7Uv", "OAAJlUJ22iaNK4xKOa7yhs");
         static DrawArgsBuffer_J7akI1tpQ2SQOwszi02xqf()
         {
@@ -2634,13 +2634,13 @@ namespace _VL_Stride_Graphics_.Stride.Buffers.Advanced
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 112035U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "P1gokgKgipxQJyKAsYjMPB", Name = "BufferDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "BufferDescription", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 40795U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "P1gokgKgipxQJyKAsYjMPB", Name = "BufferDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "BufferDescription", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_P1gokgKgipxQJyKAsYjMPB;
-            [n1.ElementAttribute(TracingId = 112055U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "BpCHHeLTmAQOtr71RJRl0C", Name = "Buffer", IsManaged = true, IsAutoGenerated = true, NodeName = "Buffer", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 40817U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "BpCHHeLTmAQOtr71RJRl0C", Name = "Buffer", IsManaged = true, IsAutoGenerated = true, NodeName = "Buffer", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_BpCHHeLTmAQOtr71RJRl0C;
-            [n1.ElementAttribute(TracingId = 112081U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "HlwpNsUD1MmP096xGomn20", Name = "BufferViewDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "BufferViewDescription", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 40844U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "HlwpNsUD1MmP096xGomn20", Name = "BufferViewDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "BufferViewDescription", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_HlwpNsUD1MmP096xGomn20;
-            [n1.ElementAttribute(TracingId = 112135U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "IYOYPAza2uxOO2YdG18FZE", Name = "GraphicsData", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 40893U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "IYOYPAza2uxOO2YdG18FZE", Name = "GraphicsData", IsManaged = true, IsAutoGenerated = true)]
             public n10.GraphicsData_Jyp9mYJHExJNVTwXieAIds<n26.Spread<uint>> __p_IYOYPAza2uxOO2YdG18FZE;
             public __AacYDmeBZxsNW1zAhTPqsI(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -2678,7 +2678,7 @@ namespace _VL_Stride_Graphics_.Stride.Buffers.Advanced
         }
     }
 
-    [n1.ElementAttribute(TracingId = 112272U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "EdSaGFFflOVMLSRyzUd2tq", Name = "DrawArgsBuffer_Indexed_EdSaGFFflOVMLSRyzUd2tq")]
+    [n1.ElementAttribute(TracingId = 42715U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "EdSaGFFflOVMLSRyzUd2tq", Name = "DrawArgsBuffer_Indexed_EdSaGFFflOVMLSRyzUd2tq")]
     [n2.SerializableAttribute]
     public class DrawArgsBuffer_Indexed_EdSaGFFflOVMLSRyzUd2tq : n1.VLObject, n2.IDisposable
     {
@@ -2723,7 +2723,7 @@ namespace _VL_Stride_Graphics_.Stride.Buffers.Advanced
                     state_7.__p_NYZlD2TzfblPAGzdB6ECVa = node_9;
                     var node_10 = n1.CompilationHelper.CreateNodeById(__GetContext__(), "BufferViewDescription", "Stride.Graphics.Advanced");
                     state_7.__p_Vjt73Fzo3gcMWuAnP1piV4 = node_10;
-                    n1.NodeContext Node_Context_11 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "DVvgHBwvtzSOM9tG59wLgR", 112388U);
+                    n1.NodeContext Node_Context_11 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "DVvgHBwvtzSOM9tG59wLgR", 42798U);
                     var Output_12 = n10.GraphicsData_Jyp9mYJHExJNVTwXieAIds<n26.Spread<uint>>.Create(Node_Context: Node_Context_11);
                     state_7.__p_DVvgHBwvtzSOM9tG59wLgR = Output_12;
                 }
@@ -2795,7 +2795,7 @@ namespace _VL_Stride_Graphics_.Stride.Buffers.Advanced
         public n25.DrawArgsBuffer_Indexed_EdSaGFFflOVMLSRyzUd2tq __Create__(n1.NodeContext Node_Context)
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "QlrUSrcxgq9OieqS8a29A6", 112424U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "QlrUSrcxgq9OieqS8a29A6", 42839U);
             var Output_1 = n21.OnOpen_FuW9Q3o4A1QLNwSJwTBGFz.Create(Node_Context: Node_Context_0);
             n25.DrawArgsBuffer_Indexed_EdSaGFFflOVMLSRyzUd2tq that_2 = this;
             this.__p_QlrUSrcxgq9OieqS8a29A6 = Output_1;
@@ -2824,21 +2824,21 @@ namespace _VL_Stride_Graphics_.Stride.Buffers.Advanced
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 112424U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "QlrUSrcxgq9OieqS8a29A6", Name = "OnOpen", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 42839U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "QlrUSrcxgq9OieqS8a29A6", Name = "OnOpen", IsManaged = true, IsAutoGenerated = true)]
         public n21.OnOpen_FuW9Q3o4A1QLNwSJwTBGFz __p_QlrUSrcxgq9OieqS8a29A6;
-        [n1.ElementAttribute(TracingId = 112277U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "LN2YIfmck2FMUyorjhMbRM", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 42719U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "LN2YIfmck2FMUyorjhMbRM", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
         public n6.Manager<n2.ValueTuple, n2.ValueTuple<n8.Buffer>> __cache_LN2YIfmck2FMUyorjhMbRM = null;
-        [n1.ElementAttribute(TracingId = 112331U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "GN4BsjQwHztMzhJiNxgnoj", Name = "__slot_GN4BsjQwHztMzhJiNxgnoj")]
+        [n1.ElementAttribute(TracingId = 42761U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "GN4BsjQwHztMzhJiNxgnoj", Name = "__slot_GN4BsjQwHztMzhJiNxgnoj")]
         public static int __slot_GN4BsjQwHztMzhJiNxgnoj = 20;
-        [n1.ElementAttribute(TracingId = 112358U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "RIQzgnASVUQLOam0jNiG3X", Name = "__slot_RIQzgnASVUQLOam0jNiG3X")]
+        [n1.ElementAttribute(TracingId = 42773U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "RIQzgnASVUQLOam0jNiG3X", Name = "__slot_RIQzgnASVUQLOam0jNiG3X")]
         public static n8.BufferFlags __slot_RIQzgnASVUQLOam0jNiG3X = n1.CompilationHelper.Deserialize<n8.BufferFlags>("ShaderResource", false, "Dky5PMnuvcKN4CxmfNs7Uv", "RIQzgnASVUQLOam0jNiG3X");
-        [n1.ElementAttribute(TracingId = 112378U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "HbiG9ifUMwkMV1do8RvzmA", Name = "__slot_HbiG9ifUMwkMV1do8RvzmA")]
+        [n1.ElementAttribute(TracingId = 42792U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "HbiG9ifUMwkMV1do8RvzmA", Name = "__slot_HbiG9ifUMwkMV1do8RvzmA")]
         public static n8.BufferFlags __slot_HbiG9ifUMwkMV1do8RvzmA = n1.CompilationHelper.Deserialize<n8.BufferFlags>("UnorderedAccess", false, "Dky5PMnuvcKN4CxmfNs7Uv", "HbiG9ifUMwkMV1do8RvzmA");
-        [n1.ElementAttribute(TracingId = 112385U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "AOkszPWbTGeLlOYY64zkF0", Name = "__slot_AOkszPWbTGeLlOYY64zkF0")]
+        [n1.ElementAttribute(TracingId = 42795U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "AOkszPWbTGeLlOYY64zkF0", Name = "__slot_AOkszPWbTGeLlOYY64zkF0")]
         public static n8.BufferFlags __slot_AOkszPWbTGeLlOYY64zkF0 = n1.CompilationHelper.Deserialize<n8.BufferFlags>("RawBuffer", false, "Dky5PMnuvcKN4CxmfNs7Uv", "AOkszPWbTGeLlOYY64zkF0");
-        [n1.ElementAttribute(TracingId = 112350U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "VSYTokSEzzpP1AdHlEYGe3", Name = "__slot_VSYTokSEzzpP1AdHlEYGe3")]
+        [n1.ElementAttribute(TracingId = 42770U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "VSYTokSEzzpP1AdHlEYGe3", Name = "__slot_VSYTokSEzzpP1AdHlEYGe3")]
         public static n8.BufferFlags __slot_VSYTokSEzzpP1AdHlEYGe3 = n1.CompilationHelper.Deserialize<n8.BufferFlags>("ArgumentBuffer", false, "Dky5PMnuvcKN4CxmfNs7Uv", "VSYTokSEzzpP1AdHlEYGe3");
-        [n1.ElementAttribute(TracingId = 112412U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "B3dJb1IPyPyPUCpJ8KSJW8", Name = "__slot_B3dJb1IPyPyPUCpJ8KSJW8")]
+        [n1.ElementAttribute(TracingId = 42818U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "B3dJb1IPyPyPUCpJ8KSJW8", Name = "__slot_B3dJb1IPyPyPUCpJ8KSJW8")]
         public static n26.Spread<uint> __slot_B3dJb1IPyPyPUCpJ8KSJW8 = n1.CompilationHelper.Deserialize<n26.Spread<uint>>("3, 1, 0, 0, 0", false, "Dky5PMnuvcKN4CxmfNs7Uv", "B3dJb1IPyPyPUCpJ8KSJW8");
         static DrawArgsBuffer_Indexed_EdSaGFFflOVMLSRyzUd2tq()
         {
@@ -2887,13 +2887,13 @@ namespace _VL_Stride_Graphics_.Stride.Buffers.Advanced
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 112293U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "DAmaZMghsDgNi5JJhzVl1C", Name = "BufferDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "BufferDescription", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 42733U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "DAmaZMghsDgNi5JJhzVl1C", Name = "BufferDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "BufferDescription", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_DAmaZMghsDgNi5JJhzVl1C;
-            [n1.ElementAttribute(TracingId = 112311U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "NYZlD2TzfblPAGzdB6ECVa", Name = "Buffer", IsManaged = true, IsAutoGenerated = true, NodeName = "Buffer", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 42748U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "NYZlD2TzfblPAGzdB6ECVa", Name = "Buffer", IsManaged = true, IsAutoGenerated = true, NodeName = "Buffer", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_NYZlD2TzfblPAGzdB6ECVa;
-            [n1.ElementAttribute(TracingId = 112338U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Vjt73Fzo3gcMWuAnP1piV4", Name = "BufferViewDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "BufferViewDescription", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 42765U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Vjt73Fzo3gcMWuAnP1piV4", Name = "BufferViewDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "BufferViewDescription", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_Vjt73Fzo3gcMWuAnP1piV4;
-            [n1.ElementAttribute(TracingId = 112388U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "DVvgHBwvtzSOM9tG59wLgR", Name = "GraphicsData", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 42798U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "DVvgHBwvtzSOM9tG59wLgR", Name = "GraphicsData", IsManaged = true, IsAutoGenerated = true)]
             public n10.GraphicsData_Jyp9mYJHExJNVTwXieAIds<n26.Spread<uint>> __p_DVvgHBwvtzSOM9tG59wLgR;
             public __SUCExnTPEI0LVmQ6ClKOJx(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -2934,7 +2934,7 @@ namespace _VL_Stride_Graphics_.Stride.Buffers.Advanced
 
 namespace _VL_Stride_Graphics_.Stride.Textures
 {
-    [n1.ElementAttribute(TracingId = 112493U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "LP0S7rvH864PsdlvgOVWhx", Name = "CloneTexture_LP0S7rvH864PsdlvgOVWhx")]
+    [n1.ElementAttribute(TracingId = 42914U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "LP0S7rvH864PsdlvgOVWhx", Name = "CloneTexture_LP0S7rvH864PsdlvgOVWhx")]
     [n2.SerializableAttribute]
     public class CloneTexture_LP0S7rvH864PsdlvgOVWhx : n1.VLObject, n2.IDisposable
     {
@@ -2996,7 +2996,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures
                     if (state_14 == null)
                     {
                         state_14 = new __M308IjzTG5rNCT8xHEdbzL(__GetContext__(), n1.VLObject.NewIdentity());
-                        n1.NodeContext Node_Context_15 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "AOMMGoqxKnUPWPM11Wi3oc", 112580U);
+                        n1.NodeContext Node_Context_15 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "AOMMGoqxKnUPWPM11Wi3oc", 45253U);
                         var Output_16 = n10.GraphicsContext_LZGVLOdpi83QS6XklGOZVK.Create(Node_Context_In: Node_Context_15);
                         state_14.__p_AOMMGoqxKnUPWPM11Wi3oc = Output_16;
                     }
@@ -3109,7 +3109,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 112508U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Mg2lE1UzLXFMNPJ1gBtpnV", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 42937U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Mg2lE1UzLXFMNPJ1gBtpnV", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
             public n6.Manager<n2.ValueTuple<n8.Texture, n17.PixelFormat, n8.TextureFlags, n8.TextureOptions>, n2.ValueTuple<n8.Texture>> __cache_Mg2lE1UzLXFMNPJ1gBtpnV = null;
             [n1.ElementAttribute(IsManaged = true, IsAutoGenerated = true)]
             public n2.Object __if_O5gNNxg0XgmNuTOBABNHMs;
@@ -3154,7 +3154,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 112580U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "AOMMGoqxKnUPWPM11Wi3oc", Name = "GraphicsContext", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 45253U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "AOMMGoqxKnUPWPM11Wi3oc", Name = "GraphicsContext", IsManaged = true, IsAutoGenerated = true)]
             public n10.GraphicsContext_LZGVLOdpi83QS6XklGOZVK __p_AOMMGoqxKnUPWPM11Wi3oc;
             public __M308IjzTG5rNCT8xHEdbzL(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -3186,7 +3186,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures
         }
     }
 
-    [n1.ElementAttribute(TracingId = 115326U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "F1s6QlGyqF5NnwIq9Yu290", Name = "DynamicTexture2D_F1s6QlGyqF5NnwIq9Yu290")]
+    [n1.ElementAttribute(TracingId = 61135U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "F1s6QlGyqF5NnwIq9Yu290", Name = "DynamicTexture2D_F1s6QlGyqF5NnwIq9Yu290")]
     [n2.SerializableAttribute]
     public class DynamicTexture2D_F1s6QlGyqF5NnwIq9Yu290<T> : n1.VLObject, n2.IDisposable
     {
@@ -3306,7 +3306,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures
             {
                 using var __current_39 = __fallback___30.MakeCurrentIfNone();
                 var state_32 = new __STPq6mDGlEAMidI47J4x9D(__GetContext__(), n1.VLObject.NewIdentity());
-                n1.NodeContext Node_Context_40 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "IIuKrAscJWvLmarsYiG9tf", 115579U);
+                n1.NodeContext Node_Context_40 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "IIuKrAscJWvLmarsYiG9tf", 61378U);
                 var Output_41 = n31.SetData_FPEbMrBTNrWLDZKYInJXKW.Create(Node_Context: Node_Context_40);
                 state_32.__p_IIuKrAscJWvLmarsYiG9tf = Output_41;
                 return state_32;
@@ -3332,9 +3332,9 @@ namespace _VL_Stride_Graphics_.Stride.Textures
         public n27.DynamicTexture2D_F1s6QlGyqF5NnwIq9Yu290<T> __Create__(n1.NodeContext Node_Context)
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "AIyu9gHmzYnNLh1P6xtFa2", 115538U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "AIyu9gHmzYnNLh1P6xtFa2", 61317U);
             var Output_1 = n10.GraphicsData_Jyp9mYJHExJNVTwXieAIds<T>.Create(Node_Context: Node_Context_0);
-            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "VlsZrTgXtJ2Mvh96XI1tER", 115558U);
+            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "VlsZrTgXtJ2Mvh96XI1tER", 61348U);
             n33._Operations_.Create_H<n2.Object>(Node_Context: Node_Context_2, Output_Out: out n32.TryStateful<n2.Object> Output_3);
             n27.DynamicTexture2D_F1s6QlGyqF5NnwIq9Yu290<T> that_4 = this;
             this.__p_AIyu9gHmzYnNLh1P6xtFa2 = Output_1;
@@ -3366,13 +3366,13 @@ namespace _VL_Stride_Graphics_.Stride.Textures
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 115538U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "AIyu9gHmzYnNLh1P6xtFa2", Name = "GraphicsData", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 61317U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "AIyu9gHmzYnNLh1P6xtFa2", Name = "GraphicsData", IsManaged = true, IsAutoGenerated = true)]
         public n10.GraphicsData_Jyp9mYJHExJNVTwXieAIds<T> __p_AIyu9gHmzYnNLh1P6xtFa2;
-        [n1.ElementAttribute(TracingId = 115332U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "U1TQz7qmiD9L6PE7IS5DEb", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 61141U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "U1TQz7qmiD9L6PE7IS5DEb", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
         public n6.Manager<n2.ValueTuple<n12.Int2, n17.PixelFormat>, n2.ValueTuple<n8.Texture>> __cache_U1TQz7qmiD9L6PE7IS5DEb = null;
-        [n1.ElementAttribute(TracingId = 115365U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "FeDltGaW8q0PR4B9HXFXXn", Name = "__slot_FeDltGaW8q0PR4B9HXFXXn")]
+        [n1.ElementAttribute(TracingId = 61161U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "FeDltGaW8q0PR4B9HXFXXn", Name = "__slot_FeDltGaW8q0PR4B9HXFXXn")]
         public static n8.GraphicsResourceUsage __slot_FeDltGaW8q0PR4B9HXFXXn = n1.CompilationHelper.Deserialize<n8.GraphicsResourceUsage>("Dynamic", false, "Dky5PMnuvcKN4CxmfNs7Uv", "FeDltGaW8q0PR4B9HXFXXn");
-        [n1.ElementAttribute(TracingId = 115558U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "VlsZrTgXtJ2Mvh96XI1tER", Name = "Try (1 Output)", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 61348U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "VlsZrTgXtJ2Mvh96XI1tER", Name = "Try (1 Output)", IsManaged = true, IsAutoGenerated = true)]
         public n32.TryStateful<n2.Object> __p_VlsZrTgXtJ2Mvh96XI1tER;
         static DynamicTexture2D_F1s6QlGyqF5NnwIq9Yu290()
         {
@@ -3422,11 +3422,11 @@ namespace _VL_Stride_Graphics_.Stride.Textures
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 115373U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "MZLBPBbtLsGL0fcu7BYsv6", Name = "Texture", IsManaged = true, IsAutoGenerated = true, NodeName = "Texture", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 61165U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "MZLBPBbtLsGL0fcu7BYsv6", Name = "Texture", IsManaged = true, IsAutoGenerated = true, NodeName = "Texture", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_MZLBPBbtLsGL0fcu7BYsv6;
-            [n1.ElementAttribute(TracingId = 115391U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "DnlcBKi2TfNLg4F80V1uT0", Name = "TextureDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "TextureDescription", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 61178U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "DnlcBKi2TfNLg4F80V1uT0", Name = "TextureDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "TextureDescription", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_DnlcBKi2TfNLg4F80V1uT0;
-            [n1.ElementAttribute(TracingId = 115429U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Tv8BtFk8WOFNQyGQdcJ6nN", Name = "TextureViewDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "TextureViewDescription", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 61209U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Tv8BtFk8WOFNQyGQdcJ6nN", Name = "TextureViewDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "TextureViewDescription", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_Tv8BtFk8WOFNQyGQdcJ6nN;
             public __Ru2VA3ZGzasLfP8rO7ixBh(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -3471,7 +3471,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 115579U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "IIuKrAscJWvLmarsYiG9tf", Name = "SetData", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 61378U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "IIuKrAscJWvLmarsYiG9tf", Name = "SetData", IsManaged = true, IsAutoGenerated = true)]
             public n31.SetData_FPEbMrBTNrWLDZKYInJXKW __p_IIuKrAscJWvLmarsYiG9tf;
             public __STPq6mDGlEAMidI47J4x9D(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -3503,7 +3503,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures
         }
     }
 
-    [n1.ElementAttribute(TracingId = 115664U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Vao5mu9muXYOjpaceyFIMy", Name = "ComputeTexture2D_Vao5mu9muXYOjpaceyFIMy")]
+    [n1.ElementAttribute(TracingId = 61566U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Vao5mu9muXYOjpaceyFIMy", Name = "ComputeTexture2D_Vao5mu9muXYOjpaceyFIMy")]
     [n2.SerializableAttribute]
     public class ComputeTexture2D_Vao5mu9muXYOjpaceyFIMy : n1.VLObject, n2.IDisposable
     {
@@ -3631,9 +3631,9 @@ namespace _VL_Stride_Graphics_.Stride.Textures
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 115668U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "EmLFhtkVywgMc9gBrkiREb", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 61571U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "EmLFhtkVywgMc9gBrkiREb", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
         public n6.Manager<n2.ValueTuple<n12.Int2, int, int, n17.PixelFormat, bool, bool, bool, n2.ValueTuple<bool>>, n2.ValueTuple<n8.Texture>> __cache_EmLFhtkVywgMc9gBrkiREb = null;
-        [n1.ElementAttribute(TracingId = 115693U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "SPWa5jfRrBWOh7wp53DwP0", Name = "__slot_SPWa5jfRrBWOh7wp53DwP0")]
+        [n1.ElementAttribute(TracingId = 61611U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "SPWa5jfRrBWOh7wp53DwP0", Name = "__slot_SPWa5jfRrBWOh7wp53DwP0")]
         public static n8.GraphicsResourceUsage __slot_SPWa5jfRrBWOh7wp53DwP0 = n1.CompilationHelper.Deserialize<n8.GraphicsResourceUsage>("Default", false, "Dky5PMnuvcKN4CxmfNs7Uv", "SPWa5jfRrBWOh7wp53DwP0");
         static ComputeTexture2D_Vao5mu9muXYOjpaceyFIMy()
         {
@@ -3679,11 +3679,11 @@ namespace _VL_Stride_Graphics_.Stride.Textures
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 115697U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Hcdlhpo6B9rP1jwNddpWcb", Name = "Texture", IsManaged = true, IsAutoGenerated = true, NodeName = "Texture", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 61612U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Hcdlhpo6B9rP1jwNddpWcb", Name = "Texture", IsManaged = true, IsAutoGenerated = true, NodeName = "Texture", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_Hcdlhpo6B9rP1jwNddpWcb;
-            [n1.ElementAttribute(TracingId = 115707U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "VYVSZ4C3ISlPTXHCljbgtx", Name = "TextureDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "TextureDescription", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 61626U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "VYVSZ4C3ISlPTXHCljbgtx", Name = "TextureDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "TextureDescription", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_VYVSZ4C3ISlPTXHCljbgtx;
-            [n1.ElementAttribute(TracingId = 115730U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "CNAhme1jNbUOQmWvXGkISU", Name = "TextureViewDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "TextureViewDescription", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 61673U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "CNAhme1jNbUOQmWvXGkISU", Name = "TextureViewDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "TextureViewDescription", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_CNAhme1jNbUOQmWvXGkISU;
             public __FY2zHdGw2H3O1RMQwEQLyq(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -3719,7 +3719,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures
         }
     }
 
-    [n1.ElementAttribute(TracingId = 115842U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "NlZ1Wiz1nSGLumavpcD7Fw", Name = "ImmutableTexture2D_NlZ1Wiz1nSGLumavpcD7Fw")]
+    [n1.ElementAttribute(TracingId = 65295U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "NlZ1Wiz1nSGLumavpcD7Fw", Name = "ImmutableTexture2D_NlZ1Wiz1nSGLumavpcD7Fw")]
     [n2.SerializableAttribute]
     public class ImmutableTexture2D_NlZ1Wiz1nSGLumavpcD7Fw<T> : n1.VLObject, n2.IDisposable
     {
@@ -3770,10 +3770,10 @@ namespace _VL_Stride_Graphics_.Stride.Textures
                     state_11.__p_UKYXFV8Zk8WQOH75DxwmcA = node_13;
                     var node_14 = n1.CompilationHelper.CreateNodeById(__GetContext__(), "TextureViewDescription", "Stride.Graphics.Advanced");
                     state_11.__p_J9X5IUq1LEwM2LLPqs17O0 = node_14;
-                    n1.NodeContext Node_Context_15 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "FXXROX7uerGLEz4PJnuyV0", 115887U);
+                    n1.NodeContext Node_Context_15 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "FXXROX7uerGLEz4PJnuyV0", 68238U);
                     var Output_16 = n10.GraphicsData_Jyp9mYJHExJNVTwXieAIds<T>.Create(Node_Context: Node_Context_15);
                     state_11.__p_FXXROX7uerGLEz4PJnuyV0 = Output_16;
-                    n1.NodeContext Node_Context_17 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "FoGRF3h3hnXPYT6iydCX6a", 115896U);
+                    n1.NodeContext Node_Context_17 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "FoGRF3h3hnXPYT6iydCX6a", 68271U);
                     var Output_18 = n7.FromValue_OH4TKYsSUseQU3JpOZF4kZ<n14.IGraphicsDataProvider>.Create(Node_Context: Node_Context_17);
                     state_11.__p_FoGRF3h3hnXPYT6iydCX6a = Output_18;
                 }
@@ -3848,7 +3848,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
             var w_0 = default(AdM);
-            n1.NodeContext Node_Context_1 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "GwWDqFcmI2rOzAOtlUrxgK", 115922U);
+            n1.NodeContext Node_Context_1 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "GwWDqFcmI2rOzAOtlUrxgK", 68386U);
             bool Changed_On_Create_2 = true;
             var Output_3 = n21.Changed_A8JGbead2bxNdnPybiEqVS<T>.Create<AdM>(Node_Context: Node_Context_1, Changed_On_Create_In: Changed_On_Create_2);
             n27.ImmutableTexture2D_NlZ1Wiz1nSGLumavpcD7Fw<T> that_4 = this;
@@ -3880,11 +3880,11 @@ namespace _VL_Stride_Graphics_.Stride.Textures
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 115922U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "GwWDqFcmI2rOzAOtlUrxgK", Name = "Changed", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 68386U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "GwWDqFcmI2rOzAOtlUrxgK", Name = "Changed", IsManaged = true, IsAutoGenerated = true)]
         public n21.Changed_A8JGbead2bxNdnPybiEqVS<T> __p_GwWDqFcmI2rOzAOtlUrxgK;
-        [n1.ElementAttribute(TracingId = 115846U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Stunygs1ANQLDFgcUfVfZ8", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 65304U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Stunygs1ANQLDFgcUfVfZ8", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
         public n6.Manager<n2.ValueTuple<n12.Int2, n17.PixelFormat>, n2.ValueTuple<n8.Texture>> __cache_Stunygs1ANQLDFgcUfVfZ8 = null;
-        [n1.ElementAttribute(TracingId = 115856U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "G79eHn2lZTyMOd1Rsw1RGX", Name = "__slot_G79eHn2lZTyMOd1Rsw1RGX")]
+        [n1.ElementAttribute(TracingId = 65340U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "G79eHn2lZTyMOd1Rsw1RGX", Name = "__slot_G79eHn2lZTyMOd1Rsw1RGX")]
         public static n8.GraphicsResourceUsage __slot_G79eHn2lZTyMOd1Rsw1RGX = n1.CompilationHelper.Deserialize<n8.GraphicsResourceUsage>("Immutable", false, "Dky5PMnuvcKN4CxmfNs7Uv", "G79eHn2lZTyMOd1Rsw1RGX");
         static ImmutableTexture2D_NlZ1Wiz1nSGLumavpcD7Fw()
         {
@@ -3934,15 +3934,15 @@ namespace _VL_Stride_Graphics_.Stride.Textures
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 115857U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Uwh84soVb35P2O7ACoEmsC", Name = "Texture", IsManaged = true, IsAutoGenerated = true, NodeName = "Texture", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 65344U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Uwh84soVb35P2O7ACoEmsC", Name = "Texture", IsManaged = true, IsAutoGenerated = true, NodeName = "Texture", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_Uwh84soVb35P2O7ACoEmsC;
-            [n1.ElementAttribute(TracingId = 115863U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "UKYXFV8Zk8WQOH75DxwmcA", Name = "TextureDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "TextureDescription", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 65366U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "UKYXFV8Zk8WQOH75DxwmcA", Name = "TextureDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "TextureDescription", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_UKYXFV8Zk8WQOH75DxwmcA;
-            [n1.ElementAttribute(TracingId = 115876U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "J9X5IUq1LEwM2LLPqs17O0", Name = "TextureViewDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "TextureViewDescription", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 65404U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "J9X5IUq1LEwM2LLPqs17O0", Name = "TextureViewDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "TextureViewDescription", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_J9X5IUq1LEwM2LLPqs17O0;
-            [n1.ElementAttribute(TracingId = 115887U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "FXXROX7uerGLEz4PJnuyV0", Name = "GraphicsData", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 68238U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "FXXROX7uerGLEz4PJnuyV0", Name = "GraphicsData", IsManaged = true, IsAutoGenerated = true)]
             public n10.GraphicsData_Jyp9mYJHExJNVTwXieAIds<T> __p_FXXROX7uerGLEz4PJnuyV0;
-            [n1.ElementAttribute(TracingId = 115896U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "FoGRF3h3hnXPYT6iydCX6a", Name = "FromValue", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 68271U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "FoGRF3h3hnXPYT6iydCX6a", Name = "FromValue", IsManaged = true, IsAutoGenerated = true)]
             public n7.FromValue_OH4TKYsSUseQU3JpOZF4kZ<n14.IGraphicsDataProvider> __p_FoGRF3h3hnXPYT6iydCX6a;
             public __O4Ay9tjKluMM2jwCfXww4t(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -3982,7 +3982,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures
         }
     }
 
-    [n1.ElementAttribute(TracingId = 116252U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "A5xFcqhGTHlMZboisCSd69", Name = "DynamicTexture3D_A5xFcqhGTHlMZboisCSd69")]
+    [n1.ElementAttribute(TracingId = 68916U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "A5xFcqhGTHlMZboisCSd69", Name = "DynamicTexture3D_A5xFcqhGTHlMZboisCSd69")]
     [n2.SerializableAttribute]
     public class DynamicTexture3D_A5xFcqhGTHlMZboisCSd69<T> : n1.VLObject, n2.IDisposable
     {
@@ -4106,7 +4106,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures
             {
                 using var __current_42 = __fallback___33.MakeCurrentIfNone();
                 var state_35 = new __B9Pb0didu7pMUBDi2k9Ctn(__GetContext__(), n1.VLObject.NewIdentity());
-                n1.NodeContext Node_Context_43 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "EcTDAdcOMQIOQS2Hh2XNzI", 116499U);
+                n1.NodeContext Node_Context_43 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "EcTDAdcOMQIOQS2Hh2XNzI", 71849U);
                 var Output_44 = n31.SetData_FPEbMrBTNrWLDZKYInJXKW.Create(Node_Context: Node_Context_43);
                 state_35.__p_EcTDAdcOMQIOQS2Hh2XNzI = Output_44;
                 return state_35;
@@ -4132,9 +4132,9 @@ namespace _VL_Stride_Graphics_.Stride.Textures
         public n27.DynamicTexture3D_A5xFcqhGTHlMZboisCSd69<T> __Create__(n1.NodeContext Node_Context)
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "L4NUuHh7Cq3MWMDMbwNrMy", 116453U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "L4NUuHh7Cq3MWMDMbwNrMy", 69202U);
             var Output_1 = n10.GraphicsData_Jyp9mYJHExJNVTwXieAIds<T>.Create(Node_Context: Node_Context_0);
-            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "NsTxMqg7Zi8O7nYkThszRR", 116474U);
+            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "NsTxMqg7Zi8O7nYkThszRR", 69239U);
             n33._Operations_.Create_H<n2.Object>(Node_Context: Node_Context_2, Output_Out: out n32.TryStateful<n2.Object> Output_3);
             n27.DynamicTexture3D_A5xFcqhGTHlMZboisCSd69<T> that_4 = this;
             this.__p_L4NUuHh7Cq3MWMDMbwNrMy = Output_1;
@@ -4166,15 +4166,15 @@ namespace _VL_Stride_Graphics_.Stride.Textures
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 116453U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "L4NUuHh7Cq3MWMDMbwNrMy", Name = "GraphicsData", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 69202U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "L4NUuHh7Cq3MWMDMbwNrMy", Name = "GraphicsData", IsManaged = true, IsAutoGenerated = true)]
         public n10.GraphicsData_Jyp9mYJHExJNVTwXieAIds<T> __p_L4NUuHh7Cq3MWMDMbwNrMy;
-        [n1.ElementAttribute(TracingId = 116260U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "K3trXq3aYRwMNQXMdm9RmY", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 68930U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "K3trXq3aYRwMNQXMdm9RmY", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
         public n6.Manager<n2.ValueTuple<n12.Int3, n17.PixelFormat>, n2.ValueTuple<n8.Texture>> __cache_K3trXq3aYRwMNQXMdm9RmY = null;
-        [n1.ElementAttribute(TracingId = 116400U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "LodqwtQanEkLgijY0XVIUx", Name = "__slot_LodqwtQanEkLgijY0XVIUx")]
+        [n1.ElementAttribute(TracingId = 69133U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "LodqwtQanEkLgijY0XVIUx", Name = "__slot_LodqwtQanEkLgijY0XVIUx")]
         public static n17.TextureDimension __slot_LodqwtQanEkLgijY0XVIUx = n1.CompilationHelper.Deserialize<n17.TextureDimension>("Texture3D", false, "Dky5PMnuvcKN4CxmfNs7Uv", "LodqwtQanEkLgijY0XVIUx");
-        [n1.ElementAttribute(TracingId = 116282U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "RqbmdpWWHeXLWkKaEtX46C", Name = "__slot_RqbmdpWWHeXLWkKaEtX46C")]
+        [n1.ElementAttribute(TracingId = 68962U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "RqbmdpWWHeXLWkKaEtX46C", Name = "__slot_RqbmdpWWHeXLWkKaEtX46C")]
         public static n8.GraphicsResourceUsage __slot_RqbmdpWWHeXLWkKaEtX46C = n1.CompilationHelper.Deserialize<n8.GraphicsResourceUsage>("Dynamic", false, "Dky5PMnuvcKN4CxmfNs7Uv", "RqbmdpWWHeXLWkKaEtX46C");
-        [n1.ElementAttribute(TracingId = 116474U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "NsTxMqg7Zi8O7nYkThszRR", Name = "Try (1 Output)", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 69239U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "NsTxMqg7Zi8O7nYkThszRR", Name = "Try (1 Output)", IsManaged = true, IsAutoGenerated = true)]
         public n32.TryStateful<n2.Object> __p_NsTxMqg7Zi8O7nYkThszRR;
         static DynamicTexture3D_A5xFcqhGTHlMZboisCSd69()
         {
@@ -4224,11 +4224,11 @@ namespace _VL_Stride_Graphics_.Stride.Textures
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 116286U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "UsqU78CBhepPslejS2f7kK", Name = "Texture", IsManaged = true, IsAutoGenerated = true, NodeName = "Texture", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 68970U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "UsqU78CBhepPslejS2f7kK", Name = "Texture", IsManaged = true, IsAutoGenerated = true, NodeName = "Texture", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_UsqU78CBhepPslejS2f7kK;
-            [n1.ElementAttribute(TracingId = 116307U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "OzKj8sjMDafPiYQy7bawxN", Name = "TextureDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "TextureDescription", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 68999U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "OzKj8sjMDafPiYQy7bawxN", Name = "TextureDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "TextureDescription", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_OzKj8sjMDafPiYQy7bawxN;
-            [n1.ElementAttribute(TracingId = 116339U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "DIF8pI3lDC3L9iSHOkEHL0", Name = "TextureViewDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "TextureViewDescription", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 69047U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "DIF8pI3lDC3L9iSHOkEHL0", Name = "TextureViewDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "TextureViewDescription", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_DIF8pI3lDC3L9iSHOkEHL0;
             public __Ry95y78KYorNnjqQzZnlBv(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -4273,7 +4273,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 116499U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "EcTDAdcOMQIOQS2Hh2XNzI", Name = "SetData", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 71849U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "EcTDAdcOMQIOQS2Hh2XNzI", Name = "SetData", IsManaged = true, IsAutoGenerated = true)]
             public n31.SetData_FPEbMrBTNrWLDZKYInJXKW __p_EcTDAdcOMQIOQS2Hh2XNzI;
             public __B9Pb0didu7pMUBDi2k9Ctn(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -4305,7 +4305,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures
         }
     }
 
-    [n1.ElementAttribute(TracingId = 116642U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "SO197zGpVYsOMINttv8noS", Name = "ComputeTexture3D_SO197zGpVYsOMINttv8noS")]
+    [n1.ElementAttribute(TracingId = 71982U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "SO197zGpVYsOMINttv8noS", Name = "ComputeTexture3D_SO197zGpVYsOMINttv8noS")]
     [n2.SerializableAttribute]
     public class ComputeTexture3D_SO197zGpVYsOMINttv8noS : n1.VLObject, n2.IDisposable
     {
@@ -4438,11 +4438,11 @@ namespace _VL_Stride_Graphics_.Stride.Textures
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 116650U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "NyHcAs0TyBfMvZfZevzL9r", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 71994U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "NyHcAs0TyBfMvZfZevzL9r", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
         public n6.Manager<n2.ValueTuple<n12.Int3, int, int, n17.PixelFormat, bool, bool>, n2.ValueTuple<n8.Texture>> __cache_NyHcAs0TyBfMvZfZevzL9r = null;
-        [n1.ElementAttribute(TracingId = 116849U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "NzPs3dOUXKnQYArAZkXJVG", Name = "__slot_NzPs3dOUXKnQYArAZkXJVG")]
+        [n1.ElementAttribute(TracingId = 72242U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "NzPs3dOUXKnQYArAZkXJVG", Name = "__slot_NzPs3dOUXKnQYArAZkXJVG")]
         public static n17.TextureDimension __slot_NzPs3dOUXKnQYArAZkXJVG = n1.CompilationHelper.Deserialize<n17.TextureDimension>("Texture3D", false, "Dky5PMnuvcKN4CxmfNs7Uv", "NzPs3dOUXKnQYArAZkXJVG");
-        [n1.ElementAttribute(TracingId = 116702U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "IaJnAmYIas0MSkx5wfK8x1", Name = "__slot_IaJnAmYIas0MSkx5wfK8x1")]
+        [n1.ElementAttribute(TracingId = 72034U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "IaJnAmYIas0MSkx5wfK8x1", Name = "__slot_IaJnAmYIas0MSkx5wfK8x1")]
         public static n8.GraphicsResourceUsage __slot_IaJnAmYIas0MSkx5wfK8x1 = n1.CompilationHelper.Deserialize<n8.GraphicsResourceUsage>("Default", false, "Dky5PMnuvcKN4CxmfNs7Uv", "IaJnAmYIas0MSkx5wfK8x1");
         static ComputeTexture3D_SO197zGpVYsOMINttv8noS()
         {
@@ -4488,11 +4488,11 @@ namespace _VL_Stride_Graphics_.Stride.Textures
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 116709U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "AdjkAleZX7vMr1GSRtdjzJ", Name = "Texture", IsManaged = true, IsAutoGenerated = true, NodeName = "Texture", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 72038U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "AdjkAleZX7vMr1GSRtdjzJ", Name = "Texture", IsManaged = true, IsAutoGenerated = true, NodeName = "Texture", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_AdjkAleZX7vMr1GSRtdjzJ;
-            [n1.ElementAttribute(TracingId = 116730U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Vxrso0LBP1RQN1YMOaTYPp", Name = "TextureDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "TextureDescription", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 72061U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Vxrso0LBP1RQN1YMOaTYPp", Name = "TextureDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "TextureDescription", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_Vxrso0LBP1RQN1YMOaTYPp;
-            [n1.ElementAttribute(TracingId = 116768U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "FksvlreNf9pNrmuEZjwKr1", Name = "TextureViewDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "TextureViewDescription", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 72099U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "FksvlreNf9pNrmuEZjwKr1", Name = "TextureViewDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "TextureViewDescription", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_FksvlreNf9pNrmuEZjwKr1;
             public __B8rSFk1C2rHNxZChOjDvQB(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -4528,7 +4528,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures
         }
     }
 
-    [n1.ElementAttribute(TracingId = 117037U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Jr9H2SgSxNyP6XV3v0LHLg", Name = "ImmutableTexture3D_Jr9H2SgSxNyP6XV3v0LHLg")]
+    [n1.ElementAttribute(TracingId = 72449U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Jr9H2SgSxNyP6XV3v0LHLg", Name = "ImmutableTexture3D_Jr9H2SgSxNyP6XV3v0LHLg")]
     [n2.SerializableAttribute]
     public class ImmutableTexture3D_Jr9H2SgSxNyP6XV3v0LHLg<T> : n1.VLObject, n2.IDisposable
     {
@@ -4579,10 +4579,10 @@ namespace _VL_Stride_Graphics_.Stride.Textures
                     state_11.__p_GYdJSpCTXOnQJLbOfUiglg = node_13;
                     var node_14 = n1.CompilationHelper.CreateNodeById(__GetContext__(), "TextureViewDescription", "Stride.Graphics.Advanced");
                     state_11.__p_UKV1YllriQGLo498wQUmd4 = node_14;
-                    n1.NodeContext Node_Context_15 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "Q3hFJFVHLL5NEH8uyKlrpm", 117196U);
+                    n1.NodeContext Node_Context_15 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "Q3hFJFVHLL5NEH8uyKlrpm", 73749U);
                     var Output_16 = n10.GraphicsData_Jyp9mYJHExJNVTwXieAIds<T>.Create(Node_Context: Node_Context_15);
                     state_11.__p_Q3hFJFVHLL5NEH8uyKlrpm = Output_16;
-                    n1.NodeContext Node_Context_17 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "TXheb7CkrmHLoFcP22RPFF", 117217U);
+                    n1.NodeContext Node_Context_17 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "TXheb7CkrmHLoFcP22RPFF", 73766U);
                     var Output_18 = n7.FromValue_OH4TKYsSUseQU3JpOZF4kZ<n14.IGraphicsDataProvider>.Create(Node_Context: Node_Context_17);
                     state_11.__p_TXheb7CkrmHLoFcP22RPFF = Output_18;
                 }
@@ -4661,7 +4661,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
             var w_0 = default(AdM);
-            n1.NodeContext Node_Context_1 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "UXdd8ru1b34MZ6ErS2qljA", 117336U);
+            n1.NodeContext Node_Context_1 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "UXdd8ru1b34MZ6ErS2qljA", 73903U);
             bool Changed_On_Create_2 = true;
             var Output_3 = n21.Changed_A8JGbead2bxNdnPybiEqVS<T>.Create<AdM>(Node_Context: Node_Context_1, Changed_On_Create_In: Changed_On_Create_2);
             n27.ImmutableTexture3D_Jr9H2SgSxNyP6XV3v0LHLg<T> that_4 = this;
@@ -4693,13 +4693,13 @@ namespace _VL_Stride_Graphics_.Stride.Textures
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 117336U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "UXdd8ru1b34MZ6ErS2qljA", Name = "Changed", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 73903U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "UXdd8ru1b34MZ6ErS2qljA", Name = "Changed", IsManaged = true, IsAutoGenerated = true)]
         public n21.Changed_A8JGbead2bxNdnPybiEqVS<T> __p_UXdd8ru1b34MZ6ErS2qljA;
-        [n1.ElementAttribute(TracingId = 117046U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "OJhn57N6IPmMIqKac0zG4f", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 72462U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "OJhn57N6IPmMIqKac0zG4f", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
         public n6.Manager<n2.ValueTuple<n12.Int3, n17.PixelFormat>, n2.ValueTuple<n8.Texture>> __cache_OJhn57N6IPmMIqKac0zG4f = null;
-        [n1.ElementAttribute(TracingId = 117259U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "UOQfhaRMaj6OV7naLgkpgi", Name = "__slot_UOQfhaRMaj6OV7naLgkpgi")]
+        [n1.ElementAttribute(TracingId = 73806U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "UOQfhaRMaj6OV7naLgkpgi", Name = "__slot_UOQfhaRMaj6OV7naLgkpgi")]
         public static n17.TextureDimension __slot_UOQfhaRMaj6OV7naLgkpgi = n1.CompilationHelper.Deserialize<n17.TextureDimension>("Texture3D", false, "Dky5PMnuvcKN4CxmfNs7Uv", "UOQfhaRMaj6OV7naLgkpgi");
-        [n1.ElementAttribute(TracingId = 117078U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "RZ4BM9vmu5cQKkjPxvSNOl", Name = "__slot_RZ4BM9vmu5cQKkjPxvSNOl")]
+        [n1.ElementAttribute(TracingId = 72488U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "RZ4BM9vmu5cQKkjPxvSNOl", Name = "__slot_RZ4BM9vmu5cQKkjPxvSNOl")]
         public static n8.GraphicsResourceUsage __slot_RZ4BM9vmu5cQKkjPxvSNOl = n1.CompilationHelper.Deserialize<n8.GraphicsResourceUsage>("Immutable", false, "Dky5PMnuvcKN4CxmfNs7Uv", "RZ4BM9vmu5cQKkjPxvSNOl");
         static ImmutableTexture3D_Jr9H2SgSxNyP6XV3v0LHLg()
         {
@@ -4749,15 +4749,15 @@ namespace _VL_Stride_Graphics_.Stride.Textures
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 117083U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "VRF8Ll5eLzHOo5aWBdHyGx", Name = "Texture", IsManaged = true, IsAutoGenerated = true, NodeName = "Texture", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 73671U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "VRF8Ll5eLzHOo5aWBdHyGx", Name = "Texture", IsManaged = true, IsAutoGenerated = true, NodeName = "Texture", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_VRF8Ll5eLzHOo5aWBdHyGx;
-            [n1.ElementAttribute(TracingId = 117105U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "GYdJSpCTXOnQJLbOfUiglg", Name = "TextureDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "TextureDescription", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 73686U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "GYdJSpCTXOnQJLbOfUiglg", Name = "TextureDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "TextureDescription", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_GYdJSpCTXOnQJLbOfUiglg;
-            [n1.ElementAttribute(TracingId = 117148U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "UKV1YllriQGLo498wQUmd4", Name = "TextureViewDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "TextureViewDescription", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 73714U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "UKV1YllriQGLo498wQUmd4", Name = "TextureViewDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "TextureViewDescription", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_UKV1YllriQGLo498wQUmd4;
-            [n1.ElementAttribute(TracingId = 117196U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Q3hFJFVHLL5NEH8uyKlrpm", Name = "GraphicsData", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 73749U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Q3hFJFVHLL5NEH8uyKlrpm", Name = "GraphicsData", IsManaged = true, IsAutoGenerated = true)]
             public n10.GraphicsData_Jyp9mYJHExJNVTwXieAIds<T> __p_Q3hFJFVHLL5NEH8uyKlrpm;
-            [n1.ElementAttribute(TracingId = 117217U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "TXheb7CkrmHLoFcP22RPFF", Name = "FromValue", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 73766U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "TXheb7CkrmHLoFcP22RPFF", Name = "FromValue", IsManaged = true, IsAutoGenerated = true)]
             public n7.FromValue_OH4TKYsSUseQU3JpOZF4kZ<n14.IGraphicsDataProvider> __p_TXheb7CkrmHLoFcP22RPFF;
             public __CmysGBzOzmuPlTiMoa9Lm2(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -4797,7 +4797,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures
         }
     }
 
-    [n1.ElementAttribute(TracingId = 117468U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Eqmb6Wko2RXLl2BN6IfmON", Name = "DynamicTexture1D_Eqmb6Wko2RXLl2BN6IfmON")]
+    [n1.ElementAttribute(TracingId = 74087U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Eqmb6Wko2RXLl2BN6IfmON", Name = "DynamicTexture1D_Eqmb6Wko2RXLl2BN6IfmON")]
     [n2.SerializableAttribute]
     public class DynamicTexture1D_Eqmb6Wko2RXLl2BN6IfmON<T> : n1.VLObject, n2.IDisposable
     {
@@ -4918,7 +4918,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures
             {
                 using var __current_38 = __fallback___29.MakeCurrentIfNone();
                 var state_31 = new __Abp6vqw5TBBP1daTRELMdR(__GetContext__(), n1.VLObject.NewIdentity());
-                n1.NodeContext Node_Context_39 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "MLzxgpGDBS7PCy8An1kD8I", 117684U);
+                n1.NodeContext Node_Context_39 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "MLzxgpGDBS7PCy8An1kD8I", 78675U);
                 var Output_40 = n31.SetData_FPEbMrBTNrWLDZKYInJXKW.Create(Node_Context: Node_Context_39);
                 state_31.__p_MLzxgpGDBS7PCy8An1kD8I = Output_40;
                 return state_31;
@@ -4944,9 +4944,9 @@ namespace _VL_Stride_Graphics_.Stride.Textures
         public n27.DynamicTexture1D_Eqmb6Wko2RXLl2BN6IfmON<T> __Create__(n1.NodeContext Node_Context)
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "TRDtXEFQL37LZUtjTtKtZO", 117644U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "TRDtXEFQL37LZUtjTtKtZO", 78617U);
             var Output_1 = n10.GraphicsData_Jyp9mYJHExJNVTwXieAIds<T>.Create(Node_Context: Node_Context_0);
-            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "LssdMSA2ytGNCbj7uE61PX", 117664U);
+            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "LssdMSA2ytGNCbj7uE61PX", 78644U);
             n33._Operations_.Create_H<n2.Object>(Node_Context: Node_Context_2, Output_Out: out n32.TryStateful<n2.Object> Output_3);
             n27.DynamicTexture1D_Eqmb6Wko2RXLl2BN6IfmON<T> that_4 = this;
             this.__p_TRDtXEFQL37LZUtjTtKtZO = Output_1;
@@ -4978,15 +4978,15 @@ namespace _VL_Stride_Graphics_.Stride.Textures
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 117644U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "TRDtXEFQL37LZUtjTtKtZO", Name = "GraphicsData", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 78617U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "TRDtXEFQL37LZUtjTtKtZO", Name = "GraphicsData", IsManaged = true, IsAutoGenerated = true)]
         public n10.GraphicsData_Jyp9mYJHExJNVTwXieAIds<T> __p_TRDtXEFQL37LZUtjTtKtZO;
-        [n1.ElementAttribute(TracingId = 117475U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "SdMV3GLX5k2QK237p5LP9M", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 74095U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "SdMV3GLX5k2QK237p5LP9M", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
         public n6.Manager<n2.ValueTuple<int, n17.PixelFormat>, n2.ValueTuple<n8.Texture>> __cache_SdMV3GLX5k2QK237p5LP9M = null;
-        [n1.ElementAttribute(TracingId = 117587U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "BwPepU4N8WoNIJAO7FneWS", Name = "__slot_BwPepU4N8WoNIJAO7FneWS")]
+        [n1.ElementAttribute(TracingId = 78554U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "BwPepU4N8WoNIJAO7FneWS", Name = "__slot_BwPepU4N8WoNIJAO7FneWS")]
         public static n17.TextureDimension __slot_BwPepU4N8WoNIJAO7FneWS = n1.CompilationHelper.Deserialize<n17.TextureDimension>("Texture1D", false, "Dky5PMnuvcKN4CxmfNs7Uv", "BwPepU4N8WoNIJAO7FneWS");
-        [n1.ElementAttribute(TracingId = 117499U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "T7geCASQJ5wMt8ArO7Ddey", Name = "__slot_T7geCASQJ5wMt8ArO7Ddey")]
+        [n1.ElementAttribute(TracingId = 74123U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "T7geCASQJ5wMt8ArO7Ddey", Name = "__slot_T7geCASQJ5wMt8ArO7Ddey")]
         public static n8.GraphicsResourceUsage __slot_T7geCASQJ5wMt8ArO7Ddey = n1.CompilationHelper.Deserialize<n8.GraphicsResourceUsage>("Dynamic", false, "Dky5PMnuvcKN4CxmfNs7Uv", "T7geCASQJ5wMt8ArO7Ddey");
-        [n1.ElementAttribute(TracingId = 117664U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "LssdMSA2ytGNCbj7uE61PX", Name = "Try (1 Output)", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 78644U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "LssdMSA2ytGNCbj7uE61PX", Name = "Try (1 Output)", IsManaged = true, IsAutoGenerated = true)]
         public n32.TryStateful<n2.Object> __p_LssdMSA2ytGNCbj7uE61PX;
         static DynamicTexture1D_Eqmb6Wko2RXLl2BN6IfmON()
         {
@@ -5036,11 +5036,11 @@ namespace _VL_Stride_Graphics_.Stride.Textures
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 117502U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "SBaaewfxzz4LWB1XC6qp2G", Name = "Texture", IsManaged = true, IsAutoGenerated = true, NodeName = "Texture", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 74130U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "SBaaewfxzz4LWB1XC6qp2G", Name = "Texture", IsManaged = true, IsAutoGenerated = true, NodeName = "Texture", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_SBaaewfxzz4LWB1XC6qp2G;
-            [n1.ElementAttribute(TracingId = 117520U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Lzd41AVhsAQMzvGoTi3k28", Name = "TextureDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "TextureDescription", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 74164U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Lzd41AVhsAQMzvGoTi3k28", Name = "TextureDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "TextureDescription", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_Lzd41AVhsAQMzvGoTi3k28;
-            [n1.ElementAttribute(TracingId = 117552U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "JODT535T3z9PEVe2rC9QHT", Name = "TextureViewDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "TextureViewDescription", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 78529U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "JODT535T3z9PEVe2rC9QHT", Name = "TextureViewDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "TextureViewDescription", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_JODT535T3z9PEVe2rC9QHT;
             public __BV8AChOe1ZSOX4CejSHJyb(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -5085,7 +5085,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 117684U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "MLzxgpGDBS7PCy8An1kD8I", Name = "SetData", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 78675U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "MLzxgpGDBS7PCy8An1kD8I", Name = "SetData", IsManaged = true, IsAutoGenerated = true)]
             public n31.SetData_FPEbMrBTNrWLDZKYInJXKW __p_MLzxgpGDBS7PCy8An1kD8I;
             public __Abp6vqw5TBBP1daTRELMdR(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -5117,7 +5117,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures
         }
     }
 
-    [n1.ElementAttribute(TracingId = 117798U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Ble2PwEcLIJPosndgAb3Pm", Name = "ComputeTexture1D_Ble2PwEcLIJPosndgAb3Pm")]
+    [n1.ElementAttribute(TracingId = 78839U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Ble2PwEcLIJPosndgAb3Pm", Name = "ComputeTexture1D_Ble2PwEcLIJPosndgAb3Pm")]
     [n2.SerializableAttribute]
     public class ComputeTexture1D_Ble2PwEcLIJPosndgAb3Pm : n1.VLObject, n2.IDisposable
     {
@@ -5247,11 +5247,11 @@ namespace _VL_Stride_Graphics_.Stride.Textures
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 117804U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "RwjdEnWIB70L25AOxJ3FFE", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 78846U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "RwjdEnWIB70L25AOxJ3FFE", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
         public n6.Manager<n2.ValueTuple<int, int, int, n17.PixelFormat, bool, bool>, n2.ValueTuple<n8.Texture>> __cache_RwjdEnWIB70L25AOxJ3FFE = null;
-        [n1.ElementAttribute(TracingId = 117879U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "P0HG7B2N2ssMOouTuldGEk", Name = "__slot_P0HG7B2N2ssMOouTuldGEk")]
+        [n1.ElementAttribute(TracingId = 80751U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "P0HG7B2N2ssMOouTuldGEk", Name = "__slot_P0HG7B2N2ssMOouTuldGEk")]
         public static n17.TextureDimension __slot_P0HG7B2N2ssMOouTuldGEk = n1.CompilationHelper.Deserialize<n17.TextureDimension>("Texture1D", false, "Dky5PMnuvcKN4CxmfNs7Uv", "P0HG7B2N2ssMOouTuldGEk");
-        [n1.ElementAttribute(TracingId = 117821U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "URH1mahks1UOclSajwm5mi", Name = "__slot_URH1mahks1UOclSajwm5mi")]
+        [n1.ElementAttribute(TracingId = 78879U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "URH1mahks1UOclSajwm5mi", Name = "__slot_URH1mahks1UOclSajwm5mi")]
         public static n8.GraphicsResourceUsage __slot_URH1mahks1UOclSajwm5mi = n1.CompilationHelper.Deserialize<n8.GraphicsResourceUsage>("Default", false, "Dky5PMnuvcKN4CxmfNs7Uv", "URH1mahks1UOclSajwm5mi");
         static ComputeTexture1D_Ble2PwEcLIJPosndgAb3Pm()
         {
@@ -5297,11 +5297,11 @@ namespace _VL_Stride_Graphics_.Stride.Textures
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 117822U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "U9GV7oqg7vYQGWlQUZH8CB", Name = "Texture", IsManaged = true, IsAutoGenerated = true, NodeName = "Texture", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 78886U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "U9GV7oqg7vYQGWlQUZH8CB", Name = "Texture", IsManaged = true, IsAutoGenerated = true, NodeName = "Texture", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_U9GV7oqg7vYQGWlQUZH8CB;
-            [n1.ElementAttribute(TracingId = 117833U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "E8JgOlRplQoPHBFmmy9UoD", Name = "TextureDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "TextureDescription", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 78907U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "E8JgOlRplQoPHBFmmy9UoD", Name = "TextureDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "TextureDescription", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_E8JgOlRplQoPHBFmmy9UoD;
-            [n1.ElementAttribute(TracingId = 117855U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "G7bHbuJF9aaPGtSBXolMgG", Name = "TextureViewDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "TextureViewDescription", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 80699U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "G7bHbuJF9aaPGtSBXolMgG", Name = "TextureViewDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "TextureViewDescription", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_G7bHbuJF9aaPGtSBXolMgG;
             public __MKwsaKc8uSXPnvEimhL84W(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -5337,7 +5337,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures
         }
     }
 
-    [n1.ElementAttribute(TracingId = 117970U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "K0Vj0L7OsdvPDPyDP8NEjH", Name = "ImmutableTexture1D_K0Vj0L7OsdvPDPyDP8NEjH")]
+    [n1.ElementAttribute(TracingId = 80913U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "K0Vj0L7OsdvPDPyDP8NEjH", Name = "ImmutableTexture1D_K0Vj0L7OsdvPDPyDP8NEjH")]
     [n2.SerializableAttribute]
     public class ImmutableTexture1D_K0Vj0L7OsdvPDPyDP8NEjH<T> : n1.VLObject, n2.IDisposable
     {
@@ -5388,10 +5388,10 @@ namespace _VL_Stride_Graphics_.Stride.Textures
                     state_11.__p_OVDJIpuqV51MEVGf9yIFrN = node_13;
                     var node_14 = n1.CompilationHelper.CreateNodeById(__GetContext__(), "TextureViewDescription", "Stride.Graphics.Advanced");
                     state_11.__p_IBYCE9QZbiDOCNHqHKkQb5 = node_14;
-                    n1.NodeContext Node_Context_15 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "CIW0vlY3CiaPQmYNv8NvDZ", 118050U);
+                    n1.NodeContext Node_Context_15 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "CIW0vlY3CiaPQmYNv8NvDZ", 81057U);
                     var Output_16 = n10.GraphicsData_Jyp9mYJHExJNVTwXieAIds<T>.Create(Node_Context: Node_Context_15);
                     state_11.__p_CIW0vlY3CiaPQmYNv8NvDZ = Output_16;
-                    n1.NodeContext Node_Context_17 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "KvTJZEBMEZzNKOz5OEyNZZ", 118075U);
+                    n1.NodeContext Node_Context_17 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "KvTJZEBMEZzNKOz5OEyNZZ", 81076U);
                     var Output_18 = n7.FromValue_OH4TKYsSUseQU3JpOZF4kZ<n14.IGraphicsDataProvider>.Create(Node_Context: Node_Context_17);
                     state_11.__p_KvTJZEBMEZzNKOz5OEyNZZ = Output_18;
                 }
@@ -5467,7 +5467,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
             var w_0 = default(AdM);
-            n1.NodeContext Node_Context_1 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "F7s2D18rJnlMLZ1CYIhc5D", 118165U);
+            n1.NodeContext Node_Context_1 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "F7s2D18rJnlMLZ1CYIhc5D", 81195U);
             bool Changed_On_Create_2 = true;
             var Output_3 = n21.Changed_A8JGbead2bxNdnPybiEqVS<T>.Create<AdM>(Node_Context: Node_Context_1, Changed_On_Create_In: Changed_On_Create_2);
             n27.ImmutableTexture1D_K0Vj0L7OsdvPDPyDP8NEjH<T> that_4 = this;
@@ -5499,13 +5499,13 @@ namespace _VL_Stride_Graphics_.Stride.Textures
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 118165U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "F7s2D18rJnlMLZ1CYIhc5D", Name = "Changed", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 81195U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "F7s2D18rJnlMLZ1CYIhc5D", Name = "Changed", IsManaged = true, IsAutoGenerated = true)]
         public n21.Changed_A8JGbead2bxNdnPybiEqVS<T> __p_F7s2D18rJnlMLZ1CYIhc5D;
-        [n1.ElementAttribute(TracingId = 117975U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Gj0xZ8vvMWNNigZSKYlSUo", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 80922U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Gj0xZ8vvMWNNigZSKYlSUo", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
         public n6.Manager<n2.ValueTuple<int, n17.PixelFormat>, n2.ValueTuple<n8.Texture>> __cache_Gj0xZ8vvMWNNigZSKYlSUo = null;
-        [n1.ElementAttribute(TracingId = 118100U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "CA5feigB7jrP56VfBFQGj9", Name = "__slot_CA5feigB7jrP56VfBFQGj9")]
+        [n1.ElementAttribute(TracingId = 81108U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "CA5feigB7jrP56VfBFQGj9", Name = "__slot_CA5feigB7jrP56VfBFQGj9")]
         public static n17.TextureDimension __slot_CA5feigB7jrP56VfBFQGj9 = n1.CompilationHelper.Deserialize<n17.TextureDimension>("Texture1D", false, "Dky5PMnuvcKN4CxmfNs7Uv", "CA5feigB7jrP56VfBFQGj9");
-        [n1.ElementAttribute(TracingId = 117991U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "RGgGnUNNlpbMecUwRjZbx4", Name = "__slot_RGgGnUNNlpbMecUwRjZbx4")]
+        [n1.ElementAttribute(TracingId = 80953U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "RGgGnUNNlpbMecUwRjZbx4", Name = "__slot_RGgGnUNNlpbMecUwRjZbx4")]
         public static n8.GraphicsResourceUsage __slot_RGgGnUNNlpbMecUwRjZbx4 = n1.CompilationHelper.Deserialize<n8.GraphicsResourceUsage>("Immutable", false, "Dky5PMnuvcKN4CxmfNs7Uv", "RGgGnUNNlpbMecUwRjZbx4");
         static ImmutableTexture1D_K0Vj0L7OsdvPDPyDP8NEjH()
         {
@@ -5555,15 +5555,15 @@ namespace _VL_Stride_Graphics_.Stride.Textures
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 117994U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "A4CRVToBrb8OXwOSRO8kBo", Name = "Texture", IsManaged = true, IsAutoGenerated = true, NodeName = "Texture", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 80958U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "A4CRVToBrb8OXwOSRO8kBo", Name = "Texture", IsManaged = true, IsAutoGenerated = true, NodeName = "Texture", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_A4CRVToBrb8OXwOSRO8kBo;
-            [n1.ElementAttribute(TracingId = 118015U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "OVDJIpuqV51MEVGf9yIFrN", Name = "TextureDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "TextureDescription", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 80988U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "OVDJIpuqV51MEVGf9yIFrN", Name = "TextureDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "TextureDescription", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_OVDJIpuqV51MEVGf9yIFrN;
-            [n1.ElementAttribute(TracingId = 118040U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "IBYCE9QZbiDOCNHqHKkQb5", Name = "TextureViewDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "TextureViewDescription", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 81030U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "IBYCE9QZbiDOCNHqHKkQb5", Name = "TextureViewDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "TextureViewDescription", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_IBYCE9QZbiDOCNHqHKkQb5;
-            [n1.ElementAttribute(TracingId = 118050U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "CIW0vlY3CiaPQmYNv8NvDZ", Name = "GraphicsData", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 81057U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "CIW0vlY3CiaPQmYNv8NvDZ", Name = "GraphicsData", IsManaged = true, IsAutoGenerated = true)]
             public n10.GraphicsData_Jyp9mYJHExJNVTwXieAIds<T> __p_CIW0vlY3CiaPQmYNv8NvDZ;
-            [n1.ElementAttribute(TracingId = 118075U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "KvTJZEBMEZzNKOz5OEyNZZ", Name = "FromValue", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 81076U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "KvTJZEBMEZzNKOz5OEyNZZ", Name = "FromValue", IsManaged = true, IsAutoGenerated = true)]
             public n7.FromValue_OH4TKYsSUseQU3JpOZF4kZ<n14.IGraphicsDataProvider> __p_KvTJZEBMEZzNKOz5OEyNZZ;
             public __RXXpPRkhl3IPqBqW6AwkKH(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -5603,7 +5603,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures
         }
     }
 
-    [n1.ElementAttribute(TracingId = 120961U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "JAJW0N78bjtP39GueSKiEK", Name = "Texture2DArray_JAJW0N78bjtP39GueSKiEK")]
+    [n1.ElementAttribute(TracingId = 90546U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "JAJW0N78bjtP39GueSKiEK", Name = "Texture2DArray_JAJW0N78bjtP39GueSKiEK")]
     [n2.SerializableAttribute]
     public class Texture2DArray_JAJW0N78bjtP39GueSKiEK<T> : n1.VLObject, n2.IDisposable
     {
@@ -5723,7 +5723,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures
             {
                 using var __current_39 = __fallback___30.MakeCurrentIfNone();
                 var state_32 = new __OADboWWyvYvMcXqOR4Kjhm(__GetContext__(), n1.VLObject.NewIdentity());
-                n1.NodeContext Node_Context_40 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "K573sBnTSsjO94ly0UiVN0", 121320U);
+                n1.NodeContext Node_Context_40 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "K573sBnTSsjO94ly0UiVN0", 90704U);
                 var Output_41 = n31.SetData_FPEbMrBTNrWLDZKYInJXKW.Create(Node_Context: Node_Context_40);
                 state_32.__p_K573sBnTSsjO94ly0UiVN0 = Output_41;
                 return state_32;
@@ -5749,9 +5749,9 @@ namespace _VL_Stride_Graphics_.Stride.Textures
         public n27.Texture2DArray_JAJW0N78bjtP39GueSKiEK<T> __Create__(n1.NodeContext Node_Context)
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "JXRbW0VSzRYM6yUlrQ851J", 121254U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "JXRbW0VSzRYM6yUlrQ851J", 90671U);
             var Output_1 = n10.GraphicsData_Jyp9mYJHExJNVTwXieAIds<T>.Create(Node_Context: Node_Context_0);
-            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "GBAR3lQtA6EMdk3yPrMFYW", 121289U);
+            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "GBAR3lQtA6EMdk3yPrMFYW", 90690U);
             n33._Operations_.Create_H<n2.Object>(Node_Context: Node_Context_2, Output_Out: out n32.TryStateful<n2.Object> Output_3);
             n27.Texture2DArray_JAJW0N78bjtP39GueSKiEK<T> that_4 = this;
             this.__p_JXRbW0VSzRYM6yUlrQ851J = Output_1;
@@ -5783,13 +5783,13 @@ namespace _VL_Stride_Graphics_.Stride.Textures
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 121254U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "JXRbW0VSzRYM6yUlrQ851J", Name = "GraphicsData", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 90671U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "JXRbW0VSzRYM6yUlrQ851J", Name = "GraphicsData", IsManaged = true, IsAutoGenerated = true)]
         public n10.GraphicsData_Jyp9mYJHExJNVTwXieAIds<T> __p_JXRbW0VSzRYM6yUlrQ851J;
-        [n1.ElementAttribute(TracingId = 120973U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "EAtaVfKpI3fMvbRg4OZiBD", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 90553U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "EAtaVfKpI3fMvbRg4OZiBD", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
         public n6.Manager<n2.ValueTuple<n12.Int2, n17.PixelFormat>, n2.ValueTuple<n8.Texture>> __cache_EAtaVfKpI3fMvbRg4OZiBD = null;
-        [n1.ElementAttribute(TracingId = 120998U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "STRqhrbNpWqLShtTIiGSwn", Name = "__slot_STRqhrbNpWqLShtTIiGSwn")]
+        [n1.ElementAttribute(TracingId = 90567U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "STRqhrbNpWqLShtTIiGSwn", Name = "__slot_STRqhrbNpWqLShtTIiGSwn")]
         public static n8.GraphicsResourceUsage __slot_STRqhrbNpWqLShtTIiGSwn = n1.CompilationHelper.Deserialize<n8.GraphicsResourceUsage>("Dynamic", false, "Dky5PMnuvcKN4CxmfNs7Uv", "STRqhrbNpWqLShtTIiGSwn");
-        [n1.ElementAttribute(TracingId = 121289U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "GBAR3lQtA6EMdk3yPrMFYW", Name = "Try (1 Output)", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 90690U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "GBAR3lQtA6EMdk3yPrMFYW", Name = "Try (1 Output)", IsManaged = true, IsAutoGenerated = true)]
         public n32.TryStateful<n2.Object> __p_GBAR3lQtA6EMdk3yPrMFYW;
         static Texture2DArray_JAJW0N78bjtP39GueSKiEK()
         {
@@ -5839,11 +5839,11 @@ namespace _VL_Stride_Graphics_.Stride.Textures
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 121004U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "FBTBcF5kUXYP8w8PmiQBe4", Name = "Texture", IsManaged = true, IsAutoGenerated = true, NodeName = "Texture", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 90571U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "FBTBcF5kUXYP8w8PmiQBe4", Name = "Texture", IsManaged = true, IsAutoGenerated = true, NodeName = "Texture", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_FBTBcF5kUXYP8w8PmiQBe4;
-            [n1.ElementAttribute(TracingId = 121043U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "FI82sxGRPmjPTLjqai492C", Name = "TextureDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "TextureDescription", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 90578U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "FI82sxGRPmjPTLjqai492C", Name = "TextureDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "TextureDescription", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_FI82sxGRPmjPTLjqai492C;
-            [n1.ElementAttribute(TracingId = 121100U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "S68LQS3KdSYOetksgddUCM", Name = "TextureViewDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "TextureViewDescription", NodeCategory = "Stride.Graphics.Advanced")]
+            [n1.ElementAttribute(TracingId = 90606U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "S68LQS3KdSYOetksgddUCM", Name = "TextureViewDescription", IsManaged = true, IsAutoGenerated = true, NodeName = "TextureViewDescription", NodeCategory = "Stride.Graphics.Advanced")]
             public n1.IVLNode __p_S68LQS3KdSYOetksgddUCM;
             public __PWXkjZlkxTWLwVAvN9p4q7(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -5888,7 +5888,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 121320U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "K573sBnTSsjO94ly0UiVN0", Name = "SetData", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 90704U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "K573sBnTSsjO94ly0UiVN0", Name = "SetData", IsManaged = true, IsAutoGenerated = true)]
             public n31.SetData_FPEbMrBTNrWLDZKYInJXKW __p_K573sBnTSsjO94ly0UiVN0;
             public __OADboWWyvYvMcXqOR4Kjhm(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -5923,7 +5923,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures
 
 namespace _VL_Stride_Graphics_.Stride.Textures.Advanced
 {
-    [n1.ElementAttribute(TracingId = 112761U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "HrZ7v1TOZ75ODnvgAMM5aV", Name = "TextureReader_HrZ7v1TOZ75ODnvgAMM5aV")]
+    [n1.ElementAttribute(TracingId = 45407U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "HrZ7v1TOZ75ODnvgAMM5aV", Name = "TextureReader_HrZ7v1TOZ75ODnvgAMM5aV")]
     [n2.SerializableAttribute]
     public class TextureReader_HrZ7v1TOZ75ODnvgAMM5aV : n1.VLObject, n2.IDisposable
     {
@@ -5963,7 +5963,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures.Advanced
                 {
                     state_6 = new __Kz1TFBbdAcWN05TWOl3Ojd(__GetContext__(), n1.VLObject.NewIdentity())
                     {__pin_group_Input_In_GXN2E0f1mUTO28CCkpjxwb = n37._Operations_.CreateDefault<bool>()};
-                    n1.NodeContext Node_Context_7 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "A3pjsMbzCEsP4CIHnpeHrE", 112891U);
+                    n1.NodeContext Node_Context_7 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "A3pjsMbzCEsP4CIHnpeHrE", 45517U);
                     var Output_8 = n10.GraphicsDevice_V0mXf77TurpOVQNzgviejb.Create(Node_Context_In: Node_Context_7);
                     state_6.__p_A3pjsMbzCEsP4CIHnpeHrE = Output_8;
                 }
@@ -5987,7 +5987,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures.Advanced
                     if (state_21 == null)
                     {
                         state_21 = new __FVJPHiEZwlYMXcP3ZvGH06(__GetContext__(), n1.VLObject.NewIdentity());
-                        n1.NodeContext Node_Context_22 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "H3a443eFxG8NvjttRHv9BP", 112815U);
+                        n1.NodeContext Node_Context_22 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "H3a443eFxG8NvjttRHv9BP", 45442U);
                         var Output_23 = n10.GraphicsDevice_V0mXf77TurpOVQNzgviejb.Create(Node_Context_In: Node_Context_22);
                         state_21.__p_H3a443eFxG8NvjttRHv9BP = Output_23;
                     }
@@ -6070,9 +6070,9 @@ namespace _VL_Stride_Graphics_.Stride.Textures.Advanced
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 112938U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "TEgjVpsQT2KNzm42VaVMPF", Name = "__slot_TEgjVpsQT2KNzm42VaVMPF")]
+        [n1.ElementAttribute(TracingId = 45583U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "TEgjVpsQT2KNzm42VaVMPF", Name = "__slot_TEgjVpsQT2KNzm42VaVMPF")]
         public static bool __slot_TEgjVpsQT2KNzm42VaVMPF = true;
-        [n1.ElementAttribute(TracingId = 112768U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "C6YNksUnSUmLDbeUjl275a", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 45413U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "C6YNksUnSUmLDbeUjl275a", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
         public n6.Manager<n2.ValueTuple<n36.Path, bool>, n2.ValueTuple<n8.Texture>> __cache_C6YNksUnSUmLDbeUjl275a = null;
         [n1.ElementAttribute(IsAutoGenerated = true)]
         public static n8.TextureFlags __c_FluvDrXIP1iPUPZ7kmNSMy = n1.CompilationHelper.Deserialize<n8.TextureFlags>("ShaderResource", false, "Dky5PMnuvcKN4CxmfNs7Uv", "FluvDrXIP1iPUPZ7kmNSMy");
@@ -6121,7 +6121,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures.Advanced
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 112891U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "A3pjsMbzCEsP4CIHnpeHrE", Name = "GraphicsDevice", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 45517U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "A3pjsMbzCEsP4CIHnpeHrE", Name = "GraphicsDevice", IsManaged = true, IsAutoGenerated = true)]
             public n10.GraphicsDevice_V0mXf77TurpOVQNzgviejb __p_A3pjsMbzCEsP4CIHnpeHrE;
             [n1.ElementAttribute(IsAutoGenerated = true)]
             public n26.Spread<bool> __pin_group_Input_In_GXN2E0f1mUTO28CCkpjxwb = default(n26.Spread<bool>);
@@ -6170,7 +6170,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures.Advanced
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 112815U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "H3a443eFxG8NvjttRHv9BP", Name = "GraphicsDevice", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 45442U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "H3a443eFxG8NvjttRHv9BP", Name = "GraphicsDevice", IsManaged = true, IsAutoGenerated = true)]
             public n10.GraphicsDevice_V0mXf77TurpOVQNzgviejb __p_H3a443eFxG8NvjttRHv9BP;
             public __FVJPHiEZwlYMXcP3ZvGH06(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -6202,7 +6202,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures.Advanced
         }
     }
 
-    [n1.ElementAttribute(TracingId = 113010U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "FPEbMrBTNrWLDZKYInJXKW", Name = "SetData_FPEbMrBTNrWLDZKYInJXKW")]
+    [n1.ElementAttribute(TracingId = 49124U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "FPEbMrBTNrWLDZKYInJXKW", Name = "SetData_FPEbMrBTNrWLDZKYInJXKW")]
     [n2.SerializableAttribute]
     public class SetData_FPEbMrBTNrWLDZKYInJXKW : n1.VLObject, n2.IDisposable
     {
@@ -6242,7 +6242,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures.Advanced
         public n31.SetData_FPEbMrBTNrWLDZKYInJXKW __Create__(n1.NodeContext Node_Context)
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "RgxYUmTMJMpLLgQTgdQyrq", 113073U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "RgxYUmTMJMpLLgQTgdQyrq", 49193U);
             var Output_1 = n10.GraphicsContext_LZGVLOdpi83QS6XklGOZVK.Create(Node_Context_In: Node_Context_0);
             var State_Output_3 = Output_1.Update(Output_Out: out n8.GraphicsContext Output_2);
             n8.GraphicsContext __auto_4 = Output_2;
@@ -6272,9 +6272,9 @@ namespace _VL_Stride_Graphics_.Stride.Textures.Advanced
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 113078U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "M0itgszoGufMoIy4jMyeJP", Name = "Output")]
+        [n1.ElementAttribute(TracingId = 49207U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "M0itgszoGufMoIy4jMyeJP", Name = "Output")]
         public n8.GraphicsContext Output;
-        [n1.ElementAttribute(TracingId = 113073U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "RgxYUmTMJMpLLgQTgdQyrq", Name = "GraphicsContext", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 49193U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "RgxYUmTMJMpLLgQTgdQyrq", Name = "GraphicsContext", IsManaged = true, IsAutoGenerated = true)]
         public n10.GraphicsContext_LZGVLOdpi83QS6XklGOZVK __p_RgxYUmTMJMpLLgQTgdQyrq;
         public SetData_FPEbMrBTNrWLDZKYInJXKW(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -6307,7 +6307,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures.Advanced
         }
     }
 
-    [n1.ElementAttribute(TracingId = 113166U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "ED1w6KteGIfQbh9SW2Xc4y", Name = "TextureReader_Async_ED1w6KteGIfQbh9SW2Xc4y")]
+    [n1.ElementAttribute(TracingId = 49297U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "ED1w6KteGIfQbh9SW2Xc4y", Name = "TextureReader_Async_ED1w6KteGIfQbh9SW2Xc4y")]
     [n2.SerializableAttribute]
     public class TextureReader_Async_ED1w6KteGIfQbh9SW2Xc4y : n1.VLObject, n2.IDisposable
     {
@@ -6343,7 +6343,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures.Advanced
             {
                 if (Dispose_Cached_Outputs_3)
                     manager_4.DisposeOutputs();
-                n1.NodeContext Node_Context_9 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "Ig9aqly3wyiPtMYtevJlTx", 113532U);
+                n1.NodeContext Node_Context_9 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "Ig9aqly3wyiPtMYtevJlTx", 49923U);
                 n41._Operations_.Create<n36.Path, bool>(Node_Context: Node_Context_9, Item_1_In: File_Path_In, Item_2_In: Is_sRGB_In, Output_Out: out n2.ValueTuple<n36.Path, bool> Output_10);
                 int Delay_Disposal_In_Milliseconds_11 = 0;
                 var __fallback___12 = n1.ServiceRegistry.Current;
@@ -6351,7 +6351,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures.Advanced
                 {
                     using var __current_13 = __fallback___12.MakeCurrentIfNone();
                     n41._Operations_.Split<n36.Path, bool>(Input_In: Input_In_14, Item_1_Out: out n36.Path Item_1_15, Item_2_Out: out bool Item_2_16);
-                    n1.NodeContext Node_Context_17 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "NuU6nbi3p5QM81mRhou5wt", 113521U);
+                    n1.NodeContext Node_Context_17 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "NuU6nbi3p5QM81mRhou5wt", 49900U);
                     var Output_18 = n38.TextureLoadTask_C.Create(Node_Context: Node_Context_17, Device_In: Output_0, Path_In: Item_1_15, Is_sRGB_In: Item_2_16);
                     return Output_18;
                 }
@@ -6393,9 +6393,9 @@ namespace _VL_Stride_Graphics_.Stride.Textures.Advanced
         public n31.TextureReader_Async_ED1w6KteGIfQbh9SW2Xc4y __Create__(n1.NodeContext Node_Context)
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "DE5BoK65A2hN1mtjBNrGkW", 113475U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "DE5BoK65A2hN1mtjBNrGkW", 49811U);
             var Output_1 = n10.GraphicsDevice_V0mXf77TurpOVQNzgviejb.Create(Node_Context_In: Node_Context_0);
-            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "BSo7Ne0Nl5LMTGsEgIugsX", 113483U);
+            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "BSo7Ne0Nl5LMTGsEgIugsX", 49822U);
             var Output_3 = n42.Using_Process_MCPOIRh2AQkOT4VzsU5rcr<n39.IResourceProvider<n38.TextureLoadTask_C>, n38.TextureLoadTask_C>.Create(Node_Context: Node_Context_2);
             n31.TextureReader_Async_ED1w6KteGIfQbh9SW2Xc4y that_4 = this;
             this.__p_DE5BoK65A2hN1mtjBNrGkW = Output_1;
@@ -6427,11 +6427,11 @@ namespace _VL_Stride_Graphics_.Stride.Textures.Advanced
             var __returnValue__ = Dispose_();
         }
 
-        [n1.ElementAttribute(TracingId = 113475U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "DE5BoK65A2hN1mtjBNrGkW", Name = "GraphicsDevice", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 49811U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "DE5BoK65A2hN1mtjBNrGkW", Name = "GraphicsDevice", IsManaged = true, IsAutoGenerated = true)]
         public n10.GraphicsDevice_V0mXf77TurpOVQNzgviejb __p_DE5BoK65A2hN1mtjBNrGkW;
-        [n1.ElementAttribute(TracingId = 113491U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Fnr7rwwqtr0QBsm2EbMJwR", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 49840U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Fnr7rwwqtr0QBsm2EbMJwR", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
         public n6.Manager<n2.ValueTuple<n8.GraphicsDevice, n36.Path, bool>, n2.ValueTuple<n39.IResourceProvider<n38.TextureLoadTask_C>>> __cache_Fnr7rwwqtr0QBsm2EbMJwR = null;
-        [n1.ElementAttribute(TracingId = 113483U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "BSo7Ne0Nl5LMTGsEgIugsX", Name = "Using (Process)", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 49822U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "BSo7Ne0Nl5LMTGsEgIugsX", Name = "Using (Process)", IsManaged = true, IsAutoGenerated = true)]
         public n42.Using_Process_MCPOIRh2AQkOT4VzsU5rcr<n39.IResourceProvider<n38.TextureLoadTask_C>, n38.TextureLoadTask_C> __p_BSo7Ne0Nl5LMTGsEgIugsX;
         public TextureReader_Async_ED1w6KteGIfQbh9SW2Xc4y(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -6469,7 +6469,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures.Advanced
 
 namespace _VL_Stride_Graphics_.Stride.Textures.TextureReader_Async.Advanced
 {
-    [n1.ElementAttribute(TracingId = 113172U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "PXUOc6U1BkyPLN8LwZ3a61", Name = "TextureLoadTask_C")]
+    [n1.ElementAttribute(TracingId = 49310U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "PXUOc6U1BkyPLN8LwZ3a61", Name = "TextureLoadTask_C")]
     [n2.SerializableAttribute]
     public class TextureLoadTask_C : n1.VLObject, n2.IDisposable
     {
@@ -6596,7 +6596,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures.TextureReader_Async.Advanced
             var __returnValue__ = Dispose_();
         }
 
-        [n1.ElementAttribute(TracingId = 113179U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Kj2nOySGJi8PAZMlwbjqz4", Name = "Task")]
+        [n1.ElementAttribute(TracingId = 49322U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Kj2nOySGJi8PAZMlwbjqz4", Name = "Task")]
         public n43.Task<n8.Texture> Task;
         [n1.ElementAttribute(IsAutoGenerated = true)]
         public static n8.TextureFlags __c_R0OnmDMwDN2QVQZelDCbw5 = n1.CompilationHelper.Deserialize<n8.TextureFlags>("ShaderResource", false, "Dky5PMnuvcKN4CxmfNs7Uv", "R0OnmDMwDN2QVQZelDCbw5");
@@ -6668,7 +6668,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures.TextureReader_Async.Advanced
 
 namespace _VL_Stride_Graphics_.Stride.Textures.Utils.Advanced
 {
-    [n1.ElementAttribute(TracingId = 107555U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 20856U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", Name = "_Operations_")]
     public static partial class _Operations_
     {
         public static void ReplaceValue<T, AdM>(T Input_In, T Replace_Value_In, out T Output_Out)
@@ -6690,7 +6690,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures.Utils.Advanced
             n24._Operations_.ReplaceValue<int, n22.__AdaptiveImplementations__Dky5PMnuvcKN4CxmfNs7Uv>(Input_In: Y_3, Replace_Value_In: Y_1, Output_Out: out int Output_5);
             n30._Operations_.EnsureOne<int, n22.__AdaptiveImplementations__Dky5PMnuvcKN4CxmfNs7Uv>(Input_In: Output_5, Output_Out: out int Output_6);
             n30._Operations_.EnsureOne<int, n22.__AdaptiveImplementations__Dky5PMnuvcKN4CxmfNs7Uv>(Input_In: Output_4, Output_Out: out int Output_7);
-            n1.NodeContext Node_Context_8 = n1.NodeContext.Default.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "TYjF5uTu2TYONCYKJrgbpr", 113742U);
+            n1.NodeContext Node_Context_8 = n1.NodeContext.Default.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "TYjF5uTu2TYONCYKJrgbpr", 50193U);
             n29._Operations_.Create(Node_Context: Node_Context_8, X_In: Output_7, Y_In: Output_6, Output_Out: out n12.Int2 Output_9);
             Output_Out = Output_9;
             return;
@@ -6759,9 +6759,9 @@ namespace _VL_Stride_Graphics_.Stride.Textures.Utils.Advanced
             return;
         }
 
-        [n1.ElementAttribute(TracingId = 113902U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "TQmigsZ5UTdQJRB5skfDfC", Name = "__slot_TQmigsZ5UTdQJRB5skfDfC")]
+        [n1.ElementAttribute(TracingId = 51848U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "TQmigsZ5UTdQJRB5skfDfC", Name = "__slot_TQmigsZ5UTdQJRB5skfDfC")]
         public static n17.PixelFormat __slot_TQmigsZ5UTdQJRB5skfDfC = n1.CompilationHelper.Deserialize<n17.PixelFormat>("None", false, "Dky5PMnuvcKN4CxmfNs7Uv", "TQmigsZ5UTdQJRB5skfDfC");
-        [n1.ElementAttribute(TracingId = 113924U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "VIqxSbYzcVyOGop3VTNhFR", Name = "__slot_VIqxSbYzcVyOGop3VTNhFR")]
+        [n1.ElementAttribute(TracingId = 51990U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "VIqxSbYzcVyOGop3VTNhFR", Name = "__slot_VIqxSbYzcVyOGop3VTNhFR")]
         public static int __slot_VIqxSbYzcVyOGop3VTNhFR = 1;
         static _Operations_()
         {
@@ -6771,7 +6771,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures.Utils.Advanced
 
 namespace _VL_Stride_Graphics_.Stride.Textures.Utils
 {
-    [n1.ElementAttribute(TracingId = 107555U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 20856U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", Name = "_Operations_")]
     public static partial class _Operations_
     {
         public static void IsShared(n8.Texture Input_In, out n8.Texture Output_Out, out bool Is_Shared_Out, out n2.IntPtr Shared_Handle_Out, out bool Exists_Out)
@@ -6812,14 +6812,14 @@ namespace _VL_Stride_Graphics_.Stride.Textures.Utils
             {
                 var View_Width_7 = Input_In.ViewWidth;
                 var View_Height_8 = Input_In.ViewHeight;
-                n1.NodeContext Node_Context_9 = n1.NodeContext.Default.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "GvVM63WUAgkOa9YpJfDs8l", 115029U);
+                n1.NodeContext Node_Context_9 = n1.NodeContext.Default.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "GvVM63WUAgkOa9YpJfDs8l", 58130U);
                 n29._Operations_.Create(Node_Context: Node_Context_9, X_In: View_Width_7, Y_In: View_Height_8, Output_Out: out n12.Int2 Output_10);
                 __auto_2 = Output_10;
                 var View_Format_11 = Input_In.ViewFormat;
                 __auto_3 = View_Format_11;
                 var Width_12 = Input_In.Width;
                 var Height_13 = Input_In.Height;
-                n1.NodeContext Node_Context_14 = n1.NodeContext.Default.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "HwMVELCy0T0PZaa7ZdVdek", 115090U);
+                n1.NodeContext Node_Context_14 = n1.NodeContext.Default.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "HwMVELCy0T0PZaa7ZdVdek", 58195U);
                 n29._Operations_.Create(Node_Context: Node_Context_14, X_In: Width_12, Y_In: Height_13, Output_Out: out n12.Int2 Output_15);
                 __auto_4 = Output_15;
                 var Format_16 = Input_In.Format;
@@ -6850,7 +6850,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures.Utils
 
 namespace _VL_Stride_Graphics_.Stride.Textures.Utils.Obsolete
 {
-    [n1.ElementAttribute(TracingId = 107555U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 20856U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", Name = "_Operations_")]
     public static partial class _Operations_
     {
         public static void TextureInfo(n8.Texture Input_In, out n8.Texture Output_Out, out n12.Int2 Size_Out, out int Width_Out, out int Height_Out, out int Depth_Out, out n17.PixelFormat Format_Out, out int Mip_Levels_Out, out int Array_Size_Out, out n2.IntPtr Shared_Handle_Out, out bool Loaded_Out)
@@ -6870,7 +6870,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures.Utils.Obsolete
             {
                 var Width_12 = Input_In.Width;
                 var Height_13 = Input_In.Height;
-                n1.NodeContext Node_Context_14 = n1.NodeContext.Default.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "OsoS5ae76R1N5ids3G6ieJ", 114434U);
+                n1.NodeContext Node_Context_14 = n1.NodeContext.Default.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "OsoS5ae76R1N5ids3G6ieJ", 53874U);
                 n29._Operations_.Create(Node_Context: Node_Context_14, X_In: Width_12, Y_In: Height_13, Output_Out: out n12.Int2 Output_15);
                 __auto_5 = Height_13;
                 __auto_3 = Output_15;
@@ -6927,7 +6927,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures.Utils.Obsolete
             {
                 var Width_7 = Input_In.Width;
                 var Height_8 = Input_In.Height;
-                n1.NodeContext Node_Context_9 = n1.NodeContext.Default.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "QtQlo0l1D39LJQKbrNTGWv", 114846U);
+                n1.NodeContext Node_Context_9 = n1.NodeContext.Default.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "QtQlo0l1D39LJQKbrNTGWv", 57040U);
                 n29._Operations_.Create(Node_Context: Node_Context_9, X_In: Width_7, Y_In: Height_8, Output_Out: out n12.Int2 Output_10);
                 __auto_5 = Height_8;
                 __auto_3 = Output_10;
@@ -6952,9 +6952,9 @@ namespace _VL_Stride_Graphics_.Stride.Textures.Utils.Obsolete
             return;
         }
 
-        [n1.ElementAttribute(TracingId = 114688U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "BzDlKOr78Z3MzsYYOcQYAs", Name = "__slot_BzDlKOr78Z3MzsYYOcQYAs")]
+        [n1.ElementAttribute(TracingId = 56909U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "BzDlKOr78Z3MzsYYOcQYAs", Name = "__slot_BzDlKOr78Z3MzsYYOcQYAs")]
         public static n17.PixelFormat __slot_BzDlKOr78Z3MzsYYOcQYAs = default(n17.PixelFormat);
-        [n1.ElementAttribute(TracingId = 114925U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "V2lZGvV8Fn3L4SCWZzEIzI", Name = "__slot_V2lZGvV8Fn3L4SCWZzEIzI")]
+        [n1.ElementAttribute(TracingId = 57098U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "V2lZGvV8Fn3L4SCWZzEIzI", Name = "__slot_V2lZGvV8Fn3L4SCWZzEIzI")]
         public static n17.PixelFormat __slot_V2lZGvV8Fn3L4SCWZzEIzI = default(n17.PixelFormat);
         static _Operations_()
         {
@@ -6964,7 +6964,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures.Utils.Obsolete
 
 namespace _VL_Stride_Graphics_.Stride.Textures.Internal
 {
-    [n1.ElementAttribute(TracingId = 107555U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 20856U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", Name = "_Operations_")]
     public static partial class _Operations_
     {
         public static void TextureFlags([n4.SerializedDefaultValueAttribute("True", false)] bool Is_Unordered_Access_In, [n4.SerializedDefaultValueAttribute("True", false)] bool Is_Render_Target_In, bool Is_Depth_Stencil_In, bool Is_Shared_In, out n8.TextureFlags Output_Out, out n8.TextureOptions Options_Out)
@@ -7025,15 +7025,15 @@ namespace _VL_Stride_Graphics_.Stride.Textures.Internal
             return;
         }
 
-        [n1.ElementAttribute(TracingId = 116006U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "TBsnc30a3R6ObAeNqWhmn3", Name = "__slot_TBsnc30a3R6ObAeNqWhmn3")]
+        [n1.ElementAttribute(TracingId = 68628U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "TBsnc30a3R6ObAeNqWhmn3", Name = "__slot_TBsnc30a3R6ObAeNqWhmn3")]
         public static n8.TextureFlags __slot_TBsnc30a3R6ObAeNqWhmn3 = n1.CompilationHelper.Deserialize<n8.TextureFlags>("ShaderResource", false, "Dky5PMnuvcKN4CxmfNs7Uv", "TBsnc30a3R6ObAeNqWhmn3");
-        [n1.ElementAttribute(TracingId = 115998U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "GjkQDtXH9tcOX2C71bZkjY", Name = "__slot_GjkQDtXH9tcOX2C71bZkjY")]
+        [n1.ElementAttribute(TracingId = 68609U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "GjkQDtXH9tcOX2C71bZkjY", Name = "__slot_GjkQDtXH9tcOX2C71bZkjY")]
         public static n8.TextureFlags __slot_GjkQDtXH9tcOX2C71bZkjY = n1.CompilationHelper.Deserialize<n8.TextureFlags>("UnorderedAccess", false, "Dky5PMnuvcKN4CxmfNs7Uv", "GjkQDtXH9tcOX2C71bZkjY");
-        [n1.ElementAttribute(TracingId = 116036U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "QwEFCAIgUnGMPOhQtXm5Sy", Name = "__slot_QwEFCAIgUnGMPOhQtXm5Sy")]
+        [n1.ElementAttribute(TracingId = 68670U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "QwEFCAIgUnGMPOhQtXm5Sy", Name = "__slot_QwEFCAIgUnGMPOhQtXm5Sy")]
         public static n8.TextureFlags __slot_QwEFCAIgUnGMPOhQtXm5Sy = n1.CompilationHelper.Deserialize<n8.TextureFlags>("RenderTarget", false, "Dky5PMnuvcKN4CxmfNs7Uv", "QwEFCAIgUnGMPOhQtXm5Sy");
-        [n1.ElementAttribute(TracingId = 116073U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Md3hdJcao6GQCTeV1nHoGj", Name = "__slot_Md3hdJcao6GQCTeV1nHoGj")]
+        [n1.ElementAttribute(TracingId = 68723U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Md3hdJcao6GQCTeV1nHoGj", Name = "__slot_Md3hdJcao6GQCTeV1nHoGj")]
         public static n8.TextureFlags __slot_Md3hdJcao6GQCTeV1nHoGj = n1.CompilationHelper.Deserialize<n8.TextureFlags>("DepthStencil", false, "Dky5PMnuvcKN4CxmfNs7Uv", "Md3hdJcao6GQCTeV1nHoGj");
-        [n1.ElementAttribute(TracingId = 116192U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "BbKBgKsMCruPMx5IZ0U50I", Name = "__slot_BbKBgKsMCruPMx5IZ0U50I")]
+        [n1.ElementAttribute(TracingId = 68853U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "BbKBgKsMCruPMx5IZ0U50I", Name = "__slot_BbKBgKsMCruPMx5IZ0U50I")]
         public static n8.TextureOptions __slot_BbKBgKsMCruPMx5IZ0U50I = n1.CompilationHelper.Deserialize<n8.TextureOptions>("Shared", false, "Dky5PMnuvcKN4CxmfNs7Uv", "BbKBgKsMCruPMx5IZ0U50I");
         static _Operations_()
         {
@@ -7043,7 +7043,7 @@ namespace _VL_Stride_Graphics_.Stride.Textures.Internal
 
 namespace _VL_Stride_Graphics_.Video
 {
-    [n1.ElementAttribute(TracingId = 118250U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "FqmXvulEPFmO2GIAyZs14F", Name = "ImagePlayer_FrameBased_Stride_FqmXvulEPFmO2GIAyZs14F")]
+    [n1.ElementAttribute(TracingId = 81388U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "FqmXvulEPFmO2GIAyZs14F", Name = "ImagePlayer_FrameBased_Stride_FqmXvulEPFmO2GIAyZs14F")]
     [n2.SerializableAttribute]
     public class ImagePlayer_FrameBased_Stride_FqmXvulEPFmO2GIAyZs14F : n1.VLObject, n2.IDisposable
     {
@@ -7093,7 +7093,7 @@ namespace _VL_Stride_Graphics_.Video
             {
                 using var __current_21 = __fallback___11.MakeCurrentIfNone();
                 var state_13 = new __GlxiFkQwvBOLVNrc1aat48(__GetContext__(), n1.VLObject.NewIdentity());
-                n1.NodeContext Node_Context_22 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "JYBVw2bUN2vNLPCj7a1W7Q", 118316U);
+                n1.NodeContext Node_Context_22 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "JYBVw2bUN2vNLPCj7a1W7Q", 82523U);
                 var Output_23 = n49.Dir_MpDjcJT8vHtN0yoPM6imee.Create(Node_Context: Node_Context_22);
                 state_13.__p_JYBVw2bUN2vNLPCj7a1W7Q = Output_23;
                 return state_13;
@@ -7212,7 +7212,7 @@ namespace _VL_Stride_Graphics_.Video
                     if (!iterator_82.MoveNext(out state_74))
                     {
                         iterator_82.Add(state_74 = new __KaWsydn8UKjMUNGa9sT6DG(__GetContext__(), n1.VLObject.NewIdentity()));
-                        n1.NodeContext Node_Context_75 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "MVTtTJo1AFYOqugiTTrUDI", 118391U);
+                        n1.NodeContext Node_Context_75 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "MVTtTJo1AFYOqugiTTrUDI", 82666U);
                         var Output_76 = n31.TextureReader_Async_ED1w6KteGIfQbh9SW2Xc4y.Create(Node_Context: Node_Context_75);
                         state_74.__p_MVTtTJo1AFYOqugiTTrUDI = Output_76;
                     }
@@ -7273,17 +7273,17 @@ namespace _VL_Stride_Graphics_.Video
         public n47.ImagePlayer_FrameBased_Stride_FqmXvulEPFmO2GIAyZs14F __Create__(n1.NodeContext Node_Context)
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "FnTEA68bPSBPsx7EHJsGmr", 118255U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "FnTEA68bPSBPsx7EHJsGmr", 81396U);
             var Output_1 = n21.OnOpen_FuW9Q3o4A1QLNwSJwTBGFz.Create(Node_Context: Node_Context_0);
-            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "L8CRigONqdkLYx0NLQgXww", 118270U);
+            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "L8CRigONqdkLYx0NLQgXww", 81436U);
             bool Changed_On_Create_3 = true;
             var Output_4 = n21.Changed_A8JGbead2bxNdnPybiEqVS<n36.Path>.Create<n22.__AdaptiveImplementations__Dky5PMnuvcKN4CxmfNs7Uv>(Node_Context: Node_Context_2, Changed_On_Create_In: Changed_On_Create_3);
-            n1.NodeContext Node_Context_5 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "I4Trc2kkdQOQNQXc9lwtBC", 118287U);
+            n1.NodeContext Node_Context_5 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "I4Trc2kkdQOQNQXc9lwtBC", 81489U);
             n51._Operations_.Create_H<n26.Spread<n36.Path>>(Node_Context: Node_Context_5, Output_Out: out n50.AsyncTask<n26.Spread<n36.Path>> Output_6);
-            n1.NodeContext Node_Context_7 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "IzgRvXeF7ulPogsvk6DDnA", 118343U);
+            n1.NodeContext Node_Context_7 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "IzgRvXeF7ulPogsvk6DDnA", 82583U);
             bool Changed_On_Create_8 = true;
             var Output_9 = n21.Changed_A8JGbead2bxNdnPybiEqVS<string>.Create<n22.__AdaptiveImplementations__Dky5PMnuvcKN4CxmfNs7Uv>(Node_Context: Node_Context_7, Changed_On_Create_In: Changed_On_Create_8);
-            n1.NodeContext Node_Context_10 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "ENhxIQKqPZvOnhZH7Q1flg", 118350U);
+            n1.NodeContext Node_Context_10 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "ENhxIQKqPZvOnhZH7Q1flg", 82600U);
             n26.Spread<n36.Path> Initial_Result_11 = n37._Operations_.CreateDefault<n36.Path>();
             n52._Operations_.Create_H<n26.Spread<n36.Path>>(Node_Context: Node_Context_10, Initial_Result_In: Initial_Result_11, Output_Out: out n50.HoldLatest<n26.Spread<n36.Path>> Output_12);
             n47.ImagePlayer_FrameBased_Stride_FqmXvulEPFmO2GIAyZs14F that_13 = this;
@@ -7338,23 +7338,23 @@ namespace _VL_Stride_Graphics_.Video
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 118270U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "L8CRigONqdkLYx0NLQgXww", Name = "Changed", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 81436U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "L8CRigONqdkLYx0NLQgXww", Name = "Changed", IsManaged = true, IsAutoGenerated = true)]
         public n21.Changed_A8JGbead2bxNdnPybiEqVS<n36.Path> __p_L8CRigONqdkLYx0NLQgXww;
-        [n1.ElementAttribute(TracingId = 118343U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "IzgRvXeF7ulPogsvk6DDnA", Name = "Changed", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 82583U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "IzgRvXeF7ulPogsvk6DDnA", Name = "Changed", IsManaged = true, IsAutoGenerated = true)]
         public n21.Changed_A8JGbead2bxNdnPybiEqVS<string> __p_IzgRvXeF7ulPogsvk6DDnA;
-        [n1.ElementAttribute(TracingId = 118255U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "FnTEA68bPSBPsx7EHJsGmr", Name = "OnOpen", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 81396U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "FnTEA68bPSBPsx7EHJsGmr", Name = "OnOpen", IsManaged = true, IsAutoGenerated = true)]
         public n21.OnOpen_FuW9Q3o4A1QLNwSJwTBGFz __p_FnTEA68bPSBPsx7EHJsGmr;
-        [n1.ElementAttribute(TracingId = 118287U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "I4Trc2kkdQOQNQXc9lwtBC", Name = "AsyncTask", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 81489U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "I4Trc2kkdQOQNQXc9lwtBC", Name = "AsyncTask", IsManaged = true, IsAutoGenerated = true)]
         public n50.AsyncTask<n26.Spread<n36.Path>> __p_I4Trc2kkdQOQNQXc9lwtBC;
-        [n1.ElementAttribute(TracingId = 118332U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "HAM58qXz422NiuFrgAxrlS", Name = "__slot_HAM58qXz422NiuFrgAxrlS")]
+        [n1.ElementAttribute(TracingId = 82557U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "HAM58qXz422NiuFrgAxrlS", Name = "__slot_HAM58qXz422NiuFrgAxrlS")]
         public static bool __slot_HAM58qXz422NiuFrgAxrlS = true;
-        [n1.ElementAttribute(TracingId = 118350U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "ENhxIQKqPZvOnhZH7Q1flg", Name = "HoldLatest", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 82600U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "ENhxIQKqPZvOnhZH7Q1flg", Name = "HoldLatest", IsManaged = true, IsAutoGenerated = true)]
         public n50.HoldLatest<n26.Spread<n36.Path>> __p_ENhxIQKqPZvOnhZH7Q1flg;
         [n1.ElementAttribute(IsAutoGenerated = true)]
         public n26.Spread<int> __pin_group_Input_In_AGd4J5Urqz3M7g8olouy4Z = default(n26.Spread<int>);
         [n1.ElementAttribute(IsAutoGenerated = true)]
         public n26.Spread<int> __pin_group_Input_In_Pz7cIMzdvPoOIG1Ha1ySL7 = default(n26.Spread<int>);
-        [n1.ElementAttribute(TracingId = 118695U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "BQWo8FIDkMPOWERXPHIxwP", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 83075U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "BQWo8FIDkMPOWERXPHIxwP", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
         public n6.Manager<n2.ValueTuple<n11.IEnumerable<int>, int, int, int>, n2.ValueTuple<n26.Spread<int>>> __cache_BQWo8FIDkMPOWERXPHIxwP = null;
         [n1.ElementAttribute(IsAutoGenerated = true)]
         public n26.Spread<n11.IEnumerable<int>> __pin_group_Input_In_BM9x9KcoJt5P0yoS8gwUQ7 = default(n26.Spread<n11.IEnumerable<int>>);
@@ -7428,7 +7428,7 @@ namespace _VL_Stride_Graphics_.Video
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 118316U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "JYBVw2bUN2vNLPCj7a1W7Q", Name = "Dir", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 82523U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "JYBVw2bUN2vNLPCj7a1W7Q", Name = "Dir", IsManaged = true, IsAutoGenerated = true)]
             public n49.Dir_MpDjcJT8vHtN0yoPM6imee __p_JYBVw2bUN2vNLPCj7a1W7Q;
             public __GlxiFkQwvBOLVNrc1aat48(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -7509,7 +7509,7 @@ namespace _VL_Stride_Graphics_.Video
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 118391U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "MVTtTJo1AFYOqugiTTrUDI", Name = "TextureReader (Async)", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 82666U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "MVTtTJo1AFYOqugiTTrUDI", Name = "TextureReader (Async)", IsManaged = true, IsAutoGenerated = true)]
             public n31.TextureReader_Async_ED1w6KteGIfQbh9SW2Xc4y __p_MVTtTJo1AFYOqugiTTrUDI;
             public __KaWsydn8UKjMUNGa9sT6DG(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -7541,7 +7541,7 @@ namespace _VL_Stride_Graphics_.Video
         }
     }
 
-    [n1.ElementAttribute(TracingId = 119183U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Rf8zNKbH3rROmWYhlPGRaA", Name = "ImagePlayer_Stride_Rf8zNKbH3rROmWYhlPGRaA")]
+    [n1.ElementAttribute(TracingId = 87758U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Rf8zNKbH3rROmWYhlPGRaA", Name = "ImagePlayer_Stride_Rf8zNKbH3rROmWYhlPGRaA")]
     [n2.SerializableAttribute]
     public class ImagePlayer_Stride_Rf8zNKbH3rROmWYhlPGRaA : n1.VLObject, n2.IDisposable
     {
@@ -7774,9 +7774,9 @@ namespace _VL_Stride_Graphics_.Video
         public n47.ImagePlayer_Stride_Rf8zNKbH3rROmWYhlPGRaA __Create__(n1.NodeContext Node_Context, n57.IFrameClock Clock_In)
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "AOMLpPUFwXFPgUY82j2HOw", 119225U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "AOMLpPUFwXFPgUY82j2HOw", 87811U);
             var Output_1 = n59.Playhead2_Kxyn85uoNljQF5nAzWcnIh.Create(Node_Context: Node_Context_0, Clock_In: Clock_In);
-            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "JU6z9w7MVDnOy96k4WzWzA", 119186U);
+            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "JU6z9w7MVDnOy96k4WzWzA", 87767U);
             var Output_3 = n47.ImagePlayer_FrameBased_Stride_FqmXvulEPFmO2GIAyZs14F.Create(Node_Context: Node_Context_2);
             n47.ImagePlayer_Stride_Rf8zNKbH3rROmWYhlPGRaA that_4 = this;
             this.Sync = default(n58.ITimeSync_I);
@@ -7815,25 +7815,25 @@ namespace _VL_Stride_Graphics_.Video
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 120456U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "QDSav0orpiHQEvmr9LGIWu", Name = "__slot_QDSav0orpiHQEvmr9LGIWu")]
+        [n1.ElementAttribute(TracingId = 90279U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "QDSav0orpiHQEvmr9LGIWu", Name = "__slot_QDSav0orpiHQEvmr9LGIWu")]
         public static string __slot_QDSav0orpiHQEvmr9LGIWu = "< \r\non the server, control parameters are passed through\r\non the clients, they are received from the server (ie inputs are ignored)";
-        [n1.ElementAttribute(TracingId = 120467U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "FwhzbAKpM3sQKiIX8J68i1", Name = "__slot_FwhzbAKpM3sQKiIX8J68i1")]
+        [n1.ElementAttribute(TracingId = 90288U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "FwhzbAKpM3sQKiIX8J68i1", Name = "__slot_FwhzbAKpM3sQKiIX8J68i1")]
         public static string __slot_FwhzbAKpM3sQKiIX8J68i1 = "< throttle time adjustment to decrease the chance of white flashes when starting playback";
-        [n1.ElementAttribute(TracingId = 120147U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "C3zbtVNLnU2Ldmx8xQazyJ", Name = "Sync")]
+        [n1.ElementAttribute(TracingId = 90134U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "C3zbtVNLnU2Ldmx8xQazyJ", Name = "Sync")]
         public n58.ITimeSync_I Sync;
-        [n1.ElementAttribute(TracingId = 120152U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "AycEZJBlEJJNh6djWYW5UC", Name = "Duration")]
+        [n1.ElementAttribute(TracingId = 90138U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "AycEZJBlEJJNh6djWYW5UC", Name = "Duration")]
         public float Duration;
-        [n1.ElementAttribute(TracingId = 120104U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "FQVWQ5SqG31OM2m1HZr537", Name = "__slot_FQVWQ5SqG31OM2m1HZr537")]
+        [n1.ElementAttribute(TracingId = 90082U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "FQVWQ5SqG31OM2m1HZr537", Name = "__slot_FQVWQ5SqG31OM2m1HZr537")]
         public static double __slot_FQVWQ5SqG31OM2m1HZr537 = -0.00999999977648258;
-        [n1.ElementAttribute(TracingId = 120106U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Qayjl3Xu93hL3eyUdnNBzM", Name = "__slot_Qayjl3Xu93hL3eyUdnNBzM")]
+        [n1.ElementAttribute(TracingId = 90085U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Qayjl3Xu93hL3eyUdnNBzM", Name = "__slot_Qayjl3Xu93hL3eyUdnNBzM")]
         public static double __slot_Qayjl3Xu93hL3eyUdnNBzM = 0.00999999977648258;
         [n1.ElementAttribute(IsManaged = true, IsAutoGenerated = true)]
         public n2.Object __if_Vs04Cqoa7vQQasQhyaohu2;
-        [n1.ElementAttribute(TracingId = 119225U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "AOMLpPUFwXFPgUY82j2HOw", Name = "Playhead2", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 87811U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "AOMLpPUFwXFPgUY82j2HOw", Name = "Playhead2", IsManaged = true, IsAutoGenerated = true)]
         public n59.Playhead2_Kxyn85uoNljQF5nAzWcnIh __p_AOMLpPUFwXFPgUY82j2HOw;
-        [n1.ElementAttribute(TracingId = 120191U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "LWxpVch198rLafbuzVzMyk", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 90172U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "LWxpVch198rLafbuzVzMyk", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
         public n6.Manager<n2.ValueTuple<float, float, float, float, float, float>, n2.ValueTuple<int, int, n26.Spread<int>, int, int>> __cache_LWxpVch198rLafbuzVzMyk = null;
-        [n1.ElementAttribute(TracingId = 119186U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "JU6z9w7MVDnOy96k4WzWzA", Name = "ImagePlayer (FrameBased Stride)", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 87767U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "JU6z9w7MVDnOy96k4WzWzA", Name = "ImagePlayer (FrameBased Stride)", IsManaged = true, IsAutoGenerated = true)]
         public n47.ImagePlayer_FrameBased_Stride_FqmXvulEPFmO2GIAyZs14F __p_JU6z9w7MVDnOy96k4WzWzA;
         static ImagePlayer_Stride_Rf8zNKbH3rROmWYhlPGRaA()
         {
@@ -7961,7 +7961,7 @@ namespace _VL_Stride_Graphics_.Video
 
 namespace _VL_Stride_Graphics_.Video.ImagePlayer_FrameBased_Stride
 {
-    [n1.ElementAttribute(TracingId = 107555U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 20856U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", Name = "_Operations_")]
     public static partial class _Operations_
     {
         public static void PreloadIds(int Input_In, int Preload_Count_In, [n4.SerializedDefaultValueAttribute("1", false)] int Frame_Step_Descending_In, int Minimum_In, int Maximum_In, [n4.SerializedDefaultValueAttribute("1", false)] int Frame_Step_Ascending_In, out n11.IEnumerable<int> Output_Out)
@@ -8017,7 +8017,7 @@ namespace _VL_Stride_Graphics_.Video.ImagePlayer_FrameBased_Stride
 
 namespace _VL_Stride_Graphics_.Video.ImagePlayer_Stride
 {
-    [n1.ElementAttribute(TracingId = 119530U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Kxyn85uoNljQF5nAzWcnIh", Name = "Playhead2_Kxyn85uoNljQF5nAzWcnIh")]
+    [n1.ElementAttribute(TracingId = 88022U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Kxyn85uoNljQF5nAzWcnIh", Name = "Playhead2_Kxyn85uoNljQF5nAzWcnIh")]
     [n2.SerializableAttribute]
     public class Playhead2_Kxyn85uoNljQF5nAzWcnIh : n1.VLObject, n2.IDisposable
     {
@@ -8170,11 +8170,11 @@ namespace _VL_Stride_Graphics_.Video.ImagePlayer_Stride
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 119537U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "NpXMTUZ3wvQP04T1qwxehR", Name = "Time")]
+        [n1.ElementAttribute(TracingId = 88024U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "NpXMTUZ3wvQP04T1qwxehR", Name = "Time")]
         public double Time;
-        [n1.ElementAttribute(TracingId = 119801U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "NLPdpcXzbscNnuKS5Hpi0u", Name = "__slot_NLPdpcXzbscNnuKS5Hpi0u")]
+        [n1.ElementAttribute(TracingId = 89021U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "NLPdpcXzbscNnuKS5Hpi0u", Name = "__slot_NLPdpcXzbscNnuKS5Hpi0u")]
         public n57.IFrameClock __slot_NLPdpcXzbscNnuKS5Hpi0u;
-        [n1.ElementAttribute(TracingId = 119742U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "HIgQjdwKgEBPre8qjxcEFl", Name = "__slot_HIgQjdwKgEBPre8qjxcEFl")]
+        [n1.ElementAttribute(TracingId = 89005U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "HIgQjdwKgEBPre8qjxcEFl", Name = "__slot_HIgQjdwKgEBPre8qjxcEFl")]
         public static float __slot_HIgQjdwKgEBPre8qjxcEFl = 0F;
         static Playhead2_Kxyn85uoNljQF5nAzWcnIh()
         {
@@ -8211,11 +8211,11 @@ namespace _VL_Stride_Graphics_.Video.ImagePlayer_Stride
         }
     }
 
-    [n1.ElementAttribute(TracingId = 107555U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 20856U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", Name = "_Operations_")]
     public static partial class _Operations_
     {
         public static void ToFrameId<T, AdM>(T Input_In, T FPS_In, out int Result_Out)
-            where AdM : struct, n44.IAdaptiveOperatorGreaterThan<T>, n44.IAdaptiveOperatorMulitply<T>, n62.IAdaptiveToInt32<T>, n20.IAdaptiveCreateDefault<T>
+            where AdM : struct, n62.IAdaptiveToInt32<T>, n20.IAdaptiveCreateDefault<T>, n44.IAdaptiveOperatorGreaterThan<T>, n44.IAdaptiveOperatorMulitply<T>
         {
             var w_0 = default(AdM);
             int __pad_B1lFCu99XTiQPER80BViva_1 = __slot_B1lFCu99XTiQPER80BViva;
@@ -8237,7 +8237,7 @@ namespace _VL_Stride_Graphics_.Video.ImagePlayer_Stride
             return;
         }
 
-        [n1.ElementAttribute(TracingId = 119473U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "B1lFCu99XTiQPER80BViva", Name = "__slot_B1lFCu99XTiQPER80BViva")]
+        [n1.ElementAttribute(TracingId = 87997U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "B1lFCu99XTiQPER80BViva", Name = "__slot_B1lFCu99XTiQPER80BViva")]
         public static int __slot_B1lFCu99XTiQPER80BViva = -1;
         static _Operations_()
         {
@@ -8247,7 +8247,7 @@ namespace _VL_Stride_Graphics_.Video.ImagePlayer_Stride
 
 namespace _VL_Stride_Graphics_.Stride.Windowing
 {
-    [n1.ElementAttribute(TracingId = 121501U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "IJtw1D3ePLDOe5ge35vYfr", Name = "AdapterInfo_IJtw1D3ePLDOe5ge35vYfr")]
+    [n1.ElementAttribute(TracingId = 90801U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "IJtw1D3ePLDOe5ge35vYfr", Name = "AdapterInfo_IJtw1D3ePLDOe5ge35vYfr")]
     [n2.SerializableAttribute]
     public class AdapterInfo_IJtw1D3ePLDOe5ge35vYfr : n1.VLObject, n2.IDisposable
     {
@@ -8286,7 +8286,7 @@ namespace _VL_Stride_Graphics_.Stride.Windowing
                 if (state_7 == null)
                 {
                     state_7 = new __KNEjzdGxs6QK9qVD8jPrUB(__GetContext__(), n1.VLObject.NewIdentity());
-                    n1.NodeContext Node_Context_8 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "F0xSCXWOlI6OsHyTdHnYPm", 121609U);
+                    n1.NodeContext Node_Context_8 = __GetContext__().CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "F0xSCXWOlI6OsHyTdHnYPm", 90862U);
                     var Output_9 = n10.GraphicsDevice_V0mXf77TurpOVQNzgviejb.Create(Node_Context_In: Node_Context_8);
                     state_7.__p_F0xSCXWOlI6OsHyTdHnYPm = Output_9;
                 }
@@ -8347,7 +8347,7 @@ namespace _VL_Stride_Graphics_.Stride.Windowing
         public n63.AdapterInfo_IJtw1D3ePLDOe5ge35vYfr __Create__(n1.NodeContext Node_Context)
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "KigqqDuSnJNQameB82pv7c", 121743U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "KigqqDuSnJNQameB82pv7c", 93702U);
             var Output_1 = n21.OnOpen_FuW9Q3o4A1QLNwSJwTBGFz.Create(Node_Context: Node_Context_0);
             n63.AdapterInfo_IJtw1D3ePLDOe5ge35vYfr that_2 = this;
             this.__p_KigqqDuSnJNQameB82pv7c = Output_1;
@@ -8376,9 +8376,9 @@ namespace _VL_Stride_Graphics_.Stride.Windowing
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 121743U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "KigqqDuSnJNQameB82pv7c", Name = "OnOpen", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 93702U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "KigqqDuSnJNQameB82pv7c", Name = "OnOpen", IsManaged = true, IsAutoGenerated = true)]
         public n21.OnOpen_FuW9Q3o4A1QLNwSJwTBGFz __p_KigqqDuSnJNQameB82pv7c;
-        [n1.ElementAttribute(TracingId = 121509U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "T0VmK0eEIFuOtw6rmlCDsL", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 90806U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "T0VmK0eEIFuOtw6rmlCDsL", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
         public n6.Manager<n2.ValueTuple, n2.ValueTuple<string, int, n26.Spread<n8.GraphicsOutput>, string, int>> __cache_T0VmK0eEIFuOtw6rmlCDsL = null;
         public AdapterInfo_IJtw1D3ePLDOe5ge35vYfr(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -8420,7 +8420,7 @@ namespace _VL_Stride_Graphics_.Stride.Windowing
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 121609U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "F0xSCXWOlI6OsHyTdHnYPm", Name = "GraphicsDevice", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 90862U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "F0xSCXWOlI6OsHyTdHnYPm", Name = "GraphicsDevice", IsManaged = true, IsAutoGenerated = true)]
             public n10.GraphicsDevice_V0mXf77TurpOVQNzgviejb __p_F0xSCXWOlI6OsHyTdHnYPm;
             public __KNEjzdGxs6QK9qVD8jPrUB(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -8455,7 +8455,7 @@ namespace _VL_Stride_Graphics_.Stride.Windowing
 
 namespace _VL_Stride_Graphics_.Stride.Utils.Advanced
 {
-    [n1.ElementAttribute(TracingId = 121882U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Jyp9mYJHExJNVTwXieAIds", Name = "GraphicsData_Jyp9mYJHExJNVTwXieAIds")]
+    [n1.ElementAttribute(TracingId = 93839U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Jyp9mYJHExJNVTwXieAIds", Name = "GraphicsData_Jyp9mYJHExJNVTwXieAIds")]
     [n2.SerializableAttribute]
     public class GraphicsData_Jyp9mYJHExJNVTwXieAIds<T> : n1.VLObject, n2.IDisposable
     {
@@ -8584,9 +8584,9 @@ namespace _VL_Stride_Graphics_.Stride.Utils.Advanced
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 121998U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "VYWDgys3xiFOnzNJidQEMw", Name = "Provider")]
+        [n1.ElementAttribute(TracingId = 93956U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "VYWDgys3xiFOnzNJidQEMw", Name = "Provider")]
         public n14.MemoryDataProvider Provider;
-        [n1.ElementAttribute(TracingId = 121888U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "P2wfN2MKpNUNc9rzRRbJcp", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 93848U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "P2wfN2MKpNUNc9rzRRbJcp", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
         public n6.Manager<n2.ValueTuple<T, int>, n2.ValueTuple> __cache_P2wfN2MKpNUNc9rzRRbJcp = null;
         public GraphicsData_Jyp9mYJHExJNVTwXieAIds(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -8619,7 +8619,7 @@ namespace _VL_Stride_Graphics_.Stride.Utils.Advanced
         }
     }
 
-    [n1.ElementAttribute(TracingId = 122656U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "V0mXf77TurpOVQNzgviejb", Name = "GraphicsDevice_V0mXf77TurpOVQNzgviejb")]
+    [n1.ElementAttribute(TracingId = 94636U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "V0mXf77TurpOVQNzgviejb", Name = "GraphicsDevice_V0mXf77TurpOVQNzgviejb")]
     [n2.SerializableAttribute]
     public class GraphicsDevice_V0mXf77TurpOVQNzgviejb : n1.VLObject, n2.IDisposable
     {
@@ -8657,7 +8657,7 @@ namespace _VL_Stride_Graphics_.Stride.Utils.Advanced
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
             var Result_0 = n64.Resources.GetDeviceProvider(nodeContext: Node_Context_In);
-            n1.NodeContext Node_Context_1 = Node_Context_In.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "Bbfv58zUUhvOHxuyclPVuP", 122662U);
+            n1.NodeContext Node_Context_1 = Node_Context_In.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "Bbfv58zUUhvOHxuyclPVuP", 94641U);
             var Output_2 = n42.Using_Process_MCPOIRh2AQkOT4VzsU5rcr<n39.IResourceProvider<n8.GraphicsDevice>, n8.GraphicsDevice>.Create(Node_Context: Node_Context_1);
             bool Update_3 = true;
             var Output_4 = Output_2;
@@ -8690,7 +8690,7 @@ namespace _VL_Stride_Graphics_.Stride.Utils.Advanced
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 122662U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Bbfv58zUUhvOHxuyclPVuP", Name = "Using (Process)", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 94641U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Bbfv58zUUhvOHxuyclPVuP", Name = "Using (Process)", IsManaged = true, IsAutoGenerated = true)]
         public n42.Using_Process_MCPOIRh2AQkOT4VzsU5rcr<n39.IResourceProvider<n8.GraphicsDevice>, n8.GraphicsDevice> __p_Bbfv58zUUhvOHxuyclPVuP;
         public GraphicsDevice_V0mXf77TurpOVQNzgviejb(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -8721,7 +8721,7 @@ namespace _VL_Stride_Graphics_.Stride.Utils.Advanced
         }
     }
 
-    [n1.ElementAttribute(TracingId = 122753U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "LZGVLOdpi83QS6XklGOZVK", Name = "GraphicsContext_LZGVLOdpi83QS6XklGOZVK")]
+    [n1.ElementAttribute(TracingId = 94737U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "LZGVLOdpi83QS6XklGOZVK", Name = "GraphicsContext_LZGVLOdpi83QS6XklGOZVK")]
     [n2.SerializableAttribute]
     public class GraphicsContext_LZGVLOdpi83QS6XklGOZVK : n1.VLObject, n2.IDisposable
     {
@@ -8759,7 +8759,7 @@ namespace _VL_Stride_Graphics_.Stride.Utils.Advanced
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
             var Result_0 = n64.Resources.GetGraphicsContextProvider(nodeContext: Node_Context_In);
-            n1.NodeContext Node_Context_1 = Node_Context_In.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "Dl49sO7pvigQdBMKCSIKzl", 122760U);
+            n1.NodeContext Node_Context_1 = Node_Context_In.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "Dl49sO7pvigQdBMKCSIKzl", 94741U);
             var Output_2 = n42.Using_Process_MCPOIRh2AQkOT4VzsU5rcr<n39.IResourceProvider<n8.GraphicsContext>, n8.GraphicsContext>.Create(Node_Context: Node_Context_1);
             bool Update_3 = true;
             var Output_4 = Output_2;
@@ -8792,7 +8792,7 @@ namespace _VL_Stride_Graphics_.Stride.Utils.Advanced
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 122760U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Dl49sO7pvigQdBMKCSIKzl", Name = "Using (Process)", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 94741U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "Dl49sO7pvigQdBMKCSIKzl", Name = "Using (Process)", IsManaged = true, IsAutoGenerated = true)]
         public n42.Using_Process_MCPOIRh2AQkOT4VzsU5rcr<n39.IResourceProvider<n8.GraphicsContext>, n8.GraphicsContext> __p_Dl49sO7pvigQdBMKCSIKzl;
         public GraphicsContext_LZGVLOdpi83QS6XklGOZVK(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -8823,7 +8823,7 @@ namespace _VL_Stride_Graphics_.Stride.Utils.Advanced
         }
     }
 
-    [n1.ElementAttribute(TracingId = 122842U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "SUf2hZhJxjcNpRebjx40WD", Name = "ToDeviceColorSpace_SUf2hZhJxjcNpRebjx40WD")]
+    [n1.ElementAttribute(TracingId = 94817U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "SUf2hZhJxjcNpRebjx40WD", Name = "ToDeviceColorSpace_SUf2hZhJxjcNpRebjx40WD")]
     [n2.SerializableAttribute]
     public class ToDeviceColorSpace_SUf2hZhJxjcNpRebjx40WD : n1.VLObject, n2.IDisposable
     {
@@ -8862,7 +8862,7 @@ namespace _VL_Stride_Graphics_.Stride.Utils.Advanced
         public n10.ToDeviceColorSpace_SUf2hZhJxjcNpRebjx40WD __Create__(n1.NodeContext Node_Context)
         {
             n9.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "OpFbWMMY5kyOje2CagHayh", 122847U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Dky5PMnuvcKN4CxmfNs7Uv", "OpFbWMMY5kyOje2CagHayh", 94823U);
             var Output_1 = n10.GraphicsDevice_V0mXf77TurpOVQNzgviejb.Create(Node_Context_In: Node_Context_0);
             n10.ToDeviceColorSpace_SUf2hZhJxjcNpRebjx40WD that_2 = this;
             this.__p_OpFbWMMY5kyOje2CagHayh = Output_1;
@@ -8888,7 +8888,7 @@ namespace _VL_Stride_Graphics_.Stride.Utils.Advanced
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 122847U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "OpFbWMMY5kyOje2CagHayh", Name = "GraphicsDevice", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 94823U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "OpFbWMMY5kyOje2CagHayh", Name = "GraphicsDevice", IsManaged = true, IsAutoGenerated = true)]
         public n10.GraphicsDevice_V0mXf77TurpOVQNzgviejb __p_OpFbWMMY5kyOje2CagHayh;
         public ToDeviceColorSpace_SUf2hZhJxjcNpRebjx40WD(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -8919,7 +8919,7 @@ namespace _VL_Stride_Graphics_.Stride.Utils.Advanced
         }
     }
 
-    [n1.ElementAttribute(TracingId = 107555U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 20856U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", Name = "_Operations_")]
     public static partial class _Operations_
     {
         public static void SetGraphicsData<T2, T, AdM>(n14.MemoryDataProvider Input_In, T2 Data_In, [n4.SerializedDefaultValueAttribute("0", false)] int Offset_In_Bytes_In, [n4.SerializedDefaultValueAttribute("0", false)] int Size_In_Bytes_In, [n4.SerializedDefaultValueAttribute("0", false)] int Element_Size_In_Bytes_In, [n4.SerializedDefaultValueAttribute("0", false)] int Row_Size_In_Bytes_In, [n4.SerializedDefaultValueAttribute("0", false)] int Slice_Size_In_Bytes_In, out n14.MemoryDataProvider Output_Out)
@@ -8956,7 +8956,7 @@ namespace _VL_Stride_Graphics_.Stride.Utils.Advanced
 
 namespace _VL_Stride_Graphics_.Stride
 {
-    [n1.ElementAttribute(TracingId = 123269U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "OfoGgjpFBuQOO6WH36N2O3", Name = "VL_Stride_GraphicsApplication_OfoGgjpFBuQOO6WH36N2O3")]
+    [n1.ElementAttribute(TracingId = 99775U, DocumentId = "Dky5PMnuvcKN4CxmfNs7Uv", PersistentId = "OfoGgjpFBuQOO6WH36N2O3", Name = "VL_Stride_GraphicsApplication_OfoGgjpFBuQOO6WH36N2O3")]
     [n2.SerializableAttribute]
     public class VL_Stride_GraphicsApplication_OfoGgjpFBuQOO6WH36N2O3 : n1.VLObject, n2.IDisposable
     {
@@ -9023,7 +9023,7 @@ namespace _VL_Stride_Graphics_.Stride
 
 namespace _VL_Stride_Graphics_
 {
-    public struct __AdaptiveImplementations__Dky5PMnuvcKN4CxmfNs7Uv : n44.IAdaptiveOperatorGreater<int>, n44.IAdaptiveZero<int>, n10.IAdaptiveSetGraphicsData<n26.Spread<uint>>, n65.IAdaptiveAsReadOnlyMemory<n26.Spread<uint>, uint>, n20.IAdaptiveCreateDefault<bool>, n20.IAdaptiveCreateDefault<n38.TextureLoadTask_C>, n20.IAdaptiveCreateDefault<n36.Path>, n44.IAdaptiveMax<int>, n44.IAdaptiveOne<int>, n20.IAdaptiveCreateDefault<string>, n20.IAdaptiveCreateDefault<int>, n44.IAdaptiveNE<int>, n44.IAdaptiveOperatorPlus<int>, n44.IAdaptiveOperatorMinus<int>, n44.IAdaptiveZMOD<int>, n44.IAdaptiveNE<float>, n44.IAdaptiveOne<float>, n44.IAdaptiveOperatorPlus<float>, n44.IAdaptiveZero<float>, n44.IAdaptiveOperatorMinus<float>, n44.IAdaptiveZMOD<float>, n44.IAdaptiveOperatorGreaterThan<float>, n44.IAdaptiveOperatorMulitply<float>, n62.IAdaptiveToInt32<float>, n20.IAdaptiveCreateDefault<float>, n20.IAdaptiveCreateDefault<double>, n44.IAdaptiveMax<double>, n44.IAdaptiveOperatorGreater<double>, n44.IAdaptiveMin<double>, n44.IAdaptiveOperatorLess<double>, n44.IAdaptiveOperatorLess<float>, n44.IAdaptiveNE<double>, n44.IAdaptiveOne<double>, n44.IAdaptiveOperatorPlus<double>, n44.IAdaptiveZero<double>, n44.IAdaptiveOperatorMinus<double>, n44.IAdaptiveZMOD<double>, n44.IAdaptiveLength<float>, n20.IAdaptiveCreateDefault<n8.GraphicsDevice>, n20.IAdaptiveCreateDefault<n8.GraphicsContext>
+    public struct __AdaptiveImplementations__Dky5PMnuvcKN4CxmfNs7Uv : n44.IAdaptiveOperatorGreater<int>, n44.IAdaptiveZero<int>, n10.IAdaptiveSetGraphicsData<n26.Spread<uint>>, n65.IAdaptiveAsReadOnlyMemory<n26.Spread<uint>, uint>, n20.IAdaptiveCreateDefault<bool>, n20.IAdaptiveCreateDefault<n38.TextureLoadTask_C>, n20.IAdaptiveCreateDefault<n36.Path>, n44.IAdaptiveOne<int>, n44.IAdaptiveMax<int>, n20.IAdaptiveCreateDefault<string>, n20.IAdaptiveCreateDefault<int>, n44.IAdaptiveZMOD<int>, n44.IAdaptiveOperatorMinus<int>, n44.IAdaptiveNE<int>, n44.IAdaptiveOperatorPlus<int>, n44.IAdaptiveOne<float>, n44.IAdaptiveZMOD<float>, n44.IAdaptiveOperatorMinus<float>, n44.IAdaptiveNE<float>, n44.IAdaptiveOperatorPlus<float>, n44.IAdaptiveZero<float>, n62.IAdaptiveToInt32<float>, n20.IAdaptiveCreateDefault<float>, n44.IAdaptiveOperatorGreaterThan<float>, n44.IAdaptiveOperatorMulitply<float>, n20.IAdaptiveCreateDefault<double>, n44.IAdaptiveMin<double>, n44.IAdaptiveOperatorLess<double>, n44.IAdaptiveMax<double>, n44.IAdaptiveOperatorGreater<double>, n44.IAdaptiveOperatorLess<float>, n44.IAdaptiveOne<double>, n44.IAdaptiveZMOD<double>, n44.IAdaptiveOperatorMinus<double>, n44.IAdaptiveNE<double>, n44.IAdaptiveOperatorPlus<double>, n44.IAdaptiveZero<double>, n44.IAdaptiveLength<float>, n20.IAdaptiveCreateDefault<n8.GraphicsDevice>, n20.IAdaptiveCreateDefault<n8.GraphicsContext>
     {
         public void OperatorGreater(int Input_In, int Input_2_In, out bool Result_Out)
         {
@@ -9075,17 +9075,17 @@ namespace _VL_Stride_Graphics_
             return;
         }
 
-        public void Max(int Input_In, int Input_2_In, out int Output_Out)
-        {
-            n23._Operations_.Max<int, n22.__AdaptiveImplementations__Dky5PMnuvcKN4CxmfNs7Uv>(Input_In: Input_In, Input_2_In: Input_2_In, Output_Out: out int Output_0);
-            Output_Out = Output_0;
-            return;
-        }
-
         public void One(out int One_Out)
         {
             var One_0 = n53.Integer32Extensions.One;
             One_Out = One_0;
+            return;
+        }
+
+        public void Max(int Input_In, int Input_2_In, out int Output_Out)
+        {
+            n23._Operations_.Max<int, n22.__AdaptiveImplementations__Dky5PMnuvcKN4CxmfNs7Uv>(Input_In: Input_In, Input_2_In: Input_2_In, Output_Out: out int Output_0);
+            Output_Out = Output_0;
             return;
         }
 
@@ -9099,6 +9099,20 @@ namespace _VL_Stride_Graphics_
         public void CreateDefault(out int Output_Out)
         {
             n69._Operations_.CreateDefault_Generic<int>(Output_Out: out int Output_0);
+            Output_Out = Output_0;
+            return;
+        }
+
+        public void ZMOD(int Input_In, int Input_2_In, out int Output_Out)
+        {
+            var Output_0 = n53.Integer32Extensions.ZMOD(z: Input_In, input2: Input_2_In);
+            Output_Out = Output_0;
+            return;
+        }
+
+        public void OperatorMinus(int Input_In, int Input_2_In, out int Output_Out)
+        {
+            var Output_0 = Input_In - Input_2_In;
             Output_Out = Output_0;
             return;
         }
@@ -9117,16 +9131,23 @@ namespace _VL_Stride_Graphics_
             return;
         }
 
-        public void OperatorMinus(int Input_In, int Input_2_In, out int Output_Out)
+        public void One(out float One_Out)
         {
-            var Output_0 = Input_In - Input_2_In;
+            var One_0 = n53.Float32Extensions.One;
+            One_Out = One_0;
+            return;
+        }
+
+        public void ZMOD(float Input_In, float Input_2_In, out float Output_Out)
+        {
+            var Output_0 = n53.Float32Extensions.ZMOD(z: Input_In, input2: Input_2_In);
             Output_Out = Output_0;
             return;
         }
 
-        public void ZMOD(int Input_In, int Input_2_In, out int Output_Out)
+        public void OperatorMinus(float Input_In, float Input_2_In, out float Output_Out)
         {
-            var Output_0 = n53.Integer32Extensions.ZMOD(z: Input_In, input2: Input_2_In);
+            var Output_0 = Input_In - Input_2_In;
             Output_Out = Output_0;
             return;
         }
@@ -9135,13 +9156,6 @@ namespace _VL_Stride_Graphics_
         {
             var Result_0 = Input_In != Input_2_In;
             Result_Out = Result_0;
-            return;
-        }
-
-        public void One(out float One_Out)
-        {
-            var One_0 = n53.Float32Extensions.One;
-            One_Out = One_0;
             return;
         }
 
@@ -9159,16 +9173,16 @@ namespace _VL_Stride_Graphics_
             return;
         }
 
-        public void OperatorMinus(float Input_In, float Input_2_In, out float Output_Out)
+        public void ToInt32(float Input_In, out int Result_Out)
         {
-            var Output_0 = Input_In - Input_2_In;
-            Output_Out = Output_0;
+            var Result_0 = n53.IntegerConversions.ToInt32(input: Input_In);
+            Result_Out = Result_0;
             return;
         }
 
-        public void ZMOD(float Input_In, float Input_2_In, out float Output_Out)
+        public void CreateDefault(out float Output_Out)
         {
-            var Output_0 = n53.Float32Extensions.ZMOD(z: Input_In, input2: Input_2_In);
+            n69._Operations_.CreateDefault_Generic<float>(Output_Out: out float Output_0);
             Output_Out = Output_0;
             return;
         }
@@ -9187,38 +9201,10 @@ namespace _VL_Stride_Graphics_
             return;
         }
 
-        public void ToInt32(float Input_In, out int Result_Out)
-        {
-            var Result_0 = n53.IntegerConversions.ToInt32(input: Input_In);
-            Result_Out = Result_0;
-            return;
-        }
-
-        public void CreateDefault(out float Output_Out)
-        {
-            n69._Operations_.CreateDefault_Generic<float>(Output_Out: out float Output_0);
-            Output_Out = Output_0;
-            return;
-        }
-
         public void CreateDefault(out double Output_Out)
         {
             n69._Operations_.CreateDefault_Generic<double>(Output_Out: out double Output_0);
             Output_Out = Output_0;
-            return;
-        }
-
-        public void Max(double Input_In, double Input_2_In, out double Output_Out)
-        {
-            n23._Operations_.Max<double, n22.__AdaptiveImplementations__Dky5PMnuvcKN4CxmfNs7Uv>(Input_In: Input_In, Input_2_In: Input_2_In, Output_Out: out double Output_0);
-            Output_Out = Output_0;
-            return;
-        }
-
-        public void OperatorGreater(double Input_In, double Input_2_In, out bool Result_Out)
-        {
-            var Result_0 = Input_In > Input_2_In;
-            Result_Out = Result_0;
             return;
         }
 
@@ -9236,16 +9222,23 @@ namespace _VL_Stride_Graphics_
             return;
         }
 
-        public void OperatorLess(float Input_In, float Input_2_In, out bool Result_Out)
+        public void Max(double Input_In, double Input_2_In, out double Output_Out)
         {
-            var Result_0 = Input_In < Input_2_In;
+            n23._Operations_.Max<double, n22.__AdaptiveImplementations__Dky5PMnuvcKN4CxmfNs7Uv>(Input_In: Input_In, Input_2_In: Input_2_In, Output_Out: out double Output_0);
+            Output_Out = Output_0;
+            return;
+        }
+
+        public void OperatorGreater(double Input_In, double Input_2_In, out bool Result_Out)
+        {
+            var Result_0 = Input_In > Input_2_In;
             Result_Out = Result_0;
             return;
         }
 
-        public void NE(double Input_In, double Input_2_In, out bool Result_Out)
+        public void OperatorLess(float Input_In, float Input_2_In, out bool Result_Out)
         {
-            var Result_0 = Input_In != Input_2_In;
+            var Result_0 = Input_In < Input_2_In;
             Result_Out = Result_0;
             return;
         }
@@ -9254,6 +9247,27 @@ namespace _VL_Stride_Graphics_
         {
             var One_0 = n53.Float64Extensions.One;
             One_Out = One_0;
+            return;
+        }
+
+        public void ZMOD(double Input_In, double Input_2_In, out double Output_Out)
+        {
+            var Output_0 = n53.Float64Extensions.ZMOD(z: Input_In, input2: Input_2_In);
+            Output_Out = Output_0;
+            return;
+        }
+
+        public void OperatorMinus(double Input_In, double Input_2_In, out double Output_Out)
+        {
+            var Output_0 = Input_In - Input_2_In;
+            Output_Out = Output_0;
+            return;
+        }
+
+        public void NE(double Input_In, double Input_2_In, out bool Result_Out)
+        {
+            var Result_0 = Input_In != Input_2_In;
+            Result_Out = Result_0;
             return;
         }
 
@@ -9268,20 +9282,6 @@ namespace _VL_Stride_Graphics_
         {
             var Zero_0 = n53.Float64Extensions.Zero;
             Zero_Out = Zero_0;
-            return;
-        }
-
-        public void OperatorMinus(double Input_In, double Input_2_In, out double Output_Out)
-        {
-            var Output_0 = Input_In - Input_2_In;
-            Output_Out = Output_0;
-            return;
-        }
-
-        public void ZMOD(double Input_In, double Input_2_In, out double Output_Out)
-        {
-            var Output_0 = n53.Float64Extensions.ZMOD(z: Input_In, input2: Input_2_In);
-            Output_Out = Output_0;
             return;
         }
 

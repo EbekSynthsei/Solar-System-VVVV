@@ -1,18 +1,18 @@
-﻿extern alias e6;
-extern alias e5;
+﻿extern alias e2;
+extern alias e10;
 
-using n5 = e6::VL.Lang.PublicAPI;
-using n3 = e6::VL.Model;
+using n7 = e10::VL.Lang;
+using n9 = e10::VL.Core;
 using n12 = _VL_CoreLib_;
-using n1 = e5::VL.Core.CompilerServices;
 using n6 = _VL_Lang_.VL.Session;
-using n7 = e6::VL.Lang;
-using n4 = e5::VL.Core;
+using n3 = e10::VL.Model;
+using n4 = e2::VL.Core;
+using n11 = e2::VL.Lib;
 using n2 = _VL_Lang_;
-using n9 = e6::VL.Core;
-using n11 = e5::VL.Lib;
-using n8 = e6::VL.Lang.Symbols;
+using n8 = e10::VL.Lang.Symbols;
+using n1 = e2::VL.Core.CompilerServices;
 using n10 = _VL_Lang_.VL;
+using n5 = e10::VL.Lang.PublicAPI;
 
 [assembly: n1.CompilerVersionAttribute("2021.4.9-971+1d0a0c7789")]
 [assembly: n1.AssemblyInitializerAttribute(typeof(n2.AMsJsrrhltMMjgtUbICS42Initializer))]

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <PreserveCompilationContext>true</PreserveCompilationContext>
+    <RestoreIgnoreFailedSources>true</RestoreIgnoreFailedSources>
+    <SatelliteResourceLanguages>en-US</SatelliteResourceLanguages>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>None</DebugType>
+    <AllowedReferenceRelatedFileExtensions>None</AllowedReferenceRelatedFileExtensions>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VL.CoreLib.vl\VL.CoreLib.vl.csproj" />
+    <ProjectReference Include="..\VL.EditingFramework.vl\VL.EditingFramework.vl.csproj" />
+    <ProjectReference Include="..\VL.HDE.vl\VL.HDE.vl.csproj" />
+    <ProjectReference Include="..\VL.Lang.vl\VL.Lang.vl.csproj" />
+    <ProjectReference Include="..\VL.Skia.vl\VL.Skia.vl.csproj" />
+    <ProjectReference Include="..\VL.Stride.Runtime.vl\VL.Stride.Runtime.vl.csproj" />
+    <ProjectReference Include="..\VL.Stride.vl\VL.Stride.vl.csproj" />
+    <ProjectReference Include="..\VL.Stride.Windows.vl\VL.Stride.Windows.vl.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="VL.App.WindowsForms">
+      <Version>2021.4.9-0971-g1d0a0c7789</Version>
+    </PackageReference>
+    <PackageReference Include="VL.Fuse">
+      <Version>0.2.0</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Core" HintPath="C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll" />
+  </ItemGroup>
+  <Target Name="AddAliases" BeforeTargets="ResolveReferences">
+    <ItemGroup>
+      <ReferencePath Condition="'%(FileName)'=='VL.Core'" Aliases="e2" />
+      <ReferencePath Condition="'%(FileName)'=='VL.Stride.Runtime'" Aliases="e31" />
+      <ReferencePath Condition="'%(FileName)'=='Fuse'" Aliases="e71" />
+      <ReferencePath Condition="'%(FileName)'=='VL.App.WindowsForms'" Aliases="e70" />
+      <ReferencePath Condition="'%(FileName)'=='VL.CoreLib'" Aliases="e3" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Core.Mathematics'" Aliases="e4" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Engine'" Aliases="e24" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Rendering'" Aliases="e29" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Graphics'" Aliases="e22" />
+      <ReferencePath Condition="'%(FileName)'=='Stride'" Aliases="e26" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Shaders'" Aliases="e21" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Games'" Aliases="e25" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Assets'" Aliases="e48" />
+      <ReferencePath Condition="'%(FileName)'=='VL.UI.Core'" Aliases="e5" />
+      <ReferencePath Condition="'%(FileName)'=='VL.Skia'" Aliases="e1" />
+      <ReferencePath Condition="'%(FileName)'=='VL.UI.PatchEditor.Utils'" Aliases="e16" />
+    </ItemGroup>
+  </Target>
+</Project>

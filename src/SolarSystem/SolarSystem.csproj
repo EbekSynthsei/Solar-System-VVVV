@@ -23,6 +23,7 @@
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\VL.CoreLib.vl\VL.CoreLib.vl.csproj" />
+    <ProjectReference Include="..\VL.Fuse.vl\VL.Fuse.vl.csproj" />
     <ProjectReference Include="..\VL.Skia.vl\VL.Skia.vl.csproj" />
     <ProjectReference Include="..\VL.Stride.vl\VL.Stride.vl.csproj" />
   </ItemGroup>
@@ -40,16 +41,18 @@
   </Target>
   <Target Name="AddAliases" BeforeTargets="ResolveReferences">
     <ItemGroup>
-      <ReferencePath Condition="'%(FileName)'=='VL.Core'" Aliases="e5" />
+      <ReferencePath Condition="'%(FileName)'=='VL.Core'" Aliases="e2" />
       <ReferencePath Condition="'%(FileName)'=='VL.App.WindowsForms'" Aliases="e70" />
-      <ReferencePath Condition="'%(FileName)'=='Stride.Graphics'" Aliases="e27" />
-      <ReferencePath Condition="'%(FileName)'=='Stride.Rendering'" Aliases="e26" />
-      <ReferencePath Condition="'%(FileName)'=='VL.Stride.Runtime'" Aliases="e40" />
-      <ReferencePath Condition="'%(FileName)'=='Stride.Assets'" Aliases="e57" />
-      <ReferencePath Condition="'%(FileName)'=='Stride.Games'" Aliases="e28" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Graphics'" Aliases="e22" />
       <ReferencePath Condition="'%(FileName)'=='Stride.Engine'" Aliases="e24" />
-      <ReferencePath Condition="'%(FileName)'=='Stride.Core.Mathematics'" Aliases="e1" />
-      <ReferencePath Condition="'%(FileName)'=='Stride'" Aliases="e20" />
+      <ReferencePath Condition="'%(FileName)'=='VL.Stride.Runtime'" Aliases="e31" />
+      <ReferencePath Condition="'%(FileName)'=='Stride'" Aliases="e26" />
+      <ReferencePath Condition="'%(FileName)'=='VL.CoreLib'" Aliases="e3" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Games'" Aliases="e25" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Assets'" Aliases="e48" />
+      <ReferencePath Condition="'%(FileName)'=='Fuse'" Aliases="e71" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Rendering'" Aliases="e29" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Core.Mathematics'" Aliases="e4" />
     </ItemGroup>
   </Target>
 </Project>

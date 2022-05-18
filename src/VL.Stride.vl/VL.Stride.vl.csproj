@@ -27,7 +27,7 @@
   <ItemGroup />
   <Target Name="AddAliases" BeforeTargets="ResolveReferences">
     <ItemGroup>
-      <ReferencePath Condition="'%(FileName)'=='VL.Core'" Aliases="e5" />
+      <ReferencePath Condition="'%(FileName)'=='VL.Core'" Aliases="e2" />
       <ReferencePath Condition="'%(FileName)'=='VL.App.WindowsForms'" Aliases="e70" />
     </ItemGroup>
   </Target>

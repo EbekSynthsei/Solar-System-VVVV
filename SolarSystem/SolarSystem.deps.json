@@ -39,6 +39,7 @@
         "dependencies": {
           "VL.App.WindowsForms": "2021.4.9-0971-g1d0a0c7789",
           "VL.CoreLib.vl": "1.0.0",
+          "VL.Fuse.vl": "1.0.0",
           "VL.Skia.vl": "1.0.0",
           "VL.Stride.vl": "1.0.0",
           "Microsoft.CSharp.Reference": "4.0.0.0",
@@ -1425,6 +1426,11 @@
           "lib/net45/SharpDX.XInput.dll": {}
         }
       },
+      "SimMetricsCore/2.1.0": {
+        "compile": {
+          "lib/netstandard2.0/SimMetricsCore.dll": {}
+        }
+      },
       "SkiaSharp/2.80.3": {
         "dependencies": {
           "System.Memory": "4.5.4"
@@ -2203,6 +2209,21 @@
           "lib/net472/VL.EditingFramework.dll": {}
         }
       },
+      "VL.Fuse/0.2.0": {
+        "compile": {
+          "lib/Fuse.dll": {}
+        }
+      },
+      "VL.FuzzySearch/0.0.3-alpha": {
+        "dependencies": {
+          "SimMetricsCore": "2.1.0"
+        }
+      },
+      "VL.HDE/2021.4.9-0971-g1d0a0c7789": {
+        "compile": {
+          "lib/net472/VL.HDE.dll": {}
+        }
+      },
       "VL.Lang/2021.4.9-0971-g1d0a0c7789": {
         "dependencies": {
           "CommandLineParser": "1.9.71",
@@ -2312,6 +2333,16 @@
           "lib/net472/VL.UI.Core.dll": {}
         }
       },
+      "VL.UI.PatchEditor.Utils/2021.4.9-0971-g1d0a0c7789": {
+        "dependencies": {
+          "VL.Lang": "2021.4.9-0971-g1d0a0c7789",
+          "VL.Skia": "2021.4.9-0971-g1d0a0c7789",
+          "VL.UI.Core": "2021.4.9-0971-g1d0a0c7789"
+        },
+        "compile": {
+          "lib/net472/VL.UI.PatchEditor.Utils.dll": {}
+        }
+      },
       "Vortice.Mathematics/1.3.3": {
         "dependencies": {
           "Microsoft.Bcl.HashCode": "1.1.1",
@@ -2375,6 +2406,49 @@
         },
         "compile": {
           "VL.EditingFramework.vl.dll": {}
+        }
+      },
+      "VL.Fuse.vl/1.0.0": {
+        "dependencies": {
+          "VL.App.WindowsForms": "2021.4.9-0971-g1d0a0c7789",
+          "VL.CoreLib.vl": "1.0.0",
+          "VL.EditingFramework.vl": "1.0.0",
+          "VL.Fuse": "0.2.0",
+          "VL.HDE.vl": "1.0.0",
+          "VL.Lang.vl": "1.0.0",
+          "VL.Skia.vl": "1.0.0",
+          "VL.Stride.Runtime.vl": "1.0.0",
+          "VL.Stride.Windows.vl": "1.0.0",
+          "VL.Stride.vl": "1.0.0"
+        },
+        "compile": {
+          "VL.Fuse.vl.dll": {}
+        }
+      },
+      "VL.FuzzySearch.vl/1.0.0": {
+        "dependencies": {
+          "VL.App.WindowsForms": "2021.4.9-0971-g1d0a0c7789",
+          "VL.CoreLib.vl": "1.0.0",
+          "VL.FuzzySearch": "0.0.3-alpha"
+        },
+        "compile": {
+          "VL.FuzzySearch.vl.dll": {}
+        }
+      },
+      "VL.HDE.vl/1.0.0": {
+        "dependencies": {
+          "VL.App.WindowsForms": "2021.4.9-0971-g1d0a0c7789",
+          "VL.CoreLib.Windows.vl": "1.0.0",
+          "VL.CoreLib.vl": "1.0.0",
+          "VL.FuzzySearch.vl": "1.0.0",
+          "VL.HDE": "2021.4.9-0971-g1d0a0c7789",
+          "VL.Lang.vl": "1.0.0",
+          "VL.Skia.vl": "1.0.0",
+          "VL.UI.Core": "2021.4.9-0971-g1d0a0c7789",
+          "VL.UI.PatchEditor.Utils": "2021.4.9-0971-g1d0a0c7789"
+        },
+        "compile": {
+          "VL.HDE.vl.dll": {}
         }
       },
       "VL.Lang.vl/1.0.0": {
@@ -2446,6 +2520,7 @@
         "dependencies": {
           "VL.App.WindowsForms": "2021.4.9-0971-g1d0a0c7789",
           "VL.CoreLib.vl": "1.0.0",
+          "VL.Fuse.vl": "1.0.0",
           "VL.Skia.vl": "1.0.0",
           "VL.Stride.vl": "1.0.0",
           "Microsoft.CSharp.Reference": "4.0.0.0",
@@ -3155,6 +3230,11 @@
         },
         "runtime": {
           "lib/net45/SharpDX.XInput.dll": {}
+        }
+      },
+      "SimMetricsCore/2.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/SimMetricsCore.dll": {}
         }
       },
       "SkiaSharp/2.80.3": {
@@ -3945,6 +4025,21 @@
           "lib/net472/VL.EditingFramework.dll": {}
         }
       },
+      "VL.Fuse/0.2.0": {
+        "runtime": {
+          "lib/Fuse.dll": {}
+        }
+      },
+      "VL.FuzzySearch/0.0.3-alpha": {
+        "dependencies": {
+          "SimMetricsCore": "2.1.0"
+        }
+      },
+      "VL.HDE/2021.4.9-0971-g1d0a0c7789": {
+        "runtime": {
+          "lib/net472/VL.HDE.dll": {}
+        }
+      },
       "VL.Lang/2021.4.9-0971-g1d0a0c7789": {
         "dependencies": {
           "CommandLineParser": "1.9.71",
@@ -4058,6 +4153,16 @@
           "lib/net472/VL.UI.Core.dll": {}
         }
       },
+      "VL.UI.PatchEditor.Utils/2021.4.9-0971-g1d0a0c7789": {
+        "dependencies": {
+          "VL.Lang": "2021.4.9-0971-g1d0a0c7789",
+          "VL.Skia": "2021.4.9-0971-g1d0a0c7789",
+          "VL.UI.Core": "2021.4.9-0971-g1d0a0c7789"
+        },
+        "runtime": {
+          "lib/net472/VL.UI.PatchEditor.Utils.dll": {}
+        }
+      },
       "Vortice.Mathematics/1.3.3": {
         "dependencies": {
           "Microsoft.Bcl.HashCode": "1.1.1",
@@ -4123,6 +4228,49 @@
           "VL.EditingFramework.vl.dll": {}
         }
       },
+      "VL.Fuse.vl/1.0.0": {
+        "dependencies": {
+          "VL.App.WindowsForms": "2021.4.9-0971-g1d0a0c7789",
+          "VL.CoreLib.vl": "1.0.0",
+          "VL.EditingFramework.vl": "1.0.0",
+          "VL.Fuse": "0.2.0",
+          "VL.HDE.vl": "1.0.0",
+          "VL.Lang.vl": "1.0.0",
+          "VL.Skia.vl": "1.0.0",
+          "VL.Stride.Runtime.vl": "1.0.0",
+          "VL.Stride.Windows.vl": "1.0.0",
+          "VL.Stride.vl": "1.0.0"
+        },
+        "runtime": {
+          "VL.Fuse.vl.dll": {}
+        }
+      },
+      "VL.FuzzySearch.vl/1.0.0": {
+        "dependencies": {
+          "VL.App.WindowsForms": "2021.4.9-0971-g1d0a0c7789",
+          "VL.CoreLib.vl": "1.0.0",
+          "VL.FuzzySearch": "0.0.3-alpha"
+        },
+        "runtime": {
+          "VL.FuzzySearch.vl.dll": {}
+        }
+      },
+      "VL.HDE.vl/1.0.0": {
+        "dependencies": {
+          "VL.App.WindowsForms": "2021.4.9-0971-g1d0a0c7789",
+          "VL.CoreLib.Windows.vl": "1.0.0",
+          "VL.CoreLib.vl": "1.0.0",
+          "VL.FuzzySearch.vl": "1.0.0",
+          "VL.HDE": "2021.4.9-0971-g1d0a0c7789",
+          "VL.Lang.vl": "1.0.0",
+          "VL.Skia.vl": "1.0.0",
+          "VL.UI.Core": "2021.4.9-0971-g1d0a0c7789",
+          "VL.UI.PatchEditor.Utils": "2021.4.9-0971-g1d0a0c7789"
+        },
+        "runtime": {
+          "VL.HDE.vl.dll": {}
+        }
+      },
       "VL.Lang.vl/1.0.0": {
         "dependencies": {
           "VL.App.WindowsForms": "2021.4.9-0971-g1d0a0c7789",
@@ -4184,6 +4332,11 @@
         },
         "runtime": {
           "VL.Stride.Windows.vl.dll": {}
+        }
+      },
+      "Gma.System.MouseKeyHook/5.6.130.0": {
+        "runtime": {
+          "Gma.System.MouseKeyHook.dll": {}
         }
       }
     }
@@ -4732,6 +4885,13 @@
       "sha512": "sha512-mH3soea+aVUaTuFrkwx+zohklDvCczcgtuTiZJbOCyS5GZ/F9se4BsRJ86xTA9baf0drXYbZQj152PN7lnjiwg==",
       "path": "sharpdx.xinput/4.2.0",
       "hashPath": "sharpdx.xinput.4.2.0.nupkg.sha512"
+    },
+    "SimMetricsCore/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v4RN45p8CiyVJynq8DvM4tRZ3GPMjfK2MPJIg2UOFyNuLBNztCp3Cz62ld5Q/R+goEmwrX065oqzWV8zEZSB9w==",
+      "path": "simmetricscore/2.1.0",
+      "hashPath": "simmetricscore.2.1.0.nupkg.sha512"
     },
     "SkiaSharp/2.80.3": {
       "type": "package",
@@ -5629,6 +5789,27 @@
       "path": "vl.editingframework/2021.4.9-0971-g1d0a0c7789",
       "hashPath": "vl.editingframework.2021.4.9-0971-g1d0a0c7789.nupkg.sha512"
     },
+    "VL.Fuse/0.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VBpv3oZgwEvGA0RHhLkfx08kVZarshVkz4pWuU5OK9OIzRtwEwijvsSL8FsU/jPdlHDmmYlLjqQinmgUMQglIw==",
+      "path": "vl.fuse/0.2.0",
+      "hashPath": "vl.fuse.0.2.0.nupkg.sha512"
+    },
+    "VL.FuzzySearch/0.0.3-alpha": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pxPPMlhN4+41xNm3bBq5rPPnKRsjKJulrjjX86SO2T+lNsSYftgyILbdoNYgxjPIY34jQ1BG7EUU1qLAtWfQVA==",
+      "path": "vl.fuzzysearch/0.0.3-alpha",
+      "hashPath": "vl.fuzzysearch.0.0.3-alpha.nupkg.sha512"
+    },
+    "VL.HDE/2021.4.9-0971-g1d0a0c7789": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zmcVFxYaqSMOOLQXIL9igdGLRmXJvpSmFr0hTCdpuS98d4nyCmjqFJ+NkslJV4GpxkDbjYgRBRAbxzNVi2Ep2g==",
+      "path": "vl.hde/2021.4.9-0971-g1d0a0c7789",
+      "hashPath": "vl.hde.2021.4.9-0971-g1d0a0c7789.nupkg.sha512"
+    },
     "VL.Lang/2021.4.9-0971-g1d0a0c7789": {
       "type": "package",
       "serviceable": true,
@@ -5685,6 +5866,13 @@
       "path": "vl.ui.core/2021.4.9-0971-g1d0a0c7789",
       "hashPath": "vl.ui.core.2021.4.9-0971-g1d0a0c7789.nupkg.sha512"
     },
+    "VL.UI.PatchEditor.Utils/2021.4.9-0971-g1d0a0c7789": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CqP7qeWkjoA2bYLVug8J2wBgHT2NeFHrO+SqxhzlXXIvUdfhjYicYA3kCUqapr7W/DvmoeI3fFsy94OsLYfVxw==",
+      "path": "vl.ui.patcheditor.utils/2021.4.9-0971-g1d0a0c7789",
+      "hashPath": "vl.ui.patcheditor.utils.2021.4.9-0971-g1d0a0c7789.nupkg.sha512"
+    },
     "Vortice.Mathematics/1.3.3": {
       "type": "package",
       "serviceable": true,
@@ -5728,6 +5916,21 @@
       "serviceable": false,
       "sha512": ""
     },
+    "VL.Fuse.vl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VL.FuzzySearch.vl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VL.HDE.vl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "VL.Lang.vl/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -5750,6 +5953,11 @@
     },
     "VL.Stride.Windows.vl/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Gma.System.MouseKeyHook/5.6.130.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     },

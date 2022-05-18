@@ -1,46 +1,46 @@
-﻿extern alias e5;
+﻿extern alias e2;
 
-using n6 = e5::VL.Core.CompilerServices;
-using n11 = global::System.Collections.Generic;
-using n1 = e5::VL.Core;
+using n9 = global::System.Collections.Generic;
+using n4 = e2::VL.Lib.Basics.Imaging;
+using n2 = e2::VL.Core;
 using n3 = global::System;
-using n8 = _VL_Imaging_.Graphics.Imaging;
-using n4 = e5::VL.Lib.Basics.Imaging;
-using n9 = global::System.Runtime.CompilerServices;
-using n10 = global::System.IO;
+using n5 = _VL_Imaging_.Graphics.Imaging;
+using n6 = e2::VL.Core.CompilerServices;
+using n7 = global::System.Runtime.CompilerServices;
+using n8 = global::System.IO;
 
 namespace _VL_Imaging_.Graphics.Imaging
 {
-    [n1.ElementAttribute(TracingId = 198684U, DocumentId = "AZFkohqeJbMMvWBi7VBs4X", PersistentId = "ACmZxixKsJiLhKAJgd78rl", Name = "VL_ImagingApplication_ACmZxixKsJiLhKAJgd78rl")]
+    [n2.ElementAttribute(TracingId = 96306U, DocumentId = "AZFkohqeJbMMvWBi7VBs4X", PersistentId = "ACmZxixKsJiLhKAJgd78rl", Name = "VL_ImagingApplication_ACmZxixKsJiLhKAJgd78rl")]
     [n3.SerializableAttribute]
-    public class VL_ImagingApplication_ACmZxixKsJiLhKAJgd78rl : n1.VLObject, n3.IDisposable
+    public class VL_ImagingApplication_ACmZxixKsJiLhKAJgd78rl : n2.VLObject, n3.IDisposable
     {
         [n6.CreateNewAttribute]
-        public static n8.VL_ImagingApplication_ACmZxixKsJiLhKAJgd78rl Create(n1.NodeContext Node_Context)
+        public static n5.VL_ImagingApplication_ACmZxixKsJiLhKAJgd78rl Create(n2.NodeContext Node_Context)
         {
-            var instance = new VL_ImagingApplication_ACmZxixKsJiLhKAJgd78rl(Node_Context, n1.VLObject.NewIdentity());
+            var instance = new VL_ImagingApplication_ACmZxixKsJiLhKAJgd78rl(Node_Context, n2.VLObject.NewIdentity());
             return instance.__Create__(Node_Context);
         }
 
         [n6.CreateDefaultAttribute]
-        public static n8.VL_ImagingApplication_ACmZxixKsJiLhKAJgd78rl CreateDefault()
+        public static n5.VL_ImagingApplication_ACmZxixKsJiLhKAJgd78rl CreateDefault()
         {
-            var instance = new VL_ImagingApplication_ACmZxixKsJiLhKAJgd78rl(n1.NodeContext.Default, n1.VLObject.NewIdentity());
+            var instance = new VL_ImagingApplication_ACmZxixKsJiLhKAJgd78rl(n2.NodeContext.Default, n2.VLObject.NewIdentity());
             return instance.__CreateDefault__();
         }
 
-        public n8.VL_ImagingApplication_ACmZxixKsJiLhKAJgd78rl Update()
+        public n5.VL_ImagingApplication_ACmZxixKsJiLhKAJgd78rl Update()
         {
             return this;
         }
 
-        public n8.VL_ImagingApplication_ACmZxixKsJiLhKAJgd78rl __Create__(n1.NodeContext Node_Context)
+        public n5.VL_ImagingApplication_ACmZxixKsJiLhKAJgd78rl __Create__(n2.NodeContext Node_Context)
         {
-            n9.RuntimeHelpers.EnsureSufficientExecutionStack();
+            n7.RuntimeHelpers.EnsureSufficientExecutionStack();
             return this;
         }
 
-        public n8.VL_ImagingApplication_ACmZxixKsJiLhKAJgd78rl __CreateDefault__()
+        public n5.VL_ImagingApplication_ACmZxixKsJiLhKAJgd78rl __CreateDefault__()
         {
             return this;
         }
@@ -56,7 +56,7 @@ namespace _VL_Imaging_.Graphics.Imaging
             Dispose();
         }
 
-        public VL_ImagingApplication_ACmZxixKsJiLhKAJgd78rl(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
+        public VL_ImagingApplication_ACmZxixKsJiLhKAJgd78rl(n2.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
         }
 
@@ -64,7 +64,7 @@ namespace _VL_Imaging_.Graphics.Imaging
         {
         }
 
-        protected override n1.IVLObject __With__(n11.IReadOnlyDictionary<string, n3.Object> values)
+        protected override n2.IVLObject __With__(n9.IReadOnlyDictionary<string, n3.Object> values)
         {
             return __WITH__();
         }
@@ -78,7 +78,7 @@ namespace _VL_Imaging_.Graphics.Imaging
 
 namespace _VL_Imaging_.Graphics.Imaging.Image
 {
-    [n1.ElementAttribute(TracingId = 198379U, DocumentId = "AZFkohqeJbMMvWBi7VBs4X", Name = "_Operations_")]
+    [n2.ElementAttribute(TracingId = 96094U, DocumentId = "AZFkohqeJbMMvWBi7VBs4X", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n6.CreateDefaultAttribute]
@@ -102,7 +102,7 @@ namespace _VL_Imaging_.Graphics.Imaging.Image
             return;
         }
 
-        public static void ToStream(n4.IImage Input_In, out n10.Stream Result_Out)
+        public static void ToStream(n4.IImage Input_In, out n8.Stream Result_Out)
         {
             var Result_0 = n4.ImageExtensions.ToStream(image: Input_In);
             Result_Out = Result_0;
@@ -113,7 +113,7 @@ namespace _VL_Imaging_.Graphics.Imaging.Image
 
 namespace _VL_Imaging_.Graphics.Imaging.ArrayImage.Advanced
 {
-    [n1.ElementAttribute(TracingId = 198379U, DocumentId = "AZFkohqeJbMMvWBi7VBs4X", Name = "_Operations_")]
+    [n2.ElementAttribute(TracingId = 96094U, DocumentId = "AZFkohqeJbMMvWBi7VBs4X", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n6.CreateDefaultAttribute]
@@ -128,11 +128,11 @@ namespace _VL_Imaging_.Graphics.Imaging.ArrayImage.Advanced
 
 namespace _VL_Imaging_.Graphics.Imaging.HoldLatestCopy.Advanced
 {
-    [n1.ElementAttribute(TracingId = 198379U, DocumentId = "AZFkohqeJbMMvWBi7VBs4X", Name = "_Operations_")]
+    [n2.ElementAttribute(TracingId = 96094U, DocumentId = "AZFkohqeJbMMvWBi7VBs4X", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n6.CreateNewAttribute]
-        public static void Create(n1.NodeContext Node_Context, n4.IImage Initial_Result_In, out n4.HoldLatestCopy Output_Out)
+        public static void Create(n2.NodeContext Node_Context, n4.IImage Initial_Result_In, out n4.HoldLatestCopy Output_Out)
         {
             var Output_0 = new n4.HoldLatestCopy(initialResult: Initial_Result_In);
             Output_Out = Output_0;

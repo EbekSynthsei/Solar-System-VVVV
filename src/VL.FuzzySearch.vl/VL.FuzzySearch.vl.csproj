@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <PreserveCompilationContext>true</PreserveCompilationContext>
+    <RestoreIgnoreFailedSources>true</RestoreIgnoreFailedSources>
+    <SatelliteResourceLanguages>en-US</SatelliteResourceLanguages>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>None</DebugType>
+    <AllowedReferenceRelatedFileExtensions>None</AllowedReferenceRelatedFileExtensions>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VL.CoreLib.vl\VL.CoreLib.vl.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="VL.App.WindowsForms">
+      <Version>2021.4.9-0971-g1d0a0c7789</Version>
+    </PackageReference>
+    <PackageReference Include="VL.FuzzySearch">
+      <Version>0.0.3-alpha</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" HintPath="C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll" />
+    <Reference Include="System.Core" HintPath="C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll" />
+  </ItemGroup>
+  <Target Name="AddAliases" BeforeTargets="ResolveReferences">
+    <ItemGroup>
+      <ReferencePath Condition="'%(FileName)'=='VL.Core'" Aliases="e2" />
+      <ReferencePath Condition="'%(FileName)'=='VL.App.WindowsForms'" Aliases="e70" />
+      <ReferencePath Condition="'%(FileName)'=='SimMetricsCore'" Aliases="e20" />
+      <ReferencePath Condition="'%(FileName)'=='VL.CoreLib'" Aliases="e3" />
+    </ItemGroup>
+  </Target>
+</Project>

@@ -1,40 +1,40 @@
-﻿extern alias e31;
+﻿extern alias e24;
+extern alias e31;
+extern alias e3;
 extern alias e2;
-extern alias e40;
-extern alias e24;
-extern alias e5;
-extern alias e1;
+extern alias e36;
+extern alias e4;
 
-using n31 = e2::VL.Lib.Primitive;
+using n8 = e2::VL.Lib.Collections;
+using n26 = e3::VL.Lib.Primitive.CacheRegion;
 using n25 = _CoreLibBasics_.Primitive.Object.Advanced;
 using n24 = _CoreLibBasics_.Control;
-using n17 = e40::VL.Stride.Utils;
 using n30 = _VL_Stride_Input_.Stride;
-using n14 = e2::VL.Lib.Mathematics;
 using n3 = _VL_Stride_Input_.Stride.Input.Experimental;
-using n7 = e31::Stride.Input;
-using n6 = e2::VL.Lib.Primitive.Object;
-using n4 = e5::VL.Core.CompilerServices;
+using n27 = e31::VL.Stride;
 using n23 = global::System.Collections.Generic;
 using n10 = _CoreLibBasics_._2D.Vector2;
-using n5 = e1::Stride.Core.Mathematics;
+using n7 = e36::Stride.Input;
 using n13 = _CoreLibBasics_.Math.Generic;
 using n33 = _CoreLibBasics_.Math.Adaptive;
 using n16 = _VL_Stride_Runtime_TypeForwards_.Stride.API.Engine.Entity.Advanced;
+using n28 = e2::VL.Lib.Basics.Resources;
 using n34 = _CoreLibBasics_.Primitive.Advanced.Adaptive;
-using n19 = e40::VL.Stride.Input;
-using n26 = e2::VL.Lib.Primitive.CacheRegion;
+using n17 = e31::VL.Stride.Utils;
+using n31 = e3::VL.Lib.Primitive;
 using n12 = _CoreLibBasics_.Math.Ranges.Generic.Advanced;
-using n27 = e40::VL.Stride;
 using n15 = e24::Stride.Engine;
-using n1 = e5::VL.Core;
-using n28 = e5::VL.Lib.Basics.Resources;
+using n14 = e3::VL.Lib.Mathematics;
+using n1 = e2::VL.Core;
 using n2 = global::System;
 using n9 = _VL_Stride_Input_.Stride.Input;
+using n5 = e4::Stride.Core.Mathematics;
+using n6 = e3::VL.Lib.Primitive.Object;
+using n19 = e31::VL.Stride.Input;
+using n4 = e2::VL.Core.CompilerServices;
 using n11 = _VL_Stride_Input_;
 using n21 = global::System.Runtime.CompilerServices;
 using n22 = _CoreLibBasics_._3D.Plane;
-using n8 = e5::VL.Lib.Collections;
 using n20 = _VL_Collections_.Collections.Spread;
 using n29 = _CoreLibBasics_.System.Resources.Advanced;
 using n32 = _CoreLibBasics_.Primitive.Advanced;
@@ -42,7 +42,7 @@ using n18 = _CoreLibBasics_._3D.Vector3;
 
 namespace _VL_Stride_Input_.Stride.Input.Experimental
 {
-    [n1.ElementAttribute(TracingId = 105926U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "NVfomf0AapPPGXo2RcefKg", Name = "SplitMouseDevice_NVfomf0AapPPGXo2RcefKg")]
+    [n1.ElementAttribute(TracingId = 25081U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "NVfomf0AapPPGXo2RcefKg", Name = "SplitMouseDevice_NVfomf0AapPPGXo2RcefKg")]
     [n2.SerializableAttribute]
     public class SplitMouseDevice_NVfomf0AapPPGXo2RcefKg : n1.VLObject, n2.IDisposable
     {
@@ -86,7 +86,7 @@ namespace _VL_Stride_Input_.Stride.Input.Experimental
                 {
                     state_18 = new __EytyPwxhy4mNiz5cwbHbJN(__GetContext__(), n1.VLObject.NewIdentity())
                     {__cp_IfWsiidGJykMnXhF1xbZH6 = n20._Operations_.CreateDefault<n7.InputEvent>()};
-                    n1.NodeContext Node_Context_19 = __GetContext__().CreateSubContext("HWRqGEFJG2aNE9pYb5Pg0w", "L9oKcFOwokzPfHAUPgKTVj", 105970U);
+                    n1.NodeContext Node_Context_19 = __GetContext__().CreateSubContext("HWRqGEFJG2aNE9pYb5Pg0w", "L9oKcFOwokzPfHAUPgKTVj", 28344U);
                     var Output_20 = n9.InputManager_Kjh3JSc0Ar8NuzCAA1cRfY.Create(Node_Context_In: Node_Context_19);
                     state_18.__p_L9oKcFOwokzPfHAUPgKTVj = Output_20;
                 }
@@ -260,17 +260,17 @@ namespace _VL_Stride_Input_.Stride.Input.Experimental
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 106211U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "FsWX8DkOUxwPKyY0Cg5qfq", Name = "__slot_FsWX8DkOUxwPKyY0Cg5qfq")]
+        [n1.ElementAttribute(TracingId = 34100U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "FsWX8DkOUxwPKyY0Cg5qfq", Name = "__slot_FsWX8DkOUxwPKyY0Cg5qfq")]
         public n5.Plane __slot_FsWX8DkOUxwPKyY0Cg5qfq;
-        [n1.ElementAttribute(TracingId = 105961U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "PQYIAZl25UNLedW2sX0USI", Name = "__slot_PQYIAZl25UNLedW2sX0USI")]
+        [n1.ElementAttribute(TracingId = 28309U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "PQYIAZl25UNLedW2sX0USI", Name = "__slot_PQYIAZl25UNLedW2sX0USI")]
         public static n7.MouseButton __slot_PQYIAZl25UNLedW2sX0USI = n1.CompilationHelper.Deserialize<n7.MouseButton>("Left", false, "HWRqGEFJG2aNE9pYb5Pg0w", "PQYIAZl25UNLedW2sX0USI");
-        [n1.ElementAttribute(TracingId = 105977U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "PUZpoETaYnWLOZRqiBFjG7", Name = "__slot_PUZpoETaYnWLOZRqiBFjG7")]
+        [n1.ElementAttribute(TracingId = 28366U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "PUZpoETaYnWLOZRqiBFjG7", Name = "__slot_PUZpoETaYnWLOZRqiBFjG7")]
         public static n7.MouseButton __slot_PUZpoETaYnWLOZRqiBFjG7 = n1.CompilationHelper.Deserialize<n7.MouseButton>("Middle", false, "HWRqGEFJG2aNE9pYb5Pg0w", "PUZpoETaYnWLOZRqiBFjG7");
-        [n1.ElementAttribute(TracingId = 105983U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "HViVtoX1iJMPy3Ti3tUgxw", Name = "__slot_HViVtoX1iJMPy3Ti3tUgxw")]
+        [n1.ElementAttribute(TracingId = 28392U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "HViVtoX1iJMPy3Ti3tUgxw", Name = "__slot_HViVtoX1iJMPy3Ti3tUgxw")]
         public static n7.MouseButton __slot_HViVtoX1iJMPy3Ti3tUgxw = n1.CompilationHelper.Deserialize<n7.MouseButton>("Right", false, "HWRqGEFJG2aNE9pYb5Pg0w", "HViVtoX1iJMPy3Ti3tUgxw");
-        [n1.ElementAttribute(TracingId = 105989U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "BbHJGhBilkjM8R7pQm1o1R", Name = "__slot_BbHJGhBilkjM8R7pQm1o1R")]
+        [n1.ElementAttribute(TracingId = 28415U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "BbHJGhBilkjM8R7pQm1o1R", Name = "__slot_BbHJGhBilkjM8R7pQm1o1R")]
         public static n7.MouseButton __slot_BbHJGhBilkjM8R7pQm1o1R = n1.CompilationHelper.Deserialize<n7.MouseButton>("Extended1", false, "HWRqGEFJG2aNE9pYb5Pg0w", "BbHJGhBilkjM8R7pQm1o1R");
-        [n1.ElementAttribute(TracingId = 105995U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "BIgUCnlRGLcMY9WN2Y9uz0", Name = "__slot_BIgUCnlRGLcMY9WN2Y9uz0")]
+        [n1.ElementAttribute(TracingId = 28438U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "BIgUCnlRGLcMY9WN2Y9uz0", Name = "__slot_BIgUCnlRGLcMY9WN2Y9uz0")]
         public static n7.MouseButton __slot_BIgUCnlRGLcMY9WN2Y9uz0 = n1.CompilationHelper.Deserialize<n7.MouseButton>("Extended2", false, "HWRqGEFJG2aNE9pYb5Pg0w", "BIgUCnlRGLcMY9WN2Y9uz0");
         [n1.ElementAttribute(IsAutoGenerated = true)]
         public static n5.Vector2 __c_I8zaiM9a5WMNIKkI3LzF0D = n1.CompilationHelper.Deserialize<n5.Vector2>("1, 1", false, "HWRqGEFJG2aNE9pYb5Pg0w", "I8zaiM9a5WMNIKkI3LzF0D");
@@ -328,7 +328,7 @@ namespace _VL_Stride_Input_.Stride.Input.Experimental
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 105970U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "L9oKcFOwokzPfHAUPgKTVj", Name = "InputManager", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 28344U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "L9oKcFOwokzPfHAUPgKTVj", Name = "InputManager", IsManaged = true, IsAutoGenerated = true)]
             public n9.InputManager_Kjh3JSc0Ar8NuzCAA1cRfY __p_L9oKcFOwokzPfHAUPgKTVj;
             [n1.ElementAttribute(IsAutoGenerated = true)]
             public n8.Spread<n7.InputEvent> __cp_IfWsiidGJykMnXhF1xbZH6;
@@ -364,7 +364,7 @@ namespace _VL_Stride_Input_.Stride.Input.Experimental
         }
     }
 
-    [n1.ElementAttribute(TracingId = 106459U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "C9I4Tf7vqndMjqbnDwNSEh", Name = "SplitPointerDevice_C9I4Tf7vqndMjqbnDwNSEh")]
+    [n1.ElementAttribute(TracingId = 35816U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "C9I4Tf7vqndMjqbnDwNSEh", Name = "SplitPointerDevice_C9I4Tf7vqndMjqbnDwNSEh")]
     [n2.SerializableAttribute]
     public class SplitPointerDevice_C9I4Tf7vqndMjqbnDwNSEh : n1.VLObject, n2.IDisposable
     {
@@ -398,7 +398,7 @@ namespace _VL_Stride_Input_.Stride.Input.Experimental
                 {
                     state_8 = new __HoHYgTBfjUwQCw1aOts3t2(__GetContext__(), n1.VLObject.NewIdentity())
                     {__cp_NVVCegN2CTLNMF7owLwF7H = n20._Operations_.CreateDefault<n7.InputEvent>()};
-                    n1.NodeContext Node_Context_9 = __GetContext__().CreateSubContext("HWRqGEFJG2aNE9pYb5Pg0w", "KgsJCSQS0eJLcz4W3iyGSp", 106603U);
+                    n1.NodeContext Node_Context_9 = __GetContext__().CreateSubContext("HWRqGEFJG2aNE9pYb5Pg0w", "KgsJCSQS0eJLcz4W3iyGSp", 35938U);
                     var Output_10 = n9.InputManager_Kjh3JSc0Ar8NuzCAA1cRfY.Create(Node_Context_In: Node_Context_9);
                     state_8.__p_KgsJCSQS0eJLcz4W3iyGSp = Output_10;
                 }
@@ -550,7 +550,7 @@ namespace _VL_Stride_Input_.Stride.Input.Experimental
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 106603U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "KgsJCSQS0eJLcz4W3iyGSp", Name = "InputManager", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 35938U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "KgsJCSQS0eJLcz4W3iyGSp", Name = "InputManager", IsManaged = true, IsAutoGenerated = true)]
             public n9.InputManager_Kjh3JSc0Ar8NuzCAA1cRfY __p_KgsJCSQS0eJLcz4W3iyGSp;
             [n1.ElementAttribute(IsAutoGenerated = true)]
             public n8.Spread<n7.InputEvent> __cp_NVVCegN2CTLNMF7owLwF7H;
@@ -586,7 +586,7 @@ namespace _VL_Stride_Input_.Stride.Input.Experimental
         }
     }
 
-    [n1.ElementAttribute(TracingId = 106778U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "GosMewfqmjVMGGYfpPxHZ9", Name = "SplitKeyboardDevice_GosMewfqmjVMGGYfpPxHZ9")]
+    [n1.ElementAttribute(TracingId = 37123U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "GosMewfqmjVMGGYfpPxHZ9", Name = "SplitKeyboardDevice_GosMewfqmjVMGGYfpPxHZ9")]
     [n2.SerializableAttribute]
     public class SplitKeyboardDevice_GosMewfqmjVMGGYfpPxHZ9 : n1.VLObject, n2.IDisposable
     {
@@ -625,10 +625,10 @@ namespace _VL_Stride_Input_.Stride.Input.Experimental
                 {
                     state_12 = new __Dxm2MuJVTLjNmZzxdoUlep(__GetContext__(), n1.VLObject.NewIdentity())
                     {__cp_IUSWfIBGWiQNwxUNiWz5qH = n20._Operations_.CreateDefault<n7.InputEvent>()};
-                    n1.NodeContext Node_Context_13 = __GetContext__().CreateSubContext("HWRqGEFJG2aNE9pYb5Pg0w", "TyYdd7RL621OIZxEtDAU4t", 106804U);
+                    n1.NodeContext Node_Context_13 = __GetContext__().CreateSubContext("HWRqGEFJG2aNE9pYb5Pg0w", "TyYdd7RL621OIZxEtDAU4t", 37152U);
                     var Output_14 = n9.InputManager_Kjh3JSc0Ar8NuzCAA1cRfY.Create(Node_Context_In: Node_Context_13);
                     state_12.__p_TyYdd7RL621OIZxEtDAU4t = Output_14;
-                    n1.NodeContext Node_Context_15 = __GetContext__().CreateSubContext("HWRqGEFJG2aNE9pYb5Pg0w", "KJZpmULMuoVN50ieSwpdLR", 106981U);
+                    n1.NodeContext Node_Context_15 = __GetContext__().CreateSubContext("HWRqGEFJG2aNE9pYb5Pg0w", "KJZpmULMuoVN50ieSwpdLR", 37496U);
                     var Output_16 = n24.TogEdge_GJoUlOOEtqiM4g67HVecyr.Create(Node_Context: Node_Context_15);
                     state_12.__p_KJZpmULMuoVN50ieSwpdLR = Output_16;
                 }
@@ -748,17 +748,17 @@ namespace _VL_Stride_Input_.Stride.Input.Experimental
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 106856U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "MkgAKIMLjPuOW6EwONFtz6", Name = "__slot_MkgAKIMLjPuOW6EwONFtz6")]
+        [n1.ElementAttribute(TracingId = 37277U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "MkgAKIMLjPuOW6EwONFtz6", Name = "__slot_MkgAKIMLjPuOW6EwONFtz6")]
         public static n7.Keys __slot_MkgAKIMLjPuOW6EwONFtz6 = n1.CompilationHelper.Deserialize<n7.Keys>("LeftShift", false, "HWRqGEFJG2aNE9pYb5Pg0w", "MkgAKIMLjPuOW6EwONFtz6");
-        [n1.ElementAttribute(TracingId = 106870U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "NwBArZ0CxLJLgDFLLYa8Fr", Name = "__slot_NwBArZ0CxLJLgDFLLYa8Fr")]
+        [n1.ElementAttribute(TracingId = 37307U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "NwBArZ0CxLJLgDFLLYa8Fr", Name = "__slot_NwBArZ0CxLJLgDFLLYa8Fr")]
         public static n7.Keys __slot_NwBArZ0CxLJLgDFLLYa8Fr = n1.CompilationHelper.Deserialize<n7.Keys>("RightShift", false, "HWRqGEFJG2aNE9pYb5Pg0w", "NwBArZ0CxLJLgDFLLYa8Fr");
-        [n1.ElementAttribute(TracingId = 106899U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "KcxN43IqQA9NM0wR2u3b8i", Name = "__slot_KcxN43IqQA9NM0wR2u3b8i")]
+        [n1.ElementAttribute(TracingId = 37355U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "KcxN43IqQA9NM0wR2u3b8i", Name = "__slot_KcxN43IqQA9NM0wR2u3b8i")]
         public static n7.Keys __slot_KcxN43IqQA9NM0wR2u3b8i = n1.CompilationHelper.Deserialize<n7.Keys>("LeftAlt", false, "HWRqGEFJG2aNE9pYb5Pg0w", "KcxN43IqQA9NM0wR2u3b8i");
-        [n1.ElementAttribute(TracingId = 106919U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "JaXqDRkwKXqPfCQs5uAfWz", Name = "__slot_JaXqDRkwKXqPfCQs5uAfWz")]
+        [n1.ElementAttribute(TracingId = 37382U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "JaXqDRkwKXqPfCQs5uAfWz", Name = "__slot_JaXqDRkwKXqPfCQs5uAfWz")]
         public static n7.Keys __slot_JaXqDRkwKXqPfCQs5uAfWz = n1.CompilationHelper.Deserialize<n7.Keys>("RightAlt", false, "HWRqGEFJG2aNE9pYb5Pg0w", "JaXqDRkwKXqPfCQs5uAfWz");
-        [n1.ElementAttribute(TracingId = 106946U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "B2IF9k3B9sJNrvk8lUpZXJ", Name = "__slot_B2IF9k3B9sJNrvk8lUpZXJ")]
+        [n1.ElementAttribute(TracingId = 37425U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "B2IF9k3B9sJNrvk8lUpZXJ", Name = "__slot_B2IF9k3B9sJNrvk8lUpZXJ")]
         public static n7.Keys __slot_B2IF9k3B9sJNrvk8lUpZXJ = n1.CompilationHelper.Deserialize<n7.Keys>("LeftCtrl", false, "HWRqGEFJG2aNE9pYb5Pg0w", "B2IF9k3B9sJNrvk8lUpZXJ");
-        [n1.ElementAttribute(TracingId = 106958U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "DozINgyn4Z1MVFmRoc9uih", Name = "__slot_DozINgyn4Z1MVFmRoc9uih")]
+        [n1.ElementAttribute(TracingId = 37455U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "DozINgyn4Z1MVFmRoc9uih", Name = "__slot_DozINgyn4Z1MVFmRoc9uih")]
         public static n7.Keys __slot_DozINgyn4Z1MVFmRoc9uih = n1.CompilationHelper.Deserialize<n7.Keys>("RightCtrl", false, "HWRqGEFJG2aNE9pYb5Pg0w", "DozINgyn4Z1MVFmRoc9uih");
         [n1.ElementAttribute(IsManaged = true, IsAutoGenerated = true)]
         public n2.Object __if_Il94o2h6xYwQJOibMKkdQK;
@@ -805,9 +805,9 @@ namespace _VL_Stride_Input_.Stride.Input.Experimental
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 106804U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "TyYdd7RL621OIZxEtDAU4t", Name = "InputManager", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 37152U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "TyYdd7RL621OIZxEtDAU4t", Name = "InputManager", IsManaged = true, IsAutoGenerated = true)]
             public n9.InputManager_Kjh3JSc0Ar8NuzCAA1cRfY __p_TyYdd7RL621OIZxEtDAU4t;
-            [n1.ElementAttribute(TracingId = 106981U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "KJZpmULMuoVN50ieSwpdLR", Name = "TogEdge", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 37496U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "KJZpmULMuoVN50ieSwpdLR", Name = "TogEdge", IsManaged = true, IsAutoGenerated = true)]
             public n24.TogEdge_GJoUlOOEtqiM4g67HVecyr __p_KJZpmULMuoVN50ieSwpdLR;
             [n1.ElementAttribute(IsAutoGenerated = true)]
             public n8.Spread<n7.InputEvent> __cp_IUSWfIBGWiQNwxUNiWz5qH;
@@ -845,7 +845,7 @@ namespace _VL_Stride_Input_.Stride.Input.Experimental
         }
     }
 
-    [n1.ElementAttribute(TracingId = 107117U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "MufeYmyN8J2MXc7TXSZ9Wd", Name = "GetDevices_MufeYmyN8J2MXc7TXSZ9Wd")]
+    [n1.ElementAttribute(TracingId = 37764U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "MufeYmyN8J2MXc7TXSZ9Wd", Name = "GetDevices_MufeYmyN8J2MXc7TXSZ9Wd")]
     [n2.SerializableAttribute]
     public class GetDevices_MufeYmyN8J2MXc7TXSZ9Wd : n1.VLObject, n2.IDisposable
     {
@@ -932,7 +932,7 @@ namespace _VL_Stride_Input_.Stride.Input.Experimental
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 107120U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "OHma8CbuSUoLWkAmXFPJR5", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 37774U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "OHma8CbuSUoLWkAmXFPJR5", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
         public n26.Manager<n2.ValueTuple<n7.IInputSource>, n2.ValueTuple<n7.IMouseDevice, n7.IKeyboardDevice, n7.IPointerDevice>> __cache_OHma8CbuSUoLWkAmXFPJR5 = null;
         public GetDevices_MufeYmyN8J2MXc7TXSZ9Wd(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -966,7 +966,7 @@ namespace _VL_Stride_Input_.Stride.Input.Experimental
 
 namespace _VL_Stride_Input_.Stride.Input
 {
-    [n1.ElementAttribute(TracingId = 107195U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "IWmuveU8U4IMQpEBd6QWqE", Name = "KeyPressed_IWmuveU8U4IMQpEBd6QWqE")]
+    [n1.ElementAttribute(TracingId = 37936U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "IWmuveU8U4IMQpEBd6QWqE", Name = "KeyPressed_IWmuveU8U4IMQpEBd6QWqE")]
     [n2.SerializableAttribute]
     public class KeyPressed_IWmuveU8U4IMQpEBd6QWqE : n1.VLObject, n2.IDisposable
     {
@@ -1032,7 +1032,7 @@ namespace _VL_Stride_Input_.Stride.Input
         }
     }
 
-    [n1.ElementAttribute(TracingId = 107241U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "OmYnj7TSQvtQcPyOpDWlmU", Name = "KeyBang_OmYnj7TSQvtQcPyOpDWlmU")]
+    [n1.ElementAttribute(TracingId = 38026U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "OmYnj7TSQvtQcPyOpDWlmU", Name = "KeyBang_OmYnj7TSQvtQcPyOpDWlmU")]
     [n2.SerializableAttribute]
     public class KeyBang_OmYnj7TSQvtQcPyOpDWlmU : n1.VLObject, n2.IDisposable
     {
@@ -1098,7 +1098,7 @@ namespace _VL_Stride_Input_.Stride.Input
         }
     }
 
-    [n1.ElementAttribute(TracingId = 107290U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "PfPeAb7UbqCLenbJvauz2a", Name = "KeyToggle_PfPeAb7UbqCLenbJvauz2a")]
+    [n1.ElementAttribute(TracingId = 38103U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "PfPeAb7UbqCLenbJvauz2a", Name = "KeyToggle_PfPeAb7UbqCLenbJvauz2a")]
     [n2.SerializableAttribute]
     public class KeyToggle_PfPeAb7UbqCLenbJvauz2a : n1.VLObject, n2.IDisposable
     {
@@ -1150,9 +1150,9 @@ namespace _VL_Stride_Input_.Stride.Input
         public n9.KeyToggle_PfPeAb7UbqCLenbJvauz2a __Create__(n1.NodeContext Node_Context)
         {
             n21.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("HWRqGEFJG2aNE9pYb5Pg0w", "DsL9kikSDaEMDkQ69LqJ8W", 107310U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("HWRqGEFJG2aNE9pYb5Pg0w", "DsL9kikSDaEMDkQ69LqJ8W", 38143U);
             var Output_1 = n24.Toggle_NRtjXBFlZv8LkW1dAEOgnz.Create(Node_Context: Node_Context_0);
-            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("HWRqGEFJG2aNE9pYb5Pg0w", "VqujafEWVqZLDxyofafIGe", 107317U);
+            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("HWRqGEFJG2aNE9pYb5Pg0w", "VqujafEWVqZLDxyofafIGe", 38166U);
             var Output_3 = n24.TogEdge_GJoUlOOEtqiM4g67HVecyr.Create(Node_Context: Node_Context_2);
             n9.KeyToggle_PfPeAb7UbqCLenbJvauz2a that_4 = this;
             this.__p_DsL9kikSDaEMDkQ69LqJ8W = Output_1;
@@ -1181,9 +1181,9 @@ namespace _VL_Stride_Input_.Stride.Input
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 107317U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "VqujafEWVqZLDxyofafIGe", Name = "TogEdge", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 38166U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "VqujafEWVqZLDxyofafIGe", Name = "TogEdge", IsManaged = true, IsAutoGenerated = true)]
         public n24.TogEdge_GJoUlOOEtqiM4g67HVecyr __p_VqujafEWVqZLDxyofafIGe;
-        [n1.ElementAttribute(TracingId = 107310U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "DsL9kikSDaEMDkQ69LqJ8W", Name = "Toggle", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 38143U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "DsL9kikSDaEMDkQ69LqJ8W", Name = "Toggle", IsManaged = true, IsAutoGenerated = true)]
         public n24.Toggle_NRtjXBFlZv8LkW1dAEOgnz __p_DsL9kikSDaEMDkQ69LqJ8W;
         public KeyToggle_PfPeAb7UbqCLenbJvauz2a(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -1216,7 +1216,7 @@ namespace _VL_Stride_Input_.Stride.Input
         }
     }
 
-    [n1.ElementAttribute(TracingId = 107353U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "Kjh3JSc0Ar8NuzCAA1cRfY", Name = "InputManager_Kjh3JSc0Ar8NuzCAA1cRfY")]
+    [n1.ElementAttribute(TracingId = 38258U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "Kjh3JSc0Ar8NuzCAA1cRfY", Name = "InputManager_Kjh3JSc0Ar8NuzCAA1cRfY")]
     [n2.SerializableAttribute]
     public class InputManager_Kjh3JSc0Ar8NuzCAA1cRfY : n1.VLObject, n2.IDisposable
     {
@@ -1254,7 +1254,7 @@ namespace _VL_Stride_Input_.Stride.Input
         {
             n21.RuntimeHelpers.EnsureSufficientExecutionStack();
             var Result_0 = n27.Resources.GetInputManagerProvider(nodeContext: Node_Context_In);
-            n1.NodeContext Node_Context_1 = Node_Context_In.CreateSubContext("HWRqGEFJG2aNE9pYb5Pg0w", "AqVutD2yB4BP60NcDHINMn", 107356U);
+            n1.NodeContext Node_Context_1 = Node_Context_In.CreateSubContext("HWRqGEFJG2aNE9pYb5Pg0w", "AqVutD2yB4BP60NcDHINMn", 38264U);
             var Output_2 = n29.Using_Process_MCPOIRh2AQkOT4VzsU5rcr<n28.IResourceProvider<n7.InputManager>, n7.InputManager>.Create(Node_Context: Node_Context_1);
             bool Update_3 = true;
             var Output_4 = Output_2;
@@ -1287,7 +1287,7 @@ namespace _VL_Stride_Input_.Stride.Input
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 107356U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "AqVutD2yB4BP60NcDHINMn", Name = "Using (Process)", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 38264U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "AqVutD2yB4BP60NcDHINMn", Name = "Using (Process)", IsManaged = true, IsAutoGenerated = true)]
         public n29.Using_Process_MCPOIRh2AQkOT4VzsU5rcr<n28.IResourceProvider<n7.InputManager>, n7.InputManager> __p_AqVutD2yB4BP60NcDHINMn;
         public InputManager_Kjh3JSc0Ar8NuzCAA1cRfY(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -1321,7 +1321,7 @@ namespace _VL_Stride_Input_.Stride.Input
 
 namespace _VL_Stride_Input_.Stride
 {
-    [n1.ElementAttribute(TracingId = 107376U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "BSneHN3QLQkPrrLFzrpYh2", Name = "VL_Stride_InputApplication_BSneHN3QLQkPrrLFzrpYh2")]
+    [n1.ElementAttribute(TracingId = 38329U, DocumentId = "HWRqGEFJG2aNE9pYb5Pg0w", PersistentId = "BSneHN3QLQkPrrLFzrpYh2", Name = "VL_Stride_InputApplication_BSneHN3QLQkPrrLFzrpYh2")]
     [n2.SerializableAttribute]
     public class VL_Stride_InputApplication_BSneHN3QLQkPrrLFzrpYh2 : n1.VLObject, n2.IDisposable
     {
@@ -1388,11 +1388,11 @@ namespace _VL_Stride_Input_.Stride
 
 namespace _VL_Stride_Input_
 {
-    public struct __AdaptiveImplementations__HWRqGEFJG2aNE9pYb5Pg0w : n33.IAdaptiveOperatorMulitply<n5.Vector2>, n33.IAdaptiveOperatorDivide<n5.Vector2>, n33.IAdaptiveOperatorPlus<n5.Vector2>, n33.IAdaptiveOperatorMinus<n5.Vector2>, n33.IAdaptiveOne<float>, n33.IAdaptiveOperatorDivide<float>, n34.IAdaptiveCreateDefault<n7.InputManager>
+    public struct __AdaptiveImplementations__HWRqGEFJG2aNE9pYb5Pg0w : n33.IAdaptiveOperatorMinus<n5.Vector2>, n33.IAdaptiveOperatorDivide<n5.Vector2>, n33.IAdaptiveOperatorMulitply<n5.Vector2>, n33.IAdaptiveOperatorPlus<n5.Vector2>, n33.IAdaptiveOne<float>, n33.IAdaptiveOperatorDivide<float>, n34.IAdaptiveCreateDefault<n7.InputManager>
     {
-        public void OperatorMulitply(n5.Vector2 Input_In, n5.Vector2 Input_2_In, out n5.Vector2 Output_Out)
+        public void OperatorMinus(n5.Vector2 Input_In, n5.Vector2 Input_2_In, out n5.Vector2 Output_Out)
         {
-            n14.Vector2Nodes.Multiply(left: ref Input_In, right: ref Input_2_In, result: out n5.Vector2 Output_0);
+            n5.Vector2.Subtract(left: ref Input_In, right: ref Input_2_In, result: out n5.Vector2 Output_0);
             Output_Out = Output_0;
             return;
         }
@@ -1404,16 +1404,16 @@ namespace _VL_Stride_Input_
             return;
         }
 
-        public void OperatorPlus(n5.Vector2 Input_In, n5.Vector2 Input_2_In, out n5.Vector2 Output_Out)
+        public void OperatorMulitply(n5.Vector2 Input_In, n5.Vector2 Input_2_In, out n5.Vector2 Output_Out)
         {
-            n5.Vector2.Add(left: ref Input_In, right: ref Input_2_In, result: out n5.Vector2 Output_0);
+            n14.Vector2Nodes.Multiply(left: ref Input_In, right: ref Input_2_In, result: out n5.Vector2 Output_0);
             Output_Out = Output_0;
             return;
         }
 
-        public void OperatorMinus(n5.Vector2 Input_In, n5.Vector2 Input_2_In, out n5.Vector2 Output_Out)
+        public void OperatorPlus(n5.Vector2 Input_In, n5.Vector2 Input_2_In, out n5.Vector2 Output_Out)
         {
-            n5.Vector2.Subtract(left: ref Input_In, right: ref Input_2_In, result: out n5.Vector2 Output_0);
+            n5.Vector2.Add(left: ref Input_In, right: ref Input_2_In, result: out n5.Vector2 Output_0);
             Output_Out = Output_0;
             return;
         }

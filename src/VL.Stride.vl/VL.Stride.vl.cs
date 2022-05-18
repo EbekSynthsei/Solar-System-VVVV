@@ -1,15 +1,15 @@
-﻿extern alias e5;
+﻿extern alias e2;
 
-using n4 = e5::VL.Core.CompilerServices;
 using n6 = global::System.Collections.Generic;
 using n3 = _VL_Stride_.Stride;
-using n1 = e5::VL.Core;
+using n1 = e2::VL.Core;
 using n2 = global::System;
+using n4 = e2::VL.Core.CompilerServices;
 using n5 = global::System.Runtime.CompilerServices;
 
 namespace _VL_Stride_.Stride
 {
-    [n1.ElementAttribute(TracingId = 33U, DocumentId = "DZTiJFhHydJQMleZQmJvQj", PersistentId = "GLGlNfsOnrZP7PwNthN41C", Name = "VL_StrideApplication_GLGlNfsOnrZP7PwNthN41C")]
+    [n1.ElementAttribute(TracingId = 37U, DocumentId = "DZTiJFhHydJQMleZQmJvQj", PersistentId = "GLGlNfsOnrZP7PwNthN41C", Name = "VL_StrideApplication_GLGlNfsOnrZP7PwNthN41C")]
     [n2.SerializableAttribute]
     public class VL_StrideApplication_GLGlNfsOnrZP7PwNthN41C : n1.VLObject, n2.IDisposable
     {

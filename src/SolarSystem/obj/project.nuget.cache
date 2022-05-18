@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+V/PJBKSD6lmMda0IjM/VY88mQSNOiPoRdnyaFOd5TbH9G4ItI7Xi2fmRWNLSes7ELcSttc+eJw6JV4yPA7N8Q==",
+  "dgSpecHash": "EmhPzvJW5iJpd+UfeGkQ5o/CgZT3lUJQYgJ2VKRPh+M1ZWV/bLX4YcIxgUwkpA2u2jkrc/HkzS5IQXuy1XCtOg==",
   "success": true,
   "projectFilePath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\SolarSystem\\SolarSystem.csproj",
   "expectedPackageFiles": [
@@ -81,6 +81,7 @@
     "C:\\Users\\emanu\\.nuget\\packages\\sharpdx.mediafoundation\\4.2.0\\sharpdx.mediafoundation.4.2.0.nupkg.sha512",
     "C:\\Users\\emanu\\.nuget\\packages\\sharpdx.rawinput\\4.2.0\\sharpdx.rawinput.4.2.0.nupkg.sha512",
     "C:\\Users\\emanu\\.nuget\\packages\\sharpdx.xinput\\4.2.0\\sharpdx.xinput.4.2.0.nupkg.sha512",
+    "C:\\Users\\emanu\\.nuget\\packages\\simmetricscore\\2.1.0\\simmetricscore.2.1.0.nupkg.sha512",
     "C:\\Users\\emanu\\.nuget\\packages\\skiasharp\\2.80.3\\skiasharp.2.80.3.nupkg.sha512",
     "C:\\Users\\emanu\\.nuget\\packages\\skiasharp.svg\\1.60.0\\skiasharp.svg.1.60.0.nupkg.sha512",
     "C:\\Users\\emanu\\.nuget\\packages\\ssh.net\\2016.1.0\\ssh.net.2016.1.0.nupkg.sha512",
@@ -209,6 +210,9 @@
     "C:\\Users\\emanu\\.nuget\\packages\\vl.corelib.fsharp\\2021.4.9-0971-g1d0a0c7789\\vl.corelib.fsharp.2021.4.9-0971-g1d0a0c7789.nupkg.sha512",
     "C:\\Users\\emanu\\.nuget\\packages\\vl.corelib.windows\\2021.4.9-0971-g1d0a0c7789\\vl.corelib.windows.2021.4.9-0971-g1d0a0c7789.nupkg.sha512",
     "C:\\Users\\emanu\\.nuget\\packages\\vl.editingframework\\2021.4.9-0971-g1d0a0c7789\\vl.editingframework.2021.4.9-0971-g1d0a0c7789.nupkg.sha512",
+    "C:\\Users\\emanu\\.nuget\\packages\\vl.fuse\\0.2.0\\vl.fuse.0.2.0.nupkg.sha512",
+    "C:\\Users\\emanu\\.nuget\\packages\\vl.fuzzysearch\\0.0.3-alpha\\vl.fuzzysearch.0.0.3-alpha.nupkg.sha512",
+    "C:\\Users\\emanu\\.nuget\\packages\\vl.hde\\2021.4.9-0971-g1d0a0c7789\\vl.hde.2021.4.9-0971-g1d0a0c7789.nupkg.sha512",
     "C:\\Users\\emanu\\.nuget\\packages\\vl.lang\\2021.4.9-0971-g1d0a0c7789\\vl.lang.2021.4.9-0971-g1d0a0c7789.nupkg.sha512",
     "C:\\Users\\emanu\\.nuget\\packages\\vl.lang.roslyn\\2021.4.9-0971-g1d0a0c7789\\vl.lang.roslyn.2021.4.9-0971-g1d0a0c7789.nupkg.sha512",
     "C:\\Users\\emanu\\.nuget\\packages\\vl.skia\\2021.4.9-0971-g1d0a0c7789\\vl.skia.2021.4.9-0971-g1d0a0c7789.nupkg.sha512",
@@ -217,6 +221,7 @@
     "C:\\Users\\emanu\\.nuget\\packages\\vl.stride.runtime\\2021.4.9-0971-g1d0a0c7789\\vl.stride.runtime.2021.4.9-0971-g1d0a0c7789.nupkg.sha512",
     "C:\\Users\\emanu\\.nuget\\packages\\vl.stride.windows\\2021.4.9-0971-g1d0a0c7789\\vl.stride.windows.2021.4.9-0971-g1d0a0c7789.nupkg.sha512",
     "C:\\Users\\emanu\\.nuget\\packages\\vl.ui.core\\2021.4.9-0971-g1d0a0c7789\\vl.ui.core.2021.4.9-0971-g1d0a0c7789.nupkg.sha512",
+    "C:\\Users\\emanu\\.nuget\\packages\\vl.ui.patcheditor.utils\\2021.4.9-0971-g1d0a0c7789\\vl.ui.patcheditor.utils.2021.4.9-0971-g1d0a0c7789.nupkg.sha512",
     "C:\\Users\\emanu\\.nuget\\packages\\vortice.mathematics\\1.3.3\\vortice.mathematics.1.3.3.nupkg.sha512",
     "C:\\Users\\emanu\\.nuget\\packages\\vortice.vulkan\\1.2.167\\vortice.vulkan.1.2.167.nupkg.sha512",
     "C:\\Users\\emanu\\.nuget\\packages\\vvvv.nugetassemblyloader\\0.1.27\\vvvv.nugetassemblyloader.0.1.27.nupkg.sha512",

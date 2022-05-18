@@ -34,26 +34,26 @@
   </ItemGroup>
   <Target Name="AddAliases" BeforeTargets="ResolveReferences">
     <ItemGroup>
-      <ReferencePath Condition="'%(FileName)'=='VL.Core'" Aliases="e5" />
-      <ReferencePath Condition="'%(FileName)'=='VL.Stride.Windows'" Aliases="e56" />
-      <ReferencePath Condition="'%(FileName)'=='VL.App.WindowsForms'" Aliases="e70" />
-      <ReferencePath Condition="'%(FileName)'=='VL.Stride.Runtime'" Aliases="e40" />
-      <ReferencePath Condition="'%(FileName)'=='Stride.Core.Assets'" Aliases="e48" />
-      <ReferencePath Condition="'%(FileName)'=='Stride.Core.Design'" Aliases="e52" />
+      <ReferencePath Condition="'%(FileName)'=='VL.Core'" Aliases="e2" />
       <ReferencePath Condition="'%(FileName)'=='VL.Stride'" Aliases="e67" />
-      <ReferencePath Condition="'%(FileName)'=='Stride.Graphics'" Aliases="e27" />
-      <ReferencePath Condition="'%(FileName)'=='Stride.Rendering'" Aliases="e26" />
-      <ReferencePath Condition="'%(FileName)'=='Stride.Core.Serialization'" Aliases="e21" />
-      <ReferencePath Condition="'%(FileName)'=='VL.CoreLib'" Aliases="e2" />
-      <ReferencePath Condition="'%(FileName)'=='Stride.Assets.Models'" Aliases="e59" />
-      <ReferencePath Condition="'%(FileName)'=='Stride.Core'" Aliases="e3" />
-      <ReferencePath Condition="'%(FileName)'=='Stride.Assets'" Aliases="e57" />
-      <ReferencePath Condition="'%(FileName)'=='Stride.Games'" Aliases="e28" />
+      <ReferencePath Condition="'%(FileName)'=='VL.Stride.Windows'" Aliases="e42" />
+      <ReferencePath Condition="'%(FileName)'=='VL.Stride.Runtime'" Aliases="e31" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Core.Design'" Aliases="e45" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Core.Assets'" Aliases="e43" />
+      <ReferencePath Condition="'%(FileName)'=='VL.App.WindowsForms'" Aliases="e70" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Core'" Aliases="e6" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Graphics'" Aliases="e22" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Assets.Models'" Aliases="e52" />
       <ReferencePath Condition="'%(FileName)'=='Stride.Engine'" Aliases="e24" />
-      <ReferencePath Condition="'%(FileName)'=='Stride.Core.Mathematics'" Aliases="e1" />
-      <ReferencePath Condition="'%(FileName)'=='Stride.Video'" Aliases="e46" />
-      <ReferencePath Condition="'%(FileName)'=='Stride'" Aliases="e20" />
-      <ReferencePath Condition="'%(FileName)'=='VL.Skia'" Aliases="e18" />
+      <ReferencePath Condition="'%(FileName)'=='VL.CoreLib'" Aliases="e3" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Games'" Aliases="e25" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Video'" Aliases="e58" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Assets'" Aliases="e48" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Core.Serialization'" Aliases="e23" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Rendering'" Aliases="e29" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Core.Mathematics'" Aliases="e4" />
+      <ReferencePath Condition="'%(FileName)'=='Stride'" Aliases="e26" />
+      <ReferencePath Condition="'%(FileName)'=='VL.Skia'" Aliases="e1" />
     </ItemGroup>
   </Target>
 </Project>

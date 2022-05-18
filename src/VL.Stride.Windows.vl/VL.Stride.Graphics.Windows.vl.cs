@@ -1,71 +1,71 @@
-﻿extern alias e27;
+﻿extern alias e22;
+extern alias e42;
+extern alias e31;
 extern alias e26;
-extern alias e56;
+extern alias e3;
 extern alias e2;
-extern alias e40;
-extern alias e5;
-extern alias e1;
-extern alias e20;
+extern alias e29;
+extern alias e4;
 
 using n15 = _VL_Stride_Rendering_.Stride.Rendering;
-using n23 = _CoreLibBasics_._3D.Matrix;
-using n34 = _VL_Stride_Graphics_.Stride.Utils.Advanced;
-using n50 = e2::VL.Lib.Primitive;
-using n40 = _CoreLibBasics_.Primitive.Object.Advanced;
-using n49 = _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced;
+using n14 = e26::Stride.Graphics;
+using n24 = _CoreLibBasics_._3D.Matrix;
+using n33 = _VL_Stride_Graphics_.Stride.Utils.Advanced;
+using n37 = e2::VL.Lib.Collections;
+using n7 = e3::VL.Lib.Primitive.CacheRegion;
+using n44 = _CoreLibBasics_.Primitive.Object.Advanced;
+using n48 = _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced;
 using n39 = _CoreLibBasics_.Control;
-using n21 = _VL_Stride_Graphics_.Stride.Textures.Utils.Obsolete;
-using n51 = e2::VL.Lib.Text;
-using n20 = _VL_CoreLib_Experimental_.Control.Try__1_Output.Obsolete.Experimental;
-using n29 = e2::VL.Lib.Mathematics;
-using n22 = global::System.IO.MemoryMappedFiles;
-using n35 = _CoreLibBasics_.Primitive.IntPtr.Advanced;
-using n33 = e40::VL.Stride.Rendering;
-using n5 = e27::Stride.Graphics;
-using n18 = e2::VL.Lib.Control;
-using n42 = _VL_Stride_Graphics_Windows_;
+using n23 = _VL_Stride_Graphics_.Stride.Textures.Utils.Obsolete;
+using n18 = _VL_CoreLib_Experimental_.Control.Try__1_Output.Obsolete.Experimental;
+using n19 = global::System.IO.MemoryMappedFiles;
+using n31 = _CoreLibBasics_.Primitive.IntPtr.Advanced;
+using n38 = _VL_Stride_Graphics_Windows_;
 using n52 = _CoreLibBasics_.Primitive.String;
-using n9 = e2::VL.Lib.Primitive.Object;
-using n4 = e5::VL.Core.CompilerServices;
-using n24 = _CoreLibBasics_._2D.Transform;
+using n17 = e3::VL.Lib.Control;
+using n25 = _CoreLibBasics_._2D.Transform;
+using n34 = e42::VL.Stride.Windows;
 using n11 = global::System.Collections.Generic;
-using n17 = e1::Stride.Core.Mathematics;
 using n26 = _VL_Stride_Runtime_TypeForwards_.Stride.API.Graphics.BlendStateDescription.Advanced;
 using n55 = _CoreLibBasics_.Primitive.Advanced.Adaptive;
 using n8 = _VL_Stride_Graphics_Windows_.Stride.Textures.Spout.SpoutSender_SharedTexture;
-using n7 = e2::VL.Lib.Primitive.CacheRegion;
-using n48 = global::System.Text;
-using n46 = global::Microsoft.Win32;
-using n6 = e56::VL.Stride.Spout;
-using n30 = e26::Stride.Rendering;
-using n1 = e5::VL.Core;
-using n14 = e20::Stride.Graphics;
-using n47 = _CoreLibBasics_.Text.StringBuilder.Advanced;
-using n32 = global::SharpDX.Direct3D11;
+using n47 = global::System.Text;
+using n50 = e3::VL.Lib.Primitive;
+using n51 = e3::VL.Lib.Text;
+using n43 = global::Microsoft.Win32;
+using n29 = e3::VL.Lib.Mathematics;
+using n46 = _CoreLibBasics_.Text.StringBuilder.Advanced;
+using n42 = global::SharpDX.Direct3D11;
+using n1 = e2::VL.Core;
+using n32 = e31::VL.Stride.Rendering;
+using n5 = e22::Stride.Graphics;
 using n2 = global::System;
+using n21 = e4::Stride.Core.Mathematics;
 using n3 = _VL_Stride_Graphics_Windows_.Stride.Textures.Spout;
-using n19 = _VL_Stride_Graphics_Windows_.Stride.Textures;
-using n38 = _VL_Stride_Rendering_.Stride.Models.Meshes.Advanced;
+using n6 = e42::VL.Stride.Spout;
+using n9 = e3::VL.Lib.Primitive.Object;
+using n4 = e2::VL.Core.CompilerServices;
+using n22 = _VL_Stride_Graphics_Windows_.Stride.Textures;
+using n36 = _VL_Stride_Rendering_.Stride.Models.Meshes.Advanced;
 using n16 = _VL_Collections_.Collections.Mutable.MutableArray.Advanced;
 using n13 = _VL_Stride_Rendering_.Stride.Textures;
-using n36 = e56::VL.Stride.Windows;
 using n28 = _VL_Stride_Runtime_TypeForwards_.Stride.API.Graphics.DepthStencilStateDescription.Advanced;
-using n37 = _VL_Stride_Engine_.Stride;
+using n35 = _VL_Stride_Engine_.Stride;
 using n27 = _VL_Stride_Runtime_TypeForwards_.Stride.API.Graphics.RasterizerStateDescription.Advanced;
-using n43 = _VL_Stride_Graphics_Windows_.Stride;
+using n49 = _VL_Stride_Graphics_Windows_.Stride;
+using n30 = e29::Stride.Rendering;
 using n53 = _VL_Collections_.Collections.Sequence;
 using n10 = global::System.Runtime.CompilerServices;
 using n12 = _VL_Stride_Graphics_.Stride.Textures.Utils;
-using n41 = e5::VL.Lib.Collections;
-using n31 = _VL_Stride_Graphics_Windows_.Stride.Graphics.Texture.Advanced;
-using n44 = _VL_Collections_.Collections.Spread;
+using n41 = _VL_Stride_Graphics_Windows_.Stride.Graphics.Texture.Advanced;
+using n40 = _VL_Collections_.Collections.Spread;
 using n45 = _VL_CoreLib_Experimental_.Control.Experimental;
 using n54 = _CoreLibBasics_.Primitive.Advanced;
-using n25 = global::System.IO;
+using n20 = global::System.IO;
 
 namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
 {
-    [n1.ElementAttribute(TracingId = 1018U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "L7TotBk1tgjMgvGlVThbN8", Name = "SpoutSender_SharedTexture_L7TotBk1tgjMgvGlVThbN8")]
+    [n1.ElementAttribute(TracingId = 1775U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "L7TotBk1tgjMgvGlVThbN8", Name = "SpoutSender_SharedTexture_L7TotBk1tgjMgvGlVThbN8")]
     [n2.SerializableAttribute]
     public class SpoutSender_SharedTexture_L7TotBk1tgjMgvGlVThbN8 : n1.VLObject, n2.IDisposable
     {
@@ -103,7 +103,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
                 if (state_5 == null)
                 {
                     state_5 = new __UxIyXbJZjfTMNNSOUgU9Wa(__GetContext__(), n1.VLObject.NewIdentity());
-                    n1.NodeContext Node_Context_6 = __GetContext__().CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "S9KvGiI7dSVPP47A7Ifq4D", 1258U);
+                    n1.NodeContext Node_Context_6 = __GetContext__().CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "S9KvGiI7dSVPP47A7Ifq4D", 1821U);
                     var Output_7 = n8.ActiveSenderClearer_UZC3QR1ejxdL0alqGo8IR8.Create(Node_Context: Node_Context_6);
                     state_5.__p_S9KvGiI7dSVPP47A7Ifq4D = Output_7;
                 }
@@ -178,9 +178,9 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
         public n3.SpoutSender_SharedTexture_L7TotBk1tgjMgvGlVThbN8 __Create__(n1.NodeContext Node_Context)
         {
             n10.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "E8aodbFOP67NZyxO84Knij", 2200U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "E8aodbFOP67NZyxO84Knij", 1870U);
             var Output_1 = n8.ActiveSenderClearer_UZC3QR1ejxdL0alqGo8IR8.Create(Node_Context: Node_Context_0);
-            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "DSzVQgpO7wULGUjXrQszdN", 2204U);
+            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "DSzVQgpO7wULGUjXrQszdN", 1874U);
             var Output_3 = n3.SetActiveSender_K4PndZCtNHIPp47hKbO3Fk.Create(Node_Context: Node_Context_2);
             n3.SpoutSender_SharedTexture_L7TotBk1tgjMgvGlVThbN8 that_4 = this;
             this.__slot_VwRDCKbB4c2Lk1pKthVCiB = "";
@@ -231,15 +231,15 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
             var __returnValue__ = Dispose_();
         }
 
-        [n1.ElementAttribute(TracingId = 1267U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "D1VsYudIm5TNWorXx1kfCw", Name = "__slot_D1VsYudIm5TNWorXx1kfCw")]
+        [n1.ElementAttribute(TracingId = 1825U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "D1VsYudIm5TNWorXx1kfCw", Name = "__slot_D1VsYudIm5TNWorXx1kfCw")]
         public static bool __slot_D1VsYudIm5TNWorXx1kfCw = true;
-        [n1.ElementAttribute(TracingId = 2202U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "VwRDCKbB4c2Lk1pKthVCiB", Name = "__slot_VwRDCKbB4c2Lk1pKthVCiB")]
+        [n1.ElementAttribute(TracingId = 1872U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "VwRDCKbB4c2Lk1pKthVCiB", Name = "__slot_VwRDCKbB4c2Lk1pKthVCiB")]
         public string __slot_VwRDCKbB4c2Lk1pKthVCiB;
-        [n1.ElementAttribute(TracingId = 1024U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "MDBg3O7McKeONdgF365zAD", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 1778U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "MDBg3O7McKeONdgF365zAD", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
         public n7.Manager<n2.ValueTuple<string, n5.Texture, bool>, n2.ValueTuple<n6.SpoutSender>> __cache_MDBg3O7McKeONdgF365zAD = null;
-        [n1.ElementAttribute(TracingId = 2204U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "DSzVQgpO7wULGUjXrQszdN", Name = "SetActiveSender", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 1874U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "DSzVQgpO7wULGUjXrQszdN", Name = "SetActiveSender", IsManaged = true, IsAutoGenerated = true)]
         public n3.SetActiveSender_K4PndZCtNHIPp47hKbO3Fk __p_DSzVQgpO7wULGUjXrQszdN;
-        [n1.ElementAttribute(TracingId = 2200U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "E8aodbFOP67NZyxO84Knij", Name = "ActiveSenderClearer", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 1870U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "E8aodbFOP67NZyxO84Knij", Name = "ActiveSenderClearer", IsManaged = true, IsAutoGenerated = true)]
         public n8.ActiveSenderClearer_UZC3QR1ejxdL0alqGo8IR8 __p_E8aodbFOP67NZyxO84Knij;
         static SpoutSender_SharedTexture_L7TotBk1tgjMgvGlVThbN8()
         {
@@ -289,7 +289,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 1258U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "S9KvGiI7dSVPP47A7Ifq4D", Name = "ActiveSenderClearer", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 1821U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "S9KvGiI7dSVPP47A7Ifq4D", Name = "ActiveSenderClearer", IsManaged = true, IsAutoGenerated = true)]
             public n8.ActiveSenderClearer_UZC3QR1ejxdL0alqGo8IR8 __p_S9KvGiI7dSVPP47A7Ifq4D;
             public __UxIyXbJZjfTMNNSOUgU9Wa(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -321,7 +321,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
         }
     }
 
-    [n1.ElementAttribute(TracingId = 2257U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "GyYmjQ1jJAzLvYrhfgN7iZ", Name = "SpoutSender_GyYmjQ1jJAzLvYrhfgN7iZ")]
+    [n1.ElementAttribute(TracingId = 1927U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "GyYmjQ1jJAzLvYrhfgN7iZ", Name = "SpoutSender_GyYmjQ1jJAzLvYrhfgN7iZ")]
     [n2.SerializableAttribute]
     public class SpoutSender_GyYmjQ1jJAzLvYrhfgN7iZ : n1.VLObject, n2.IDisposable
     {
@@ -350,7 +350,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
                 if (state_6 == null)
                 {
                     state_6 = new __QBjEXgem1IaMqi64Sk2MWN(__GetContext__(), n1.VLObject.NewIdentity());
-                    n1.NodeContext Node_Context_7 = __GetContext__().CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "D7OoF3cLwC8NK4ehQr2F4p", 2275U);
+                    n1.NodeContext Node_Context_7 = __GetContext__().CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "D7OoF3cLwC8NK4ehQr2F4p", 1945U);
                     var Output_8 = n13.CopyTexture_UGdw4Tvemx5QK60AS7AHcT.Create(Node_Context: Node_Context_7);
                     state_6.__p_D7OoF3cLwC8NK4ehQr2F4p = Output_8;
                 }
@@ -394,7 +394,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
         public n3.SpoutSender_GyYmjQ1jJAzLvYrhfgN7iZ __Create__(n1.NodeContext Node_Context)
         {
             n10.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "EVsON1KMx8eOmd43keXy0t", 2260U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "EVsON1KMx8eOmd43keXy0t", 1930U);
             var Output_1 = n3.SpoutSender_SharedTexture_L7TotBk1tgjMgvGlVThbN8.Create(Node_Context: Node_Context_0);
             n3.SpoutSender_GyYmjQ1jJAzLvYrhfgN7iZ that_2 = this;
             this.__p_EVsON1KMx8eOmd43keXy0t = Output_1;
@@ -423,11 +423,11 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 2280U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "UmaYIXQoun2LfbtbCuwaYS", Name = "__slot_UmaYIXQoun2LfbtbCuwaYS")]
+        [n1.ElementAttribute(TracingId = 1950U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "UmaYIXQoun2LfbtbCuwaYS", Name = "__slot_UmaYIXQoun2LfbtbCuwaYS")]
         public static bool __slot_UmaYIXQoun2LfbtbCuwaYS = true;
         [n1.ElementAttribute(IsManaged = true, IsAutoGenerated = true)]
         public n2.Object __if_GyAYVw4VN5xNGZIFcfV6q3;
-        [n1.ElementAttribute(TracingId = 2260U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "EVsON1KMx8eOmd43keXy0t", Name = "SpoutSender (SharedTexture)", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 1930U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "EVsON1KMx8eOmd43keXy0t", Name = "SpoutSender (SharedTexture)", IsManaged = true, IsAutoGenerated = true)]
         public n3.SpoutSender_SharedTexture_L7TotBk1tgjMgvGlVThbN8 __p_EVsON1KMx8eOmd43keXy0t;
         static SpoutSender_GyYmjQ1jJAzLvYrhfgN7iZ()
         {
@@ -473,7 +473,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 2275U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "D7OoF3cLwC8NK4ehQr2F4p", Name = "CopyTexture", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 1945U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "D7OoF3cLwC8NK4ehQr2F4p", Name = "CopyTexture", IsManaged = true, IsAutoGenerated = true)]
             public n13.CopyTexture_UGdw4Tvemx5QK60AS7AHcT __p_D7OoF3cLwC8NK4ehQr2F4p;
             public __QBjEXgem1IaMqi64Sk2MWN(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -505,7 +505,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
         }
     }
 
-    [n1.ElementAttribute(TracingId = 2312U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "PO0iXa0KkRwLo98DekIq4O", Name = "ReadSharedMemory_PO0iXa0KkRwLo98DekIq4O")]
+    [n1.ElementAttribute(TracingId = 1981U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "PO0iXa0KkRwLo98DekIq4O", Name = "ReadSharedMemory_PO0iXa0KkRwLo98DekIq4O")]
     [n2.SerializableAttribute]
     public class ReadSharedMemory_PO0iXa0KkRwLo98DekIq4O : n1.VLObject, n2.IDisposable
     {
@@ -526,7 +526,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
         public n3.ReadSharedMemory_PO0iXa0KkRwLo98DekIq4O Update(bool Read_In, [n4.SerializedDefaultValueAttribute("", false)] string Name_In, [n4.SerializedDefaultValueAttribute("1024", false)] int Length_In, [n4.SerializedDefaultValueAttribute("False", false)] bool Flush_In, out byte[] Bytes_Out, out bool Success_Out, out string Error_Out)
         {
             bool __pad_FhpjiVO1E8YL7cvKK1EfUR_0 = __slot_FhpjiVO1E8YL7cvKK1EfUR;
-            n1.NodeContext Node_Context_1 = __GetContext__().CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "EnMz10HYNErQU6Kq2RpY6z", 2315U);
+            n1.NodeContext Node_Context_1 = __GetContext__().CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "EnMz10HYNErQU6Kq2RpY6z", 1984U);
             n16._Operations_.Create<byte>(Node_Context: Node_Context_1, Length_In: Length_In, Result_Out: out byte[] Result_2);
             byte[] __auto_3 = Result_2;
             bool __pad_Vo6qvdqEAj0OjSxMizpJhM_4 = Flush_In;
@@ -539,18 +539,18 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
                 if (state_8 == null)
                 {
                     state_8 = new __BaTcZ8yj7v2QPjM24J0S6L(__GetContext__(), n1.VLObject.NewIdentity());
-                    n1.NodeContext Node_Context_9 = __GetContext__().CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "SSRuxO6g6eAQbOIF8niW6j", 2369U);
-                    n20._Operations_.Create_H<n2.Object>(Node_Context: Node_Context_9, Output_Out: out n18.TryStateful<n2.Object> Output_10);
+                    n1.NodeContext Node_Context_9 = __GetContext__().CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "SSRuxO6g6eAQbOIF8niW6j", 2005U);
+                    n18._Operations_.Create_H<n2.Object>(Node_Context: Node_Context_9, Output_Out: out n17.TryStateful<n2.Object> Output_10);
                     state_8.__p_SSRuxO6g6eAQbOIF8niW6j = Output_10;
                 }
 
                 bool Re_Initialize_11 = false;
                 var __fallback___12 = n1.ServiceRegistry.Current;
-                n20._Operations_.Update_H<n2.Object, byte[]>(Input_In: state_8.__p_SSRuxO6g6eAQbOIF8niW6j, Default_Output_In: __auto_3, Re_Initialize_In: Re_Initialize_11, Try_In: (n2.Object s_15) =>
+                n18._Operations_.Update_H<n2.Object, byte[]>(Input_In: state_8.__p_SSRuxO6g6eAQbOIF8niW6j, Default_Output_In: __auto_3, Re_Initialize_In: Re_Initialize_11, Try_In: (n2.Object s_15) =>
                 {
                     using var __current_13 = __fallback___12.MakeCurrentIfNone();
                     var state_14 = n1.CompilationHelper.Restore<__LYthg5XoFGoP3myYGt8l7m>(s_15, __GetContext__());
-                    var Result_16 = n22.MemoryMappedFile.OpenExisting(mapName: Name_In);
+                    var Result_16 = n19.MemoryMappedFile.OpenExisting(mapName: Name_In);
                     var Result_17 = Result_16.CreateViewStream();
                     var Output_18 = Result_17;
                     if (__pad_Vo6qvdqEAj0OjSxMizpJhM_4)
@@ -558,7 +558,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
                         Result_17.Flush();
                     }
 
-                    var Output_19 = n25.Stream.Synchronized(stream: Output_18);
+                    var Output_19 = n20.Stream.Synchronized(stream: Output_18);
                     int Offset_20 = 0;
                     var Result_21 = Output_19.Read(buffer: __auto_3, offset: Offset_20, count: Length_In);
                     int __pad_EAViC60i0hKNdSHXaB4SFV_22 = Result_21;
@@ -580,7 +580,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
                     return state_14;
                 }
 
-                , Output_Out: out n18.TryStateful<n2.Object> Output_24, Result_Out: out byte[] Result_25, Success_Out: out bool Success_26, Error_Message_Out: out string Error_Message_27);
+                , Output_Out: out n17.TryStateful<n2.Object> Output_24, Result_Out: out byte[] Result_25, Success_Out: out bool Success_26, Error_Message_Out: out string Error_Message_27);
                 Bytes_5 = Result_25;
                 Success_6 = Success_26;
                 __auto_7 = Error_Message_27;
@@ -655,15 +655,15 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 2325U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "Vo6qvdqEAj0OjSxMizpJhM", Name = "__slot_Vo6qvdqEAj0OjSxMizpJhM")]
+        [n1.ElementAttribute(TracingId = 1990U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "Vo6qvdqEAj0OjSxMizpJhM", Name = "__slot_Vo6qvdqEAj0OjSxMizpJhM")]
         public bool __slot_Vo6qvdqEAj0OjSxMizpJhM;
-        [n1.ElementAttribute(TracingId = 2336U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "Rc2Yws1M194PTIUBfj7zkF", Name = "__slot_Rc2Yws1M194PTIUBfj7zkF")]
+        [n1.ElementAttribute(TracingId = 1992U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "Rc2Yws1M194PTIUBfj7zkF", Name = "__slot_Rc2Yws1M194PTIUBfj7zkF")]
         public bool __slot_Rc2Yws1M194PTIUBfj7zkF;
-        [n1.ElementAttribute(TracingId = 2343U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "LhxLkevjjEyMKiJ0ElJKod", Name = "__slot_LhxLkevjjEyMKiJ0ElJKod")]
+        [n1.ElementAttribute(TracingId = 1994U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "LhxLkevjjEyMKiJ0ElJKod", Name = "__slot_LhxLkevjjEyMKiJ0ElJKod")]
         public string __slot_LhxLkevjjEyMKiJ0ElJKod;
-        [n1.ElementAttribute(TracingId = 2451U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "FhpjiVO1E8YL7cvKK1EfUR", Name = "__slot_FhpjiVO1E8YL7cvKK1EfUR")]
+        [n1.ElementAttribute(TracingId = 2044U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "FhpjiVO1E8YL7cvKK1EfUR", Name = "__slot_FhpjiVO1E8YL7cvKK1EfUR")]
         public static bool __slot_FhpjiVO1E8YL7cvKK1EfUR = false;
-        [n1.ElementAttribute(TracingId = 2449U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "E034k0iJJ48OfLPZdXj2EW", Name = "Result")]
+        [n1.ElementAttribute(TracingId = 2042U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "E034k0iJJ48OfLPZdXj2EW", Name = "Result")]
         public byte[] Result;
         [n1.ElementAttribute(IsManaged = true, IsAutoGenerated = true)]
         public n2.Object __if_VRbs47YGeHrOFW9CYefFui;
@@ -717,8 +717,8 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 2369U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "SSRuxO6g6eAQbOIF8niW6j", Name = "Try (1 Output)", IsManaged = true, IsAutoGenerated = true)]
-            public n18.TryStateful<n2.Object> __p_SSRuxO6g6eAQbOIF8niW6j;
+            [n1.ElementAttribute(TracingId = 2005U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "SSRuxO6g6eAQbOIF8niW6j", Name = "Try (1 Output)", IsManaged = true, IsAutoGenerated = true)]
+            public n17.TryStateful<n2.Object> __p_SSRuxO6g6eAQbOIF8niW6j;
             public __BaTcZ8yj7v2QPjM24J0S6L(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
             }
@@ -733,7 +733,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
                 return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__p_SSRuxO6g6eAQbOIF8niW6j", in __p_SSRuxO6g6eAQbOIF8niW6j));
             }
 
-            internal __BaTcZ8yj7v2QPjM24J0S6L __WITH__(n18.TryStateful<n2.Object> __p_SSRuxO6g6eAQbOIF8niW6j)
+            internal __BaTcZ8yj7v2QPjM24J0S6L __WITH__(n17.TryStateful<n2.Object> __p_SSRuxO6g6eAQbOIF8niW6j)
             {
                 __BaTcZ8yj7v2QPjM24J0S6L that_0 = this;
                 if (this.__GetContext__().IsImmutable)
@@ -757,7 +757,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 2428U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "EAViC60i0hKNdSHXaB4SFV", Name = "__slot_EAViC60i0hKNdSHXaB4SFV")]
+            [n1.ElementAttribute(TracingId = 2030U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "EAViC60i0hKNdSHXaB4SFV", Name = "__slot_EAViC60i0hKNdSHXaB4SFV")]
             public int __slot_EAViC60i0hKNdSHXaB4SFV;
             public __LYthg5XoFGoP3myYGt8l7m(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -789,7 +789,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
         }
     }
 
-    [n1.ElementAttribute(TracingId = 2500U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "CrGVtt0vTtwLMcNcjmdoDG", Name = "GetSpoutHandle_CrGVtt0vTtwLMcNcjmdoDG")]
+    [n1.ElementAttribute(TracingId = 2093U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "CrGVtt0vTtwLMcNcjmdoDG", Name = "GetSpoutHandle_CrGVtt0vTtwLMcNcjmdoDG")]
     [n2.SerializableAttribute]
     public class GetSpoutHandle_CrGVtt0vTtwLMcNcjmdoDG : n1.VLObject, n2.IDisposable
     {
@@ -813,7 +813,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
             var manager_1 = this.__cache_S2O2PiMS3f6L4kMHAWNp3p;
             if (manager_1 is null)
             {
-                manager_1 = new n7.Manager<n2.ValueTuple<string>, n2.ValueTuple<n2.IntPtr>>(n2.ValueTuple.Create(n35._Operations_.CreateDefault()));
+                manager_1 = new n7.Manager<n2.ValueTuple<string>, n2.ValueTuple<n2.IntPtr>>(n2.ValueTuple.Create(n31._Operations_.CreateDefault()));
             }
 
             var inputs_2 = n2.ValueTuple.Create(Name_In);
@@ -827,7 +827,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
                 if (state_5 == null)
                 {
                     state_5 = new __SW56yMN7KZeQQC40ZETLFI(__GetContext__(), n1.VLObject.NewIdentity());
-                    n1.NodeContext Node_Context_6 = __GetContext__().CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "SHiZTLH7gyzMa9Qx1TuX0x", 2547U);
+                    n1.NodeContext Node_Context_6 = __GetContext__().CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "SHiZTLH7gyzMa9Qx1TuX0x", 2170U);
                     var Output_7 = n3.ReadSharedMemory_PO0iXa0KkRwLo98DekIq4O.Create(Node_Context: Node_Context_6);
                     state_5.__p_SHiZTLH7gyzMa9Qx1TuX0x = Output_7;
                 }
@@ -848,20 +848,20 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
                     {
                         int Start_Index_25 = 0;
                         var Result_26 = n2.BitConverter.ToInt32(value: Bytes_11, startIndex: Start_Index_25);
-                        n1.NodeContext Node_Context_27 = __GetContext__().CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "JJ1IBDwbUcuNrwwjv9qDyj", 2526U);
-                        n35._Operations_.Create(Node_Context: Node_Context_27, Value_In: Result_26, Output_Out: out n2.IntPtr Output_28);
+                        n1.NodeContext Node_Context_27 = __GetContext__().CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "JJ1IBDwbUcuNrwwjv9qDyj", 2119U);
+                        n31._Operations_.Create(Node_Context: Node_Context_27, Value_In: Result_26, Output_Out: out n2.IntPtr Output_28);
                         __auto_23 = Output_28;
                     }
                     else
                     {
-                        __auto_23 = n35._Operations_.CreateDefault();
+                        __auto_23 = n31._Operations_.CreateDefault();
                     }
 
                     __auto_17 = __auto_23;
                 }
                 else
                 {
-                    __auto_17 = n35._Operations_.CreateDefault();
+                    __auto_17 = n31._Operations_.CreateDefault();
                 }
 
                 if (state_5.__GetContext__().IsImmutable)
@@ -921,11 +921,11 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 2505U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "S2O2PiMS3f6L4kMHAWNp3p", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 2098U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "S2O2PiMS3f6L4kMHAWNp3p", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
         public n7.Manager<n2.ValueTuple<string>, n2.ValueTuple<n2.IntPtr>> __cache_S2O2PiMS3f6L4kMHAWNp3p = null;
-        [n1.ElementAttribute(TracingId = 2546U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "RL2EovZBiEfLrC6HLX93yT", Name = "__slot_RL2EovZBiEfLrC6HLX93yT")]
+        [n1.ElementAttribute(TracingId = 2165U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "RL2EovZBiEfLrC6HLX93yT", Name = "__slot_RL2EovZBiEfLrC6HLX93yT")]
         public static bool __slot_RL2EovZBiEfLrC6HLX93yT = true;
-        [n1.ElementAttribute(TracingId = 2545U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "V4YPSjKR9K1LyJoozD6pkZ", Name = "__slot_V4YPSjKR9K1LyJoozD6pkZ")]
+        [n1.ElementAttribute(TracingId = 2162U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "V4YPSjKR9K1LyJoozD6pkZ", Name = "__slot_V4YPSjKR9K1LyJoozD6pkZ")]
         public static int __slot_V4YPSjKR9K1LyJoozD6pkZ = 4;
         static GetSpoutHandle_CrGVtt0vTtwLMcNcjmdoDG()
         {
@@ -969,7 +969,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 2547U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "SHiZTLH7gyzMa9Qx1TuX0x", Name = "ReadSharedMemory", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 2170U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "SHiZTLH7gyzMa9Qx1TuX0x", Name = "ReadSharedMemory", IsManaged = true, IsAutoGenerated = true)]
             public n3.ReadSharedMemory_PO0iXa0KkRwLo98DekIq4O __p_SHiZTLH7gyzMa9Qx1TuX0x;
             public __SW56yMN7KZeQQC40ZETLFI(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -1001,7 +1001,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
         }
     }
 
-    [n1.ElementAttribute(TracingId = 2588U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "OTKQUMjfRmcMgwFRcW0SM1", Name = "SpoutReceiver_OTKQUMjfRmcMgwFRcW0SM1")]
+    [n1.ElementAttribute(TracingId = 2245U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "OTKQUMjfRmcMgwFRcW0SM1", Name = "SpoutReceiver_OTKQUMjfRmcMgwFRcW0SM1")]
     [n2.SerializableAttribute]
     public class SpoutReceiver_OTKQUMjfRmcMgwFRcW0SM1 : n1.VLObject, n2.IDisposable
     {
@@ -1029,7 +1029,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
             builder_7.Add(Sender_Name_In);
             builder_7.Add(Output_5);
             var __pin_group_Input_In_RBgPeehqHAwOXkQlh0c5Q5_8 = builder_7.Commit();
-            n39._Operations_.Switch<string, n42.__AdaptiveImplementations__CWTbJ7dBwqtLwCqXKAv402>(Index_In: Index_0, Input_In: __pin_group_Input_In_RBgPeehqHAwOXkQlh0c5Q5_8, Output_Out: out string Output_9);
+            n39._Operations_.Switch<string, n38.__AdaptiveImplementations__CWTbJ7dBwqtLwCqXKAv402>(Index_In: Index_0, Input_In: __pin_group_Input_In_RBgPeehqHAwOXkQlh0c5Q5_8, Output_Out: out string Output_9);
             var Output_11 = this.__p_KKjlEOoeQoDOK53WR0tPl8.Update(Name_In: Output_9, Refresh_In: Output_4, Result_Out: out n2.IntPtr Result_10);
             var State_Output_13 = this.__p_VcPobSyDvITLwM346bUehF.Update(Texture_Handle_In: Result_10, Output_Out: out n5.Texture Output_12);
             n9.ObjectHelpers.IsAssigned(x: Output_12, result: out bool Result_14, notAssigned: out bool Not_Assigned_15);
@@ -1053,7 +1053,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
                     if (state_23 == null)
                     {
                         state_23 = new __MLUpBu2tDqeOLP8gSltLKg(__GetContext__(), n1.VLObject.NewIdentity());
-                        n1.NodeContext Node_Context_24 = __GetContext__().CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "CpNy95ak9fsP5qHXFunJj0", 2621U);
+                        n1.NodeContext Node_Context_24 = __GetContext__().CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "CpNy95ak9fsP5qHXFunJj0", 2283U);
                         var Output_25 = n13.CopyTexture_UGdw4Tvemx5QK60AS7AHcT.Create(Node_Context: Node_Context_24);
                         state_23.__p_CpNy95ak9fsP5qHXFunJj0 = Output_25;
                     }
@@ -1114,17 +1114,17 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
         public n3.SpoutReceiver_OTKQUMjfRmcMgwFRcW0SM1 __Create__(n1.NodeContext Node_Context)
         {
             n10.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "VcPobSyDvITLwM346bUehF", 2591U);
-            var Output_1 = n31.FromSharedHandle_JhCoWFfyhrdNGNVPfy0KHo.Create(Node_Context: Node_Context_0);
-            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "KKjlEOoeQoDOK53WR0tPl8", 2594U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "VcPobSyDvITLwM346bUehF", 2248U);
+            var Output_1 = n41.FromSharedHandle_JhCoWFfyhrdNGNVPfy0KHo.Create(Node_Context: Node_Context_0);
+            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "KKjlEOoeQoDOK53WR0tPl8", 2253U);
             var Output_3 = n3.GetSpoutHandle_CrGVtt0vTtwLMcNcjmdoDG.Create(Node_Context: Node_Context_2);
-            n1.NodeContext Node_Context_4 = Node_Context.CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "V0VL8KGvzuxOBV2ykLLMS1", 2643U);
+            n1.NodeContext Node_Context_4 = Node_Context.CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "V0VL8KGvzuxOBV2ykLLMS1", 2322U);
             var Output_5 = n3.ActiveSender_GP70vnZCHDTOGK77SB6cvs.Create(Node_Context: Node_Context_4);
-            n1.NodeContext Node_Context_6 = Node_Context.CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "QkOIncgzhdVMfib9XGdSvG", 2651U);
+            n1.NodeContext Node_Context_6 = Node_Context.CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "QkOIncgzhdVMfib9XGdSvG", 2338U);
             bool Changed_On_Create_7 = true;
-            var Output_8 = n39.Changed_A8JGbead2bxNdnPybiEqVS<bool>.Create<n42.__AdaptiveImplementations__CWTbJ7dBwqtLwCqXKAv402>(Node_Context: Node_Context_6, Changed_On_Create_In: Changed_On_Create_7);
+            var Output_8 = n39.Changed_A8JGbead2bxNdnPybiEqVS<bool>.Create<n38.__AdaptiveImplementations__CWTbJ7dBwqtLwCqXKAv402>(Node_Context: Node_Context_6, Changed_On_Create_In: Changed_On_Create_7);
             n3.SpoutReceiver_OTKQUMjfRmcMgwFRcW0SM1 that_9 = this;
-            this.__pin_group_Input_In_RBgPeehqHAwOXkQlh0c5Q5 = n44._Operations_.CreateDefault<string>();
+            this.__pin_group_Input_In_RBgPeehqHAwOXkQlh0c5Q5 = n40._Operations_.CreateDefault<string>();
             this.__p_VcPobSyDvITLwM346bUehF = Output_1;
             this.__p_KKjlEOoeQoDOK53WR0tPl8 = Output_3;
             this.__p_V0VL8KGvzuxOBV2ykLLMS1 = Output_5;
@@ -1136,11 +1136,11 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
         public n3.SpoutReceiver_OTKQUMjfRmcMgwFRcW0SM1 __CreateDefault__()
         {
             n3.SpoutReceiver_OTKQUMjfRmcMgwFRcW0SM1 that_0 = this;
-            this.__pin_group_Input_In_RBgPeehqHAwOXkQlh0c5Q5 = n44._Operations_.CreateDefault<string>();
-            this.__p_QkOIncgzhdVMfib9XGdSvG = n39.Changed_A8JGbead2bxNdnPybiEqVS<bool>.CreateDefault<n42.__AdaptiveImplementations__CWTbJ7dBwqtLwCqXKAv402>();
+            this.__pin_group_Input_In_RBgPeehqHAwOXkQlh0c5Q5 = n40._Operations_.CreateDefault<string>();
+            this.__p_QkOIncgzhdVMfib9XGdSvG = n39.Changed_A8JGbead2bxNdnPybiEqVS<bool>.CreateDefault<n38.__AdaptiveImplementations__CWTbJ7dBwqtLwCqXKAv402>();
             this.__p_V0VL8KGvzuxOBV2ykLLMS1 = n3.ActiveSender_GP70vnZCHDTOGK77SB6cvs.CreateDefault();
             this.__p_KKjlEOoeQoDOK53WR0tPl8 = n3.GetSpoutHandle_CrGVtt0vTtwLMcNcjmdoDG.CreateDefault();
-            this.__p_VcPobSyDvITLwM346bUehF = n31.FromSharedHandle_JhCoWFfyhrdNGNVPfy0KHo.CreateDefault();
+            this.__p_VcPobSyDvITLwM346bUehF = n41.FromSharedHandle_JhCoWFfyhrdNGNVPfy0KHo.CreateDefault();
             this.__if_TqLNgQQzzfWPODkwRVCsGY = default(n2.Object);
             return that_0;
         }
@@ -1161,16 +1161,16 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 2651U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "QkOIncgzhdVMfib9XGdSvG", Name = "Changed", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 2338U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "QkOIncgzhdVMfib9XGdSvG", Name = "Changed", IsManaged = true, IsAutoGenerated = true)]
         public n39.Changed_A8JGbead2bxNdnPybiEqVS<bool> __p_QkOIncgzhdVMfib9XGdSvG;
-        [n1.ElementAttribute(TracingId = 2643U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "V0VL8KGvzuxOBV2ykLLMS1", Name = "ActiveSender", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 2322U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "V0VL8KGvzuxOBV2ykLLMS1", Name = "ActiveSender", IsManaged = true, IsAutoGenerated = true)]
         public n3.ActiveSender_GP70vnZCHDTOGK77SB6cvs __p_V0VL8KGvzuxOBV2ykLLMS1;
         [n1.ElementAttribute(IsAutoGenerated = true)]
-        public n41.Spread<string> __pin_group_Input_In_RBgPeehqHAwOXkQlh0c5Q5 = default(n41.Spread<string>);
-        [n1.ElementAttribute(TracingId = 2594U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "KKjlEOoeQoDOK53WR0tPl8", Name = "GetSpoutHandle", IsManaged = true, IsAutoGenerated = true)]
+        public n37.Spread<string> __pin_group_Input_In_RBgPeehqHAwOXkQlh0c5Q5 = default(n37.Spread<string>);
+        [n1.ElementAttribute(TracingId = 2253U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "KKjlEOoeQoDOK53WR0tPl8", Name = "GetSpoutHandle", IsManaged = true, IsAutoGenerated = true)]
         public n3.GetSpoutHandle_CrGVtt0vTtwLMcNcjmdoDG __p_KKjlEOoeQoDOK53WR0tPl8;
-        [n1.ElementAttribute(TracingId = 2591U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "VcPobSyDvITLwM346bUehF", Name = "FromSharedHandle", IsManaged = true, IsAutoGenerated = true)]
-        public n31.FromSharedHandle_JhCoWFfyhrdNGNVPfy0KHo __p_VcPobSyDvITLwM346bUehF;
+        [n1.ElementAttribute(TracingId = 2248U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "VcPobSyDvITLwM346bUehF", Name = "FromSharedHandle", IsManaged = true, IsAutoGenerated = true)]
+        public n41.FromSharedHandle_JhCoWFfyhrdNGNVPfy0KHo __p_VcPobSyDvITLwM346bUehF;
         [n1.ElementAttribute(IsManaged = true, IsAutoGenerated = true)]
         public n2.Object __if_TqLNgQQzzfWPODkwRVCsGY;
         public SpoutReceiver_OTKQUMjfRmcMgwFRcW0SM1(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
@@ -1192,7 +1192,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__p_QkOIncgzhdVMfib9XGdSvG", in __p_QkOIncgzhdVMfib9XGdSvG), n1.CompilationHelper.GetValueOrExisting(values, "__p_V0VL8KGvzuxOBV2ykLLMS1", in __p_V0VL8KGvzuxOBV2ykLLMS1), n1.CompilationHelper.GetValueOrExisting(values, "__pin_group_Input_In_RBgPeehqHAwOXkQlh0c5Q5", in __pin_group_Input_In_RBgPeehqHAwOXkQlh0c5Q5), n1.CompilationHelper.GetValueOrExisting(values, "__p_KKjlEOoeQoDOK53WR0tPl8", in __p_KKjlEOoeQoDOK53WR0tPl8), n1.CompilationHelper.GetValueOrExisting(values, "__p_VcPobSyDvITLwM346bUehF", in __p_VcPobSyDvITLwM346bUehF), n1.CompilationHelper.GetValueOrExisting(values, "__if_TqLNgQQzzfWPODkwRVCsGY", in __if_TqLNgQQzzfWPODkwRVCsGY));
         }
 
-        internal SpoutReceiver_OTKQUMjfRmcMgwFRcW0SM1 __WITH__(n39.Changed_A8JGbead2bxNdnPybiEqVS<bool> __p_QkOIncgzhdVMfib9XGdSvG, n3.ActiveSender_GP70vnZCHDTOGK77SB6cvs __p_V0VL8KGvzuxOBV2ykLLMS1, n41.Spread<string> __pin_group_Input_In_RBgPeehqHAwOXkQlh0c5Q5, n3.GetSpoutHandle_CrGVtt0vTtwLMcNcjmdoDG __p_KKjlEOoeQoDOK53WR0tPl8, n31.FromSharedHandle_JhCoWFfyhrdNGNVPfy0KHo __p_VcPobSyDvITLwM346bUehF, n2.Object __if_TqLNgQQzzfWPODkwRVCsGY)
+        internal SpoutReceiver_OTKQUMjfRmcMgwFRcW0SM1 __WITH__(n39.Changed_A8JGbead2bxNdnPybiEqVS<bool> __p_QkOIncgzhdVMfib9XGdSvG, n3.ActiveSender_GP70vnZCHDTOGK77SB6cvs __p_V0VL8KGvzuxOBV2ykLLMS1, n37.Spread<string> __pin_group_Input_In_RBgPeehqHAwOXkQlh0c5Q5, n3.GetSpoutHandle_CrGVtt0vTtwLMcNcjmdoDG __p_KKjlEOoeQoDOK53WR0tPl8, n41.FromSharedHandle_JhCoWFfyhrdNGNVPfy0KHo __p_VcPobSyDvITLwM346bUehF, n2.Object __if_TqLNgQQzzfWPODkwRVCsGY)
         {
             n3.SpoutReceiver_OTKQUMjfRmcMgwFRcW0SM1 that_0 = this;
             if (this.__GetContext__().IsImmutable)
@@ -1262,7 +1262,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 2621U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "CpNy95ak9fsP5qHXFunJj0", Name = "CopyTexture", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 2283U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "CpNy95ak9fsP5qHXFunJj0", Name = "CopyTexture", IsManaged = true, IsAutoGenerated = true)]
             public n13.CopyTexture_UGdw4Tvemx5QK60AS7AHcT __p_CpNy95ak9fsP5qHXFunJj0;
             public __MLUpBu2tDqeOLP8gSltLKg(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -1294,7 +1294,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
         }
     }
 
-    [n1.ElementAttribute(TracingId = 2702U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "DE1TLLzzndoM8ZsJ6Wsir9", Name = "SenderNames_DE1TLLzzndoM8ZsJ6Wsir9")]
+    [n1.ElementAttribute(TracingId = 2411U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "DE1TLLzzndoM8ZsJ6Wsir9", Name = "SenderNames_DE1TLLzzndoM8ZsJ6Wsir9")]
     [n2.SerializableAttribute]
     public class SenderNames_DE1TLLzzndoM8ZsJ6Wsir9 : n1.VLObject, n2.IDisposable
     {
@@ -1312,14 +1312,14 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
             return instance.__CreateDefault__();
         }
 
-        public n3.SenderNames_DE1TLLzzndoM8ZsJ6Wsir9 Update(bool Update_In, out n41.Spread<string> Output_Out)
+        public n3.SenderNames_DE1TLLzzndoM8ZsJ6Wsir9 Update(bool Update_In, out n37.Spread<string> Output_Out)
         {
             var State_Output_1 = this.__p_Vb7XuQs8FaPPzde4mhiRKb.Update(Simulate_In: Update_In, Output_Out: out bool Output_0);
             bool Dispose_Cached_Outputs_2 = false;
             var manager_3 = this.__cache_BDtPstOG0kxPMRScH4szxt;
             if (manager_3 is null)
             {
-                manager_3 = new n7.Manager<n2.ValueTuple, n2.ValueTuple<n41.Spread<string>>>(n2.ValueTuple.Create(n44._Operations_.CreateDefault<string>()));
+                manager_3 = new n7.Manager<n2.ValueTuple, n2.ValueTuple<n37.Spread<string>>>(n2.ValueTuple.Create(n40._Operations_.CreateDefault<string>()));
             }
 
             var inputs_4 = n2.ValueTuple.Create();
@@ -1333,7 +1333,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
                 if (state_7 == null)
                 {
                     state_7 = new __FhRBfeHnjEGL0DFCNYse7s(__GetContext__(), n1.VLObject.NewIdentity());
-                    n1.NodeContext Node_Context_8 = __GetContext__().CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "TU2lueswguoOsrgSBEkR58", 2716U);
+                    n1.NodeContext Node_Context_8 = __GetContext__().CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "TU2lueswguoOsrgSBEkR58", 2425U);
                     var Output_9 = n3.ReadSharedMemory_PO0iXa0KkRwLo98DekIq4O.Create(Node_Context: Node_Context_8);
                     state_7.__p_TU2lueswguoOsrgSBEkR58 = Output_9;
                 }
@@ -1342,7 +1342,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
                 string __pad_L7qcMZtigyNMOygVX4h1Xi_11 = __slot_L7qcMZtigyNMOygVX4h1Xi;
                 int __pad_QBo2FNpuwTzMuo0OVM8A8i_12 = __slot_QBo2FNpuwTzMuo0OVM8A8i;
                 int __pad_HbAT5X6d9XsNrQ5IeIDQMV_13 = __slot_HbAT5X6d9XsNrQ5IeIDQMV;
-                var Current_User_14 = n46.Registry.CurrentUser;
+                var Current_User_14 = n43.Registry.CurrentUser;
                 string Name_15 = "Software\\Leading Edge\\Spout";
                 var Result_16 = Current_User_14.OpenSubKey(name: Name_15);
                 n9.ObjectHelpers.IsAssigned(x: Result_16, result: out bool Result_17, notAssigned: out bool Not_Assigned_18);
@@ -1353,7 +1353,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
                     string Name_22 = "MaxSenders";
                     var Result_23 = Result_16.GetValue(name: Name_22);
                     int Default_24 = 0;
-                    n40._Operations_.CastAs<int>(Input_In: Result_23, Default_In: Default_24, Result_Out: out int Result_25, Success_Out: out bool Success_26);
+                    n44._Operations_.CastAs<int>(Input_In: Result_23, Default_In: Default_24, Result_Out: out int Result_25, Success_Out: out bool Success_26);
                     var Output_27 = __pad_CVzXPNeaIOQNTcDdUzWAVD_21 * Result_25;
                     __auto_19 = Output_27;
                 }
@@ -1365,8 +1365,8 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
                 bool Flush_28 = false;
                 var Output_32 = state_7.__p_TU2lueswguoOsrgSBEkR58.Update(Read_In: __pad_TYpplqifdZdQJ8eyjrMCp5_10, Name_In: __pad_L7qcMZtigyNMOygVX4h1Xi_11, Length_In: __auto_19, Flush_In: Flush_28, Bytes_Out: out byte[] Bytes_29, Success_Out: out bool Success_30, Error_Out: out string Error_31);
                 n16._Operations_.Length<byte>(Input_In: Bytes_29, Output_Out: out byte[] Output_33, Length_Out: out int Length_34);
-                n48.StringBuilder accumulator_36 = n47._Operations_.CreateDefault();
-                n41.SpreadBuilder<string> accumulator_37 = n49._Operations_.CreateDefault<string>();
+                n47.StringBuilder accumulator_36 = n46._Operations_.CreateDefault();
+                n37.SpreadBuilder<string> accumulator_37 = n48._Operations_.CreateDefault<string>();
                 int accumulator_38 = 0;
                 for (var i_35 = 0; i_35 < __pad_HbAT5X6d9XsNrQ5IeIDQMV_13; i_35++)
                 {
@@ -1374,8 +1374,8 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
                     n16._Operations_.GetItem<byte>(Input_In: Bytes_29, Index_In: accumulator_38, Output_Out: out byte[] Output_41, Item_Out: out byte Item_42);
                     byte Input_2_43 = 0;
                     var Result_44 = Item_42 == Input_2_43;
-                    n48.StringBuilder __auto_45;
-                    n41.SpreadBuilder<string> __auto_46;
+                    n47.StringBuilder __auto_45;
+                    n37.SpreadBuilder<string> __auto_46;
                     int __auto_47;
                     if (Result_44)
                     {
@@ -1384,14 +1384,14 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
                         int Input_2_51 = 0;
                         var Result_52 = Length_50 == Input_2_51;
                         var Output_53 = !Result_52;
-                        n48.StringBuilder __auto_54;
-                        n41.SpreadBuilder<string> __auto_55;
+                        n47.StringBuilder __auto_54;
+                        n37.SpreadBuilder<string> __auto_55;
                         if (Output_53)
                         {
                             var Result_57 = accumulator_36.ToString();
-                            n49._Operations_.Add<string>(Input_In: accumulator_37, Item_In: Result_57, Output_Out: out n41.SpreadBuilder<string> Output_58);
+                            n48._Operations_.Add<string>(Input_In: accumulator_37, Item_In: Result_57, Output_Out: out n37.SpreadBuilder<string> Output_58);
                             bool Condition_59 = true;
-                            n48.StringBuilder __auto_60;
+                            n47.StringBuilder __auto_60;
                             if (Condition_59)
                             {
                                 var Result_62 = accumulator_36.Clear();
@@ -1430,7 +1430,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
                     var Output_68 = n50.Integer32Extensions.Inc(input: __auto_47);
                     var Result_69 = Output_68 >= Length_34;
                     var Output_70 = !Result_44;
-                    n48.StringBuilder __auto_71;
+                    n47.StringBuilder __auto_71;
                     if (Output_70)
                     {
                         var Result_73 = n50.IntegerConversions.ToChar(input: Item_42);
@@ -1451,8 +1451,8 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
                     }
                 }
 
-                n49._Operations_.ToSpread<string>(Input_In: accumulator_37, Output_Out: out n41.SpreadBuilder<string> Output_75, Result_Out: out n41.Spread<string> Result_76);
-                n44._Operations_.Sort<string>(Input_In: Result_76, Output_Out: out n41.Spread<string> Output_77);
+                n48._Operations_.ToSpread<string>(Input_In: accumulator_37, Output_Out: out n37.SpreadBuilder<string> Output_75, Result_Out: out n37.Spread<string> Result_76);
+                n40._Operations_.Sort<string>(Input_In: Result_76, Output_Out: out n37.Spread<string> Output_77);
                 if (state_7.__GetContext__().IsImmutable)
                     state_7 = Output_32 != state_7.__p_TU2lueswguoOsrgSBEkR58 ? new __FhRBfeHnjEGL0DFCNYse7s(state_7)
                     {__p_TU2lueswguoOsrgSBEkR58 = Output_32} : state_7;
@@ -1487,7 +1487,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
         public n3.SenderNames_DE1TLLzzndoM8ZsJ6Wsir9 __Create__(n1.NodeContext Node_Context)
         {
             n10.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "Vb7XuQs8FaPPzde4mhiRKb", 2886U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "Vb7XuQs8FaPPzde4mhiRKb", 2750U);
             var Output_1 = n39.OnOpen_FuW9Q3o4A1QLNwSJwTBGFz.Create(Node_Context: Node_Context_0);
             n3.SenderNames_DE1TLLzzndoM8ZsJ6Wsir9 that_2 = this;
             this.__p_Vb7XuQs8FaPPzde4mhiRKb = Output_1;
@@ -1516,21 +1516,21 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 2886U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "Vb7XuQs8FaPPzde4mhiRKb", Name = "OnOpen", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 2750U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "Vb7XuQs8FaPPzde4mhiRKb", Name = "OnOpen", IsManaged = true, IsAutoGenerated = true)]
         public n39.OnOpen_FuW9Q3o4A1QLNwSJwTBGFz __p_Vb7XuQs8FaPPzde4mhiRKb;
-        [n1.ElementAttribute(TracingId = 2706U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "BDtPstOG0kxPMRScH4szxt", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
-        public n7.Manager<n2.ValueTuple, n2.ValueTuple<n41.Spread<string>>> __cache_BDtPstOG0kxPMRScH4szxt = null;
-        [n1.ElementAttribute(TracingId = 2715U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "TYpplqifdZdQJ8eyjrMCp5", Name = "__slot_TYpplqifdZdQJ8eyjrMCp5")]
+        [n1.ElementAttribute(TracingId = 2415U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "BDtPstOG0kxPMRScH4szxt", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        public n7.Manager<n2.ValueTuple, n2.ValueTuple<n37.Spread<string>>> __cache_BDtPstOG0kxPMRScH4szxt = null;
+        [n1.ElementAttribute(TracingId = 2424U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "TYpplqifdZdQJ8eyjrMCp5", Name = "__slot_TYpplqifdZdQJ8eyjrMCp5")]
         public static bool __slot_TYpplqifdZdQJ8eyjrMCp5 = true;
-        [n1.ElementAttribute(TracingId = 2724U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "L7qcMZtigyNMOygVX4h1Xi", Name = "__slot_L7qcMZtigyNMOygVX4h1Xi")]
+        [n1.ElementAttribute(TracingId = 2433U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "L7qcMZtigyNMOygVX4h1Xi", Name = "__slot_L7qcMZtigyNMOygVX4h1Xi")]
         public static string __slot_L7qcMZtigyNMOygVX4h1Xi = "SpoutSenderNames";
-        [n1.ElementAttribute(TracingId = 2714U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "QBo2FNpuwTzMuo0OVM8A8i", Name = "__slot_QBo2FNpuwTzMuo0OVM8A8i")]
+        [n1.ElementAttribute(TracingId = 2423U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "QBo2FNpuwTzMuo0OVM8A8i", Name = "__slot_QBo2FNpuwTzMuo0OVM8A8i")]
         public static int __slot_QBo2FNpuwTzMuo0OVM8A8i = 16384;
-        [n1.ElementAttribute(TracingId = 2848U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "HbAT5X6d9XsNrQ5IeIDQMV", Name = "__slot_HbAT5X6d9XsNrQ5IeIDQMV")]
+        [n1.ElementAttribute(TracingId = 2712U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "HbAT5X6d9XsNrQ5IeIDQMV", Name = "__slot_HbAT5X6d9XsNrQ5IeIDQMV")]
         public static int __slot_HbAT5X6d9XsNrQ5IeIDQMV = 999999;
-        [n1.ElementAttribute(TracingId = 2875U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "CVzXPNeaIOQNTcDdUzWAVD", Name = "__slot_CVzXPNeaIOQNTcDdUzWAVD")]
+        [n1.ElementAttribute(TracingId = 2739U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "CVzXPNeaIOQNTcDdUzWAVD", Name = "__slot_CVzXPNeaIOQNTcDdUzWAVD")]
         public static int __slot_CVzXPNeaIOQNTcDdUzWAVD = 256;
-        [n1.ElementAttribute(TracingId = 2790U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "SBDim3d5YRcL32CIc1Y1Zu", Name = "__slot_SBDim3d5YRcL32CIc1Y1Zu")]
+        [n1.ElementAttribute(TracingId = 2508U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "SBDim3d5YRcL32CIc1Y1Zu", Name = "__slot_SBDim3d5YRcL32CIc1Y1Zu")]
         public static int __slot_SBDim3d5YRcL32CIc1Y1Zu = 256;
         static SenderNames_DE1TLLzzndoM8ZsJ6Wsir9()
         {
@@ -1551,7 +1551,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__p_Vb7XuQs8FaPPzde4mhiRKb", in __p_Vb7XuQs8FaPPzde4mhiRKb), n1.CompilationHelper.GetValueOrExisting(values, "__cache_BDtPstOG0kxPMRScH4szxt", in __cache_BDtPstOG0kxPMRScH4szxt));
         }
 
-        internal SenderNames_DE1TLLzzndoM8ZsJ6Wsir9 __WITH__(n39.OnOpen_FuW9Q3o4A1QLNwSJwTBGFz __p_Vb7XuQs8FaPPzde4mhiRKb, n7.Manager<n2.ValueTuple, n2.ValueTuple<n41.Spread<string>>> __cache_BDtPstOG0kxPMRScH4szxt)
+        internal SenderNames_DE1TLLzzndoM8ZsJ6Wsir9 __WITH__(n39.OnOpen_FuW9Q3o4A1QLNwSJwTBGFz __p_Vb7XuQs8FaPPzde4mhiRKb, n7.Manager<n2.ValueTuple, n2.ValueTuple<n37.Spread<string>>> __cache_BDtPstOG0kxPMRScH4szxt)
         {
             n3.SenderNames_DE1TLLzzndoM8ZsJ6Wsir9 that_0 = this;
             if (this.__GetContext__().IsImmutable)
@@ -1576,7 +1576,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 2716U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "TU2lueswguoOsrgSBEkR58", Name = "ReadSharedMemory", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 2425U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "TU2lueswguoOsrgSBEkR58", Name = "ReadSharedMemory", IsManaged = true, IsAutoGenerated = true)]
             public n3.ReadSharedMemory_PO0iXa0KkRwLo98DekIq4O __p_TU2lueswguoOsrgSBEkR58;
             public __FhRBfeHnjEGL0DFCNYse7s(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -1608,7 +1608,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
         }
     }
 
-    [n1.ElementAttribute(TracingId = 2976U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "GP70vnZCHDTOGK77SB6cvs", Name = "ActiveSender_GP70vnZCHDTOGK77SB6cvs")]
+    [n1.ElementAttribute(TracingId = 2869U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "GP70vnZCHDTOGK77SB6cvs", Name = "ActiveSender_GP70vnZCHDTOGK77SB6cvs")]
     [n2.SerializableAttribute]
     public class ActiveSender_GP70vnZCHDTOGK77SB6cvs : n1.VLObject, n2.IDisposable
     {
@@ -1646,7 +1646,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
                 if (state_5 == null)
                 {
                     state_5 = new __ELBRSlS7wHoNzMfuGeVE1I(__GetContext__(), n1.VLObject.NewIdentity());
-                    n1.NodeContext Node_Context_6 = __GetContext__().CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "TkZlrOPS3nTL57Ha1YLfju", 2987U);
+                    n1.NodeContext Node_Context_6 = __GetContext__().CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "TkZlrOPS3nTL57Ha1YLfju", 2887U);
                     var Output_7 = n3.ReadSharedMemory_PO0iXa0KkRwLo98DekIq4O.Create(Node_Context: Node_Context_6);
                     state_5.__p_TkZlrOPS3nTL57Ha1YLfju = Output_7;
                 }
@@ -1666,9 +1666,9 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
                     var Result_22 = n50.IntegerConversions.ToChar(input: Input_21);
                     var Result_23 = char.ToString(c: Result_22);
                     n2.StringSplitOptions Options_24 = __c_DwgwuQ56zd5Pp2sAehgGPS;
-                    n52._Operations_.Split_String(Input_In: Result_20, Separator_In: Result_23, Options_In: Options_24, Output_Out: out n41.Spread<string> Output_25);
+                    n52._Operations_.Split_String(Input_In: Result_20, Separator_In: Result_23, Options_In: Options_24, Output_Out: out n37.Spread<string> Output_25);
                     string Default_Value_26 = "";
-                    n53._Operations_.FirstOrDefault<n41.Spread<string>, string>(Input_In: Output_25, Default_Value_In: Default_Value_26, Output_Out: out n41.Spread<string> Output_27, Result_Out: out string Result_28);
+                    n53._Operations_.FirstOrDefault<n37.Spread<string>, string>(Input_In: Output_25, Default_Value_In: Default_Value_26, Output_Out: out n37.Spread<string> Output_27, Result_Out: out string Result_28);
                     __auto_17 = Result_28;
                 }
                 else
@@ -1733,11 +1733,11 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 2980U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "SgAwlnrNFGXPOyIUEDEEb4", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 2875U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "SgAwlnrNFGXPOyIUEDEEb4", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
         public n7.Manager<n2.ValueTuple, n2.ValueTuple<string>> __cache_SgAwlnrNFGXPOyIUEDEEb4 = null;
-        [n1.ElementAttribute(TracingId = 2995U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "TTETcEJe5scQQkZUknEouk", Name = "__slot_TTETcEJe5scQQkZUknEouk")]
+        [n1.ElementAttribute(TracingId = 2903U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "TTETcEJe5scQQkZUknEouk", Name = "__slot_TTETcEJe5scQQkZUknEouk")]
         public static string __slot_TTETcEJe5scQQkZUknEouk = "ActiveSenderName";
-        [n1.ElementAttribute(TracingId = 3023U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "V5jXSpxtemOPOf4R7MLCD6", Name = "__slot_V5jXSpxtemOPOf4R7MLCD6")]
+        [n1.ElementAttribute(TracingId = 2965U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "V5jXSpxtemOPOf4R7MLCD6", Name = "__slot_V5jXSpxtemOPOf4R7MLCD6")]
         public static int __slot_V5jXSpxtemOPOf4R7MLCD6 = 256;
         [n1.ElementAttribute(IsAutoGenerated = true)]
         public static n51.Encodings __c_SiytlrHR7tzQPb1U17f77E = n1.CompilationHelper.Deserialize<n51.Encodings>("ASCII", false, "CWTbJ7dBwqtLwCqXKAv402", "SiytlrHR7tzQPb1U17f77E");
@@ -1785,7 +1785,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 2987U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "TkZlrOPS3nTL57Ha1YLfju", Name = "ReadSharedMemory", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 2887U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "TkZlrOPS3nTL57Ha1YLfju", Name = "ReadSharedMemory", IsManaged = true, IsAutoGenerated = true)]
             public n3.ReadSharedMemory_PO0iXa0KkRwLo98DekIq4O __p_TkZlrOPS3nTL57Ha1YLfju;
             public __ELBRSlS7wHoNzMfuGeVE1I(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -1817,7 +1817,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
         }
     }
 
-    [n1.ElementAttribute(TracingId = 3048U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "OK6ltAN4ZU8O1dfuWgbnmH", Name = "WriteSharedMemory_OK6ltAN4ZU8O1dfuWgbnmH")]
+    [n1.ElementAttribute(TracingId = 3129U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "OK6ltAN4ZU8O1dfuWgbnmH", Name = "WriteSharedMemory_OK6ltAN4ZU8O1dfuWgbnmH")]
     [n2.SerializableAttribute]
     public class WriteSharedMemory_OK6ltAN4ZU8O1dfuWgbnmH : n1.VLObject, n2.IDisposable
     {
@@ -1846,20 +1846,20 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
                 if (state_3 == null)
                 {
                     state_3 = new __RRHsXAPVLU0MMSiVcaH5Xs(__GetContext__(), n1.VLObject.NewIdentity());
-                    n1.NodeContext Node_Context_4 = __GetContext__().CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "UNXhtz80hZ4O5r5tkorhcE", 3065U);
-                    n20._Operations_.Create_H<n2.Object>(Node_Context: Node_Context_4, Output_Out: out n18.TryStateful<n2.Object> Output_5);
+                    n1.NodeContext Node_Context_4 = __GetContext__().CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "UNXhtz80hZ4O5r5tkorhcE", 3153U);
+                    n18._Operations_.Create_H<n2.Object>(Node_Context: Node_Context_4, Output_Out: out n17.TryStateful<n2.Object> Output_5);
                     state_3.__p_UNXhtz80hZ4O5r5tkorhcE = Output_5;
                 }
 
                 bool Re_Initialize_6 = false;
                 var __fallback___7 = n1.ServiceRegistry.Current;
-                n20._Operations_.Update_H<n2.Object, byte[]>(Input_In: state_3.__p_UNXhtz80hZ4O5r5tkorhcE, Default_Output_In: Buffer_In, Re_Initialize_In: Re_Initialize_6, Try_In: (n2.Object s_10) =>
+                n18._Operations_.Update_H<n2.Object, byte[]>(Input_In: state_3.__p_UNXhtz80hZ4O5r5tkorhcE, Default_Output_In: Buffer_In, Re_Initialize_In: Re_Initialize_6, Try_In: (n2.Object s_10) =>
                 {
                     using var __current_8 = __fallback___7.MakeCurrentIfNone();
                     var state_9 = n1.CompilationHelper.Restore<__ATTCjcbVOoXMRQ632aJkXS>(s_10, __GetContext__());
-                    var Result_11 = n22.MemoryMappedFile.OpenExisting(mapName: Name_In);
+                    var Result_11 = n19.MemoryMappedFile.OpenExisting(mapName: Name_In);
                     var Result_12 = Result_11.CreateViewStream();
-                    var Output_13 = n25.Stream.Synchronized(stream: Result_12);
+                    var Output_13 = n20.Stream.Synchronized(stream: Result_12);
                     n16._Operations_.Length<byte>(Input_In: Buffer_In, Output_Out: out byte[] Output_14, Length_Out: out int Length_15);
                     int Offset_16 = 0;
                     Output_13.Write(buffer: Output_14, offset: Offset_16, count: Length_15);
@@ -1873,7 +1873,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
                     return state_9;
                 }
 
-                , Output_Out: out n18.TryStateful<n2.Object> Output_18, Result_Out: out byte[] Result_19, Success_Out: out bool Success_20, Error_Message_Out: out string Error_Message_21);
+                , Output_Out: out n17.TryStateful<n2.Object> Output_18, Result_Out: out byte[] Result_19, Success_Out: out bool Success_20, Error_Message_Out: out string Error_Message_21);
                 __auto_1 = Success_20;
                 __auto_2 = Error_Message_21;
                 if (state_3.__GetContext__().IsImmutable)
@@ -1939,11 +1939,11 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 3052U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "C5COuBKt3TyMLjj2n8fWYO", Name = "__slot_C5COuBKt3TyMLjj2n8fWYO")]
+        [n1.ElementAttribute(TracingId = 3135U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "C5COuBKt3TyMLjj2n8fWYO", Name = "__slot_C5COuBKt3TyMLjj2n8fWYO")]
         public bool __slot_C5COuBKt3TyMLjj2n8fWYO;
-        [n1.ElementAttribute(TracingId = 3054U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "VrTBWWDoVDCP7nnrS4ZCNL", Name = "__slot_VrTBWWDoVDCP7nnrS4ZCNL")]
+        [n1.ElementAttribute(TracingId = 3139U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "VrTBWWDoVDCP7nnrS4ZCNL", Name = "__slot_VrTBWWDoVDCP7nnrS4ZCNL")]
         public string __slot_VrTBWWDoVDCP7nnrS4ZCNL;
-        [n1.ElementAttribute(TracingId = 3096U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "Kon6RFwx0FoM154aqXRdnH", Name = "__slot_Kon6RFwx0FoM154aqXRdnH")]
+        [n1.ElementAttribute(TracingId = 3496U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "Kon6RFwx0FoM154aqXRdnH", Name = "__slot_Kon6RFwx0FoM154aqXRdnH")]
         public static bool __slot_Kon6RFwx0FoM154aqXRdnH = false;
         [n1.ElementAttribute(IsManaged = true, IsAutoGenerated = true)]
         public n2.Object __if_Nmw6xRCNkQAPAuLE1BkiHa;
@@ -1993,8 +1993,8 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 3065U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "UNXhtz80hZ4O5r5tkorhcE", Name = "Try (1 Output)", IsManaged = true, IsAutoGenerated = true)]
-            public n18.TryStateful<n2.Object> __p_UNXhtz80hZ4O5r5tkorhcE;
+            [n1.ElementAttribute(TracingId = 3153U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "UNXhtz80hZ4O5r5tkorhcE", Name = "Try (1 Output)", IsManaged = true, IsAutoGenerated = true)]
+            public n17.TryStateful<n2.Object> __p_UNXhtz80hZ4O5r5tkorhcE;
             public __RRHsXAPVLU0MMSiVcaH5Xs(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
             }
@@ -2009,7 +2009,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
                 return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__p_UNXhtz80hZ4O5r5tkorhcE", in __p_UNXhtz80hZ4O5r5tkorhcE));
             }
 
-            internal __RRHsXAPVLU0MMSiVcaH5Xs __WITH__(n18.TryStateful<n2.Object> __p_UNXhtz80hZ4O5r5tkorhcE)
+            internal __RRHsXAPVLU0MMSiVcaH5Xs __WITH__(n17.TryStateful<n2.Object> __p_UNXhtz80hZ4O5r5tkorhcE)
             {
                 __RRHsXAPVLU0MMSiVcaH5Xs that_0 = this;
                 if (this.__GetContext__().IsImmutable)
@@ -2053,7 +2053,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
         }
     }
 
-    [n1.ElementAttribute(TracingId = 3132U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "K4PndZCtNHIPp47hKbO3Fk", Name = "SetActiveSender_K4PndZCtNHIPp47hKbO3Fk")]
+    [n1.ElementAttribute(TracingId = 3640U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "K4PndZCtNHIPp47hKbO3Fk", Name = "SetActiveSender_K4PndZCtNHIPp47hKbO3Fk")]
     [n2.SerializableAttribute]
     public class SetActiveSender_K4PndZCtNHIPp47hKbO3Fk : n1.VLObject, n2.IDisposable
     {
@@ -2073,7 +2073,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
 
         public n3.SetActiveSender_K4PndZCtNHIPp47hKbO3Fk Update([n4.SerializedDefaultValueAttribute("vvvv", false)] string Sender_Name_In, [n4.SerializedDefaultValueAttribute("False", false)] bool Set_In)
         {
-            n41.Spread<byte> __pad_F6AbxOHLzzQPsgpDwQTn2n_0 = __slot_F6AbxOHLzzQPsgpDwQTn2n;
+            n37.Spread<byte> __pad_F6AbxOHLzzQPsgpDwQTn2n_0 = __slot_F6AbxOHLzzQPsgpDwQTn2n;
             n51.Encodings Encoding_1 = __c_IAjX2Lnh5SCOrpVaHcSdgS;
             var Result_2 = n50.StringExtensions.ToBytes(input: Sender_Name_In, encoding: Encoding_1);
             n11.IEnumerable<byte> Input_3 = (n11.IEnumerable<byte>)Result_2;
@@ -2097,7 +2097,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
         public n3.SetActiveSender_K4PndZCtNHIPp47hKbO3Fk __Create__(n1.NodeContext Node_Context)
         {
             n10.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "Vtq8DT8ZN81OXdEeEa7o67", 3135U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "Vtq8DT8ZN81OXdEeEa7o67", 3643U);
             var Output_1 = n3.WriteSharedMemory_OK6ltAN4ZU8O1dfuWgbnmH.Create(Node_Context: Node_Context_0);
             n3.SetActiveSender_K4PndZCtNHIPp47hKbO3Fk that_2 = this;
             this.__p_Vtq8DT8ZN81OXdEeEa7o67 = Output_1;
@@ -2123,11 +2123,11 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 3152U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "F6AbxOHLzzQPsgpDwQTn2n", Name = "__slot_F6AbxOHLzzQPsgpDwQTn2n")]
-        public static n41.Spread<byte> __slot_F6AbxOHLzzQPsgpDwQTn2n = n1.CompilationHelper.Deserialize<n41.Spread<byte>>("0", false, "CWTbJ7dBwqtLwCqXKAv402", "F6AbxOHLzzQPsgpDwQTn2n");
+        [n1.ElementAttribute(TracingId = 3660U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "F6AbxOHLzzQPsgpDwQTn2n", Name = "__slot_F6AbxOHLzzQPsgpDwQTn2n")]
+        public static n37.Spread<byte> __slot_F6AbxOHLzzQPsgpDwQTn2n = n1.CompilationHelper.Deserialize<n37.Spread<byte>>("0", false, "CWTbJ7dBwqtLwCqXKAv402", "F6AbxOHLzzQPsgpDwQTn2n");
         [n1.ElementAttribute(IsAutoGenerated = true)]
         public static n51.Encodings __c_IAjX2Lnh5SCOrpVaHcSdgS = n1.CompilationHelper.Deserialize<n51.Encodings>("ASCII", false, "CWTbJ7dBwqtLwCqXKAv402", "IAjX2Lnh5SCOrpVaHcSdgS");
-        [n1.ElementAttribute(TracingId = 3135U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "Vtq8DT8ZN81OXdEeEa7o67", Name = "WriteSharedMemory", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 3643U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "Vtq8DT8ZN81OXdEeEa7o67", Name = "WriteSharedMemory", IsManaged = true, IsAutoGenerated = true)]
         public n3.WriteSharedMemory_OK6ltAN4ZU8O1dfuWgbnmH __p_Vtq8DT8ZN81OXdEeEa7o67;
         static SetActiveSender_K4PndZCtNHIPp47hKbO3Fk()
         {
@@ -2165,7 +2165,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout
 
 namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout.SpoutSender_SharedTexture
 {
-    [n1.ElementAttribute(TracingId = 2171U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "UZC3QR1ejxdL0alqGo8IR8", Name = "ActiveSenderClearer_UZC3QR1ejxdL0alqGo8IR8")]
+    [n1.ElementAttribute(TracingId = 1841U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "UZC3QR1ejxdL0alqGo8IR8", Name = "ActiveSenderClearer_UZC3QR1ejxdL0alqGo8IR8")]
     [n2.SerializableAttribute]
     public class ActiveSenderClearer_UZC3QR1ejxdL0alqGo8IR8 : n1.VLObject, n2.IDisposable
     {
@@ -2207,9 +2207,9 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout.SpoutSender_SharedT
         public n8.ActiveSenderClearer_UZC3QR1ejxdL0alqGo8IR8 __Create__(n1.NodeContext Node_Context)
         {
             n10.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "H882uT8N79YLvfIyNcqn9I", 2174U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "H882uT8N79YLvfIyNcqn9I", 1844U);
             var Output_1 = n3.WriteSharedMemory_OK6ltAN4ZU8O1dfuWgbnmH.Create(Node_Context: Node_Context_0);
-            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "NGaZqCHvPJqLjd5o8Pn53J", 2181U);
+            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "NGaZqCHvPJqLjd5o8Pn53J", 1851U);
             var Output_3 = n3.ActiveSender_GP70vnZCHDTOGK77SB6cvs.Create(Node_Context: Node_Context_2);
             n8.ActiveSenderClearer_UZC3QR1ejxdL0alqGo8IR8 that_4 = this;
             this.__p_H882uT8N79YLvfIyNcqn9I = Output_1;
@@ -2238,11 +2238,11 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout.SpoutSender_SharedT
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 2180U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "V6zZDnMQXyuPBmmpkBJTfd", Name = "__slot_V6zZDnMQXyuPBmmpkBJTfd")]
+        [n1.ElementAttribute(TracingId = 1850U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "V6zZDnMQXyuPBmmpkBJTfd", Name = "__slot_V6zZDnMQXyuPBmmpkBJTfd")]
         public static byte[] __slot_V6zZDnMQXyuPBmmpkBJTfd = n1.CompilationHelper.Deserialize<byte[]>("0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0", false, "CWTbJ7dBwqtLwCqXKAv402", "V6zZDnMQXyuPBmmpkBJTfd");
-        [n1.ElementAttribute(TracingId = 2181U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "NGaZqCHvPJqLjd5o8Pn53J", Name = "ActiveSender", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 1851U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "NGaZqCHvPJqLjd5o8Pn53J", Name = "ActiveSender", IsManaged = true, IsAutoGenerated = true)]
         public n3.ActiveSender_GP70vnZCHDTOGK77SB6cvs __p_NGaZqCHvPJqLjd5o8Pn53J;
-        [n1.ElementAttribute(TracingId = 2174U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "H882uT8N79YLvfIyNcqn9I", Name = "WriteSharedMemory", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 1844U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "H882uT8N79YLvfIyNcqn9I", Name = "WriteSharedMemory", IsManaged = true, IsAutoGenerated = true)]
         public n3.WriteSharedMemory_OK6ltAN4ZU8O1dfuWgbnmH __p_H882uT8N79YLvfIyNcqn9I;
         static ActiveSenderClearer_UZC3QR1ejxdL0alqGo8IR8()
         {
@@ -2282,32 +2282,32 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures.Spout.SpoutSender_SharedT
 
 namespace _VL_Stride_Graphics_Windows_.Stride.Textures
 {
-    [n1.ElementAttribute(TracingId = 3170U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "OoOHw5RAoRgNQ154myBJ7l", Name = "UploadToVVVVOrg_OoOHw5RAoRgNQ154myBJ7l")]
+    [n1.ElementAttribute(TracingId = 3678U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "OoOHw5RAoRgNQ154myBJ7l", Name = "UploadToVVVVOrg_OoOHw5RAoRgNQ154myBJ7l")]
     [n2.SerializableAttribute]
     public class UploadToVVVVOrg_OoOHw5RAoRgNQ154myBJ7l : n1.VLObject, n2.IDisposable
     {
         [n4.CreateNewAttribute]
-        public static n19.UploadToVVVVOrg_OoOHw5RAoRgNQ154myBJ7l Create(n1.NodeContext Node_Context)
+        public static n22.UploadToVVVVOrg_OoOHw5RAoRgNQ154myBJ7l Create(n1.NodeContext Node_Context)
         {
             var instance = new UploadToVVVVOrg_OoOHw5RAoRgNQ154myBJ7l(Node_Context, n1.VLObject.NewIdentity());
             return instance.__Create__(Node_Context);
         }
 
         [n4.CreateDefaultAttribute]
-        public static n19.UploadToVVVVOrg_OoOHw5RAoRgNQ154myBJ7l CreateDefault()
+        public static n22.UploadToVVVVOrg_OoOHw5RAoRgNQ154myBJ7l CreateDefault()
         {
             var instance = new UploadToVVVVOrg_OoOHw5RAoRgNQ154myBJ7l(n1.NodeContext.Default, n1.VLObject.NewIdentity());
             return instance.__CreateDefault__();
         }
 
-        public n19.UploadToVVVVOrg_OoOHw5RAoRgNQ154myBJ7l Update(n5.Texture Input_In, [n4.SerializedDefaultValueAttribute("VL.Stride", false)] string Title_In, [n4.SerializedDefaultValueAttribute("I am from VL.Stride", false)] string Description_In, [n4.SerializedDefaultValueAttribute("guest", false)] string Username_In, [n4.SerializedDefaultValueAttribute("guest", false)] string Password_In, [n4.SerializedDefaultValueAttribute("False", false)] bool Upload_In, out string Output_Out, out n5.Texture Uploaded_Texture_Out)
+        public n22.UploadToVVVVOrg_OoOHw5RAoRgNQ154myBJ7l Update(n5.Texture Input_In, [n4.SerializedDefaultValueAttribute("VL.Stride", false)] string Title_In, [n4.SerializedDefaultValueAttribute("I am from VL.Stride", false)] string Description_In, [n4.SerializedDefaultValueAttribute("guest", false)] string Username_In, [n4.SerializedDefaultValueAttribute("guest", false)] string Password_In, [n4.SerializedDefaultValueAttribute("False", false)] bool Upload_In, out string Output_Out, out n5.Texture Uploaded_Texture_Out)
         {
             n14.PixelFormat __pad_QJ9hbLuYJhpLuCUADVU2JY_0 = __slot_QJ9hbLuYJhpLuCUADVU2JY;
-            n17.Vector2 __pad_PXznXerEd0vQHo9Y6Fdux8_1 = __slot_PXznXerEd0vQHo9Y6Fdux8;
-            n21._Operations_.TextureInfo_Basic(Input_In: Input_In, Output_Out: out n5.Texture Output_2, Size_Out: out n17.Int2 Size_3, Width_Out: out int Width_4, Height_Out: out int Height_5, Format_Out: out n14.PixelFormat Format_6, Loaded_Out: out bool Loaded_7);
-            n17.Matrix Input_8 = n23._Operations_.CreateDefault();
-            n24._Operations_.Scale(Input_In: Input_8, Scaling_In: __pad_PXznXerEd0vQHo9Y6Fdux8_1, Output_Out: out n17.Matrix Output_9);
-            n17.Color4 Color_10 = __c_TIXeQKvqWCUOGuHWoDtpuZ;
+            n21.Vector2 __pad_PXznXerEd0vQHo9Y6Fdux8_1 = __slot_PXznXerEd0vQHo9Y6Fdux8;
+            n23._Operations_.TextureInfo_Basic(Input_In: Input_In, Output_Out: out n5.Texture Output_2, Size_Out: out n21.Int2 Size_3, Width_Out: out int Width_4, Height_Out: out int Height_5, Format_Out: out n14.PixelFormat Format_6, Loaded_Out: out bool Loaded_7);
+            n21.Matrix Input_8 = n24._Operations_.CreateDefault();
+            n25._Operations_.Scale(Input_In: Input_8, Scaling_In: __pad_PXznXerEd0vQHo9Y6Fdux8_1, Output_Out: out n21.Matrix Output_9);
+            n21.Color4 Color_10 = __c_TIXeQKvqWCUOGuHWoDtpuZ;
             n5.BlendStateDescription Blend_State_11 = n26._Operations_.CreateDefault_H();
             n5.RasterizerStateDescription Rasterizer_State_12 = n27._Operations_.CreateDefault_H();
             n5.DepthStencilStateDescription Depth_Stencil_State_13 = n28._Operations_.CreateDefault_H();
@@ -2315,8 +2315,8 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures
             n29.RectangleAnchor Anchor_15 = __c_PPAEqBdyUmmLMczpGZDUkT;
             var State_Output_17 = this.__p_HVj14qmEGPKOXSrYictRi5.Update(Transformation_In: Output_9, Texture_In: Input_In, Color_In: Color_10, Blend_State_In: Blend_State_11, Rasterizer_State_In: Rasterizer_State_12, Depth_Stencil_State_In: Depth_Stencil_State_13, Aspect_Ratio_Correction_Mode_In: Aspect_Ratio_Correction_Mode_14, Anchor_In: Anchor_15, Output_Out: out n15.MeshRenderer_C Output_16);
             n30.IGraphicsRendererBase Input_18 = (n30.IGraphicsRendererBase)Output_16;
-            n17.Matrix View_19 = __c_IAC15dIJVTJNFjxtYj1xbA;
-            n17.Matrix Projection_20 = n23._Operations_.CreateDefault();
+            n21.Matrix View_19 = __c_IAC15dIJVTJNFjxtYj1xbA;
+            n21.Matrix Projection_20 = n24._Operations_.CreateDefault();
             float Near_Plane_21 = 0.05F;
             float Far_Plane_22 = 100F;
             var State_Output_24 = this.__p_GGpnXkpF5ZmLYBzsCbpI7g.Update(View_In: View_19, Projection_In: Projection_20, Near_Plane_In: Near_Plane_21, Far_Plane_In: Far_Plane_22, Output_Out: out n30.RenderView Output_23);
@@ -2325,11 +2325,11 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures
             n14.PixelFormat Depth_Format_29 = __c_NTki3EYrTbMLDIkaBniAT1;
             bool Depth_Shared_30 = false;
             n30.ClearRendererFlags Clear_Flags_31 = default(n30.ClearRendererFlags);
-            n17.Color4 Clear_Color_32 = __c_KuLtn9cadqROQAEUJJXAVy;
+            n21.Color4 Clear_Color_32 = __c_KuLtn9cadqROQAEUJJXAVy;
             float Clear_Depth_33 = 1F;
             byte Clear_Stencil_34 = 0;
             bool Clear_35 = true;
-            var Output_39 = this.__p_IPTzAje68hpQLh9wWCS0xi.Update(Input_In: Input_18, Size_In: Size_3, Render_View_In: Output_23, Format_In: __pad_QJ9hbLuYJhpLuCUADVU2JY_0, Color_Shared_In: Color_Shared_28, Depth_Format_In: Depth_Format_29, Depth_Shared_In: Depth_Shared_30, Clear_Flags_In: Clear_Flags_31, Clear_Color_In: Clear_Color_32, Clear_Depth_In: Clear_Depth_33, Clear_Stencil_In: Clear_Stencil_34, Clear_In: Clear_35, Auto_Render_In: Up_Edge_25, Layer_Out: out n33.WithRenderTargetAndViewPort Layer_36, Color_Out: out n5.Texture Color_37, Depth_Out: out n5.Texture Depth_38);
+            var Output_39 = this.__p_IPTzAje68hpQLh9wWCS0xi.Update(Input_In: Input_18, Size_In: Size_3, Render_View_In: Output_23, Format_In: __pad_QJ9hbLuYJhpLuCUADVU2JY_0, Color_Shared_In: Color_Shared_28, Depth_Format_In: Depth_Format_29, Depth_Shared_In: Depth_Shared_30, Clear_Flags_In: Clear_Flags_31, Clear_Color_In: Clear_Color_32, Clear_Depth_In: Clear_Depth_33, Clear_Stencil_In: Clear_Stencil_34, Clear_In: Clear_35, Auto_Render_In: Up_Edge_25, Layer_Out: out n32.WithRenderTargetAndViewPort Layer_36, Color_Out: out n5.Texture Color_37, Depth_Out: out n5.Texture Depth_38);
             var Output_41 = this.__p_Ek8kSpkjbJlPIyrWvMqDxz.GetValue(Value_Out: out bool Value_40);
             bool SetValue_42 = true;
             var Output_43 = Output_41;
@@ -2356,14 +2356,14 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures
                 if (state_49 == null)
                 {
                     state_49 = new __UJdOBqzG7JzM1n7cIwJpT6(__GetContext__(), n1.VLObject.NewIdentity());
-                    n1.NodeContext Node_Context_50 = __GetContext__().CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "IEfoGjZ1DVdNlth7aJ8tjx", 3192U);
-                    var Output_51 = n34.GraphicsContext_LZGVLOdpi83QS6XklGOZVK.Create(Node_Context_In: Node_Context_50);
+                    n1.NodeContext Node_Context_50 = __GetContext__().CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "IEfoGjZ1DVdNlth7aJ8tjx", 3700U);
+                    var Output_51 = n33.GraphicsContext_LZGVLOdpi83QS6XklGOZVK.Create(Node_Context_In: Node_Context_50);
                     state_49.__p_IEfoGjZ1DVdNlth7aJ8tjx = Output_51;
                 }
 
                 var State_Output_53 = state_49.__p_IEfoGjZ1DVdNlth7aJ8tjx.Update(Output_Out: out n5.GraphicsContext Output_52);
                 var Command_List_54 = Output_52.CommandList;
-                var Result_55 = n36.UploadScreenshot.UploadTextureToVVVVOrg(input: Color_37, commandList: Command_List_54, title: Title_In, description: Description_In, username: Username_In, password: Password_In);
+                var Result_55 = n34.UploadScreenshot.UploadTextureToVVVVOrg(input: Color_37, commandList: Command_List_54, title: Title_In, description: Description_In, username: Username_In, password: Password_In);
                 if (state_49.__GetContext__().IsImmutable)
                     state_49 = State_Output_53 != state_49.__p_IEfoGjZ1DVdNlth7aJ8tjx ? new __UJdOBqzG7JzM1n7cIwJpT6(state_49)
                     {__p_IEfoGjZ1DVdNlth7aJ8tjx = State_Output_53} : state_49;
@@ -2383,7 +2383,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures
             var __auto_56 = outputs_47.Item1;
             Output_Out = __auto_56;
             Uploaded_Texture_Out = Color_37;
-            n19.UploadToVVVVOrg_OoOHw5RAoRgNQ154myBJ7l that_57 = this;
+            n22.UploadToVVVVOrg_OoOHw5RAoRgNQ154myBJ7l that_57 = this;
             if (this.__GetContext__().IsImmutable)
                 that_57 = State_Output_17 != this.__p_HVj14qmEGPKOXSrYictRi5 || State_Output_24 != this.__p_GGpnXkpF5ZmLYBzsCbpI7g || Output_27 != this.__p_ESsWzMdNcJCPpuRp4MME51 || Output_39 != this.__p_IPTzAje68hpQLh9wWCS0xi || Output_43 != this.__p_Ek8kSpkjbJlPIyrWvMqDxz || manager_45 != this.__cache_AjQJrkPTb46M46S7Hr4owo ? new UploadToVVVVOrg_OoOHw5RAoRgNQ154myBJ7l(this)
                 {__p_HVj14qmEGPKOXSrYictRi5 = State_Output_17, __p_GGpnXkpF5ZmLYBzsCbpI7g = State_Output_24, __p_ESsWzMdNcJCPpuRp4MME51 = Output_27, __p_IPTzAje68hpQLh9wWCS0xi = Output_39, __p_Ek8kSpkjbJlPIyrWvMqDxz = Output_43, __cache_AjQJrkPTb46M46S7Hr4owo = manager_45} : that_57;
@@ -2400,21 +2400,21 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures
             return that_57;
         }
 
-        public n19.UploadToVVVVOrg_OoOHw5RAoRgNQ154myBJ7l __Create__(n1.NodeContext Node_Context)
+        public n22.UploadToVVVVOrg_OoOHw5RAoRgNQ154myBJ7l __Create__(n1.NodeContext Node_Context)
         {
             n10.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "IPTzAje68hpQLh9wWCS0xi", 3202U);
-            var Output_1 = n37.RenderTexture_IYQobGzVbWEQYcMFud8H4J.Create(Node_Context: Node_Context_0);
-            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "HVj14qmEGPKOXSrYictRi5", 3223U);
-            var Output_3 = n38.QuadRenderer_THN6uQm7kG3OaRum91XHwL.Create(Node_Context: Node_Context_2);
-            n1.NodeContext Node_Context_4 = Node_Context.CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "GGpnXkpF5ZmLYBzsCbpI7g", 3238U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "IPTzAje68hpQLh9wWCS0xi", 3710U);
+            var Output_1 = n35.RenderTexture_IYQobGzVbWEQYcMFud8H4J.Create(Node_Context: Node_Context_0);
+            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "HVj14qmEGPKOXSrYictRi5", 3731U);
+            var Output_3 = n36.QuadRenderer_THN6uQm7kG3OaRum91XHwL.Create(Node_Context: Node_Context_2);
+            n1.NodeContext Node_Context_4 = Node_Context.CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "GGpnXkpF5ZmLYBzsCbpI7g", 3746U);
             var Output_5 = n15.RenderView_NalvfCkTVBPN12jxpmho9b.Create(Node_Context: Node_Context_4);
-            n1.NodeContext Node_Context_6 = Node_Context.CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "Ek8kSpkjbJlPIyrWvMqDxz", 3244U);
+            n1.NodeContext Node_Context_6 = Node_Context.CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "Ek8kSpkjbJlPIyrWvMqDxz", 3752U);
             bool Initial_Value_7 = false;
             var Output_8 = n39.FrameDelay_VYPkCl1PIexL9IROxeL6ju<bool>.Create(Node_Context: Node_Context_6, Initial_Value_In: Initial_Value_7);
-            n1.NodeContext Node_Context_9 = Node_Context.CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "ESsWzMdNcJCPpuRp4MME51", 3248U);
+            n1.NodeContext Node_Context_9 = Node_Context.CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "ESsWzMdNcJCPpuRp4MME51", 3756U);
             var Output_10 = n39.TogEdge_GJoUlOOEtqiM4g67HVecyr.Create(Node_Context: Node_Context_9);
-            n19.UploadToVVVVOrg_OoOHw5RAoRgNQ154myBJ7l that_11 = this;
+            n22.UploadToVVVVOrg_OoOHw5RAoRgNQ154myBJ7l that_11 = this;
             this.__p_IPTzAje68hpQLh9wWCS0xi = Output_1;
             this.__p_HVj14qmEGPKOXSrYictRi5 = Output_3;
             this.__p_GGpnXkpF5ZmLYBzsCbpI7g = Output_5;
@@ -2424,13 +2424,13 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures
             return that_11;
         }
 
-        public n19.UploadToVVVVOrg_OoOHw5RAoRgNQ154myBJ7l __CreateDefault__()
+        public n22.UploadToVVVVOrg_OoOHw5RAoRgNQ154myBJ7l __CreateDefault__()
         {
-            n19.UploadToVVVVOrg_OoOHw5RAoRgNQ154myBJ7l that_0 = this;
-            this.__p_HVj14qmEGPKOXSrYictRi5 = n38.QuadRenderer_THN6uQm7kG3OaRum91XHwL.CreateDefault();
+            n22.UploadToVVVVOrg_OoOHw5RAoRgNQ154myBJ7l that_0 = this;
+            this.__p_HVj14qmEGPKOXSrYictRi5 = n36.QuadRenderer_THN6uQm7kG3OaRum91XHwL.CreateDefault();
             this.__p_GGpnXkpF5ZmLYBzsCbpI7g = n15.RenderView_NalvfCkTVBPN12jxpmho9b.CreateDefault();
             this.__p_ESsWzMdNcJCPpuRp4MME51 = n39.TogEdge_GJoUlOOEtqiM4g67HVecyr.CreateDefault();
-            this.__p_IPTzAje68hpQLh9wWCS0xi = n37.RenderTexture_IYQobGzVbWEQYcMFud8H4J.CreateDefault();
+            this.__p_IPTzAje68hpQLh9wWCS0xi = n35.RenderTexture_IYQobGzVbWEQYcMFud8H4J.CreateDefault();
             this.__p_Ek8kSpkjbJlPIyrWvMqDxz = n39.FrameDelay_VYPkCl1PIexL9IROxeL6ju<bool>.CreateDefault();
             this.__cache_AjQJrkPTb46M46S7Hr4owo = null;
             return that_0;
@@ -2453,33 +2453,33 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 3222U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "QJ9hbLuYJhpLuCUADVU2JY", Name = "__slot_QJ9hbLuYJhpLuCUADVU2JY")]
+        [n1.ElementAttribute(TracingId = 3730U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "QJ9hbLuYJhpLuCUADVU2JY", Name = "__slot_QJ9hbLuYJhpLuCUADVU2JY")]
         public static n14.PixelFormat __slot_QJ9hbLuYJhpLuCUADVU2JY = n1.CompilationHelper.Deserialize<n14.PixelFormat>("R8G8B8A8_UNorm_SRgb", false, "CWTbJ7dBwqtLwCqXKAv402", "QJ9hbLuYJhpLuCUADVU2JY");
-        [n1.ElementAttribute(TracingId = 3237U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "PXznXerEd0vQHo9Y6Fdux8", Name = "__slot_PXznXerEd0vQHo9Y6Fdux8")]
-        public static n17.Vector2 __slot_PXznXerEd0vQHo9Y6Fdux8 = n1.CompilationHelper.Deserialize<n17.Vector2>("2, 2", false, "CWTbJ7dBwqtLwCqXKAv402", "PXznXerEd0vQHo9Y6Fdux8");
-        [n1.ElementAttribute(TracingId = 3223U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "HVj14qmEGPKOXSrYictRi5", Name = "QuadRenderer", IsManaged = true, IsAutoGenerated = true)]
-        public n38.QuadRenderer_THN6uQm7kG3OaRum91XHwL __p_HVj14qmEGPKOXSrYictRi5;
+        [n1.ElementAttribute(TracingId = 3745U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "PXznXerEd0vQHo9Y6Fdux8", Name = "__slot_PXznXerEd0vQHo9Y6Fdux8")]
+        public static n21.Vector2 __slot_PXznXerEd0vQHo9Y6Fdux8 = n1.CompilationHelper.Deserialize<n21.Vector2>("2, 2", false, "CWTbJ7dBwqtLwCqXKAv402", "PXznXerEd0vQHo9Y6Fdux8");
+        [n1.ElementAttribute(TracingId = 3731U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "HVj14qmEGPKOXSrYictRi5", Name = "QuadRenderer", IsManaged = true, IsAutoGenerated = true)]
+        public n36.QuadRenderer_THN6uQm7kG3OaRum91XHwL __p_HVj14qmEGPKOXSrYictRi5;
         [n1.ElementAttribute(IsAutoGenerated = true)]
-        public static n17.Color4 __c_TIXeQKvqWCUOGuHWoDtpuZ = n1.CompilationHelper.Deserialize<n17.Color4>("1, 1, 1, 1", false, "CWTbJ7dBwqtLwCqXKAv402", "TIXeQKvqWCUOGuHWoDtpuZ");
+        public static n21.Color4 __c_TIXeQKvqWCUOGuHWoDtpuZ = n1.CompilationHelper.Deserialize<n21.Color4>("1, 1, 1, 1", false, "CWTbJ7dBwqtLwCqXKAv402", "TIXeQKvqWCUOGuHWoDtpuZ");
         [n1.ElementAttribute(IsAutoGenerated = true)]
         public static n29.SizeMode __c_BFpJQicEy0NOHlM4ftPki5 = n1.CompilationHelper.Deserialize<n29.SizeMode>("Size", false, "CWTbJ7dBwqtLwCqXKAv402", "BFpJQicEy0NOHlM4ftPki5");
         [n1.ElementAttribute(IsAutoGenerated = true)]
         public static n29.RectangleAnchor __c_PPAEqBdyUmmLMczpGZDUkT = n1.CompilationHelper.Deserialize<n29.RectangleAnchor>("Center", false, "CWTbJ7dBwqtLwCqXKAv402", "PPAEqBdyUmmLMczpGZDUkT");
-        [n1.ElementAttribute(TracingId = 3238U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "GGpnXkpF5ZmLYBzsCbpI7g", Name = "RenderView", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 3746U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "GGpnXkpF5ZmLYBzsCbpI7g", Name = "RenderView", IsManaged = true, IsAutoGenerated = true)]
         public n15.RenderView_NalvfCkTVBPN12jxpmho9b __p_GGpnXkpF5ZmLYBzsCbpI7g;
         [n1.ElementAttribute(IsAutoGenerated = true)]
-        public static n17.Matrix __c_IAC15dIJVTJNFjxtYj1xbA = n1.CompilationHelper.Deserialize<n17.Matrix>("1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1", false, "CWTbJ7dBwqtLwCqXKAv402", "IAC15dIJVTJNFjxtYj1xbA");
-        [n1.ElementAttribute(TracingId = 3248U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "ESsWzMdNcJCPpuRp4MME51", Name = "TogEdge", IsManaged = true, IsAutoGenerated = true)]
+        public static n21.Matrix __c_IAC15dIJVTJNFjxtYj1xbA = n1.CompilationHelper.Deserialize<n21.Matrix>("1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1", false, "CWTbJ7dBwqtLwCqXKAv402", "IAC15dIJVTJNFjxtYj1xbA");
+        [n1.ElementAttribute(TracingId = 3756U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "ESsWzMdNcJCPpuRp4MME51", Name = "TogEdge", IsManaged = true, IsAutoGenerated = true)]
         public n39.TogEdge_GJoUlOOEtqiM4g67HVecyr __p_ESsWzMdNcJCPpuRp4MME51;
-        [n1.ElementAttribute(TracingId = 3202U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "IPTzAje68hpQLh9wWCS0xi", Name = "RenderTexture", IsManaged = true, IsAutoGenerated = true)]
-        public n37.RenderTexture_IYQobGzVbWEQYcMFud8H4J __p_IPTzAje68hpQLh9wWCS0xi;
+        [n1.ElementAttribute(TracingId = 3710U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "IPTzAje68hpQLh9wWCS0xi", Name = "RenderTexture", IsManaged = true, IsAutoGenerated = true)]
+        public n35.RenderTexture_IYQobGzVbWEQYcMFud8H4J __p_IPTzAje68hpQLh9wWCS0xi;
         [n1.ElementAttribute(IsAutoGenerated = true)]
         public static n14.PixelFormat __c_NTki3EYrTbMLDIkaBniAT1 = n1.CompilationHelper.Deserialize<n14.PixelFormat>("D24_UNorm_S8_UInt", false, "CWTbJ7dBwqtLwCqXKAv402", "NTki3EYrTbMLDIkaBniAT1");
         [n1.ElementAttribute(IsAutoGenerated = true)]
-        public static n17.Color4 __c_KuLtn9cadqROQAEUJJXAVy = n1.CompilationHelper.Deserialize<n17.Color4>("0, 0, 0, 1", false, "CWTbJ7dBwqtLwCqXKAv402", "KuLtn9cadqROQAEUJJXAVy");
-        [n1.ElementAttribute(TracingId = 3244U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "Ek8kSpkjbJlPIyrWvMqDxz", Name = "FrameDelay", IsManaged = true, IsAutoGenerated = true)]
+        public static n21.Color4 __c_KuLtn9cadqROQAEUJJXAVy = n1.CompilationHelper.Deserialize<n21.Color4>("0, 0, 0, 1", false, "CWTbJ7dBwqtLwCqXKAv402", "KuLtn9cadqROQAEUJJXAVy");
+        [n1.ElementAttribute(TracingId = 3752U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "Ek8kSpkjbJlPIyrWvMqDxz", Name = "FrameDelay", IsManaged = true, IsAutoGenerated = true)]
         public n39.FrameDelay_VYPkCl1PIexL9IROxeL6ju<bool> __p_Ek8kSpkjbJlPIyrWvMqDxz;
-        [n1.ElementAttribute(TracingId = 3173U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "AjQJrkPTb46M46S7Hr4owo", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 3681U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "AjQJrkPTb46M46S7Hr4owo", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
         public n7.Manager<n2.ValueTuple, n2.ValueTuple<string>> __cache_AjQJrkPTb46M46S7Hr4owo = null;
         static UploadToVVVVOrg_OoOHw5RAoRgNQ154myBJ7l()
         {
@@ -2504,9 +2504,9 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__p_HVj14qmEGPKOXSrYictRi5", in __p_HVj14qmEGPKOXSrYictRi5), n1.CompilationHelper.GetValueOrExisting(values, "__p_GGpnXkpF5ZmLYBzsCbpI7g", in __p_GGpnXkpF5ZmLYBzsCbpI7g), n1.CompilationHelper.GetValueOrExisting(values, "__p_ESsWzMdNcJCPpuRp4MME51", in __p_ESsWzMdNcJCPpuRp4MME51), n1.CompilationHelper.GetValueOrExisting(values, "__p_IPTzAje68hpQLh9wWCS0xi", in __p_IPTzAje68hpQLh9wWCS0xi), n1.CompilationHelper.GetValueOrExisting(values, "__p_Ek8kSpkjbJlPIyrWvMqDxz", in __p_Ek8kSpkjbJlPIyrWvMqDxz), n1.CompilationHelper.GetValueOrExisting(values, "__cache_AjQJrkPTb46M46S7Hr4owo", in __cache_AjQJrkPTb46M46S7Hr4owo));
         }
 
-        internal UploadToVVVVOrg_OoOHw5RAoRgNQ154myBJ7l __WITH__(n38.QuadRenderer_THN6uQm7kG3OaRum91XHwL __p_HVj14qmEGPKOXSrYictRi5, n15.RenderView_NalvfCkTVBPN12jxpmho9b __p_GGpnXkpF5ZmLYBzsCbpI7g, n39.TogEdge_GJoUlOOEtqiM4g67HVecyr __p_ESsWzMdNcJCPpuRp4MME51, n37.RenderTexture_IYQobGzVbWEQYcMFud8H4J __p_IPTzAje68hpQLh9wWCS0xi, n39.FrameDelay_VYPkCl1PIexL9IROxeL6ju<bool> __p_Ek8kSpkjbJlPIyrWvMqDxz, n7.Manager<n2.ValueTuple, n2.ValueTuple<string>> __cache_AjQJrkPTb46M46S7Hr4owo)
+        internal UploadToVVVVOrg_OoOHw5RAoRgNQ154myBJ7l __WITH__(n36.QuadRenderer_THN6uQm7kG3OaRum91XHwL __p_HVj14qmEGPKOXSrYictRi5, n15.RenderView_NalvfCkTVBPN12jxpmho9b __p_GGpnXkpF5ZmLYBzsCbpI7g, n39.TogEdge_GJoUlOOEtqiM4g67HVecyr __p_ESsWzMdNcJCPpuRp4MME51, n35.RenderTexture_IYQobGzVbWEQYcMFud8H4J __p_IPTzAje68hpQLh9wWCS0xi, n39.FrameDelay_VYPkCl1PIexL9IROxeL6ju<bool> __p_Ek8kSpkjbJlPIyrWvMqDxz, n7.Manager<n2.ValueTuple, n2.ValueTuple<string>> __cache_AjQJrkPTb46M46S7Hr4owo)
         {
-            n19.UploadToVVVVOrg_OoOHw5RAoRgNQ154myBJ7l that_0 = this;
+            n22.UploadToVVVVOrg_OoOHw5RAoRgNQ154myBJ7l that_0 = this;
             if (this.__GetContext__().IsImmutable)
                 that_0 = __p_HVj14qmEGPKOXSrYictRi5 != this.__p_HVj14qmEGPKOXSrYictRi5 || __p_GGpnXkpF5ZmLYBzsCbpI7g != this.__p_GGpnXkpF5ZmLYBzsCbpI7g || __p_ESsWzMdNcJCPpuRp4MME51 != this.__p_ESsWzMdNcJCPpuRp4MME51 || __p_IPTzAje68hpQLh9wWCS0xi != this.__p_IPTzAje68hpQLh9wWCS0xi || __p_Ek8kSpkjbJlPIyrWvMqDxz != this.__p_Ek8kSpkjbJlPIyrWvMqDxz || __cache_AjQJrkPTb46M46S7Hr4owo != this.__cache_AjQJrkPTb46M46S7Hr4owo ? new UploadToVVVVOrg_OoOHw5RAoRgNQ154myBJ7l(this)
                 {__p_HVj14qmEGPKOXSrYictRi5 = __p_HVj14qmEGPKOXSrYictRi5, __p_GGpnXkpF5ZmLYBzsCbpI7g = __p_GGpnXkpF5ZmLYBzsCbpI7g, __p_ESsWzMdNcJCPpuRp4MME51 = __p_ESsWzMdNcJCPpuRp4MME51, __p_IPTzAje68hpQLh9wWCS0xi = __p_IPTzAje68hpQLh9wWCS0xi, __p_Ek8kSpkjbJlPIyrWvMqDxz = __p_Ek8kSpkjbJlPIyrWvMqDxz, __cache_AjQJrkPTb46M46S7Hr4owo = __cache_AjQJrkPTb46M46S7Hr4owo} : that_0;
@@ -2533,8 +2533,8 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 3192U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "IEfoGjZ1DVdNlth7aJ8tjx", Name = "GraphicsContext", IsManaged = true, IsAutoGenerated = true)]
-            public n34.GraphicsContext_LZGVLOdpi83QS6XklGOZVK __p_IEfoGjZ1DVdNlth7aJ8tjx;
+            [n1.ElementAttribute(TracingId = 3700U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "IEfoGjZ1DVdNlth7aJ8tjx", Name = "GraphicsContext", IsManaged = true, IsAutoGenerated = true)]
+            public n33.GraphicsContext_LZGVLOdpi83QS6XklGOZVK __p_IEfoGjZ1DVdNlth7aJ8tjx;
             public __UJdOBqzG7JzM1n7cIwJpT6(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
             }
@@ -2549,7 +2549,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures
                 return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__p_IEfoGjZ1DVdNlth7aJ8tjx", in __p_IEfoGjZ1DVdNlth7aJ8tjx));
             }
 
-            internal __UJdOBqzG7JzM1n7cIwJpT6 __WITH__(n34.GraphicsContext_LZGVLOdpi83QS6XklGOZVK __p_IEfoGjZ1DVdNlth7aJ8tjx)
+            internal __UJdOBqzG7JzM1n7cIwJpT6 __WITH__(n33.GraphicsContext_LZGVLOdpi83QS6XklGOZVK __p_IEfoGjZ1DVdNlth7aJ8tjx)
             {
                 __UJdOBqzG7JzM1n7cIwJpT6 that_0 = this;
                 if (this.__GetContext__().IsImmutable)
@@ -2568,32 +2568,32 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Textures
 
 namespace _VL_Stride_Graphics_Windows_.Stride.Graphics.Texture.Advanced
 {
-    [n1.ElementAttribute(TracingId = 3298U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "Uje1mp1ZQS9MiWnGjYtyAz", Name = "FromNativeTexture_Uje1mp1ZQS9MiWnGjYtyAz")]
+    [n1.ElementAttribute(TracingId = 3806U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "Uje1mp1ZQS9MiWnGjYtyAz", Name = "FromNativeTexture_Uje1mp1ZQS9MiWnGjYtyAz")]
     [n2.SerializableAttribute]
     public class FromNativeTexture_Uje1mp1ZQS9MiWnGjYtyAz : n1.VLObject, n2.IDisposable
     {
         [n4.CreateNewAttribute]
-        public static n31.FromNativeTexture_Uje1mp1ZQS9MiWnGjYtyAz Create(n1.NodeContext Node_Context)
+        public static n41.FromNativeTexture_Uje1mp1ZQS9MiWnGjYtyAz Create(n1.NodeContext Node_Context)
         {
             var instance = new FromNativeTexture_Uje1mp1ZQS9MiWnGjYtyAz(Node_Context, n1.VLObject.NewIdentity());
             return instance.__Create__(Node_Context);
         }
 
         [n4.CreateDefaultAttribute]
-        public static n31.FromNativeTexture_Uje1mp1ZQS9MiWnGjYtyAz CreateDefault()
+        public static n41.FromNativeTexture_Uje1mp1ZQS9MiWnGjYtyAz CreateDefault()
         {
             var instance = new FromNativeTexture_Uje1mp1ZQS9MiWnGjYtyAz(n1.NodeContext.Default, n1.VLObject.NewIdentity());
             return instance.__CreateDefault__();
         }
 
-        public n31.FromNativeTexture_Uje1mp1ZQS9MiWnGjYtyAz Update(n32.Texture2D Native_Texture_In, out n5.Texture Output_Out)
+        public n41.FromNativeTexture_Uje1mp1ZQS9MiWnGjYtyAz Update(n42.Texture2D Native_Texture_In, out n5.Texture Output_Out)
         {
             bool Force_0 = false;
             bool Dispose_Cached_Outputs_1 = false;
             var manager_2 = this.__cache_T2v44Phhq3nQD513uCeI8s;
             if (manager_2 is null)
             {
-                manager_2 = new n7.Manager<n2.ValueTuple<n32.Texture2D>, n2.ValueTuple<n5.Texture>>(n2.ValueTuple.Create(default(n5.Texture)));
+                manager_2 = new n7.Manager<n2.ValueTuple<n42.Texture2D>, n2.ValueTuple<n5.Texture>>(n2.ValueTuple.Create(default(n5.Texture)));
             }
 
             var inputs_3 = n2.ValueTuple.Create(Native_Texture_In);
@@ -2617,8 +2617,8 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Graphics.Texture.Advanced
                     if (state_10 == null)
                     {
                         state_10 = new __EdRN5c2mvAXOXPiQpZRRdH(__GetContext__(), n1.VLObject.NewIdentity());
-                        n1.NodeContext Node_Context_11 = __GetContext__().CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "Uo9P6Z6hvAbMI1qkNBMgZ8", 3327U);
-                        var Output_12 = n34.GraphicsDevice_V0mXf77TurpOVQNzgviejb.Create(Node_Context_In: Node_Context_11);
+                        n1.NodeContext Node_Context_11 = __GetContext__().CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "Uo9P6Z6hvAbMI1qkNBMgZ8", 3835U);
+                        var Output_12 = n33.GraphicsDevice_V0mXf77TurpOVQNzgviejb.Create(Node_Context_In: Node_Context_11);
                         state_10.__p_Uo9P6Z6hvAbMI1qkNBMgZ8 = Output_12;
                     }
 
@@ -2658,7 +2658,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Graphics.Texture.Advanced
 
             var __auto_18 = outputs_4.Item1;
             Output_Out = __auto_18;
-            n31.FromNativeTexture_Uje1mp1ZQS9MiWnGjYtyAz that_19 = this;
+            n41.FromNativeTexture_Uje1mp1ZQS9MiWnGjYtyAz that_19 = this;
             if (this.__GetContext__().IsImmutable)
                 that_19 = manager_2 != this.__cache_T2v44Phhq3nQD513uCeI8s ? new FromNativeTexture_Uje1mp1ZQS9MiWnGjYtyAz(this)
                 {__cache_T2v44Phhq3nQD513uCeI8s = manager_2} : that_19;
@@ -2670,17 +2670,17 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Graphics.Texture.Advanced
             return that_19;
         }
 
-        public n31.FromNativeTexture_Uje1mp1ZQS9MiWnGjYtyAz __Create__(n1.NodeContext Node_Context)
+        public n41.FromNativeTexture_Uje1mp1ZQS9MiWnGjYtyAz __Create__(n1.NodeContext Node_Context)
         {
             n10.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n31.FromNativeTexture_Uje1mp1ZQS9MiWnGjYtyAz that_0 = this;
+            n41.FromNativeTexture_Uje1mp1ZQS9MiWnGjYtyAz that_0 = this;
             this.__cache_T2v44Phhq3nQD513uCeI8s = null;
             return that_0;
         }
 
-        public n31.FromNativeTexture_Uje1mp1ZQS9MiWnGjYtyAz __CreateDefault__()
+        public n41.FromNativeTexture_Uje1mp1ZQS9MiWnGjYtyAz __CreateDefault__()
         {
-            n31.FromNativeTexture_Uje1mp1ZQS9MiWnGjYtyAz that_0 = this;
+            n41.FromNativeTexture_Uje1mp1ZQS9MiWnGjYtyAz that_0 = this;
             this.__cache_T2v44Phhq3nQD513uCeI8s = null;
             return that_0;
         }
@@ -2697,8 +2697,8 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Graphics.Texture.Advanced
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 3301U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "T2v44Phhq3nQD513uCeI8s", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
-        public n7.Manager<n2.ValueTuple<n32.Texture2D>, n2.ValueTuple<n5.Texture>> __cache_T2v44Phhq3nQD513uCeI8s = null;
+        [n1.ElementAttribute(TracingId = 3809U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "T2v44Phhq3nQD513uCeI8s", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        public n7.Manager<n2.ValueTuple<n42.Texture2D>, n2.ValueTuple<n5.Texture>> __cache_T2v44Phhq3nQD513uCeI8s = null;
         public FromNativeTexture_Uje1mp1ZQS9MiWnGjYtyAz(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
         }
@@ -2713,9 +2713,9 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Graphics.Texture.Advanced
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__cache_T2v44Phhq3nQD513uCeI8s", in __cache_T2v44Phhq3nQD513uCeI8s));
         }
 
-        internal FromNativeTexture_Uje1mp1ZQS9MiWnGjYtyAz __WITH__(n7.Manager<n2.ValueTuple<n32.Texture2D>, n2.ValueTuple<n5.Texture>> __cache_T2v44Phhq3nQD513uCeI8s)
+        internal FromNativeTexture_Uje1mp1ZQS9MiWnGjYtyAz __WITH__(n7.Manager<n2.ValueTuple<n42.Texture2D>, n2.ValueTuple<n5.Texture>> __cache_T2v44Phhq3nQD513uCeI8s)
         {
-            n31.FromNativeTexture_Uje1mp1ZQS9MiWnGjYtyAz that_0 = this;
+            n41.FromNativeTexture_Uje1mp1ZQS9MiWnGjYtyAz that_0 = this;
             if (this.__GetContext__().IsImmutable)
                 that_0 = __cache_T2v44Phhq3nQD513uCeI8s != this.__cache_T2v44Phhq3nQD513uCeI8s ? new FromNativeTexture_Uje1mp1ZQS9MiWnGjYtyAz(this)
                 {__cache_T2v44Phhq3nQD513uCeI8s = __cache_T2v44Phhq3nQD513uCeI8s} : that_0;
@@ -2778,8 +2778,8 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Graphics.Texture.Advanced
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 3327U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "Uo9P6Z6hvAbMI1qkNBMgZ8", Name = "GraphicsDevice", IsManaged = true, IsAutoGenerated = true)]
-            public n34.GraphicsDevice_V0mXf77TurpOVQNzgviejb __p_Uo9P6Z6hvAbMI1qkNBMgZ8;
+            [n1.ElementAttribute(TracingId = 3835U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "Uo9P6Z6hvAbMI1qkNBMgZ8", Name = "GraphicsDevice", IsManaged = true, IsAutoGenerated = true)]
+            public n33.GraphicsDevice_V0mXf77TurpOVQNzgviejb __p_Uo9P6Z6hvAbMI1qkNBMgZ8;
             public __EdRN5c2mvAXOXPiQpZRRdH(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
             }
@@ -2794,7 +2794,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Graphics.Texture.Advanced
                 return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__p_Uo9P6Z6hvAbMI1qkNBMgZ8", in __p_Uo9P6Z6hvAbMI1qkNBMgZ8));
             }
 
-            internal __EdRN5c2mvAXOXPiQpZRRdH __WITH__(n34.GraphicsDevice_V0mXf77TurpOVQNzgviejb __p_Uo9P6Z6hvAbMI1qkNBMgZ8)
+            internal __EdRN5c2mvAXOXPiQpZRRdH __WITH__(n33.GraphicsDevice_V0mXf77TurpOVQNzgviejb __p_Uo9P6Z6hvAbMI1qkNBMgZ8)
             {
                 __EdRN5c2mvAXOXPiQpZRRdH that_0 = this;
                 if (this.__GetContext__().IsImmutable)
@@ -2810,25 +2810,25 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Graphics.Texture.Advanced
         }
     }
 
-    [n1.ElementAttribute(TracingId = 3349U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "JhCoWFfyhrdNGNVPfy0KHo", Name = "FromSharedHandle_JhCoWFfyhrdNGNVPfy0KHo")]
+    [n1.ElementAttribute(TracingId = 3857U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "JhCoWFfyhrdNGNVPfy0KHo", Name = "FromSharedHandle_JhCoWFfyhrdNGNVPfy0KHo")]
     [n2.SerializableAttribute]
     public class FromSharedHandle_JhCoWFfyhrdNGNVPfy0KHo : n1.VLObject, n2.IDisposable
     {
         [n4.CreateNewAttribute]
-        public static n31.FromSharedHandle_JhCoWFfyhrdNGNVPfy0KHo Create(n1.NodeContext Node_Context)
+        public static n41.FromSharedHandle_JhCoWFfyhrdNGNVPfy0KHo Create(n1.NodeContext Node_Context)
         {
             var instance = new FromSharedHandle_JhCoWFfyhrdNGNVPfy0KHo(Node_Context, n1.VLObject.NewIdentity());
             return instance.__Create__(Node_Context);
         }
 
         [n4.CreateDefaultAttribute]
-        public static n31.FromSharedHandle_JhCoWFfyhrdNGNVPfy0KHo CreateDefault()
+        public static n41.FromSharedHandle_JhCoWFfyhrdNGNVPfy0KHo CreateDefault()
         {
             var instance = new FromSharedHandle_JhCoWFfyhrdNGNVPfy0KHo(n1.NodeContext.Default, n1.VLObject.NewIdentity());
             return instance.__CreateDefault__();
         }
 
-        public n31.FromSharedHandle_JhCoWFfyhrdNGNVPfy0KHo Update(n2.IntPtr Texture_Handle_In, out n5.Texture Output_Out)
+        public n41.FromSharedHandle_JhCoWFfyhrdNGNVPfy0KHo Update(n2.IntPtr Texture_Handle_In, out n5.Texture Output_Out)
         {
             bool Force_0 = false;
             bool Dispose_Cached_Outputs_1 = true;
@@ -2849,16 +2849,16 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Graphics.Texture.Advanced
                 if (state_6 == null)
                 {
                     state_6 = new __UNHQc4cl6HSNTjvehB22mp(__GetContext__(), n1.VLObject.NewIdentity());
-                    n1.NodeContext Node_Context_7 = __GetContext__().CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "FZmVfZozt32MG8xSCPXtze", 3370U);
-                    var Output_8 = n34.GraphicsDevice_V0mXf77TurpOVQNzgviejb.Create(Node_Context_In: Node_Context_7);
+                    n1.NodeContext Node_Context_7 = __GetContext__().CreateSubContext("CWTbJ7dBwqtLwCqXKAv402", "FZmVfZozt32MG8xSCPXtze", 3878U);
+                    var Output_8 = n33.GraphicsDevice_V0mXf77TurpOVQNzgviejb.Create(Node_Context_In: Node_Context_7);
                     state_6.__p_FZmVfZozt32MG8xSCPXtze = Output_8;
                 }
 
                 var State_Output_10 = state_6.__p_FZmVfZozt32MG8xSCPXtze.Update(Output_Out: out n5.GraphicsDevice Output_9);
                 var Result_11 = n5.SharpDXInterop.GetNativeDevice(device: Output_9);
-                n32.Device Default_12 = default(n32.Device);
-                n40._Operations_.CastAs<n32.Device>(Input_In: Result_11, Default_In: Default_12, Result_Out: out n32.Device Result_13, Success_Out: out bool Success_14);
-                n2.IntPtr Input_2_15 = n35._Operations_.CreateDefault();
+                n42.Device Default_12 = default(n42.Device);
+                n44._Operations_.CastAs<n42.Device>(Input_In: Result_11, Default_In: Default_12, Result_Out: out n42.Device Result_13, Success_Out: out bool Success_14);
+                n2.IntPtr Input_2_15 = n31._Operations_.CreateDefault();
                 var Result_16 = Texture_Handle_In != Input_2_15;
                 var Output_17 = Success_14 && Result_16;
                 n5.Texture __auto_18;
@@ -2868,8 +2868,8 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Graphics.Texture.Advanced
                     n45._Operations_.TryCatch_Stateless<n5.Texture>(Try_In: () =>
                     {
                         using var __current_21 = __fallback___20.MakeCurrentIfNone();
-                        var Result_22 = Result_13.OpenSharedResource<n32.Texture2D>(resourceHandle: Texture_Handle_In);
-                        n32.Texture2D __pad_ExdUMGuCTYdPisnBriAfdU_23 = Result_22;
+                        var Result_22 = Result_13.OpenSharedResource<n42.Texture2D>(resourceHandle: Texture_Handle_In);
+                        n42.Texture2D __pad_ExdUMGuCTYdPisnBriAfdU_23 = Result_22;
                         bool Take_Ownership_24 = true;
                         bool Is_SRgb_25 = false;
                         var Result_26 = n5.SharpDXInterop.CreateTextureFromNative(device: Output_9, dxTexture2D: __pad_ExdUMGuCTYdPisnBriAfdU_23, takeOwnership: Take_Ownership_24, isSRgb: Is_SRgb_25);
@@ -2908,7 +2908,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Graphics.Texture.Advanced
 
             var __auto_30 = outputs_4.Item1;
             Output_Out = __auto_30;
-            n31.FromSharedHandle_JhCoWFfyhrdNGNVPfy0KHo that_31 = this;
+            n41.FromSharedHandle_JhCoWFfyhrdNGNVPfy0KHo that_31 = this;
             if (this.__GetContext__().IsImmutable)
                 that_31 = manager_2 != this.__cache_PphpQPfSfscOgWflWKiKNR ? new FromSharedHandle_JhCoWFfyhrdNGNVPfy0KHo(this)
                 {__cache_PphpQPfSfscOgWflWKiKNR = manager_2} : that_31;
@@ -2920,17 +2920,17 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Graphics.Texture.Advanced
             return that_31;
         }
 
-        public n31.FromSharedHandle_JhCoWFfyhrdNGNVPfy0KHo __Create__(n1.NodeContext Node_Context)
+        public n41.FromSharedHandle_JhCoWFfyhrdNGNVPfy0KHo __Create__(n1.NodeContext Node_Context)
         {
             n10.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n31.FromSharedHandle_JhCoWFfyhrdNGNVPfy0KHo that_0 = this;
+            n41.FromSharedHandle_JhCoWFfyhrdNGNVPfy0KHo that_0 = this;
             this.__cache_PphpQPfSfscOgWflWKiKNR = null;
             return that_0;
         }
 
-        public n31.FromSharedHandle_JhCoWFfyhrdNGNVPfy0KHo __CreateDefault__()
+        public n41.FromSharedHandle_JhCoWFfyhrdNGNVPfy0KHo __CreateDefault__()
         {
-            n31.FromSharedHandle_JhCoWFfyhrdNGNVPfy0KHo that_0 = this;
+            n41.FromSharedHandle_JhCoWFfyhrdNGNVPfy0KHo that_0 = this;
             this.__cache_PphpQPfSfscOgWflWKiKNR = null;
             return that_0;
         }
@@ -2947,7 +2947,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Graphics.Texture.Advanced
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 3353U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "PphpQPfSfscOgWflWKiKNR", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 3861U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "PphpQPfSfscOgWflWKiKNR", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
         public n7.Manager<n2.ValueTuple<n2.IntPtr>, n2.ValueTuple<n5.Texture>> __cache_PphpQPfSfscOgWflWKiKNR = null;
         public FromSharedHandle_JhCoWFfyhrdNGNVPfy0KHo(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -2965,7 +2965,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Graphics.Texture.Advanced
 
         internal FromSharedHandle_JhCoWFfyhrdNGNVPfy0KHo __WITH__(n7.Manager<n2.ValueTuple<n2.IntPtr>, n2.ValueTuple<n5.Texture>> __cache_PphpQPfSfscOgWflWKiKNR)
         {
-            n31.FromSharedHandle_JhCoWFfyhrdNGNVPfy0KHo that_0 = this;
+            n41.FromSharedHandle_JhCoWFfyhrdNGNVPfy0KHo that_0 = this;
             if (this.__GetContext__().IsImmutable)
                 that_0 = __cache_PphpQPfSfscOgWflWKiKNR != this.__cache_PphpQPfSfscOgWflWKiKNR ? new FromSharedHandle_JhCoWFfyhrdNGNVPfy0KHo(this)
                 {__cache_PphpQPfSfscOgWflWKiKNR = __cache_PphpQPfSfscOgWflWKiKNR} : that_0;
@@ -2987,8 +2987,8 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Graphics.Texture.Advanced
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 3370U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "FZmVfZozt32MG8xSCPXtze", Name = "GraphicsDevice", IsManaged = true, IsAutoGenerated = true)]
-            public n34.GraphicsDevice_V0mXf77TurpOVQNzgviejb __p_FZmVfZozt32MG8xSCPXtze;
+            [n1.ElementAttribute(TracingId = 3878U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "FZmVfZozt32MG8xSCPXtze", Name = "GraphicsDevice", IsManaged = true, IsAutoGenerated = true)]
+            public n33.GraphicsDevice_V0mXf77TurpOVQNzgviejb __p_FZmVfZozt32MG8xSCPXtze;
             public __UNHQc4cl6HSNTjvehB22mp(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
             }
@@ -3003,7 +3003,7 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Graphics.Texture.Advanced
                 return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__p_FZmVfZozt32MG8xSCPXtze", in __p_FZmVfZozt32MG8xSCPXtze));
             }
 
-            internal __UNHQc4cl6HSNTjvehB22mp __WITH__(n34.GraphicsDevice_V0mXf77TurpOVQNzgviejb __p_FZmVfZozt32MG8xSCPXtze)
+            internal __UNHQc4cl6HSNTjvehB22mp __WITH__(n33.GraphicsDevice_V0mXf77TurpOVQNzgviejb __p_FZmVfZozt32MG8xSCPXtze)
             {
                 __UNHQc4cl6HSNTjvehB22mp that_0 = this;
                 if (this.__GetContext__().IsImmutable)
@@ -3022,36 +3022,36 @@ namespace _VL_Stride_Graphics_Windows_.Stride.Graphics.Texture.Advanced
 
 namespace _VL_Stride_Graphics_Windows_.Stride
 {
-    [n1.ElementAttribute(TracingId = 3440U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "RG5iKypeWUxLXGWYlK6wyw", Name = "VL_Stride_Graphics_WindowsApplication_RG5iKypeWUxLXGWYlK6wyw")]
+    [n1.ElementAttribute(TracingId = 3948U, DocumentId = "CWTbJ7dBwqtLwCqXKAv402", PersistentId = "RG5iKypeWUxLXGWYlK6wyw", Name = "VL_Stride_Graphics_WindowsApplication_RG5iKypeWUxLXGWYlK6wyw")]
     [n2.SerializableAttribute]
     public class VL_Stride_Graphics_WindowsApplication_RG5iKypeWUxLXGWYlK6wyw : n1.VLObject, n2.IDisposable
     {
         [n4.CreateNewAttribute]
-        public static n43.VL_Stride_Graphics_WindowsApplication_RG5iKypeWUxLXGWYlK6wyw Create(n1.NodeContext Node_Context)
+        public static n49.VL_Stride_Graphics_WindowsApplication_RG5iKypeWUxLXGWYlK6wyw Create(n1.NodeContext Node_Context)
         {
             var instance = new VL_Stride_Graphics_WindowsApplication_RG5iKypeWUxLXGWYlK6wyw(Node_Context, n1.VLObject.NewIdentity());
             return instance.__Create__(Node_Context);
         }
 
         [n4.CreateDefaultAttribute]
-        public static n43.VL_Stride_Graphics_WindowsApplication_RG5iKypeWUxLXGWYlK6wyw CreateDefault()
+        public static n49.VL_Stride_Graphics_WindowsApplication_RG5iKypeWUxLXGWYlK6wyw CreateDefault()
         {
             var instance = new VL_Stride_Graphics_WindowsApplication_RG5iKypeWUxLXGWYlK6wyw(n1.NodeContext.Default, n1.VLObject.NewIdentity());
             return instance.__CreateDefault__();
         }
 
-        public n43.VL_Stride_Graphics_WindowsApplication_RG5iKypeWUxLXGWYlK6wyw Update()
+        public n49.VL_Stride_Graphics_WindowsApplication_RG5iKypeWUxLXGWYlK6wyw Update()
         {
             return this;
         }
 
-        public n43.VL_Stride_Graphics_WindowsApplication_RG5iKypeWUxLXGWYlK6wyw __Create__(n1.NodeContext Node_Context)
+        public n49.VL_Stride_Graphics_WindowsApplication_RG5iKypeWUxLXGWYlK6wyw __Create__(n1.NodeContext Node_Context)
         {
             n10.RuntimeHelpers.EnsureSufficientExecutionStack();
             return this;
         }
 
-        public n43.VL_Stride_Graphics_WindowsApplication_RG5iKypeWUxLXGWYlK6wyw __CreateDefault__()
+        public n49.VL_Stride_Graphics_WindowsApplication_RG5iKypeWUxLXGWYlK6wyw __CreateDefault__()
         {
             return this;
         }

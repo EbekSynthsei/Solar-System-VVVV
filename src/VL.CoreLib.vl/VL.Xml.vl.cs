@@ -1,67 +1,67 @@
-﻿extern alias e2;
-extern alias e5;
+﻿extern alias e3;
+extern alias e2;
 
 using n18 = _VL_Xml_.System.XML.XNode;
-using n38 = _VL_Xml_.System.XML.XDeclaration;
+using n34 = _VL_Xml_.System.XML.XDeclaration;
 using n53 = _VL_Xml_.System.XML.XDocumentWriter_Reactive.Advanced;
 using n50 = _VL_Xml_.System.XML.XDocumentWriter.Advanced;
+using n40 = e2::VL.Lib.Collections;
+using n55 = e3::VL.Lib.Primitive.CacheRegion;
 using n51 = _VL_Reactive_.Reactive.ToObservable;
-using n46 = _CoreLibBasics_.Primitive.Object.Advanced;
+using n45 = _CoreLibBasics_.Primitive.Object.Advanced;
 using n10 = _VL_CoreLib_Experimental_.Control.Try__3Outputs.Obsolete.Experimental;
-using n33 = _CoreLibBasics_.Control;
-using n31 = _CoreLibBasics_.System.Conversion.Adaptive;
+using n29 = _CoreLibBasics_.Control;
+using n44 = _CoreLibBasics_.System.Conversion.Adaptive;
 using n52 = _VL_Xml_.System.XML.XDocumentReader_Reactive.Advanced;
-using n12 = e2::VL.Lib.Text;
 using n5 = _VL_Xml_.System.XML.XDocument;
+using n22 = e3::VL.Lib.IO.Obsolete;
 using n54 = _VL_Reactive_.Reactive.Advanced;
-using n9 = e2::VL.Lib.Control;
-using n27 = e5::VL.Lib.Animation;
+using n21 = e3::VL.Lib.Reactive;
 using n3 = _VL_Xml_.IO.Obsolete;
-using n29 = e2::VL.Lib.Primitive.Object;
-using n4 = e5::VL.Core.CompilerServices;
+using n9 = e3::VL.Lib.Control;
 using n26 = _CoreLibBasics_.Animation.IFrameClock.Advanced;
 using n14 = global::System.Collections.Generic;
 using n15 = _VL_CoreLib_Experimental_.Control.Try__2Outputs.Obsolete.Experimental;
+using n30 = e2::VL.Lib.Basics.Resources;
 using n16 = _CoreLibBasics_.IO.Path;
 using n25 = _VL_Reactive_.Reactive.Observable.Advanced;
-using n36 = _VL_Xml_.System.XML;
-using n32 = _CoreLibBasics_.Primitive.Advanced.Adaptive;
+using n32 = _VL_Xml_.System.XML;
+using n43 = _CoreLibBasics_.Primitive.Advanced.Adaptive;
 using n8 = _VL_Xml_.System.XML.Obsolete.Internal;
 using n56 = _VL_CoreLib_IO_.IO;
-using n55 = e2::VL.Lib.Primitive.CacheRegion;
 using n48 = _VL_Xml_.System.XML.XAttribute;
-using n22 = e2::VL.Lib.IO.Obsolete;
-using n44 = global::System.Xml.XPath;
-using n21 = e2::VL.Lib.Reactive;
-using n1 = e5::VL.Core;
+using n12 = e3::VL.Lib.Text;
+using n41 = global::System.Xml.XPath;
 using n57 = _CoreLibBasics_.IO.Stream.Experimental;
-using n24 = e2::VL.Lib.Xml;
-using n34 = e5::VL.Lib.Basics.Resources;
+using n1 = e2::VL.Core;
 using n2 = global::System;
-using n42 = _VL_Reactive_.Reactive;
+using n38 = _VL_Reactive_.Reactive;
 using n49 = _VL_Xml_.System.XML.XDocumentReader.Advanced;
-using n23 = e2::VL.Lib.IO;
-using n40 = _VL_Xml_;
+using n11 = e2::VL.Lib.IO;
+using n46 = e3::VL.Lib.Primitive.Object;
+using n23 = e3::VL.Lib.IO;
+using n4 = e2::VL.Core.CompilerServices;
+using n36 = _VL_Xml_;
 using n7 = _VL_Xml_.System.XML.XElement;
-using n43 = _VL_Reactive_.Reactive.ForEach;
-using n39 = _VL_Xml_.System.XML.XDocumentType;
+using n39 = _VL_Reactive_.Reactive.ForEach;
+using n35 = _VL_Xml_.System.XML.XDocumentType;
 using n28 = _VL_CoreLib_IO_.IO.File_NoSharing_1.Obsolete;
 using n20 = _VL_Reactive_.Reactive.HoldLatest;
-using n45 = _VL_Collections_.Collections.Sequence;
+using n27 = e2::VL.Lib.Animation;
+using n42 = _VL_Collections_.Collections.Sequence;
 using n13 = global::System.Runtime.CompilerServices;
 using n17 = _CoreLibBasics_.Text.Encodings;
-using n37 = _VL_Xml_.System.XML.Advanced;
-using n30 = e5::VL.Lib.Collections;
-using n11 = e5::VL.Lib.IO;
+using n33 = _VL_Xml_.System.XML.Advanced;
 using n47 = _VL_Collections_.Collections.Spread;
-using n35 = _CoreLibBasics_.System.Resources.Advanced;
-using n41 = _VL_Reactive_.Reactive.Debug;
+using n31 = _CoreLibBasics_.System.Resources.Advanced;
+using n24 = e3::VL.Lib.Xml;
+using n37 = _VL_Reactive_.Reactive.Debug;
 using n6 = global::System.Xml.Linq;
 using n19 = global::System.IO;
 
 namespace _VL_Xml_.IO.Obsolete
 {
-    [n1.ElementAttribute(TracingId = 209726U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "ONznqaraFfTO17wD7cHvB2", Name = "FileReader_JSON_1_ONznqaraFfTO17wD7cHvB2")]
+    [n1.ElementAttribute(TracingId = 65803U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "ONznqaraFfTO17wD7cHvB2", Name = "FileReader_JSON_1_ONznqaraFfTO17wD7cHvB2")]
     [n2.SerializableAttribute]
     public class FileReader_JSON_1_ONznqaraFfTO17wD7cHvB2 : n1.VLObject, n2.IDisposable
     {
@@ -112,7 +112,7 @@ namespace _VL_Xml_.IO.Obsolete
             {
                 using var __current_13 = __fallback___4.MakeCurrentIfNone();
                 var state_6 = new __Gcg7wTykhXVNJLdXlyUiak(__GetContext__(), n1.VLObject.NewIdentity());
-                n1.NodeContext Node_Context_14 = __GetContext__().CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "Lv69RRF44uPLO31x0MvAkK", 209785U);
+                n1.NodeContext Node_Context_14 = __GetContext__().CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "Lv69RRF44uPLO31x0MvAkK", 68024U);
                 var Output_15 = n8.FileReader_JSON_NoErrorHandling_1_C.Create(Node_Context: Node_Context_14);
                 state_6.__p_Lv69RRF44uPLO31x0MvAkK = Output_15;
                 return state_6;
@@ -139,7 +139,7 @@ namespace _VL_Xml_.IO.Obsolete
         public n3.FileReader_JSON_1_ONznqaraFfTO17wD7cHvB2 __Create__(n1.NodeContext Node_Context)
         {
             n13.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "F09yCQqYQO8NEzZeb5vbMO", 209752U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "F09yCQqYQO8NEzZeb5vbMO", 65812U);
             n10._Operations_.Create_H<n2.Object>(Node_Context: Node_Context_0, Output_Out: out n9.TryStateful3<n2.Object> Output_1);
             n3.FileReader_JSON_1_ONznqaraFfTO17wD7cHvB2 that_2 = this;
             this.__p_F09yCQqYQO8NEzZeb5vbMO = Output_1;
@@ -165,7 +165,7 @@ namespace _VL_Xml_.IO.Obsolete
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 209752U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "F09yCQqYQO8NEzZeb5vbMO", Name = "Try (3Outputs)", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 65812U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "F09yCQqYQO8NEzZeb5vbMO", Name = "Try (3Outputs)", IsManaged = true, IsAutoGenerated = true)]
         public n9.TryStateful3<n2.Object> __p_F09yCQqYQO8NEzZeb5vbMO;
         public FileReader_JSON_1_ONznqaraFfTO17wD7cHvB2(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -205,7 +205,7 @@ namespace _VL_Xml_.IO.Obsolete
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 209785U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "Lv69RRF44uPLO31x0MvAkK", Name = "FileReader (JSON NoErrorHandling 1)", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 68024U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "Lv69RRF44uPLO31x0MvAkK", Name = "FileReader (JSON NoErrorHandling 1)", IsManaged = true, IsAutoGenerated = true)]
             public n8.FileReader_JSON_NoErrorHandling_1_C __p_Lv69RRF44uPLO31x0MvAkK;
             public __Gcg7wTykhXVNJLdXlyUiak(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -237,7 +237,7 @@ namespace _VL_Xml_.IO.Obsolete
         }
     }
 
-    [n1.ElementAttribute(TracingId = 209921U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "KNjbqVB34ftQTFNbReBMiE", Name = "FileReader_XML_1_KNjbqVB34ftQTFNbReBMiE")]
+    [n1.ElementAttribute(TracingId = 68114U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "KNjbqVB34ftQTFNbReBMiE", Name = "FileReader_XML_1_KNjbqVB34ftQTFNbReBMiE")]
     [n2.SerializableAttribute]
     public class FileReader_XML_1_KNjbqVB34ftQTFNbReBMiE : n1.VLObject, n2.IDisposable
     {
@@ -288,7 +288,7 @@ namespace _VL_Xml_.IO.Obsolete
             {
                 using var __current_13 = __fallback___4.MakeCurrentIfNone();
                 var state_6 = new __EsIuMmb9pjpOIq3Yqp1zez(__GetContext__(), n1.VLObject.NewIdentity());
-                n1.NodeContext Node_Context_14 = __GetContext__().CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "EkbDdG74u8ZPIjDp6b3sef", 209952U);
+                n1.NodeContext Node_Context_14 = __GetContext__().CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "EkbDdG74u8ZPIjDp6b3sef", 68129U);
                 var Output_15 = n8.FileReader_XML_NoErrorHandling_1_C.Create(Node_Context: Node_Context_14);
                 state_6.__p_EkbDdG74u8ZPIjDp6b3sef = Output_15;
                 return state_6;
@@ -315,7 +315,7 @@ namespace _VL_Xml_.IO.Obsolete
         public n3.FileReader_XML_1_KNjbqVB34ftQTFNbReBMiE __Create__(n1.NodeContext Node_Context)
         {
             n13.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "DvSSDefziBtMBvilLRetBv", 209927U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "DvSSDefziBtMBvilLRetBv", 68118U);
             n10._Operations_.Create_H<n2.Object>(Node_Context: Node_Context_0, Output_Out: out n9.TryStateful3<n2.Object> Output_1);
             n3.FileReader_XML_1_KNjbqVB34ftQTFNbReBMiE that_2 = this;
             this.__p_DvSSDefziBtMBvilLRetBv = Output_1;
@@ -341,7 +341,7 @@ namespace _VL_Xml_.IO.Obsolete
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 209927U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "DvSSDefziBtMBvilLRetBv", Name = "Try (3Outputs)", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 68118U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "DvSSDefziBtMBvilLRetBv", Name = "Try (3Outputs)", IsManaged = true, IsAutoGenerated = true)]
         public n9.TryStateful3<n2.Object> __p_DvSSDefziBtMBvilLRetBv;
         public FileReader_XML_1_KNjbqVB34ftQTFNbReBMiE(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -381,7 +381,7 @@ namespace _VL_Xml_.IO.Obsolete
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 209952U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "EkbDdG74u8ZPIjDp6b3sef", Name = "FileReader (XML NoErrorHandling 1)", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 68129U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "EkbDdG74u8ZPIjDp6b3sef", Name = "FileReader (XML NoErrorHandling 1)", IsManaged = true, IsAutoGenerated = true)]
             public n8.FileReader_XML_NoErrorHandling_1_C __p_EkbDdG74u8ZPIjDp6b3sef;
             public __EsIuMmb9pjpOIq3Yqp1zez(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -413,7 +413,7 @@ namespace _VL_Xml_.IO.Obsolete
         }
     }
 
-    [n1.ElementAttribute(TracingId = 210096U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "LO29WxGQZ6eMZ1jTmWQ24C", Name = "FileWriter_JSON_1_LO29WxGQZ6eMZ1jTmWQ24C")]
+    [n1.ElementAttribute(TracingId = 68256U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "LO29WxGQZ6eMZ1jTmWQ24C", Name = "FileWriter_JSON_1_LO29WxGQZ6eMZ1jTmWQ24C")]
     [n2.SerializableAttribute]
     public class FileWriter_JSON_1_LO29WxGQZ6eMZ1jTmWQ24C : n1.VLObject, n2.IDisposable
     {
@@ -469,7 +469,7 @@ namespace _VL_Xml_.IO.Obsolete
             {
                 using var __current_17 = __fallback___9.MakeCurrentIfNone();
                 var state_11 = new __LjXFhnynyoAQVuocutQqd6(__GetContext__(), n1.VLObject.NewIdentity());
-                n1.NodeContext Node_Context_18 = __GetContext__().CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "FQttN4m41ARLU2tIoFi3VT", 210135U);
+                n1.NodeContext Node_Context_18 = __GetContext__().CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "FQttN4m41ARLU2tIoFi3VT", 68292U);
                 var Output_19 = n8.FileWriter_JSON_NoErrorHandling_1_C.Create(Node_Context: Node_Context_18);
                 state_11.__p_FQttN4m41ARLU2tIoFi3VT = Output_19;
                 return state_11;
@@ -501,7 +501,7 @@ namespace _VL_Xml_.IO.Obsolete
         public n3.FileWriter_JSON_1_LO29WxGQZ6eMZ1jTmWQ24C __Create__(n1.NodeContext Node_Context)
         {
             n13.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "DDDct97J6WBP6E8xgxrJbO", 210107U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "DDDct97J6WBP6E8xgxrJbO", 68274U);
             n15._Operations_.Create_H<n2.Object>(Node_Context: Node_Context_0, Output_Out: out n9.TryStateful2<n2.Object> Output_1);
             n3.FileWriter_JSON_1_LO29WxGQZ6eMZ1jTmWQ24C that_2 = this;
             this.__slot_MwiI9W06XYmNWBAADBknvK = false;
@@ -539,19 +539,19 @@ namespace _VL_Xml_.IO.Obsolete
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 210234U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "MwiI9W06XYmNWBAADBknvK", Name = "__slot_MwiI9W06XYmNWBAADBknvK")]
+        [n1.ElementAttribute(TracingId = 68343U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "MwiI9W06XYmNWBAADBknvK", Name = "__slot_MwiI9W06XYmNWBAADBknvK")]
         public bool __slot_MwiI9W06XYmNWBAADBknvK;
-        [n1.ElementAttribute(TracingId = 210238U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "TK1YyzdjL60MLLsYUgLduE", Name = "__slot_TK1YyzdjL60MLLsYUgLduE")]
+        [n1.ElementAttribute(TracingId = 68346U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "TK1YyzdjL60MLLsYUgLduE", Name = "__slot_TK1YyzdjL60MLLsYUgLduE")]
         public n11.Path __slot_TK1YyzdjL60MLLsYUgLduE;
-        [n1.ElementAttribute(TracingId = 210239U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "EZ2sXogtJLjMD1dS1T7DVo", Name = "__slot_EZ2sXogtJLjMD1dS1T7DVo")]
+        [n1.ElementAttribute(TracingId = 68349U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "EZ2sXogtJLjMD1dS1T7DVo", Name = "__slot_EZ2sXogtJLjMD1dS1T7DVo")]
         public n12.Encodings __slot_EZ2sXogtJLjMD1dS1T7DVo;
-        [n1.ElementAttribute(TracingId = 210242U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "T81G5z1cRjzMOfAhlCCBEY", Name = "__slot_T81G5z1cRjzMOfAhlCCBEY")]
+        [n1.ElementAttribute(TracingId = 68351U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "T81G5z1cRjzMOfAhlCCBEY", Name = "__slot_T81G5z1cRjzMOfAhlCCBEY")]
         public n6.XNode __slot_T81G5z1cRjzMOfAhlCCBEY;
-        [n1.ElementAttribute(TracingId = 210245U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "SeIn6mXK0dSOnUKpSi7ZrJ", Name = "__slot_SeIn6mXK0dSOnUKpSi7ZrJ")]
+        [n1.ElementAttribute(TracingId = 68354U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "SeIn6mXK0dSOnUKpSi7ZrJ", Name = "__slot_SeIn6mXK0dSOnUKpSi7ZrJ")]
         public bool __slot_SeIn6mXK0dSOnUKpSi7ZrJ;
-        [n1.ElementAttribute(TracingId = 210247U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "THcUaX9C1hZQYR1KrbSMNk", Name = "__slot_THcUaX9C1hZQYR1KrbSMNk")]
+        [n1.ElementAttribute(TracingId = 68356U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "THcUaX9C1hZQYR1KrbSMNk", Name = "__slot_THcUaX9C1hZQYR1KrbSMNk")]
         public bool __slot_THcUaX9C1hZQYR1KrbSMNk;
-        [n1.ElementAttribute(TracingId = 210107U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "DDDct97J6WBP6E8xgxrJbO", Name = "Try (2Outputs)", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 68274U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "DDDct97J6WBP6E8xgxrJbO", Name = "Try (2Outputs)", IsManaged = true, IsAutoGenerated = true)]
         public n9.TryStateful2<n2.Object> __p_DDDct97J6WBP6E8xgxrJbO;
         public FileWriter_JSON_1_LO29WxGQZ6eMZ1jTmWQ24C(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -603,7 +603,7 @@ namespace _VL_Xml_.IO.Obsolete
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 210135U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "FQttN4m41ARLU2tIoFi3VT", Name = "FileWriter (JSON NoErrorHandling 1)", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 68292U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "FQttN4m41ARLU2tIoFi3VT", Name = "FileWriter (JSON NoErrorHandling 1)", IsManaged = true, IsAutoGenerated = true)]
             public n8.FileWriter_JSON_NoErrorHandling_1_C __p_FQttN4m41ARLU2tIoFi3VT;
             public __LjXFhnynyoAQVuocutQqd6(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -635,7 +635,7 @@ namespace _VL_Xml_.IO.Obsolete
         }
     }
 
-    [n1.ElementAttribute(TracingId = 210356U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "Iv8uSC23OROOGCWLfpOrIq", Name = "FileWriter_XML_1_Iv8uSC23OROOGCWLfpOrIq")]
+    [n1.ElementAttribute(TracingId = 68495U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "Iv8uSC23OROOGCWLfpOrIq", Name = "FileWriter_XML_1_Iv8uSC23OROOGCWLfpOrIq")]
     [n2.SerializableAttribute]
     public class FileWriter_XML_1_Iv8uSC23OROOGCWLfpOrIq : n1.VLObject, n2.IDisposable
     {
@@ -689,7 +689,7 @@ namespace _VL_Xml_.IO.Obsolete
             {
                 using var __current_15 = __fallback___7.MakeCurrentIfNone();
                 var state_9 = new __O44Rx0plg2QLsJDaPTlkhv(__GetContext__(), n1.VLObject.NewIdentity());
-                n1.NodeContext Node_Context_16 = __GetContext__().CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "Co5wMK8NvamP6xNIVGDDXt", 210408U);
+                n1.NodeContext Node_Context_16 = __GetContext__().CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "Co5wMK8NvamP6xNIVGDDXt", 68558U);
                 var Output_17 = n8.FileWriter_XML_NoErrorHandling_1_C.Create(Node_Context: Node_Context_16);
                 state_9.__p_Co5wMK8NvamP6xNIVGDDXt = Output_17;
                 return state_9;
@@ -719,7 +719,7 @@ namespace _VL_Xml_.IO.Obsolete
         public n3.FileWriter_XML_1_Iv8uSC23OROOGCWLfpOrIq __Create__(n1.NodeContext Node_Context)
         {
             n13.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "Re80nryq92POt2n4vcvk9w", 210388U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "Re80nryq92POt2n4vcvk9w", 68532U);
             n15._Operations_.Create_H<n2.Object>(Node_Context: Node_Context_0, Output_Out: out n9.TryStateful2<n2.Object> Output_1);
             n3.FileWriter_XML_1_Iv8uSC23OROOGCWLfpOrIq that_2 = this;
             this.__slot_G2xdMLATTKIMApM8o5qHxu = n5._Operations_.CreateDefault();
@@ -753,15 +753,15 @@ namespace _VL_Xml_.IO.Obsolete
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 210359U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "G2xdMLATTKIMApM8o5qHxu", Name = "__slot_G2xdMLATTKIMApM8o5qHxu")]
+        [n1.ElementAttribute(TracingId = 68502U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "G2xdMLATTKIMApM8o5qHxu", Name = "__slot_G2xdMLATTKIMApM8o5qHxu")]
         public n6.XDocument __slot_G2xdMLATTKIMApM8o5qHxu;
-        [n1.ElementAttribute(TracingId = 210361U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "SPXttW4tLhKMb7XfNJPmcx", Name = "__slot_SPXttW4tLhKMb7XfNJPmcx")]
+        [n1.ElementAttribute(TracingId = 68504U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "SPXttW4tLhKMb7XfNJPmcx", Name = "__slot_SPXttW4tLhKMb7XfNJPmcx")]
         public n11.Path __slot_SPXttW4tLhKMb7XfNJPmcx;
-        [n1.ElementAttribute(TracingId = 210364U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "E5yF90ZzoB1MGKDv6f6UE9", Name = "__slot_E5yF90ZzoB1MGKDv6f6UE9")]
+        [n1.ElementAttribute(TracingId = 68511U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "E5yF90ZzoB1MGKDv6f6UE9", Name = "__slot_E5yF90ZzoB1MGKDv6f6UE9")]
         public n6.SaveOptions __slot_E5yF90ZzoB1MGKDv6f6UE9;
-        [n1.ElementAttribute(TracingId = 210383U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "DPLFMiJJG4VPWWTzpVinql", Name = "__slot_DPLFMiJJG4VPWWTzpVinql")]
+        [n1.ElementAttribute(TracingId = 68529U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "DPLFMiJJG4VPWWTzpVinql", Name = "__slot_DPLFMiJJG4VPWWTzpVinql")]
         public bool __slot_DPLFMiJJG4VPWWTzpVinql;
-        [n1.ElementAttribute(TracingId = 210388U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "Re80nryq92POt2n4vcvk9w", Name = "Try (2Outputs)", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 68532U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "Re80nryq92POt2n4vcvk9w", Name = "Try (2Outputs)", IsManaged = true, IsAutoGenerated = true)]
         public n9.TryStateful2<n2.Object> __p_Re80nryq92POt2n4vcvk9w;
         public FileWriter_XML_1_Iv8uSC23OROOGCWLfpOrIq(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -809,7 +809,7 @@ namespace _VL_Xml_.IO.Obsolete
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 210408U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "Co5wMK8NvamP6xNIVGDDXt", Name = "FileWriter (XML NoErrorHandling 1)", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 68558U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "Co5wMK8NvamP6xNIVGDDXt", Name = "FileWriter (XML NoErrorHandling 1)", IsManaged = true, IsAutoGenerated = true)]
             public n8.FileWriter_XML_NoErrorHandling_1_C __p_Co5wMK8NvamP6xNIVGDDXt;
             public __O44Rx0plg2QLsJDaPTlkhv(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -844,7 +844,7 @@ namespace _VL_Xml_.IO.Obsolete
 
 namespace _VL_Xml_.System.XML.Obsolete.Internal
 {
-    [n1.ElementAttribute(TracingId = 210524U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "Ts3XBe8vejRNGRuwDKrwYw", Name = "FileReader_JSON_NoErrorHandling_1_C")]
+    [n1.ElementAttribute(TracingId = 68724U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "Ts3XBe8vejRNGRuwDKrwYw", Name = "FileReader_JSON_NoErrorHandling_1_C")]
     [n2.SerializableAttribute]
     public class FileReader_JSON_NoErrorHandling_1_C : n1.VLObject, n2.IDisposable
     {
@@ -912,11 +912,11 @@ namespace _VL_Xml_.System.XML.Obsolete.Internal
         {
             n13.RuntimeHelpers.EnsureSufficientExecutionStack();
             this.__slot_Ai454HrcmVnL3Y4GnQHCUz = n25._Operations_.CreateDefault<n6.XDocument>();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "HQjBx2X78PjOtb1rIyLOPh", 210527U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "HQjBx2X78PjOtb1rIyLOPh", 68729U);
             n27.IFrameClock Clock_1 = n26._Operations_.CreateDefault();
             n28._Operations_.Create_H(Node_Context: Node_Context_0, Clock_In: Clock_1, Output_Out: out n22.ObsoleteFileNoSharing Output_2);
             this.__p_HQjBx2X78PjOtb1rIyLOPh = Output_2;
-            n1.NodeContext Node_Context_3 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "PRWrg1MaMBDMpijxvALVgF", 210638U);
+            n1.NodeContext Node_Context_3 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "PRWrg1MaMBDMpijxvALVgF", 68839U);
             n6.XDocument Initial_Result_4 = n5._Operations_.CreateDefault();
             n20._Operations_.Create_H<n6.XDocument>(Node_Context: Node_Context_3, Initial_Result_In: Initial_Result_4, Output_Out: out n21.HoldLatest<n6.XDocument> Output_5);
             this.__p_PRWrg1MaMBDMpijxvALVgF = Output_5;
@@ -944,15 +944,15 @@ namespace _VL_Xml_.System.XML.Obsolete.Internal
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 210549U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "OCE5Iey5b9AOasLdO7jYzx", Name = "__slot_OCE5Iey5b9AOasLdO7jYzx")]
+        [n1.ElementAttribute(TracingId = 68751U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "OCE5Iey5b9AOasLdO7jYzx", Name = "__slot_OCE5Iey5b9AOasLdO7jYzx")]
         public static n19.FileMode __slot_OCE5Iey5b9AOasLdO7jYzx = n1.CompilationHelper.Deserialize<n19.FileMode>("Open", false, "Q2iWAXgl3GDPCvxD5IfFJH", "OCE5Iey5b9AOasLdO7jYzx");
-        [n1.ElementAttribute(TracingId = 210556U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "RFm0w1Em9kwLqA4Mbb9GjV", Name = "__slot_RFm0w1Em9kwLqA4Mbb9GjV")]
+        [n1.ElementAttribute(TracingId = 68764U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "RFm0w1Em9kwLqA4Mbb9GjV", Name = "__slot_RFm0w1Em9kwLqA4Mbb9GjV")]
         public static n19.FileAccess __slot_RFm0w1Em9kwLqA4Mbb9GjV = n1.CompilationHelper.Deserialize<n19.FileAccess>("Read", false, "Q2iWAXgl3GDPCvxD5IfFJH", "RFm0w1Em9kwLqA4Mbb9GjV");
-        [n1.ElementAttribute(TracingId = 210649U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "Ai454HrcmVnL3Y4GnQHCUz", Name = "__slot_Ai454HrcmVnL3Y4GnQHCUz")]
+        [n1.ElementAttribute(TracingId = 68859U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "Ai454HrcmVnL3Y4GnQHCUz", Name = "__slot_Ai454HrcmVnL3Y4GnQHCUz")]
         public n2.IObservable<n6.XDocument> __slot_Ai454HrcmVnL3Y4GnQHCUz;
-        [n1.ElementAttribute(TracingId = 210638U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "PRWrg1MaMBDMpijxvALVgF", Name = "HoldLatest", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 68839U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "PRWrg1MaMBDMpijxvALVgF", Name = "HoldLatest", IsManaged = true, IsAutoGenerated = true)]
         public n21.HoldLatest<n6.XDocument> __p_PRWrg1MaMBDMpijxvALVgF;
-        [n1.ElementAttribute(TracingId = 210527U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "HQjBx2X78PjOtb1rIyLOPh", Name = "File (NoSharing 1)", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 68729U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "HQjBx2X78PjOtb1rIyLOPh", Name = "File (NoSharing 1)", IsManaged = true, IsAutoGenerated = true)]
         public n22.ObsoleteFileNoSharing __p_HQjBx2X78PjOtb1rIyLOPh;
         [n1.ElementAttribute(IsAutoGenerated = true)]
         public static n19.FileShare __c_AqC6wI3tdscNrHwsDhhWGq = n1.CompilationHelper.Deserialize<n19.FileShare>("Read", false, "Q2iWAXgl3GDPCvxD5IfFJH", "AqC6wI3tdscNrHwsDhhWGq");
@@ -986,7 +986,7 @@ namespace _VL_Xml_.System.XML.Obsolete.Internal
         }
     }
 
-    [n1.ElementAttribute(TracingId = 210758U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "VdtL0OO3fo0NNZiuelwvJm", Name = "FileReader_XML_NoErrorHandling_1_C")]
+    [n1.ElementAttribute(TracingId = 69010U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "VdtL0OO3fo0NNZiuelwvJm", Name = "FileReader_XML_NoErrorHandling_1_C")]
     [n2.SerializableAttribute]
     public class FileReader_XML_NoErrorHandling_1_C : n1.VLObject, n2.IDisposable
     {
@@ -1054,11 +1054,11 @@ namespace _VL_Xml_.System.XML.Obsolete.Internal
         {
             n13.RuntimeHelpers.EnsureSufficientExecutionStack();
             this.__slot_KgK8qtoOq4iNmjO4bXgl2m = n25._Operations_.CreateDefault<n6.XDocument>();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "P6QiZBWodz6PlKOee9jS97", 210802U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "P6QiZBWodz6PlKOee9jS97", 69077U);
             n6.XDocument Initial_Result_1 = n5._Operations_.CreateDefault();
             n20._Operations_.Create_H<n6.XDocument>(Node_Context: Node_Context_0, Initial_Result_In: Initial_Result_1, Output_Out: out n21.HoldLatest<n6.XDocument> Output_2);
             this.__p_P6QiZBWodz6PlKOee9jS97 = Output_2;
-            n1.NodeContext Node_Context_3 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "NTUZrXF1YgcNpAgjJM8s49", 210842U);
+            n1.NodeContext Node_Context_3 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "NTUZrXF1YgcNpAgjJM8s49", 69132U);
             n27.IFrameClock Clock_4 = n26._Operations_.CreateDefault();
             n28._Operations_.Create_H(Node_Context: Node_Context_3, Clock_In: Clock_4, Output_Out: out n22.ObsoleteFileNoSharing Output_5);
             this.__p_NTUZrXF1YgcNpAgjJM8s49 = Output_5;
@@ -1086,15 +1086,15 @@ namespace _VL_Xml_.System.XML.Obsolete.Internal
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 210818U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "KgK8qtoOq4iNmjO4bXgl2m", Name = "__slot_KgK8qtoOq4iNmjO4bXgl2m")]
+        [n1.ElementAttribute(TracingId = 69097U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "KgK8qtoOq4iNmjO4bXgl2m", Name = "__slot_KgK8qtoOq4iNmjO4bXgl2m")]
         public n2.IObservable<n6.XDocument> __slot_KgK8qtoOq4iNmjO4bXgl2m;
-        [n1.ElementAttribute(TracingId = 210860U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "R9KEKs6QrapPL0dtI3P127", Name = "__slot_R9KEKs6QrapPL0dtI3P127")]
+        [n1.ElementAttribute(TracingId = 69159U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "R9KEKs6QrapPL0dtI3P127", Name = "__slot_R9KEKs6QrapPL0dtI3P127")]
         public static n19.FileMode __slot_R9KEKs6QrapPL0dtI3P127 = n1.CompilationHelper.Deserialize<n19.FileMode>("Open", false, "Q2iWAXgl3GDPCvxD5IfFJH", "R9KEKs6QrapPL0dtI3P127");
-        [n1.ElementAttribute(TracingId = 210864U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "GevdYTsJDjsLREfQT4Nt6y", Name = "__slot_GevdYTsJDjsLREfQT4Nt6y")]
+        [n1.ElementAttribute(TracingId = 69172U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "GevdYTsJDjsLREfQT4Nt6y", Name = "__slot_GevdYTsJDjsLREfQT4Nt6y")]
         public static n19.FileAccess __slot_GevdYTsJDjsLREfQT4Nt6y = n1.CompilationHelper.Deserialize<n19.FileAccess>("Read", false, "Q2iWAXgl3GDPCvxD5IfFJH", "GevdYTsJDjsLREfQT4Nt6y");
-        [n1.ElementAttribute(TracingId = 210802U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "P6QiZBWodz6PlKOee9jS97", Name = "HoldLatest", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 69077U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "P6QiZBWodz6PlKOee9jS97", Name = "HoldLatest", IsManaged = true, IsAutoGenerated = true)]
         public n21.HoldLatest<n6.XDocument> __p_P6QiZBWodz6PlKOee9jS97;
-        [n1.ElementAttribute(TracingId = 210842U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "NTUZrXF1YgcNpAgjJM8s49", Name = "File (NoSharing 1)", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 69132U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "NTUZrXF1YgcNpAgjJM8s49", Name = "File (NoSharing 1)", IsManaged = true, IsAutoGenerated = true)]
         public n22.ObsoleteFileNoSharing __p_NTUZrXF1YgcNpAgjJM8s49;
         [n1.ElementAttribute(IsAutoGenerated = true)]
         public static n19.FileShare __c_NR3l1zTachfOc9QbLen2Eq = n1.CompilationHelper.Deserialize<n19.FileShare>("Read", false, "Q2iWAXgl3GDPCvxD5IfFJH", "NR3l1zTachfOc9QbLen2Eq");
@@ -1128,7 +1128,7 @@ namespace _VL_Xml_.System.XML.Obsolete.Internal
         }
     }
 
-    [n1.ElementAttribute(TracingId = 210936U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "VTU7hpUilUNL0dKAdefWJv", Name = "FileWriter_JSON_NoErrorHandling_1_C")]
+    [n1.ElementAttribute(TracingId = 69427U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "VTU7hpUilUNL0dKAdefWJv", Name = "FileWriter_JSON_NoErrorHandling_1_C")]
     [n2.SerializableAttribute]
     public class FileWriter_JSON_NoErrorHandling_1_C : n1.VLObject, n2.IDisposable
     {
@@ -1214,16 +1214,16 @@ namespace _VL_Xml_.System.XML.Obsolete.Internal
         {
             n13.RuntimeHelpers.EnsureSufficientExecutionStack();
             this.__slot_HpRveibmo3PMEJgD7jqnlN = n25._Operations_.CreateDefault<bool>();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "DoS6Jsnah3VQGqIrplGtpe", 210990U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "DoS6Jsnah3VQGqIrplGtpe", 69517U);
             n27.IFrameClock Clock_1 = n26._Operations_.CreateDefault();
             n28._Operations_.Create_H(Node_Context: Node_Context_0, Clock_In: Clock_1, Output_Out: out n22.ObsoleteFileNoSharing Output_2);
             this.__p_DoS6Jsnah3VQGqIrplGtpe = Output_2;
-            n1.NodeContext Node_Context_3 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "MYZ9jTHNZlGMKNJ9FlHkdf", 211039U);
+            n1.NodeContext Node_Context_3 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "MYZ9jTHNZlGMKNJ9FlHkdf", 69564U);
             bool Initial_Result_4 = false;
             n20._Operations_.Create_H<bool>(Node_Context: Node_Context_3, Initial_Result_In: Initial_Result_4, Output_Out: out n21.HoldLatest<bool> Output_5);
             this.__p_MYZ9jTHNZlGMKNJ9FlHkdf = Output_5;
-            n1.NodeContext Node_Context_6 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "CoLxJJxyAEsQO58LOQlokW", 211058U);
-            var Output_7 = n33.FlipFlop_CJjTkCTbntqL2s5d9CL0vC.Create(Node_Context: Node_Context_6);
+            n1.NodeContext Node_Context_6 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "CoLxJJxyAEsQO58LOQlokW", 69585U);
+            var Output_7 = n29.FlipFlop_CJjTkCTbntqL2s5d9CL0vC.Create(Node_Context: Node_Context_6);
             this.__p_CoLxJJxyAEsQO58LOQlokW = Output_7;
             return this;
         }
@@ -1232,7 +1232,7 @@ namespace _VL_Xml_.System.XML.Obsolete.Internal
         {
             this.__slot_HpRveibmo3PMEJgD7jqnlN = n25._Operations_.CreateDefault<bool>();
             this.__p_MYZ9jTHNZlGMKNJ9FlHkdf = default(n21.HoldLatest<bool>);
-            this.__p_CoLxJJxyAEsQO58LOQlokW = n33.FlipFlop_CJjTkCTbntqL2s5d9CL0vC.CreateDefault();
+            this.__p_CoLxJJxyAEsQO58LOQlokW = n29.FlipFlop_CJjTkCTbntqL2s5d9CL0vC.CreateDefault();
             this.__p_DoS6Jsnah3VQGqIrplGtpe = default(n22.ObsoleteFileNoSharing);
             return this;
         }
@@ -1251,23 +1251,23 @@ namespace _VL_Xml_.System.XML.Obsolete.Internal
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 211028U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "Bk8us6BRmq8NMfaGRbvHbr", Name = "__slot_Bk8us6BRmq8NMfaGRbvHbr")]
+        [n1.ElementAttribute(TracingId = 69550U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "Bk8us6BRmq8NMfaGRbvHbr", Name = "__slot_Bk8us6BRmq8NMfaGRbvHbr")]
         public static n19.FileMode __slot_Bk8us6BRmq8NMfaGRbvHbr = n1.CompilationHelper.Deserialize<n19.FileMode>("Create", false, "Q2iWAXgl3GDPCvxD5IfFJH", "Bk8us6BRmq8NMfaGRbvHbr");
-        [n1.ElementAttribute(TracingId = 211036U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "B1XJsOy33uhPNhLasTkamI", Name = "__slot_B1XJsOy33uhPNhLasTkamI")]
+        [n1.ElementAttribute(TracingId = 69557U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "B1XJsOy33uhPNhLasTkamI", Name = "__slot_B1XJsOy33uhPNhLasTkamI")]
         public static n19.FileAccess __slot_B1XJsOy33uhPNhLasTkamI = n1.CompilationHelper.Deserialize<n19.FileAccess>("Write", false, "Q2iWAXgl3GDPCvxD5IfFJH", "B1XJsOy33uhPNhLasTkamI");
-        [n1.ElementAttribute(TracingId = 211038U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "HpRveibmo3PMEJgD7jqnlN", Name = "__slot_HpRveibmo3PMEJgD7jqnlN")]
+        [n1.ElementAttribute(TracingId = 69562U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "HpRveibmo3PMEJgD7jqnlN", Name = "__slot_HpRveibmo3PMEJgD7jqnlN")]
         public n2.IObservable<bool> __slot_HpRveibmo3PMEJgD7jqnlN;
-        [n1.ElementAttribute(TracingId = 211070U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "MFaMkbyOsBDQE8Wpd5omMU", Name = "__slot_MFaMkbyOsBDQE8Wpd5omMU")]
+        [n1.ElementAttribute(TracingId = 69604U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "MFaMkbyOsBDQE8Wpd5omMU", Name = "__slot_MFaMkbyOsBDQE8Wpd5omMU")]
         public static bool __slot_MFaMkbyOsBDQE8Wpd5omMU = true;
-        [n1.ElementAttribute(TracingId = 211039U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "MYZ9jTHNZlGMKNJ9FlHkdf", Name = "HoldLatest", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 69564U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "MYZ9jTHNZlGMKNJ9FlHkdf", Name = "HoldLatest", IsManaged = true, IsAutoGenerated = true)]
         public n21.HoldLatest<bool> __p_MYZ9jTHNZlGMKNJ9FlHkdf;
-        [n1.ElementAttribute(TracingId = 211058U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "CoLxJJxyAEsQO58LOQlokW", Name = "FlipFlop", IsManaged = true, IsAutoGenerated = true)]
-        public n33.FlipFlop_CJjTkCTbntqL2s5d9CL0vC __p_CoLxJJxyAEsQO58LOQlokW;
-        [n1.ElementAttribute(TracingId = 210990U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "DoS6Jsnah3VQGqIrplGtpe", Name = "File (NoSharing 1)", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 69585U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "CoLxJJxyAEsQO58LOQlokW", Name = "FlipFlop", IsManaged = true, IsAutoGenerated = true)]
+        public n29.FlipFlop_CJjTkCTbntqL2s5d9CL0vC __p_CoLxJJxyAEsQO58LOQlokW;
+        [n1.ElementAttribute(TracingId = 69517U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "DoS6Jsnah3VQGqIrplGtpe", Name = "File (NoSharing 1)", IsManaged = true, IsAutoGenerated = true)]
         public n22.ObsoleteFileNoSharing __p_DoS6Jsnah3VQGqIrplGtpe;
         [n1.ElementAttribute(IsAutoGenerated = true)]
         public static n19.FileShare __c_TrBFIcYvFI7MJCSi92jyBv = n1.CompilationHelper.Deserialize<n19.FileShare>("Read", false, "Q2iWAXgl3GDPCvxD5IfFJH", "TrBFIcYvFI7MJCSi92jyBv");
-        [n1.ElementAttribute(TracingId = 210978U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "SPGt1BccdJgQETOHg7RXea", Name = "__slot_SPGt1BccdJgQETOHg7RXea")]
+        [n1.ElementAttribute(TracingId = 69499U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "SPGt1BccdJgQETOHg7RXea", Name = "__slot_SPGt1BccdJgQETOHg7RXea")]
         public static bool __slot_SPGt1BccdJgQETOHg7RXea = true;
         static FileWriter_JSON_NoErrorHandling_1_C()
         {
@@ -1290,7 +1290,7 @@ namespace _VL_Xml_.System.XML.Obsolete.Internal
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__slot_HpRveibmo3PMEJgD7jqnlN", in __slot_HpRveibmo3PMEJgD7jqnlN), n1.CompilationHelper.GetValueOrExisting(values, "__p_MYZ9jTHNZlGMKNJ9FlHkdf", in __p_MYZ9jTHNZlGMKNJ9FlHkdf), n1.CompilationHelper.GetValueOrExisting(values, "__p_CoLxJJxyAEsQO58LOQlokW", in __p_CoLxJJxyAEsQO58LOQlokW), n1.CompilationHelper.GetValueOrExisting(values, "__p_DoS6Jsnah3VQGqIrplGtpe", in __p_DoS6Jsnah3VQGqIrplGtpe));
         }
 
-        internal FileWriter_JSON_NoErrorHandling_1_C __WITH__(n2.IObservable<bool> __slot_HpRveibmo3PMEJgD7jqnlN, n21.HoldLatest<bool> __p_MYZ9jTHNZlGMKNJ9FlHkdf, n33.FlipFlop_CJjTkCTbntqL2s5d9CL0vC __p_CoLxJJxyAEsQO58LOQlokW, n22.ObsoleteFileNoSharing __p_DoS6Jsnah3VQGqIrplGtpe)
+        internal FileWriter_JSON_NoErrorHandling_1_C __WITH__(n2.IObservable<bool> __slot_HpRveibmo3PMEJgD7jqnlN, n21.HoldLatest<bool> __p_MYZ9jTHNZlGMKNJ9FlHkdf, n29.FlipFlop_CJjTkCTbntqL2s5d9CL0vC __p_CoLxJJxyAEsQO58LOQlokW, n22.ObsoleteFileNoSharing __p_DoS6Jsnah3VQGqIrplGtpe)
         {
             n8.FileWriter_JSON_NoErrorHandling_1_C that_0 = this;
             this.__slot_HpRveibmo3PMEJgD7jqnlN = __slot_HpRveibmo3PMEJgD7jqnlN;
@@ -1301,7 +1301,7 @@ namespace _VL_Xml_.System.XML.Obsolete.Internal
         }
     }
 
-    [n1.ElementAttribute(TracingId = 211179U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "KFR7YJtdsuwN4NiitEfp0y", Name = "FileWriter_XML_NoErrorHandling_1_C")]
+    [n1.ElementAttribute(TracingId = 73708U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "KFR7YJtdsuwN4NiitEfp0y", Name = "FileWriter_XML_NoErrorHandling_1_C")]
     [n2.SerializableAttribute]
     public class FileWriter_XML_NoErrorHandling_1_C : n1.VLObject, n2.IDisposable
     {
@@ -1363,13 +1363,13 @@ namespace _VL_Xml_.System.XML.Obsolete.Internal
             {
                 using var __current_7 = __fallback___6.MakeCurrentIfNone();
                 bool __pad_GIMTYDdKttLP3wed05zHHu_8 = __slot_GIMTYDdKttLP3wed05zHHu;
-                n35._Operations_.Using<n19.Stream>(Input_In: Result_5, Action_In: (n19.Stream Arg_In_10) =>
+                n31._Operations_.Using<n19.Stream>(Input_In: Result_5, Action_In: (n19.Stream Arg_In_10) =>
                 {
                     using var __current_9 = __fallback___6.MakeCurrentIfNone();
                     XDocument_In.Save(stream: Arg_In_10, options: SaveOptions_In);
                 }
 
-                , Output_Out: out n34.IResourceProvider<n19.Stream> Output_11);
+                , Output_Out: out n30.IResourceProvider<n19.Stream> Output_11);
                 return __pad_GIMTYDdKttLP3wed05zHHu_8;
             }
 
@@ -1390,14 +1390,14 @@ namespace _VL_Xml_.System.XML.Obsolete.Internal
         {
             n13.RuntimeHelpers.EnsureSufficientExecutionStack();
             this.__slot_HjkV2Up4MkVMlKdHFwCDrn = n25._Operations_.CreateDefault<bool>();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "AIuMN3lRU0yOiktZTQgqz7", 211262U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "AIuMN3lRU0yOiktZTQgqz7", 73780U);
             bool Initial_Result_1 = false;
             n20._Operations_.Create_H<bool>(Node_Context: Node_Context_0, Initial_Result_In: Initial_Result_1, Output_Out: out n21.HoldLatest<bool> Output_2);
             this.__p_AIuMN3lRU0yOiktZTQgqz7 = Output_2;
-            n1.NodeContext Node_Context_3 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "EoDpnup1wheL4oWmwvdiAW", 211297U);
-            var Output_4 = n33.FlipFlop_CJjTkCTbntqL2s5d9CL0vC.Create(Node_Context: Node_Context_3);
+            n1.NodeContext Node_Context_3 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "EoDpnup1wheL4oWmwvdiAW", 73809U);
+            var Output_4 = n29.FlipFlop_CJjTkCTbntqL2s5d9CL0vC.Create(Node_Context: Node_Context_3);
             this.__p_EoDpnup1wheL4oWmwvdiAW = Output_4;
-            n1.NodeContext Node_Context_5 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "EUULTQ3CLGNPEOh5ZR9VwW", 211323U);
+            n1.NodeContext Node_Context_5 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "EUULTQ3CLGNPEOh5ZR9VwW", 73833U);
             n27.IFrameClock Clock_6 = n26._Operations_.CreateDefault();
             n28._Operations_.Create_H(Node_Context: Node_Context_5, Clock_In: Clock_6, Output_Out: out n22.ObsoleteFileNoSharing Output_7);
             this.__p_EUULTQ3CLGNPEOh5ZR9VwW = Output_7;
@@ -1408,7 +1408,7 @@ namespace _VL_Xml_.System.XML.Obsolete.Internal
         {
             this.__slot_HjkV2Up4MkVMlKdHFwCDrn = n25._Operations_.CreateDefault<bool>();
             this.__p_AIuMN3lRU0yOiktZTQgqz7 = default(n21.HoldLatest<bool>);
-            this.__p_EoDpnup1wheL4oWmwvdiAW = n33.FlipFlop_CJjTkCTbntqL2s5d9CL0vC.CreateDefault();
+            this.__p_EoDpnup1wheL4oWmwvdiAW = n29.FlipFlop_CJjTkCTbntqL2s5d9CL0vC.CreateDefault();
             this.__p_EUULTQ3CLGNPEOh5ZR9VwW = default(n22.ObsoleteFileNoSharing);
             return this;
         }
@@ -1427,23 +1427,23 @@ namespace _VL_Xml_.System.XML.Obsolete.Internal
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 211290U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "HjkV2Up4MkVMlKdHFwCDrn", Name = "__slot_HjkV2Up4MkVMlKdHFwCDrn")]
+        [n1.ElementAttribute(TracingId = 73800U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "HjkV2Up4MkVMlKdHFwCDrn", Name = "__slot_HjkV2Up4MkVMlKdHFwCDrn")]
         public n2.IObservable<bool> __slot_HjkV2Up4MkVMlKdHFwCDrn;
-        [n1.ElementAttribute(TracingId = 211293U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "LqOEFDTjxCPPqQ8fLUyPqA", Name = "__slot_LqOEFDTjxCPPqQ8fLUyPqA")]
+        [n1.ElementAttribute(TracingId = 73802U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "LqOEFDTjxCPPqQ8fLUyPqA", Name = "__slot_LqOEFDTjxCPPqQ8fLUyPqA")]
         public static bool __slot_LqOEFDTjxCPPqQ8fLUyPqA = true;
-        [n1.ElementAttribute(TracingId = 211342U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "VCN0Db64gvqNuxdvFQ05x6", Name = "__slot_VCN0Db64gvqNuxdvFQ05x6")]
+        [n1.ElementAttribute(TracingId = 73855U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "VCN0Db64gvqNuxdvFQ05x6", Name = "__slot_VCN0Db64gvqNuxdvFQ05x6")]
         public static n19.FileMode __slot_VCN0Db64gvqNuxdvFQ05x6 = n1.CompilationHelper.Deserialize<n19.FileMode>("Create", false, "Q2iWAXgl3GDPCvxD5IfFJH", "VCN0Db64gvqNuxdvFQ05x6");
-        [n1.ElementAttribute(TracingId = 211353U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "QLJURKMhLemLYgvN58OQhf", Name = "__slot_QLJURKMhLemLYgvN58OQhf")]
+        [n1.ElementAttribute(TracingId = 73862U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "QLJURKMhLemLYgvN58OQhf", Name = "__slot_QLJURKMhLemLYgvN58OQhf")]
         public static n19.FileAccess __slot_QLJURKMhLemLYgvN58OQhf = n1.CompilationHelper.Deserialize<n19.FileAccess>("Write", false, "Q2iWAXgl3GDPCvxD5IfFJH", "QLJURKMhLemLYgvN58OQhf");
-        [n1.ElementAttribute(TracingId = 211262U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "AIuMN3lRU0yOiktZTQgqz7", Name = "HoldLatest", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 73780U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "AIuMN3lRU0yOiktZTQgqz7", Name = "HoldLatest", IsManaged = true, IsAutoGenerated = true)]
         public n21.HoldLatest<bool> __p_AIuMN3lRU0yOiktZTQgqz7;
-        [n1.ElementAttribute(TracingId = 211297U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "EoDpnup1wheL4oWmwvdiAW", Name = "FlipFlop", IsManaged = true, IsAutoGenerated = true)]
-        public n33.FlipFlop_CJjTkCTbntqL2s5d9CL0vC __p_EoDpnup1wheL4oWmwvdiAW;
-        [n1.ElementAttribute(TracingId = 211323U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "EUULTQ3CLGNPEOh5ZR9VwW", Name = "File (NoSharing 1)", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 73809U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "EoDpnup1wheL4oWmwvdiAW", Name = "FlipFlop", IsManaged = true, IsAutoGenerated = true)]
+        public n29.FlipFlop_CJjTkCTbntqL2s5d9CL0vC __p_EoDpnup1wheL4oWmwvdiAW;
+        [n1.ElementAttribute(TracingId = 73833U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "EUULTQ3CLGNPEOh5ZR9VwW", Name = "File (NoSharing 1)", IsManaged = true, IsAutoGenerated = true)]
         public n22.ObsoleteFileNoSharing __p_EUULTQ3CLGNPEOh5ZR9VwW;
         [n1.ElementAttribute(IsAutoGenerated = true)]
         public static n19.FileShare __c_IpMCwddNfEMMiYRO9qXeOe = n1.CompilationHelper.Deserialize<n19.FileShare>("Read", false, "Q2iWAXgl3GDPCvxD5IfFJH", "IpMCwddNfEMMiYRO9qXeOe");
-        [n1.ElementAttribute(TracingId = 211201U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "GIMTYDdKttLP3wed05zHHu", Name = "__slot_GIMTYDdKttLP3wed05zHHu")]
+        [n1.ElementAttribute(TracingId = 73725U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "GIMTYDdKttLP3wed05zHHu", Name = "__slot_GIMTYDdKttLP3wed05zHHu")]
         public static bool __slot_GIMTYDdKttLP3wed05zHHu = true;
         static FileWriter_XML_NoErrorHandling_1_C()
         {
@@ -1466,7 +1466,7 @@ namespace _VL_Xml_.System.XML.Obsolete.Internal
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__slot_HjkV2Up4MkVMlKdHFwCDrn", in __slot_HjkV2Up4MkVMlKdHFwCDrn), n1.CompilationHelper.GetValueOrExisting(values, "__p_AIuMN3lRU0yOiktZTQgqz7", in __p_AIuMN3lRU0yOiktZTQgqz7), n1.CompilationHelper.GetValueOrExisting(values, "__p_EoDpnup1wheL4oWmwvdiAW", in __p_EoDpnup1wheL4oWmwvdiAW), n1.CompilationHelper.GetValueOrExisting(values, "__p_EUULTQ3CLGNPEOh5ZR9VwW", in __p_EUULTQ3CLGNPEOh5ZR9VwW));
         }
 
-        internal FileWriter_XML_NoErrorHandling_1_C __WITH__(n2.IObservable<bool> __slot_HjkV2Up4MkVMlKdHFwCDrn, n21.HoldLatest<bool> __p_AIuMN3lRU0yOiktZTQgqz7, n33.FlipFlop_CJjTkCTbntqL2s5d9CL0vC __p_EoDpnup1wheL4oWmwvdiAW, n22.ObsoleteFileNoSharing __p_EUULTQ3CLGNPEOh5ZR9VwW)
+        internal FileWriter_XML_NoErrorHandling_1_C __WITH__(n2.IObservable<bool> __slot_HjkV2Up4MkVMlKdHFwCDrn, n21.HoldLatest<bool> __p_AIuMN3lRU0yOiktZTQgqz7, n29.FlipFlop_CJjTkCTbntqL2s5d9CL0vC __p_EoDpnup1wheL4oWmwvdiAW, n22.ObsoleteFileNoSharing __p_EUULTQ3CLGNPEOh5ZR9VwW)
         {
             n8.FileWriter_XML_NoErrorHandling_1_C that_0 = this;
             this.__slot_HjkV2Up4MkVMlKdHFwCDrn = __slot_HjkV2Up4MkVMlKdHFwCDrn;
@@ -1480,30 +1480,30 @@ namespace _VL_Xml_.System.XML.Obsolete.Internal
 
 namespace _VL_Xml_.System.XML
 {
-    [n1.ElementAttribute(TracingId = 216718U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "OcM6yTDIunKLXht5WzCyyW", Name = "XMLReader_OcM6yTDIunKLXht5WzCyyW")]
+    [n1.ElementAttribute(TracingId = 94767U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "OcM6yTDIunKLXht5WzCyyW", Name = "XMLReader_OcM6yTDIunKLXht5WzCyyW")]
     [n2.SerializableAttribute]
     public class XMLReader_OcM6yTDIunKLXht5WzCyyW : n1.VLObject, n2.IDisposable
     {
         [n4.CreateNewAttribute]
-        public static n36.XMLReader_OcM6yTDIunKLXht5WzCyyW Create(n1.NodeContext Node_Context)
+        public static n32.XMLReader_OcM6yTDIunKLXht5WzCyyW Create(n1.NodeContext Node_Context)
         {
             var instance = new XMLReader_OcM6yTDIunKLXht5WzCyyW(Node_Context, n1.VLObject.NewIdentity());
             return instance.__Create__(Node_Context);
         }
 
         [n4.CreateDefaultAttribute]
-        public static n36.XMLReader_OcM6yTDIunKLXht5WzCyyW CreateDefault()
+        public static n32.XMLReader_OcM6yTDIunKLXht5WzCyyW CreateDefault()
         {
             var instance = new XMLReader_OcM6yTDIunKLXht5WzCyyW(n1.NodeContext.Default, n1.VLObject.NewIdentity());
             return instance.__CreateDefault__();
         }
 
-        public n36.XMLReader_OcM6yTDIunKLXht5WzCyyW Update(n11.Path File_Path_In, bool Read_In, out n6.XElement Output_Out)
+        public n32.XMLReader_OcM6yTDIunKLXht5WzCyyW Update(n11.Path File_Path_In, bool Read_In, out n6.XElement Output_Out)
         {
             var State_Output_1 = this.__p_VcmoJOp081LPyDeEhq3JmZ.Update(File_Path_In: File_Path_In, Read_In: Read_In, Output_Out: out n6.XDocument Output_0);
             n24.XmlNodes.SplitXDocument(input: Output_0, root: out n6.XElement Root_2, declaration: out n6.XDeclaration Declaration_3, documentType: out n6.XDocumentType Document_Type_4);
             Output_Out = Root_2;
-            n36.XMLReader_OcM6yTDIunKLXht5WzCyyW that_5 = this;
+            n32.XMLReader_OcM6yTDIunKLXht5WzCyyW that_5 = this;
             if (this.__GetContext__().IsImmutable)
                 that_5 = State_Output_1 != this.__p_VcmoJOp081LPyDeEhq3JmZ ? new XMLReader_OcM6yTDIunKLXht5WzCyyW(this)
                 {__p_VcmoJOp081LPyDeEhq3JmZ = State_Output_1} : that_5;
@@ -1515,20 +1515,20 @@ namespace _VL_Xml_.System.XML
             return that_5;
         }
 
-        public n36.XMLReader_OcM6yTDIunKLXht5WzCyyW __Create__(n1.NodeContext Node_Context)
+        public n32.XMLReader_OcM6yTDIunKLXht5WzCyyW __Create__(n1.NodeContext Node_Context)
         {
             n13.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "VcmoJOp081LPyDeEhq3JmZ", 216754U);
-            var Output_1 = n37.XMLReader_XDocument_OPrbd3hV1yTQAohaXbZTAZ.Create(Node_Context: Node_Context_0);
-            n36.XMLReader_OcM6yTDIunKLXht5WzCyyW that_2 = this;
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "VcmoJOp081LPyDeEhq3JmZ", 94812U);
+            var Output_1 = n33.XMLReader_XDocument_OPrbd3hV1yTQAohaXbZTAZ.Create(Node_Context: Node_Context_0);
+            n32.XMLReader_OcM6yTDIunKLXht5WzCyyW that_2 = this;
             this.__p_VcmoJOp081LPyDeEhq3JmZ = Output_1;
             return that_2;
         }
 
-        public n36.XMLReader_OcM6yTDIunKLXht5WzCyyW __CreateDefault__()
+        public n32.XMLReader_OcM6yTDIunKLXht5WzCyyW __CreateDefault__()
         {
-            n36.XMLReader_OcM6yTDIunKLXht5WzCyyW that_0 = this;
-            this.__p_VcmoJOp081LPyDeEhq3JmZ = n37.XMLReader_XDocument_OPrbd3hV1yTQAohaXbZTAZ.CreateDefault();
+            n32.XMLReader_OcM6yTDIunKLXht5WzCyyW that_0 = this;
+            this.__p_VcmoJOp081LPyDeEhq3JmZ = n33.XMLReader_XDocument_OPrbd3hV1yTQAohaXbZTAZ.CreateDefault();
             return that_0;
         }
 
@@ -1544,8 +1544,8 @@ namespace _VL_Xml_.System.XML
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 216754U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "VcmoJOp081LPyDeEhq3JmZ", Name = "XMLReader (XDocument)", IsManaged = true, IsAutoGenerated = true)]
-        public n37.XMLReader_XDocument_OPrbd3hV1yTQAohaXbZTAZ __p_VcmoJOp081LPyDeEhq3JmZ;
+        [n1.ElementAttribute(TracingId = 94812U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "VcmoJOp081LPyDeEhq3JmZ", Name = "XMLReader (XDocument)", IsManaged = true, IsAutoGenerated = true)]
+        public n33.XMLReader_XDocument_OPrbd3hV1yTQAohaXbZTAZ __p_VcmoJOp081LPyDeEhq3JmZ;
         public XMLReader_OcM6yTDIunKLXht5WzCyyW(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
         }
@@ -1560,9 +1560,9 @@ namespace _VL_Xml_.System.XML
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__p_VcmoJOp081LPyDeEhq3JmZ", in __p_VcmoJOp081LPyDeEhq3JmZ));
         }
 
-        internal XMLReader_OcM6yTDIunKLXht5WzCyyW __WITH__(n37.XMLReader_XDocument_OPrbd3hV1yTQAohaXbZTAZ __p_VcmoJOp081LPyDeEhq3JmZ)
+        internal XMLReader_OcM6yTDIunKLXht5WzCyyW __WITH__(n33.XMLReader_XDocument_OPrbd3hV1yTQAohaXbZTAZ __p_VcmoJOp081LPyDeEhq3JmZ)
         {
-            n36.XMLReader_OcM6yTDIunKLXht5WzCyyW that_0 = this;
+            n32.XMLReader_OcM6yTDIunKLXht5WzCyyW that_0 = this;
             if (this.__GetContext__().IsImmutable)
                 that_0 = __p_VcmoJOp081LPyDeEhq3JmZ != this.__p_VcmoJOp081LPyDeEhq3JmZ ? new XMLReader_OcM6yTDIunKLXht5WzCyyW(this)
                 {__p_VcmoJOp081LPyDeEhq3JmZ = __p_VcmoJOp081LPyDeEhq3JmZ} : that_0;
@@ -1575,30 +1575,30 @@ namespace _VL_Xml_.System.XML
         }
     }
 
-    [n1.ElementAttribute(TracingId = 216831U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "SKFRbeanCu4NWa79zKnx9Q", Name = "JSONReader_SKFRbeanCu4NWa79zKnx9Q")]
+    [n1.ElementAttribute(TracingId = 94880U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "SKFRbeanCu4NWa79zKnx9Q", Name = "JSONReader_SKFRbeanCu4NWa79zKnx9Q")]
     [n2.SerializableAttribute]
     public class JSONReader_SKFRbeanCu4NWa79zKnx9Q : n1.VLObject, n2.IDisposable
     {
         [n4.CreateNewAttribute]
-        public static n36.JSONReader_SKFRbeanCu4NWa79zKnx9Q Create(n1.NodeContext Node_Context)
+        public static n32.JSONReader_SKFRbeanCu4NWa79zKnx9Q Create(n1.NodeContext Node_Context)
         {
             var instance = new JSONReader_SKFRbeanCu4NWa79zKnx9Q(Node_Context, n1.VLObject.NewIdentity());
             return instance.__Create__(Node_Context);
         }
 
         [n4.CreateDefaultAttribute]
-        public static n36.JSONReader_SKFRbeanCu4NWa79zKnx9Q CreateDefault()
+        public static n32.JSONReader_SKFRbeanCu4NWa79zKnx9Q CreateDefault()
         {
             var instance = new JSONReader_SKFRbeanCu4NWa79zKnx9Q(n1.NodeContext.Default, n1.VLObject.NewIdentity());
             return instance.__CreateDefault__();
         }
 
-        public n36.JSONReader_SKFRbeanCu4NWa79zKnx9Q Update(n11.Path File_Path_In, n12.Encodings Encoding_In, string Deserialize_Root_Element_Name_In, bool Write_Array_Attribute_In, bool Read_In, out n6.XElement Output_Out)
+        public n32.JSONReader_SKFRbeanCu4NWa79zKnx9Q Update(n11.Path File_Path_In, n12.Encodings Encoding_In, string Deserialize_Root_Element_Name_In, bool Write_Array_Attribute_In, bool Read_In, out n6.XElement Output_Out)
         {
             var State_Output_1 = this.__p_QERjM7hgfjlOLNDmOumbeD.Update(File_Path_In: File_Path_In, Encoding_In: Encoding_In, Deserialize_Root_Element_Name_In: Deserialize_Root_Element_Name_In, Write_Array_Attribute_In: Write_Array_Attribute_In, Read_In: Read_In, Output_Out: out n6.XDocument Output_0);
             n24.XmlNodes.SplitXDocument(input: Output_0, root: out n6.XElement Root_2, declaration: out n6.XDeclaration Declaration_3, documentType: out n6.XDocumentType Document_Type_4);
             Output_Out = Root_2;
-            n36.JSONReader_SKFRbeanCu4NWa79zKnx9Q that_5 = this;
+            n32.JSONReader_SKFRbeanCu4NWa79zKnx9Q that_5 = this;
             if (this.__GetContext__().IsImmutable)
                 that_5 = State_Output_1 != this.__p_QERjM7hgfjlOLNDmOumbeD ? new JSONReader_SKFRbeanCu4NWa79zKnx9Q(this)
                 {__p_QERjM7hgfjlOLNDmOumbeD = State_Output_1} : that_5;
@@ -1610,20 +1610,20 @@ namespace _VL_Xml_.System.XML
             return that_5;
         }
 
-        public n36.JSONReader_SKFRbeanCu4NWa79zKnx9Q __Create__(n1.NodeContext Node_Context)
+        public n32.JSONReader_SKFRbeanCu4NWa79zKnx9Q __Create__(n1.NodeContext Node_Context)
         {
             n13.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "QERjM7hgfjlOLNDmOumbeD", 216856U);
-            var Output_1 = n37.JSONReader_XDocument_NbGfJLYlal5O49GfRvntMG.Create(Node_Context: Node_Context_0);
-            n36.JSONReader_SKFRbeanCu4NWa79zKnx9Q that_2 = this;
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "QERjM7hgfjlOLNDmOumbeD", 94904U);
+            var Output_1 = n33.JSONReader_XDocument_NbGfJLYlal5O49GfRvntMG.Create(Node_Context: Node_Context_0);
+            n32.JSONReader_SKFRbeanCu4NWa79zKnx9Q that_2 = this;
             this.__p_QERjM7hgfjlOLNDmOumbeD = Output_1;
             return that_2;
         }
 
-        public n36.JSONReader_SKFRbeanCu4NWa79zKnx9Q __CreateDefault__()
+        public n32.JSONReader_SKFRbeanCu4NWa79zKnx9Q __CreateDefault__()
         {
-            n36.JSONReader_SKFRbeanCu4NWa79zKnx9Q that_0 = this;
-            this.__p_QERjM7hgfjlOLNDmOumbeD = n37.JSONReader_XDocument_NbGfJLYlal5O49GfRvntMG.CreateDefault();
+            n32.JSONReader_SKFRbeanCu4NWa79zKnx9Q that_0 = this;
+            this.__p_QERjM7hgfjlOLNDmOumbeD = n33.JSONReader_XDocument_NbGfJLYlal5O49GfRvntMG.CreateDefault();
             return that_0;
         }
 
@@ -1639,8 +1639,8 @@ namespace _VL_Xml_.System.XML
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 216856U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "QERjM7hgfjlOLNDmOumbeD", Name = "JSONReader (XDocument)", IsManaged = true, IsAutoGenerated = true)]
-        public n37.JSONReader_XDocument_NbGfJLYlal5O49GfRvntMG __p_QERjM7hgfjlOLNDmOumbeD;
+        [n1.ElementAttribute(TracingId = 94904U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "QERjM7hgfjlOLNDmOumbeD", Name = "JSONReader (XDocument)", IsManaged = true, IsAutoGenerated = true)]
+        public n33.JSONReader_XDocument_NbGfJLYlal5O49GfRvntMG __p_QERjM7hgfjlOLNDmOumbeD;
         public JSONReader_SKFRbeanCu4NWa79zKnx9Q(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
         }
@@ -1655,9 +1655,9 @@ namespace _VL_Xml_.System.XML
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__p_QERjM7hgfjlOLNDmOumbeD", in __p_QERjM7hgfjlOLNDmOumbeD));
         }
 
-        internal JSONReader_SKFRbeanCu4NWa79zKnx9Q __WITH__(n37.JSONReader_XDocument_NbGfJLYlal5O49GfRvntMG __p_QERjM7hgfjlOLNDmOumbeD)
+        internal JSONReader_SKFRbeanCu4NWa79zKnx9Q __WITH__(n33.JSONReader_XDocument_NbGfJLYlal5O49GfRvntMG __p_QERjM7hgfjlOLNDmOumbeD)
         {
-            n36.JSONReader_SKFRbeanCu4NWa79zKnx9Q that_0 = this;
+            n32.JSONReader_SKFRbeanCu4NWa79zKnx9Q that_0 = this;
             if (this.__GetContext__().IsImmutable)
                 that_0 = __p_QERjM7hgfjlOLNDmOumbeD != this.__p_QERjM7hgfjlOLNDmOumbeD ? new JSONReader_SKFRbeanCu4NWa79zKnx9Q(this)
                 {__p_QERjM7hgfjlOLNDmOumbeD = __p_QERjM7hgfjlOLNDmOumbeD} : that_0;
@@ -1670,28 +1670,28 @@ namespace _VL_Xml_.System.XML
         }
     }
 
-    [n1.ElementAttribute(TracingId = 216933U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "K3RuV8m5vRVMCM7TAI7w2R", Name = "XMLWriter_K3RuV8m5vRVMCM7TAI7w2R")]
+    [n1.ElementAttribute(TracingId = 94954U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "K3RuV8m5vRVMCM7TAI7w2R", Name = "XMLWriter_K3RuV8m5vRVMCM7TAI7w2R")]
     [n2.SerializableAttribute]
     public class XMLWriter_K3RuV8m5vRVMCM7TAI7w2R : n1.VLObject, n2.IDisposable
     {
         [n4.CreateNewAttribute]
-        public static n36.XMLWriter_K3RuV8m5vRVMCM7TAI7w2R Create(n1.NodeContext Node_Context)
+        public static n32.XMLWriter_K3RuV8m5vRVMCM7TAI7w2R Create(n1.NodeContext Node_Context)
         {
             var instance = new XMLWriter_K3RuV8m5vRVMCM7TAI7w2R(Node_Context, n1.VLObject.NewIdentity());
             return instance.__Create__(Node_Context);
         }
 
         [n4.CreateDefaultAttribute]
-        public static n36.XMLWriter_K3RuV8m5vRVMCM7TAI7w2R CreateDefault()
+        public static n32.XMLWriter_K3RuV8m5vRVMCM7TAI7w2R CreateDefault()
         {
             var instance = new XMLWriter_K3RuV8m5vRVMCM7TAI7w2R(n1.NodeContext.Default, n1.VLObject.NewIdentity());
             return instance.__CreateDefault__();
         }
 
-        public n36.XMLWriter_K3RuV8m5vRVMCM7TAI7w2R Update(n11.Path File_Path_In, n6.XElement Data_In, bool Write_In)
+        public n32.XMLWriter_K3RuV8m5vRVMCM7TAI7w2R Update(n11.Path File_Path_In, n6.XElement Data_In, bool Write_In)
         {
-            n6.XDeclaration Declaration_0 = n38._Operations_.CreateDefault();
-            n6.XDocumentType Document_Type_1 = n39._Operations_.CreateDefault();
+            n6.XDeclaration Declaration_0 = n34._Operations_.CreateDefault();
+            n6.XDocumentType Document_Type_1 = n35._Operations_.CreateDefault();
             var Result_2 = n24.XmlNodes.JoinXDocument(root: Data_In, declaration: Declaration_0, documentType: Document_Type_1);
             bool Update_3 = true;
             var Output_4 = this.__p_J6UfP6y8neuMdXJFu6vOBH;
@@ -1700,7 +1700,7 @@ namespace _VL_Xml_.System.XML
                 Output_4 = this.__p_J6UfP6y8neuMdXJFu6vOBH.Update(File_Path_In: File_Path_In, Data_In: Result_2, Write_In: Write_In);
             }
 
-            n36.XMLWriter_K3RuV8m5vRVMCM7TAI7w2R that_5 = this;
+            n32.XMLWriter_K3RuV8m5vRVMCM7TAI7w2R that_5 = this;
             if (this.__GetContext__().IsImmutable)
                 that_5 = Output_4 != this.__p_J6UfP6y8neuMdXJFu6vOBH ? new XMLWriter_K3RuV8m5vRVMCM7TAI7w2R(this)
                 {__p_J6UfP6y8neuMdXJFu6vOBH = Output_4} : that_5;
@@ -1712,20 +1712,20 @@ namespace _VL_Xml_.System.XML
             return that_5;
         }
 
-        public n36.XMLWriter_K3RuV8m5vRVMCM7TAI7w2R __Create__(n1.NodeContext Node_Context)
+        public n32.XMLWriter_K3RuV8m5vRVMCM7TAI7w2R __Create__(n1.NodeContext Node_Context)
         {
             n13.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "J6UfP6y8neuMdXJFu6vOBH", 216952U);
-            var Output_1 = n37.XMLWriter_XDocument_PVpTLN2ieLzPuDrY7SZ3Tv.Create(Node_Context: Node_Context_0);
-            n36.XMLWriter_K3RuV8m5vRVMCM7TAI7w2R that_2 = this;
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "J6UfP6y8neuMdXJFu6vOBH", 94965U);
+            var Output_1 = n33.XMLWriter_XDocument_PVpTLN2ieLzPuDrY7SZ3Tv.Create(Node_Context: Node_Context_0);
+            n32.XMLWriter_K3RuV8m5vRVMCM7TAI7w2R that_2 = this;
             this.__p_J6UfP6y8neuMdXJFu6vOBH = Output_1;
             return that_2;
         }
 
-        public n36.XMLWriter_K3RuV8m5vRVMCM7TAI7w2R __CreateDefault__()
+        public n32.XMLWriter_K3RuV8m5vRVMCM7TAI7w2R __CreateDefault__()
         {
-            n36.XMLWriter_K3RuV8m5vRVMCM7TAI7w2R that_0 = this;
-            this.__p_J6UfP6y8neuMdXJFu6vOBH = n37.XMLWriter_XDocument_PVpTLN2ieLzPuDrY7SZ3Tv.CreateDefault();
+            n32.XMLWriter_K3RuV8m5vRVMCM7TAI7w2R that_0 = this;
+            this.__p_J6UfP6y8neuMdXJFu6vOBH = n33.XMLWriter_XDocument_PVpTLN2ieLzPuDrY7SZ3Tv.CreateDefault();
             return that_0;
         }
 
@@ -1741,8 +1741,8 @@ namespace _VL_Xml_.System.XML
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 216952U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "J6UfP6y8neuMdXJFu6vOBH", Name = "XMLWriter (XDocument)", IsManaged = true, IsAutoGenerated = true)]
-        public n37.XMLWriter_XDocument_PVpTLN2ieLzPuDrY7SZ3Tv __p_J6UfP6y8neuMdXJFu6vOBH;
+        [n1.ElementAttribute(TracingId = 94965U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "J6UfP6y8neuMdXJFu6vOBH", Name = "XMLWriter (XDocument)", IsManaged = true, IsAutoGenerated = true)]
+        public n33.XMLWriter_XDocument_PVpTLN2ieLzPuDrY7SZ3Tv __p_J6UfP6y8neuMdXJFu6vOBH;
         public XMLWriter_K3RuV8m5vRVMCM7TAI7w2R(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
         }
@@ -1757,9 +1757,9 @@ namespace _VL_Xml_.System.XML
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__p_J6UfP6y8neuMdXJFu6vOBH", in __p_J6UfP6y8neuMdXJFu6vOBH));
         }
 
-        internal XMLWriter_K3RuV8m5vRVMCM7TAI7w2R __WITH__(n37.XMLWriter_XDocument_PVpTLN2ieLzPuDrY7SZ3Tv __p_J6UfP6y8neuMdXJFu6vOBH)
+        internal XMLWriter_K3RuV8m5vRVMCM7TAI7w2R __WITH__(n33.XMLWriter_XDocument_PVpTLN2ieLzPuDrY7SZ3Tv __p_J6UfP6y8neuMdXJFu6vOBH)
         {
-            n36.XMLWriter_K3RuV8m5vRVMCM7TAI7w2R that_0 = this;
+            n32.XMLWriter_K3RuV8m5vRVMCM7TAI7w2R that_0 = this;
             if (this.__GetContext__().IsImmutable)
                 that_0 = __p_J6UfP6y8neuMdXJFu6vOBH != this.__p_J6UfP6y8neuMdXJFu6vOBH ? new XMLWriter_K3RuV8m5vRVMCM7TAI7w2R(this)
                 {__p_J6UfP6y8neuMdXJFu6vOBH = __p_J6UfP6y8neuMdXJFu6vOBH} : that_0;
@@ -1772,28 +1772,28 @@ namespace _VL_Xml_.System.XML
         }
     }
 
-    [n1.ElementAttribute(TracingId = 216981U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "G5eJOYNGp5vO7mYwtKIE40", Name = "JSONWriter_G5eJOYNGp5vO7mYwtKIE40")]
+    [n1.ElementAttribute(TracingId = 94984U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "G5eJOYNGp5vO7mYwtKIE40", Name = "JSONWriter_G5eJOYNGp5vO7mYwtKIE40")]
     [n2.SerializableAttribute]
     public class JSONWriter_G5eJOYNGp5vO7mYwtKIE40 : n1.VLObject, n2.IDisposable
     {
         [n4.CreateNewAttribute]
-        public static n36.JSONWriter_G5eJOYNGp5vO7mYwtKIE40 Create(n1.NodeContext Node_Context)
+        public static n32.JSONWriter_G5eJOYNGp5vO7mYwtKIE40 Create(n1.NodeContext Node_Context)
         {
             var instance = new JSONWriter_G5eJOYNGp5vO7mYwtKIE40(Node_Context, n1.VLObject.NewIdentity());
             return instance.__Create__(Node_Context);
         }
 
         [n4.CreateDefaultAttribute]
-        public static n36.JSONWriter_G5eJOYNGp5vO7mYwtKIE40 CreateDefault()
+        public static n32.JSONWriter_G5eJOYNGp5vO7mYwtKIE40 CreateDefault()
         {
             var instance = new JSONWriter_G5eJOYNGp5vO7mYwtKIE40(n1.NodeContext.Default, n1.VLObject.NewIdentity());
             return instance.__CreateDefault__();
         }
 
-        public n36.JSONWriter_G5eJOYNGp5vO7mYwtKIE40 Update(n11.Path File_Path_In, n6.XElement Data_In, n12.Encodings Encoding_In, [n4.SerializedDefaultValueAttribute("True", false)] bool Indent_In, bool Omit_Root_Object_In, bool Write_In)
+        public n32.JSONWriter_G5eJOYNGp5vO7mYwtKIE40 Update(n11.Path File_Path_In, n6.XElement Data_In, n12.Encodings Encoding_In, [n4.SerializedDefaultValueAttribute("True", false)] bool Indent_In, bool Omit_Root_Object_In, bool Write_In)
         {
-            n6.XDeclaration Declaration_0 = n38._Operations_.CreateDefault();
-            n6.XDocumentType Document_Type_1 = n39._Operations_.CreateDefault();
+            n6.XDeclaration Declaration_0 = n34._Operations_.CreateDefault();
+            n6.XDocumentType Document_Type_1 = n35._Operations_.CreateDefault();
             var Result_2 = n24.XmlNodes.JoinXDocument(root: Data_In, declaration: Declaration_0, documentType: Document_Type_1);
             bool Update_3 = true;
             var Output_4 = this.__p_K4wMLGwkHFOMtJPNTw51UH;
@@ -1802,7 +1802,7 @@ namespace _VL_Xml_.System.XML
                 Output_4 = this.__p_K4wMLGwkHFOMtJPNTw51UH.Update(File_Path_In: File_Path_In, Data_In: Result_2, Encoding_In: Encoding_In, Indent_In: Indent_In, Omit_Root_Object_In: Omit_Root_Object_In, Write_In: Write_In);
             }
 
-            n36.JSONWriter_G5eJOYNGp5vO7mYwtKIE40 that_5 = this;
+            n32.JSONWriter_G5eJOYNGp5vO7mYwtKIE40 that_5 = this;
             if (this.__GetContext__().IsImmutable)
                 that_5 = Output_4 != this.__p_K4wMLGwkHFOMtJPNTw51UH ? new JSONWriter_G5eJOYNGp5vO7mYwtKIE40(this)
                 {__p_K4wMLGwkHFOMtJPNTw51UH = Output_4} : that_5;
@@ -1814,20 +1814,20 @@ namespace _VL_Xml_.System.XML
             return that_5;
         }
 
-        public n36.JSONWriter_G5eJOYNGp5vO7mYwtKIE40 __Create__(n1.NodeContext Node_Context)
+        public n32.JSONWriter_G5eJOYNGp5vO7mYwtKIE40 __Create__(n1.NodeContext Node_Context)
         {
             n13.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "K4wMLGwkHFOMtJPNTw51UH", 216990U);
-            var Output_1 = n37.JSONWriter_XDocument_Rk0S9JlrxWRMdVQDEsXCS7.Create(Node_Context: Node_Context_0);
-            n36.JSONWriter_G5eJOYNGp5vO7mYwtKIE40 that_2 = this;
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "K4wMLGwkHFOMtJPNTw51UH", 94993U);
+            var Output_1 = n33.JSONWriter_XDocument_Rk0S9JlrxWRMdVQDEsXCS7.Create(Node_Context: Node_Context_0);
+            n32.JSONWriter_G5eJOYNGp5vO7mYwtKIE40 that_2 = this;
             this.__p_K4wMLGwkHFOMtJPNTw51UH = Output_1;
             return that_2;
         }
 
-        public n36.JSONWriter_G5eJOYNGp5vO7mYwtKIE40 __CreateDefault__()
+        public n32.JSONWriter_G5eJOYNGp5vO7mYwtKIE40 __CreateDefault__()
         {
-            n36.JSONWriter_G5eJOYNGp5vO7mYwtKIE40 that_0 = this;
-            this.__p_K4wMLGwkHFOMtJPNTw51UH = n37.JSONWriter_XDocument_Rk0S9JlrxWRMdVQDEsXCS7.CreateDefault();
+            n32.JSONWriter_G5eJOYNGp5vO7mYwtKIE40 that_0 = this;
+            this.__p_K4wMLGwkHFOMtJPNTw51UH = n33.JSONWriter_XDocument_Rk0S9JlrxWRMdVQDEsXCS7.CreateDefault();
             return that_0;
         }
 
@@ -1843,8 +1843,8 @@ namespace _VL_Xml_.System.XML
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 216990U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "K4wMLGwkHFOMtJPNTw51UH", Name = "JSONWriter (XDocument)", IsManaged = true, IsAutoGenerated = true)]
-        public n37.JSONWriter_XDocument_Rk0S9JlrxWRMdVQDEsXCS7 __p_K4wMLGwkHFOMtJPNTw51UH;
+        [n1.ElementAttribute(TracingId = 94993U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "K4wMLGwkHFOMtJPNTw51UH", Name = "JSONWriter (XDocument)", IsManaged = true, IsAutoGenerated = true)]
+        public n33.JSONWriter_XDocument_Rk0S9JlrxWRMdVQDEsXCS7 __p_K4wMLGwkHFOMtJPNTw51UH;
         public JSONWriter_G5eJOYNGp5vO7mYwtKIE40(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
         }
@@ -1859,9 +1859,9 @@ namespace _VL_Xml_.System.XML
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__p_K4wMLGwkHFOMtJPNTw51UH", in __p_K4wMLGwkHFOMtJPNTw51UH));
         }
 
-        internal JSONWriter_G5eJOYNGp5vO7mYwtKIE40 __WITH__(n37.JSONWriter_XDocument_Rk0S9JlrxWRMdVQDEsXCS7 __p_K4wMLGwkHFOMtJPNTw51UH)
+        internal JSONWriter_G5eJOYNGp5vO7mYwtKIE40 __WITH__(n33.JSONWriter_XDocument_Rk0S9JlrxWRMdVQDEsXCS7 __p_K4wMLGwkHFOMtJPNTw51UH)
         {
-            n36.JSONWriter_G5eJOYNGp5vO7mYwtKIE40 that_0 = this;
+            n32.JSONWriter_G5eJOYNGp5vO7mYwtKIE40 that_0 = this;
             if (this.__GetContext__().IsImmutable)
                 that_0 = __p_K4wMLGwkHFOMtJPNTw51UH != this.__p_K4wMLGwkHFOMtJPNTw51UH ? new JSONWriter_G5eJOYNGp5vO7mYwtKIE40(this)
                 {__p_K4wMLGwkHFOMtJPNTw51UH = __p_K4wMLGwkHFOMtJPNTw51UH} : that_0;
@@ -1874,29 +1874,29 @@ namespace _VL_Xml_.System.XML
         }
     }
 
-    [n1.ElementAttribute(TracingId = 217027U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "BrT4tiQ7m76MQPPcJOvDX2", Name = "XMLReader_Reactive_BrT4tiQ7m76MQPPcJOvDX2")]
+    [n1.ElementAttribute(TracingId = 95030U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "BrT4tiQ7m76MQPPcJOvDX2", Name = "XMLReader_Reactive_BrT4tiQ7m76MQPPcJOvDX2")]
     [n2.SerializableAttribute]
     public class XMLReader_Reactive_BrT4tiQ7m76MQPPcJOvDX2 : n1.VLObject, n2.IDisposable
     {
         [n4.CreateNewAttribute]
-        public static n36.XMLReader_Reactive_BrT4tiQ7m76MQPPcJOvDX2 Create(n1.NodeContext Node_Context)
+        public static n32.XMLReader_Reactive_BrT4tiQ7m76MQPPcJOvDX2 Create(n1.NodeContext Node_Context)
         {
             var instance = new XMLReader_Reactive_BrT4tiQ7m76MQPPcJOvDX2(Node_Context, n1.VLObject.NewIdentity());
             return instance.__Create__(Node_Context);
         }
 
         [n4.CreateDefaultAttribute]
-        public static n36.XMLReader_Reactive_BrT4tiQ7m76MQPPcJOvDX2 CreateDefault()
+        public static n32.XMLReader_Reactive_BrT4tiQ7m76MQPPcJOvDX2 CreateDefault()
         {
             var instance = new XMLReader_Reactive_BrT4tiQ7m76MQPPcJOvDX2(n1.NodeContext.Default, n1.VLObject.NewIdentity());
             return instance.__CreateDefault__();
         }
 
-        public n36.XMLReader_Reactive_BrT4tiQ7m76MQPPcJOvDX2 Update(n11.Path File_Path_In, bool Read_In, out n2.IObservable<n6.XElement> Output_Out, out bool In_Progress_Out, out bool On_Completed_Out)
+        public n32.XMLReader_Reactive_BrT4tiQ7m76MQPPcJOvDX2 Update(n11.Path File_Path_In, bool Read_In, out n2.IObservable<n6.XElement> Output_Out, out bool In_Progress_Out, out bool On_Completed_Out)
         {
             var State_Output_3 = this.__p_K0YIbTEmZzaLkMUTHDGlvC.Update(File_Path_In: File_Path_In, Read_In: Read_In, Output_Out: out n2.IObservable<n6.XDocument> Output_0, In_Progress_Out: out bool In_Progress_1, On_Completed_Out: out bool On_Completed_2);
             var __fallback___4 = n1.ServiceRegistry.Current;
-            var Output_13 = this.__p_S0FWzZCQh3yPvON8f4HTGu.Update<n40.__AdaptiveImplementations__Q2iWAXgl3GDPCvxD5IfFJH>(Value_In: Output_0, Selector_In: (n6.XDocument Arg_1_In_6, int Arg_2_In_7) =>
+            var Output_13 = this.__p_S0FWzZCQh3yPvON8f4HTGu.Update<n36.__AdaptiveImplementations__Q2iWAXgl3GDPCvxD5IfFJH>(Value_In: Output_0, Selector_In: (n6.XDocument Arg_1_In_6, int Arg_2_In_7) =>
             {
                 using var __current_5 = __fallback___4.MakeCurrentIfNone();
                 n24.XmlNodes.SplitXDocument(input: Arg_1_In_6, root: out n6.XElement Root_8, declaration: out n6.XDeclaration Declaration_9, documentType: out n6.XDocumentType Document_Type_10);
@@ -1905,11 +1905,11 @@ namespace _VL_Xml_.System.XML
 
             , Result_Out: out n2.IObservable<n6.XElement> Result_11, Changed_Out: out bool Changed_12);
             bool Reset_14 = false;
-            n41._Operations_.Update_H<n6.XElement>(Input__this__In: this.__p_M3D9J4upG5ONZRoxcEGi5o, Input_In: Result_11, Reset_In: Reset_14, Output_Out: out n21.DebugNode<n6.XElement> Output_15, Result_Out: out n2.IObservable<n6.XElement> Result_16, Input_Changed_Count_Out: out int Input_Changed_Count_17, Subscribe_Calls_Out: out int Subscribe_Calls_18, On_Next_Calls_Out: out int On_Next_Calls_19, On_Error_Calls_Out: out int On_Error_Calls_20, On_Completed_Calls_Out: out int On_Completed_Calls_21, Unsubscribe_Calls_Out: out int Unsubscribe_Calls_22, Latest_Thread_Id_Out: out int Latest_Thread_Id_23);
+            n37._Operations_.Update_H<n6.XElement>(Input__this__In: this.__p_M3D9J4upG5ONZRoxcEGi5o, Input_In: Result_11, Reset_In: Reset_14, Output_Out: out n21.DebugNode<n6.XElement> Output_15, Result_Out: out n2.IObservable<n6.XElement> Result_16, Input_Changed_Count_Out: out int Input_Changed_Count_17, Subscribe_Calls_Out: out int Subscribe_Calls_18, On_Next_Calls_Out: out int On_Next_Calls_19, On_Error_Calls_Out: out int On_Error_Calls_20, On_Completed_Calls_Out: out int On_Completed_Calls_21, Unsubscribe_Calls_Out: out int Unsubscribe_Calls_22, Latest_Thread_Id_Out: out int Latest_Thread_Id_23);
             Output_Out = Result_16;
             In_Progress_Out = In_Progress_1;
             On_Completed_Out = On_Completed_2;
-            n36.XMLReader_Reactive_BrT4tiQ7m76MQPPcJOvDX2 that_24 = this;
+            n32.XMLReader_Reactive_BrT4tiQ7m76MQPPcJOvDX2 that_24 = this;
             if (this.__GetContext__().IsImmutable)
                 that_24 = State_Output_3 != this.__p_K0YIbTEmZzaLkMUTHDGlvC || Output_13 != this.__p_S0FWzZCQh3yPvON8f4HTGu || Output_15 != this.__p_M3D9J4upG5ONZRoxcEGi5o ? new XMLReader_Reactive_BrT4tiQ7m76MQPPcJOvDX2(this)
                 {__p_K0YIbTEmZzaLkMUTHDGlvC = State_Output_3, __p_S0FWzZCQh3yPvON8f4HTGu = Output_13, __p_M3D9J4upG5ONZRoxcEGi5o = Output_15} : that_24;
@@ -1923,27 +1923,27 @@ namespace _VL_Xml_.System.XML
             return that_24;
         }
 
-        public n36.XMLReader_Reactive_BrT4tiQ7m76MQPPcJOvDX2 __Create__(n1.NodeContext Node_Context)
+        public n32.XMLReader_Reactive_BrT4tiQ7m76MQPPcJOvDX2 __Create__(n1.NodeContext Node_Context)
         {
             n13.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "M3D9J4upG5ONZRoxcEGi5o", 217035U);
-            n41._Operations_.Create_H<n6.XElement>(Node_Context: Node_Context_0, Output_Out: out n21.DebugNode<n6.XElement> Output_1);
-            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "S0FWzZCQh3yPvON8f4HTGu", 217046U);
-            var Output_3 = n42.Select_IShm0SBzszCN5V5IleChXI<n2.IObservable<n6.XDocument>, n6.XDocument, n6.XElement>.Create<n40.__AdaptiveImplementations__Q2iWAXgl3GDPCvxD5IfFJH>(Node_Context: Node_Context_2);
-            n1.NodeContext Node_Context_4 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "K0YIbTEmZzaLkMUTHDGlvC", 217073U);
-            var Output_5 = n37.XMLReader_XDocument_Reactive_SYtLNqgLVojLPTlgG6zowT.Create(Node_Context: Node_Context_4);
-            n36.XMLReader_Reactive_BrT4tiQ7m76MQPPcJOvDX2 that_6 = this;
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "M3D9J4upG5ONZRoxcEGi5o", 95038U);
+            n37._Operations_.Create_H<n6.XElement>(Node_Context: Node_Context_0, Output_Out: out n21.DebugNode<n6.XElement> Output_1);
+            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "S0FWzZCQh3yPvON8f4HTGu", 95049U);
+            var Output_3 = n38.Select_IShm0SBzszCN5V5IleChXI<n2.IObservable<n6.XDocument>, n6.XDocument, n6.XElement>.Create<n36.__AdaptiveImplementations__Q2iWAXgl3GDPCvxD5IfFJH>(Node_Context: Node_Context_2);
+            n1.NodeContext Node_Context_4 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "K0YIbTEmZzaLkMUTHDGlvC", 95085U);
+            var Output_5 = n33.XMLReader_XDocument_Reactive_SYtLNqgLVojLPTlgG6zowT.Create(Node_Context: Node_Context_4);
+            n32.XMLReader_Reactive_BrT4tiQ7m76MQPPcJOvDX2 that_6 = this;
             this.__p_M3D9J4upG5ONZRoxcEGi5o = Output_1;
             this.__p_S0FWzZCQh3yPvON8f4HTGu = Output_3;
             this.__p_K0YIbTEmZzaLkMUTHDGlvC = Output_5;
             return that_6;
         }
 
-        public n36.XMLReader_Reactive_BrT4tiQ7m76MQPPcJOvDX2 __CreateDefault__()
+        public n32.XMLReader_Reactive_BrT4tiQ7m76MQPPcJOvDX2 __CreateDefault__()
         {
-            n36.XMLReader_Reactive_BrT4tiQ7m76MQPPcJOvDX2 that_0 = this;
-            this.__p_K0YIbTEmZzaLkMUTHDGlvC = n37.XMLReader_XDocument_Reactive_SYtLNqgLVojLPTlgG6zowT.CreateDefault();
-            this.__p_S0FWzZCQh3yPvON8f4HTGu = n42.Select_IShm0SBzszCN5V5IleChXI<n2.IObservable<n6.XDocument>, n6.XDocument, n6.XElement>.CreateDefault<n40.__AdaptiveImplementations__Q2iWAXgl3GDPCvxD5IfFJH>();
+            n32.XMLReader_Reactive_BrT4tiQ7m76MQPPcJOvDX2 that_0 = this;
+            this.__p_K0YIbTEmZzaLkMUTHDGlvC = n33.XMLReader_XDocument_Reactive_SYtLNqgLVojLPTlgG6zowT.CreateDefault();
+            this.__p_S0FWzZCQh3yPvON8f4HTGu = n38.Select_IShm0SBzszCN5V5IleChXI<n2.IObservable<n6.XDocument>, n6.XDocument, n6.XElement>.CreateDefault<n36.__AdaptiveImplementations__Q2iWAXgl3GDPCvxD5IfFJH>();
             this.__p_M3D9J4upG5ONZRoxcEGi5o = default(n21.DebugNode<n6.XElement>);
             return that_0;
         }
@@ -1962,11 +1962,11 @@ namespace _VL_Xml_.System.XML
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 217073U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "K0YIbTEmZzaLkMUTHDGlvC", Name = "XMLReader (XDocument Reactive)", IsManaged = true, IsAutoGenerated = true)]
-        public n37.XMLReader_XDocument_Reactive_SYtLNqgLVojLPTlgG6zowT __p_K0YIbTEmZzaLkMUTHDGlvC;
-        [n1.ElementAttribute(TracingId = 217046U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "S0FWzZCQh3yPvON8f4HTGu", Name = "Select", IsManaged = true, IsAutoGenerated = true)]
-        public n42.Select_IShm0SBzszCN5V5IleChXI<n2.IObservable<n6.XDocument>, n6.XDocument, n6.XElement> __p_S0FWzZCQh3yPvON8f4HTGu;
-        [n1.ElementAttribute(TracingId = 217035U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "M3D9J4upG5ONZRoxcEGi5o", Name = "Debug", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 95085U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "K0YIbTEmZzaLkMUTHDGlvC", Name = "XMLReader (XDocument Reactive)", IsManaged = true, IsAutoGenerated = true)]
+        public n33.XMLReader_XDocument_Reactive_SYtLNqgLVojLPTlgG6zowT __p_K0YIbTEmZzaLkMUTHDGlvC;
+        [n1.ElementAttribute(TracingId = 95049U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "S0FWzZCQh3yPvON8f4HTGu", Name = "Select", IsManaged = true, IsAutoGenerated = true)]
+        public n38.Select_IShm0SBzszCN5V5IleChXI<n2.IObservable<n6.XDocument>, n6.XDocument, n6.XElement> __p_S0FWzZCQh3yPvON8f4HTGu;
+        [n1.ElementAttribute(TracingId = 95038U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "M3D9J4upG5ONZRoxcEGi5o", Name = "Debug", IsManaged = true, IsAutoGenerated = true)]
         public n21.DebugNode<n6.XElement> __p_M3D9J4upG5ONZRoxcEGi5o;
         public XMLReader_Reactive_BrT4tiQ7m76MQPPcJOvDX2(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -1984,9 +1984,9 @@ namespace _VL_Xml_.System.XML
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__p_K0YIbTEmZzaLkMUTHDGlvC", in __p_K0YIbTEmZzaLkMUTHDGlvC), n1.CompilationHelper.GetValueOrExisting(values, "__p_S0FWzZCQh3yPvON8f4HTGu", in __p_S0FWzZCQh3yPvON8f4HTGu), n1.CompilationHelper.GetValueOrExisting(values, "__p_M3D9J4upG5ONZRoxcEGi5o", in __p_M3D9J4upG5ONZRoxcEGi5o));
         }
 
-        internal XMLReader_Reactive_BrT4tiQ7m76MQPPcJOvDX2 __WITH__(n37.XMLReader_XDocument_Reactive_SYtLNqgLVojLPTlgG6zowT __p_K0YIbTEmZzaLkMUTHDGlvC, n42.Select_IShm0SBzszCN5V5IleChXI<n2.IObservable<n6.XDocument>, n6.XDocument, n6.XElement> __p_S0FWzZCQh3yPvON8f4HTGu, n21.DebugNode<n6.XElement> __p_M3D9J4upG5ONZRoxcEGi5o)
+        internal XMLReader_Reactive_BrT4tiQ7m76MQPPcJOvDX2 __WITH__(n33.XMLReader_XDocument_Reactive_SYtLNqgLVojLPTlgG6zowT __p_K0YIbTEmZzaLkMUTHDGlvC, n38.Select_IShm0SBzszCN5V5IleChXI<n2.IObservable<n6.XDocument>, n6.XDocument, n6.XElement> __p_S0FWzZCQh3yPvON8f4HTGu, n21.DebugNode<n6.XElement> __p_M3D9J4upG5ONZRoxcEGi5o)
         {
-            n36.XMLReader_Reactive_BrT4tiQ7m76MQPPcJOvDX2 that_0 = this;
+            n32.XMLReader_Reactive_BrT4tiQ7m76MQPPcJOvDX2 that_0 = this;
             if (this.__GetContext__().IsImmutable)
                 that_0 = __p_K0YIbTEmZzaLkMUTHDGlvC != this.__p_K0YIbTEmZzaLkMUTHDGlvC || __p_S0FWzZCQh3yPvON8f4HTGu != this.__p_S0FWzZCQh3yPvON8f4HTGu || __p_M3D9J4upG5ONZRoxcEGi5o != this.__p_M3D9J4upG5ONZRoxcEGi5o ? new XMLReader_Reactive_BrT4tiQ7m76MQPPcJOvDX2(this)
                 {__p_K0YIbTEmZzaLkMUTHDGlvC = __p_K0YIbTEmZzaLkMUTHDGlvC, __p_S0FWzZCQh3yPvON8f4HTGu = __p_S0FWzZCQh3yPvON8f4HTGu, __p_M3D9J4upG5ONZRoxcEGi5o = __p_M3D9J4upG5ONZRoxcEGi5o} : that_0;
@@ -2001,29 +2001,29 @@ namespace _VL_Xml_.System.XML
         }
     }
 
-    [n1.ElementAttribute(TracingId = 217157U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "NjSdpwlJJeQO9pvEf8bCYm", Name = "JSONReader_Reactive_NjSdpwlJJeQO9pvEf8bCYm")]
+    [n1.ElementAttribute(TracingId = 95173U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "NjSdpwlJJeQO9pvEf8bCYm", Name = "JSONReader_Reactive_NjSdpwlJJeQO9pvEf8bCYm")]
     [n2.SerializableAttribute]
     public class JSONReader_Reactive_NjSdpwlJJeQO9pvEf8bCYm : n1.VLObject, n2.IDisposable
     {
         [n4.CreateNewAttribute]
-        public static n36.JSONReader_Reactive_NjSdpwlJJeQO9pvEf8bCYm Create(n1.NodeContext Node_Context)
+        public static n32.JSONReader_Reactive_NjSdpwlJJeQO9pvEf8bCYm Create(n1.NodeContext Node_Context)
         {
             var instance = new JSONReader_Reactive_NjSdpwlJJeQO9pvEf8bCYm(Node_Context, n1.VLObject.NewIdentity());
             return instance.__Create__(Node_Context);
         }
 
         [n4.CreateDefaultAttribute]
-        public static n36.JSONReader_Reactive_NjSdpwlJJeQO9pvEf8bCYm CreateDefault()
+        public static n32.JSONReader_Reactive_NjSdpwlJJeQO9pvEf8bCYm CreateDefault()
         {
             var instance = new JSONReader_Reactive_NjSdpwlJJeQO9pvEf8bCYm(n1.NodeContext.Default, n1.VLObject.NewIdentity());
             return instance.__CreateDefault__();
         }
 
-        public n36.JSONReader_Reactive_NjSdpwlJJeQO9pvEf8bCYm Update(n11.Path File_Path_In, n12.Encodings Encoding_In, string Deserialize_Root_Element_Name_In, bool Write_Array_Attribute_In, bool Read_In, out n2.IObservable<n6.XElement> Output_Out, out float Progress_Out, out bool In_Progress_Out, out bool On_Completed_Out)
+        public n32.JSONReader_Reactive_NjSdpwlJJeQO9pvEf8bCYm Update(n11.Path File_Path_In, n12.Encodings Encoding_In, string Deserialize_Root_Element_Name_In, bool Write_Array_Attribute_In, bool Read_In, out n2.IObservable<n6.XElement> Output_Out, out float Progress_Out, out bool In_Progress_Out, out bool On_Completed_Out)
         {
             var State_Output_4 = this.__p_PqusbxuhpuMP6mUyJDYxTw.Update(File_Path_In: File_Path_In, Encoding_In: Encoding_In, Deserialize_Root_Element_Name_In: Deserialize_Root_Element_Name_In, Write_Array_Attribute_In: Write_Array_Attribute_In, Read_In: Read_In, Output_Out: out n2.IObservable<n6.XDocument> Output_0, Progress_Out: out float Progress_1, In_Progress_Out: out bool In_Progress_2, On_Completed_Out: out bool On_Completed_3);
             var __fallback___5 = n1.ServiceRegistry.Current;
-            var Output_14 = this.__p_Vj7ncSu2Yi6PFLwQBslmWs.Update<n40.__AdaptiveImplementations__Q2iWAXgl3GDPCvxD5IfFJH>(Value_In: Output_0, Selector_In: (n6.XDocument Input_1_In_7, int Input_2_In_8) =>
+            var Output_14 = this.__p_Vj7ncSu2Yi6PFLwQBslmWs.Update<n36.__AdaptiveImplementations__Q2iWAXgl3GDPCvxD5IfFJH>(Value_In: Output_0, Selector_In: (n6.XDocument Input_1_In_7, int Input_2_In_8) =>
             {
                 using var __current_6 = __fallback___5.MakeCurrentIfNone();
                 n24.XmlNodes.SplitXDocument(input: Input_1_In_7, root: out n6.XElement Root_9, declaration: out n6.XDeclaration Declaration_10, documentType: out n6.XDocumentType Document_Type_11);
@@ -2035,7 +2035,7 @@ namespace _VL_Xml_.System.XML
             Progress_Out = Progress_1;
             In_Progress_Out = In_Progress_2;
             On_Completed_Out = On_Completed_3;
-            n36.JSONReader_Reactive_NjSdpwlJJeQO9pvEf8bCYm that_15 = this;
+            n32.JSONReader_Reactive_NjSdpwlJJeQO9pvEf8bCYm that_15 = this;
             if (this.__GetContext__().IsImmutable)
                 that_15 = State_Output_4 != this.__p_PqusbxuhpuMP6mUyJDYxTw || Output_14 != this.__p_Vj7ncSu2Yi6PFLwQBslmWs ? new JSONReader_Reactive_NjSdpwlJJeQO9pvEf8bCYm(this)
                 {__p_PqusbxuhpuMP6mUyJDYxTw = State_Output_4, __p_Vj7ncSu2Yi6PFLwQBslmWs = Output_14} : that_15;
@@ -2048,24 +2048,24 @@ namespace _VL_Xml_.System.XML
             return that_15;
         }
 
-        public n36.JSONReader_Reactive_NjSdpwlJJeQO9pvEf8bCYm __Create__(n1.NodeContext Node_Context)
+        public n32.JSONReader_Reactive_NjSdpwlJJeQO9pvEf8bCYm __Create__(n1.NodeContext Node_Context)
         {
             n13.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "PqusbxuhpuMP6mUyJDYxTw", 217187U);
-            var Output_1 = n37.JSONReader_XDocument_Reactive_TgZP25u6vCjPyckNhH9sai.Create(Node_Context: Node_Context_0);
-            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "Vj7ncSu2Yi6PFLwQBslmWs", 217203U);
-            var Output_3 = n42.Select_IShm0SBzszCN5V5IleChXI<n2.IObservable<n6.XDocument>, n6.XDocument, n6.XElement>.Create<n40.__AdaptiveImplementations__Q2iWAXgl3GDPCvxD5IfFJH>(Node_Context: Node_Context_2);
-            n36.JSONReader_Reactive_NjSdpwlJJeQO9pvEf8bCYm that_4 = this;
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "PqusbxuhpuMP6mUyJDYxTw", 95194U);
+            var Output_1 = n33.JSONReader_XDocument_Reactive_TgZP25u6vCjPyckNhH9sai.Create(Node_Context: Node_Context_0);
+            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "Vj7ncSu2Yi6PFLwQBslmWs", 95222U);
+            var Output_3 = n38.Select_IShm0SBzszCN5V5IleChXI<n2.IObservable<n6.XDocument>, n6.XDocument, n6.XElement>.Create<n36.__AdaptiveImplementations__Q2iWAXgl3GDPCvxD5IfFJH>(Node_Context: Node_Context_2);
+            n32.JSONReader_Reactive_NjSdpwlJJeQO9pvEf8bCYm that_4 = this;
             this.__p_PqusbxuhpuMP6mUyJDYxTw = Output_1;
             this.__p_Vj7ncSu2Yi6PFLwQBslmWs = Output_3;
             return that_4;
         }
 
-        public n36.JSONReader_Reactive_NjSdpwlJJeQO9pvEf8bCYm __CreateDefault__()
+        public n32.JSONReader_Reactive_NjSdpwlJJeQO9pvEf8bCYm __CreateDefault__()
         {
-            n36.JSONReader_Reactive_NjSdpwlJJeQO9pvEf8bCYm that_0 = this;
-            this.__p_PqusbxuhpuMP6mUyJDYxTw = n37.JSONReader_XDocument_Reactive_TgZP25u6vCjPyckNhH9sai.CreateDefault();
-            this.__p_Vj7ncSu2Yi6PFLwQBslmWs = n42.Select_IShm0SBzszCN5V5IleChXI<n2.IObservable<n6.XDocument>, n6.XDocument, n6.XElement>.CreateDefault<n40.__AdaptiveImplementations__Q2iWAXgl3GDPCvxD5IfFJH>();
+            n32.JSONReader_Reactive_NjSdpwlJJeQO9pvEf8bCYm that_0 = this;
+            this.__p_PqusbxuhpuMP6mUyJDYxTw = n33.JSONReader_XDocument_Reactive_TgZP25u6vCjPyckNhH9sai.CreateDefault();
+            this.__p_Vj7ncSu2Yi6PFLwQBslmWs = n38.Select_IShm0SBzszCN5V5IleChXI<n2.IObservable<n6.XDocument>, n6.XDocument, n6.XElement>.CreateDefault<n36.__AdaptiveImplementations__Q2iWAXgl3GDPCvxD5IfFJH>();
             return that_0;
         }
 
@@ -2082,10 +2082,10 @@ namespace _VL_Xml_.System.XML
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 217187U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "PqusbxuhpuMP6mUyJDYxTw", Name = "JSONReader (XDocument Reactive)", IsManaged = true, IsAutoGenerated = true)]
-        public n37.JSONReader_XDocument_Reactive_TgZP25u6vCjPyckNhH9sai __p_PqusbxuhpuMP6mUyJDYxTw;
-        [n1.ElementAttribute(TracingId = 217203U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "Vj7ncSu2Yi6PFLwQBslmWs", Name = "Select", IsManaged = true, IsAutoGenerated = true)]
-        public n42.Select_IShm0SBzszCN5V5IleChXI<n2.IObservable<n6.XDocument>, n6.XDocument, n6.XElement> __p_Vj7ncSu2Yi6PFLwQBslmWs;
+        [n1.ElementAttribute(TracingId = 95194U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "PqusbxuhpuMP6mUyJDYxTw", Name = "JSONReader (XDocument Reactive)", IsManaged = true, IsAutoGenerated = true)]
+        public n33.JSONReader_XDocument_Reactive_TgZP25u6vCjPyckNhH9sai __p_PqusbxuhpuMP6mUyJDYxTw;
+        [n1.ElementAttribute(TracingId = 95222U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "Vj7ncSu2Yi6PFLwQBslmWs", Name = "Select", IsManaged = true, IsAutoGenerated = true)]
+        public n38.Select_IShm0SBzszCN5V5IleChXI<n2.IObservable<n6.XDocument>, n6.XDocument, n6.XElement> __p_Vj7ncSu2Yi6PFLwQBslmWs;
         public JSONReader_Reactive_NjSdpwlJJeQO9pvEf8bCYm(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
         }
@@ -2101,9 +2101,9 @@ namespace _VL_Xml_.System.XML
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__p_PqusbxuhpuMP6mUyJDYxTw", in __p_PqusbxuhpuMP6mUyJDYxTw), n1.CompilationHelper.GetValueOrExisting(values, "__p_Vj7ncSu2Yi6PFLwQBslmWs", in __p_Vj7ncSu2Yi6PFLwQBslmWs));
         }
 
-        internal JSONReader_Reactive_NjSdpwlJJeQO9pvEf8bCYm __WITH__(n37.JSONReader_XDocument_Reactive_TgZP25u6vCjPyckNhH9sai __p_PqusbxuhpuMP6mUyJDYxTw, n42.Select_IShm0SBzszCN5V5IleChXI<n2.IObservable<n6.XDocument>, n6.XDocument, n6.XElement> __p_Vj7ncSu2Yi6PFLwQBslmWs)
+        internal JSONReader_Reactive_NjSdpwlJJeQO9pvEf8bCYm __WITH__(n33.JSONReader_XDocument_Reactive_TgZP25u6vCjPyckNhH9sai __p_PqusbxuhpuMP6mUyJDYxTw, n38.Select_IShm0SBzszCN5V5IleChXI<n2.IObservable<n6.XDocument>, n6.XDocument, n6.XElement> __p_Vj7ncSu2Yi6PFLwQBslmWs)
         {
-            n36.JSONReader_Reactive_NjSdpwlJJeQO9pvEf8bCYm that_0 = this;
+            n32.JSONReader_Reactive_NjSdpwlJJeQO9pvEf8bCYm that_0 = this;
             if (this.__GetContext__().IsImmutable)
                 that_0 = __p_PqusbxuhpuMP6mUyJDYxTw != this.__p_PqusbxuhpuMP6mUyJDYxTw || __p_Vj7ncSu2Yi6PFLwQBslmWs != this.__p_Vj7ncSu2Yi6PFLwQBslmWs ? new JSONReader_Reactive_NjSdpwlJJeQO9pvEf8bCYm(this)
                 {__p_PqusbxuhpuMP6mUyJDYxTw = __p_PqusbxuhpuMP6mUyJDYxTw, __p_Vj7ncSu2Yi6PFLwQBslmWs = __p_Vj7ncSu2Yi6PFLwQBslmWs} : that_0;
@@ -2117,34 +2117,34 @@ namespace _VL_Xml_.System.XML
         }
     }
 
-    [n1.ElementAttribute(TracingId = 217353U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "MqVhXYAsYAJNTdWUWjIBSd", Name = "XMLWriter_Reactive_MqVhXYAsYAJNTdWUWjIBSd")]
+    [n1.ElementAttribute(TracingId = 95370U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "MqVhXYAsYAJNTdWUWjIBSd", Name = "XMLWriter_Reactive_MqVhXYAsYAJNTdWUWjIBSd")]
     [n2.SerializableAttribute]
     public class XMLWriter_Reactive_MqVhXYAsYAJNTdWUWjIBSd : n1.VLObject, n2.IDisposable
     {
         [n4.CreateNewAttribute]
-        public static n36.XMLWriter_Reactive_MqVhXYAsYAJNTdWUWjIBSd Create(n1.NodeContext Node_Context)
+        public static n32.XMLWriter_Reactive_MqVhXYAsYAJNTdWUWjIBSd Create(n1.NodeContext Node_Context)
         {
             var instance = new XMLWriter_Reactive_MqVhXYAsYAJNTdWUWjIBSd(Node_Context, n1.VLObject.NewIdentity());
             return instance.__Create__(Node_Context);
         }
 
         [n4.CreateDefaultAttribute]
-        public static n36.XMLWriter_Reactive_MqVhXYAsYAJNTdWUWjIBSd CreateDefault()
+        public static n32.XMLWriter_Reactive_MqVhXYAsYAJNTdWUWjIBSd CreateDefault()
         {
             var instance = new XMLWriter_Reactive_MqVhXYAsYAJNTdWUWjIBSd(n1.NodeContext.Default, n1.VLObject.NewIdentity());
             return instance.__CreateDefault__();
         }
 
-        public n36.XMLWriter_Reactive_MqVhXYAsYAJNTdWUWjIBSd Update(n11.Path File_Path_In, n2.IObservable<n6.XElement> Data_In, out bool In_Progress_Out, out bool OnCompleted_Out)
+        public n32.XMLWriter_Reactive_MqVhXYAsYAJNTdWUWjIBSd Update(n11.Path File_Path_In, n2.IObservable<n6.XElement> Data_In, out bool In_Progress_Out, out bool OnCompleted_Out)
         {
             bool Reset_0 = false;
             var __fallback___1 = n1.ServiceRegistry.Current;
-            n43._Operations_.Update_H<n2.Object, n6.XElement, n6.XDocument>(Input_In: this.__p_SjDSsrMx2jfQAWilSw2RH6, Messages_In: Data_In, Reset_In: Reset_0, Update_In: (n2.Object s_4, n6.XElement Input_1_In_5) =>
+            n39._Operations_.Update_H<n2.Object, n6.XElement, n6.XDocument>(Input_In: this.__p_SjDSsrMx2jfQAWilSw2RH6, Messages_In: Data_In, Reset_In: Reset_0, Update_In: (n2.Object s_4, n6.XElement Input_1_In_5) =>
             {
                 using var __current_2 = __fallback___1.MakeCurrentIfNone();
                 var state_3 = n1.CompilationHelper.Restore<__DNIl8zHz6OBOkAxZCjk2Mh>(s_4, __GetContext__());
-                n6.XDeclaration Declaration_6 = n38._Operations_.CreateDefault();
-                n6.XDocumentType Document_Type_7 = n39._Operations_.CreateDefault();
+                n6.XDeclaration Declaration_6 = n34._Operations_.CreateDefault();
+                n6.XDocumentType Document_Type_7 = n35._Operations_.CreateDefault();
                 var Result_8 = n24.XmlNodes.JoinXDocument(root: Input_1_In_5, declaration: Declaration_6, documentType: Document_Type_7);
                 return n2.Tuple.Create<n2.Object, n6.XDocument>(state_3, Result_8);
             }
@@ -2160,7 +2160,7 @@ namespace _VL_Xml_.System.XML
             var Output_14 = this.__p_AsvC3GkdkSDMdSaWCgf8wn.Update(File_Path_In: File_Path_In, Data_In: Result_11, In_Progress_Out: out bool In_Progress_12, OnCompleted_Out: out bool OnCompleted_13);
             In_Progress_Out = In_Progress_12;
             OnCompleted_Out = OnCompleted_13;
-            n36.XMLWriter_Reactive_MqVhXYAsYAJNTdWUWjIBSd that_15 = this;
+            n32.XMLWriter_Reactive_MqVhXYAsYAJNTdWUWjIBSd that_15 = this;
             if (this.__GetContext__().IsImmutable)
                 that_15 = Output_10 != this.__p_SjDSsrMx2jfQAWilSw2RH6 || Output_14 != this.__p_AsvC3GkdkSDMdSaWCgf8wn ? new XMLWriter_Reactive_MqVhXYAsYAJNTdWUWjIBSd(this)
                 {__p_SjDSsrMx2jfQAWilSw2RH6 = Output_10, __p_AsvC3GkdkSDMdSaWCgf8wn = Output_14} : that_15;
@@ -2173,24 +2173,24 @@ namespace _VL_Xml_.System.XML
             return that_15;
         }
 
-        public n36.XMLWriter_Reactive_MqVhXYAsYAJNTdWUWjIBSd __Create__(n1.NodeContext Node_Context)
+        public n32.XMLWriter_Reactive_MqVhXYAsYAJNTdWUWjIBSd __Create__(n1.NodeContext Node_Context)
         {
             n13.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "SjDSsrMx2jfQAWilSw2RH6", 217371U);
-            n43._Operations_.Create_H<n2.Object, n6.XElement, n6.XDocument>(Node_Context: Node_Context_0, Output_Out: out n21.ForEach<n2.Object, n6.XElement, n6.XDocument> Output_1);
-            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "AsvC3GkdkSDMdSaWCgf8wn", 217438U);
-            var Output_3 = n37.XMLWriter_XDocument_Reactive_Jn58QSZGMUmNfBVEabutgv.Create(Node_Context: Node_Context_2);
-            n36.XMLWriter_Reactive_MqVhXYAsYAJNTdWUWjIBSd that_4 = this;
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "SjDSsrMx2jfQAWilSw2RH6", 95379U);
+            n39._Operations_.Create_H<n2.Object, n6.XElement, n6.XDocument>(Node_Context: Node_Context_0, Output_Out: out n21.ForEach<n2.Object, n6.XElement, n6.XDocument> Output_1);
+            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "AsvC3GkdkSDMdSaWCgf8wn", 95431U);
+            var Output_3 = n33.XMLWriter_XDocument_Reactive_Jn58QSZGMUmNfBVEabutgv.Create(Node_Context: Node_Context_2);
+            n32.XMLWriter_Reactive_MqVhXYAsYAJNTdWUWjIBSd that_4 = this;
             this.__p_SjDSsrMx2jfQAWilSw2RH6 = Output_1;
             this.__p_AsvC3GkdkSDMdSaWCgf8wn = Output_3;
             return that_4;
         }
 
-        public n36.XMLWriter_Reactive_MqVhXYAsYAJNTdWUWjIBSd __CreateDefault__()
+        public n32.XMLWriter_Reactive_MqVhXYAsYAJNTdWUWjIBSd __CreateDefault__()
         {
-            n36.XMLWriter_Reactive_MqVhXYAsYAJNTdWUWjIBSd that_0 = this;
+            n32.XMLWriter_Reactive_MqVhXYAsYAJNTdWUWjIBSd that_0 = this;
             this.__p_SjDSsrMx2jfQAWilSw2RH6 = default(n21.ForEach<n2.Object, n6.XElement, n6.XDocument>);
-            this.__p_AsvC3GkdkSDMdSaWCgf8wn = n37.XMLWriter_XDocument_Reactive_Jn58QSZGMUmNfBVEabutgv.CreateDefault();
+            this.__p_AsvC3GkdkSDMdSaWCgf8wn = n33.XMLWriter_XDocument_Reactive_Jn58QSZGMUmNfBVEabutgv.CreateDefault();
             return that_0;
         }
 
@@ -2207,10 +2207,10 @@ namespace _VL_Xml_.System.XML
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 217371U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "SjDSsrMx2jfQAWilSw2RH6", Name = "ForEach", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 95379U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "SjDSsrMx2jfQAWilSw2RH6", Name = "ForEach", IsManaged = true, IsAutoGenerated = true)]
         public n21.ForEach<n2.Object, n6.XElement, n6.XDocument> __p_SjDSsrMx2jfQAWilSw2RH6;
-        [n1.ElementAttribute(TracingId = 217438U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "AsvC3GkdkSDMdSaWCgf8wn", Name = "XMLWriter (XDocument Reactive)", IsManaged = true, IsAutoGenerated = true)]
-        public n37.XMLWriter_XDocument_Reactive_Jn58QSZGMUmNfBVEabutgv __p_AsvC3GkdkSDMdSaWCgf8wn;
+        [n1.ElementAttribute(TracingId = 95431U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "AsvC3GkdkSDMdSaWCgf8wn", Name = "XMLWriter (XDocument Reactive)", IsManaged = true, IsAutoGenerated = true)]
+        public n33.XMLWriter_XDocument_Reactive_Jn58QSZGMUmNfBVEabutgv __p_AsvC3GkdkSDMdSaWCgf8wn;
         public XMLWriter_Reactive_MqVhXYAsYAJNTdWUWjIBSd(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
         }
@@ -2226,9 +2226,9 @@ namespace _VL_Xml_.System.XML
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__p_SjDSsrMx2jfQAWilSw2RH6", in __p_SjDSsrMx2jfQAWilSw2RH6), n1.CompilationHelper.GetValueOrExisting(values, "__p_AsvC3GkdkSDMdSaWCgf8wn", in __p_AsvC3GkdkSDMdSaWCgf8wn));
         }
 
-        internal XMLWriter_Reactive_MqVhXYAsYAJNTdWUWjIBSd __WITH__(n21.ForEach<n2.Object, n6.XElement, n6.XDocument> __p_SjDSsrMx2jfQAWilSw2RH6, n37.XMLWriter_XDocument_Reactive_Jn58QSZGMUmNfBVEabutgv __p_AsvC3GkdkSDMdSaWCgf8wn)
+        internal XMLWriter_Reactive_MqVhXYAsYAJNTdWUWjIBSd __WITH__(n21.ForEach<n2.Object, n6.XElement, n6.XDocument> __p_SjDSsrMx2jfQAWilSw2RH6, n33.XMLWriter_XDocument_Reactive_Jn58QSZGMUmNfBVEabutgv __p_AsvC3GkdkSDMdSaWCgf8wn)
         {
-            n36.XMLWriter_Reactive_MqVhXYAsYAJNTdWUWjIBSd that_0 = this;
+            n32.XMLWriter_Reactive_MqVhXYAsYAJNTdWUWjIBSd that_0 = this;
             if (this.__GetContext__().IsImmutable)
                 that_0 = __p_SjDSsrMx2jfQAWilSw2RH6 != this.__p_SjDSsrMx2jfQAWilSw2RH6 || __p_AsvC3GkdkSDMdSaWCgf8wn != this.__p_AsvC3GkdkSDMdSaWCgf8wn ? new XMLWriter_Reactive_MqVhXYAsYAJNTdWUWjIBSd(this)
                 {__p_SjDSsrMx2jfQAWilSw2RH6 = __p_SjDSsrMx2jfQAWilSw2RH6, __p_AsvC3GkdkSDMdSaWCgf8wn = __p_AsvC3GkdkSDMdSaWCgf8wn} : that_0;
@@ -2270,34 +2270,34 @@ namespace _VL_Xml_.System.XML
         }
     }
 
-    [n1.ElementAttribute(TracingId = 217516U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "D9F91fz2SCnN1P2g3oMjAS", Name = "JSONWriter_Reactive_D9F91fz2SCnN1P2g3oMjAS")]
+    [n1.ElementAttribute(TracingId = 95505U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "D9F91fz2SCnN1P2g3oMjAS", Name = "JSONWriter_Reactive_D9F91fz2SCnN1P2g3oMjAS")]
     [n2.SerializableAttribute]
     public class JSONWriter_Reactive_D9F91fz2SCnN1P2g3oMjAS : n1.VLObject, n2.IDisposable
     {
         [n4.CreateNewAttribute]
-        public static n36.JSONWriter_Reactive_D9F91fz2SCnN1P2g3oMjAS Create(n1.NodeContext Node_Context)
+        public static n32.JSONWriter_Reactive_D9F91fz2SCnN1P2g3oMjAS Create(n1.NodeContext Node_Context)
         {
             var instance = new JSONWriter_Reactive_D9F91fz2SCnN1P2g3oMjAS(Node_Context, n1.VLObject.NewIdentity());
             return instance.__Create__(Node_Context);
         }
 
         [n4.CreateDefaultAttribute]
-        public static n36.JSONWriter_Reactive_D9F91fz2SCnN1P2g3oMjAS CreateDefault()
+        public static n32.JSONWriter_Reactive_D9F91fz2SCnN1P2g3oMjAS CreateDefault()
         {
             var instance = new JSONWriter_Reactive_D9F91fz2SCnN1P2g3oMjAS(n1.NodeContext.Default, n1.VLObject.NewIdentity());
             return instance.__CreateDefault__();
         }
 
-        public n36.JSONWriter_Reactive_D9F91fz2SCnN1P2g3oMjAS Update(n11.Path File_Path_In, n2.IObservable<n6.XElement> Data_In, n12.Encodings Encoding_In, [n4.SerializedDefaultValueAttribute("True", false)] bool Indent_In, bool Omit_Root_Object_In, out float Progress_Out, out bool In_Progress_Out, out bool On_Completed_Out)
+        public n32.JSONWriter_Reactive_D9F91fz2SCnN1P2g3oMjAS Update(n11.Path File_Path_In, n2.IObservable<n6.XElement> Data_In, n12.Encodings Encoding_In, [n4.SerializedDefaultValueAttribute("True", false)] bool Indent_In, bool Omit_Root_Object_In, out float Progress_Out, out bool In_Progress_Out, out bool On_Completed_Out)
         {
             bool Reset_0 = false;
             var __fallback___1 = n1.ServiceRegistry.Current;
-            n43._Operations_.Update_H<n2.Object, n6.XElement, n6.XDocument>(Input_In: this.__p_VsBqv3yahnmM2gQtyhuLhR, Messages_In: Data_In, Reset_In: Reset_0, Update_In: (n2.Object s_4, n6.XElement Input_1_In_5) =>
+            n39._Operations_.Update_H<n2.Object, n6.XElement, n6.XDocument>(Input_In: this.__p_VsBqv3yahnmM2gQtyhuLhR, Messages_In: Data_In, Reset_In: Reset_0, Update_In: (n2.Object s_4, n6.XElement Input_1_In_5) =>
             {
                 using var __current_2 = __fallback___1.MakeCurrentIfNone();
                 var state_3 = n1.CompilationHelper.Restore<__MiW5KSGVe7JMWRScCcsm2Z>(s_4, __GetContext__());
-                n6.XDeclaration Declaration_6 = n38._Operations_.CreateDefault();
-                n6.XDocumentType Document_Type_7 = n39._Operations_.CreateDefault();
+                n6.XDeclaration Declaration_6 = n34._Operations_.CreateDefault();
+                n6.XDocumentType Document_Type_7 = n35._Operations_.CreateDefault();
                 var Result_8 = n24.XmlNodes.JoinXDocument(root: Input_1_In_5, declaration: Declaration_6, documentType: Document_Type_7);
                 return n2.Tuple.Create<n2.Object, n6.XDocument>(state_3, Result_8);
             }
@@ -2315,7 +2315,7 @@ namespace _VL_Xml_.System.XML
             Progress_Out = Progress_13;
             In_Progress_Out = In_Progress_14;
             On_Completed_Out = On_Completed_15;
-            n36.JSONWriter_Reactive_D9F91fz2SCnN1P2g3oMjAS that_17 = this;
+            n32.JSONWriter_Reactive_D9F91fz2SCnN1P2g3oMjAS that_17 = this;
             if (this.__GetContext__().IsImmutable)
                 that_17 = Output_10 != this.__p_VsBqv3yahnmM2gQtyhuLhR || Output_16 != this.__p_Geh2USfZeDmNyP4NhzE3J4 ? new JSONWriter_Reactive_D9F91fz2SCnN1P2g3oMjAS(this)
                 {__p_VsBqv3yahnmM2gQtyhuLhR = Output_10, __p_Geh2USfZeDmNyP4NhzE3J4 = Output_16} : that_17;
@@ -2328,24 +2328,24 @@ namespace _VL_Xml_.System.XML
             return that_17;
         }
 
-        public n36.JSONWriter_Reactive_D9F91fz2SCnN1P2g3oMjAS __Create__(n1.NodeContext Node_Context)
+        public n32.JSONWriter_Reactive_D9F91fz2SCnN1P2g3oMjAS __Create__(n1.NodeContext Node_Context)
         {
             n13.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "Geh2USfZeDmNyP4NhzE3J4", 217541U);
-            var Output_1 = n37.JSONWriter_XDocument_Reactive_IWXVEYl2Q9nMFA1Ol9XYnk.Create(Node_Context: Node_Context_0);
-            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "VsBqv3yahnmM2gQtyhuLhR", 217581U);
-            n43._Operations_.Create_H<n2.Object, n6.XElement, n6.XDocument>(Node_Context: Node_Context_2, Output_Out: out n21.ForEach<n2.Object, n6.XElement, n6.XDocument> Output_3);
-            n36.JSONWriter_Reactive_D9F91fz2SCnN1P2g3oMjAS that_4 = this;
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "Geh2USfZeDmNyP4NhzE3J4", 95526U);
+            var Output_1 = n33.JSONWriter_XDocument_Reactive_IWXVEYl2Q9nMFA1Ol9XYnk.Create(Node_Context: Node_Context_0);
+            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "VsBqv3yahnmM2gQtyhuLhR", 95550U);
+            n39._Operations_.Create_H<n2.Object, n6.XElement, n6.XDocument>(Node_Context: Node_Context_2, Output_Out: out n21.ForEach<n2.Object, n6.XElement, n6.XDocument> Output_3);
+            n32.JSONWriter_Reactive_D9F91fz2SCnN1P2g3oMjAS that_4 = this;
             this.__p_Geh2USfZeDmNyP4NhzE3J4 = Output_1;
             this.__p_VsBqv3yahnmM2gQtyhuLhR = Output_3;
             return that_4;
         }
 
-        public n36.JSONWriter_Reactive_D9F91fz2SCnN1P2g3oMjAS __CreateDefault__()
+        public n32.JSONWriter_Reactive_D9F91fz2SCnN1P2g3oMjAS __CreateDefault__()
         {
-            n36.JSONWriter_Reactive_D9F91fz2SCnN1P2g3oMjAS that_0 = this;
+            n32.JSONWriter_Reactive_D9F91fz2SCnN1P2g3oMjAS that_0 = this;
             this.__p_VsBqv3yahnmM2gQtyhuLhR = default(n21.ForEach<n2.Object, n6.XElement, n6.XDocument>);
-            this.__p_Geh2USfZeDmNyP4NhzE3J4 = n37.JSONWriter_XDocument_Reactive_IWXVEYl2Q9nMFA1Ol9XYnk.CreateDefault();
+            this.__p_Geh2USfZeDmNyP4NhzE3J4 = n33.JSONWriter_XDocument_Reactive_IWXVEYl2Q9nMFA1Ol9XYnk.CreateDefault();
             return that_0;
         }
 
@@ -2362,10 +2362,10 @@ namespace _VL_Xml_.System.XML
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 217581U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "VsBqv3yahnmM2gQtyhuLhR", Name = "ForEach", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 95550U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "VsBqv3yahnmM2gQtyhuLhR", Name = "ForEach", IsManaged = true, IsAutoGenerated = true)]
         public n21.ForEach<n2.Object, n6.XElement, n6.XDocument> __p_VsBqv3yahnmM2gQtyhuLhR;
-        [n1.ElementAttribute(TracingId = 217541U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "Geh2USfZeDmNyP4NhzE3J4", Name = "JSONWriter (XDocument Reactive)", IsManaged = true, IsAutoGenerated = true)]
-        public n37.JSONWriter_XDocument_Reactive_IWXVEYl2Q9nMFA1Ol9XYnk __p_Geh2USfZeDmNyP4NhzE3J4;
+        [n1.ElementAttribute(TracingId = 95526U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "Geh2USfZeDmNyP4NhzE3J4", Name = "JSONWriter (XDocument Reactive)", IsManaged = true, IsAutoGenerated = true)]
+        public n33.JSONWriter_XDocument_Reactive_IWXVEYl2Q9nMFA1Ol9XYnk __p_Geh2USfZeDmNyP4NhzE3J4;
         public JSONWriter_Reactive_D9F91fz2SCnN1P2g3oMjAS(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
         }
@@ -2381,9 +2381,9 @@ namespace _VL_Xml_.System.XML
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__p_VsBqv3yahnmM2gQtyhuLhR", in __p_VsBqv3yahnmM2gQtyhuLhR), n1.CompilationHelper.GetValueOrExisting(values, "__p_Geh2USfZeDmNyP4NhzE3J4", in __p_Geh2USfZeDmNyP4NhzE3J4));
         }
 
-        internal JSONWriter_Reactive_D9F91fz2SCnN1P2g3oMjAS __WITH__(n21.ForEach<n2.Object, n6.XElement, n6.XDocument> __p_VsBqv3yahnmM2gQtyhuLhR, n37.JSONWriter_XDocument_Reactive_IWXVEYl2Q9nMFA1Ol9XYnk __p_Geh2USfZeDmNyP4NhzE3J4)
+        internal JSONWriter_Reactive_D9F91fz2SCnN1P2g3oMjAS __WITH__(n21.ForEach<n2.Object, n6.XElement, n6.XDocument> __p_VsBqv3yahnmM2gQtyhuLhR, n33.JSONWriter_XDocument_Reactive_IWXVEYl2Q9nMFA1Ol9XYnk __p_Geh2USfZeDmNyP4NhzE3J4)
         {
-            n36.JSONWriter_Reactive_D9F91fz2SCnN1P2g3oMjAS that_0 = this;
+            n32.JSONWriter_Reactive_D9F91fz2SCnN1P2g3oMjAS that_0 = this;
             if (this.__GetContext__().IsImmutable)
                 that_0 = __p_VsBqv3yahnmM2gQtyhuLhR != this.__p_VsBqv3yahnmM2gQtyhuLhR || __p_Geh2USfZeDmNyP4NhzE3J4 != this.__p_Geh2USfZeDmNyP4NhzE3J4 ? new JSONWriter_Reactive_D9F91fz2SCnN1P2g3oMjAS(this)
                 {__p_VsBqv3yahnmM2gQtyhuLhR = __p_VsBqv3yahnmM2gQtyhuLhR, __p_Geh2USfZeDmNyP4NhzE3J4 = __p_Geh2USfZeDmNyP4NhzE3J4} : that_0;
@@ -2425,36 +2425,36 @@ namespace _VL_Xml_.System.XML
         }
     }
 
-    [n1.ElementAttribute(TracingId = 217750U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "V088hn1DYqjQIqSJLRhgqK", Name = "VL_XmlApplication_V088hn1DYqjQIqSJLRhgqK")]
+    [n1.ElementAttribute(TracingId = 95690U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "V088hn1DYqjQIqSJLRhgqK", Name = "VL_XmlApplication_V088hn1DYqjQIqSJLRhgqK")]
     [n2.SerializableAttribute]
     public class VL_XmlApplication_V088hn1DYqjQIqSJLRhgqK : n1.VLObject, n2.IDisposable
     {
         [n4.CreateNewAttribute]
-        public static n36.VL_XmlApplication_V088hn1DYqjQIqSJLRhgqK Create(n1.NodeContext Node_Context)
+        public static n32.VL_XmlApplication_V088hn1DYqjQIqSJLRhgqK Create(n1.NodeContext Node_Context)
         {
             var instance = new VL_XmlApplication_V088hn1DYqjQIqSJLRhgqK(Node_Context, n1.VLObject.NewIdentity());
             return instance.__Create__(Node_Context);
         }
 
         [n4.CreateDefaultAttribute]
-        public static n36.VL_XmlApplication_V088hn1DYqjQIqSJLRhgqK CreateDefault()
+        public static n32.VL_XmlApplication_V088hn1DYqjQIqSJLRhgqK CreateDefault()
         {
             var instance = new VL_XmlApplication_V088hn1DYqjQIqSJLRhgqK(n1.NodeContext.Default, n1.VLObject.NewIdentity());
             return instance.__CreateDefault__();
         }
 
-        public n36.VL_XmlApplication_V088hn1DYqjQIqSJLRhgqK Update()
+        public n32.VL_XmlApplication_V088hn1DYqjQIqSJLRhgqK Update()
         {
             return this;
         }
 
-        public n36.VL_XmlApplication_V088hn1DYqjQIqSJLRhgqK __Create__(n1.NodeContext Node_Context)
+        public n32.VL_XmlApplication_V088hn1DYqjQIqSJLRhgqK __Create__(n1.NodeContext Node_Context)
         {
             n13.RuntimeHelpers.EnsureSufficientExecutionStack();
             return this;
         }
 
-        public n36.VL_XmlApplication_V088hn1DYqjQIqSJLRhgqK __CreateDefault__()
+        public n32.VL_XmlApplication_V088hn1DYqjQIqSJLRhgqK __CreateDefault__()
         {
             return this;
         }
@@ -2489,7 +2489,7 @@ namespace _VL_Xml_.System.XML
         }
     }
 
-    [n1.ElementAttribute(TracingId = 209714U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 65798U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", Name = "_Operations_")]
     public static partial class _Operations_
     {
         public static void IsValid(n6.XNode Input_In, n11.Path Validation_File_In, out bool Is_Valid_Out, out string Error_Message_Out)
@@ -2617,9 +2617,9 @@ namespace _VL_Xml_.System.XML
             return;
         }
 
-        public static void XElement_Split(n6.XElement Input_In, out string Name_Out, out string Value_Out, out n30.Spread<n6.XElement> Children_Out, out n30.Spread<n6.XAttribute> Attributes_Out)
+        public static void XElement_Split(n6.XElement Input_In, out string Name_Out, out string Value_Out, out n40.Spread<n6.XElement> Children_Out, out n40.Spread<n6.XAttribute> Attributes_Out)
         {
-            n24.XmlNodes.SplitXElement(input: Input_In, name: out string Name_0, value: out string Value_1, children: out n30.Spread<n6.XElement> Children_2, attributes: out n30.Spread<n6.XAttribute> Attributes_3);
+            n24.XmlNodes.SplitXElement(input: Input_In, name: out string Name_0, value: out string Value_1, children: out n40.Spread<n6.XElement> Children_2, attributes: out n40.Spread<n6.XAttribute> Attributes_3);
             Name_Out = Name_0;
             Value_Out = Value_1;
             Children_Out = Children_2;
@@ -2627,7 +2627,7 @@ namespace _VL_Xml_.System.XML
             return;
         }
 
-        public static void XElementsByName(n6.XElement Input_In, [n4.SerializedDefaultValueAttribute("Name", false)] string Name_In, [n4.SerializedDefaultValueAttribute("False", false)] bool All_Descendants_In, out n30.Spread<n6.XElement> Result_Out)
+        public static void XElementsByName(n6.XElement Input_In, [n4.SerializedDefaultValueAttribute("Name", false)] string Name_In, [n4.SerializedDefaultValueAttribute("False", false)] bool All_Descendants_In, out n40.Spread<n6.XElement> Result_Out)
         {
             var Result_0 = n24.XmlNodes.XElementsByName(input: Input_In, name: Name_In, allDescendants: All_Descendants_In);
             Result_Out = Result_0;
@@ -2636,7 +2636,7 @@ namespace _VL_Xml_.System.XML
 
         public static void XPathSelectElement(n6.XNode Input_In, string Expression_In, out n6.XElement Result_Out)
         {
-            var Result_0 = n44.Extensions.XPathSelectElement(node: Input_In, expression: Expression_In);
+            var Result_0 = n41.Extensions.XPathSelectElement(node: Input_In, expression: Expression_In);
             Result_Out = Result_0;
             return;
         }
@@ -2648,12 +2648,12 @@ namespace _VL_Xml_.System.XML
             n14.IEnumerable<n6.XElement> __auto_2;
             if (Output_1)
             {
-                var Result_3 = n44.Extensions.XPathSelectElements(node: Input_In, expression: Expression_In);
+                var Result_3 = n41.Extensions.XPathSelectElements(node: Input_In, expression: Expression_In);
                 __auto_2 = Result_3;
             }
             else
             {
-                __auto_2 = n45._Operations_.CreateDefault<n6.XElement>();
+                __auto_2 = n42._Operations_.CreateDefault<n6.XElement>();
             }
 
             Result_Out = __auto_2;
@@ -2668,29 +2668,29 @@ namespace _VL_Xml_.System.XML
         }
 
         public static void XPathGetValue<T2, T, AdM>(T2 Input_In, string Path_In, out T Value_Out, out bool Success_Out)
-            where T2 : n6.XNode where AdM : struct, n31.IAdaptiveTryParse<T>, n32.IAdaptiveCreateDefault<T>
+            where T2 : n6.XNode where AdM : struct, n43.IAdaptiveCreateDefault<T>, n44.IAdaptiveTryParse<T>
         {
             var w_0 = default(AdM);
-            var Result_1 = n44.Extensions.XPathSelectElement(node: Input_In, expression: Path_In);
+            var Result_1 = n41.Extensions.XPathSelectElement(node: Input_In, expression: Path_In);
             n7._Operations_.GetValue<T, AdM>(Input_In: Result_1, Value_Out: out T Value_2, Success_Out: out bool Success_3);
             Value_Out = Value_2;
             Success_Out = Success_3;
             return;
         }
 
-        public static void XPathGetValues<T2, T, AdM>(T2 Input_In, string Path_In, out n30.Spread<T> Values_Out, out n30.Spread<bool> Success_Out)
-            where T2 : n6.XNode where AdM : struct, n31.IAdaptiveTryParse<T>
+        public static void XPathGetValues<T2, T, AdM>(T2 Input_In, string Path_In, out n40.Spread<T> Values_Out, out n40.Spread<bool> Success_Out)
+            where T2 : n6.XNode where AdM : struct, n44.IAdaptiveTryParse<T>
         {
             var w_0 = default(AdM);
-            n36._Operations_.XPathSelectElements(Input_In: Input_In, Expression_In: Path_In, Result_Out: out n14.IEnumerable<n6.XElement> Result_1);
-            n7._Operations_.GetValues<n14.IEnumerable<n6.XElement>, T, AdM>(Input_In: Result_1, Values_Out: out n30.Spread<T> Values_2, Success_Out: out n30.Spread<bool> Success_3);
+            n32._Operations_.XPathSelectElements(Input_In: Input_In, Expression_In: Path_In, Result_Out: out n14.IEnumerable<n6.XElement> Result_1);
+            n7._Operations_.GetValues<n14.IEnumerable<n6.XElement>, T, AdM>(Input_In: Result_1, Values_Out: out n40.Spread<T> Values_2, Success_Out: out n40.Spread<bool> Success_3);
             Values_Out = Values_2;
             Success_Out = Success_3;
             return;
         }
 
-        public static void XPathGetAttributeValues<T2, T, AdM>(T2 Input_In, string Expression_In, out n30.Spread<T> Values_Out, out n30.Spread<bool> Success_Out)
-            where T2 : n6.XNode where AdM : struct, n31.IAdaptiveTryParse<T>
+        public static void XPathGetAttributeValues<T2, T, AdM>(T2 Input_In, string Expression_In, out n40.Spread<T> Values_Out, out n40.Spread<bool> Success_Out)
+            where T2 : n6.XNode where AdM : struct, n44.IAdaptiveTryParse<T>
         {
             var w_0 = default(AdM);
             var Result_1 = string.IsNullOrWhiteSpace(value: Expression_In);
@@ -2698,28 +2698,28 @@ namespace _VL_Xml_.System.XML
             n2.Object __auto_3;
             if (Output_2)
             {
-                var Result_4 = n44.Extensions.XPathEvaluate(node: Input_In, expression: Expression_In);
+                var Result_4 = n41.Extensions.XPathEvaluate(node: Input_In, expression: Expression_In);
                 __auto_3 = Result_4;
             }
             else
             {
-                __auto_3 = n46._Operations_.CreateDefault();
+                __auto_3 = n45._Operations_.CreateDefault();
             }
 
-            n29.ObjectHelpers.IsAssigned(x: __auto_3, result: out bool Result_5, notAssigned: out bool Not_Assigned_6);
+            n46.ObjectHelpers.IsAssigned(x: __auto_3, result: out bool Result_5, notAssigned: out bool Not_Assigned_6);
             var Empty_7 = n47._Operations_.CreateDefault<T>();
-            n30.Spread<T> __auto_8;
-            n30.Spread<bool> __auto_9;
+            n40.Spread<T> __auto_8;
+            n40.Spread<bool> __auto_9;
             if (Result_5)
             {
-                n30.Spread<T> __cp_CYHzX6414bHOA3w5gb7aAM = n47._Operations_.CreateDefault<T>();
-                n30.Spread<bool> __cp_Gk4AekUhDxkM8jaMN94KCC = n47._Operations_.CreateDefault<bool>();
+                n40.Spread<T> __cp_CYHzX6414bHOA3w5gb7aAM = n47._Operations_.CreateDefault<T>();
+                n40.Spread<bool> __cp_Gk4AekUhDxkM8jaMN94KCC = n47._Operations_.CreateDefault<bool>();
                 n14.IEnumerable<n2.Object> __pad_BHDxDuwsvvLQX5pNEH7YF8_10 = __slot_BHDxDuwsvvLQX5pNEH7YF8;
-                n46._Operations_.CastAs<n14.IEnumerable<n2.Object>>(Input_In: __auto_3, Default_In: __pad_BHDxDuwsvvLQX5pNEH7YF8_10, Result_Out: out n14.IEnumerable<n2.Object> Result_11, Success_Out: out bool Success_12);
+                n45._Operations_.CastAs<n14.IEnumerable<n2.Object>>(Input_In: __auto_3, Default_In: __pad_BHDxDuwsvvLQX5pNEH7YF8_10, Result_Out: out n14.IEnumerable<n2.Object> Result_11, Success_Out: out bool Success_12);
                 var builder_24 = n4.CollectionBuilders.GetBuilder(__cp_CYHzX6414bHOA3w5gb7aAM, 16);
-                n30.Spread<T> output_25;
+                n40.Spread<T> output_25;
                 var builder_26 = n4.CollectionBuilders.GetBuilder(__cp_Gk4AekUhDxkM8jaMN94KCC, 16);
-                n30.Spread<bool> output_27;
+                n40.Spread<bool> output_27;
                 try
                 {
                     var i_15 = 0;
@@ -2728,7 +2728,7 @@ namespace _VL_Xml_.System.XML
                         var splicer_14 = item_13;
                         var i_local_16 = i_15;
                         n6.XAttribute Default_17 = n48._Operations_.CreateDefault();
-                        n46._Operations_.CastAs<n6.XAttribute>(Input_In: splicer_14, Default_In: Default_17, Result_Out: out n6.XAttribute Result_18, Success_Out: out bool Success_19);
+                        n45._Operations_.CastAs<n6.XAttribute>(Input_In: splicer_14, Default_In: Default_17, Result_Out: out n6.XAttribute Result_18, Success_Out: out bool Success_19);
                         n24.XmlNodes.SplitXAttribute(input: Result_18, name: out string Name_20, value: out string Value_21);
                         w_0.TryParse(String_In: Value_21, Value_Out: out T Value_22, Success_Out: out bool Success_23);
                         builder_24.Add(Value_22);
@@ -2757,7 +2757,7 @@ namespace _VL_Xml_.System.XML
         }
 
         public static void XPathGetAttributeValue<T2, T, AdM>(T2 Input_In, string Expression_In, out T Value_Out, out bool Success_Out)
-            where T2 : n6.XNode where AdM : struct, n31.IAdaptiveTryParse<T>, n32.IAdaptiveCreateDefault<T>
+            where T2 : n6.XNode where AdM : struct, n43.IAdaptiveCreateDefault<T>, n44.IAdaptiveTryParse<T>
         {
             var w_0 = default(AdM);
             var Result_1 = string.IsNullOrWhiteSpace(value: Expression_In);
@@ -2765,26 +2765,26 @@ namespace _VL_Xml_.System.XML
             n2.Object __auto_3;
             if (Output_2)
             {
-                var Result_4 = n44.Extensions.XPathEvaluate(node: Input_In, expression: Expression_In);
+                var Result_4 = n41.Extensions.XPathEvaluate(node: Input_In, expression: Expression_In);
                 __auto_3 = Result_4;
             }
             else
             {
-                __auto_3 = n46._Operations_.CreateDefault();
+                __auto_3 = n45._Operations_.CreateDefault();
             }
 
-            n29.ObjectHelpers.IsAssigned(x: __auto_3, result: out bool Result_5, notAssigned: out bool Not_Assigned_6);
+            n46.ObjectHelpers.IsAssigned(x: __auto_3, result: out bool Result_5, notAssigned: out bool Not_Assigned_6);
             w_0.CreateDefault(Output_Out: out T Output_7);
             T __auto_8;
             bool __auto_9;
             if (Result_5)
             {
                 n14.IEnumerable<n2.Object> __pad_K00pbhLlE38M0c40d9BsYH_10 = __slot_K00pbhLlE38M0c40d9BsYH;
-                n46._Operations_.CastAs<n14.IEnumerable<n2.Object>>(Input_In: __auto_3, Default_In: __pad_K00pbhLlE38M0c40d9BsYH_10, Result_Out: out n14.IEnumerable<n2.Object> Result_11, Success_Out: out bool Success_12);
-                n2.Object Default_Value_13 = n46._Operations_.CreateDefault();
-                n45._Operations_.FirstOrDefault<n14.IEnumerable<n2.Object>, n2.Object>(Input_In: Result_11, Default_Value_In: Default_Value_13, Output_Out: out n14.IEnumerable<n2.Object> Output_14, Result_Out: out n2.Object Result_15);
+                n45._Operations_.CastAs<n14.IEnumerable<n2.Object>>(Input_In: __auto_3, Default_In: __pad_K00pbhLlE38M0c40d9BsYH_10, Result_Out: out n14.IEnumerable<n2.Object> Result_11, Success_Out: out bool Success_12);
+                n2.Object Default_Value_13 = n45._Operations_.CreateDefault();
+                n42._Operations_.FirstOrDefault<n14.IEnumerable<n2.Object>, n2.Object>(Input_In: Result_11, Default_Value_In: Default_Value_13, Output_Out: out n14.IEnumerable<n2.Object> Output_14, Result_Out: out n2.Object Result_15);
                 n6.XAttribute Default_16 = n48._Operations_.CreateDefault();
-                n46._Operations_.CastAs<n6.XAttribute>(Input_In: Result_15, Default_In: Default_16, Result_Out: out n6.XAttribute Result_17, Success_Out: out bool Success_18);
+                n45._Operations_.CastAs<n6.XAttribute>(Input_In: Result_15, Default_In: Default_16, Result_Out: out n6.XAttribute Result_17, Success_Out: out bool Success_18);
                 n24.XmlNodes.SplitXAttribute(input: Result_17, name: out string Name_19, value: out string Value_20);
                 w_0.TryParse(String_In: Value_20, Value_Out: out T Value_21, Success_Out: out bool Success_22);
                 __auto_8 = Value_21;
@@ -2801,10 +2801,10 @@ namespace _VL_Xml_.System.XML
             return;
         }
 
-        [n1.ElementAttribute(TracingId = 213948U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "BHDxDuwsvvLQX5pNEH7YF8", Name = "__slot_BHDxDuwsvvLQX5pNEH7YF8")]
-        public static n14.IEnumerable<n2.Object> __slot_BHDxDuwsvvLQX5pNEH7YF8 = n45._Operations_.CreateDefault<n2.Object>();
-        [n1.ElementAttribute(TracingId = 214247U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "K00pbhLlE38M0c40d9BsYH", Name = "__slot_K00pbhLlE38M0c40d9BsYH")]
-        public static n14.IEnumerable<n2.Object> __slot_K00pbhLlE38M0c40d9BsYH = n45._Operations_.CreateDefault<n2.Object>();
+        [n1.ElementAttribute(TracingId = 85029U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "BHDxDuwsvvLQX5pNEH7YF8", Name = "__slot_BHDxDuwsvvLQX5pNEH7YF8")]
+        public static n14.IEnumerable<n2.Object> __slot_BHDxDuwsvvLQX5pNEH7YF8 = n42._Operations_.CreateDefault<n2.Object>();
+        [n1.ElementAttribute(TracingId = 89826U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "K00pbhLlE38M0c40d9BsYH", Name = "__slot_K00pbhLlE38M0c40d9BsYH")]
+        public static n14.IEnumerable<n2.Object> __slot_K00pbhLlE38M0c40d9BsYH = n42._Operations_.CreateDefault<n2.Object>();
         static _Operations_()
         {
         }
@@ -2813,7 +2813,7 @@ namespace _VL_Xml_.System.XML
 
 namespace _VL_Xml_.System.XML.XAttribute
 {
-    [n1.ElementAttribute(TracingId = 209714U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 65798U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
@@ -2821,7 +2821,7 @@ namespace _VL_Xml_.System.XML.XAttribute
         {
             string __pad_IoEuxZNbTklP1RM1HkqCi7_0 = __slot_IoEuxZNbTklP1RM1HkqCi7;
             var Result_1 = (n6.XName)__pad_IoEuxZNbTklP1RM1HkqCi7_0;
-            n2.Object Value_2 = n46._Operations_.CreateDefault();
+            n2.Object Value_2 = n45._Operations_.CreateDefault();
             var Output_3 = new n6.XAttribute(name: Result_1, value: Value_2);
             return Output_3;
         }
@@ -2849,7 +2849,7 @@ namespace _VL_Xml_.System.XML.XAttribute
             return;
         }
 
-        [n1.ElementAttribute(TracingId = 211545U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "IoEuxZNbTklP1RM1HkqCi7", Name = "__slot_IoEuxZNbTklP1RM1HkqCi7")]
+        [n1.ElementAttribute(TracingId = 74081U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "IoEuxZNbTklP1RM1HkqCi7", Name = "__slot_IoEuxZNbTklP1RM1HkqCi7")]
         public static string __slot_IoEuxZNbTklP1RM1HkqCi7 = "Default";
         static _Operations_()
         {
@@ -2859,7 +2859,7 @@ namespace _VL_Xml_.System.XML.XAttribute
 
 namespace _VL_Xml_.System.XML.XDeclaration
 {
-    [n1.ElementAttribute(TracingId = 209714U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 65798U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
@@ -2880,11 +2880,11 @@ namespace _VL_Xml_.System.XML.XDeclaration
             return;
         }
 
-        [n1.ElementAttribute(TracingId = 211739U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "CKIwMSFdbPRN04Cgv2HBuP", Name = "__slot_CKIwMSFdbPRN04Cgv2HBuP")]
+        [n1.ElementAttribute(TracingId = 74281U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "CKIwMSFdbPRN04Cgv2HBuP", Name = "__slot_CKIwMSFdbPRN04Cgv2HBuP")]
         public static string __slot_CKIwMSFdbPRN04Cgv2HBuP = "1.0";
-        [n1.ElementAttribute(TracingId = 211727U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "PGI7wnS9LJQMDynKfYKJMx", Name = "__slot_PGI7wnS9LJQMDynKfYKJMx")]
+        [n1.ElementAttribute(TracingId = 74264U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "PGI7wnS9LJQMDynKfYKJMx", Name = "__slot_PGI7wnS9LJQMDynKfYKJMx")]
         public static string __slot_PGI7wnS9LJQMDynKfYKJMx = "UTF-8";
-        [n1.ElementAttribute(TracingId = 211734U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "UyZjMfVLXiSLjct0T6uWbF", Name = "__slot_UyZjMfVLXiSLjct0T6uWbF")]
+        [n1.ElementAttribute(TracingId = 74274U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "UyZjMfVLXiSLjct0T6uWbF", Name = "__slot_UyZjMfVLXiSLjct0T6uWbF")]
         public static string __slot_UyZjMfVLXiSLjct0T6uWbF = "yes";
         static _Operations_()
         {
@@ -2894,7 +2894,7 @@ namespace _VL_Xml_.System.XML.XDeclaration
 
 namespace _VL_Xml_.System.XML.XDocument
 {
-    [n1.ElementAttribute(TracingId = 209714U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 65798U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", Name = "_Operations_")]
     public static partial class _Operations_
     {
         public static void Clone_Deep(n6.XDocument Input_In, out n6.XDocument Original_Out, out n6.XDocument Clone_Out)
@@ -2922,7 +2922,7 @@ namespace _VL_Xml_.System.XML.XDocument
             return;
         }
 
-        [n1.ElementAttribute(TracingId = 211852U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "OMZJjIOTSKFP1xKcI8AJ1n", Name = "__slot_OMZJjIOTSKFP1xKcI8AJ1n")]
+        [n1.ElementAttribute(TracingId = 74432U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "OMZJjIOTSKFP1xKcI8AJ1n", Name = "__slot_OMZJjIOTSKFP1xKcI8AJ1n")]
         public static n6.XElement __slot_OMZJjIOTSKFP1xKcI8AJ1n = n7._Operations_.CreateDefault();
         static _Operations_()
         {
@@ -2932,7 +2932,7 @@ namespace _VL_Xml_.System.XML.XDocument
 
 namespace _VL_Xml_.System.XML.XDocumentType
 {
-    [n1.ElementAttribute(TracingId = 209714U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 65798U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
@@ -2946,7 +2946,7 @@ namespace _VL_Xml_.System.XML.XDocumentType
             return Output_4;
         }
 
-        [n1.ElementAttribute(TracingId = 211943U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "DiK9HxF5tcgMn5p1wvB2SB", Name = "__slot_DiK9HxF5tcgMn5p1wvB2SB")]
+        [n1.ElementAttribute(TracingId = 74537U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "DiK9HxF5tcgMn5p1wvB2SB", Name = "__slot_DiK9HxF5tcgMn5p1wvB2SB")]
         public static string __slot_DiK9HxF5tcgMn5p1wvB2SB = "ROOT";
         static _Operations_()
         {
@@ -2956,7 +2956,7 @@ namespace _VL_Xml_.System.XML.XDocumentType
 
 namespace _VL_Xml_.System.XML.XElement
 {
-    [n1.ElementAttribute(TracingId = 209714U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 65798U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
@@ -3009,16 +3009,16 @@ namespace _VL_Xml_.System.XML.XElement
         }
 
         public static void GetValue<T, AdM>(n6.XElement Input_In, out T Value_Out, out bool Success_Out)
-            where AdM : struct, n31.IAdaptiveTryParse<T>, n32.IAdaptiveCreateDefault<T>
+            where AdM : struct, n43.IAdaptiveCreateDefault<T>, n44.IAdaptiveTryParse<T>
         {
             var w_0 = default(AdM);
-            n29.ObjectHelpers.IsAssigned(x: Input_In, result: out bool Result_1, notAssigned: out bool Not_Assigned_2);
+            n46.ObjectHelpers.IsAssigned(x: Input_In, result: out bool Result_1, notAssigned: out bool Not_Assigned_2);
             w_0.CreateDefault(Output_Out: out T Output_3);
             T __auto_4;
             bool __auto_5;
             if (Result_1)
             {
-                n24.XmlNodes.SplitXElement(input: Input_In, name: out string Name_6, value: out string Value_7, children: out n30.Spread<n6.XElement> Children_8, attributes: out n30.Spread<n6.XAttribute> Attributes_9);
+                n24.XmlNodes.SplitXElement(input: Input_In, name: out string Name_6, value: out string Value_7, children: out n40.Spread<n6.XElement> Children_8, attributes: out n40.Spread<n6.XAttribute> Attributes_9);
                 w_0.TryParse(String_In: Value_7, Value_Out: out T Value_10, Success_Out: out bool Success_11);
                 __auto_4 = Value_10;
                 __auto_5 = Success_11;
@@ -3034,16 +3034,16 @@ namespace _VL_Xml_.System.XML.XElement
             return;
         }
 
-        public static void GetValues<T2, T, AdM>(T2 Input_In, out n30.Spread<T> Values_Out, out n30.Spread<bool> Success_Out)
-            where T2 : n14.IEnumerable<n6.XElement> where AdM : struct, n31.IAdaptiveTryParse<T>
+        public static void GetValues<T2, T, AdM>(T2 Input_In, out n40.Spread<T> Values_Out, out n40.Spread<bool> Success_Out)
+            where T2 : n14.IEnumerable<n6.XElement> where AdM : struct, n44.IAdaptiveTryParse<T>
         {
-            n30.Spread<T> __cp_K893iaFaDlHM0BNgsouF7w = n47._Operations_.CreateDefault<T>();
-            n30.Spread<bool> __cp_J2lS8zjfksyNuyrRtvPBG6 = n47._Operations_.CreateDefault<bool>();
+            n40.Spread<T> __cp_K893iaFaDlHM0BNgsouF7w = n47._Operations_.CreateDefault<T>();
+            n40.Spread<bool> __cp_J2lS8zjfksyNuyrRtvPBG6 = n47._Operations_.CreateDefault<bool>();
             var w_0 = default(AdM);
             var builder_11 = n4.CollectionBuilders.GetBuilder(__cp_K893iaFaDlHM0BNgsouF7w, 16);
-            n30.Spread<T> output_12;
+            n40.Spread<T> output_12;
             var builder_13 = n4.CollectionBuilders.GetBuilder(__cp_J2lS8zjfksyNuyrRtvPBG6, 16);
-            n30.Spread<bool> output_14;
+            n40.Spread<bool> output_14;
             try
             {
                 var i_3 = 0;
@@ -3051,7 +3051,7 @@ namespace _VL_Xml_.System.XML.XElement
                 {
                     var splicer_2 = item_1;
                     var i_local_4 = i_3;
-                    n24.XmlNodes.SplitXElement(input: splicer_2, name: out string Name_5, value: out string Value_6, children: out n30.Spread<n6.XElement> Children_7, attributes: out n30.Spread<n6.XAttribute> Attributes_8);
+                    n24.XmlNodes.SplitXElement(input: splicer_2, name: out string Name_5, value: out string Value_6, children: out n40.Spread<n6.XElement> Children_7, attributes: out n40.Spread<n6.XAttribute> Attributes_8);
                     w_0.TryParse(String_In: Value_6, Value_Out: out T Value_9, Success_Out: out bool Success_10);
                     builder_11.Add(Value_9);
                     builder_13.Add(Success_10);
@@ -3070,7 +3070,7 @@ namespace _VL_Xml_.System.XML.XElement
         }
 
         public static void GetAttributeValue<T, AdM>(n6.XElement Input_In, [n4.SerializedDefaultValueAttribute("Name", false)] string Name_In, out T Value_Out, out bool Success_Out)
-            where AdM : struct, n31.IAdaptiveTryParse<T>, n32.IAdaptiveCreateDefault<T>
+            where AdM : struct, n43.IAdaptiveCreateDefault<T>, n44.IAdaptiveTryParse<T>
         {
             var w_0 = default(AdM);
             var Result_1 = string.IsNullOrWhiteSpace(value: Name_In);
@@ -3095,23 +3095,23 @@ namespace _VL_Xml_.System.XML.XElement
             return;
         }
 
-        public static void GetAttributeValues<T2, T, AdM>(T2 Input_In, [n4.SerializedDefaultValueAttribute("Name", false)] string Name_In, out n30.Spread<T> Values_Out, out n30.Spread<bool> Success_Out)
-            where T2 : n14.IEnumerable<n6.XElement> where AdM : struct, n31.IAdaptiveTryParse<T>, n32.IAdaptiveCreateDefault<T>
+        public static void GetAttributeValues<T2, T, AdM>(T2 Input_In, [n4.SerializedDefaultValueAttribute("Name", false)] string Name_In, out n40.Spread<T> Values_Out, out n40.Spread<bool> Success_Out)
+            where T2 : n14.IEnumerable<n6.XElement> where AdM : struct, n43.IAdaptiveCreateDefault<T>, n44.IAdaptiveTryParse<T>
         {
             var w_0 = default(AdM);
             var Result_1 = string.IsNullOrWhiteSpace(value: Name_In);
             var Output_2 = !Result_1;
             var Empty_3 = n47._Operations_.CreateDefault<T>();
-            n30.Spread<T> __auto_4;
-            n30.Spread<bool> __auto_5;
+            n40.Spread<T> __auto_4;
+            n40.Spread<bool> __auto_5;
             if (Output_2)
             {
-                n30.Spread<T> __cp_HdOJWVnOAL3O9nQIh2LmW4 = n47._Operations_.CreateDefault<T>();
-                n30.Spread<bool> __cp_G1NoSvv4zPRL7CMvDDjNCT = n47._Operations_.CreateDefault<bool>();
+                n40.Spread<T> __cp_HdOJWVnOAL3O9nQIh2LmW4 = n47._Operations_.CreateDefault<T>();
+                n40.Spread<bool> __cp_G1NoSvv4zPRL7CMvDDjNCT = n47._Operations_.CreateDefault<bool>();
                 var builder_12 = n4.CollectionBuilders.GetBuilder(__cp_HdOJWVnOAL3O9nQIh2LmW4, 16);
-                n30.Spread<T> output_13;
+                n40.Spread<T> output_13;
                 var builder_14 = n4.CollectionBuilders.GetBuilder(__cp_G1NoSvv4zPRL7CMvDDjNCT, 16);
-                n30.Spread<bool> output_15;
+                n40.Spread<bool> output_15;
                 try
                 {
                     var i_8 = 0;
@@ -3146,17 +3146,17 @@ namespace _VL_Xml_.System.XML.XElement
         }
 
         public static void GetAttributeHelper<T, AdM>(n6.XElement Input_In, [n4.SerializedDefaultValueAttribute("Name", false)] string Name_In, out T Value_Out, out bool Success_Out)
-            where AdM : struct, n31.IAdaptiveTryParse<T>, n32.IAdaptiveCreateDefault<T>
+            where AdM : struct, n43.IAdaptiveCreateDefault<T>, n44.IAdaptiveTryParse<T>
         {
             var w_0 = default(AdM);
-            n29.ObjectHelpers.IsAssigned(x: Input_In, result: out bool Result_1, notAssigned: out bool Not_Assigned_2);
+            n46.ObjectHelpers.IsAssigned(x: Input_In, result: out bool Result_1, notAssigned: out bool Not_Assigned_2);
             w_0.CreateDefault(Output_Out: out T Output_3);
             T __auto_4;
             bool __auto_5;
             if (Result_1)
             {
                 var Result_6 = n24.XmlNodes.XAttributeByName(input: Input_In, name: Name_In);
-                n29.ObjectHelpers.IsAssigned(x: Result_6, result: out bool Result_7, notAssigned: out bool Not_Assigned_8);
+                n46.ObjectHelpers.IsAssigned(x: Result_6, result: out bool Result_7, notAssigned: out bool Not_Assigned_8);
                 w_0.CreateDefault(Output_Out: out T Output_9);
                 T __auto_10;
                 bool __auto_11;
@@ -3187,7 +3187,7 @@ namespace _VL_Xml_.System.XML.XElement
             return;
         }
 
-        [n1.ElementAttribute(TracingId = 211986U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "TkUy26SXJazM4nS5BSJsI2", Name = "__slot_TkUy26SXJazM4nS5BSJsI2")]
+        [n1.ElementAttribute(TracingId = 74600U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "TkUy26SXJazM4nS5BSJsI2", Name = "__slot_TkUy26SXJazM4nS5BSJsI2")]
         public static string __slot_TkUy26SXJazM4nS5BSJsI2 = "Default";
         static _Operations_()
         {
@@ -3197,7 +3197,7 @@ namespace _VL_Xml_.System.XML.XElement
 
 namespace _VL_Xml_.System.XML.XNode
 {
-    [n1.ElementAttribute(TracingId = 209714U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 65798U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
@@ -3209,7 +3209,7 @@ namespace _VL_Xml_.System.XML.XNode
             return Output_2;
         }
 
-        [n1.ElementAttribute(TracingId = 212672U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "DSBhiW5PFw4LdZurAzvCrw", Name = "__slot_DSBhiW5PFw4LdZurAzvCrw")]
+        [n1.ElementAttribute(TracingId = 80550U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "DSBhiW5PFw4LdZurAzvCrw", Name = "__slot_DSBhiW5PFw4LdZurAzvCrw")]
         public static string __slot_DSBhiW5PFw4LdZurAzvCrw = "Default";
         static _Operations_()
         {
@@ -3219,25 +3219,25 @@ namespace _VL_Xml_.System.XML.XNode
 
 namespace _VL_Xml_.System.XML.Advanced
 {
-    [n1.ElementAttribute(TracingId = 215329U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "OPrbd3hV1yTQAohaXbZTAZ", Name = "XMLReader_XDocument_OPrbd3hV1yTQAohaXbZTAZ")]
+    [n1.ElementAttribute(TracingId = 90540U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "OPrbd3hV1yTQAohaXbZTAZ", Name = "XMLReader_XDocument_OPrbd3hV1yTQAohaXbZTAZ")]
     [n2.SerializableAttribute]
     public class XMLReader_XDocument_OPrbd3hV1yTQAohaXbZTAZ : n1.VLObject, n2.IDisposable
     {
         [n4.CreateNewAttribute]
-        public static n37.XMLReader_XDocument_OPrbd3hV1yTQAohaXbZTAZ Create(n1.NodeContext Node_Context)
+        public static n33.XMLReader_XDocument_OPrbd3hV1yTQAohaXbZTAZ Create(n1.NodeContext Node_Context)
         {
             var instance = new XMLReader_XDocument_OPrbd3hV1yTQAohaXbZTAZ(Node_Context, n1.VLObject.NewIdentity());
             return instance.__Create__(Node_Context);
         }
 
         [n4.CreateDefaultAttribute]
-        public static n37.XMLReader_XDocument_OPrbd3hV1yTQAohaXbZTAZ CreateDefault()
+        public static n33.XMLReader_XDocument_OPrbd3hV1yTQAohaXbZTAZ CreateDefault()
         {
             var instance = new XMLReader_XDocument_OPrbd3hV1yTQAohaXbZTAZ(n1.NodeContext.Default, n1.VLObject.NewIdentity());
             return instance.__CreateDefault__();
         }
 
-        public n37.XMLReader_XDocument_OPrbd3hV1yTQAohaXbZTAZ Update(n11.Path File_Path_In, bool Read_In, out n6.XDocument Output_Out)
+        public n33.XMLReader_XDocument_OPrbd3hV1yTQAohaXbZTAZ Update(n11.Path File_Path_In, bool Read_In, out n6.XDocument Output_Out)
         {
             n19.FileMode File_Mode_0 = __c_SE4KPXcccAYLMl0ZawNGv9;
             n19.FileAccess File_Access_1 = __c_HOgvAidYbnSMdA7BCULtKQ;
@@ -3247,7 +3247,7 @@ namespace _VL_Xml_.System.XML.Advanced
             n23.XDocumentReader Input__this__5 = this.__p_S8GpRP5DLX2MNGU0ooFGRI;
             var Result_6 = Input__this__5.Update(input: Result_4, read: Read_In);
             Output_Out = Result_6;
-            n37.XMLReader_XDocument_OPrbd3hV1yTQAohaXbZTAZ that_7 = this;
+            n33.XMLReader_XDocument_OPrbd3hV1yTQAohaXbZTAZ that_7 = this;
             if (this.__GetContext__().IsImmutable)
                 that_7 = Input_3 != this.__p_FbyomPcKlTEOEL2pGZgNkz || Input__this__5 != this.__p_S8GpRP5DLX2MNGU0ooFGRI ? new XMLReader_XDocument_OPrbd3hV1yTQAohaXbZTAZ(this)
                 {__p_FbyomPcKlTEOEL2pGZgNkz = Input_3, __p_S8GpRP5DLX2MNGU0ooFGRI = Input__this__5} : that_7;
@@ -3260,23 +3260,23 @@ namespace _VL_Xml_.System.XML.Advanced
             return that_7;
         }
 
-        public n37.XMLReader_XDocument_OPrbd3hV1yTQAohaXbZTAZ __Create__(n1.NodeContext Node_Context)
+        public n33.XMLReader_XDocument_OPrbd3hV1yTQAohaXbZTAZ __Create__(n1.NodeContext Node_Context)
         {
             n13.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "S8GpRP5DLX2MNGU0ooFGRI", 215339U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "S8GpRP5DLX2MNGU0ooFGRI", 90547U);
             n49._Operations_.Create(Node_Context_In: Node_Context_0, Output_Out: out n23.XDocumentReader Output_1);
-            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "FbyomPcKlTEOEL2pGZgNkz", 215351U);
+            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "FbyomPcKlTEOEL2pGZgNkz", 90560U);
             n27.IFrameClock Clock_3 = n26._Operations_.CreateDefault();
             n28._Operations_.Create_H(Node_Context: Node_Context_2, Clock_In: Clock_3, Output_Out: out n22.ObsoleteFileNoSharing Output_4);
-            n37.XMLReader_XDocument_OPrbd3hV1yTQAohaXbZTAZ that_5 = this;
+            n33.XMLReader_XDocument_OPrbd3hV1yTQAohaXbZTAZ that_5 = this;
             this.__p_S8GpRP5DLX2MNGU0ooFGRI = Output_1;
             this.__p_FbyomPcKlTEOEL2pGZgNkz = Output_4;
             return that_5;
         }
 
-        public n37.XMLReader_XDocument_OPrbd3hV1yTQAohaXbZTAZ __CreateDefault__()
+        public n33.XMLReader_XDocument_OPrbd3hV1yTQAohaXbZTAZ __CreateDefault__()
         {
-            n37.XMLReader_XDocument_OPrbd3hV1yTQAohaXbZTAZ that_0 = this;
+            n33.XMLReader_XDocument_OPrbd3hV1yTQAohaXbZTAZ that_0 = this;
             this.__p_FbyomPcKlTEOEL2pGZgNkz = default(n22.ObsoleteFileNoSharing);
             this.__p_S8GpRP5DLX2MNGU0ooFGRI = default(n23.XDocumentReader);
             return that_0;
@@ -3295,9 +3295,9 @@ namespace _VL_Xml_.System.XML.Advanced
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 215371U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "HIbBGpKGNoSLpit5WX7dJ8", Name = "__slot_HIbBGpKGNoSLpit5WX7dJ8")]
+        [n1.ElementAttribute(TracingId = 90576U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "HIbBGpKGNoSLpit5WX7dJ8", Name = "__slot_HIbBGpKGNoSLpit5WX7dJ8")]
         public static string __slot_HIbBGpKGNoSLpit5WX7dJ8 = "Special XML reader to avoid string allocation";
-        [n1.ElementAttribute(TracingId = 215351U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "FbyomPcKlTEOEL2pGZgNkz", Name = "File (NoSharing 1)", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 90560U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "FbyomPcKlTEOEL2pGZgNkz", Name = "File (NoSharing 1)", IsManaged = true, IsAutoGenerated = true)]
         public n22.ObsoleteFileNoSharing __p_FbyomPcKlTEOEL2pGZgNkz;
         [n1.ElementAttribute(IsAutoGenerated = true)]
         public static n19.FileMode __c_SE4KPXcccAYLMl0ZawNGv9 = n1.CompilationHelper.Deserialize<n19.FileMode>("Open", false, "Q2iWAXgl3GDPCvxD5IfFJH", "SE4KPXcccAYLMl0ZawNGv9");
@@ -3305,7 +3305,7 @@ namespace _VL_Xml_.System.XML.Advanced
         public static n19.FileAccess __c_HOgvAidYbnSMdA7BCULtKQ = n1.CompilationHelper.Deserialize<n19.FileAccess>("Read", false, "Q2iWAXgl3GDPCvxD5IfFJH", "HOgvAidYbnSMdA7BCULtKQ");
         [n1.ElementAttribute(IsAutoGenerated = true)]
         public static n19.FileShare __c_Ecmv7TTkvfVOq0ndRlDOL7 = n1.CompilationHelper.Deserialize<n19.FileShare>("Read", false, "Q2iWAXgl3GDPCvxD5IfFJH", "Ecmv7TTkvfVOq0ndRlDOL7");
-        [n1.ElementAttribute(TracingId = 215339U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "S8GpRP5DLX2MNGU0ooFGRI", Name = "XDocumentReader", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 90547U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "S8GpRP5DLX2MNGU0ooFGRI", Name = "XDocumentReader", IsManaged = true, IsAutoGenerated = true)]
         public n23.XDocumentReader __p_S8GpRP5DLX2MNGU0ooFGRI;
         static XMLReader_XDocument_OPrbd3hV1yTQAohaXbZTAZ()
         {
@@ -3328,7 +3328,7 @@ namespace _VL_Xml_.System.XML.Advanced
 
         internal XMLReader_XDocument_OPrbd3hV1yTQAohaXbZTAZ __WITH__(n22.ObsoleteFileNoSharing __p_FbyomPcKlTEOEL2pGZgNkz, n23.XDocumentReader __p_S8GpRP5DLX2MNGU0ooFGRI)
         {
-            n37.XMLReader_XDocument_OPrbd3hV1yTQAohaXbZTAZ that_0 = this;
+            n33.XMLReader_XDocument_OPrbd3hV1yTQAohaXbZTAZ that_0 = this;
             if (this.__GetContext__().IsImmutable)
                 that_0 = __p_FbyomPcKlTEOEL2pGZgNkz != this.__p_FbyomPcKlTEOEL2pGZgNkz || __p_S8GpRP5DLX2MNGU0ooFGRI != this.__p_S8GpRP5DLX2MNGU0ooFGRI ? new XMLReader_XDocument_OPrbd3hV1yTQAohaXbZTAZ(this)
                 {__p_FbyomPcKlTEOEL2pGZgNkz = __p_FbyomPcKlTEOEL2pGZgNkz, __p_S8GpRP5DLX2MNGU0ooFGRI = __p_S8GpRP5DLX2MNGU0ooFGRI} : that_0;
@@ -3342,25 +3342,25 @@ namespace _VL_Xml_.System.XML.Advanced
         }
     }
 
-    [n1.ElementAttribute(TracingId = 215421U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "PVpTLN2ieLzPuDrY7SZ3Tv", Name = "XMLWriter_XDocument_PVpTLN2ieLzPuDrY7SZ3Tv")]
+    [n1.ElementAttribute(TracingId = 90612U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "PVpTLN2ieLzPuDrY7SZ3Tv", Name = "XMLWriter_XDocument_PVpTLN2ieLzPuDrY7SZ3Tv")]
     [n2.SerializableAttribute]
     public class XMLWriter_XDocument_PVpTLN2ieLzPuDrY7SZ3Tv : n1.VLObject, n2.IDisposable
     {
         [n4.CreateNewAttribute]
-        public static n37.XMLWriter_XDocument_PVpTLN2ieLzPuDrY7SZ3Tv Create(n1.NodeContext Node_Context)
+        public static n33.XMLWriter_XDocument_PVpTLN2ieLzPuDrY7SZ3Tv Create(n1.NodeContext Node_Context)
         {
             var instance = new XMLWriter_XDocument_PVpTLN2ieLzPuDrY7SZ3Tv(Node_Context, n1.VLObject.NewIdentity());
             return instance.__Create__(Node_Context);
         }
 
         [n4.CreateDefaultAttribute]
-        public static n37.XMLWriter_XDocument_PVpTLN2ieLzPuDrY7SZ3Tv CreateDefault()
+        public static n33.XMLWriter_XDocument_PVpTLN2ieLzPuDrY7SZ3Tv CreateDefault()
         {
             var instance = new XMLWriter_XDocument_PVpTLN2ieLzPuDrY7SZ3Tv(n1.NodeContext.Default, n1.VLObject.NewIdentity());
             return instance.__CreateDefault__();
         }
 
-        public n37.XMLWriter_XDocument_PVpTLN2ieLzPuDrY7SZ3Tv Update(n11.Path File_Path_In, n6.XDocument Data_In, bool Write_In)
+        public n33.XMLWriter_XDocument_PVpTLN2ieLzPuDrY7SZ3Tv Update(n11.Path File_Path_In, n6.XDocument Data_In, bool Write_In)
         {
             n19.FileMode File_Mode_0 = __c_VOGPzM4VE4LQTXqUoXP73j;
             n19.FileAccess File_Access_1 = __c_OjhplqEPb4HNbco2Dkqc5O;
@@ -3376,7 +3376,7 @@ namespace _VL_Xml_.System.XML.Advanced
                 Output_6 = Input__this__7;
             }
 
-            n37.XMLWriter_XDocument_PVpTLN2ieLzPuDrY7SZ3Tv that_8 = this;
+            n33.XMLWriter_XDocument_PVpTLN2ieLzPuDrY7SZ3Tv that_8 = this;
             if (this.__GetContext__().IsImmutable)
                 that_8 = Input_3 != this.__p_Rd2uRGI8HZBMBqoU3vGPSy || Output_6 != this.__p_LPFvT2UQHUPLb69Ks6RO9e ? new XMLWriter_XDocument_PVpTLN2ieLzPuDrY7SZ3Tv(this)
                 {__p_Rd2uRGI8HZBMBqoU3vGPSy = Input_3, __p_LPFvT2UQHUPLb69Ks6RO9e = Output_6} : that_8;
@@ -3389,23 +3389,23 @@ namespace _VL_Xml_.System.XML.Advanced
             return that_8;
         }
 
-        public n37.XMLWriter_XDocument_PVpTLN2ieLzPuDrY7SZ3Tv __Create__(n1.NodeContext Node_Context)
+        public n33.XMLWriter_XDocument_PVpTLN2ieLzPuDrY7SZ3Tv __Create__(n1.NodeContext Node_Context)
         {
             n13.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "Rd2uRGI8HZBMBqoU3vGPSy", 215431U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "Rd2uRGI8HZBMBqoU3vGPSy", 90618U);
             n27.IFrameClock Clock_1 = n26._Operations_.CreateDefault();
             n28._Operations_.Create_H(Node_Context: Node_Context_0, Clock_In: Clock_1, Output_Out: out n22.ObsoleteFileNoSharing Output_2);
-            n1.NodeContext Node_Context_3 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "LPFvT2UQHUPLb69Ks6RO9e", 215464U);
+            n1.NodeContext Node_Context_3 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "LPFvT2UQHUPLb69Ks6RO9e", 90633U);
             n50._Operations_.Create(Node_Context_In: Node_Context_3, Output_Out: out n23.XDocumentWriter Output_4);
-            n37.XMLWriter_XDocument_PVpTLN2ieLzPuDrY7SZ3Tv that_5 = this;
+            n33.XMLWriter_XDocument_PVpTLN2ieLzPuDrY7SZ3Tv that_5 = this;
             this.__p_Rd2uRGI8HZBMBqoU3vGPSy = Output_2;
             this.__p_LPFvT2UQHUPLb69Ks6RO9e = Output_4;
             return that_5;
         }
 
-        public n37.XMLWriter_XDocument_PVpTLN2ieLzPuDrY7SZ3Tv __CreateDefault__()
+        public n33.XMLWriter_XDocument_PVpTLN2ieLzPuDrY7SZ3Tv __CreateDefault__()
         {
-            n37.XMLWriter_XDocument_PVpTLN2ieLzPuDrY7SZ3Tv that_0 = this;
+            n33.XMLWriter_XDocument_PVpTLN2ieLzPuDrY7SZ3Tv that_0 = this;
             this.__p_Rd2uRGI8HZBMBqoU3vGPSy = default(n22.ObsoleteFileNoSharing);
             this.__p_LPFvT2UQHUPLb69Ks6RO9e = default(n23.XDocumentWriter);
             return that_0;
@@ -3424,9 +3424,9 @@ namespace _VL_Xml_.System.XML.Advanced
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 215484U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "LrFd0NWOWpqL5lvwQnqCjr", Name = "__slot_LrFd0NWOWpqL5lvwQnqCjr")]
+        [n1.ElementAttribute(TracingId = 90639U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "LrFd0NWOWpqL5lvwQnqCjr", Name = "__slot_LrFd0NWOWpqL5lvwQnqCjr")]
         public static string __slot_LrFd0NWOWpqL5lvwQnqCjr = "Special XML writer to avoid string allocation";
-        [n1.ElementAttribute(TracingId = 215431U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "Rd2uRGI8HZBMBqoU3vGPSy", Name = "File (NoSharing 1)", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 90618U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "Rd2uRGI8HZBMBqoU3vGPSy", Name = "File (NoSharing 1)", IsManaged = true, IsAutoGenerated = true)]
         public n22.ObsoleteFileNoSharing __p_Rd2uRGI8HZBMBqoU3vGPSy;
         [n1.ElementAttribute(IsAutoGenerated = true)]
         public static n19.FileMode __c_VOGPzM4VE4LQTXqUoXP73j = n1.CompilationHelper.Deserialize<n19.FileMode>("Create", false, "Q2iWAXgl3GDPCvxD5IfFJH", "VOGPzM4VE4LQTXqUoXP73j");
@@ -3434,7 +3434,7 @@ namespace _VL_Xml_.System.XML.Advanced
         public static n19.FileAccess __c_OjhplqEPb4HNbco2Dkqc5O = n1.CompilationHelper.Deserialize<n19.FileAccess>("Write", false, "Q2iWAXgl3GDPCvxD5IfFJH", "OjhplqEPb4HNbco2Dkqc5O");
         [n1.ElementAttribute(IsAutoGenerated = true)]
         public static n19.FileShare __c_FV8Or8g8nZ7OuhdhtpjcoA = n1.CompilationHelper.Deserialize<n19.FileShare>("None", false, "Q2iWAXgl3GDPCvxD5IfFJH", "FV8Or8g8nZ7OuhdhtpjcoA");
-        [n1.ElementAttribute(TracingId = 215464U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "LPFvT2UQHUPLb69Ks6RO9e", Name = "XDocumentWriter", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 90633U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "LPFvT2UQHUPLb69Ks6RO9e", Name = "XDocumentWriter", IsManaged = true, IsAutoGenerated = true)]
         public n23.XDocumentWriter __p_LPFvT2UQHUPLb69Ks6RO9e;
         static XMLWriter_XDocument_PVpTLN2ieLzPuDrY7SZ3Tv()
         {
@@ -3457,7 +3457,7 @@ namespace _VL_Xml_.System.XML.Advanced
 
         internal XMLWriter_XDocument_PVpTLN2ieLzPuDrY7SZ3Tv __WITH__(n22.ObsoleteFileNoSharing __p_Rd2uRGI8HZBMBqoU3vGPSy, n23.XDocumentWriter __p_LPFvT2UQHUPLb69Ks6RO9e)
         {
-            n37.XMLWriter_XDocument_PVpTLN2ieLzPuDrY7SZ3Tv that_0 = this;
+            n33.XMLWriter_XDocument_PVpTLN2ieLzPuDrY7SZ3Tv that_0 = this;
             if (this.__GetContext__().IsImmutable)
                 that_0 = __p_Rd2uRGI8HZBMBqoU3vGPSy != this.__p_Rd2uRGI8HZBMBqoU3vGPSy || __p_LPFvT2UQHUPLb69Ks6RO9e != this.__p_LPFvT2UQHUPLb69Ks6RO9e ? new XMLWriter_XDocument_PVpTLN2ieLzPuDrY7SZ3Tv(this)
                 {__p_Rd2uRGI8HZBMBqoU3vGPSy = __p_Rd2uRGI8HZBMBqoU3vGPSy, __p_LPFvT2UQHUPLb69Ks6RO9e = __p_LPFvT2UQHUPLb69Ks6RO9e} : that_0;
@@ -3471,40 +3471,40 @@ namespace _VL_Xml_.System.XML.Advanced
         }
     }
 
-    [n1.ElementAttribute(TracingId = 215532U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "SYtLNqgLVojLPTlgG6zowT", Name = "XMLReader_XDocument_Reactive_SYtLNqgLVojLPTlgG6zowT")]
+    [n1.ElementAttribute(TracingId = 90675U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "SYtLNqgLVojLPTlgG6zowT", Name = "XMLReader_XDocument_Reactive_SYtLNqgLVojLPTlgG6zowT")]
     [n2.SerializableAttribute]
     public class XMLReader_XDocument_Reactive_SYtLNqgLVojLPTlgG6zowT : n1.VLObject, n2.IDisposable
     {
         [n4.CreateNewAttribute]
-        public static n37.XMLReader_XDocument_Reactive_SYtLNqgLVojLPTlgG6zowT Create(n1.NodeContext Node_Context)
+        public static n33.XMLReader_XDocument_Reactive_SYtLNqgLVojLPTlgG6zowT Create(n1.NodeContext Node_Context)
         {
             var instance = new XMLReader_XDocument_Reactive_SYtLNqgLVojLPTlgG6zowT(Node_Context, n1.VLObject.NewIdentity());
             return instance.__Create__(Node_Context);
         }
 
         [n4.CreateDefaultAttribute]
-        public static n37.XMLReader_XDocument_Reactive_SYtLNqgLVojLPTlgG6zowT CreateDefault()
+        public static n33.XMLReader_XDocument_Reactive_SYtLNqgLVojLPTlgG6zowT CreateDefault()
         {
             var instance = new XMLReader_XDocument_Reactive_SYtLNqgLVojLPTlgG6zowT(n1.NodeContext.Default, n1.VLObject.NewIdentity());
             return instance.__CreateDefault__();
         }
 
-        public n37.XMLReader_XDocument_Reactive_SYtLNqgLVojLPTlgG6zowT Update(n11.Path File_Path_In, bool Read_In, out n2.IObservable<n6.XDocument> Output_Out, out bool In_Progress_Out, out bool On_Completed_Out)
+        public n33.XMLReader_XDocument_Reactive_SYtLNqgLVojLPTlgG6zowT Update(n11.Path File_Path_In, bool Read_In, out n2.IObservable<n6.XDocument> Output_Out, out bool In_Progress_Out, out bool On_Completed_Out)
         {
             n19.FileMode File_Mode_0 = __c_He6sJXqziigLG7WuTAvKId;
             n19.FileAccess File_Access_1 = __c_MrmAcD2ZqefPEk1xGKQMwZ;
             n19.FileShare File_Share_2 = __c_AHHsrzC0TZHNNzh7gNRz7I;
             n22.ObsoleteFileNoSharing Input_3 = this.__p_UM6iE7AcJmoPLq7V4o1FGi;
             var Result_4 = Input_3.Update(filePath: File_Path_In, fileMode: File_Mode_0, fileAccess: File_Access_1, fileShare: File_Share_2);
-            n51._Operations_.Update_H<n34.IResourceProvider<n19.Stream>>(Input_In: this.__p_T2hMvxNMYDfMLjv6fzOUb0, Message_In: Result_4, Send_In: Read_In, Output_Out: out n21.ToObservable<n34.IResourceProvider<n19.Stream>> Output_5, Result_Out: out n2.IObservable<n34.IResourceProvider<n19.Stream>> Result_6);
+            n51._Operations_.Update_H<n30.IResourceProvider<n19.Stream>>(Input_In: this.__p_T2hMvxNMYDfMLjv6fzOUb0, Message_In: Result_4, Send_In: Read_In, Output_Out: out n21.ToObservable<n30.IResourceProvider<n19.Stream>> Output_5, Result_Out: out n2.IObservable<n30.IResourceProvider<n19.Stream>> Result_6);
             n23.AsyncXDocumentReader Input__this__7 = this.__p_D3s7UAYpm5wPrt0NlGwNU7;
             var Result_10 = Input__this__7.Update(input: Result_6, inProgress: out bool In_Progress_8, onCompleted: out bool On_Completed_9);
             bool Reset_11 = false;
-            n41._Operations_.Update_H<n6.XDocument>(Input__this__In: this.__p_HBcXOYi9w27LVOzshgeBu7, Input_In: Result_10, Reset_In: Reset_11, Output_Out: out n21.DebugNode<n6.XDocument> Output_12, Result_Out: out n2.IObservable<n6.XDocument> Result_13, Input_Changed_Count_Out: out int Input_Changed_Count_14, Subscribe_Calls_Out: out int Subscribe_Calls_15, On_Next_Calls_Out: out int On_Next_Calls_16, On_Error_Calls_Out: out int On_Error_Calls_17, On_Completed_Calls_Out: out int On_Completed_Calls_18, Unsubscribe_Calls_Out: out int Unsubscribe_Calls_19, Latest_Thread_Id_Out: out int Latest_Thread_Id_20);
+            n37._Operations_.Update_H<n6.XDocument>(Input__this__In: this.__p_HBcXOYi9w27LVOzshgeBu7, Input_In: Result_10, Reset_In: Reset_11, Output_Out: out n21.DebugNode<n6.XDocument> Output_12, Result_Out: out n2.IObservable<n6.XDocument> Result_13, Input_Changed_Count_Out: out int Input_Changed_Count_14, Subscribe_Calls_Out: out int Subscribe_Calls_15, On_Next_Calls_Out: out int On_Next_Calls_16, On_Error_Calls_Out: out int On_Error_Calls_17, On_Completed_Calls_Out: out int On_Completed_Calls_18, Unsubscribe_Calls_Out: out int Unsubscribe_Calls_19, Latest_Thread_Id_Out: out int Latest_Thread_Id_20);
             Output_Out = Result_13;
             In_Progress_Out = In_Progress_8;
             On_Completed_Out = On_Completed_9;
-            n37.XMLReader_XDocument_Reactive_SYtLNqgLVojLPTlgG6zowT that_21 = this;
+            n33.XMLReader_XDocument_Reactive_SYtLNqgLVojLPTlgG6zowT that_21 = this;
             if (this.__GetContext__().IsImmutable)
                 that_21 = Input_3 != this.__p_UM6iE7AcJmoPLq7V4o1FGi || Output_5 != this.__p_T2hMvxNMYDfMLjv6fzOUb0 || Input__this__7 != this.__p_D3s7UAYpm5wPrt0NlGwNU7 || Output_12 != this.__p_HBcXOYi9w27LVOzshgeBu7 ? new XMLReader_XDocument_Reactive_SYtLNqgLVojLPTlgG6zowT(this)
                 {__p_UM6iE7AcJmoPLq7V4o1FGi = Input_3, __p_T2hMvxNMYDfMLjv6fzOUb0 = Output_5, __p_D3s7UAYpm5wPrt0NlGwNU7 = Input__this__7, __p_HBcXOYi9w27LVOzshgeBu7 = Output_12} : that_21;
@@ -3519,19 +3519,19 @@ namespace _VL_Xml_.System.XML.Advanced
             return that_21;
         }
 
-        public n37.XMLReader_XDocument_Reactive_SYtLNqgLVojLPTlgG6zowT __Create__(n1.NodeContext Node_Context)
+        public n33.XMLReader_XDocument_Reactive_SYtLNqgLVojLPTlgG6zowT __Create__(n1.NodeContext Node_Context)
         {
             n13.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "UM6iE7AcJmoPLq7V4o1FGi", 215546U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "UM6iE7AcJmoPLq7V4o1FGi", 90687U);
             n27.IFrameClock Clock_1 = n26._Operations_.CreateDefault();
             n28._Operations_.Create_H(Node_Context: Node_Context_0, Clock_In: Clock_1, Output_Out: out n22.ObsoleteFileNoSharing Output_2);
-            n1.NodeContext Node_Context_3 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "T2hMvxNMYDfMLjv6fzOUb0", 215585U);
-            n51._Operations_.Create_H<n34.IResourceProvider<n19.Stream>>(Node_Context: Node_Context_3, Output_Out: out n21.ToObservable<n34.IResourceProvider<n19.Stream>> Output_4);
-            n1.NodeContext Node_Context_5 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "D3s7UAYpm5wPrt0NlGwNU7", 215596U);
+            n1.NodeContext Node_Context_3 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "T2hMvxNMYDfMLjv6fzOUb0", 90714U);
+            n51._Operations_.Create_H<n30.IResourceProvider<n19.Stream>>(Node_Context: Node_Context_3, Output_Out: out n21.ToObservable<n30.IResourceProvider<n19.Stream>> Output_4);
+            n1.NodeContext Node_Context_5 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "D3s7UAYpm5wPrt0NlGwNU7", 90724U);
             n52._Operations_.Create_H(Node_Context_In: Node_Context_5, Output_Out: out n23.AsyncXDocumentReader Output_6);
-            n1.NodeContext Node_Context_7 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "HBcXOYi9w27LVOzshgeBu7", 215617U);
-            n41._Operations_.Create_H<n6.XDocument>(Node_Context: Node_Context_7, Output_Out: out n21.DebugNode<n6.XDocument> Output_8);
-            n37.XMLReader_XDocument_Reactive_SYtLNqgLVojLPTlgG6zowT that_9 = this;
+            n1.NodeContext Node_Context_7 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "HBcXOYi9w27LVOzshgeBu7", 90744U);
+            n37._Operations_.Create_H<n6.XDocument>(Node_Context: Node_Context_7, Output_Out: out n21.DebugNode<n6.XDocument> Output_8);
+            n33.XMLReader_XDocument_Reactive_SYtLNqgLVojLPTlgG6zowT that_9 = this;
             this.__p_UM6iE7AcJmoPLq7V4o1FGi = Output_2;
             this.__p_T2hMvxNMYDfMLjv6fzOUb0 = Output_4;
             this.__p_D3s7UAYpm5wPrt0NlGwNU7 = Output_6;
@@ -3539,11 +3539,11 @@ namespace _VL_Xml_.System.XML.Advanced
             return that_9;
         }
 
-        public n37.XMLReader_XDocument_Reactive_SYtLNqgLVojLPTlgG6zowT __CreateDefault__()
+        public n33.XMLReader_XDocument_Reactive_SYtLNqgLVojLPTlgG6zowT __CreateDefault__()
         {
-            n37.XMLReader_XDocument_Reactive_SYtLNqgLVojLPTlgG6zowT that_0 = this;
+            n33.XMLReader_XDocument_Reactive_SYtLNqgLVojLPTlgG6zowT that_0 = this;
             this.__p_UM6iE7AcJmoPLq7V4o1FGi = default(n22.ObsoleteFileNoSharing);
-            this.__p_T2hMvxNMYDfMLjv6fzOUb0 = default(n21.ToObservable<n34.IResourceProvider<n19.Stream>>);
+            this.__p_T2hMvxNMYDfMLjv6fzOUb0 = default(n21.ToObservable<n30.IResourceProvider<n19.Stream>>);
             this.__p_D3s7UAYpm5wPrt0NlGwNU7 = default(n23.AsyncXDocumentReader);
             this.__p_HBcXOYi9w27LVOzshgeBu7 = default(n21.DebugNode<n6.XDocument>);
             return that_0;
@@ -3564,11 +3564,11 @@ namespace _VL_Xml_.System.XML.Advanced
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 215568U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "IZ8MFnX1J5xQO313breVWw", Name = "__slot_IZ8MFnX1J5xQO313breVWw")]
+        [n1.ElementAttribute(TracingId = 90703U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "IZ8MFnX1J5xQO313breVWw", Name = "__slot_IZ8MFnX1J5xQO313breVWw")]
         public static string __slot_IZ8MFnX1J5xQO313breVWw = "Special XML reader to avoid string allocation";
-        [n1.ElementAttribute(TracingId = 215574U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "HSeSeuJb1tRPPtvXyHXi1H", Name = "__slot_HSeSeuJb1tRPPtvXyHXi1H")]
+        [n1.ElementAttribute(TracingId = 90710U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "HSeSeuJb1tRPPtvXyHXi1H", Name = "__slot_HSeSeuJb1tRPPtvXyHXi1H")]
         public static string __slot_HSeSeuJb1tRPPtvXyHXi1H = "In future versions of .NET there should be a XDocument.LoadAsync method\r\nso it will be possible to provide cancellation, but not progress.";
-        [n1.ElementAttribute(TracingId = 215546U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "UM6iE7AcJmoPLq7V4o1FGi", Name = "File (NoSharing 1)", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 90687U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "UM6iE7AcJmoPLq7V4o1FGi", Name = "File (NoSharing 1)", IsManaged = true, IsAutoGenerated = true)]
         public n22.ObsoleteFileNoSharing __p_UM6iE7AcJmoPLq7V4o1FGi;
         [n1.ElementAttribute(IsAutoGenerated = true)]
         public static n19.FileMode __c_He6sJXqziigLG7WuTAvKId = n1.CompilationHelper.Deserialize<n19.FileMode>("Open", false, "Q2iWAXgl3GDPCvxD5IfFJH", "He6sJXqziigLG7WuTAvKId");
@@ -3576,11 +3576,11 @@ namespace _VL_Xml_.System.XML.Advanced
         public static n19.FileAccess __c_MrmAcD2ZqefPEk1xGKQMwZ = n1.CompilationHelper.Deserialize<n19.FileAccess>("Read", false, "Q2iWAXgl3GDPCvxD5IfFJH", "MrmAcD2ZqefPEk1xGKQMwZ");
         [n1.ElementAttribute(IsAutoGenerated = true)]
         public static n19.FileShare __c_AHHsrzC0TZHNNzh7gNRz7I = n1.CompilationHelper.Deserialize<n19.FileShare>("Read", false, "Q2iWAXgl3GDPCvxD5IfFJH", "AHHsrzC0TZHNNzh7gNRz7I");
-        [n1.ElementAttribute(TracingId = 215585U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "T2hMvxNMYDfMLjv6fzOUb0", Name = "ToObservable", IsManaged = true, IsAutoGenerated = true)]
-        public n21.ToObservable<n34.IResourceProvider<n19.Stream>> __p_T2hMvxNMYDfMLjv6fzOUb0;
-        [n1.ElementAttribute(TracingId = 215596U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "D3s7UAYpm5wPrt0NlGwNU7", Name = "XDocumentReader (Reactive)", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 90714U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "T2hMvxNMYDfMLjv6fzOUb0", Name = "ToObservable", IsManaged = true, IsAutoGenerated = true)]
+        public n21.ToObservable<n30.IResourceProvider<n19.Stream>> __p_T2hMvxNMYDfMLjv6fzOUb0;
+        [n1.ElementAttribute(TracingId = 90724U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "D3s7UAYpm5wPrt0NlGwNU7", Name = "XDocumentReader (Reactive)", IsManaged = true, IsAutoGenerated = true)]
         public n23.AsyncXDocumentReader __p_D3s7UAYpm5wPrt0NlGwNU7;
-        [n1.ElementAttribute(TracingId = 215617U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "HBcXOYi9w27LVOzshgeBu7", Name = "Debug", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 90744U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "HBcXOYi9w27LVOzshgeBu7", Name = "Debug", IsManaged = true, IsAutoGenerated = true)]
         public n21.DebugNode<n6.XDocument> __p_HBcXOYi9w27LVOzshgeBu7;
         static XMLReader_XDocument_Reactive_SYtLNqgLVojLPTlgG6zowT()
         {
@@ -3603,9 +3603,9 @@ namespace _VL_Xml_.System.XML.Advanced
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__p_UM6iE7AcJmoPLq7V4o1FGi", in __p_UM6iE7AcJmoPLq7V4o1FGi), n1.CompilationHelper.GetValueOrExisting(values, "__p_T2hMvxNMYDfMLjv6fzOUb0", in __p_T2hMvxNMYDfMLjv6fzOUb0), n1.CompilationHelper.GetValueOrExisting(values, "__p_D3s7UAYpm5wPrt0NlGwNU7", in __p_D3s7UAYpm5wPrt0NlGwNU7), n1.CompilationHelper.GetValueOrExisting(values, "__p_HBcXOYi9w27LVOzshgeBu7", in __p_HBcXOYi9w27LVOzshgeBu7));
         }
 
-        internal XMLReader_XDocument_Reactive_SYtLNqgLVojLPTlgG6zowT __WITH__(n22.ObsoleteFileNoSharing __p_UM6iE7AcJmoPLq7V4o1FGi, n21.ToObservable<n34.IResourceProvider<n19.Stream>> __p_T2hMvxNMYDfMLjv6fzOUb0, n23.AsyncXDocumentReader __p_D3s7UAYpm5wPrt0NlGwNU7, n21.DebugNode<n6.XDocument> __p_HBcXOYi9w27LVOzshgeBu7)
+        internal XMLReader_XDocument_Reactive_SYtLNqgLVojLPTlgG6zowT __WITH__(n22.ObsoleteFileNoSharing __p_UM6iE7AcJmoPLq7V4o1FGi, n21.ToObservable<n30.IResourceProvider<n19.Stream>> __p_T2hMvxNMYDfMLjv6fzOUb0, n23.AsyncXDocumentReader __p_D3s7UAYpm5wPrt0NlGwNU7, n21.DebugNode<n6.XDocument> __p_HBcXOYi9w27LVOzshgeBu7)
         {
-            n37.XMLReader_XDocument_Reactive_SYtLNqgLVojLPTlgG6zowT that_0 = this;
+            n33.XMLReader_XDocument_Reactive_SYtLNqgLVojLPTlgG6zowT that_0 = this;
             if (this.__GetContext__().IsImmutable)
                 that_0 = __p_UM6iE7AcJmoPLq7V4o1FGi != this.__p_UM6iE7AcJmoPLq7V4o1FGi || __p_T2hMvxNMYDfMLjv6fzOUb0 != this.__p_T2hMvxNMYDfMLjv6fzOUb0 || __p_D3s7UAYpm5wPrt0NlGwNU7 != this.__p_D3s7UAYpm5wPrt0NlGwNU7 || __p_HBcXOYi9w27LVOzshgeBu7 != this.__p_HBcXOYi9w27LVOzshgeBu7 ? new XMLReader_XDocument_Reactive_SYtLNqgLVojLPTlgG6zowT(this)
                 {__p_UM6iE7AcJmoPLq7V4o1FGi = __p_UM6iE7AcJmoPLq7V4o1FGi, __p_T2hMvxNMYDfMLjv6fzOUb0 = __p_T2hMvxNMYDfMLjv6fzOUb0, __p_D3s7UAYpm5wPrt0NlGwNU7 = __p_D3s7UAYpm5wPrt0NlGwNU7, __p_HBcXOYi9w27LVOzshgeBu7 = __p_HBcXOYi9w27LVOzshgeBu7} : that_0;
@@ -3621,25 +3621,25 @@ namespace _VL_Xml_.System.XML.Advanced
         }
     }
 
-    [n1.ElementAttribute(TracingId = 215708U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "Jn58QSZGMUmNfBVEabutgv", Name = "XMLWriter_XDocument_Reactive_Jn58QSZGMUmNfBVEabutgv")]
+    [n1.ElementAttribute(TracingId = 90816U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "Jn58QSZGMUmNfBVEabutgv", Name = "XMLWriter_XDocument_Reactive_Jn58QSZGMUmNfBVEabutgv")]
     [n2.SerializableAttribute]
     public class XMLWriter_XDocument_Reactive_Jn58QSZGMUmNfBVEabutgv : n1.VLObject, n2.IDisposable
     {
         [n4.CreateNewAttribute]
-        public static n37.XMLWriter_XDocument_Reactive_Jn58QSZGMUmNfBVEabutgv Create(n1.NodeContext Node_Context)
+        public static n33.XMLWriter_XDocument_Reactive_Jn58QSZGMUmNfBVEabutgv Create(n1.NodeContext Node_Context)
         {
             var instance = new XMLWriter_XDocument_Reactive_Jn58QSZGMUmNfBVEabutgv(Node_Context, n1.VLObject.NewIdentity());
             return instance.__Create__(Node_Context);
         }
 
         [n4.CreateDefaultAttribute]
-        public static n37.XMLWriter_XDocument_Reactive_Jn58QSZGMUmNfBVEabutgv CreateDefault()
+        public static n33.XMLWriter_XDocument_Reactive_Jn58QSZGMUmNfBVEabutgv CreateDefault()
         {
             var instance = new XMLWriter_XDocument_Reactive_Jn58QSZGMUmNfBVEabutgv(n1.NodeContext.Default, n1.VLObject.NewIdentity());
             return instance.__CreateDefault__();
         }
 
-        public n37.XMLWriter_XDocument_Reactive_Jn58QSZGMUmNfBVEabutgv Update(n11.Path File_Path_In, n2.IObservable<n6.XDocument> Data_In, out bool In_Progress_Out, out bool OnCompleted_Out)
+        public n33.XMLWriter_XDocument_Reactive_Jn58QSZGMUmNfBVEabutgv Update(n11.Path File_Path_In, n2.IObservable<n6.XDocument> Data_In, out bool In_Progress_Out, out bool OnCompleted_Out)
         {
             n19.FileMode File_Mode_0 = __c_AnrUa0sk304PFYJQLFkSYZ;
             n19.FileAccess File_Access_1 = __c_N8aEUWbt25WNSqnUIQK0dL;
@@ -3657,7 +3657,7 @@ namespace _VL_Xml_.System.XML.Advanced
 
             In_Progress_Out = In_Progress_6;
             OnCompleted_Out = On_Completed_7;
-            n37.XMLWriter_XDocument_Reactive_Jn58QSZGMUmNfBVEabutgv that_11 = this;
+            n33.XMLWriter_XDocument_Reactive_Jn58QSZGMUmNfBVEabutgv that_11 = this;
             if (this.__GetContext__().IsImmutable)
                 that_11 = Input_3 != this.__p_UiGYRTTXA5kLSHTPpExuqw || Input__this__5 != this.__p_MXtQwSioOvKOCQWYHu6nVT || Output_10 != this.__p_Ht9RZRfgSKFOwVw3w6ffkZ ? new XMLWriter_XDocument_Reactive_Jn58QSZGMUmNfBVEabutgv(this)
                 {__p_UiGYRTTXA5kLSHTPpExuqw = Input_3, __p_MXtQwSioOvKOCQWYHu6nVT = Input__this__5, __p_Ht9RZRfgSKFOwVw3w6ffkZ = Output_10} : that_11;
@@ -3671,26 +3671,26 @@ namespace _VL_Xml_.System.XML.Advanced
             return that_11;
         }
 
-        public n37.XMLWriter_XDocument_Reactive_Jn58QSZGMUmNfBVEabutgv __Create__(n1.NodeContext Node_Context)
+        public n33.XMLWriter_XDocument_Reactive_Jn58QSZGMUmNfBVEabutgv __Create__(n1.NodeContext Node_Context)
         {
             n13.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "UiGYRTTXA5kLSHTPpExuqw", 215719U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "UiGYRTTXA5kLSHTPpExuqw", 90827U);
             n27.IFrameClock Clock_1 = n26._Operations_.CreateDefault();
             n28._Operations_.Create_H(Node_Context: Node_Context_0, Clock_In: Clock_1, Output_Out: out n22.ObsoleteFileNoSharing Output_2);
-            n1.NodeContext Node_Context_3 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "MXtQwSioOvKOCQWYHu6nVT", 215737U);
+            n1.NodeContext Node_Context_3 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "MXtQwSioOvKOCQWYHu6nVT", 90839U);
             n53._Operations_.Create_H(Node_Context_In: Node_Context_3, Output_Out: out n23.AsyncXDocumentWriter Output_4);
-            n1.NodeContext Node_Context_5 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "Ht9RZRfgSKFOwVw3w6ffkZ", 215773U);
+            n1.NodeContext Node_Context_5 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "Ht9RZRfgSKFOwVw3w6ffkZ", 90860U);
             var Output_6 = n54.Subscribe_HQMsg5b9zDWN4pgYzUuHLi<n2.IObservable<n6.XDocument>, n6.XDocument>.Create(Node_Context: Node_Context_5);
-            n37.XMLWriter_XDocument_Reactive_Jn58QSZGMUmNfBVEabutgv that_7 = this;
+            n33.XMLWriter_XDocument_Reactive_Jn58QSZGMUmNfBVEabutgv that_7 = this;
             this.__p_UiGYRTTXA5kLSHTPpExuqw = Output_2;
             this.__p_MXtQwSioOvKOCQWYHu6nVT = Output_4;
             this.__p_Ht9RZRfgSKFOwVw3w6ffkZ = Output_6;
             return that_7;
         }
 
-        public n37.XMLWriter_XDocument_Reactive_Jn58QSZGMUmNfBVEabutgv __CreateDefault__()
+        public n33.XMLWriter_XDocument_Reactive_Jn58QSZGMUmNfBVEabutgv __CreateDefault__()
         {
-            n37.XMLWriter_XDocument_Reactive_Jn58QSZGMUmNfBVEabutgv that_0 = this;
+            n33.XMLWriter_XDocument_Reactive_Jn58QSZGMUmNfBVEabutgv that_0 = this;
             this.__p_UiGYRTTXA5kLSHTPpExuqw = default(n22.ObsoleteFileNoSharing);
             this.__p_MXtQwSioOvKOCQWYHu6nVT = default(n23.AsyncXDocumentWriter);
             this.__p_Ht9RZRfgSKFOwVw3w6ffkZ = n54.Subscribe_HQMsg5b9zDWN4pgYzUuHLi<n2.IObservable<n6.XDocument>, n6.XDocument>.CreateDefault();
@@ -3711,11 +3711,11 @@ namespace _VL_Xml_.System.XML.Advanced
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 215756U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "KbTZ57zKQgBPK3qDiRyDi7", Name = "__slot_KbTZ57zKQgBPK3qDiRyDi7")]
+        [n1.ElementAttribute(TracingId = 90851U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "KbTZ57zKQgBPK3qDiRyDi7", Name = "__slot_KbTZ57zKQgBPK3qDiRyDi7")]
         public static string __slot_KbTZ57zKQgBPK3qDiRyDi7 = "Special XML writer to avoid string allocation";
-        [n1.ElementAttribute(TracingId = 215763U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "Ofazlx4r1beLfc1C5TKBrP", Name = "__slot_Ofazlx4r1beLfc1C5TKBrP")]
+        [n1.ElementAttribute(TracingId = 90854U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "Ofazlx4r1beLfc1C5TKBrP", Name = "__slot_Ofazlx4r1beLfc1C5TKBrP")]
         public static string __slot_Ofazlx4r1beLfc1C5TKBrP = "In future versions of .NET there should be a XDocument.SaveAsync method\r\nso it will be possible to provide cancellation, but not progress.";
-        [n1.ElementAttribute(TracingId = 215719U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "UiGYRTTXA5kLSHTPpExuqw", Name = "File (NoSharing 1)", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 90827U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "UiGYRTTXA5kLSHTPpExuqw", Name = "File (NoSharing 1)", IsManaged = true, IsAutoGenerated = true)]
         public n22.ObsoleteFileNoSharing __p_UiGYRTTXA5kLSHTPpExuqw;
         [n1.ElementAttribute(IsAutoGenerated = true)]
         public static n19.FileMode __c_AnrUa0sk304PFYJQLFkSYZ = n1.CompilationHelper.Deserialize<n19.FileMode>("Create", false, "Q2iWAXgl3GDPCvxD5IfFJH", "AnrUa0sk304PFYJQLFkSYZ");
@@ -3723,9 +3723,9 @@ namespace _VL_Xml_.System.XML.Advanced
         public static n19.FileAccess __c_N8aEUWbt25WNSqnUIQK0dL = n1.CompilationHelper.Deserialize<n19.FileAccess>("Write", false, "Q2iWAXgl3GDPCvxD5IfFJH", "N8aEUWbt25WNSqnUIQK0dL");
         [n1.ElementAttribute(IsAutoGenerated = true)]
         public static n19.FileShare __c_EhBrzKkr9J6LSf3voOnRmR = n1.CompilationHelper.Deserialize<n19.FileShare>("None", false, "Q2iWAXgl3GDPCvxD5IfFJH", "EhBrzKkr9J6LSf3voOnRmR");
-        [n1.ElementAttribute(TracingId = 215737U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "MXtQwSioOvKOCQWYHu6nVT", Name = "XDocumentWriter (Reactive)", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 90839U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "MXtQwSioOvKOCQWYHu6nVT", Name = "XDocumentWriter (Reactive)", IsManaged = true, IsAutoGenerated = true)]
         public n23.AsyncXDocumentWriter __p_MXtQwSioOvKOCQWYHu6nVT;
-        [n1.ElementAttribute(TracingId = 215773U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "Ht9RZRfgSKFOwVw3w6ffkZ", Name = "Subscribe", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 90860U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "Ht9RZRfgSKFOwVw3w6ffkZ", Name = "Subscribe", IsManaged = true, IsAutoGenerated = true)]
         public n54.Subscribe_HQMsg5b9zDWN4pgYzUuHLi<n2.IObservable<n6.XDocument>, n6.XDocument> __p_Ht9RZRfgSKFOwVw3w6ffkZ;
         static XMLWriter_XDocument_Reactive_Jn58QSZGMUmNfBVEabutgv()
         {
@@ -3749,7 +3749,7 @@ namespace _VL_Xml_.System.XML.Advanced
 
         internal XMLWriter_XDocument_Reactive_Jn58QSZGMUmNfBVEabutgv __WITH__(n22.ObsoleteFileNoSharing __p_UiGYRTTXA5kLSHTPpExuqw, n23.AsyncXDocumentWriter __p_MXtQwSioOvKOCQWYHu6nVT, n54.Subscribe_HQMsg5b9zDWN4pgYzUuHLi<n2.IObservable<n6.XDocument>, n6.XDocument> __p_Ht9RZRfgSKFOwVw3w6ffkZ)
         {
-            n37.XMLWriter_XDocument_Reactive_Jn58QSZGMUmNfBVEabutgv that_0 = this;
+            n33.XMLWriter_XDocument_Reactive_Jn58QSZGMUmNfBVEabutgv that_0 = this;
             if (this.__GetContext__().IsImmutable)
                 that_0 = __p_UiGYRTTXA5kLSHTPpExuqw != this.__p_UiGYRTTXA5kLSHTPpExuqw || __p_MXtQwSioOvKOCQWYHu6nVT != this.__p_MXtQwSioOvKOCQWYHu6nVT || __p_Ht9RZRfgSKFOwVw3w6ffkZ != this.__p_Ht9RZRfgSKFOwVw3w6ffkZ ? new XMLWriter_XDocument_Reactive_Jn58QSZGMUmNfBVEabutgv(this)
                 {__p_UiGYRTTXA5kLSHTPpExuqw = __p_UiGYRTTXA5kLSHTPpExuqw, __p_MXtQwSioOvKOCQWYHu6nVT = __p_MXtQwSioOvKOCQWYHu6nVT, __p_Ht9RZRfgSKFOwVw3w6ffkZ = __p_Ht9RZRfgSKFOwVw3w6ffkZ} : that_0;
@@ -3764,25 +3764,25 @@ namespace _VL_Xml_.System.XML.Advanced
         }
     }
 
-    [n1.ElementAttribute(TracingId = 215863U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "NbGfJLYlal5O49GfRvntMG", Name = "JSONReader_XDocument_NbGfJLYlal5O49GfRvntMG")]
+    [n1.ElementAttribute(TracingId = 93694U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "NbGfJLYlal5O49GfRvntMG", Name = "JSONReader_XDocument_NbGfJLYlal5O49GfRvntMG")]
     [n2.SerializableAttribute]
     public class JSONReader_XDocument_NbGfJLYlal5O49GfRvntMG : n1.VLObject, n2.IDisposable
     {
         [n4.CreateNewAttribute]
-        public static n37.JSONReader_XDocument_NbGfJLYlal5O49GfRvntMG Create(n1.NodeContext Node_Context)
+        public static n33.JSONReader_XDocument_NbGfJLYlal5O49GfRvntMG Create(n1.NodeContext Node_Context)
         {
             var instance = new JSONReader_XDocument_NbGfJLYlal5O49GfRvntMG(Node_Context, n1.VLObject.NewIdentity());
             return instance.__Create__(Node_Context);
         }
 
         [n4.CreateDefaultAttribute]
-        public static n37.JSONReader_XDocument_NbGfJLYlal5O49GfRvntMG CreateDefault()
+        public static n33.JSONReader_XDocument_NbGfJLYlal5O49GfRvntMG CreateDefault()
         {
             var instance = new JSONReader_XDocument_NbGfJLYlal5O49GfRvntMG(n1.NodeContext.Default, n1.VLObject.NewIdentity());
             return instance.__CreateDefault__();
         }
 
-        public n37.JSONReader_XDocument_NbGfJLYlal5O49GfRvntMG Update(n11.Path File_Path_In, n12.Encodings Encoding_In, string Deserialize_Root_Element_Name_In, bool Write_Array_Attribute_In, bool Read_In, out n6.XDocument Output_Out)
+        public n33.JSONReader_XDocument_NbGfJLYlal5O49GfRvntMG Update(n11.Path File_Path_In, n12.Encodings Encoding_In, string Deserialize_Root_Element_Name_In, bool Write_Array_Attribute_In, bool Read_In, out n6.XDocument Output_Out)
         {
             var State_Output_1 = this.__p_Um3Ok1CdjpyMSyCM5QYjoh.Update(File_Path_In: File_Path_In, Encoding_In: Encoding_In, Read_In: Read_In, Output_Out: out string Output_0);
             bool Dispose_Cached_Outputs_2 = false;
@@ -3810,7 +3810,7 @@ namespace _VL_Xml_.System.XML.Advanced
 
             var __auto_9 = outputs_5.Item1;
             Output_Out = __auto_9;
-            n37.JSONReader_XDocument_NbGfJLYlal5O49GfRvntMG that_10 = this;
+            n33.JSONReader_XDocument_NbGfJLYlal5O49GfRvntMG that_10 = this;
             if (this.__GetContext__().IsImmutable)
                 that_10 = State_Output_1 != this.__p_Um3Ok1CdjpyMSyCM5QYjoh || manager_3 != this.__cache_EnMJIHIP5HDP5JHKBazARD ? new JSONReader_XDocument_NbGfJLYlal5O49GfRvntMG(this)
                 {__p_Um3Ok1CdjpyMSyCM5QYjoh = State_Output_1, __cache_EnMJIHIP5HDP5JHKBazARD = manager_3} : that_10;
@@ -3823,20 +3823,20 @@ namespace _VL_Xml_.System.XML.Advanced
             return that_10;
         }
 
-        public n37.JSONReader_XDocument_NbGfJLYlal5O49GfRvntMG __Create__(n1.NodeContext Node_Context)
+        public n33.JSONReader_XDocument_NbGfJLYlal5O49GfRvntMG __Create__(n1.NodeContext Node_Context)
         {
             n13.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "Um3Ok1CdjpyMSyCM5QYjoh", 215885U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "Um3Ok1CdjpyMSyCM5QYjoh", 93718U);
             var Output_1 = n56.FileReader_String_TT8gWSNJDrLPfzy5QjExui.Create(Node_Context: Node_Context_0);
-            n37.JSONReader_XDocument_NbGfJLYlal5O49GfRvntMG that_2 = this;
+            n33.JSONReader_XDocument_NbGfJLYlal5O49GfRvntMG that_2 = this;
             this.__p_Um3Ok1CdjpyMSyCM5QYjoh = Output_1;
             this.__cache_EnMJIHIP5HDP5JHKBazARD = null;
             return that_2;
         }
 
-        public n37.JSONReader_XDocument_NbGfJLYlal5O49GfRvntMG __CreateDefault__()
+        public n33.JSONReader_XDocument_NbGfJLYlal5O49GfRvntMG __CreateDefault__()
         {
-            n37.JSONReader_XDocument_NbGfJLYlal5O49GfRvntMG that_0 = this;
+            n33.JSONReader_XDocument_NbGfJLYlal5O49GfRvntMG that_0 = this;
             this.__p_Um3Ok1CdjpyMSyCM5QYjoh = n56.FileReader_String_TT8gWSNJDrLPfzy5QjExui.CreateDefault();
             this.__cache_EnMJIHIP5HDP5JHKBazARD = null;
             return that_0;
@@ -3855,9 +3855,9 @@ namespace _VL_Xml_.System.XML.Advanced
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 215885U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "Um3Ok1CdjpyMSyCM5QYjoh", Name = "FileReader (String)", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 93718U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "Um3Ok1CdjpyMSyCM5QYjoh", Name = "FileReader (String)", IsManaged = true, IsAutoGenerated = true)]
         public n56.FileReader_String_TT8gWSNJDrLPfzy5QjExui __p_Um3Ok1CdjpyMSyCM5QYjoh;
-        [n1.ElementAttribute(TracingId = 215900U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "EnMJIHIP5HDP5JHKBazARD", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 93741U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "EnMJIHIP5HDP5JHKBazARD", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
         public n55.Manager<n2.ValueTuple, n2.ValueTuple<n6.XDocument>> __cache_EnMJIHIP5HDP5JHKBazARD = null;
         public JSONReader_XDocument_NbGfJLYlal5O49GfRvntMG(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -3876,7 +3876,7 @@ namespace _VL_Xml_.System.XML.Advanced
 
         internal JSONReader_XDocument_NbGfJLYlal5O49GfRvntMG __WITH__(n56.FileReader_String_TT8gWSNJDrLPfzy5QjExui __p_Um3Ok1CdjpyMSyCM5QYjoh, n55.Manager<n2.ValueTuple, n2.ValueTuple<n6.XDocument>> __cache_EnMJIHIP5HDP5JHKBazARD)
         {
-            n37.JSONReader_XDocument_NbGfJLYlal5O49GfRvntMG that_0 = this;
+            n33.JSONReader_XDocument_NbGfJLYlal5O49GfRvntMG that_0 = this;
             if (this.__GetContext__().IsImmutable)
                 that_0 = __p_Um3Ok1CdjpyMSyCM5QYjoh != this.__p_Um3Ok1CdjpyMSyCM5QYjoh || __cache_EnMJIHIP5HDP5JHKBazARD != this.__cache_EnMJIHIP5HDP5JHKBazARD ? new JSONReader_XDocument_NbGfJLYlal5O49GfRvntMG(this)
                 {__p_Um3Ok1CdjpyMSyCM5QYjoh = __p_Um3Ok1CdjpyMSyCM5QYjoh, __cache_EnMJIHIP5HDP5JHKBazARD = __cache_EnMJIHIP5HDP5JHKBazARD} : that_0;
@@ -3890,25 +3890,25 @@ namespace _VL_Xml_.System.XML.Advanced
         }
     }
 
-    [n1.ElementAttribute(TracingId = 216025U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "Rk0S9JlrxWRMdVQDEsXCS7", Name = "JSONWriter_XDocument_Rk0S9JlrxWRMdVQDEsXCS7")]
+    [n1.ElementAttribute(TracingId = 93879U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "Rk0S9JlrxWRMdVQDEsXCS7", Name = "JSONWriter_XDocument_Rk0S9JlrxWRMdVQDEsXCS7")]
     [n2.SerializableAttribute]
     public class JSONWriter_XDocument_Rk0S9JlrxWRMdVQDEsXCS7 : n1.VLObject, n2.IDisposable
     {
         [n4.CreateNewAttribute]
-        public static n37.JSONWriter_XDocument_Rk0S9JlrxWRMdVQDEsXCS7 Create(n1.NodeContext Node_Context)
+        public static n33.JSONWriter_XDocument_Rk0S9JlrxWRMdVQDEsXCS7 Create(n1.NodeContext Node_Context)
         {
             var instance = new JSONWriter_XDocument_Rk0S9JlrxWRMdVQDEsXCS7(Node_Context, n1.VLObject.NewIdentity());
             return instance.__Create__(Node_Context);
         }
 
         [n4.CreateDefaultAttribute]
-        public static n37.JSONWriter_XDocument_Rk0S9JlrxWRMdVQDEsXCS7 CreateDefault()
+        public static n33.JSONWriter_XDocument_Rk0S9JlrxWRMdVQDEsXCS7 CreateDefault()
         {
             var instance = new JSONWriter_XDocument_Rk0S9JlrxWRMdVQDEsXCS7(n1.NodeContext.Default, n1.VLObject.NewIdentity());
             return instance.__CreateDefault__();
         }
 
-        public n37.JSONWriter_XDocument_Rk0S9JlrxWRMdVQDEsXCS7 Update(n11.Path File_Path_In, n6.XNode Data_In, n12.Encodings Encoding_In, [n4.SerializedDefaultValueAttribute("True", false)] bool Indent_In, bool Omit_Root_Object_In, bool Write_In)
+        public n33.JSONWriter_XDocument_Rk0S9JlrxWRMdVQDEsXCS7 Update(n11.Path File_Path_In, n6.XNode Data_In, n12.Encodings Encoding_In, [n4.SerializedDefaultValueAttribute("True", false)] bool Indent_In, bool Omit_Root_Object_In, bool Write_In)
         {
             string __auto_0;
             if (Write_In)
@@ -3929,7 +3929,7 @@ namespace _VL_Xml_.System.XML.Advanced
                 Output_5 = this.__p_IxYbIrXUJ6jOTkCB1is6Jg.Update(File_Path_In: File_Path_In, Data_In: __auto_0, Encoding_In: Encoding_In, Append_In: Append_3, Write_In: Write_In);
             }
 
-            n37.JSONWriter_XDocument_Rk0S9JlrxWRMdVQDEsXCS7 that_6 = this;
+            n33.JSONWriter_XDocument_Rk0S9JlrxWRMdVQDEsXCS7 that_6 = this;
             if (this.__GetContext__().IsImmutable)
                 that_6 = Output_5 != this.__p_IxYbIrXUJ6jOTkCB1is6Jg ? new JSONWriter_XDocument_Rk0S9JlrxWRMdVQDEsXCS7(this)
                 {__p_IxYbIrXUJ6jOTkCB1is6Jg = Output_5} : that_6;
@@ -3941,19 +3941,19 @@ namespace _VL_Xml_.System.XML.Advanced
             return that_6;
         }
 
-        public n37.JSONWriter_XDocument_Rk0S9JlrxWRMdVQDEsXCS7 __Create__(n1.NodeContext Node_Context)
+        public n33.JSONWriter_XDocument_Rk0S9JlrxWRMdVQDEsXCS7 __Create__(n1.NodeContext Node_Context)
         {
             n13.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "IxYbIrXUJ6jOTkCB1is6Jg", 216045U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "IxYbIrXUJ6jOTkCB1is6Jg", 93901U);
             var Output_1 = n56.FileWriter_String_RhzHb4NoVZQP8wGq101JDK.Create(Node_Context: Node_Context_0);
-            n37.JSONWriter_XDocument_Rk0S9JlrxWRMdVQDEsXCS7 that_2 = this;
+            n33.JSONWriter_XDocument_Rk0S9JlrxWRMdVQDEsXCS7 that_2 = this;
             this.__p_IxYbIrXUJ6jOTkCB1is6Jg = Output_1;
             return that_2;
         }
 
-        public n37.JSONWriter_XDocument_Rk0S9JlrxWRMdVQDEsXCS7 __CreateDefault__()
+        public n33.JSONWriter_XDocument_Rk0S9JlrxWRMdVQDEsXCS7 __CreateDefault__()
         {
-            n37.JSONWriter_XDocument_Rk0S9JlrxWRMdVQDEsXCS7 that_0 = this;
+            n33.JSONWriter_XDocument_Rk0S9JlrxWRMdVQDEsXCS7 that_0 = this;
             this.__p_IxYbIrXUJ6jOTkCB1is6Jg = n56.FileWriter_String_RhzHb4NoVZQP8wGq101JDK.CreateDefault();
             return that_0;
         }
@@ -3970,7 +3970,7 @@ namespace _VL_Xml_.System.XML.Advanced
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 216045U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "IxYbIrXUJ6jOTkCB1is6Jg", Name = "FileWriter (String)", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 93901U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "IxYbIrXUJ6jOTkCB1is6Jg", Name = "FileWriter (String)", IsManaged = true, IsAutoGenerated = true)]
         public n56.FileWriter_String_RhzHb4NoVZQP8wGq101JDK __p_IxYbIrXUJ6jOTkCB1is6Jg;
         public JSONWriter_XDocument_Rk0S9JlrxWRMdVQDEsXCS7(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -3988,7 +3988,7 @@ namespace _VL_Xml_.System.XML.Advanced
 
         internal JSONWriter_XDocument_Rk0S9JlrxWRMdVQDEsXCS7 __WITH__(n56.FileWriter_String_RhzHb4NoVZQP8wGq101JDK __p_IxYbIrXUJ6jOTkCB1is6Jg)
         {
-            n37.JSONWriter_XDocument_Rk0S9JlrxWRMdVQDEsXCS7 that_0 = this;
+            n33.JSONWriter_XDocument_Rk0S9JlrxWRMdVQDEsXCS7 that_0 = this;
             if (this.__GetContext__().IsImmutable)
                 that_0 = __p_IxYbIrXUJ6jOTkCB1is6Jg != this.__p_IxYbIrXUJ6jOTkCB1is6Jg ? new JSONWriter_XDocument_Rk0S9JlrxWRMdVQDEsXCS7(this)
                 {__p_IxYbIrXUJ6jOTkCB1is6Jg = __p_IxYbIrXUJ6jOTkCB1is6Jg} : that_0;
@@ -4001,29 +4001,29 @@ namespace _VL_Xml_.System.XML.Advanced
         }
     }
 
-    [n1.ElementAttribute(TracingId = 216154U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "TgZP25u6vCjPyckNhH9sai", Name = "JSONReader_XDocument_Reactive_TgZP25u6vCjPyckNhH9sai")]
+    [n1.ElementAttribute(TracingId = 94097U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "TgZP25u6vCjPyckNhH9sai", Name = "JSONReader_XDocument_Reactive_TgZP25u6vCjPyckNhH9sai")]
     [n2.SerializableAttribute]
     public class JSONReader_XDocument_Reactive_TgZP25u6vCjPyckNhH9sai : n1.VLObject, n2.IDisposable
     {
         [n4.CreateNewAttribute]
-        public static n37.JSONReader_XDocument_Reactive_TgZP25u6vCjPyckNhH9sai Create(n1.NodeContext Node_Context)
+        public static n33.JSONReader_XDocument_Reactive_TgZP25u6vCjPyckNhH9sai Create(n1.NodeContext Node_Context)
         {
             var instance = new JSONReader_XDocument_Reactive_TgZP25u6vCjPyckNhH9sai(Node_Context, n1.VLObject.NewIdentity());
             return instance.__Create__(Node_Context);
         }
 
         [n4.CreateDefaultAttribute]
-        public static n37.JSONReader_XDocument_Reactive_TgZP25u6vCjPyckNhH9sai CreateDefault()
+        public static n33.JSONReader_XDocument_Reactive_TgZP25u6vCjPyckNhH9sai CreateDefault()
         {
             var instance = new JSONReader_XDocument_Reactive_TgZP25u6vCjPyckNhH9sai(n1.NodeContext.Default, n1.VLObject.NewIdentity());
             return instance.__CreateDefault__();
         }
 
-        public n37.JSONReader_XDocument_Reactive_TgZP25u6vCjPyckNhH9sai Update(n11.Path File_Path_In, n12.Encodings Encoding_In, string Deserialize_Root_Element_Name_In, bool Write_Array_Attribute_In, bool Read_In, out n2.IObservable<n6.XDocument> Output_Out, out float Progress_Out, out bool In_Progress_Out, out bool On_Completed_Out)
+        public n33.JSONReader_XDocument_Reactive_TgZP25u6vCjPyckNhH9sai Update(n11.Path File_Path_In, n12.Encodings Encoding_In, string Deserialize_Root_Element_Name_In, bool Write_Array_Attribute_In, bool Read_In, out n2.IObservable<n6.XDocument> Output_Out, out float Progress_Out, out bool In_Progress_Out, out bool On_Completed_Out)
         {
             var State_Output_4 = this.__p_D2WVAhYr6YFMhyR2mypJ4S.Update(File_Path_In: File_Path_In, Encoding_In: Encoding_In, Read_In: Read_In, Output_Out: out n2.IObservable<string> Output_0, Progress_Out: out float Progress_1, In_Progress_Out: out bool In_Progress_2, On_Completed_Out: out bool On_Completed_3);
             var __fallback___5 = n1.ServiceRegistry.Current;
-            var Output_12 = this.__p_CkQVpPNFnVVMv8W9n8rAes.Update<n40.__AdaptiveImplementations__Q2iWAXgl3GDPCvxD5IfFJH>(Value_In: Output_0, Selector_In: (string Arg_1_In_7, int Arg_2_In_8) =>
+            var Output_12 = this.__p_CkQVpPNFnVVMv8W9n8rAes.Update<n36.__AdaptiveImplementations__Q2iWAXgl3GDPCvxD5IfFJH>(Value_In: Output_0, Selector_In: (string Arg_1_In_7, int Arg_2_In_8) =>
             {
                 using var __current_6 = __fallback___5.MakeCurrentIfNone();
                 var Result_9 = n24.XmlNodes.DeserializeXNode(json: Arg_1_In_7, deserializeRootElementName: Deserialize_Root_Element_Name_In, writeArrayAttribute: Write_Array_Attribute_In);
@@ -4035,7 +4035,7 @@ namespace _VL_Xml_.System.XML.Advanced
             Progress_Out = Progress_1;
             In_Progress_Out = In_Progress_2;
             On_Completed_Out = On_Completed_3;
-            n37.JSONReader_XDocument_Reactive_TgZP25u6vCjPyckNhH9sai that_13 = this;
+            n33.JSONReader_XDocument_Reactive_TgZP25u6vCjPyckNhH9sai that_13 = this;
             if (this.__GetContext__().IsImmutable)
                 that_13 = State_Output_4 != this.__p_D2WVAhYr6YFMhyR2mypJ4S || Output_12 != this.__p_CkQVpPNFnVVMv8W9n8rAes ? new JSONReader_XDocument_Reactive_TgZP25u6vCjPyckNhH9sai(this)
                 {__p_D2WVAhYr6YFMhyR2mypJ4S = State_Output_4, __p_CkQVpPNFnVVMv8W9n8rAes = Output_12} : that_13;
@@ -4048,24 +4048,24 @@ namespace _VL_Xml_.System.XML.Advanced
             return that_13;
         }
 
-        public n37.JSONReader_XDocument_Reactive_TgZP25u6vCjPyckNhH9sai __Create__(n1.NodeContext Node_Context)
+        public n33.JSONReader_XDocument_Reactive_TgZP25u6vCjPyckNhH9sai __Create__(n1.NodeContext Node_Context)
         {
             n13.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "D2WVAhYr6YFMhyR2mypJ4S", 216177U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "D2WVAhYr6YFMhyR2mypJ4S", 94138U);
             var Output_1 = n56.FileReader_String_Reactive_VTFPwrKqLPQOeQrp8g7eWh.Create(Node_Context: Node_Context_0);
-            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "CkQVpPNFnVVMv8W9n8rAes", 216201U);
-            var Output_3 = n42.Select_IShm0SBzszCN5V5IleChXI<n2.IObservable<string>, string, n6.XDocument>.Create<n40.__AdaptiveImplementations__Q2iWAXgl3GDPCvxD5IfFJH>(Node_Context: Node_Context_2);
-            n37.JSONReader_XDocument_Reactive_TgZP25u6vCjPyckNhH9sai that_4 = this;
+            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "CkQVpPNFnVVMv8W9n8rAes", 94177U);
+            var Output_3 = n38.Select_IShm0SBzszCN5V5IleChXI<n2.IObservable<string>, string, n6.XDocument>.Create<n36.__AdaptiveImplementations__Q2iWAXgl3GDPCvxD5IfFJH>(Node_Context: Node_Context_2);
+            n33.JSONReader_XDocument_Reactive_TgZP25u6vCjPyckNhH9sai that_4 = this;
             this.__p_D2WVAhYr6YFMhyR2mypJ4S = Output_1;
             this.__p_CkQVpPNFnVVMv8W9n8rAes = Output_3;
             return that_4;
         }
 
-        public n37.JSONReader_XDocument_Reactive_TgZP25u6vCjPyckNhH9sai __CreateDefault__()
+        public n33.JSONReader_XDocument_Reactive_TgZP25u6vCjPyckNhH9sai __CreateDefault__()
         {
-            n37.JSONReader_XDocument_Reactive_TgZP25u6vCjPyckNhH9sai that_0 = this;
+            n33.JSONReader_XDocument_Reactive_TgZP25u6vCjPyckNhH9sai that_0 = this;
             this.__p_D2WVAhYr6YFMhyR2mypJ4S = n56.FileReader_String_Reactive_VTFPwrKqLPQOeQrp8g7eWh.CreateDefault();
-            this.__p_CkQVpPNFnVVMv8W9n8rAes = n42.Select_IShm0SBzszCN5V5IleChXI<n2.IObservable<string>, string, n6.XDocument>.CreateDefault<n40.__AdaptiveImplementations__Q2iWAXgl3GDPCvxD5IfFJH>();
+            this.__p_CkQVpPNFnVVMv8W9n8rAes = n38.Select_IShm0SBzszCN5V5IleChXI<n2.IObservable<string>, string, n6.XDocument>.CreateDefault<n36.__AdaptiveImplementations__Q2iWAXgl3GDPCvxD5IfFJH>();
             return that_0;
         }
 
@@ -4082,10 +4082,10 @@ namespace _VL_Xml_.System.XML.Advanced
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 216177U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "D2WVAhYr6YFMhyR2mypJ4S", Name = "FileReader (String Reactive)", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 94138U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "D2WVAhYr6YFMhyR2mypJ4S", Name = "FileReader (String Reactive)", IsManaged = true, IsAutoGenerated = true)]
         public n56.FileReader_String_Reactive_VTFPwrKqLPQOeQrp8g7eWh __p_D2WVAhYr6YFMhyR2mypJ4S;
-        [n1.ElementAttribute(TracingId = 216201U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "CkQVpPNFnVVMv8W9n8rAes", Name = "Select", IsManaged = true, IsAutoGenerated = true)]
-        public n42.Select_IShm0SBzszCN5V5IleChXI<n2.IObservable<string>, string, n6.XDocument> __p_CkQVpPNFnVVMv8W9n8rAes;
+        [n1.ElementAttribute(TracingId = 94177U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "CkQVpPNFnVVMv8W9n8rAes", Name = "Select", IsManaged = true, IsAutoGenerated = true)]
+        public n38.Select_IShm0SBzszCN5V5IleChXI<n2.IObservable<string>, string, n6.XDocument> __p_CkQVpPNFnVVMv8W9n8rAes;
         public JSONReader_XDocument_Reactive_TgZP25u6vCjPyckNhH9sai(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
         }
@@ -4101,9 +4101,9 @@ namespace _VL_Xml_.System.XML.Advanced
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__p_D2WVAhYr6YFMhyR2mypJ4S", in __p_D2WVAhYr6YFMhyR2mypJ4S), n1.CompilationHelper.GetValueOrExisting(values, "__p_CkQVpPNFnVVMv8W9n8rAes", in __p_CkQVpPNFnVVMv8W9n8rAes));
         }
 
-        internal JSONReader_XDocument_Reactive_TgZP25u6vCjPyckNhH9sai __WITH__(n56.FileReader_String_Reactive_VTFPwrKqLPQOeQrp8g7eWh __p_D2WVAhYr6YFMhyR2mypJ4S, n42.Select_IShm0SBzszCN5V5IleChXI<n2.IObservable<string>, string, n6.XDocument> __p_CkQVpPNFnVVMv8W9n8rAes)
+        internal JSONReader_XDocument_Reactive_TgZP25u6vCjPyckNhH9sai __WITH__(n56.FileReader_String_Reactive_VTFPwrKqLPQOeQrp8g7eWh __p_D2WVAhYr6YFMhyR2mypJ4S, n38.Select_IShm0SBzszCN5V5IleChXI<n2.IObservable<string>, string, n6.XDocument> __p_CkQVpPNFnVVMv8W9n8rAes)
         {
-            n37.JSONReader_XDocument_Reactive_TgZP25u6vCjPyckNhH9sai that_0 = this;
+            n33.JSONReader_XDocument_Reactive_TgZP25u6vCjPyckNhH9sai that_0 = this;
             if (this.__GetContext__().IsImmutable)
                 that_0 = __p_D2WVAhYr6YFMhyR2mypJ4S != this.__p_D2WVAhYr6YFMhyR2mypJ4S || __p_CkQVpPNFnVVMv8W9n8rAes != this.__p_CkQVpPNFnVVMv8W9n8rAes ? new JSONReader_XDocument_Reactive_TgZP25u6vCjPyckNhH9sai(this)
                 {__p_D2WVAhYr6YFMhyR2mypJ4S = __p_D2WVAhYr6YFMhyR2mypJ4S, __p_CkQVpPNFnVVMv8W9n8rAes = __p_CkQVpPNFnVVMv8W9n8rAes} : that_0;
@@ -4117,28 +4117,28 @@ namespace _VL_Xml_.System.XML.Advanced
         }
     }
 
-    [n1.ElementAttribute(TracingId = 216380U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "IWXVEYl2Q9nMFA1Ol9XYnk", Name = "JSONWriter_XDocument_Reactive_IWXVEYl2Q9nMFA1Ol9XYnk")]
+    [n1.ElementAttribute(TracingId = 94407U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "IWXVEYl2Q9nMFA1Ol9XYnk", Name = "JSONWriter_XDocument_Reactive_IWXVEYl2Q9nMFA1Ol9XYnk")]
     [n2.SerializableAttribute]
     public class JSONWriter_XDocument_Reactive_IWXVEYl2Q9nMFA1Ol9XYnk : n1.VLObject, n2.IDisposable
     {
         [n4.CreateNewAttribute]
-        public static n37.JSONWriter_XDocument_Reactive_IWXVEYl2Q9nMFA1Ol9XYnk Create(n1.NodeContext Node_Context)
+        public static n33.JSONWriter_XDocument_Reactive_IWXVEYl2Q9nMFA1Ol9XYnk Create(n1.NodeContext Node_Context)
         {
             var instance = new JSONWriter_XDocument_Reactive_IWXVEYl2Q9nMFA1Ol9XYnk(Node_Context, n1.VLObject.NewIdentity());
             return instance.__Create__(Node_Context);
         }
 
         [n4.CreateDefaultAttribute]
-        public static n37.JSONWriter_XDocument_Reactive_IWXVEYl2Q9nMFA1Ol9XYnk CreateDefault()
+        public static n33.JSONWriter_XDocument_Reactive_IWXVEYl2Q9nMFA1Ol9XYnk CreateDefault()
         {
             var instance = new JSONWriter_XDocument_Reactive_IWXVEYl2Q9nMFA1Ol9XYnk(n1.NodeContext.Default, n1.VLObject.NewIdentity());
             return instance.__CreateDefault__();
         }
 
-        public n37.JSONWriter_XDocument_Reactive_IWXVEYl2Q9nMFA1Ol9XYnk Update(n11.Path File_Path_In, n2.IObservable<n6.XNode> Data_In, n12.Encodings Encoding_In, [n4.SerializedDefaultValueAttribute("True", false)] bool Indent_In, bool Omit_Root_Object_In, out float Progress_Out, out bool In_Progress_Out, out bool On_Completed_Out)
+        public n33.JSONWriter_XDocument_Reactive_IWXVEYl2Q9nMFA1Ol9XYnk Update(n11.Path File_Path_In, n2.IObservable<n6.XNode> Data_In, n12.Encodings Encoding_In, [n4.SerializedDefaultValueAttribute("True", false)] bool Indent_In, bool Omit_Root_Object_In, out float Progress_Out, out bool In_Progress_Out, out bool On_Completed_Out)
         {
             var __fallback___0 = n1.ServiceRegistry.Current;
-            var Output_7 = this.__p_R87epakuMZ6NneyLN9S2cB.Update<n40.__AdaptiveImplementations__Q2iWAXgl3GDPCvxD5IfFJH>(Value_In: Data_In, Selector_In: (n6.XNode Arg_1_In_2, int Arg_2_In_3) =>
+            var Output_7 = this.__p_R87epakuMZ6NneyLN9S2cB.Update<n36.__AdaptiveImplementations__Q2iWAXgl3GDPCvxD5IfFJH>(Value_In: Data_In, Selector_In: (n6.XNode Arg_1_In_2, int Arg_2_In_3) =>
             {
                 using var __current_1 = __fallback___0.MakeCurrentIfNone();
                 var Result_4 = n24.XmlNodes.SerializeXNode(input: Arg_1_In_2, indent: Indent_In, omitRootObject: Omit_Root_Object_In);
@@ -4151,7 +4151,7 @@ namespace _VL_Xml_.System.XML.Advanced
             Progress_Out = Progress_9;
             In_Progress_Out = In_Progress_10;
             On_Completed_Out = On_Completed_11;
-            n37.JSONWriter_XDocument_Reactive_IWXVEYl2Q9nMFA1Ol9XYnk that_13 = this;
+            n33.JSONWriter_XDocument_Reactive_IWXVEYl2Q9nMFA1Ol9XYnk that_13 = this;
             if (this.__GetContext__().IsImmutable)
                 that_13 = Output_7 != this.__p_R87epakuMZ6NneyLN9S2cB || Output_12 != this.__p_Hpixyv227ngNnvbIS2BE4A ? new JSONWriter_XDocument_Reactive_IWXVEYl2Q9nMFA1Ol9XYnk(this)
                 {__p_R87epakuMZ6NneyLN9S2cB = Output_7, __p_Hpixyv227ngNnvbIS2BE4A = Output_12} : that_13;
@@ -4164,23 +4164,23 @@ namespace _VL_Xml_.System.XML.Advanced
             return that_13;
         }
 
-        public n37.JSONWriter_XDocument_Reactive_IWXVEYl2Q9nMFA1Ol9XYnk __Create__(n1.NodeContext Node_Context)
+        public n33.JSONWriter_XDocument_Reactive_IWXVEYl2Q9nMFA1Ol9XYnk __Create__(n1.NodeContext Node_Context)
         {
             n13.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "Hpixyv227ngNnvbIS2BE4A", 216405U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "Hpixyv227ngNnvbIS2BE4A", 94433U);
             var Output_1 = n56.FileWriter_String_Reactive_IKMLoIqK7roLwjblZg9cs1.Create(Node_Context: Node_Context_0);
-            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "R87epakuMZ6NneyLN9S2cB", 216437U);
-            var Output_3 = n42.Select_IShm0SBzszCN5V5IleChXI<n2.IObservable<n6.XNode>, n6.XNode, string>.Create<n40.__AdaptiveImplementations__Q2iWAXgl3GDPCvxD5IfFJH>(Node_Context: Node_Context_2);
-            n37.JSONWriter_XDocument_Reactive_IWXVEYl2Q9nMFA1Ol9XYnk that_4 = this;
+            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("Q2iWAXgl3GDPCvxD5IfFJH", "R87epakuMZ6NneyLN9S2cB", 94463U);
+            var Output_3 = n38.Select_IShm0SBzszCN5V5IleChXI<n2.IObservable<n6.XNode>, n6.XNode, string>.Create<n36.__AdaptiveImplementations__Q2iWAXgl3GDPCvxD5IfFJH>(Node_Context: Node_Context_2);
+            n33.JSONWriter_XDocument_Reactive_IWXVEYl2Q9nMFA1Ol9XYnk that_4 = this;
             this.__p_Hpixyv227ngNnvbIS2BE4A = Output_1;
             this.__p_R87epakuMZ6NneyLN9S2cB = Output_3;
             return that_4;
         }
 
-        public n37.JSONWriter_XDocument_Reactive_IWXVEYl2Q9nMFA1Ol9XYnk __CreateDefault__()
+        public n33.JSONWriter_XDocument_Reactive_IWXVEYl2Q9nMFA1Ol9XYnk __CreateDefault__()
         {
-            n37.JSONWriter_XDocument_Reactive_IWXVEYl2Q9nMFA1Ol9XYnk that_0 = this;
-            this.__p_R87epakuMZ6NneyLN9S2cB = n42.Select_IShm0SBzszCN5V5IleChXI<n2.IObservable<n6.XNode>, n6.XNode, string>.CreateDefault<n40.__AdaptiveImplementations__Q2iWAXgl3GDPCvxD5IfFJH>();
+            n33.JSONWriter_XDocument_Reactive_IWXVEYl2Q9nMFA1Ol9XYnk that_0 = this;
+            this.__p_R87epakuMZ6NneyLN9S2cB = n38.Select_IShm0SBzszCN5V5IleChXI<n2.IObservable<n6.XNode>, n6.XNode, string>.CreateDefault<n36.__AdaptiveImplementations__Q2iWAXgl3GDPCvxD5IfFJH>();
             this.__p_Hpixyv227ngNnvbIS2BE4A = n56.FileWriter_String_Reactive_IKMLoIqK7roLwjblZg9cs1.CreateDefault();
             return that_0;
         }
@@ -4198,9 +4198,9 @@ namespace _VL_Xml_.System.XML.Advanced
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 216437U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "R87epakuMZ6NneyLN9S2cB", Name = "Select", IsManaged = true, IsAutoGenerated = true)]
-        public n42.Select_IShm0SBzszCN5V5IleChXI<n2.IObservable<n6.XNode>, n6.XNode, string> __p_R87epakuMZ6NneyLN9S2cB;
-        [n1.ElementAttribute(TracingId = 216405U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "Hpixyv227ngNnvbIS2BE4A", Name = "FileWriter (String Reactive)", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 94463U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "R87epakuMZ6NneyLN9S2cB", Name = "Select", IsManaged = true, IsAutoGenerated = true)]
+        public n38.Select_IShm0SBzszCN5V5IleChXI<n2.IObservable<n6.XNode>, n6.XNode, string> __p_R87epakuMZ6NneyLN9S2cB;
+        [n1.ElementAttribute(TracingId = 94433U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", PersistentId = "Hpixyv227ngNnvbIS2BE4A", Name = "FileWriter (String Reactive)", IsManaged = true, IsAutoGenerated = true)]
         public n56.FileWriter_String_Reactive_IKMLoIqK7roLwjblZg9cs1 __p_Hpixyv227ngNnvbIS2BE4A;
         public JSONWriter_XDocument_Reactive_IWXVEYl2Q9nMFA1Ol9XYnk(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -4217,9 +4217,9 @@ namespace _VL_Xml_.System.XML.Advanced
             return __WITH__(n1.CompilationHelper.GetValueOrExisting(values, "__p_R87epakuMZ6NneyLN9S2cB", in __p_R87epakuMZ6NneyLN9S2cB), n1.CompilationHelper.GetValueOrExisting(values, "__p_Hpixyv227ngNnvbIS2BE4A", in __p_Hpixyv227ngNnvbIS2BE4A));
         }
 
-        internal JSONWriter_XDocument_Reactive_IWXVEYl2Q9nMFA1Ol9XYnk __WITH__(n42.Select_IShm0SBzszCN5V5IleChXI<n2.IObservable<n6.XNode>, n6.XNode, string> __p_R87epakuMZ6NneyLN9S2cB, n56.FileWriter_String_Reactive_IKMLoIqK7roLwjblZg9cs1 __p_Hpixyv227ngNnvbIS2BE4A)
+        internal JSONWriter_XDocument_Reactive_IWXVEYl2Q9nMFA1Ol9XYnk __WITH__(n38.Select_IShm0SBzszCN5V5IleChXI<n2.IObservable<n6.XNode>, n6.XNode, string> __p_R87epakuMZ6NneyLN9S2cB, n56.FileWriter_String_Reactive_IKMLoIqK7roLwjblZg9cs1 __p_Hpixyv227ngNnvbIS2BE4A)
         {
-            n37.JSONWriter_XDocument_Reactive_IWXVEYl2Q9nMFA1Ol9XYnk that_0 = this;
+            n33.JSONWriter_XDocument_Reactive_IWXVEYl2Q9nMFA1Ol9XYnk that_0 = this;
             if (this.__GetContext__().IsImmutable)
                 that_0 = __p_R87epakuMZ6NneyLN9S2cB != this.__p_R87epakuMZ6NneyLN9S2cB || __p_Hpixyv227ngNnvbIS2BE4A != this.__p_Hpixyv227ngNnvbIS2BE4A ? new JSONWriter_XDocument_Reactive_IWXVEYl2Q9nMFA1Ol9XYnk(this)
                 {__p_R87epakuMZ6NneyLN9S2cB = __p_R87epakuMZ6NneyLN9S2cB, __p_Hpixyv227ngNnvbIS2BE4A = __p_Hpixyv227ngNnvbIS2BE4A} : that_0;
@@ -4233,7 +4233,7 @@ namespace _VL_Xml_.System.XML.Advanced
         }
     }
 
-    [n1.ElementAttribute(TracingId = 209714U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 65798U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", Name = "_Operations_")]
     public static partial class _Operations_
     {
         public static void Load(string Uri_In, out n6.XDocument Result_Out)
@@ -4252,7 +4252,7 @@ namespace _VL_Xml_.System.XML.Advanced
 
         public static void XPathEvaluate(n6.XNode Input_In, string Expression_In, out n2.Object Result_Out)
         {
-            var Result_0 = n44.Extensions.XPathEvaluate(node: Input_In, expression: Expression_In);
+            var Result_0 = n41.Extensions.XPathEvaluate(node: Input_In, expression: Expression_In);
             Result_Out = Result_0;
             return;
         }
@@ -4275,7 +4275,7 @@ namespace _VL_Xml_.System.XML.Advanced
 
 namespace _VL_Xml_.System.XML.ValidationType.Advanced
 {
-    [n1.ElementAttribute(TracingId = 209714U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 65798U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", Name = "_Operations_")]
     public static partial class _Operations_
     {
         public static void NE(n24.ValidationType Input_In, n24.ValidationType Input_2_In, out bool Result_Out)
@@ -4317,7 +4317,7 @@ namespace _VL_Xml_.System.XML.ValidationType.Advanced
 
 namespace _VL_Xml_.System.XML.XDocumentReader.Advanced
 {
-    [n1.ElementAttribute(TracingId = 209714U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 65798U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateNewAttribute]
@@ -4328,7 +4328,7 @@ namespace _VL_Xml_.System.XML.XDocumentReader.Advanced
             return;
         }
 
-        public static void Update(n23.XDocumentReader Input__this__In, n34.IResourceProvider<n19.Stream> Input_In, bool Read_In, out n23.XDocumentReader Output_Out, out n6.XDocument Result_Out)
+        public static void Update(n23.XDocumentReader Input__this__In, n30.IResourceProvider<n19.Stream> Input_In, bool Read_In, out n23.XDocumentReader Output_Out, out n6.XDocument Result_Out)
         {
             var Result_0 = Input__this__In.Update(input: Input_In, read: Read_In);
             Output_Out = Input__this__In;
@@ -4340,7 +4340,7 @@ namespace _VL_Xml_.System.XML.XDocumentReader.Advanced
 
 namespace _VL_Xml_.System.XML.XDocumentWriter.Advanced
 {
-    [n1.ElementAttribute(TracingId = 209714U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 65798U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateNewAttribute]
@@ -4351,7 +4351,7 @@ namespace _VL_Xml_.System.XML.XDocumentWriter.Advanced
             return;
         }
 
-        public static void Update(n23.XDocumentWriter Input__this__In, n34.IResourceProvider<n19.Stream> Input_In, n6.XDocument Data_In, bool Write_In, out n23.XDocumentWriter Output_Out)
+        public static void Update(n23.XDocumentWriter Input__this__In, n30.IResourceProvider<n19.Stream> Input_In, n6.XDocument Data_In, bool Write_In, out n23.XDocumentWriter Output_Out)
         {
             Input__this__In.Update(input: Input_In, data: Data_In, write: Write_In);
             Output_Out = Input__this__In;
@@ -4362,7 +4362,7 @@ namespace _VL_Xml_.System.XML.XDocumentWriter.Advanced
 
 namespace _VL_Xml_.System.XML.XDocumentReader_Reactive.Advanced
 {
-    [n1.ElementAttribute(TracingId = 209714U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 65798U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateNewAttribute]
@@ -4373,7 +4373,7 @@ namespace _VL_Xml_.System.XML.XDocumentReader_Reactive.Advanced
             return;
         }
 
-        public static void Update_H(n23.AsyncXDocumentReader Input__this__In, n2.IObservable<n34.IResourceProvider<n19.Stream>> Input_In, out n23.AsyncXDocumentReader Output_Out, out n2.IObservable<n6.XDocument> Result_Out, out bool In_Progress_Out, out bool On_Completed_Out)
+        public static void Update_H(n23.AsyncXDocumentReader Input__this__In, n2.IObservable<n30.IResourceProvider<n19.Stream>> Input_In, out n23.AsyncXDocumentReader Output_Out, out n2.IObservable<n6.XDocument> Result_Out, out bool In_Progress_Out, out bool On_Completed_Out)
         {
             var Result_2 = Input__this__In.Update(input: Input_In, inProgress: out bool In_Progress_0, onCompleted: out bool On_Completed_1);
             Output_Out = Input__this__In;
@@ -4387,7 +4387,7 @@ namespace _VL_Xml_.System.XML.XDocumentReader_Reactive.Advanced
 
 namespace _VL_Xml_.System.XML.XDocumentWriter_Reactive.Advanced
 {
-    [n1.ElementAttribute(TracingId = 209714U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 65798U, DocumentId = "Q2iWAXgl3GDPCvxD5IfFJH", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateNewAttribute]
@@ -4398,7 +4398,7 @@ namespace _VL_Xml_.System.XML.XDocumentWriter_Reactive.Advanced
             return;
         }
 
-        public static void Update_H(n23.AsyncXDocumentWriter Input__this__In, n34.IResourceProvider<n19.Stream> Input_In, n2.IObservable<n6.XDocument> Data_In, out n23.AsyncXDocumentWriter Output_Out, out n2.IObservable<n6.XDocument> Result_Out, out bool In_Progress_Out, out bool On_Completed_Out)
+        public static void Update_H(n23.AsyncXDocumentWriter Input__this__In, n30.IResourceProvider<n19.Stream> Input_In, n2.IObservable<n6.XDocument> Data_In, out n23.AsyncXDocumentWriter Output_Out, out n2.IObservable<n6.XDocument> Result_Out, out bool In_Progress_Out, out bool On_Completed_Out)
         {
             var Result_2 = Input__this__In.Update(input: Input_In, data: Data_In, inProgress: out bool In_Progress_0, onCompleted: out bool On_Completed_1);
             Output_Out = Input__this__In;
@@ -4412,7 +4412,7 @@ namespace _VL_Xml_.System.XML.XDocumentWriter_Reactive.Advanced
 
 namespace _VL_Xml_
 {
-    public struct __AdaptiveImplementations__Q2iWAXgl3GDPCvxD5IfFJH : n32.IAdaptiveCreateDefault<n19.Stream>, n32.IAdaptiveCreateDefault<n2.IObservable<string>>, n32.IAdaptiveCreateDefault<n2.IObservable<n6.XDocument>>, n32.IAdaptiveCreateDefault<n2.IObservable<n6.XNode>>, n32.IAdaptiveCreateDefault<n2.IObservable<n6.XElement>>
+    public struct __AdaptiveImplementations__Q2iWAXgl3GDPCvxD5IfFJH : n43.IAdaptiveCreateDefault<n19.Stream>, n43.IAdaptiveCreateDefault<n2.IObservable<string>>, n43.IAdaptiveCreateDefault<n2.IObservable<n6.XDocument>>, n43.IAdaptiveCreateDefault<n2.IObservable<n6.XNode>>, n43.IAdaptiveCreateDefault<n2.IObservable<n6.XElement>>
     {
         public void CreateDefault(out n19.Stream Output_Out)
         {

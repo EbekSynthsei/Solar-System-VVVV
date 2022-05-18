@@ -1,18 +1,18 @@
-﻿extern alias e2;
-extern alias e5;
+﻿extern alias e3;
+extern alias e2;
 
 using n8 = _VL_Audio_.Audio;
-using n4 = e5::VL.Core.CompilerServices;
 using n7 = global::System.Collections.Generic;
-using n1 = e5::VL.Core;
+using n1 = e2::VL.Core;
 using n2 = global::System;
-using n5 = e2::VL.Lib;
+using n4 = e2::VL.Core.CompilerServices;
 using n3 = _VL_Audio_.System.Audio;
+using n5 = e3::VL.Lib;
 using n6 = global::System.Runtime.CompilerServices;
 
 namespace _VL_Audio_.System.Audio
 {
-    [n1.ElementAttribute(TracingId = 265704U, DocumentId = "Jdtt8jmfRe7P1xlWyL0zVO", PersistentId = "KmqtCc8fN45PDMhJAI74SD", Name = "SystemVolume_KmqtCc8fN45PDMhJAI74SD")]
+    [n1.ElementAttribute(TracingId = 115408U, DocumentId = "Jdtt8jmfRe7P1xlWyL0zVO", PersistentId = "KmqtCc8fN45PDMhJAI74SD", Name = "SystemVolume_KmqtCc8fN45PDMhJAI74SD")]
     [n2.SerializableAttribute]
     public class SystemVolume_KmqtCc8fN45PDMhJAI74SD : n1.VLObject, n2.IDisposable
     {
@@ -99,13 +99,13 @@ namespace _VL_Audio_.System.Audio
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 265709U, DocumentId = "Jdtt8jmfRe7P1xlWyL0zVO", PersistentId = "Lh6c0ubiiYKMIox8KirwDZ", Name = "__slot_Lh6c0ubiiYKMIox8KirwDZ")]
+        [n1.ElementAttribute(TracingId = 115433U, DocumentId = "Jdtt8jmfRe7P1xlWyL0zVO", PersistentId = "Lh6c0ubiiYKMIox8KirwDZ", Name = "__slot_Lh6c0ubiiYKMIox8KirwDZ")]
         public n5.SystemVolume __slot_Lh6c0ubiiYKMIox8KirwDZ;
-        [n1.ElementAttribute(TracingId = 265735U, DocumentId = "Jdtt8jmfRe7P1xlWyL0zVO", PersistentId = "AGBf2NNGfPoODSBRLkB9vY", Name = "__slot_AGBf2NNGfPoODSBRLkB9vY")]
+        [n1.ElementAttribute(TracingId = 115484U, DocumentId = "Jdtt8jmfRe7P1xlWyL0zVO", PersistentId = "AGBf2NNGfPoODSBRLkB9vY", Name = "__slot_AGBf2NNGfPoODSBRLkB9vY")]
         public static float __slot_AGBf2NNGfPoODSBRLkB9vY = 100F;
-        [n1.ElementAttribute(TracingId = 265770U, DocumentId = "Jdtt8jmfRe7P1xlWyL0zVO", PersistentId = "HqyaTTO7S8MMRIDsXBWSMh", Name = "Volume")]
+        [n1.ElementAttribute(TracingId = 115572U, DocumentId = "Jdtt8jmfRe7P1xlWyL0zVO", PersistentId = "HqyaTTO7S8MMRIDsXBWSMh", Name = "Volume")]
         public float Volume;
-        [n1.ElementAttribute(TracingId = 265758U, DocumentId = "Jdtt8jmfRe7P1xlWyL0zVO", PersistentId = "Ov6WVPsYZznNSKe5kkZXLZ", Name = "__slot_Ov6WVPsYZznNSKe5kkZXLZ")]
+        [n1.ElementAttribute(TracingId = 115545U, DocumentId = "Jdtt8jmfRe7P1xlWyL0zVO", PersistentId = "Ov6WVPsYZznNSKe5kkZXLZ", Name = "__slot_Ov6WVPsYZznNSKe5kkZXLZ")]
         public static float __slot_Ov6WVPsYZznNSKe5kkZXLZ = 0.01F;
         static SystemVolume_KmqtCc8fN45PDMhJAI74SD()
         {
@@ -142,7 +142,7 @@ namespace _VL_Audio_.System.Audio
         }
     }
 
-    [n1.ElementAttribute(TracingId = 265826U, DocumentId = "Jdtt8jmfRe7P1xlWyL0zVO", PersistentId = "H5eu6vAGOXJQFz9gXSu0oy", Name = "PlaybackDevice_H5eu6vAGOXJQFz9gXSu0oy")]
+    [n1.ElementAttribute(TracingId = 115687U, DocumentId = "Jdtt8jmfRe7P1xlWyL0zVO", PersistentId = "H5eu6vAGOXJQFz9gXSu0oy", Name = "PlaybackDevice_H5eu6vAGOXJQFz9gXSu0oy")]
     [n2.SerializableAttribute]
     public class PlaybackDevice_H5eu6vAGOXJQFz9gXSu0oy : n1.VLObject, n2.IDisposable
     {
@@ -218,7 +218,7 @@ namespace _VL_Audio_.System.Audio
         }
     }
 
-    [n1.ElementAttribute(TracingId = 265884U, DocumentId = "Jdtt8jmfRe7P1xlWyL0zVO", PersistentId = "UEAyKbuXafWMqoXazJZMZR", Name = "CaptureDevice_UEAyKbuXafWMqoXazJZMZR")]
+    [n1.ElementAttribute(TracingId = 115797U, DocumentId = "Jdtt8jmfRe7P1xlWyL0zVO", PersistentId = "UEAyKbuXafWMqoXazJZMZR", Name = "CaptureDevice_UEAyKbuXafWMqoXazJZMZR")]
     [n2.SerializableAttribute]
     public class CaptureDevice_UEAyKbuXafWMqoXazJZMZR : n1.VLObject, n2.IDisposable
     {
@@ -294,7 +294,7 @@ namespace _VL_Audio_.System.Audio
         }
     }
 
-    [n1.ElementAttribute(TracingId = 265984U, DocumentId = "Jdtt8jmfRe7P1xlWyL0zVO", PersistentId = "EaK0ObPCDNOMoKrIuzU8qW", Name = "CommunicationDevice_EaK0ObPCDNOMoKrIuzU8qW")]
+    [n1.ElementAttribute(TracingId = 116016U, DocumentId = "Jdtt8jmfRe7P1xlWyL0zVO", PersistentId = "EaK0ObPCDNOMoKrIuzU8qW", Name = "CommunicationDevice_EaK0ObPCDNOMoKrIuzU8qW")]
     [n2.SerializableAttribute]
     public class CommunicationDevice_EaK0ObPCDNOMoKrIuzU8qW : n1.VLObject, n2.IDisposable
     {
@@ -385,7 +385,7 @@ namespace _VL_Audio_.System.Audio
 
 namespace _VL_Audio_.System.Audio.PlaybackDeviceEnum.Advanced
 {
-    [n1.ElementAttribute(TracingId = 265700U, DocumentId = "Jdtt8jmfRe7P1xlWyL0zVO", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 115396U, DocumentId = "Jdtt8jmfRe7P1xlWyL0zVO", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
@@ -399,7 +399,7 @@ namespace _VL_Audio_.System.Audio.PlaybackDeviceEnum.Advanced
 
 namespace _VL_Audio_.System.Audio.CaptureDeviceEnum.Advanced
 {
-    [n1.ElementAttribute(TracingId = 265700U, DocumentId = "Jdtt8jmfRe7P1xlWyL0zVO", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 115396U, DocumentId = "Jdtt8jmfRe7P1xlWyL0zVO", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
@@ -413,7 +413,7 @@ namespace _VL_Audio_.System.Audio.CaptureDeviceEnum.Advanced
 
 namespace _VL_Audio_.Audio
 {
-    [n1.ElementAttribute(TracingId = 266078U, DocumentId = "Jdtt8jmfRe7P1xlWyL0zVO", PersistentId = "RVkWN0naK0kQQDnrs3xwyE", Name = "VL_AudioApplication_RVkWN0naK0kQQDnrs3xwyE")]
+    [n1.ElementAttribute(TracingId = 116205U, DocumentId = "Jdtt8jmfRe7P1xlWyL0zVO", PersistentId = "RVkWN0naK0kQQDnrs3xwyE", Name = "VL_AudioApplication_RVkWN0naK0kQQDnrs3xwyE")]
     [n2.SerializableAttribute]
     public class VL_AudioApplication_RVkWN0naK0kQQDnrs3xwyE : n1.VLObject, n2.IDisposable
     {

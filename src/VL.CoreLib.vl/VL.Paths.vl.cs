@@ -1,20 +1,20 @@
-﻿extern alias e5;
+﻿extern alias e2;
 
-using n4 = e5::VL.Core.CompilerServices;
+using n7 = e2::VL.Lib.Collections;
 using n6 = global::System.Collections.Generic;
 using n3 = _VL_Paths_.Math.Path;
 using n10 = _CoreLibBasics_.Math.Adaptive;
 using n11 = _CoreLibBasics_.Primitive.Advanced.Adaptive;
-using n1 = e5::VL.Core;
+using n1 = e2::VL.Core;
 using n2 = global::System;
+using n4 = e2::VL.Core.CompilerServices;
 using n9 = _VL_Collections_.Collections.Sequence;
 using n5 = global::System.Runtime.CompilerServices;
-using n7 = e5::VL.Lib.Collections;
 using n8 = _VL_Collections_.Collections.Spread;
 
 namespace _VL_Paths_.Math.Path
 {
-    [n1.ElementAttribute(TracingId = 218007U, DocumentId = "DekR8FeSWkILGLRrir5wUO", PersistentId = "PoXsDZfcuYSL7l3kZlTMLp", Name = "VL_PathsApplication_PoXsDZfcuYSL7l3kZlTMLp")]
+    [n1.ElementAttribute(TracingId = 23674U, DocumentId = "DekR8FeSWkILGLRrir5wUO", PersistentId = "PoXsDZfcuYSL7l3kZlTMLp", Name = "VL_PathsApplication_PoXsDZfcuYSL7l3kZlTMLp")]
     [n2.SerializableAttribute]
     public class VL_PathsApplication_PoXsDZfcuYSL7l3kZlTMLp : n1.VLObject, n2.IDisposable
     {
@@ -78,11 +78,11 @@ namespace _VL_Paths_.Math.Path
         }
     }
 
-    [n1.ElementAttribute(TracingId = 217062U, DocumentId = "DekR8FeSWkILGLRrir5wUO", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 21598U, DocumentId = "DekR8FeSWkILGLRrir5wUO", Name = "_Operations_")]
     public static partial class _Operations_
     {
         public static void ArcLength<T3, T, AdM>(T3 Points_In, n6.IEnumerable<float> Position_On_Curve_In, out n7.Spread<T> Point_Out, out n7.Spread<int> Segment_Index_Out, out float Total_Length_Out)
-            where T3 : n6.IEnumerable<T> where AdM : struct, n10.IAdaptiveLength<T>, n10.IAdaptiveLerp<T>, n11.IAdaptiveCreateDefault<T>, n10.IAdaptiveOperatorMinus<T>
+            where T3 : n6.IEnumerable<T> where AdM : struct, n10.IAdaptiveOperatorMinus<T>, n11.IAdaptiveCreateDefault<T>, n10.IAdaptiveLerp<T>, n10.IAdaptiveLength<T>
         {
             n7.Spread<T> __cp_DmHx44zl7szPA1iJJasus4 = n8._Operations_.CreateDefault<T>();
             n7.Spread<int> __cp_E5i7Emx30q3MT1SSNyaOWk = n8._Operations_.CreateDefault<int>();
@@ -175,7 +175,7 @@ namespace _VL_Paths_.Math.Path
         }
 
         public static void CalculateLengths<T, AdM>(n7.Spread<T> Points_In, out n7.Spread<T> Points_Out, out n7.Spread<float> Output_Out, out float Total_Length_Out)
-            where AdM : struct, n10.IAdaptiveLength<T>, n11.IAdaptiveCreateDefault<T>, n10.IAdaptiveOperatorMinus<T>
+            where AdM : struct, n10.IAdaptiveOperatorMinus<T>, n11.IAdaptiveCreateDefault<T>, n10.IAdaptiveLength<T>
         {
             n7.Spread<T> __cp_DZ4E2CuvjdNO1Fv95Sowm9 = n8._Operations_.CreateDefault<T>();
             n7.Spread<float> __cp_UbWaauoIDd5LWW4VYc7up4 = n8._Operations_.CreateDefault<float>();
@@ -274,7 +274,7 @@ namespace _VL_Paths_.Math.Path
         }
 
         public static void FindPoint<T, AdM>(n7.Spread<T> Points_In, float Position_On_Curve_In, n7.Spread<float> Partial_Length_In, int Index_In, out T Output_Out)
-            where AdM : struct, n10.IAdaptiveLerp<T>, n11.IAdaptiveCreateDefault<T>
+            where AdM : struct, n11.IAdaptiveCreateDefault<T>, n10.IAdaptiveLerp<T>
         {
             var w_0 = default(AdM);
             float __pad_ESe3VwCFfpoLOLmuhB4LpG_1 = __slot_ESe3VwCFfpoLOLmuhB4LpG;
@@ -329,19 +329,19 @@ namespace _VL_Paths_.Math.Path
             return;
         }
 
-        [n1.ElementAttribute(TracingId = 217111U, DocumentId = "DekR8FeSWkILGLRrir5wUO", PersistentId = "LmP9IxMOv1BMg1CqJEJ1Lp", Name = "__slot_LmP9IxMOv1BMg1CqJEJ1Lp")]
+        [n1.ElementAttribute(TracingId = 22569U, DocumentId = "DekR8FeSWkILGLRrir5wUO", PersistentId = "LmP9IxMOv1BMg1CqJEJ1Lp", Name = "__slot_LmP9IxMOv1BMg1CqJEJ1Lp")]
         public static float __slot_LmP9IxMOv1BMg1CqJEJ1Lp = 0F;
-        [n1.ElementAttribute(TracingId = 217179U, DocumentId = "DekR8FeSWkILGLRrir5wUO", PersistentId = "EYXcir2a44mQSMCBlAmEE7", Name = "__slot_EYXcir2a44mQSMCBlAmEE7")]
+        [n1.ElementAttribute(TracingId = 22626U, DocumentId = "DekR8FeSWkILGLRrir5wUO", PersistentId = "EYXcir2a44mQSMCBlAmEE7", Name = "__slot_EYXcir2a44mQSMCBlAmEE7")]
         public static float __slot_EYXcir2a44mQSMCBlAmEE7 = 1F;
-        [n1.ElementAttribute(TracingId = 217495U, DocumentId = "DekR8FeSWkILGLRrir5wUO", PersistentId = "GvVszVGHMkVNZWoNlb1DhT", Name = "__slot_GvVszVGHMkVNZWoNlb1DhT")]
+        [n1.ElementAttribute(TracingId = 22950U, DocumentId = "DekR8FeSWkILGLRrir5wUO", PersistentId = "GvVszVGHMkVNZWoNlb1DhT", Name = "__slot_GvVszVGHMkVNZWoNlb1DhT")]
         public static int __slot_GvVszVGHMkVNZWoNlb1DhT = 1;
-        [n1.ElementAttribute(TracingId = 217622U, DocumentId = "DekR8FeSWkILGLRrir5wUO", PersistentId = "JSPttGjKYQjM6mimUlSxqn", Name = "__slot_JSPttGjKYQjM6mimUlSxqn")]
+        [n1.ElementAttribute(TracingId = 23102U, DocumentId = "DekR8FeSWkILGLRrir5wUO", PersistentId = "JSPttGjKYQjM6mimUlSxqn", Name = "__slot_JSPttGjKYQjM6mimUlSxqn")]
         public static int __slot_JSPttGjKYQjM6mimUlSxqn = 1;
-        [n1.ElementAttribute(TracingId = 217630U, DocumentId = "DekR8FeSWkILGLRrir5wUO", PersistentId = "BlqJysOllrPLISe6NQJkmZ", Name = "__slot_BlqJysOllrPLISe6NQJkmZ")]
+        [n1.ElementAttribute(TracingId = 23115U, DocumentId = "DekR8FeSWkILGLRrir5wUO", PersistentId = "BlqJysOllrPLISe6NQJkmZ", Name = "__slot_BlqJysOllrPLISe6NQJkmZ")]
         public static float __slot_BlqJysOllrPLISe6NQJkmZ = 1E-05F;
-        [n1.ElementAttribute(TracingId = 217856U, DocumentId = "DekR8FeSWkILGLRrir5wUO", PersistentId = "ESe3VwCFfpoLOLmuhB4LpG", Name = "__slot_ESe3VwCFfpoLOLmuhB4LpG")]
+        [n1.ElementAttribute(TracingId = 23442U, DocumentId = "DekR8FeSWkILGLRrir5wUO", PersistentId = "ESe3VwCFfpoLOLmuhB4LpG", Name = "__slot_ESe3VwCFfpoLOLmuhB4LpG")]
         public static float __slot_ESe3VwCFfpoLOLmuhB4LpG = 0F;
-        [n1.ElementAttribute(TracingId = 217852U, DocumentId = "DekR8FeSWkILGLRrir5wUO", PersistentId = "TE04raGyVXPNEwlQnbeiqg", Name = "__slot_TE04raGyVXPNEwlQnbeiqg")]
+        [n1.ElementAttribute(TracingId = 23431U, DocumentId = "DekR8FeSWkILGLRrir5wUO", PersistentId = "TE04raGyVXPNEwlQnbeiqg", Name = "__slot_TE04raGyVXPNEwlQnbeiqg")]
         public static int __slot_TE04raGyVXPNEwlQnbeiqg = 1;
         static _Operations_()
         {

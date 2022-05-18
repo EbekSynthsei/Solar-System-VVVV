@@ -6449,6 +6449,9 @@
         "lib/net472/Stride.Core.Assets.CompilerApp.usrdoc",
         "lib/net472/Stride.Core.Assets.CompilerApp.xml",
         "lib/net472/global.json",
+        "lib/net472/log/shader_LambertianPrefilteringSHNoComputeEffectPass1_1c3923f7922ed8adac4b74952b5215b4.hlsl",
+        "lib/net472/log/shader_LambertianPrefilteringSHNoComputePass2_4260941ce61eb073584036c7c3703eb2.hlsl",
+        "lib/net472/log/shader_RadiancePrefilteringGGXNoComputeEffect_8275c76d611a2814d43b83fae801b030.hlsl",
         "lib/net5.0-windows7.0/Microsoft.Web.XmlTransform.dll",
         "lib/net5.0-windows7.0/Newtonsoft.Json.dll",
         "lib/net5.0-windows7.0/NuGet.Commands.dll",
@@ -13546,7 +13549,8 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "http://teamcity.vvvv.org/guestAuth/app/nuget/v1/FeedService.svc/": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://packages.stride3d.net/nuget": {}
       },
       "frameworks": {
         "net472": {

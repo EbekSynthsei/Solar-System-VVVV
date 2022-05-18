@@ -1,15 +1,15 @@
-﻿extern alias e5;
+﻿extern alias e2;
 
-using n4 = e5::VL.Core.CompilerServices;
 using n6 = global::System.Collections.Generic;
 using n3 = _VL_EditingFramework_;
-using n1 = e5::VL.Core;
+using n1 = e2::VL.Core;
 using n2 = global::System;
+using n4 = e2::VL.Core.CompilerServices;
 using n5 = global::System.Runtime.CompilerServices;
 
 namespace _VL_EditingFramework_
 {
-    [n1.ElementAttribute(TracingId = 54432U, DocumentId = "Tbxvcw7pDmdQapVBYd69Lt", PersistentId = "AYHUjx6grqrLMtRDjNztRS", Name = "VL_EditingFrameworkApplication_AYHUjx6grqrLMtRDjNztRS")]
+    [n1.ElementAttribute(TracingId = 39527U, DocumentId = "Tbxvcw7pDmdQapVBYd69Lt", PersistentId = "AYHUjx6grqrLMtRDjNztRS", Name = "VL_EditingFrameworkApplication_AYHUjx6grqrLMtRDjNztRS")]
     [n2.SerializableAttribute]
     public class VL_EditingFrameworkApplication_AYHUjx6grqrLMtRDjNztRS : n1.VLObject, n2.IDisposable
     {

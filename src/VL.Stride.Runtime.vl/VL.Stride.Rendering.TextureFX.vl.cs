@@ -1,80 +1,80 @@
-﻿extern alias e27;
-extern alias e26;
-extern alias e21;
-extern alias e2;
-extern alias e40;
-extern alias e28;
+﻿extern alias e22;
 extern alias e24;
-extern alias e5;
-extern alias e1;
-extern alias e20;
+extern alias e31;
+extern alias e26;
+extern alias e3;
+extern alias e25;
+extern alias e2;
+extern alias e23;
+extern alias e29;
+extern alias e4;
 
 using n47 = _VL_Stride_Rendering_.Stride.Rendering;
+using n9 = e26::Stride.Graphics;
 using n35 = _VL_Stride_Graphics_.Stride.Utils.Advanced;
 using n29 = _CoreLibBasics_.Control.Advanced;
-using n59 = e2::VL.Lib.Primitive;
+using n31 = e2::VL.Lib.Collections;
+using n19 = e3::VL.Lib.Primitive.CacheRegion;
 using n56 = _CoreLibBasics_.Primitive.Object.Advanced;
 using n32 = _CoreLibBasics_.Control;
 using n26 = _VL_Stride_Graphics_.Stride.Textures.Utils.Obsolete;
 using n60 = _CoreLibBasics_.Math.Generic.Advanced;
-using n50 = e21::Stride.Core.Serialization.Contents;
 using n57 = _VL_Stride_Rendering_TextureFX_.Stride.Textures;
-using n38 = e26::Stride.Rendering.Materials;
-using n42 = e2::VL.Lib.Mathematics;
-using n28 = e40::VL.Stride.Graphics;
-using n5 = e26::Stride.Rendering.Images;
+using n5 = e29::Stride.Rendering.Images;
 using n24 = _VL_Stride_Games_.Stride.Utils;
-using n34 = e40::VL.Stride.Rendering;
-using n7 = e27::Stride.Graphics;
-using n54 = e5::VL.Lib.Animation;
+using n16 = e31::VL.Stride.Shaders.ShaderFX;
 using n13 = _VL_Stride_Rendering_TextureFX_;
-using n25 = e2::VL.Lib.Primitive.Object;
-using n4 = e5::VL.Core.CompilerServices;
+using n28 = e31::VL.Stride.Graphics;
 using n53 = _CoreLibBasics_.Animation.IFrameClock.Advanced;
 using n11 = global::System.Collections.Generic;
 using n44 = _CoreLibBasics_._2D.Vector2;
 using n21 = _VL_Stride_Rendering_ShaderFX_.Stride.Rendering.ShaderFX.Texture.Experimental;
 using n8 = _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils.Advanced.Experimental;
-using n6 = e1::Stride.Core.Mathematics;
 using n49 = _CoreLibBasics_.Math.Generic;
 using n61 = _CoreLibBasics_.Math.Adaptive;
-using n52 = e28::Stride.Games;
 using n48 = _VL_Stride_Rendering_TextureFX_.Stride.Textures.Source;
 using n62 = _CoreLibBasics_.Primitive.Advanced.Adaptive;
 using n27 = _VL_Stride_Graphics_.Stride.Textures.Utils.Advanced;
 using n20 = _VL_Stride_Rendering_ShaderFX_.Stride.Rendering.ShaderFX.Operations.Experimental;
 using n55 = _CoreLibBasics_.Animation;
-using n19 = e2::VL.Lib.Primitive.CacheRegion;
 using n45 = _CoreLibBasics_.Primitive.Boolean;
+using n59 = e3::VL.Lib.Primitive;
 using n14 = _CoreLibBasics_.Math.Ranges.Generic.Advanced;
 using n51 = e24::Stride.Engine;
-using n23 = e26::Stride.Rendering;
-using n1 = e5::VL.Core;
-using n9 = e20::Stride.Graphics;
+using n42 = e3::VL.Lib.Mathematics;
+using n52 = e25::Stride.Games;
 using n37 = _VL_Stride_Rendering_ShaderFX_.Stride.Rendering.ShaderFX.Variables.Advanced.Experimental;
+using n1 = e2::VL.Core;
+using n34 = e31::VL.Stride.Rendering;
+using n7 = e22::Stride.Graphics;
 using n2 = global::System;
 using n43 = _CoreLibBasics_.Primitive.Int2;
-using n40 = e40::VL.Stride.Shaders.ShaderFX.Control;
-using n16 = e40::VL.Stride.Shaders.ShaderFX;
+using n6 = e4::Stride.Core.Mathematics;
+using n50 = e23::Stride.Core.Serialization.Contents;
+using n12 = e29::Stride.Rendering.Images.FXAAEffect;
 using n30 = _VL_Stride_Graphics_.Stride.Textures;
+using n25 = e3::VL.Lib.Primitive.Object;
+using n4 = e2::VL.Core.CompilerServices;
+using n40 = e31::VL.Stride.Shaders.ShaderFX.Control;
 using n3 = _VL_Stride_Rendering_TextureFX_.Stride.Textures.Filter.Experimental;
-using n17 = e40::VL.Stride.Effects.TextureFX;
 using n18 = _VL_Stride_Rendering_TextureFX_.Stride.Textures.Mixer;
-using n12 = e26::Stride.Rendering.Images.FXAAEffect;
 using n22 = _VL_Collections_.Collections.Mutable.MutableArray.Advanced;
 using n46 = _VL_Stride_Rendering_.Stride.Textures;
+using n17 = e31::VL.Stride.Effects.TextureFX;
+using n54 = e2::VL.Lib.Animation;
 using n41 = _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils;
+using n23 = e29::Stride.Rendering;
 using n39 = _VL_Collections_.Collections.Sequence;
 using n10 = global::System.Runtime.CompilerServices;
-using n31 = e5::VL.Lib.Collections;
 using n15 = _VL_Stride_Rendering_TextureFX_.Stride.Textures.Filter;
 using n33 = _VL_Collections_.Collections.Spread;
 using n58 = _CoreLibBasics_.Primitive.Advanced;
+using n38 = e29::Stride.Rendering.Materials;
 using n36 = _CoreLibBasics_._3D.Vector4;
 
 namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Filter.Experimental
 {
-    [n1.ElementAttribute(TracingId = 193009U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "Oe7tegq1obkONdqlU5NVZG", Name = "BrightFilter_Oe7tegq1obkONdqlU5NVZG")]
+    [n1.ElementAttribute(TracingId = 25070U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "Oe7tegq1obkONdqlU5NVZG", Name = "BrightFilter_Oe7tegq1obkONdqlU5NVZG")]
     [n2.SerializableAttribute]
     public class BrightFilter_Oe7tegq1obkONdqlU5NVZG : n1.VLObject, n2.IDisposable
     {
@@ -120,7 +120,7 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Filter.Experimental
             n10.RuntimeHelpers.EnsureSufficientExecutionStack();
             var Output_0 = new n5.BrightFilter();
             n5.BrightFilter __auto_1 = Output_0;
-            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "NWdhRxTy4yJQdY9Ren4RC0", 193084U);
+            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "NWdhRxTy4yJQdY9Ren4RC0", 29439U);
             var Output_3 = n8.TextureFXBase_DjzETyjdqw1NI0YIhMLrmb.Create(Node_Context: Node_Context_2);
             n3.BrightFilter_Oe7tegq1obkONdqlU5NVZG that_4 = this;
             this.Effect = Output_0;
@@ -148,9 +148,9 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Filter.Experimental
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 193023U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "Jf4xN2317bKNJuZJr65D1m", Name = "Effect")]
+        [n1.ElementAttribute(TracingId = 29420U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "Jf4xN2317bKNJuZJr65D1m", Name = "Effect")]
         public n5.BrightFilter Effect;
-        [n1.ElementAttribute(TracingId = 193084U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "NWdhRxTy4yJQdY9Ren4RC0", Name = "TextureFXBase", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 29439U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "NWdhRxTy4yJQdY9Ren4RC0", Name = "TextureFXBase", IsManaged = true, IsAutoGenerated = true)]
         public n8.TextureFXBase_DjzETyjdqw1NI0YIhMLrmb __p_NWdhRxTy4yJQdY9Ren4RC0;
         public BrightFilter_Oe7tegq1obkONdqlU5NVZG(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -183,7 +183,7 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Filter.Experimental
         }
     }
 
-    [n1.ElementAttribute(TracingId = 193176U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "IDPuh5sP2lXNbcfVcVbXdB", Name = "FXAA_IDPuh5sP2lXNbcfVcVbXdB")]
+    [n1.ElementAttribute(TracingId = 29473U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "IDPuh5sP2lXNbcfVcVbXdB", Name = "FXAA_IDPuh5sP2lXNbcfVcVbXdB")]
     [n2.SerializableAttribute]
     public class FXAA_IDPuh5sP2lXNbcfVcVbXdB : n1.VLObject, n2.IDisposable
     {
@@ -271,7 +271,7 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Filter.Experimental
             n10.RuntimeHelpers.EnsureSufficientExecutionStack();
             var Output_0 = new n5.FXAAEffect();
             n5.FXAAEffect __auto_1 = Output_0;
-            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "QOtJ05Cgg2yMCpKk8OcPLF", 193383U);
+            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "QOtJ05Cgg2yMCpKk8OcPLF", 29625U);
             var Output_3 = n8.TextureFXBase_DjzETyjdqw1NI0YIhMLrmb.Create(Node_Context: Node_Context_2);
             n3.FXAA_IDPuh5sP2lXNbcfVcVbXdB that_4 = this;
             this.Effect = Output_0;
@@ -299,21 +299,21 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Filter.Experimental
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 193238U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "Khk7xsy5GGqLQWEveXplF6", Name = "__slot_Khk7xsy5GGqLQWEveXplF6")]
+        [n1.ElementAttribute(TracingId = 29499U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "Khk7xsy5GGqLQWEveXplF6", Name = "__slot_Khk7xsy5GGqLQWEveXplF6")]
         public static n12.DitherType __slot_Khk7xsy5GGqLQWEveXplF6 = n1.CompilationHelper.Deserialize<n12.DitherType>("None", false, "BzGvoB2aLhzP7WO4jVw5sI", "Khk7xsy5GGqLQWEveXplF6");
-        [n1.ElementAttribute(TracingId = 193311U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "KfN10MqqV0KQMVt486nLVh", Name = "__slot_KfN10MqqV0KQMVt486nLVh")]
+        [n1.ElementAttribute(TracingId = 29552U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "KfN10MqqV0KQMVt486nLVh", Name = "__slot_KfN10MqqV0KQMVt486nLVh")]
         public static n12.DitherType __slot_KfN10MqqV0KQMVt486nLVh = n1.CompilationHelper.Deserialize<n12.DitherType>("Medium", false, "BzGvoB2aLhzP7WO4jVw5sI", "KfN10MqqV0KQMVt486nLVh");
-        [n1.ElementAttribute(TracingId = 193375U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "GYbIDAIrYlJNn5ZzNPHN9T", Name = "__slot_GYbIDAIrYlJNn5ZzNPHN9T")]
+        [n1.ElementAttribute(TracingId = 29621U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "GYbIDAIrYlJNn5ZzNPHN9T", Name = "__slot_GYbIDAIrYlJNn5ZzNPHN9T")]
         public static n12.DitherType __slot_GYbIDAIrYlJNn5ZzNPHN9T = n1.CompilationHelper.Deserialize<n12.DitherType>("Low", false, "BzGvoB2aLhzP7WO4jVw5sI", "GYbIDAIrYlJNn5ZzNPHN9T");
-        [n1.ElementAttribute(TracingId = 193182U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "GIq92m8YLP6MkIHf3Qt2Hg", Name = "Effect")]
+        [n1.ElementAttribute(TracingId = 29477U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "GIq92m8YLP6MkIHf3Qt2Hg", Name = "Effect")]
         public n5.FXAAEffect Effect;
-        [n1.ElementAttribute(TracingId = 193250U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "H54dmGWPMkwP1FxcR6Jr6M", Name = "__slot_H54dmGWPMkwP1FxcR6Jr6M")]
+        [n1.ElementAttribute(TracingId = 29505U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "H54dmGWPMkwP1FxcR6Jr6M", Name = "__slot_H54dmGWPMkwP1FxcR6Jr6M")]
         public static int __slot_H54dmGWPMkwP1FxcR6Jr6M = 9;
-        [n1.ElementAttribute(TracingId = 193271U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "KZ54Kur2qozOZ5lciGceLX", Name = "__slot_KZ54Kur2qozOZ5lciGceLX")]
+        [n1.ElementAttribute(TracingId = 29520U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "KZ54Kur2qozOZ5lciGceLX", Name = "__slot_KZ54Kur2qozOZ5lciGceLX")]
         public static int __slot_KZ54Kur2qozOZ5lciGceLX = 5;
-        [n1.ElementAttribute(TracingId = 193327U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "PhdEo7bNJymN3e2avPapIo", Name = "__slot_PhdEo7bNJymN3e2avPapIo")]
+        [n1.ElementAttribute(TracingId = 29570U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "PhdEo7bNJymN3e2avPapIo", Name = "__slot_PhdEo7bNJymN3e2avPapIo")]
         public static int __slot_PhdEo7bNJymN3e2avPapIo = 9;
-        [n1.ElementAttribute(TracingId = 193383U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "QOtJ05Cgg2yMCpKk8OcPLF", Name = "TextureFXBase", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 29625U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "QOtJ05Cgg2yMCpKk8OcPLF", Name = "TextureFXBase", IsManaged = true, IsAutoGenerated = true)]
         public n8.TextureFXBase_DjzETyjdqw1NI0YIhMLrmb __p_QOtJ05Cgg2yMCpKk8OcPLF;
         static FXAA_IDPuh5sP2lXNbcfVcVbXdB()
         {
@@ -350,7 +350,7 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Filter.Experimental
         }
     }
 
-    [n1.ElementAttribute(TracingId = 193548U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "HwlDvBwIe1hNuaDhyskust", Name = "GaussianBlur_HwlDvBwIe1hNuaDhyskust")]
+    [n1.ElementAttribute(TracingId = 29786U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "HwlDvBwIe1hNuaDhyskust", Name = "GaussianBlur_HwlDvBwIe1hNuaDhyskust")]
     [n2.SerializableAttribute]
     public class GaussianBlur_HwlDvBwIe1hNuaDhyskust : n1.VLObject, n2.IDisposable
     {
@@ -396,7 +396,7 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Filter.Experimental
             n10.RuntimeHelpers.EnsureSufficientExecutionStack();
             var Output_0 = new n5.GaussianBlur();
             n5.GaussianBlur __auto_1 = Output_0;
-            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "RNwjLWJSTSnMhyyKu7x5Rf", 193587U);
+            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "RNwjLWJSTSnMhyyKu7x5Rf", 29811U);
             var Output_3 = n8.TextureFXBase_DjzETyjdqw1NI0YIhMLrmb.Create(Node_Context: Node_Context_2);
             n3.GaussianBlur_HwlDvBwIe1hNuaDhyskust that_4 = this;
             this.Effect = Output_0;
@@ -424,9 +424,9 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Filter.Experimental
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 193565U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "GU2AkDUFqH3NMFN3hhFAyJ", Name = "Effect")]
+        [n1.ElementAttribute(TracingId = 29799U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "GU2AkDUFqH3NMFN3hhFAyJ", Name = "Effect")]
         public n5.GaussianBlur Effect;
-        [n1.ElementAttribute(TracingId = 193587U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "RNwjLWJSTSnMhyyKu7x5Rf", Name = "TextureFXBase", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 29811U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "RNwjLWJSTSnMhyyKu7x5Rf", Name = "TextureFXBase", IsManaged = true, IsAutoGenerated = true)]
         public n8.TextureFXBase_DjzETyjdqw1NI0YIhMLrmb __p_RNwjLWJSTSnMhyyKu7x5Rf;
         public GaussianBlur_HwlDvBwIe1hNuaDhyskust(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -459,7 +459,7 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Filter.Experimental
         }
     }
 
-    [n1.ElementAttribute(TracingId = 193698U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "HB0NfEHHDypNbgKEAZZGL8", Name = "Bloom_HB0NfEHHDypNbgKEAZZGL8")]
+    [n1.ElementAttribute(TracingId = 29935U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "HB0NfEHHDypNbgKEAZZGL8", Name = "Bloom_HB0NfEHHDypNbgKEAZZGL8")]
     [n2.SerializableAttribute]
     public class Bloom_HB0NfEHHDypNbgKEAZZGL8 : n1.VLObject, n2.IDisposable
     {
@@ -509,7 +509,7 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Filter.Experimental
             n10.RuntimeHelpers.EnsureSufficientExecutionStack();
             var Output_0 = new n5.Bloom();
             n5.Bloom __auto_1 = Output_0;
-            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "GgXiR3hbpIaL0Oell29pmm", 193723U);
+            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "GgXiR3hbpIaL0Oell29pmm", 29975U);
             var Output_3 = n8.TextureFXBase_DjzETyjdqw1NI0YIhMLrmb.Create(Node_Context: Node_Context_2);
             n3.Bloom_HB0NfEHHDypNbgKEAZZGL8 that_4 = this;
             this.Effect = Output_0;
@@ -537,9 +537,9 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Filter.Experimental
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 193713U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "IhKOylwxsd7Lk62G1GKo6B", Name = "Effect")]
+        [n1.ElementAttribute(TracingId = 29950U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "IhKOylwxsd7Lk62G1GKo6B", Name = "Effect")]
         public n5.Bloom Effect;
-        [n1.ElementAttribute(TracingId = 193723U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "GgXiR3hbpIaL0Oell29pmm", Name = "TextureFXBase", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 29975U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "GgXiR3hbpIaL0Oell29pmm", Name = "TextureFXBase", IsManaged = true, IsAutoGenerated = true)]
         public n8.TextureFXBase_DjzETyjdqw1NI0YIhMLrmb __p_GgXiR3hbpIaL0Oell29pmm;
         public Bloom_HB0NfEHHDypNbgKEAZZGL8(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -575,7 +575,7 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Filter.Experimental
 
 namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Filter
 {
-    [n1.ElementAttribute(TracingId = 193952U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "JQMxtk4r0EVPNzXMfWWGlS", Name = "DirectionalBlur_JQMxtk4r0EVPNzXMfWWGlS")]
+    [n1.ElementAttribute(TracingId = 30219U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "JQMxtk4r0EVPNzXMfWWGlS", Name = "DirectionalBlur_JQMxtk4r0EVPNzXMfWWGlS")]
     [n2.SerializableAttribute]
     public class DirectionalBlur_JQMxtk4r0EVPNzXMfWWGlS : n1.VLObject, n2.IDisposable
     {
@@ -663,9 +663,9 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Filter
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 193956U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "Glj4lPui8hmPh4keuUClgN", Name = "DirectionalBlur (Pass0)", IsManaged = true, IsAutoGenerated = true, NodeName = "DirectionalBlur (Pass0 Internal)", NodeCategory = "Stride.Textures.Filter")]
+        [n1.ElementAttribute(TracingId = 30224U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "Glj4lPui8hmPh4keuUClgN", Name = "DirectionalBlur (Pass0)", IsManaged = true, IsAutoGenerated = true, NodeName = "DirectionalBlur (Pass0 Internal)", NodeCategory = "Stride.Textures.Filter")]
         public n1.IVLNode __p_Glj4lPui8hmPh4keuUClgN;
-        [n1.ElementAttribute(TracingId = 193980U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "JcUmVRZpdzPLSZswJjO39e", Name = "DirectionalBlur (Pass1)", IsManaged = true, IsAutoGenerated = true, NodeName = "DirectionalBlur (Pass1 Internal)", NodeCategory = "Stride.Textures.Filter")]
+        [n1.ElementAttribute(TracingId = 30259U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "JcUmVRZpdzPLSZswJjO39e", Name = "DirectionalBlur (Pass1)", IsManaged = true, IsAutoGenerated = true, NodeName = "DirectionalBlur (Pass1 Internal)", NodeCategory = "Stride.Textures.Filter")]
         public n1.IVLNode __p_JcUmVRZpdzPLSZswJjO39e;
         public DirectionalBlur_JQMxtk4r0EVPNzXMfWWGlS(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -698,7 +698,7 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Filter
         }
     }
 
-    [n1.ElementAttribute(TracingId = 194113U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "Hz2rlbtqlofLP8AQAVPqLb", Name = "Glow_Hz2rlbtqlofLP8AQAVPqLb")]
+    [n1.ElementAttribute(TracingId = 30385U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "Hz2rlbtqlofLP8AQAVPqLb", Name = "Glow_Hz2rlbtqlofLP8AQAVPqLb")]
     [n2.SerializableAttribute]
     public class Glow_Hz2rlbtqlofLP8AQAVPqLb : n1.VLObject, n2.IDisposable
     {
@@ -829,13 +829,13 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Filter
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 194359U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "RWW6tG0PIkgPkHbm37l85I", Name = "__slot_RWW6tG0PIkgPkHbm37l85I")]
+        [n1.ElementAttribute(TracingId = 30547U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "RWW6tG0PIkgPkHbm37l85I", Name = "__slot_RWW6tG0PIkgPkHbm37l85I")]
         public static n9.PixelFormat __slot_RWW6tG0PIkgPkHbm37l85I = n1.CompilationHelper.Deserialize<n9.PixelFormat>("R16G16B16A16_Float", false, "BzGvoB2aLhzP7WO4jVw5sI", "RWW6tG0PIkgPkHbm37l85I");
-        [n1.ElementAttribute(TracingId = 194116U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "EY9kx6KXSElPMQjJVhcJWi", Name = "GlowPre", IsManaged = true, IsAutoGenerated = true, NodeName = "GlowPre (Internal)", NodeCategory = "Stride.Textures.Filter")]
+        [n1.ElementAttribute(TracingId = 30390U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "EY9kx6KXSElPMQjJVhcJWi", Name = "GlowPre", IsManaged = true, IsAutoGenerated = true, NodeName = "GlowPre (Internal)", NodeCategory = "Stride.Textures.Filter")]
         public n1.IVLNode __p_EY9kx6KXSElPMQjJVhcJWi;
-        [n1.ElementAttribute(TracingId = 194168U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "LfGRHN57azpPNlV6sfz4lH", Name = "GlowMain", IsManaged = true, IsAutoGenerated = true, NodeName = "GlowMain (Internal)", NodeCategory = "Stride.Textures.Filter")]
+        [n1.ElementAttribute(TracingId = 30440U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "LfGRHN57azpPNlV6sfz4lH", Name = "GlowMain", IsManaged = true, IsAutoGenerated = true, NodeName = "GlowMain (Internal)", NodeCategory = "Stride.Textures.Filter")]
         public n1.IVLNode __p_LfGRHN57azpPNlV6sfz4lH;
-        [n1.ElementAttribute(TracingId = 194240U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "M8OpGwcioQXLGa6rfG2nJz", Name = "GlowMix", IsManaged = true, IsAutoGenerated = true, NodeName = "GlowMix (Internal)", NodeCategory = "Stride.Textures.Filter")]
+        [n1.ElementAttribute(TracingId = 30503U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "M8OpGwcioQXLGa6rfG2nJz", Name = "GlowMix", IsManaged = true, IsAutoGenerated = true, NodeName = "GlowMix (Internal)", NodeCategory = "Stride.Textures.Filter")]
         public n1.IVLNode __p_M8OpGwcioQXLGa6rfG2nJz;
         static Glow_Hz2rlbtqlofLP8AQAVPqLb()
         {
@@ -874,7 +874,7 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Filter
         }
     }
 
-    [n1.ElementAttribute(TracingId = 194472U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "ALTJTssa9nvNoz0sSFsEtj", Name = "Blur_C")]
+    [n1.ElementAttribute(TracingId = 30627U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "ALTJTssa9nvNoz0sSFsEtj", Name = "Blur_C")]
     [n2.SerializableAttribute]
     public class Blur_C : n1.VLObject, n2.IDisposable
     {
@@ -1028,15 +1028,15 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Filter
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 194665U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "SBQaCgZJjo8NUhYUkEcewh", Name = "__slot_SBQaCgZJjo8NUhYUkEcewh")]
+        [n1.ElementAttribute(TracingId = 30784U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "SBQaCgZJjo8NUhYUkEcewh", Name = "__slot_SBQaCgZJjo8NUhYUkEcewh")]
         public static n17.BlurPasses __slot_SBQaCgZJjo8NUhYUkEcewh = n1.CompilationHelper.Deserialize<n17.BlurPasses>("TwoPasses", false, "BzGvoB2aLhzP7WO4jVw5sI", "SBQaCgZJjo8NUhYUkEcewh");
-        [n1.ElementAttribute(TracingId = 194717U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "LtGNxOMXs8BNpWqvzcxrP6", Name = "__slot_LtGNxOMXs8BNpWqvzcxrP6")]
+        [n1.ElementAttribute(TracingId = 30808U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "LtGNxOMXs8BNpWqvzcxrP6", Name = "__slot_LtGNxOMXs8BNpWqvzcxrP6")]
         public static n17.BlurPasses __slot_LtGNxOMXs8BNpWqvzcxrP6 = n1.CompilationHelper.Deserialize<n17.BlurPasses>("ThreePasses", false, "BzGvoB2aLhzP7WO4jVw5sI", "LtGNxOMXs8BNpWqvzcxrP6");
-        [n1.ElementAttribute(TracingId = 194558U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "LyhpggIH6KlMsrQNXxQ7Kk", Name = "BlurPass1", IsManaged = true, IsAutoGenerated = true, NodeName = "BlurPass1 (Internal)", NodeCategory = "Stride.Textures.Filter")]
+        [n1.ElementAttribute(TracingId = 30722U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "LyhpggIH6KlMsrQNXxQ7Kk", Name = "BlurPass1", IsManaged = true, IsAutoGenerated = true, NodeName = "BlurPass1 (Internal)", NodeCategory = "Stride.Textures.Filter")]
         public n1.IVLNode __p_LyhpggIH6KlMsrQNXxQ7Kk;
-        [n1.ElementAttribute(TracingId = 194478U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "RRFlOpVJLFFPEmkHowHgjB", Name = "BlurPass2", IsManaged = true, IsAutoGenerated = true, NodeName = "BlurPass2 (Internal)", NodeCategory = "Stride.Textures.Filter")]
+        [n1.ElementAttribute(TracingId = 30633U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "RRFlOpVJLFFPEmkHowHgjB", Name = "BlurPass2", IsManaged = true, IsAutoGenerated = true, NodeName = "BlurPass2 (Internal)", NodeCategory = "Stride.Textures.Filter")]
         public n1.IVLNode __p_RRFlOpVJLFFPEmkHowHgjB;
-        [n1.ElementAttribute(TracingId = 194524U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "KRFkC4qcNDYPX63tq04uUZ", Name = "BlurPass3", IsManaged = true, IsAutoGenerated = true, NodeName = "BlurPass3 (Internal)", NodeCategory = "Stride.Textures.Filter")]
+        [n1.ElementAttribute(TracingId = 30674U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "KRFkC4qcNDYPX63tq04uUZ", Name = "BlurPass3", IsManaged = true, IsAutoGenerated = true, NodeName = "BlurPass3 (Internal)", NodeCategory = "Stride.Textures.Filter")]
         public n1.IVLNode __p_KRFkC4qcNDYPX63tq04uUZ;
         static Blur_C()
         {
@@ -1071,7 +1071,7 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Filter
 
 namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Mixer
 {
-    [n1.ElementAttribute(TracingId = 194966U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "AFu86hoz4AgPNxFpUGXY6q", Name = "Blend_AFu86hoz4AgPNxFpUGXY6q")]
+    [n1.ElementAttribute(TracingId = 31059U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "AFu86hoz4AgPNxFpUGXY6q", Name = "Blend_AFu86hoz4AgPNxFpUGXY6q")]
     [n2.SerializableAttribute]
     public class Blend_AFu86hoz4AgPNxFpUGXY6q : n1.VLObject, n2.IDisposable
     {
@@ -1118,20 +1118,20 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Mixer
                 if (state_12 == null)
                 {
                     state_12 = new __SOrZIuTuQnTLFIxLmyAX2J(__GetContext__(), n1.VLObject.NewIdentity());
-                    n1.NodeContext Node_Context_13 = __GetContext__().CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "O4bZCYWiNf9QFRDhhg9W4c", 195085U);
+                    n1.NodeContext Node_Context_13 = __GetContext__().CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "O4bZCYWiNf9QFRDhhg9W4c", 31167U);
                     var Output_14 = n20.BlendOp_Gg4gUVHOObnLietoehvV1h.Create(Node_Context: Node_Context_13);
                     state_12.__p_O4bZCYWiNf9QFRDhhg9W4c = Output_14;
-                    n1.NodeContext Node_Context_15 = __GetContext__().CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "MnPsqGCc3BuP8cufABeVFj", 195105U);
+                    n1.NodeContext Node_Context_15 = __GetContext__().CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "MnPsqGCc3BuP8cufABeVFj", 31187U);
                     var Output_16 = n21.SampleTexture_BckflDe3bBbM1KG5LnQIxv<n6.Vector4>.Create(Node_Context: Node_Context_15);
                     state_12.__p_MnPsqGCc3BuP8cufABeVFj = Output_16;
-                    n1.NodeContext Node_Context_17 = __GetContext__().CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "MzOLT674vfYOrzZQ2Zpijf", 195138U);
+                    n1.NodeContext Node_Context_17 = __GetContext__().CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "MzOLT674vfYOrzZQ2Zpijf", 31201U);
                     var Output_18 = n21.SampleTexture_BckflDe3bBbM1KG5LnQIxv<n6.Vector4>.Create(Node_Context: Node_Context_17);
                     state_12.__p_MzOLT674vfYOrzZQ2Zpijf = Output_18;
-                    n1.NodeContext Node_Context_19 = __GetContext__().CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "CoQ2uTZF7HnNlW3oBVbr33", 195172U);
+                    n1.NodeContext Node_Context_19 = __GetContext__().CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "CoQ2uTZF7HnNlW3oBVbr33", 31213U);
                     string Resource_Group_Name_20 = "";
                     var Output_21 = n21.TextureIn_OypDfnSaGa1OvYqvLU5EVc.Create(Node_Context: Node_Context_19, Resource_Group_Name_In: Resource_Group_Name_20);
                     state_12.__p_CoQ2uTZF7HnNlW3oBVbr33 = Output_21;
-                    n1.NodeContext Node_Context_22 = __GetContext__().CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "VD0ihgp6OlTNkRAMHU0mkw", 195179U);
+                    n1.NodeContext Node_Context_22 = __GetContext__().CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "VD0ihgp6OlTNkRAMHU0mkw", 31230U);
                     string Resource_Group_Name_23 = "";
                     var Output_24 = n21.TextureIn_OypDfnSaGa1OvYqvLU5EVc.Create(Node_Context: Node_Context_22, Resource_Group_Name_In: Resource_Group_Name_23);
                     state_12.__p_VD0ihgp6OlTNkRAMHU0mkw = Output_24;
@@ -1306,9 +1306,9 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Mixer
         {
             n10.RuntimeHelpers.EnsureSufficientExecutionStack();
             var node_0 = n1.CompilationHelper.CreateNodeById(Node_Context, "BlendMixer", "Stride.Textures.Mixer.Advanced");
-            n1.NodeContext Node_Context_1 = Node_Context.CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "VA0b5LXsdq6O9hK77paOU4", 195030U);
+            n1.NodeContext Node_Context_1 = Node_Context.CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "VA0b5LXsdq6O9hK77paOU4", 31112U);
             var Output_2 = n21.SamplerIn_CwsiBD2yjEVMKfFxOsIL7f.Create(Node_Context: Node_Context_1);
-            n1.NodeContext Node_Context_3 = Node_Context.CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "BxxDlwFAvzcOJFAxwIegrq", 195201U);
+            n1.NodeContext Node_Context_3 = Node_Context.CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "BxxDlwFAvzcOJFAxwIegrq", 31246U);
             var Output_4 = n21.SamplerIn_CwsiBD2yjEVMKfFxOsIL7f.Create(Node_Context: Node_Context_3);
             n18.Blend_AFu86hoz4AgPNxFpUGXY6q that_5 = this;
             this.__p_P4aqh5oLEcgNkbG3nlH8yy = node_0;
@@ -1343,13 +1343,13 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Mixer
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 194972U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "P4aqh5oLEcgNkbG3nlH8yy", Name = "BlendMixer", IsManaged = true, IsAutoGenerated = true, NodeName = "BlendMixer", NodeCategory = "Stride.Textures.Mixer.Advanced")]
+        [n1.ElementAttribute(TracingId = 31064U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "P4aqh5oLEcgNkbG3nlH8yy", Name = "BlendMixer", IsManaged = true, IsAutoGenerated = true, NodeName = "BlendMixer", NodeCategory = "Stride.Textures.Mixer.Advanced")]
         public n1.IVLNode __p_P4aqh5oLEcgNkbG3nlH8yy;
-        [n1.ElementAttribute(TracingId = 195201U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "BxxDlwFAvzcOJFAxwIegrq", Name = "SamplerIn", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 31246U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "BxxDlwFAvzcOJFAxwIegrq", Name = "SamplerIn", IsManaged = true, IsAutoGenerated = true)]
         public n21.SamplerIn_CwsiBD2yjEVMKfFxOsIL7f __p_BxxDlwFAvzcOJFAxwIegrq;
-        [n1.ElementAttribute(TracingId = 195030U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "VA0b5LXsdq6O9hK77paOU4", Name = "SamplerIn", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 31112U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "VA0b5LXsdq6O9hK77paOU4", Name = "SamplerIn", IsManaged = true, IsAutoGenerated = true)]
         public n21.SamplerIn_CwsiBD2yjEVMKfFxOsIL7f __p_VA0b5LXsdq6O9hK77paOU4;
-        [n1.ElementAttribute(TracingId = 195052U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "G2MyopW4dR6L92CZbQThfg", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 31130U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "G2MyopW4dR6L92CZbQThfg", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
         public n19.Manager<n2.ValueTuple<n7.Texture, n7.Texture, n16.BlendOperator>, n2.ValueTuple<n16.SetVar<n6.Vector4>>> __cache_G2MyopW4dR6L92CZbQThfg = null;
         public Blend_AFu86hoz4AgPNxFpUGXY6q(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -1399,15 +1399,15 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Mixer
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 195085U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "O4bZCYWiNf9QFRDhhg9W4c", Name = "BlendOp", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 31167U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "O4bZCYWiNf9QFRDhhg9W4c", Name = "BlendOp", IsManaged = true, IsAutoGenerated = true)]
             public n20.BlendOp_Gg4gUVHOObnLietoehvV1h __p_O4bZCYWiNf9QFRDhhg9W4c;
-            [n1.ElementAttribute(TracingId = 195105U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "MnPsqGCc3BuP8cufABeVFj", Name = "SampleTexture", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 31187U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "MnPsqGCc3BuP8cufABeVFj", Name = "SampleTexture", IsManaged = true, IsAutoGenerated = true)]
             public n21.SampleTexture_BckflDe3bBbM1KG5LnQIxv<n6.Vector4> __p_MnPsqGCc3BuP8cufABeVFj;
-            [n1.ElementAttribute(TracingId = 195138U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "MzOLT674vfYOrzZQ2Zpijf", Name = "SampleTexture", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 31201U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "MzOLT674vfYOrzZQ2Zpijf", Name = "SampleTexture", IsManaged = true, IsAutoGenerated = true)]
             public n21.SampleTexture_BckflDe3bBbM1KG5LnQIxv<n6.Vector4> __p_MzOLT674vfYOrzZQ2Zpijf;
-            [n1.ElementAttribute(TracingId = 195172U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "CoQ2uTZF7HnNlW3oBVbr33", Name = "TextureIn", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 31213U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "CoQ2uTZF7HnNlW3oBVbr33", Name = "TextureIn", IsManaged = true, IsAutoGenerated = true)]
             public n21.TextureIn_OypDfnSaGa1OvYqvLU5EVc __p_CoQ2uTZF7HnNlW3oBVbr33;
-            [n1.ElementAttribute(TracingId = 195179U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "VD0ihgp6OlTNkRAMHU0mkw", Name = "TextureIn", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 31230U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "VD0ihgp6OlTNkRAMHU0mkw", Name = "TextureIn", IsManaged = true, IsAutoGenerated = true)]
             public n21.TextureIn_OypDfnSaGa1OvYqvLU5EVc __p_VD0ihgp6OlTNkRAMHU0mkw;
             public __SOrZIuTuQnTLFIxLmyAX2J(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -1450,7 +1450,7 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Mixer
 
 namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils.Advanced.Experimental
 {
-    [n1.ElementAttribute(TracingId = 195383U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "DjzETyjdqw1NI0YIhMLrmb", Name = "TextureFXBase_DjzETyjdqw1NI0YIhMLrmb")]
+    [n1.ElementAttribute(TracingId = 31413U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "DjzETyjdqw1NI0YIhMLrmb", Name = "TextureFXBase_DjzETyjdqw1NI0YIhMLrmb")]
     [n2.SerializableAttribute]
     public class TextureFXBase_DjzETyjdqw1NI0YIhMLrmb : n1.VLObject, n2.IDisposable
     {
@@ -1506,11 +1506,11 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils.Advanced.Experim
         public n8.TextureFXBase_DjzETyjdqw1NI0YIhMLrmb __Create__(n1.NodeContext Node_Context)
         {
             n10.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "RYBpICXcWAiLKfIpCAv4ah", 195386U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "RYBpICXcWAiLKfIpCAv4ah", 31416U);
             var Output_1 = n8.TextureFXDrawer_C.Create(Node_Context: Node_Context_0);
-            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "JGxt7BRK7GGNcL5q2LWpzP", 195415U);
+            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "JGxt7BRK7GGNcL5q2LWpzP", 31440U);
             var Output_3 = n8.RenderTargetFromInput_TQTuf7FUMdCMBja7wK8kVh.Create(Node_Context: Node_Context_2);
-            n1.NodeContext Node_Context_4 = Node_Context.CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "TD7V0hCOjXSQHh8xAEW5EK", 195448U);
+            n1.NodeContext Node_Context_4 = Node_Context.CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "TD7V0hCOjXSQHh8xAEW5EK", 31463U);
             var Output_5 = n24.RendererScheduler_A5jsSvRdG3aQXzlHCbUc8D.Create(Node_Context: Node_Context_4);
             n8.TextureFXBase_DjzETyjdqw1NI0YIhMLrmb that_6 = this;
             this.__p_RYBpICXcWAiLKfIpCAv4ah = Output_1;
@@ -1542,11 +1542,11 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils.Advanced.Experim
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 195415U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "JGxt7BRK7GGNcL5q2LWpzP", Name = "RenderTargetFromInput", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 31440U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "JGxt7BRK7GGNcL5q2LWpzP", Name = "RenderTargetFromInput", IsManaged = true, IsAutoGenerated = true)]
         public n8.RenderTargetFromInput_TQTuf7FUMdCMBja7wK8kVh __p_JGxt7BRK7GGNcL5q2LWpzP;
-        [n1.ElementAttribute(TracingId = 195386U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "RYBpICXcWAiLKfIpCAv4ah", Name = "TextureFXDrawer", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 31416U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "RYBpICXcWAiLKfIpCAv4ah", Name = "TextureFXDrawer", IsManaged = true, IsAutoGenerated = true)]
         public n8.TextureFXDrawer_C __p_RYBpICXcWAiLKfIpCAv4ah;
-        [n1.ElementAttribute(TracingId = 195448U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "TD7V0hCOjXSQHh8xAEW5EK", Name = "RendererScheduler", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 31463U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "TD7V0hCOjXSQHh8xAEW5EK", Name = "RendererScheduler", IsManaged = true, IsAutoGenerated = true)]
         public n24.RendererScheduler_A5jsSvRdG3aQXzlHCbUc8D __p_TD7V0hCOjXSQHh8xAEW5EK;
         public TextureFXBase_DjzETyjdqw1NI0YIhMLrmb(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -1581,7 +1581,7 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils.Advanced.Experim
         }
     }
 
-    [n1.ElementAttribute(TracingId = 195524U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "BGKMBSYtIAIMsHq1s7ojsl", Name = "TextureFXDrawer_C")]
+    [n1.ElementAttribute(TracingId = 31542U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "BGKMBSYtIAIMsHq1s7ojsl", Name = "TextureFXDrawer_C")]
     [n2.SerializableAttribute]
     public class TextureFXDrawer_C : n1.VLObject, n23.IGraphicsRendererBase, n2.IDisposable
     {
@@ -1721,9 +1721,9 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils.Advanced.Experim
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 195549U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "CgSxggAXUuKMUFGN5Uo1rQ", Name = "Effect")]
+        [n1.ElementAttribute(TracingId = 31570U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "CgSxggAXUuKMUFGN5Uo1rQ", Name = "Effect")]
         public n5.IImageEffect Effect;
-        [n1.ElementAttribute(TracingId = 195720U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "KGCy2TEanhWMDRnU8Lb16A", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 31765U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "KGCy2TEanhWMDRnU8Lb16A", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
         public n19.Manager<n2.ValueTuple<int>, n2.ValueTuple> __cache_KGCy2TEanhWMDRnU8Lb16A = null;
         public TextureFXDrawer_C(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -1749,7 +1749,7 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils.Advanced.Experim
         }
     }
 
-    [n1.ElementAttribute(TracingId = 195924U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "TQTuf7FUMdCMBja7wK8kVh", Name = "RenderTargetFromInput_TQTuf7FUMdCMBja7wK8kVh")]
+    [n1.ElementAttribute(TracingId = 33256U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "TQTuf7FUMdCMBja7wK8kVh", Name = "RenderTargetFromInput_TQTuf7FUMdCMBja7wK8kVh")]
     [n2.SerializableAttribute]
     public class RenderTargetFromInput_TQTuf7FUMdCMBja7wK8kVh : n1.VLObject, n2.IDisposable
     {
@@ -1804,11 +1804,11 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils.Advanced.Experim
         public n8.RenderTargetFromInput_TQTuf7FUMdCMBja7wK8kVh __Create__(n1.NodeContext Node_Context)
         {
             n10.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "IRcZRqqGqTbN5XeYUhRXIm", 195956U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "IRcZRqqGqTbN5XeYUhRXIm", 33295U);
             int Length_1 = 1;
             n22._Operations_.Create<n7.Texture>(Node_Context: Node_Context_0, Length_In: Length_1, Result_Out: out n7.Texture[] Result_2);
             n7.Texture[] __pad_IE6VbHata26Nz4uyTauJWQ_3 = Result_2;
-            n1.NodeContext Node_Context_4 = Node_Context.CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "Dx5dRlyJsXVMb5JPUcK50m", 195930U);
+            n1.NodeContext Node_Context_4 = Node_Context.CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "Dx5dRlyJsXVMb5JPUcK50m", 33263U);
             var Output_5 = n30.ComputeTexture2D_Vao5mu9muXYOjpaceyFIMy.Create(Node_Context: Node_Context_4);
             n8.RenderTargetFromInput_TQTuf7FUMdCMBja7wK8kVh that_6 = this;
             this.__slot_IE6VbHata26Nz4uyTauJWQ = Result_2;
@@ -1836,11 +1836,11 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils.Advanced.Experim
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 195949U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "LOF0GFRsudBOxnCnkOTnQt", Name = "__slot_LOF0GFRsudBOxnCnkOTnQt")]
+        [n1.ElementAttribute(TracingId = 33289U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "LOF0GFRsudBOxnCnkOTnQt", Name = "__slot_LOF0GFRsudBOxnCnkOTnQt")]
         public static bool __slot_LOF0GFRsudBOxnCnkOTnQt = true;
-        [n1.ElementAttribute(TracingId = 195986U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "IE6VbHata26Nz4uyTauJWQ", Name = "__slot_IE6VbHata26Nz4uyTauJWQ")]
+        [n1.ElementAttribute(TracingId = 33329U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "IE6VbHata26Nz4uyTauJWQ", Name = "__slot_IE6VbHata26Nz4uyTauJWQ")]
         public n7.Texture[] __slot_IE6VbHata26Nz4uyTauJWQ;
-        [n1.ElementAttribute(TracingId = 195930U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "Dx5dRlyJsXVMb5JPUcK50m", Name = "ComputeTexture2D", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 33263U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "Dx5dRlyJsXVMb5JPUcK50m", Name = "ComputeTexture2D", IsManaged = true, IsAutoGenerated = true)]
         public n30.ComputeTexture2D_Vao5mu9muXYOjpaceyFIMy __p_Dx5dRlyJsXVMb5JPUcK50m;
         static RenderTargetFromInput_TQTuf7FUMdCMBja7wK8kVh()
         {
@@ -1877,7 +1877,7 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils.Advanced.Experim
         }
     }
 
-    [n1.ElementAttribute(TracingId = 196219U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "HoI1m5RbT1KL8Qev8rb3S3", Name = "RenderTargetFrom2Inputs_HoI1m5RbT1KL8Qev8rb3S3")]
+    [n1.ElementAttribute(TracingId = 41795U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "HoI1m5RbT1KL8Qev8rb3S3", Name = "RenderTargetFrom2Inputs_HoI1m5RbT1KL8Qev8rb3S3")]
     [n2.SerializableAttribute]
     public class RenderTargetFrom2Inputs_HoI1m5RbT1KL8Qev8rb3S3 : n1.VLObject, n2.IDisposable
     {
@@ -1938,11 +1938,11 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils.Advanced.Experim
         public n8.RenderTargetFrom2Inputs_HoI1m5RbT1KL8Qev8rb3S3 __Create__(n1.NodeContext Node_Context)
         {
             n10.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "PhyeYinL8GHPXPG8kwHmcU", 196254U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "PhyeYinL8GHPXPG8kwHmcU", 41814U);
             int Length_1 = 2;
             n22._Operations_.Create<n7.Texture>(Node_Context: Node_Context_0, Length_In: Length_1, Result_Out: out n7.Texture[] Result_2);
             n7.Texture[] __pad_GzOHfHnXYwyP2erBCOHqvx_3 = Result_2;
-            n1.NodeContext Node_Context_4 = Node_Context.CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "RlZj9C4xFHGMTppy6wVsNS", 196223U);
+            n1.NodeContext Node_Context_4 = Node_Context.CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "RlZj9C4xFHGMTppy6wVsNS", 41802U);
             var Output_5 = n30.ComputeTexture2D_Vao5mu9muXYOjpaceyFIMy.Create(Node_Context: Node_Context_4);
             n8.RenderTargetFrom2Inputs_HoI1m5RbT1KL8Qev8rb3S3 that_6 = this;
             this.__slot_GzOHfHnXYwyP2erBCOHqvx = Result_2;
@@ -1972,13 +1972,13 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils.Advanced.Experim
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 196248U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "TUrX158dQz6NCxxOlWqHmf", Name = "__slot_TUrX158dQz6NCxxOlWqHmf")]
+        [n1.ElementAttribute(TracingId = 41810U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "TUrX158dQz6NCxxOlWqHmf", Name = "__slot_TUrX158dQz6NCxxOlWqHmf")]
         public static bool __slot_TUrX158dQz6NCxxOlWqHmf = true;
-        [n1.ElementAttribute(TracingId = 196284U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "GzOHfHnXYwyP2erBCOHqvx", Name = "__slot_GzOHfHnXYwyP2erBCOHqvx")]
+        [n1.ElementAttribute(TracingId = 41830U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "GzOHfHnXYwyP2erBCOHqvx", Name = "__slot_GzOHfHnXYwyP2erBCOHqvx")]
         public n7.Texture[] __slot_GzOHfHnXYwyP2erBCOHqvx;
         [n1.ElementAttribute(IsAutoGenerated = true)]
         public n31.Spread<n7.Texture> __pin_group_Input_In_TeDPckcE8HAOzxQyHBIVgB = default(n31.Spread<n7.Texture>);
-        [n1.ElementAttribute(TracingId = 196223U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "RlZj9C4xFHGMTppy6wVsNS", Name = "ComputeTexture2D", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 41802U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "RlZj9C4xFHGMTppy6wVsNS", Name = "ComputeTexture2D", IsManaged = true, IsAutoGenerated = true)]
         public n30.ComputeTexture2D_Vao5mu9muXYOjpaceyFIMy __p_RlZj9C4xFHGMTppy6wVsNS;
         static RenderTargetFrom2Inputs_HoI1m5RbT1KL8Qev8rb3S3()
         {
@@ -2017,7 +2017,7 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils.Advanced.Experim
         }
     }
 
-    [n1.ElementAttribute(TracingId = 196518U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "PJIIm3Cdxn0PvwywMQZ6ha", Name = "TextureFXGraph_PJIIm3Cdxn0PvwywMQZ6ha")]
+    [n1.ElementAttribute(TracingId = 41948U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "PJIIm3Cdxn0PvwywMQZ6ha", Name = "TextureFXGraph_PJIIm3Cdxn0PvwywMQZ6ha")]
     [n2.SerializableAttribute]
     public class TextureFXGraph_PJIIm3Cdxn0PvwywMQZ6ha : n1.VLObject, n2.IDisposable
     {
@@ -2059,7 +2059,7 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils.Advanced.Experim
                 if (state_12 == null)
                 {
                     state_12 = new __LccDdAffRmVNLXyB9hoJIE(__GetContext__(), n1.VLObject.NewIdentity());
-                    n1.NodeContext Node_Context_13 = __GetContext__().CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "MjIVyMzEdVqLyJa9Cnk9UH", 196678U);
+                    n1.NodeContext Node_Context_13 = __GetContext__().CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "MjIVyMzEdVqLyJa9Cnk9UH", 42539U);
                     var Output_14 = n35.GraphicsDevice_V0mXf77TurpOVQNzgviejb.Create(Node_Context_In: Node_Context_13);
                     state_12.__p_MjIVyMzEdVqLyJa9Cnk9UH = Output_14;
                 }
@@ -2127,11 +2127,11 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils.Advanced.Experim
         public n8.TextureFXGraph_PJIIm3Cdxn0PvwywMQZ6ha __Create__(n1.NodeContext Node_Context)
         {
             n10.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "Q7Gg1ZNC3jZOe2zFOBqlQT", 196524U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "Q7Gg1ZNC3jZOe2zFOBqlQT", 41954U);
             var Output_1 = n8.TextureFXDrawer_C.Create(Node_Context: Node_Context_0);
-            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "M3EgLjEpBkyLiItLeCQL4l", 196553U);
+            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "M3EgLjEpBkyLiItLeCQL4l", 41966U);
             var Output_3 = n8.RenderTargetFromInput_TQTuf7FUMdCMBja7wK8kVh.Create(Node_Context: Node_Context_2);
-            n1.NodeContext Node_Context_4 = Node_Context.CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "REtSLf22VmuNu13iVbUj2k", 196715U);
+            n1.NodeContext Node_Context_4 = Node_Context.CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "REtSLf22VmuNu13iVbUj2k", 42564U);
             var Output_5 = n24.RendererScheduler_A5jsSvRdG3aQXzlHCbUc8D.Create(Node_Context: Node_Context_4);
             n8.TextureFXGraph_PJIIm3Cdxn0PvwywMQZ6ha that_6 = this;
             this.__slot_BvZu4eh0WVvQNsu6GoX9qW = n22._Operations_.CreateDefault<n7.Texture>();
@@ -2168,19 +2168,19 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils.Advanced.Experim
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 196712U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "BvZu4eh0WVvQNsu6GoX9qW", Name = "__slot_BvZu4eh0WVvQNsu6GoX9qW")]
+        [n1.ElementAttribute(TracingId = 42562U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "BvZu4eh0WVvQNsu6GoX9qW", Name = "__slot_BvZu4eh0WVvQNsu6GoX9qW")]
         public n7.Texture[] __slot_BvZu4eh0WVvQNsu6GoX9qW;
-        [n1.ElementAttribute(TracingId = 196721U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "JPQuqKYJkA9Lv4KTvWmwAt", Name = "__slot_JPQuqKYJkA9Lv4KTvWmwAt")]
+        [n1.ElementAttribute(TracingId = 42580U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "JPQuqKYJkA9Lv4KTvWmwAt", Name = "__slot_JPQuqKYJkA9Lv4KTvWmwAt")]
         public static bool __slot_JPQuqKYJkA9Lv4KTvWmwAt = true;
-        [n1.ElementAttribute(TracingId = 196724U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "VDyq7j9mxvjOsGPtu1i02f", Name = "__slot_VDyq7j9mxvjOsGPtu1i02f")]
+        [n1.ElementAttribute(TracingId = 42585U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "VDyq7j9mxvjOsGPtu1i02f", Name = "__slot_VDyq7j9mxvjOsGPtu1i02f")]
         public static bool __slot_VDyq7j9mxvjOsGPtu1i02f = true;
-        [n1.ElementAttribute(TracingId = 196553U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "M3EgLjEpBkyLiItLeCQL4l", Name = "RenderTargetFromInput", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 41966U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "M3EgLjEpBkyLiItLeCQL4l", Name = "RenderTargetFromInput", IsManaged = true, IsAutoGenerated = true)]
         public n8.RenderTargetFromInput_TQTuf7FUMdCMBja7wK8kVh __p_M3EgLjEpBkyLiItLeCQL4l;
-        [n1.ElementAttribute(TracingId = 196594U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "KvdqzZMSHzDM5lhaXkBuWJ", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 41987U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "KvdqzZMSHzDM5lhaXkBuWJ", Name = "Cache", IsManaged = true, IsAutoGenerated = true)]
         public n19.Manager<n2.ValueTuple<n16.SetVar<n6.Vector4>>, n2.ValueTuple<n34.TextureFXEffect>> __cache_KvdqzZMSHzDM5lhaXkBuWJ = null;
-        [n1.ElementAttribute(TracingId = 196524U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "Q7Gg1ZNC3jZOe2zFOBqlQT", Name = "TextureFXDrawer", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 41954U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "Q7Gg1ZNC3jZOe2zFOBqlQT", Name = "TextureFXDrawer", IsManaged = true, IsAutoGenerated = true)]
         public n8.TextureFXDrawer_C __p_Q7Gg1ZNC3jZOe2zFOBqlQT;
-        [n1.ElementAttribute(TracingId = 196715U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "REtSLf22VmuNu13iVbUj2k", Name = "RendererScheduler", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 42564U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "REtSLf22VmuNu13iVbUj2k", Name = "RendererScheduler", IsManaged = true, IsAutoGenerated = true)]
         public n24.RendererScheduler_A5jsSvRdG3aQXzlHCbUc8D __p_REtSLf22VmuNu13iVbUj2k;
         static TextureFXGraph_PJIIm3Cdxn0PvwywMQZ6ha()
         {
@@ -2232,7 +2232,7 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils.Advanced.Experim
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 196678U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "MjIVyMzEdVqLyJa9Cnk9UH", Name = "GraphicsDevice", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 42539U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "MjIVyMzEdVqLyJa9Cnk9UH", Name = "GraphicsDevice", IsManaged = true, IsAutoGenerated = true)]
             public n35.GraphicsDevice_V0mXf77TurpOVQNzgviejb __p_MjIVyMzEdVqLyJa9Cnk9UH;
             public __LccDdAffRmVNLXyB9hoJIE(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -2267,7 +2267,7 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils.Advanced.Experim
 
 namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils
 {
-    [n1.ElementAttribute(TracingId = 196803U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "KMhnX1iRAMqQChHGljYrk4", Name = "Resize_Relative_C")]
+    [n1.ElementAttribute(TracingId = 44967U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "KMhnX1iRAMqQChHGljYrk4", Name = "Resize_Relative_C")]
     [n2.SerializableAttribute]
     public class Resize_Relative_C : n1.VLObject, n2.IDisposable
     {
@@ -2309,7 +2309,7 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils
                 float Y_7 = (float)View_Height_6;
                 var Output_8 = new n6.Vector2(x: X_5, y: Y_7);
                 n42.Vector2Nodes.Multiply(left: ref Output_8, right: ref Size_Scale_In, result: out n6.Vector2 Output_9);
-                n1.NodeContext Node_Context_10 = __GetContext__().CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "IUg37LmLkcIMO6SuCcIcvY", 196908U);
+                n1.NodeContext Node_Context_10 = __GetContext__().CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "IUg37LmLkcIMO6SuCcIcvY", 45017U);
                 n43._Operations_.Create(Node_Context: Node_Context_10, Value_In: Output_9, Output_Out: out n6.Int2 Output_11);
                 __auto_2 = Output_11;
             }
@@ -2384,7 +2384,7 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 196807U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "RQKw4lWFxYUL19qhP8KfYN", Name = "Resize", IsManaged = true, IsAutoGenerated = true, NodeName = "Resize", NodeCategory = "Stride.Textures.Utils")]
+        [n1.ElementAttribute(TracingId = 44970U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "RQKw4lWFxYUL19qhP8KfYN", Name = "Resize", IsManaged = true, IsAutoGenerated = true, NodeName = "Resize", NodeCategory = "Stride.Textures.Utils")]
         public n1.IVLNode __p_RQKw4lWFxYUL19qhP8KfYN;
         public Resize_Relative_C(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -2408,7 +2408,7 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils
         }
     }
 
-    [n1.ElementAttribute(TracingId = 197055U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "GwkPxFfWmJbP7A1hB1PVvI", Name = "Crop_Relative_C")]
+    [n1.ElementAttribute(TracingId = 45120U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "GwkPxFfWmJbP7A1hB1PVvI", Name = "Crop_Relative_C")]
     [n2.SerializableAttribute]
     public class Crop_Relative_C : n1.VLObject, n2.IDisposable
     {
@@ -2454,7 +2454,7 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils
                 float Y_7 = (float)View_Height_6;
                 var Output_8 = new n6.Vector2(x: X_5, y: Y_7);
                 n42.Vector2Nodes.Multiply(left: ref Output_8, right: ref Size_In, result: out n6.Vector2 Output_9);
-                n1.NodeContext Node_Context_10 = __GetContext__().CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "CsaREzWehyQPhEpuEqH8vw", 197178U);
+                n1.NodeContext Node_Context_10 = __GetContext__().CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "CsaREzWehyQPhEpuEqH8vw", 45227U);
                 n43._Operations_.Create(Node_Context: Node_Context_10, Value_In: Output_9, Output_Out: out n6.Int2 Output_11);
                 n27._Operations_.ReplaceSize(Size_In: Output_11, Replace_Size_In: Output_Size_In, Output_Out: out n6.Int2 Output_12);
                 __auto_2 = Output_12;
@@ -2544,7 +2544,7 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 197058U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "K6eVBXP1iv7QNZ4LtvK0mw", Name = "Crop", IsManaged = true, IsAutoGenerated = true, NodeName = "Crop (Internal)", NodeCategory = "Stride.Textures.Utils")]
+        [n1.ElementAttribute(TracingId = 45123U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "K6eVBXP1iv7QNZ4LtvK0mw", Name = "Crop", IsManaged = true, IsAutoGenerated = true, NodeName = "Crop (Internal)", NodeCategory = "Stride.Textures.Utils")]
         public n1.IVLNode __p_K6eVBXP1iv7QNZ4LtvK0mw;
         public Crop_Relative_C(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -2568,7 +2568,7 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils
         }
     }
 
-    [n1.ElementAttribute(TracingId = 197362U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "HzvOknOScWOLH7cwA7AiVx", Name = "Crop_C")]
+    [n1.ElementAttribute(TracingId = 45404U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "HzvOknOScWOLH7cwA7AiVx", Name = "Crop_C")]
     [n2.SerializableAttribute]
     public class Crop_C : n1.VLObject, n2.IDisposable
     {
@@ -2711,7 +2711,7 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 197366U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "VRbjdQ7QisiO0MqhSMbgkA", Name = "Crop", IsManaged = true, IsAutoGenerated = true, NodeName = "Crop (Internal)", NodeCategory = "Stride.Textures.Utils")]
+        [n1.ElementAttribute(TracingId = 45410U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "VRbjdQ7QisiO0MqhSMbgkA", Name = "Crop", IsManaged = true, IsAutoGenerated = true, NodeName = "Crop (Internal)", NodeCategory = "Stride.Textures.Utils")]
         public n1.IVLNode __p_VRbjdQ7QisiO0MqhSMbgkA;
         public Crop_C(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -2735,7 +2735,7 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils
         }
     }
 
-    [n1.ElementAttribute(TracingId = 197570U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "RrwOcCmgdsKOgmTkIHE6fV", Name = "ChangeFormat_RrwOcCmgdsKOgmTkIHE6fV")]
+    [n1.ElementAttribute(TracingId = 48439U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "RrwOcCmgdsKOgmTkIHE6fV", Name = "ChangeFormat_RrwOcCmgdsKOgmTkIHE6fV")]
     [n2.SerializableAttribute]
     public class ChangeFormat_RrwOcCmgdsKOgmTkIHE6fV : n1.VLObject, n2.IDisposable
     {
@@ -2795,7 +2795,7 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils
                 if (state_19 == null)
                 {
                     state_19 = new __Eb8ysPunDB7LrMp9DYGQ3T(__GetContext__(), n1.VLObject.NewIdentity());
-                    n1.NodeContext Node_Context_20 = __GetContext__().CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "RgnogG6muL9LkzRZdrBUK3", 197630U);
+                    n1.NodeContext Node_Context_20 = __GetContext__().CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "RgnogG6muL9LkzRZdrBUK3", 48588U);
                     var Output_21 = n46.CopyTexture_UGdw4Tvemx5QK60AS7AHcT.Create(Node_Context: Node_Context_20);
                     state_19.__p_RgnogG6muL9LkzRZdrBUK3 = Output_21;
                 }
@@ -2827,7 +2827,7 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils
                 if (state_31 == null)
                 {
                     state_31 = new __Q3E9Pnrcx7MNXhRPCTxZdn(__GetContext__(), n1.VLObject.NewIdentity());
-                    n1.NodeContext Node_Context_32 = __GetContext__().CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "IlWBjOgJQ9KOxFxa61Qeft", 197667U);
+                    n1.NodeContext Node_Context_32 = __GetContext__().CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "IlWBjOgJQ9KOxFxa61Qeft", 48695U);
                     bool Changed_On_Create_33 = true;
                     var Output_34 = n32.Changed_A8JGbead2bxNdnPybiEqVS<n7.Texture>.Create<n13.__AdaptiveImplementations__BzGvoB2aLhzP7WO4jVw5sI>(Node_Context: Node_Context_32, Changed_On_Create_In: Changed_On_Create_33);
                     state_31.__p_IlWBjOgJQ9KOxFxa61Qeft = Output_34;
@@ -2933,11 +2933,11 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 197644U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "EkY3lpuIZwJLSQeENLkgk2", Name = "__slot_EkY3lpuIZwJLSQeENLkgk2")]
+        [n1.ElementAttribute(TracingId = 48622U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "EkY3lpuIZwJLSQeENLkgk2", Name = "__slot_EkY3lpuIZwJLSQeENLkgk2")]
         public static string __slot_EkY3lpuIZwJLSQeENLkgk2 = "Resource copy if pixel format matches";
-        [n1.ElementAttribute(TracingId = 197697U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "HmdKSBaXKs3ObBayVTCUpW", Name = "__slot_HmdKSBaXKs3ObBayVTCUpW")]
+        [n1.ElementAttribute(TracingId = 48786U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "HmdKSBaXKs3ObBayVTCUpW", Name = "__slot_HmdKSBaXKs3ObBayVTCUpW")]
         public static string __slot_HmdKSBaXKs3ObBayVTCUpW = "Render if pixel format doesn't match.";
-        [n1.ElementAttribute(TracingId = 197636U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "UATntHwj44TNOwbUQKB2Fb", Name = "__slot_UATntHwj44TNOwbUQKB2Fb")]
+        [n1.ElementAttribute(TracingId = 48601U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "UATntHwj44TNOwbUQKB2Fb", Name = "__slot_UATntHwj44TNOwbUQKB2Fb")]
         public static n7.TextureFlags __slot_UATntHwj44TNOwbUQKB2Fb = n1.CompilationHelper.Deserialize<n7.TextureFlags>("ShaderResource", false, "BzGvoB2aLhzP7WO4jVw5sI", "UATntHwj44TNOwbUQKB2Fb");
         [n1.ElementAttribute(IsManaged = true, IsAutoGenerated = true)]
         public n2.Object __if_OBwi9EHNfQkNMUB5i4v9I0;
@@ -2987,7 +2987,7 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 197630U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "RgnogG6muL9LkzRZdrBUK3", Name = "CopyTexture", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 48588U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "RgnogG6muL9LkzRZdrBUK3", Name = "CopyTexture", IsManaged = true, IsAutoGenerated = true)]
             public n46.CopyTexture_UGdw4Tvemx5QK60AS7AHcT __p_RgnogG6muL9LkzRZdrBUK3;
             public __Eb8ysPunDB7LrMp9DYGQ3T(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -3030,9 +3030,9 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 197667U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "IlWBjOgJQ9KOxFxa61Qeft", Name = "Changed", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 48695U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "IlWBjOgJQ9KOxFxa61Qeft", Name = "Changed", IsManaged = true, IsAutoGenerated = true)]
             public n32.Changed_A8JGbead2bxNdnPybiEqVS<n7.Texture> __p_IlWBjOgJQ9KOxFxa61Qeft;
-            [n1.ElementAttribute(TracingId = 197671U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "T2Z7X5LFXRqPMJFZReTGVK", Name = "PassThrough", IsManaged = true, IsAutoGenerated = true, NodeName = "PassThrough", NodeCategory = "Stride.Textures.Utils.Advanced")]
+            [n1.ElementAttribute(TracingId = 48704U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "T2Z7X5LFXRqPMJFZReTGVK", Name = "PassThrough", IsManaged = true, IsAutoGenerated = true, NodeName = "PassThrough", NodeCategory = "Stride.Textures.Utils.Advanced")]
             public n1.IVLNode __p_T2Z7X5LFXRqPMJFZReTGVK;
             [n1.ElementAttribute(IsManaged = true, IsAutoGenerated = true)]
             public n2.Object __if_UFah7MSb4q5OZ3BSlZS9oL;
@@ -3079,7 +3079,7 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 197659U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "LZzYcp4060POsVEslf5NUc", Name = "MipMap", IsManaged = true, IsAutoGenerated = true, NodeName = "MipMap", NodeCategory = "Stride.Textures.Experimental.Utils")]
+            [n1.ElementAttribute(TracingId = 48663U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "LZzYcp4060POsVEslf5NUc", Name = "MipMap", IsManaged = true, IsAutoGenerated = true, NodeName = "MipMap", NodeCategory = "Stride.Textures.Experimental.Utils")]
             public n1.IVLNode __p_LZzYcp4060POsVEslf5NUc;
             public __Mo09qk5gBVXLZNrDSBvqOj(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -3111,7 +3111,7 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils
         }
     }
 
-    [n1.ElementAttribute(TracingId = 197780U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "NPAHlPHnYkaLnenemMS3ba", Name = "Feedback_NPAHlPHnYkaLnenemMS3ba")]
+    [n1.ElementAttribute(TracingId = 53949U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "NPAHlPHnYkaLnenemMS3ba", Name = "Feedback_NPAHlPHnYkaLnenemMS3ba")]
     [n2.SerializableAttribute]
     public class Feedback_NPAHlPHnYkaLnenemMS3ba : n1.VLObject, n2.IDisposable
     {
@@ -3165,7 +3165,7 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils
         public n41.Feedback_NPAHlPHnYkaLnenemMS3ba __Create__(n1.NodeContext Node_Context)
         {
             n10.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "QMTv0jdjywBORPuVdN8JED", 197802U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "QMTv0jdjywBORPuVdN8JED", 53992U);
             var Output_1 = n46.CopyTexture_UGdw4Tvemx5QK60AS7AHcT.Create(Node_Context: Node_Context_0);
             n41.Feedback_NPAHlPHnYkaLnenemMS3ba that_2 = this;
             this.Last_Frame = default(n7.Texture);
@@ -3193,9 +3193,9 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 197787U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "VDJ5Y5C6hImK95e9xzoQ4X", Name = "Last Frame")]
+        [n1.ElementAttribute(TracingId = 53962U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "VDJ5Y5C6hImK95e9xzoQ4X", Name = "Last Frame")]
         public n7.Texture Last_Frame;
-        [n1.ElementAttribute(TracingId = 197802U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "QMTv0jdjywBORPuVdN8JED", Name = "CopyTexture", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 53992U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "QMTv0jdjywBORPuVdN8JED", Name = "CopyTexture", IsManaged = true, IsAutoGenerated = true)]
         public n46.CopyTexture_UGdw4Tvemx5QK60AS7AHcT __p_QMTv0jdjywBORPuVdN8JED;
         public Feedback_NPAHlPHnYkaLnenemMS3ba(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -3231,7 +3231,7 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils
 
 namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Source
 {
-    [n1.ElementAttribute(TracingId = 197832U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "F770KqlwOMYPQifLlstupw", Name = "Electricity_C")]
+    [n1.ElementAttribute(TracingId = 54103U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "F770KqlwOMYPQifLlstupw", Name = "Electricity_C")]
     [n2.SerializableAttribute]
     public class Electricity_C : n1.VLObject, n2.IDisposable
     {
@@ -3385,7 +3385,7 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Source
             this.__slot_NdBbw9jnzfpLiLpeAb4QBA = 0F;
             this.Volume_Noise = default(n7.Texture);
             string __pad_ESeqcZbJsFePAzmal4yaal_0 = __slot_ESeqcZbJsFePAzmal4yaal;
-            n1.NodeContext Node_Context_1 = Node_Context.CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "RlS31TrJ44JPbFfTFg98eC", 197896U);
+            n1.NodeContext Node_Context_1 = Node_Context.CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "RlS31TrJ44JPbFfTFg98eC", 54315U);
             var Output_2 = n24.Game_NFOYCtbjpVWPQqunXUGp2r.Create(Node_Context_In: Node_Context_1);
             this.__p_RlS31TrJ44JPbFfTFg98eC = Output_2;
             var State_Output_4 = Output_2.Update(Output_Out: out n51.Game Output_3);
@@ -3401,7 +3401,7 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Source
             Electricity_C Instance_11 = this;
             var node_12 = n1.CompilationHelper.CreateNodeById(Node_Context, "Electricity (Internal)", "Stride.Textures.Source");
             this.__p_RJYITwkP2cbMZMehGuFsSV = node_12;
-            n1.NodeContext Node_Context_13 = Node_Context.CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "DXBmed7fB4UL92QX6IFFSA", 197881U);
+            n1.NodeContext Node_Context_13 = Node_Context.CreateSubContext("BzGvoB2aLhzP7WO4jVw5sI", "DXBmed7fB4UL92QX6IFFSA", 54255U);
             n54.IFrameClock Clock_14 = n53._Operations_.CreateDefault();
             var Output_15 = n55.LFO_F48sA9CC7kzM1Y1LIpWRrD.Create(Node_Context: Node_Context_13, Clock_In: Clock_14);
             this.__p_DXBmed7fB4UL92QX6IFFSA = Output_15;
@@ -3441,21 +3441,21 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Source
             var __returnValue__ = Dispose_();
         }
 
-        [n1.ElementAttribute(TracingId = 197908U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "ESeqcZbJsFePAzmal4yaal", Name = "__slot_ESeqcZbJsFePAzmal4yaal")]
+        [n1.ElementAttribute(TracingId = 55200U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "ESeqcZbJsFePAzmal4yaal", Name = "__slot_ESeqcZbJsFePAzmal4yaal")]
         public static string __slot_ESeqcZbJsFePAzmal4yaal = "Textures/noise_volume_128";
-        [n1.ElementAttribute(TracingId = 197915U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "BdRMv7o9yCOPH1UIvk0cJv", Name = "__slot_BdRMv7o9yCOPH1UIvk0cJv")]
+        [n1.ElementAttribute(TracingId = 55243U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "BdRMv7o9yCOPH1UIvk0cJv", Name = "__slot_BdRMv7o9yCOPH1UIvk0cJv")]
         public n50.ContentManager __slot_BdRMv7o9yCOPH1UIvk0cJv;
-        [n1.ElementAttribute(TracingId = 197925U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "NdBbw9jnzfpLiLpeAb4QBA", Name = "__slot_NdBbw9jnzfpLiLpeAb4QBA")]
+        [n1.ElementAttribute(TracingId = 55897U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "NdBbw9jnzfpLiLpeAb4QBA", Name = "__slot_NdBbw9jnzfpLiLpeAb4QBA")]
         public float __slot_NdBbw9jnzfpLiLpeAb4QBA;
-        [n1.ElementAttribute(TracingId = 197910U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "RCOAu57bkB8MJAux0U2GBU", Name = "Volume Noise")]
+        [n1.ElementAttribute(TracingId = 55211U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "RCOAu57bkB8MJAux0U2GBU", Name = "Volume Noise")]
         public n7.Texture Volume_Noise;
-        [n1.ElementAttribute(TracingId = 197835U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "RJYITwkP2cbMZMehGuFsSV", Name = "Electricity", IsManaged = true, IsAutoGenerated = true, NodeName = "Electricity (Internal)", NodeCategory = "Stride.Textures.Source")]
+        [n1.ElementAttribute(TracingId = 54106U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "RJYITwkP2cbMZMehGuFsSV", Name = "Electricity", IsManaged = true, IsAutoGenerated = true, NodeName = "Electricity (Internal)", NodeCategory = "Stride.Textures.Source")]
         public n1.IVLNode __p_RJYITwkP2cbMZMehGuFsSV;
-        [n1.ElementAttribute(TracingId = 197881U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "DXBmed7fB4UL92QX6IFFSA", Name = "LFO", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 54255U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "DXBmed7fB4UL92QX6IFFSA", Name = "LFO", IsManaged = true, IsAutoGenerated = true)]
         public n55.LFO_F48sA9CC7kzM1Y1LIpWRrD __p_DXBmed7fB4UL92QX6IFFSA;
-        [n1.ElementAttribute(TracingId = 197896U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "RlS31TrJ44JPbFfTFg98eC", Name = "Game", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 54315U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "RlS31TrJ44JPbFfTFg98eC", Name = "Game", IsManaged = true, IsAutoGenerated = true)]
         public n24.Game_NFOYCtbjpVWPQqunXUGp2r __p_RlS31TrJ44JPbFfTFg98eC;
-        [n1.ElementAttribute(TracingId = 197919U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "SLKY88Ox3GiPbfZT0sfFtC", Name = "This", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 55866U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "SLKY88Ox3GiPbfZT0sfFtC", Name = "This", IsManaged = true, IsAutoGenerated = true)]
         public n2.Object __p_SLKY88Ox3GiPbfZT0sfFtC;
         static Electricity_C()
         {
@@ -3498,7 +3498,7 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures.Source
 
 namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures
 {
-    [n1.ElementAttribute(TracingId = 198020U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "U6vd7MA9h1ZQcPz63aoyUC", Name = "VL_Stride_Rendering_TextureFXApplication_U6vd7MA9h1ZQcPz63aoyUC")]
+    [n1.ElementAttribute(TracingId = 56204U, DocumentId = "BzGvoB2aLhzP7WO4jVw5sI", PersistentId = "U6vd7MA9h1ZQcPz63aoyUC", Name = "VL_Stride_Rendering_TextureFXApplication_U6vd7MA9h1ZQcPz63aoyUC")]
     [n2.SerializableAttribute]
     public class VL_Stride_Rendering_TextureFXApplication_U6vd7MA9h1ZQcPz63aoyUC : n1.VLObject, n2.IDisposable
     {
@@ -3565,22 +3565,8 @@ namespace _VL_Stride_Rendering_TextureFX_.Stride.Textures
 
 namespace _VL_Stride_Rendering_TextureFX_
 {
-    public struct __AdaptiveImplementations__BzGvoB2aLhzP7WO4jVw5sI : n61.IAdaptiveMax<int>, n61.IAdaptiveOperatorGreater<int>, n61.IAdaptiveMin<int>, n61.IAdaptiveOperatorLess<int>, n62.IAdaptiveCreateDefault<n7.Texture>, n61.IAdaptiveOne<float>, n61.IAdaptiveOperatorDivide<float>, n61.IAdaptiveHalf<float>, n61.IAdaptiveOperatorMulitply_Scale<float>, n61.IAdaptiveOperatorMulitply<float>
+    public struct __AdaptiveImplementations__BzGvoB2aLhzP7WO4jVw5sI : n61.IAdaptiveMin<int>, n61.IAdaptiveOperatorLess<int>, n61.IAdaptiveMax<int>, n61.IAdaptiveOperatorGreater<int>, n62.IAdaptiveCreateDefault<n7.Texture>, n61.IAdaptiveOne<float>, n61.IAdaptiveOperatorDivide<float>, n61.IAdaptiveHalf<float>, n61.IAdaptiveOperatorMulitply_Scale<float>, n61.IAdaptiveOperatorMulitply<float>
     {
-        public void Max(int Input_In, int Input_2_In, out int Output_Out)
-        {
-            n14._Operations_.Max<int, n13.__AdaptiveImplementations__BzGvoB2aLhzP7WO4jVw5sI>(Input_In: Input_In, Input_2_In: Input_2_In, Output_Out: out int Output_0);
-            Output_Out = Output_0;
-            return;
-        }
-
-        public void OperatorGreater(int Input_In, int Input_2_In, out bool Result_Out)
-        {
-            var Result_0 = Input_In > Input_2_In;
-            Result_Out = Result_0;
-            return;
-        }
-
         public void Min(int Input_In, int Input_2_In, out int Output_Out)
         {
             n14._Operations_.Min<int, n13.__AdaptiveImplementations__BzGvoB2aLhzP7WO4jVw5sI>(Input_In: Input_In, Input_2_In: Input_2_In, Output_Out: out int Output_0);
@@ -3591,6 +3577,20 @@ namespace _VL_Stride_Rendering_TextureFX_
         public void OperatorLess(int Input_In, int Input_2_In, out bool Result_Out)
         {
             var Result_0 = Input_In < Input_2_In;
+            Result_Out = Result_0;
+            return;
+        }
+
+        public void Max(int Input_In, int Input_2_In, out int Output_Out)
+        {
+            n14._Operations_.Max<int, n13.__AdaptiveImplementations__BzGvoB2aLhzP7WO4jVw5sI>(Input_In: Input_In, Input_2_In: Input_2_In, Output_Out: out int Output_0);
+            Output_Out = Output_0;
+            return;
+        }
+
+        public void OperatorGreater(int Input_In, int Input_2_In, out bool Result_Out)
+        {
+            var Result_0 = Input_In > Input_2_In;
             Result_Out = Result_0;
             return;
         }

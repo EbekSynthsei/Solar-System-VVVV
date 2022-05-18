@@ -1,39 +1,39 @@
-﻿extern alias e2;
-extern alias e5;
+﻿extern alias e3;
+extern alias e2;
 
-using n10 = e2::VL.Lib.Primitive;
+using n13 = e2::VL.Lib.Collections;
 using n3 = _VL_Attractor_.Math;
-using n6 = e5::VL.Core.CompilerServices;
 using n4 = global::System.Collections.Generic;
 using n11 = _CoreLibBasics_.Math.Adaptive;
-using n5 = _CoreLibBasics_.Primitive.Advanced.Adaptive;
+using n7 = _CoreLibBasics_.Primitive.Advanced.Adaptive;
 using n12 = _VL_Attractor_.Math.Attractor;
-using n9 = _CoreLibBasics_.Math.Ranges.Generic.Advanced;
-using n1 = e5::VL.Core;
-using n8 = _VL_Attractor_;
+using n9 = e3::VL.Lib.Primitive;
+using n6 = _CoreLibBasics_.Math.Ranges.Generic.Advanced;
+using n1 = e2::VL.Core;
+using n5 = _VL_Attractor_;
 using n2 = global::System;
-using n7 = global::System.Runtime.CompilerServices;
-using n13 = e5::VL.Lib.Collections;
+using n8 = e2::VL.Core.CompilerServices;
+using n10 = global::System.Runtime.CompilerServices;
 using n14 = _VL_Collections_.Collections.Spread;
 
 namespace _VL_Attractor_.Math
 {
-    [n1.ElementAttribute(TracingId = 1565U, DocumentId = "Tyv8gjorNaCMGFEbB0GPXx", PersistentId = "RbZMgBTKetoLbqL8OBESR0", Name = "Attractor_R")]
+    [n1.ElementAttribute(TracingId = 126U, DocumentId = "Tyv8gjorNaCMGFEbB0GPXx", PersistentId = "RbZMgBTKetoLbqL8OBESR0", Name = "Attractor_R")]
     [n2.SerializableAttribute]
     public class Attractor_R<T> : n1.VLObject, n2.IDisposable
     {
-        [n6.CreateNewAttribute]
+        [n8.CreateNewAttribute]
         public static n3.Attractor_R<T> Create<AdM>(n1.NodeContext Node_Context)
-            where AdM : struct, n5.IAdaptiveCreateDefault<T>
+            where AdM : struct, n7.IAdaptiveCreateDefault<T>
         {
             Node_Context = Node_Context.WithIsImmutable(true);
             var instance = new Attractor_R<T>(Node_Context, n1.VLObject.NewIdentity());
             return instance.__Create__<AdM>(Node_Context);
         }
 
-        [n6.CreateDefaultAttribute]
+        [n8.CreateDefaultAttribute]
         public static n3.Attractor_R<T> CreateDefault<AdM>()
-            where AdM : struct, n5.IAdaptiveCreateDefault<T>
+            where AdM : struct, n7.IAdaptiveCreateDefault<T>
         {
             return __DEFAULT__ ?? (__DEFAULT__ = __COMPUTE__());
             n3.Attractor_R<T> __COMPUTE__()
@@ -72,9 +72,9 @@ namespace _VL_Attractor_.Math
         }
 
         public n3.Attractor_R<T> __Create__<AdM>(n1.NodeContext Node_Context)
-            where AdM : struct, n5.IAdaptiveCreateDefault<T>
+            where AdM : struct, n7.IAdaptiveCreateDefault<T>
         {
-            n7.RuntimeHelpers.EnsureSufficientExecutionStack();
+            n10.RuntimeHelpers.EnsureSufficientExecutionStack();
             var w_0 = default(AdM);
             w_0.CreateDefault(out T __out_0);
             n3.Attractor_R<T> that_1 = this;
@@ -86,7 +86,7 @@ namespace _VL_Attractor_.Math
         }
 
         public n3.Attractor_R<T> __CreateDefault__<AdM>()
-            where AdM : struct, n5.IAdaptiveCreateDefault<T>
+            where AdM : struct, n7.IAdaptiveCreateDefault<T>
         {
             var w_0 = default(AdM);
             w_0.CreateDefault(out T __out_1);
@@ -109,13 +109,13 @@ namespace _VL_Attractor_.Math
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 1567U, DocumentId = "Tyv8gjorNaCMGFEbB0GPXx", PersistentId = "BIFgBzbLXC9N8FQwlnuuXf", Name = "Position")]
+        [n1.ElementAttribute(TracingId = 128U, DocumentId = "Tyv8gjorNaCMGFEbB0GPXx", PersistentId = "BIFgBzbLXC9N8FQwlnuuXf", Name = "Position")]
         public T Position;
-        [n1.ElementAttribute(TracingId = 1568U, DocumentId = "Tyv8gjorNaCMGFEbB0GPXx", PersistentId = "DktVAsvpu5ULE2oeQAZdxa", Name = "Strength")]
+        [n1.ElementAttribute(TracingId = 129U, DocumentId = "Tyv8gjorNaCMGFEbB0GPXx", PersistentId = "DktVAsvpu5ULE2oeQAZdxa", Name = "Strength")]
         public float Strength;
-        [n1.ElementAttribute(TracingId = 1570U, DocumentId = "Tyv8gjorNaCMGFEbB0GPXx", PersistentId = "JzkG04gHBSaOnrKivraV2M", Name = "Power")]
+        [n1.ElementAttribute(TracingId = 130U, DocumentId = "Tyv8gjorNaCMGFEbB0GPXx", PersistentId = "JzkG04gHBSaOnrKivraV2M", Name = "Power")]
         public float Power;
-        [n1.ElementAttribute(TracingId = 1572U, DocumentId = "Tyv8gjorNaCMGFEbB0GPXx", PersistentId = "EL25S6NPo8KQU7RApDN92n", Name = "Radius")]
+        [n1.ElementAttribute(TracingId = 131U, DocumentId = "Tyv8gjorNaCMGFEbB0GPXx", PersistentId = "EL25S6NPo8KQU7RApDN92n", Name = "Radius")]
         public float Radius;
         public Attractor_R(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -143,18 +143,18 @@ namespace _VL_Attractor_.Math
         }
     }
 
-    [n1.ElementAttribute(TracingId = 2433U, DocumentId = "Tyv8gjorNaCMGFEbB0GPXx", PersistentId = "Cdn0ulXXidfP7iWbaywnX8", Name = "VL_AttractorApplication_Cdn0ulXXidfP7iWbaywnX8")]
+    [n1.ElementAttribute(TracingId = 463U, DocumentId = "Tyv8gjorNaCMGFEbB0GPXx", PersistentId = "Cdn0ulXXidfP7iWbaywnX8", Name = "VL_AttractorApplication_Cdn0ulXXidfP7iWbaywnX8")]
     [n2.SerializableAttribute]
     public class VL_AttractorApplication_Cdn0ulXXidfP7iWbaywnX8 : n1.VLObject, n2.IDisposable
     {
-        [n6.CreateNewAttribute]
+        [n8.CreateNewAttribute]
         public static n3.VL_AttractorApplication_Cdn0ulXXidfP7iWbaywnX8 Create(n1.NodeContext Node_Context)
         {
             var instance = new VL_AttractorApplication_Cdn0ulXXidfP7iWbaywnX8(Node_Context, n1.VLObject.NewIdentity());
             return instance.__Create__(Node_Context);
         }
 
-        [n6.CreateDefaultAttribute]
+        [n8.CreateDefaultAttribute]
         public static n3.VL_AttractorApplication_Cdn0ulXXidfP7iWbaywnX8 CreateDefault()
         {
             var instance = new VL_AttractorApplication_Cdn0ulXXidfP7iWbaywnX8(n1.NodeContext.Default, n1.VLObject.NewIdentity());
@@ -168,7 +168,7 @@ namespace _VL_Attractor_.Math
 
         public n3.VL_AttractorApplication_Cdn0ulXXidfP7iWbaywnX8 __Create__(n1.NodeContext Node_Context)
         {
-            n7.RuntimeHelpers.EnsureSufficientExecutionStack();
+            n10.RuntimeHelpers.EnsureSufficientExecutionStack();
             return this;
         }
 
@@ -210,11 +210,11 @@ namespace _VL_Attractor_.Math
 
 namespace _VL_Attractor_.Math.Attractor
 {
-    [n1.ElementAttribute(TracingId = 1560U, DocumentId = "Tyv8gjorNaCMGFEbB0GPXx", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 123U, DocumentId = "Tyv8gjorNaCMGFEbB0GPXx", Name = "_Operations_")]
     public static partial class _Operations_
     {
-        public static void Displace<T, AdM>(T Distance_In, float Length_In, [n6.SerializedDefaultValueAttribute("1", false)] float Strength_In, float Power_In, [n6.SerializedDefaultValueAttribute("1", false)] float Radius_In, out T Difference_Out)
-            where AdM : struct, n11.IAdaptiveOperatorMulitply_Scale<T>, n11.IAdaptiveNormalize<T>
+        public static void Displace<T, AdM>(T Distance_In, float Length_In, [n8.SerializedDefaultValueAttribute("1", false)] float Strength_In, float Power_In, [n8.SerializedDefaultValueAttribute("1", false)] float Radius_In, out T Difference_Out)
+            where AdM : struct, n11.IAdaptiveNormalize<T>, n11.IAdaptiveOperatorMulitply_Scale<T>
         {
             var w_0 = default(AdM);
             float __pad_Uapte4G9cN0LUD0XncVj5P_1 = __slot_Uapte4G9cN0LUD0XncVj5P;
@@ -237,14 +237,14 @@ namespace _VL_Attractor_.Math.Attractor
             var Output_8 = Output_5;
             if (Apply_7)
             {
-                n9._Operations_.Min<float, n8.__AdaptiveImplementations__Tyv8gjorNaCMGFEbB0GPXx>(Input_In: Output_5, Input_2_In: __pad_Uapte4G9cN0LUD0XncVj5P_1, Output_Out: out Output_8);
+                n6._Operations_.Min<float, n5.__AdaptiveImplementations__Tyv8gjorNaCMGFEbB0GPXx>(Input_In: Output_5, Input_2_In: __pad_Uapte4G9cN0LUD0XncVj5P_1, Output_Out: out Output_8);
             }
 
             bool Apply_9 = true;
             var Output_10 = Output_8;
             if (Apply_9)
             {
-                var Output_11 = n10.Float32Extensions.Pow(input: Output_8, exponent: Power_In);
+                var Output_11 = n9.Float32Extensions.Pow(input: Output_8, exponent: Power_In);
                 Output_10 = Output_11;
             }
 
@@ -284,7 +284,7 @@ namespace _VL_Attractor_.Math.Attractor
         }
 
         public static void Attract<T, AdM>(T Point_In, n3.Attractor_R<T> Attractor_In, out T Point_Out)
-            where AdM : struct, n11.IAdaptiveLength<T>, n11.IAdaptiveOperatorPlus<T>, n11.IAdaptiveOperatorMulitply_Scale<T>, n11.IAdaptiveNormalize<T>, n11.IAdaptiveOperatorMinus<T>
+            where AdM : struct, n11.IAdaptiveOperatorMinus<T>, n11.IAdaptiveNormalize<T>, n11.IAdaptiveOperatorMulitply_Scale<T>, n11.IAdaptiveOperatorPlus<T>, n11.IAdaptiveLength<T>
         {
             var w_0 = default(AdM);
             var Output_5 = Attractor_In.Split(Position_Out: out T Position_1, Strength_Out: out float Strength_2, Power_Out: out float Power_3, Radius_Out: out float Radius_4);
@@ -309,13 +309,13 @@ namespace _VL_Attractor_.Math.Attractor
         }
 
         public static void AttractByMany<T2, T, T3, AdM>(T2 Point_In, T3 Attractor_In, out n13.Spread<T> Point_Out)
-            where T2 : n4.IEnumerable<T> where T3 : n4.IEnumerable<n3.Attractor_R<T>> where AdM : struct, n11.IAdaptiveLength<T>, n11.IAdaptiveOperatorPlus<T>, n11.IAdaptiveOperatorMulitply_Scale<T>, n11.IAdaptiveNormalize<T>, n5.IAdaptiveCreateDefault<T>, n11.IAdaptiveOperatorMinus<T>
+            where T2 : n4.IEnumerable<T> where T3 : n4.IEnumerable<n3.Attractor_R<T>> where AdM : struct, n11.IAdaptiveOperatorMinus<T>, n7.IAdaptiveCreateDefault<T>, n11.IAdaptiveNormalize<T>, n11.IAdaptiveOperatorMulitply_Scale<T>, n11.IAdaptiveOperatorPlus<T>, n11.IAdaptiveLength<T>
         {
             n13.Spread<T> __cp_PM0aLRtqbsZPeVFicQmEp4 = n14._Operations_.CreateDefault<T>();
             var w_0 = default(AdM);
             n4.IEnumerable<n3.Attractor_R<T>> Input_1 = (n4.IEnumerable<n3.Attractor_R<T>>)Attractor_In;
             n14._Operations_.FromSequence<n3.Attractor_R<T>>(Input_In: Input_1, Result_Out: out n13.Spread<n3.Attractor_R<T>> Result_2);
-            var builder_28 = n6.CollectionBuilders.GetBuilder(__cp_PM0aLRtqbsZPeVFicQmEp4, 16);
+            var builder_28 = n8.CollectionBuilders.GetBuilder(__cp_PM0aLRtqbsZPeVFicQmEp4, 16);
             n13.Spread<T> output_29;
             try
             {
@@ -327,7 +327,7 @@ namespace _VL_Attractor_.Math.Attractor
                     w_0.CreateDefault(Output_Out: out T Output_7);
                     T accumulator_9 = Output_7;
                     var i_11 = 0;
-                    foreach (var item_8 in n6.CollectionExtensions.AsSpan(Result_2))
+                    foreach (var item_8 in n8.CollectionExtensions.AsSpan(Result_2))
                     {
                         var splicer_10 = item_8;
                         var i_local_12 = i_11;
@@ -383,7 +383,7 @@ namespace _VL_Attractor_.Math.Attractor
             return;
         }
 
-        [n1.ElementAttribute(TracingId = 1617U, DocumentId = "Tyv8gjorNaCMGFEbB0GPXx", PersistentId = "Uapte4G9cN0LUD0XncVj5P", Name = "__slot_Uapte4G9cN0LUD0XncVj5P")]
+        [n1.ElementAttribute(TracingId = 157U, DocumentId = "Tyv8gjorNaCMGFEbB0GPXx", PersistentId = "Uapte4G9cN0LUD0XncVj5P", Name = "__slot_Uapte4G9cN0LUD0XncVj5P")]
         public static float __slot_Uapte4G9cN0LUD0XncVj5P = 1F;
         static _Operations_()
         {

@@ -1,32 +1,32 @@
-﻿extern alias e2;
-extern alias e5;
-extern alias e1;
+﻿extern alias e3;
+extern alias e2;
+extern alias e4;
 
 using n5 = _VL_Bezier_Cubic_.Math.Advanced;
-using n18 = _CoreLibBasics_.Control.Advanced;
-using n21 = e2::VL.Lib.Mathematics;
-using n15 = _VL_Bezier_Cubic_;
+using n19 = _CoreLibBasics_.Control.Advanced;
+using n6 = e2::VL.Lib.Collections;
+using n16 = _VL_Bezier_Cubic_;
 using n10 = _VL_Bezier_Cubic_.Math;
 using n3 = _VL_Bezier_Cubic_.Math.Experimental;
-using n4 = e5::VL.Core.CompilerServices;
 using n9 = global::System.Collections.Generic;
-using n14 = e1::Stride.Core.Mathematics;
-using n12 = _CoreLibBasics_.Math.Adaptive;
-using n20 = _CoreLibBasics_.Primitive.TypeHelpers.Advanced;
-using n13 = _CoreLibBasics_.Primitive.Advanced.Adaptive;
-using n16 = _VL_Bezier_Cubic_.Math.BezierPatch;
-using n1 = e5::VL.Core;
+using n13 = _CoreLibBasics_.Math.Adaptive;
+using n14 = _CoreLibBasics_.Primitive.TypeHelpers.Advanced;
+using n12 = _CoreLibBasics_.Primitive.Advanced.Adaptive;
+using n17 = _VL_Bezier_Cubic_.Math.BezierPatch;
+using n21 = e3::VL.Lib.Mathematics;
+using n1 = e2::VL.Core;
 using n2 = global::System;
+using n15 = e4::Stride.Core.Mathematics;
+using n4 = e2::VL.Core.CompilerServices;
 using n11 = _VL_Bezier_Cubic_.Math.BezierSegment;
-using n19 = _VL_Collections_.Collections.Sequence;
+using n20 = _VL_Collections_.Collections.Sequence;
 using n7 = global::System.Runtime.CompilerServices;
-using n6 = e5::VL.Lib.Collections;
 using n8 = _VL_Collections_.Collections.Spread;
-using n17 = _CoreLibBasics_._3D.Vector3;
+using n18 = _CoreLibBasics_._3D.Vector3;
 
 namespace _VL_Bezier_Cubic_.Math.Experimental
 {
-    [n1.ElementAttribute(TracingId = 212526U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "NdbTRORnIJoQMHHvoP950r", Name = "BezierSpline_R")]
+    [n1.ElementAttribute(TracingId = 18752U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "NdbTRORnIJoQMHHvoP950r", Name = "BezierSpline_R")]
     [n2.SerializableAttribute]
     public class BezierSpline_R<T> : n1.VLObject, n2.IDisposable
     {
@@ -94,7 +94,7 @@ namespace _VL_Bezier_Cubic_.Math.Experimental
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 212529U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "ECc0bjxnCdIOoEyaDq97Qh", Name = "Knots")]
+        [n1.ElementAttribute(TracingId = 18754U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "ECc0bjxnCdIOoEyaDq97Qh", Name = "Knots")]
         public n6.Spread<n5.BezierKnot_R<T>> Knots;
         public BezierSpline_R(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -122,11 +122,11 @@ namespace _VL_Bezier_Cubic_.Math.Experimental
 
 namespace _VL_Bezier_Cubic_.Math.BezierSpline.Experimental
 {
-    [n1.ElementAttribute(TracingId = 212519U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 18743U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", Name = "_Operations_")]
     public static partial class _Operations_
     {
         public static void BezierSplineSpread<T, AdM>(n3.BezierSpline_R<T> Input_In, int Count_In, out n6.Spread<T> Points_Out, out int Segment_Count_Out)
-            where AdM : struct, n12.IAdaptiveLerp<T>, n13.IAdaptiveCreateDefault<T>
+            where AdM : struct, n12.IAdaptiveCreateDefault<T>, n13.IAdaptiveLerp<T>
         {
             var w_0 = default(AdM);
             var Output_2 = Input_In.Split(Result_Out: out n6.Spread<n5.BezierKnot_R<T>> Result_1);
@@ -238,11 +238,11 @@ namespace _VL_Bezier_Cubic_.Math.BezierSpline.Experimental
             return;
         }
 
-        [n1.ElementAttribute(TracingId = 212864U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "FO2mVTKk1AMOF6Nx3epBve", Name = "__slot_FO2mVTKk1AMOF6Nx3epBve")]
+        [n1.ElementAttribute(TracingId = 19017U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "FO2mVTKk1AMOF6Nx3epBve", Name = "__slot_FO2mVTKk1AMOF6Nx3epBve")]
         public static int __slot_FO2mVTKk1AMOF6Nx3epBve = 1;
-        [n1.ElementAttribute(TracingId = 212931U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "D7p9SwOuph0QP0DmjJaqQr", Name = "__slot_D7p9SwOuph0QP0DmjJaqQr")]
+        [n1.ElementAttribute(TracingId = 19039U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "D7p9SwOuph0QP0DmjJaqQr", Name = "__slot_D7p9SwOuph0QP0DmjJaqQr")]
         public static int __slot_D7p9SwOuph0QP0DmjJaqQr = 1;
-        [n1.ElementAttribute(TracingId = 212759U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "MnzmGUMgYhuPjC84NeyuWn", Name = "__slot_MnzmGUMgYhuPjC84NeyuWn")]
+        [n1.ElementAttribute(TracingId = 18963U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "MnzmGUMgYhuPjC84NeyuWn", Name = "__slot_MnzmGUMgYhuPjC84NeyuWn")]
         public static int __slot_MnzmGUMgYhuPjC84NeyuWn = 1;
         static _Operations_()
         {
@@ -252,13 +252,13 @@ namespace _VL_Bezier_Cubic_.Math.BezierSpline.Experimental
 
 namespace _VL_Bezier_Cubic_.Math
 {
-    [n1.ElementAttribute(TracingId = 213170U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "VJ0ebNQjX1JPZm7iSrup8l", Name = "BezierPatch_R")]
+    [n1.ElementAttribute(TracingId = 19155U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "VJ0ebNQjX1JPZm7iSrup8l", Name = "BezierPatch_R")]
     [n2.SerializableAttribute]
     public class BezierPatch_R<T> : n1.VLObject, n2.IDisposable
     {
         [n4.CreateNewAttribute]
         public static n10.BezierPatch_R<T> Create<AdM>(n1.NodeContext Node_Context)
-            where AdM : struct, n13.IAdaptiveCreateDefault<n10.BezierSegment_R<T>>
+            where AdM : struct, n12.IAdaptiveCreateDefault<n10.BezierSegment_R<T>>
         {
             Node_Context = Node_Context.WithIsImmutable(true);
             var instance = new BezierPatch_R<T>(Node_Context, n1.VLObject.NewIdentity());
@@ -267,7 +267,7 @@ namespace _VL_Bezier_Cubic_.Math
 
         [n4.CreateDefaultAttribute]
         public static n10.BezierPatch_R<T> CreateDefault<AdM>()
-            where AdM : struct, n13.IAdaptiveCreateDefault<n10.BezierSegment_R<T>>
+            where AdM : struct, n12.IAdaptiveCreateDefault<n10.BezierSegment_R<T>>
         {
             return __DEFAULT__ ?? (__DEFAULT__ = __COMPUTE__());
             n10.BezierPatch_R<T> __COMPUTE__()
@@ -281,7 +281,7 @@ namespace _VL_Bezier_Cubic_.Math
         [n1.ElementAttribute(IsAutoGenerated = true)]
         public static n10.BezierPatch_R<T> __DEFAULT__;
         public n10.BezierPatch_R<T> Join<AdM>(n10.BezierSegment_R<T> Control_1_In, n10.BezierSegment_R<T> Control_2_In, n10.BezierSegment_R<T> Control_3_In, n10.BezierSegment_R<T> Control_4_In)
-            where AdM : struct, n13.IAdaptiveCreateDefault<n10.BezierSegment_R<T>>
+            where AdM : struct, n12.IAdaptiveCreateDefault<n10.BezierSegment_R<T>>
         {
             var w_0 = default(AdM);
             var Output_1 = n10.BezierSegment_R<n10.BezierSegment_R<T>>.CreateDefault<AdM>();
@@ -321,7 +321,7 @@ namespace _VL_Bezier_Cubic_.Math
         }
 
         public n10.BezierPatch_R<T> __Create__<AdM>(n1.NodeContext Node_Context)
-            where AdM : struct, n13.IAdaptiveCreateDefault<n10.BezierSegment_R<T>>
+            where AdM : struct, n12.IAdaptiveCreateDefault<n10.BezierSegment_R<T>>
         {
             n7.RuntimeHelpers.EnsureSufficientExecutionStack();
             var w_0 = default(AdM);
@@ -331,7 +331,7 @@ namespace _VL_Bezier_Cubic_.Math
         }
 
         public n10.BezierPatch_R<T> __CreateDefault__<AdM>()
-            where AdM : struct, n13.IAdaptiveCreateDefault<n10.BezierSegment_R<T>>
+            where AdM : struct, n12.IAdaptiveCreateDefault<n10.BezierSegment_R<T>>
         {
             var w_0 = default(AdM);
             n10.BezierPatch_R<T> that_1 = this;
@@ -350,7 +350,7 @@ namespace _VL_Bezier_Cubic_.Math
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 213213U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "KKcEpify0IpQNVgIhFnN5t", Name = "Curves")]
+        [n1.ElementAttribute(TracingId = 19188U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "KKcEpify0IpQNVgIhFnN5t", Name = "Curves")]
         public n10.BezierSegment_R<n10.BezierSegment_R<T>> Curves;
         public BezierPatch_R(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -375,13 +375,13 @@ namespace _VL_Bezier_Cubic_.Math
         }
     }
 
-    [n1.ElementAttribute(TracingId = 214338U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "Presv6YlgD6PvXuGyfbmE3", Name = "BezierSegment_R")]
+    [n1.ElementAttribute(TracingId = 19860U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "Presv6YlgD6PvXuGyfbmE3", Name = "BezierSegment_R")]
     [n2.SerializableAttribute]
     public class BezierSegment_R<T> : n1.VLObject, n2.IDisposable
     {
         [n4.CreateNewAttribute]
         public static n10.BezierSegment_R<T> Create<AdM>(n1.NodeContext Node_Context)
-            where AdM : struct, n13.IAdaptiveCreateDefault<T>
+            where AdM : struct, n12.IAdaptiveCreateDefault<T>
         {
             Node_Context = Node_Context.WithIsImmutable(true);
             var instance = new BezierSegment_R<T>(Node_Context, n1.VLObject.NewIdentity());
@@ -390,7 +390,7 @@ namespace _VL_Bezier_Cubic_.Math
 
         [n4.CreateDefaultAttribute]
         public static n10.BezierSegment_R<T> CreateDefault<AdM>()
-            where AdM : struct, n13.IAdaptiveCreateDefault<T>
+            where AdM : struct, n12.IAdaptiveCreateDefault<T>
         {
             return __DEFAULT__ ?? (__DEFAULT__ = __COMPUTE__());
             n10.BezierSegment_R<T> __COMPUTE__()
@@ -409,7 +409,7 @@ namespace _VL_Bezier_Cubic_.Math
             bool Apply_1 = true;
             if (Apply_1)
             {
-                n20._Operations_.ConstrainTypes<T>(Input_In: Control_1_In, Input_2_In: Control_2_In, Input_3_In: Control_3_In, Input_4_In: Control_4_In);
+                n14._Operations_.ConstrainTypes<T>(Input_In: Control_1_In, Input_2_In: Control_2_In, Input_3_In: Control_3_In, Input_4_In: Control_4_In);
             }
 
             T __auto_2 = Control_2_In;
@@ -435,7 +435,7 @@ namespace _VL_Bezier_Cubic_.Math
         }
 
         public n10.BezierSegment_R<T> __Create__<AdM>(n1.NodeContext Node_Context)
-            where AdM : struct, n13.IAdaptiveCreateDefault<T>
+            where AdM : struct, n12.IAdaptiveCreateDefault<T>
         {
             n7.RuntimeHelpers.EnsureSufficientExecutionStack();
             var w_0 = default(AdM);
@@ -452,7 +452,7 @@ namespace _VL_Bezier_Cubic_.Math
         }
 
         public n10.BezierSegment_R<T> __CreateDefault__<AdM>()
-            where AdM : struct, n13.IAdaptiveCreateDefault<T>
+            where AdM : struct, n12.IAdaptiveCreateDefault<T>
         {
             var w_0 = default(AdM);
             w_0.CreateDefault(out T __out_4);
@@ -478,13 +478,13 @@ namespace _VL_Bezier_Cubic_.Math
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 214340U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "OvJVorAH6amNy5mbhJQPAI", Name = "Control 4")]
+        [n1.ElementAttribute(TracingId = 19863U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "OvJVorAH6amNy5mbhJQPAI", Name = "Control 4")]
         public T Control_4;
-        [n1.ElementAttribute(TracingId = 214341U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "Bk95LmPXRyrO48EnVP7YmD", Name = "Control 3")]
+        [n1.ElementAttribute(TracingId = 19865U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "Bk95LmPXRyrO48EnVP7YmD", Name = "Control 3")]
         public T Control_3;
-        [n1.ElementAttribute(TracingId = 214342U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "LtsImSRLnsQOrNFY2HoewK", Name = "Control 2")]
+        [n1.ElementAttribute(TracingId = 19867U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "LtsImSRLnsQOrNFY2HoewK", Name = "Control 2")]
         public T Control_2;
-        [n1.ElementAttribute(TracingId = 214344U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "C5IeGgTxDY8PER3bxNH3Bn", Name = "Control 1")]
+        [n1.ElementAttribute(TracingId = 19869U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "C5IeGgTxDY8PER3bxNH3Bn", Name = "Control 1")]
         public T Control_1;
         public BezierSegment_R(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -512,7 +512,7 @@ namespace _VL_Bezier_Cubic_.Math
         }
     }
 
-    [n1.ElementAttribute(TracingId = 216871U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "NplHhcx6K8ZO8Hnb36cFeT", Name = "VL_Bezier_CubicApplication_NplHhcx6K8ZO8Hnb36cFeT")]
+    [n1.ElementAttribute(TracingId = 27946U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "NplHhcx6K8ZO8Hnb36cFeT", Name = "VL_Bezier_CubicApplication_NplHhcx6K8ZO8Hnb36cFeT")]
     [n2.SerializableAttribute]
     public class VL_Bezier_CubicApplication_NplHhcx6K8ZO8Hnb36cFeT : n1.VLObject, n2.IDisposable
     {
@@ -579,11 +579,11 @@ namespace _VL_Bezier_Cubic_.Math
 
 namespace _VL_Bezier_Cubic_.Math.BezierPatch
 {
-    [n1.ElementAttribute(TracingId = 212519U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 18743U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", Name = "_Operations_")]
     public static partial class _Operations_
     {
         public static void Slice<T, AdM>(n10.BezierPatch_R<T> Input_In, float Scalar_In, out n6.Spread<n10.BezierPatch_R<T>> Output_Out)
-            where AdM : struct, n12.IAdaptiveLerp<n10.BezierSegment_R<T>>, n13.IAdaptiveCreateDefault<n10.BezierSegment_R<T>>
+            where AdM : struct, n12.IAdaptiveCreateDefault<n10.BezierSegment_R<T>>, n13.IAdaptiveLerp<n10.BezierSegment_R<T>>
         {
             n6.Spread<n10.BezierPatch_R<T>> __cp_RXQYOSknkvTOQ10aCt5TLn = n8._Operations_.CreateDefault<n10.BezierPatch_R<T>>();
             var w_0 = default(AdM);
@@ -614,7 +614,7 @@ namespace _VL_Bezier_Cubic_.Math.BezierPatch
         }
 
         public static void Sample<T, AdM>(n10.BezierPatch_R<T> Input_In, float Scalar_In, out n10.BezierSegment_R<T> Output_Out)
-            where AdM : struct, n12.IAdaptiveLerp<n10.BezierSegment_R<T>>
+            where AdM : struct, n13.IAdaptiveLerp<n10.BezierSegment_R<T>>
         {
             var w_0 = default(AdM);
             var Output_2 = Input_In.GetCurves(Curves_Out: out n10.BezierSegment_R<n10.BezierSegment_R<T>> Curves_1);
@@ -624,7 +624,7 @@ namespace _VL_Bezier_Cubic_.Math.BezierPatch
         }
 
         public static void Append<T, AdM>(n10.BezierPatch_R<T> Input_In, n10.BezierSegment_R<T> Control_3_In, n10.BezierSegment_R<T> Control_4_In, out n10.BezierSegment_R<n10.BezierSegment_R<T>> Output_Out)
-            where AdM : struct, n12.IAdaptiveOperatorMinus<n10.BezierSegment_R<T>>, n12.IAdaptiveOperatorPlus<n10.BezierSegment_R<T>>, n13.IAdaptiveCreateDefault<n10.BezierSegment_R<T>>
+            where AdM : struct, n12.IAdaptiveCreateDefault<n10.BezierSegment_R<T>>, n13.IAdaptiveOperatorMinus<n10.BezierSegment_R<T>>, n13.IAdaptiveOperatorPlus<n10.BezierSegment_R<T>>
         {
             var w_0 = default(AdM);
             var Output_2 = Input_In.GetCurves(Curves_Out: out n10.BezierSegment_R<n10.BezierSegment_R<T>> Curves_1);
@@ -634,7 +634,7 @@ namespace _VL_Bezier_Cubic_.Math.BezierPatch
         }
 
         public static void Prepend<T, AdM>(n10.BezierSegment_R<T> Control_1_In, n10.BezierSegment_R<T> Control_2_In, n10.BezierPatch_R<T> Input_In, out n10.BezierSegment_R<n10.BezierSegment_R<T>> Output_Out)
-            where AdM : struct, n12.IAdaptiveOperatorMinus<n10.BezierSegment_R<T>>, n12.IAdaptiveOperatorPlus<n10.BezierSegment_R<T>>, n13.IAdaptiveCreateDefault<n10.BezierSegment_R<T>>
+            where AdM : struct, n12.IAdaptiveCreateDefault<n10.BezierSegment_R<T>>, n13.IAdaptiveOperatorMinus<n10.BezierSegment_R<T>>, n13.IAdaptiveOperatorPlus<n10.BezierSegment_R<T>>
         {
             var w_0 = default(AdM);
             var Output_2 = Input_In.GetCurves(Curves_Out: out n10.BezierSegment_R<n10.BezierSegment_R<T>> Curves_1);
@@ -644,7 +644,7 @@ namespace _VL_Bezier_Cubic_.Math.BezierPatch
         }
 
         public static void Connect<T, AdM>(n10.BezierPatch_R<T> Input_In, n10.BezierPatch_R<T> Input_2_In, out n10.BezierSegment_R<n10.BezierSegment_R<T>> Output_Out)
-            where AdM : struct, n12.IAdaptiveOperatorMinus<n10.BezierSegment_R<T>>, n12.IAdaptiveOperatorPlus<n10.BezierSegment_R<T>>, n13.IAdaptiveCreateDefault<n10.BezierSegment_R<T>>
+            where AdM : struct, n12.IAdaptiveCreateDefault<n10.BezierSegment_R<T>>, n13.IAdaptiveOperatorMinus<n10.BezierSegment_R<T>>, n13.IAdaptiveOperatorPlus<n10.BezierSegment_R<T>>
         {
             var w_0 = default(AdM);
             var Output_2 = Input_In.GetCurves(Curves_Out: out n10.BezierSegment_R<n10.BezierSegment_R<T>> Curves_1);
@@ -655,7 +655,7 @@ namespace _VL_Bezier_Cubic_.Math.BezierPatch
         }
 
         public static void SamplePoint<T, AdM>(n10.BezierPatch_R<T> Input_In, float Outer_In, float Inner_In, out T Output_Out)
-            where AdM : struct, n12.IAdaptiveLerp<T>, n12.IAdaptiveLerp<n10.BezierSegment_R<T>>
+            where AdM : struct, n13.IAdaptiveLerp<T>, n13.IAdaptiveLerp<n10.BezierSegment_R<T>>
         {
             var w_0 = default(AdM);
             var Output_2 = Input_In.GetCurves(Curves_Out: out n10.BezierSegment_R<n10.BezierSegment_R<T>> Curves_1);
@@ -665,11 +665,11 @@ namespace _VL_Bezier_Cubic_.Math.BezierPatch
             return;
         }
 
-        public static void BezierPatchSpread(n10.BezierPatch_R<n14.Vector3> Bezier_In, int Outer_In, int Inner_In, out n6.Spread<n14.Vector3> Positions_Out, out n6.Spread<n14.Vector3> Normals_Out)
+        public static void BezierPatchSpread(n10.BezierPatch_R<n15.Vector3> Bezier_In, int Outer_In, int Inner_In, out n6.Spread<n15.Vector3> Positions_Out, out n6.Spread<n15.Vector3> Normals_Out)
         {
-            n6.Spread<n6.Spread<n14.Vector3>> __cp_OdVj0jFvaH3MrxHjMj9006 = n8._Operations_.CreateDefault<n6.Spread<n14.Vector3>>();
-            n6.Spread<n6.Spread<n14.Vector3>> __cp_Oi0vNsF1uXYMKGUjLW5SQH = n8._Operations_.CreateDefault<n6.Spread<n14.Vector3>>();
-            n6.Spread<n6.Spread<n14.Vector3>> __cp_BYVieoMn7mkPwI5G6N5LZb = n8._Operations_.CreateDefault<n6.Spread<n14.Vector3>>();
+            n6.Spread<n6.Spread<n15.Vector3>> __cp_OdVj0jFvaH3MrxHjMj9006 = n8._Operations_.CreateDefault<n6.Spread<n15.Vector3>>();
+            n6.Spread<n6.Spread<n15.Vector3>> __cp_Oi0vNsF1uXYMKGUjLW5SQH = n8._Operations_.CreateDefault<n6.Spread<n15.Vector3>>();
+            n6.Spread<n6.Spread<n15.Vector3>> __cp_BYVieoMn7mkPwI5G6N5LZb = n8._Operations_.CreateDefault<n6.Spread<n15.Vector3>>();
             int __pad_BI0H5PSB0KSNy5KL8Brxs4_0 = __slot_BI0H5PSB0KSNy5KL8Brxs4;
             int __pad_TkeHCJsRRo0MYXRuPgD3rx_1 = __slot_TkeHCJsRRo0MYXRuPgD3rx;
             bool Apply_2 = true;
@@ -699,16 +699,16 @@ namespace _VL_Bezier_Cubic_.Math.BezierPatch
 
             float Input_2_12 = (float)Output_10;
             var builder_35 = n4.CollectionBuilders.GetBuilder(__cp_OdVj0jFvaH3MrxHjMj9006, 16);
-            n6.Spread<n6.Spread<n14.Vector3>> output_36;
+            n6.Spread<n6.Spread<n15.Vector3>> output_36;
             var builder_37 = n4.CollectionBuilders.GetBuilder(__cp_Oi0vNsF1uXYMKGUjLW5SQH, 16);
-            n6.Spread<n6.Spread<n14.Vector3>> output_38;
+            n6.Spread<n6.Spread<n15.Vector3>> output_38;
             try
             {
                 for (var i_13 = 0; i_13 < Output_3; i_13++)
                 {
                     var i_local_14 = i_13;
-                    n6.Spread<n14.Vector3> __cp_Q7IVtumuO2ENDC5E4dHlnS = n8._Operations_.CreateDefault<n14.Vector3>();
-                    n6.Spread<n14.Vector3> __cp_GmEFs6XUP1rLElycMwDHhU = n8._Operations_.CreateDefault<n14.Vector3>();
+                    n6.Spread<n15.Vector3> __cp_Q7IVtumuO2ENDC5E4dHlnS = n8._Operations_.CreateDefault<n15.Vector3>();
+                    n6.Spread<n15.Vector3> __cp_GmEFs6XUP1rLElycMwDHhU = n8._Operations_.CreateDefault<n15.Vector3>();
                     float Input_15 = (float)i_local_14;
                     bool Apply_16 = true;
                     var Output_17 = Input_15;
@@ -718,12 +718,12 @@ namespace _VL_Bezier_Cubic_.Math.BezierPatch
                         Output_17 = Output_18;
                     }
 
-                    n16._Operations_.Sample<n14.Vector3, n15.__AdaptiveImplementations__Ve9QvEWam1QMhGjejnDn64>(Input_In: Bezier_In, Scalar_In: Output_17, Output_Out: out n10.BezierSegment_R<n14.Vector3> Output_19);
-                    n14.Vector3 accumulator_21 = n17._Operations_.CreateDefault();
+                    n17._Operations_.Sample<n15.Vector3, n16.__AdaptiveImplementations__Ve9QvEWam1QMhGjejnDn64>(Input_In: Bezier_In, Scalar_In: Output_17, Output_Out: out n10.BezierSegment_R<n15.Vector3> Output_19);
+                    n15.Vector3 accumulator_21 = n18._Operations_.CreateDefault();
                     var builder_31 = n4.CollectionBuilders.GetBuilder(__cp_Q7IVtumuO2ENDC5E4dHlnS, 16);
-                    n6.Spread<n14.Vector3> output_32;
+                    n6.Spread<n15.Vector3> output_32;
                     var builder_33 = n4.CollectionBuilders.GetBuilder(__cp_GmEFs6XUP1rLElycMwDHhU, 16);
-                    n6.Spread<n14.Vector3> output_34;
+                    n6.Spread<n15.Vector3> output_34;
                     try
                     {
                         for (var i_20 = 0; i_20 < Inner_In; i_20++)
@@ -738,12 +738,12 @@ namespace _VL_Bezier_Cubic_.Math.BezierPatch
                                 Output_25 = Output_26;
                             }
 
-                            n11._Operations_.Sample<n14.Vector3, n15.__AdaptiveImplementations__Ve9QvEWam1QMhGjejnDn64>(Input_In: Output_19, Scalar_In: Output_25, Output_Out: out n14.Vector3 Output_27);
+                            n11._Operations_.Sample<n15.Vector3, n16.__AdaptiveImplementations__Ve9QvEWam1QMhGjejnDn64>(Input_In: Output_19, Scalar_In: Output_25, Output_Out: out n15.Vector3 Output_27);
                             bool Apply_28 = true;
                             var Output_29 = Output_27;
                             if (Apply_28)
                             {
-                                n14.Vector3.Subtract(left: ref Output_27, right: ref accumulator_21, result: out n14.Vector3 Output_30);
+                                n15.Vector3.Subtract(left: ref Output_27, right: ref accumulator_21, result: out n15.Vector3 Output_30);
                                 Output_29 = Output_30;
                             }
 
@@ -772,7 +772,7 @@ namespace _VL_Bezier_Cubic_.Math.BezierPatch
             var Output_40 = output_36;
             if (Apply_39)
             {
-                n8._Operations_.GetSpread<n6.Spread<n14.Vector3>>(Input_In: output_36, Index_In: __pad_TkeHCJsRRo0MYXRuPgD3rx_1, Count_In: Outer_In, Output_Out: out Output_40);
+                n8._Operations_.GetSpread<n6.Spread<n15.Vector3>>(Input_In: output_36, Index_In: __pad_TkeHCJsRRo0MYXRuPgD3rx_1, Count_In: Outer_In, Output_Out: out Output_40);
             }
 
             int Index_41 = 0;
@@ -780,23 +780,23 @@ namespace _VL_Bezier_Cubic_.Math.BezierPatch
             var Output_43 = output_36;
             if (Apply_42)
             {
-                n8._Operations_.GetSpread<n6.Spread<n14.Vector3>>(Input_In: output_36, Index_In: Index_41, Count_In: Outer_In, Output_Out: out Output_43);
+                n8._Operations_.GetSpread<n6.Spread<n15.Vector3>>(Input_In: output_36, Index_In: Index_41, Count_In: Outer_In, Output_Out: out Output_43);
             }
 
-            n8._Operations_.Flatten<n6.Spread<n6.Spread<n14.Vector3>>, n14.Vector3>(Input_In: Output_43, Output_Out: out n6.Spread<n14.Vector3> Output_44);
+            n8._Operations_.Flatten<n6.Spread<n6.Spread<n15.Vector3>>, n15.Vector3>(Input_In: Output_43, Output_Out: out n6.Spread<n15.Vector3> Output_44);
             int Index_45 = 0;
             bool Apply_46 = true;
             var Output_47 = output_38;
             if (Apply_46)
             {
-                n8._Operations_.GetSpread<n6.Spread<n14.Vector3>>(Input_In: output_38, Index_In: Index_45, Count_In: Outer_In, Output_Out: out Output_47);
+                n8._Operations_.GetSpread<n6.Spread<n15.Vector3>>(Input_In: output_38, Index_In: Index_45, Count_In: Outer_In, Output_Out: out Output_47);
             }
 
             var enumerator_48 = n4.CollectionExtensions.AsSpan(Output_47).GetEnumerator();
             var enumerator_50 = n4.CollectionExtensions.AsSpan(Output_43).GetEnumerator();
             var enumerator_52 = n4.CollectionExtensions.AsSpan(Output_40).GetEnumerator();
             var builder_74 = n4.CollectionBuilders.GetBuilder(__cp_BYVieoMn7mkPwI5G6N5LZb, 16);
-            n6.Spread<n6.Spread<n14.Vector3>> output_75;
+            n6.Spread<n6.Spread<n15.Vector3>> output_75;
             try
             {
                 var i_54 = 0;
@@ -806,15 +806,15 @@ namespace _VL_Bezier_Cubic_.Math.BezierPatch
                     var splicer_51 = enumerator_50.Current;
                     var splicer_53 = enumerator_52.Current;
                     var i_local_55 = i_54;
-                    n6.Spread<n14.Vector3> __cp_AJ3utNn1CcNMndSxReSytc = n8._Operations_.CreateDefault<n14.Vector3>();
-                    n6.Spread<n14.Vector3> __cp_QBe94YIUFsyQOzZIckfkqu = n8._Operations_.CreateDefault<n14.Vector3>();
+                    n6.Spread<n15.Vector3> __cp_AJ3utNn1CcNMndSxReSytc = n8._Operations_.CreateDefault<n15.Vector3>();
+                    n6.Spread<n15.Vector3> __cp_QBe94YIUFsyQOzZIckfkqu = n8._Operations_.CreateDefault<n15.Vector3>();
                     var enumerator_56 = n4.CollectionExtensions.AsSpan(splicer_49).GetEnumerator();
                     var enumerator_58 = n4.CollectionExtensions.AsSpan(splicer_51).GetEnumerator();
                     var enumerator_60 = n4.CollectionExtensions.AsSpan(splicer_53).GetEnumerator();
                     var builder_70 = n4.CollectionBuilders.GetBuilder(__cp_AJ3utNn1CcNMndSxReSytc, 16);
-                    n6.Spread<n14.Vector3> output_71;
+                    n6.Spread<n15.Vector3> output_71;
                     var builder_72 = n4.CollectionBuilders.GetBuilder(__cp_QBe94YIUFsyQOzZIckfkqu, 16);
-                    n6.Spread<n14.Vector3> output_73;
+                    n6.Spread<n15.Vector3> output_73;
                     try
                     {
                         var i_62 = 0;
@@ -828,7 +828,7 @@ namespace _VL_Bezier_Cubic_.Math.BezierPatch
                             var Output_65 = splicer_61;
                             if (Apply_64)
                             {
-                                n14.Vector3.Subtract(left: ref splicer_61, right: ref splicer_59, result: out n14.Vector3 Output_66);
+                                n15.Vector3.Subtract(left: ref splicer_61, right: ref splicer_59, result: out n15.Vector3 Output_66);
                                 Output_65 = Output_66;
                             }
 
@@ -836,7 +836,7 @@ namespace _VL_Bezier_Cubic_.Math.BezierPatch
                             var Output_68 = Output_65;
                             if (Apply_67)
                             {
-                                n14.Vector3.Cross(left: ref Output_65, right: ref splicer_57, result: out n14.Vector3 Output_69);
+                                n15.Vector3.Cross(left: ref Output_65, right: ref splicer_57, result: out n15.Vector3 Output_69);
                                 Output_68 = Output_69;
                             }
 
@@ -860,15 +860,15 @@ namespace _VL_Bezier_Cubic_.Math.BezierPatch
                 output_75 = builder_74.Commit();
             }
 
-            n8._Operations_.Flatten<n6.Spread<n6.Spread<n14.Vector3>>, n14.Vector3>(Input_In: output_75, Output_Out: out n6.Spread<n14.Vector3> Output_76);
+            n8._Operations_.Flatten<n6.Spread<n6.Spread<n15.Vector3>>, n15.Vector3>(Input_In: output_75, Output_Out: out n6.Spread<n15.Vector3> Output_76);
             Positions_Out = Output_44;
             Normals_Out = Output_76;
             return;
         }
 
-        [n1.ElementAttribute(TracingId = 213742U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "BI0H5PSB0KSNy5KL8Brxs4", Name = "__slot_BI0H5PSB0KSNy5KL8Brxs4")]
+        [n1.ElementAttribute(TracingId = 19487U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "BI0H5PSB0KSNy5KL8Brxs4", Name = "__slot_BI0H5PSB0KSNy5KL8Brxs4")]
         public static int __slot_BI0H5PSB0KSNy5KL8Brxs4 = 1;
-        [n1.ElementAttribute(TracingId = 213746U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "TkeHCJsRRo0MYXRuPgD3rx", Name = "__slot_TkeHCJsRRo0MYXRuPgD3rx")]
+        [n1.ElementAttribute(TracingId = 19490U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "TkeHCJsRRo0MYXRuPgD3rx", Name = "__slot_TkeHCJsRRo0MYXRuPgD3rx")]
         public static int __slot_TkeHCJsRRo0MYXRuPgD3rx = 1;
         static _Operations_()
         {
@@ -878,11 +878,11 @@ namespace _VL_Bezier_Cubic_.Math.BezierPatch
 
 namespace _VL_Bezier_Cubic_.Math.BezierSegment
 {
-    [n1.ElementAttribute(TracingId = 212519U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 18743U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", Name = "_Operations_")]
     public static partial class _Operations_
     {
         public static void Append<T, AdM>(n10.BezierSegment_R<T> Input_In, T Control_3_In, T Control_4_In, out n10.BezierSegment_R<T> Output_Out)
-            where AdM : struct, n12.IAdaptiveOperatorPlus<T>, n13.IAdaptiveCreateDefault<T>, n12.IAdaptiveOperatorMinus<T>
+            where AdM : struct, n13.IAdaptiveOperatorMinus<T>, n12.IAdaptiveCreateDefault<T>, n13.IAdaptiveOperatorPlus<T>
         {
             var w_0 = default(AdM);
             var Output_5 = Input_In.Split(Control_1_Out: out T Control_1_1, Control_2_Out: out T Control_2_2, Control_3_Out: out T Control_3_3, Control_4_Out: out T Control_4_4);
@@ -913,7 +913,7 @@ namespace _VL_Bezier_Cubic_.Math.BezierSegment
         }
 
         public static void Sample<T, AdM>(n10.BezierSegment_R<T> Input_In, float Scalar_In, out T Output_Out)
-            where AdM : struct, n12.IAdaptiveLerp<T>
+            where AdM : struct, n13.IAdaptiveLerp<T>
         {
             var w_0 = default(AdM);
             var Output_5 = Input_In.Split(Control_1_Out: out T Control_1_1, Control_2_Out: out T Control_2_2, Control_3_Out: out T Control_3_3, Control_4_Out: out T Control_4_4);
@@ -964,7 +964,7 @@ namespace _VL_Bezier_Cubic_.Math.BezierSegment
         }
 
         public static void Prepend<T, AdM>(T Control_1_In, T Control_2_In, n10.BezierSegment_R<T> Input_In, out n10.BezierSegment_R<T> Output_Out)
-            where AdM : struct, n12.IAdaptiveOperatorPlus<T>, n13.IAdaptiveCreateDefault<T>, n12.IAdaptiveOperatorMinus<T>
+            where AdM : struct, n13.IAdaptiveOperatorMinus<T>, n12.IAdaptiveCreateDefault<T>, n13.IAdaptiveOperatorPlus<T>
         {
             var w_0 = default(AdM);
             var Output_1 = n10.BezierSegment_R<T>.CreateDefault<AdM>();
@@ -995,7 +995,7 @@ namespace _VL_Bezier_Cubic_.Math.BezierSegment
         }
 
         public static void Slice<T, AdM>(n10.BezierSegment_R<T> Input_In, float Scalar_In, out n6.Spread<n10.BezierSegment_R<T>> Output_Out)
-            where AdM : struct, n12.IAdaptiveLerp<T>, n13.IAdaptiveCreateDefault<T>
+            where AdM : struct, n12.IAdaptiveCreateDefault<T>, n13.IAdaptiveLerp<T>
         {
             n6.Spread<n10.BezierSegment_R<T>> __pin_group_Input_In_GLKhzQPaBDkPzbiLwX2yPT = default(n6.Spread<n10.BezierSegment_R<T>>);
             var w_0 = default(AdM);
@@ -1068,7 +1068,7 @@ namespace _VL_Bezier_Cubic_.Math.BezierSegment
         }
 
         public static void Connect<T, AdM>(n10.BezierSegment_R<T> Input_In, n10.BezierSegment_R<T> Input_2_In, out n10.BezierSegment_R<T> Output_Out)
-            where AdM : struct, n12.IAdaptiveOperatorPlus<T>, n13.IAdaptiveCreateDefault<T>, n12.IAdaptiveOperatorMinus<T>
+            where AdM : struct, n13.IAdaptiveOperatorMinus<T>, n12.IAdaptiveCreateDefault<T>, n13.IAdaptiveOperatorPlus<T>
         {
             var w_0 = default(AdM);
             var Output_5 = Input_In.Split(Control_1_Out: out T Control_1_1, Control_2_Out: out T Control_2_2, Control_3_Out: out T Control_3_3, Control_4_Out: out T Control_4_4);
@@ -1114,7 +1114,7 @@ namespace _VL_Bezier_Cubic_.Math.BezierSegment
         }
 
         public static void Lerp<T, AdM>(n10.BezierSegment_R<T> Input_In, n10.BezierSegment_R<T> Input_2_In, float Scalar_In, out n10.BezierSegment_R<T> Output_Out)
-            where AdM : struct, n12.IAdaptiveLerp<T>, n13.IAdaptiveCreateDefault<T>
+            where AdM : struct, n12.IAdaptiveCreateDefault<T>, n13.IAdaptiveLerp<T>
         {
             var w_0 = default(AdM);
             var Output_5 = Input_In.Split(Control_1_Out: out T Control_1_1, Control_2_Out: out T Control_2_2, Control_3_Out: out T Control_3_3, Control_4_Out: out T Control_4_4);
@@ -1154,7 +1154,7 @@ namespace _VL_Bezier_Cubic_.Math.BezierSegment
         }
 
         public static void BezierSegmentSpread<T, AdM>(n10.BezierSegment_R<T> Bezier_Segment_In, int Count_In, out n6.Spread<T> Positions_Out)
-            where AdM : struct, n12.IAdaptiveLerp<T>
+            where AdM : struct, n13.IAdaptiveLerp<T>
         {
             n6.Spread<T> __cp_UKZCpo8RvpqNiOm3lqRZFb = n8._Operations_.CreateDefault<T>();
             var w_0 = default(AdM);
@@ -1198,7 +1198,7 @@ namespace _VL_Bezier_Cubic_.Math.BezierSegment
         }
 
         public static void BezierSegmentLength<T, AdM>(n10.BezierSegment_R<T> Bezier_Segment_In, int Count_In, out n6.Spread<T> Sampled_Points_Out, out n6.Spread<float> Partial_Lengths_Out, out float Total_Length_Out)
-            where AdM : struct, n12.IAdaptiveLength<T>, n12.IAdaptiveLerp<T>, n13.IAdaptiveCreateDefault<T>, n12.IAdaptiveOperatorMinus<T>
+            where AdM : struct, n13.IAdaptiveOperatorMinus<T>, n12.IAdaptiveCreateDefault<T>, n13.IAdaptiveLerp<T>, n13.IAdaptiveLength<T>
         {
             n6.Spread<float> __cp_HH3qydm10UDP0OD7I9ADrj = n8._Operations_.CreateDefault<float>();
             var w_0 = default(AdM);
@@ -1266,7 +1266,7 @@ namespace _VL_Bezier_Cubic_.Math.BezierSegment
         }
 
         public static void NearestPointOnBezierSegment<T2, T, AdM>(T2 BezierSegment_In, T Point_In, int Iteration_Count_In, out T Point_on_BezierSegment_Out, out float Position_on_BezierSegment_Out, out n10.BezierSegment_R<T> BezierSegment_Out)
-            where T2 : n9.IEnumerable<n10.BezierSegment_R<T>> where AdM : struct, n12.IAdaptiveLength<T>, n12.IAdaptiveLerp<T>, n13.IAdaptiveCreateDefault<T>, n12.IAdaptiveOperatorMinus<T>
+            where T2 : n9.IEnumerable<n10.BezierSegment_R<T>> where AdM : struct, n13.IAdaptiveOperatorMinus<T>, n12.IAdaptiveCreateDefault<T>, n13.IAdaptiveLerp<T>, n13.IAdaptiveLength<T>
         {
             var w_0 = default(AdM);
             var Max_Value_1 = float.MaxValue;
@@ -1308,10 +1308,10 @@ namespace _VL_Bezier_Cubic_.Math.BezierSegment
 
                     w_0.Length(Input_In: Output_25, Result_Out: out float Result_26);
                     var Result_27 = Result_26 < accumulator_14;
-                    n18._Operations_.Switch_Boolean<float>(Condition_In: Result_27, Input_In: accumulator_16, Input_2_In: Output_21, Output_Out: out float Output_28);
-                    n18._Operations_.Switch_Boolean<T>(Condition_In: Result_27, Input_In: accumulator_15, Input_2_In: Output_23, Output_Out: out T Output_29);
-                    n18._Operations_.Switch_Boolean<float>(Condition_In: Result_27, Input_In: accumulator_14, Input_2_In: Result_26, Output_Out: out float Output_30);
-                    n18._Operations_.Switch_Boolean<n10.BezierSegment_R<T>>(Condition_In: Result_27, Input_In: accumulator_17, Input_2_In: splicer_10, Output_Out: out n10.BezierSegment_R<T> Output_31);
+                    n19._Operations_.Switch_Boolean<float>(Condition_In: Result_27, Input_In: accumulator_16, Input_2_In: Output_21, Output_Out: out float Output_28);
+                    n19._Operations_.Switch_Boolean<T>(Condition_In: Result_27, Input_In: accumulator_15, Input_2_In: Output_23, Output_Out: out T Output_29);
+                    n19._Operations_.Switch_Boolean<float>(Condition_In: Result_27, Input_In: accumulator_14, Input_2_In: Result_26, Output_Out: out float Output_30);
+                    n19._Operations_.Switch_Boolean<n10.BezierSegment_R<T>>(Condition_In: Result_27, Input_In: accumulator_17, Input_2_In: splicer_10, Output_Out: out n10.BezierSegment_R<T> Output_31);
                     accumulator_14 = Output_30;
                     accumulator_15 = Output_29;
                     accumulator_16 = Output_28;
@@ -1332,7 +1332,7 @@ namespace _VL_Bezier_Cubic_.Math.BezierSegment
         }
 
         public static void BezierSegmentsFromBezierKnots<T, AdM>(n6.Spread<n5.BezierKnot_R<T>> BezierKnots_In, out n6.Spread<n10.BezierSegment_R<T>> Result_Out, out int Segment_Count_Out)
-            where AdM : struct, n13.IAdaptiveCreateDefault<T>
+            where AdM : struct, n12.IAdaptiveCreateDefault<T>
         {
             var w_0 = default(AdM);
             int __pad_LWnZhAj7WHeNg56bbTRX6t_1 = __slot_LWnZhAj7WHeNg56bbTRX6t;
@@ -1360,9 +1360,9 @@ namespace _VL_Bezier_Cubic_.Math.BezierSegment
                     n8._Operations_.Skip<n5.BezierKnot_R<T>>(Input_In: BezierKnots_In, Count_In: __pad_IlFGrj81EsYPaSGPxkJOJm_10, Output_Out: out Output_12);
                 }
 
-                n1.NodeContext Node_Context_13 = n1.NodeContext.Default.CreateSubContext("Ve9QvEWam1QMhGjejnDn64", "NaZlUDe0nV6MMoF48xxLUw", 216471U);
+                n1.NodeContext Node_Context_13 = n1.NodeContext.Default.CreateSubContext("Ve9QvEWam1QMhGjejnDn64", "NaZlUDe0nV6MMoF48xxLUw", 22441U);
                 var Output_14 = n5.BezierKnot_R<T>.Create<AdM>(Node_Context: Node_Context_13);
-                n19._Operations_.FirstOrDefault<n6.Spread<n5.BezierKnot_R<T>>, n5.BezierKnot_R<T>>(Input_In: BezierKnots_In, Default_Value_In: Output_14, Output_Out: out n6.Spread<n5.BezierKnot_R<T>> Output_15, Result_Out: out n5.BezierKnot_R<T> Result_16);
+                n20._Operations_.FirstOrDefault<n6.Spread<n5.BezierKnot_R<T>>, n5.BezierKnot_R<T>>(Input_In: BezierKnots_In, Default_Value_In: Output_14, Output_Out: out n6.Spread<n5.BezierKnot_R<T>> Output_15, Result_Out: out n5.BezierKnot_R<T> Result_16);
                 n5.BezierKnot_R<T> accumulator_18 = Result_16;
                 var builder_36 = n4.CollectionBuilders.GetBuilder(__cp_L2hD23BMtgBNusWQozeS5Z, 16);
                 n6.Spread<n10.BezierSegment_R<T>> output_37;
@@ -1405,13 +1405,13 @@ namespace _VL_Bezier_Cubic_.Math.BezierSegment
             return;
         }
 
-        [n1.ElementAttribute(TracingId = 215506U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "N4SuXdBqUMvNuYX47E6f1Z", Name = "__slot_N4SuXdBqUMvNuYX47E6f1Z")]
+        [n1.ElementAttribute(TracingId = 20926U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "N4SuXdBqUMvNuYX47E6f1Z", Name = "__slot_N4SuXdBqUMvNuYX47E6f1Z")]
         public static int __slot_N4SuXdBqUMvNuYX47E6f1Z = 1;
-        [n1.ElementAttribute(TracingId = 215717U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "Jme99DIsa7RNJ71zCAIgjQ", Name = "__slot_Jme99DIsa7RNJ71zCAIgjQ")]
+        [n1.ElementAttribute(TracingId = 21195U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "Jme99DIsa7RNJ71zCAIgjQ", Name = "__slot_Jme99DIsa7RNJ71zCAIgjQ")]
         public static int __slot_Jme99DIsa7RNJ71zCAIgjQ = 1;
-        [n1.ElementAttribute(TracingId = 216379U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "LWnZhAj7WHeNg56bbTRX6t", Name = "__slot_LWnZhAj7WHeNg56bbTRX6t")]
+        [n1.ElementAttribute(TracingId = 22320U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "LWnZhAj7WHeNg56bbTRX6t", Name = "__slot_LWnZhAj7WHeNg56bbTRX6t")]
         public static int __slot_LWnZhAj7WHeNg56bbTRX6t = 1;
-        [n1.ElementAttribute(TracingId = 216431U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "IlFGrj81EsYPaSGPxkJOJm", Name = "__slot_IlFGrj81EsYPaSGPxkJOJm")]
+        [n1.ElementAttribute(TracingId = 22408U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "IlFGrj81EsYPaSGPxkJOJm", Name = "__slot_IlFGrj81EsYPaSGPxkJOJm")]
         public static int __slot_IlFGrj81EsYPaSGPxkJOJm = 1;
         static _Operations_()
         {
@@ -1421,13 +1421,13 @@ namespace _VL_Bezier_Cubic_.Math.BezierSegment
 
 namespace _VL_Bezier_Cubic_.Math.Advanced
 {
-    [n1.ElementAttribute(TracingId = 216728U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "O9SrTHrqUZiO2vWK9x5b3Y", Name = "BezierKnot_R")]
+    [n1.ElementAttribute(TracingId = 27796U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "O9SrTHrqUZiO2vWK9x5b3Y", Name = "BezierKnot_R")]
     [n2.SerializableAttribute]
     public class BezierKnot_R<T> : n1.VLObject, n2.IDisposable
     {
         [n4.CreateNewAttribute]
         public static n5.BezierKnot_R<T> Create<AdM>(n1.NodeContext Node_Context)
-            where AdM : struct, n13.IAdaptiveCreateDefault<T>
+            where AdM : struct, n12.IAdaptiveCreateDefault<T>
         {
             Node_Context = Node_Context.WithIsImmutable(true);
             var instance = new BezierKnot_R<T>(Node_Context, n1.VLObject.NewIdentity());
@@ -1436,7 +1436,7 @@ namespace _VL_Bezier_Cubic_.Math.Advanced
 
         [n4.CreateDefaultAttribute]
         public static n5.BezierKnot_R<T> CreateDefault<AdM>()
-            where AdM : struct, n13.IAdaptiveCreateDefault<T>
+            where AdM : struct, n12.IAdaptiveCreateDefault<T>
         {
             return __DEFAULT__ ?? (__DEFAULT__ = __COMPUTE__());
             n5.BezierKnot_R<T> __COMPUTE__()
@@ -1450,7 +1450,7 @@ namespace _VL_Bezier_Cubic_.Math.Advanced
         [n1.ElementAttribute(IsAutoGenerated = true)]
         public static n5.BezierKnot_R<T> __DEFAULT__;
         public n5.BezierKnot_R<T> Join<AdM>(T Point_In, T Control1_In, T Control2_In, int Mode_In)
-            where AdM : struct, n13.IAdaptiveCreateDefault<T>
+            where AdM : struct, n12.IAdaptiveCreateDefault<T>
         {
             var w_0 = default(AdM);
             T __auto_1 = Point_In;
@@ -1458,7 +1458,7 @@ namespace _VL_Bezier_Cubic_.Math.Advanced
             bool Apply_3 = true;
             if (Apply_3)
             {
-                n20._Operations_.ConstrainTypes<T>(Input_In: Point_In, Input_2_In: Control1_In, Input_3_In: Control2_In, Input_4_In: Output_2);
+                n14._Operations_.ConstrainTypes<T>(Input_In: Point_In, Input_2_In: Control1_In, Input_3_In: Control2_In, Input_4_In: Output_2);
             }
 
             T __auto_4 = Control1_In;
@@ -1484,32 +1484,32 @@ namespace _VL_Bezier_Cubic_.Math.Advanced
         }
 
         public n5.BezierKnot_R<T> __Create__<AdM>(n1.NodeContext Node_Context)
-            where AdM : struct, n13.IAdaptiveCreateDefault<T>
+            where AdM : struct, n12.IAdaptiveCreateDefault<T>
         {
             n7.RuntimeHelpers.EnsureSufficientExecutionStack();
             var w_0 = default(AdM);
-            w_0.CreateDefault(out T __out_0);
-            w_0.CreateDefault(out T __out_1);
-            w_0.CreateDefault(out T __out_2);
+            w_0.CreateDefault(out T __out_8);
+            w_0.CreateDefault(out T __out_9);
+            w_0.CreateDefault(out T __out_10);
             n5.BezierKnot_R<T> that_1 = this;
-            this.Point = __out_0;
-            this.Control1 = __out_1;
-            this.Control2 = __out_2;
+            this.Point = __out_8;
+            this.Control1 = __out_9;
+            this.Control2 = __out_10;
             this.Mode = 0;
             return that_1;
         }
 
         public n5.BezierKnot_R<T> __CreateDefault__<AdM>()
-            where AdM : struct, n13.IAdaptiveCreateDefault<T>
+            where AdM : struct, n12.IAdaptiveCreateDefault<T>
         {
             var w_0 = default(AdM);
-            w_0.CreateDefault(out T __out_3);
-            w_0.CreateDefault(out T __out_4);
-            w_0.CreateDefault(out T __out_5);
+            w_0.CreateDefault(out T __out_11);
+            w_0.CreateDefault(out T __out_12);
+            w_0.CreateDefault(out T __out_13);
             n5.BezierKnot_R<T> that_1 = this;
-            this.Point = __out_3;
-            this.Control1 = __out_4;
-            this.Control2 = __out_5;
+            this.Point = __out_11;
+            this.Control1 = __out_12;
+            this.Control2 = __out_13;
             this.Mode = 0;
             return that_1;
         }
@@ -1525,13 +1525,13 @@ namespace _VL_Bezier_Cubic_.Math.Advanced
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 216732U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "BvQfjJHJE5pPV1W8INOJx7", Name = "Point")]
+        [n1.ElementAttribute(TracingId = 27799U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "BvQfjJHJE5pPV1W8INOJx7", Name = "Point")]
         public T Point;
-        [n1.ElementAttribute(TracingId = 216734U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "TFbhLDTxYJrMEZ9yfJfkmV", Name = "Control1")]
+        [n1.ElementAttribute(TracingId = 27800U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "TFbhLDTxYJrMEZ9yfJfkmV", Name = "Control1")]
         public T Control1;
-        [n1.ElementAttribute(TracingId = 216736U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "ElUco9VGluWOn3YonNLVDQ", Name = "Control2")]
+        [n1.ElementAttribute(TracingId = 27802U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "ElUco9VGluWOn3YonNLVDQ", Name = "Control2")]
         public T Control2;
-        [n1.ElementAttribute(TracingId = 216737U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "AFG92RbB51KLnxcrzSiEpA", Name = "Mode")]
+        [n1.ElementAttribute(TracingId = 27803U, DocumentId = "Ve9QvEWam1QMhGjejnDn64", PersistentId = "AFG92RbB51KLnxcrzSiEpA", Name = "Mode")]
         public int Mode;
         public BezierKnot_R(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -1562,30 +1562,30 @@ namespace _VL_Bezier_Cubic_.Math.Advanced
 
 namespace _VL_Bezier_Cubic_
 {
-    public struct __AdaptiveImplementations__Ve9QvEWam1QMhGjejnDn64 : n13.IAdaptiveCreateDefault<n10.BezierSegment_R<n14.Vector3>>, n13.IAdaptiveCreateDefault<n14.Vector3>, n12.IAdaptiveLerp<n10.BezierSegment_R<n14.Vector3>>, n12.IAdaptiveLerp<n14.Vector3>
+    public struct __AdaptiveImplementations__Ve9QvEWam1QMhGjejnDn64 : n12.IAdaptiveCreateDefault<n10.BezierSegment_R<n15.Vector3>>, n12.IAdaptiveCreateDefault<n15.Vector3>, n13.IAdaptiveLerp<n10.BezierSegment_R<n15.Vector3>>, n13.IAdaptiveLerp<n15.Vector3>
     {
-        public void CreateDefault(out n10.BezierSegment_R<n14.Vector3> Output_Out)
+        public void CreateDefault(out n10.BezierSegment_R<n15.Vector3> Output_Out)
         {
-            var Output_0 = n10.BezierSegment_R<n14.Vector3>.CreateDefault<n15.__AdaptiveImplementations__Ve9QvEWam1QMhGjejnDn64>();
+            var Output_0 = n10.BezierSegment_R<n15.Vector3>.CreateDefault<n16.__AdaptiveImplementations__Ve9QvEWam1QMhGjejnDn64>();
             Output_Out = Output_0;
             return;
         }
 
-        public void CreateDefault(out n14.Vector3 Output_Out)
+        public void CreateDefault(out n15.Vector3 Output_Out)
         {
-            var Zero_0 = n17._Operations_.CreateDefault();
+            var Zero_0 = n18._Operations_.CreateDefault();
             Output_Out = Zero_0;
             return;
         }
 
-        public void Lerp(n10.BezierSegment_R<n14.Vector3> Input_In, n10.BezierSegment_R<n14.Vector3> Input_2_In, float Scalar_In, out n10.BezierSegment_R<n14.Vector3> Output_Out)
+        public void Lerp(n10.BezierSegment_R<n15.Vector3> Input_In, n10.BezierSegment_R<n15.Vector3> Input_2_In, float Scalar_In, out n10.BezierSegment_R<n15.Vector3> Output_Out)
         {
-            n11._Operations_.Lerp<n14.Vector3, n15.__AdaptiveImplementations__Ve9QvEWam1QMhGjejnDn64>(Input_In: Input_In, Input_2_In: Input_2_In, Scalar_In: Scalar_In, Output_Out: out n10.BezierSegment_R<n14.Vector3> Output_0);
+            n11._Operations_.Lerp<n15.Vector3, n16.__AdaptiveImplementations__Ve9QvEWam1QMhGjejnDn64>(Input_In: Input_In, Input_2_In: Input_2_In, Scalar_In: Scalar_In, Output_Out: out n10.BezierSegment_R<n15.Vector3> Output_0);
             Output_Out = Output_0;
             return;
         }
 
-        public void Lerp(n14.Vector3 Input_In, n14.Vector3 Input_2_In, float Scalar_In, out n14.Vector3 Output_Out)
+        public void Lerp(n15.Vector3 Input_In, n15.Vector3 Input_2_In, float Scalar_In, out n15.Vector3 Output_Out)
         {
             var Output_0 = n21.Vector3Nodes.Lerp(input: ref Input_In, input2: ref Input_2_In, scalar: Scalar_In);
             Output_Out = Output_0;

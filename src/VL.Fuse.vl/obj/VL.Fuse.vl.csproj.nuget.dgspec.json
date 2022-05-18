@@ -1,0 +1,782 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Fuse.vl\\VL.Fuse.vl.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.CoreLib.vl\\VL.CoreLib.vl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.CoreLib.vl\\VL.CoreLib.vl.csproj",
+        "projectName": "VL.CoreLib.vl",
+        "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.CoreLib.vl\\VL.CoreLib.vl.csproj",
+        "packagesPath": "C:\\Users\\emanu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.CoreLib.vl\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\NuGet.Config",
+          "C:\\Users\\emanu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://teamcity.vvvv.org/guestAuth/app/nuget/v1/FeedService.svc/": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.stride3d.net/nuget": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "VL.App.WindowsForms": {
+              "target": "Package",
+              "version": "[2021.4.9-0971-g1d0a0c7789, )"
+            },
+            "VL.Core": {
+              "target": "Package",
+              "version": "[2021.4.9-0971-g1d0a0c7789, )"
+            },
+            "VL.CoreLib": {
+              "target": "Package",
+              "version": "[2021.4.9-0971-g1d0a0c7789, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.CoreLib.Windows.vl\\VL.CoreLib.Windows.vl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.CoreLib.Windows.vl\\VL.CoreLib.Windows.vl.csproj",
+        "projectName": "VL.CoreLib.Windows.vl",
+        "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.CoreLib.Windows.vl\\VL.CoreLib.Windows.vl.csproj",
+        "packagesPath": "C:\\Users\\emanu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.CoreLib.Windows.vl\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\NuGet.Config",
+          "C:\\Users\\emanu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://teamcity.vvvv.org/guestAuth/app/nuget/v1/FeedService.svc/": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.stride3d.net/nuget": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {
+              "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.CoreLib.vl\\VL.CoreLib.vl.csproj": {
+                "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.CoreLib.vl\\VL.CoreLib.vl.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "VL.App.WindowsForms": {
+              "target": "Package",
+              "version": "[2021.4.9-0971-g1d0a0c7789, )"
+            },
+            "VL.CoreLib.Windows": {
+              "target": "Package",
+              "version": "[2021.4.9-0971-g1d0a0c7789, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.EditingFramework.vl\\VL.EditingFramework.vl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.EditingFramework.vl\\VL.EditingFramework.vl.csproj",
+        "projectName": "VL.EditingFramework.vl",
+        "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.EditingFramework.vl\\VL.EditingFramework.vl.csproj",
+        "packagesPath": "C:\\Users\\emanu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.EditingFramework.vl\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\NuGet.Config",
+          "C:\\Users\\emanu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://teamcity.vvvv.org/guestAuth/app/nuget/v1/FeedService.svc/": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.stride3d.net/nuget": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {
+              "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.CoreLib.vl\\VL.CoreLib.vl.csproj": {
+                "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.CoreLib.vl\\VL.CoreLib.vl.csproj"
+              },
+              "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Skia.vl\\VL.Skia.vl.csproj": {
+                "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Skia.vl\\VL.Skia.vl.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "VL.App.WindowsForms": {
+              "target": "Package",
+              "version": "[2021.4.9-0971-g1d0a0c7789, )"
+            },
+            "VL.Core": {
+              "target": "Package",
+              "version": "[2021.4.9-0971-g1d0a0c7789, )"
+            },
+            "VL.EditingFramework": {
+              "target": "Package",
+              "version": "[2021.4.9-0971-g1d0a0c7789, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Fuse.vl\\VL.Fuse.vl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Fuse.vl\\VL.Fuse.vl.csproj",
+        "projectName": "VL.Fuse.vl",
+        "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Fuse.vl\\VL.Fuse.vl.csproj",
+        "packagesPath": "C:\\Users\\emanu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Fuse.vl\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\NuGet.Config",
+          "C:\\Users\\emanu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://teamcity.vvvv.org/guestAuth/app/nuget/v1/FeedService.svc/": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.stride3d.net/nuget": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {
+              "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.CoreLib.vl\\VL.CoreLib.vl.csproj": {
+                "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.CoreLib.vl\\VL.CoreLib.vl.csproj"
+              },
+              "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.EditingFramework.vl\\VL.EditingFramework.vl.csproj": {
+                "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.EditingFramework.vl\\VL.EditingFramework.vl.csproj"
+              },
+              "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.HDE.vl\\VL.HDE.vl.csproj": {
+                "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.HDE.vl\\VL.HDE.vl.csproj"
+              },
+              "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Lang.vl\\VL.Lang.vl.csproj": {
+                "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Lang.vl\\VL.Lang.vl.csproj"
+              },
+              "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Skia.vl\\VL.Skia.vl.csproj": {
+                "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Skia.vl\\VL.Skia.vl.csproj"
+              },
+              "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Stride.Runtime.vl\\VL.Stride.Runtime.vl.csproj": {
+                "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Stride.Runtime.vl\\VL.Stride.Runtime.vl.csproj"
+              },
+              "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Stride.vl\\VL.Stride.vl.csproj": {
+                "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Stride.vl\\VL.Stride.vl.csproj"
+              },
+              "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Stride.Windows.vl\\VL.Stride.Windows.vl.csproj": {
+                "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Stride.Windows.vl\\VL.Stride.Windows.vl.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "VL.App.WindowsForms": {
+              "target": "Package",
+              "version": "[2021.4.9-0971-g1d0a0c7789, )"
+            },
+            "VL.Fuse": {
+              "target": "Package",
+              "version": "[0.2.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.FuzzySearch.vl\\VL.FuzzySearch.vl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.FuzzySearch.vl\\VL.FuzzySearch.vl.csproj",
+        "projectName": "VL.FuzzySearch.vl",
+        "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.FuzzySearch.vl\\VL.FuzzySearch.vl.csproj",
+        "packagesPath": "C:\\Users\\emanu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.FuzzySearch.vl\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\NuGet.Config",
+          "C:\\Users\\emanu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://teamcity.vvvv.org/guestAuth/app/nuget/v1/FeedService.svc/": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.stride3d.net/nuget": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {
+              "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.CoreLib.vl\\VL.CoreLib.vl.csproj": {
+                "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.CoreLib.vl\\VL.CoreLib.vl.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "VL.App.WindowsForms": {
+              "target": "Package",
+              "version": "[2021.4.9-0971-g1d0a0c7789, )"
+            },
+            "VL.FuzzySearch": {
+              "target": "Package",
+              "version": "[0.0.3-alpha, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.HDE.vl\\VL.HDE.vl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.HDE.vl\\VL.HDE.vl.csproj",
+        "projectName": "VL.HDE.vl",
+        "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.HDE.vl\\VL.HDE.vl.csproj",
+        "packagesPath": "C:\\Users\\emanu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.HDE.vl\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\NuGet.Config",
+          "C:\\Users\\emanu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://teamcity.vvvv.org/guestAuth/app/nuget/v1/FeedService.svc/": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.stride3d.net/nuget": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {
+              "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.CoreLib.vl\\VL.CoreLib.vl.csproj": {
+                "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.CoreLib.vl\\VL.CoreLib.vl.csproj"
+              },
+              "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.CoreLib.Windows.vl\\VL.CoreLib.Windows.vl.csproj": {
+                "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.CoreLib.Windows.vl\\VL.CoreLib.Windows.vl.csproj"
+              },
+              "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.FuzzySearch.vl\\VL.FuzzySearch.vl.csproj": {
+                "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.FuzzySearch.vl\\VL.FuzzySearch.vl.csproj"
+              },
+              "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Lang.vl\\VL.Lang.vl.csproj": {
+                "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Lang.vl\\VL.Lang.vl.csproj"
+              },
+              "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Skia.vl\\VL.Skia.vl.csproj": {
+                "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Skia.vl\\VL.Skia.vl.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "VL.App.WindowsForms": {
+              "target": "Package",
+              "version": "[2021.4.9-0971-g1d0a0c7789, )"
+            },
+            "VL.HDE": {
+              "target": "Package",
+              "version": "[2021.4.9-0971-g1d0a0c7789, )"
+            },
+            "VL.UI.Core": {
+              "target": "Package",
+              "version": "[2021.4.9-0971-g1d0a0c7789, )"
+            },
+            "VL.UI.PatchEditor.Utils": {
+              "target": "Package",
+              "version": "[2021.4.9-0971-g1d0a0c7789, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Lang.vl\\VL.Lang.vl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Lang.vl\\VL.Lang.vl.csproj",
+        "projectName": "VL.Lang.vl",
+        "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Lang.vl\\VL.Lang.vl.csproj",
+        "packagesPath": "C:\\Users\\emanu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Lang.vl\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\NuGet.Config",
+          "C:\\Users\\emanu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://teamcity.vvvv.org/guestAuth/app/nuget/v1/FeedService.svc/": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.stride3d.net/nuget": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {
+              "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.CoreLib.vl\\VL.CoreLib.vl.csproj": {
+                "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.CoreLib.vl\\VL.CoreLib.vl.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "VL.App.WindowsForms": {
+              "target": "Package",
+              "version": "[2021.4.9-0971-g1d0a0c7789, )"
+            },
+            "VL.Core": {
+              "target": "Package",
+              "version": "[2021.4.9-0971-g1d0a0c7789, )"
+            },
+            "VL.Lang": {
+              "target": "Package",
+              "version": "[2021.4.9-0971-g1d0a0c7789, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Skia.vl\\VL.Skia.vl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Skia.vl\\VL.Skia.vl.csproj",
+        "projectName": "VL.Skia.vl",
+        "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Skia.vl\\VL.Skia.vl.csproj",
+        "packagesPath": "C:\\Users\\emanu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Skia.vl\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\NuGet.Config",
+          "C:\\Users\\emanu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://teamcity.vvvv.org/guestAuth/app/nuget/v1/FeedService.svc/": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.stride3d.net/nuget": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {
+              "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.CoreLib.vl\\VL.CoreLib.vl.csproj": {
+                "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.CoreLib.vl\\VL.CoreLib.vl.csproj"
+              },
+              "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.CoreLib.Windows.vl\\VL.CoreLib.Windows.vl.csproj": {
+                "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.CoreLib.Windows.vl\\VL.CoreLib.Windows.vl.csproj"
+              },
+              "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Lang.vl\\VL.Lang.vl.csproj": {
+                "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Lang.vl\\VL.Lang.vl.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "VL.App.WindowsForms": {
+              "target": "Package",
+              "version": "[2021.4.9-0971-g1d0a0c7789, )"
+            },
+            "VL.Skia": {
+              "target": "Package",
+              "version": "[2021.4.9-0971-g1d0a0c7789, )"
+            },
+            "VL.UI.Core": {
+              "target": "Package",
+              "version": "[2021.4.9-0971-g1d0a0c7789, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Stride.Runtime.vl\\VL.Stride.Runtime.vl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Stride.Runtime.vl\\VL.Stride.Runtime.vl.csproj",
+        "projectName": "VL.Stride.Runtime.vl",
+        "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Stride.Runtime.vl\\VL.Stride.Runtime.vl.csproj",
+        "packagesPath": "C:\\Users\\emanu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Stride.Runtime.vl\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\NuGet.Config",
+          "C:\\Users\\emanu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://teamcity.vvvv.org/guestAuth/app/nuget/v1/FeedService.svc/": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.stride3d.net/nuget": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {
+              "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.CoreLib.vl\\VL.CoreLib.vl.csproj": {
+                "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.CoreLib.vl\\VL.CoreLib.vl.csproj"
+              },
+              "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.EditingFramework.vl\\VL.EditingFramework.vl.csproj": {
+                "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.EditingFramework.vl\\VL.EditingFramework.vl.csproj"
+              },
+              "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Lang.vl\\VL.Lang.vl.csproj": {
+                "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Lang.vl\\VL.Lang.vl.csproj"
+              },
+              "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Skia.vl\\VL.Skia.vl.csproj": {
+                "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Skia.vl\\VL.Skia.vl.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "VL.App.WindowsForms": {
+              "target": "Package",
+              "version": "[2021.4.9-0971-g1d0a0c7789, )"
+            },
+            "VL.Core": {
+              "target": "Package",
+              "version": "[2021.4.9-0971-g1d0a0c7789, )"
+            },
+            "VL.Stride.Runtime": {
+              "target": "Package",
+              "version": "[2021.4.9-0971-g1d0a0c7789, )"
+            },
+            "VL.UI.Core": {
+              "target": "Package",
+              "version": "[2021.4.9-0971-g1d0a0c7789, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Stride.vl\\VL.Stride.vl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Stride.vl\\VL.Stride.vl.csproj",
+        "projectName": "VL.Stride.vl",
+        "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Stride.vl\\VL.Stride.vl.csproj",
+        "packagesPath": "C:\\Users\\emanu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Stride.vl\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\NuGet.Config",
+          "C:\\Users\\emanu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://teamcity.vvvv.org/guestAuth/app/nuget/v1/FeedService.svc/": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.stride3d.net/nuget": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {
+              "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Stride.Runtime.vl\\VL.Stride.Runtime.vl.csproj": {
+                "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Stride.Runtime.vl\\VL.Stride.Runtime.vl.csproj"
+              },
+              "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Stride.Windows.vl\\VL.Stride.Windows.vl.csproj": {
+                "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Stride.Windows.vl\\VL.Stride.Windows.vl.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "VL.App.WindowsForms": {
+              "target": "Package",
+              "version": "[2021.4.9-0971-g1d0a0c7789, )"
+            },
+            "VL.Stride": {
+              "target": "Package",
+              "version": "[2021.4.9-0971-g1d0a0c7789, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Stride.Windows.vl\\VL.Stride.Windows.vl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Stride.Windows.vl\\VL.Stride.Windows.vl.csproj",
+        "projectName": "VL.Stride.Windows.vl",
+        "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Stride.Windows.vl\\VL.Stride.Windows.vl.csproj",
+        "packagesPath": "C:\\Users\\emanu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Stride.Windows.vl\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\NuGet.Config",
+          "C:\\Users\\emanu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://teamcity.vvvv.org/guestAuth/app/nuget/v1/FeedService.svc/": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.stride3d.net/nuget": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {
+              "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.CoreLib.vl\\VL.CoreLib.vl.csproj": {
+                "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.CoreLib.vl\\VL.CoreLib.vl.csproj"
+              },
+              "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Skia.vl\\VL.Skia.vl.csproj": {
+                "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Skia.vl\\VL.Skia.vl.csproj"
+              },
+              "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Stride.Runtime.vl\\VL.Stride.Runtime.vl.csproj": {
+                "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Stride.Runtime.vl\\VL.Stride.Runtime.vl.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "VL.App.WindowsForms": {
+              "target": "Package",
+              "version": "[2021.4.9-0971-g1d0a0c7789, )"
+            },
+            "VL.Stride": {
+              "target": "Package",
+              "version": "[2021.4.9-0971-g1d0a0c7789, )"
+            },
+            "VL.Stride.Windows": {
+              "target": "Package",
+              "version": "[2021.4.9-0971-g1d0a0c7789, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -9,6 +9,7 @@ C:\Users\emanu\.nuget\packages\ffmpeg.autogen\3.4.0.2\lib\net45\FFmpeg.AutoGen.d
 C:\Users\emanu\.nuget\packages\fsharp.core\5.0.0\lib\netstandard2.0\FSharp.Core.dll
 C:\Users\emanu\.nuget\packages\fspickler\5.3.2\lib\net45\FsPickler.dll
 C:\Users\emanu\.nuget\packages\fspickler.json\5.3.2\lib\net45\FsPickler.Json.dll
+C:\Users\emanu\.nuget\packages\vl.fuse\0.2.0\lib\Fuse.dll
 C:\Users\emanu\.nuget\packages\immutableobjectgraph\1.2.19-beta\lib\netstandard1.0\ImmutableObjectGraph.dll
 C:\Users\emanu\.nuget\packages\irony\1.1.0\lib\net40\Irony.dll
 C:\Users\emanu\.nuget\packages\irony.interpreter\1.1.0\lib\net40\Irony.Interpreter.dll
@@ -76,6 +77,7 @@ C:\Users\emanu\.nuget\packages\sharpdx.mediafoundation\4.2.0\lib\net45\SharpDX.M
 C:\Users\emanu\.nuget\packages\sharpdx.rawinput\4.2.0\lib\net45\SharpDX.RawInput.dll
 C:\Users\emanu\.nuget\packages\sharpdx.xinput\4.2.0\lib\net45\SharpDX.XInput.dll
 C:\Users\emanu\.nuget\packages\stride.sharpfont\1.0.0\lib\netstandard2.0\SharpFont.dll
+C:\Users\emanu\.nuget\packages\simmetricscore\2.1.0\lib\netstandard2.0\SimMetricsCore.dll
 C:\Users\emanu\.nuget\packages\skiasharp\2.80.3\lib\net462\SkiaSharp.dll
 C:\Users\emanu\.nuget\packages\skiasharp.svg\1.60.0\lib\netstandard2.0\SkiaSharp.Extended.Svg.dll
 C:\Users\emanu\.nuget\packages\stdole\7.0.3301\lib\net10\stdole.dll
@@ -206,6 +208,10 @@ C:\Users\emanu\.nuget\packages\vl.corelib.windows\2021.4.9-0971-g1d0a0c7789\lib\
 C:\Users\emanu\Desktop\ReposFolder\Solar-System-VVVV\src\VL.CoreLib.Windows.vl\bin\Release\net472\VL.CoreLib.Windows.vl.dll
 C:\Users\emanu\.nuget\packages\vl.editingframework\2021.4.9-0971-g1d0a0c7789\lib\net472\VL.EditingFramework.dll
 C:\Users\emanu\Desktop\ReposFolder\Solar-System-VVVV\src\VL.EditingFramework.vl\bin\Release\net472\VL.EditingFramework.vl.dll
+C:\Users\emanu\Desktop\ReposFolder\Solar-System-VVVV\src\VL.Fuse.vl\bin\Release\net472\VL.Fuse.vl.dll
+C:\Users\emanu\Desktop\ReposFolder\Solar-System-VVVV\src\VL.FuzzySearch.vl\bin\Release\net472\VL.FuzzySearch.vl.dll
+C:\Users\emanu\.nuget\packages\vl.hde\2021.4.9-0971-g1d0a0c7789\lib\net472\VL.HDE.dll
+C:\Users\emanu\Desktop\ReposFolder\Solar-System-VVVV\src\VL.HDE.vl\bin\Release\net472\VL.HDE.vl.dll
 C:\Users\emanu\.nuget\packages\vl.lang\2021.4.9-0971-g1d0a0c7789\lib\net472\VL.Lang.dll
 C:\Users\emanu\.nuget\packages\vl.lang.roslyn\2021.4.9-0971-g1d0a0c7789\lib\net472\VL.Lang.Roslyn.dll
 C:\Users\emanu\Desktop\ReposFolder\Solar-System-VVVV\src\VL.Lang.vl\bin\Release\net472\VL.Lang.vl.dll
@@ -219,6 +225,7 @@ C:\Users\emanu\Desktop\ReposFolder\Solar-System-VVVV\src\VL.Stride.vl\bin\Releas
 C:\Users\emanu\.nuget\packages\vl.stride.windows\2021.4.9-0971-g1d0a0c7789\lib\net472\VL.Stride.Windows.dll
 C:\Users\emanu\Desktop\ReposFolder\Solar-System-VVVV\src\VL.Stride.Windows.vl\bin\Release\net472\VL.Stride.Windows.vl.dll
 C:\Users\emanu\.nuget\packages\vl.ui.core\2021.4.9-0971-g1d0a0c7789\lib\net472\VL.UI.Core.dll
+C:\Users\emanu\.nuget\packages\vl.ui.patcheditor.utils\2021.4.9-0971-g1d0a0c7789\lib\net472\VL.UI.PatchEditor.Utils.dll
 C:\Users\emanu\.nuget\packages\vortice.mathematics\1.3.3\lib\netstandard2.0\Vortice.Mathematics.dll
 C:\Users\emanu\.nuget\packages\vortice.vulkan\1.2.167\lib\netstandard2.0\Vortice.Vulkan.dll
 C:\Users\emanu\.nuget\packages\vvvv.nugetassemblyloader\0.1.27\lib\net46\VVVV.NuGetAssemblyLoader.dll

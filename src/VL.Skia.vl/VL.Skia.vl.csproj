@@ -35,13 +35,13 @@
   </ItemGroup>
   <Target Name="AddAliases" BeforeTargets="ResolveReferences">
     <ItemGroup>
-      <ReferencePath Condition="'%(FileName)'=='VL.Core'" Aliases="e5" />
-      <ReferencePath Condition="'%(FileName)'=='VL.Skia'" Aliases="e18" />
+      <ReferencePath Condition="'%(FileName)'=='VL.Core'" Aliases="e2" />
+      <ReferencePath Condition="'%(FileName)'=='VL.Skia'" Aliases="e1" />
       <ReferencePath Condition="'%(FileName)'=='VL.App.WindowsForms'" Aliases="e70" />
-      <ReferencePath Condition="'%(FileName)'=='VL.UI.Core'" Aliases="e9" />
-      <ReferencePath Condition="'%(FileName)'=='VL.Lang'" Aliases="e6" />
-      <ReferencePath Condition="'%(FileName)'=='VL.CoreLib'" Aliases="e2" />
-      <ReferencePath Condition="'%(FileName)'=='Stride.Core.Mathematics'" Aliases="e1" />
+      <ReferencePath Condition="'%(FileName)'=='VL.UI.Core'" Aliases="e5" />
+      <ReferencePath Condition="'%(FileName)'=='VL.CoreLib'" Aliases="e3" />
+      <ReferencePath Condition="'%(FileName)'=='VL.Lang'" Aliases="e10" />
+      <ReferencePath Condition="'%(FileName)'=='Stride.Core.Mathematics'" Aliases="e4" />
     </ItemGroup>
   </Target>
 </Project>

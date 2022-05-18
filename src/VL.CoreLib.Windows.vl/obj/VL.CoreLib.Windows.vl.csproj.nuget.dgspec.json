@@ -30,7 +30,8 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "http://teamcity.vvvv.org/guestAuth/app/nuget/v1/FeedService.svc/": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.stride3d.net/nuget": {}
         },
         "frameworks": {
           "net472": {
@@ -91,7 +92,8 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "http://teamcity.vvvv.org/guestAuth/app/nuget/v1/FeedService.svc/": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.stride3d.net/nuget": {}
         },
         "frameworks": {
           "net472": {

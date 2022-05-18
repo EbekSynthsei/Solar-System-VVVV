@@ -1,31 +1,31 @@
-﻿extern alias e9;
+﻿extern alias e5;
+extern alias e3;
 extern alias e2;
-extern alias e5;
 
 using n32 = _VL_Typewriter_.Text;
 using n14 = _CoreLibBasics_.Control.Advanced;
-using n7 = e2::VL.Lib.Primitive;
+using n5 = e2::VL.Lib.Collections;
 using n20 = _CoreLibBasics_.Primitive.Object.Advanced;
 using n6 = _VL_Collections_.Collections.Builder.SpreadBuilder.Advanced;
+using n19 = e5::VL.Lib.IO.Notifications;
 using n34 = _CoreLibBasics_.Control;
-using n19 = e9::VL.Lib.IO.Notifications;
-using n31 = e2::VL.Lib.Text;
 using n25 = _VL_Reactive_.Reactive.Sampler;
+using n24 = e3::VL.Lib.Reactive;
 using n15 = _CoreLibBasics_.Primitive.String;
-using n4 = e5::VL.Core.CompilerServices;
 using n8 = global::System.Collections.Generic;
 using n29 = _CoreLibBasics_.Math.Adaptive;
 using n28 = _CoreLibBasics_.Primitive.Advanced.Adaptive;
+using n7 = e3::VL.Lib.Primitive;
+using n31 = e3::VL.Lib.Text;
+using n26 = e2::VL.Lib.Runtime;
 using n11 = _CoreLibBasics_.Math.Ranges.Generic.Advanced;
 using n23 = _VL_Typewriter_.Text.Controls.Advanced;
-using n24 = e2::VL.Lib.Reactive;
-using n1 = e5::VL.Core;
-using n27 = e9::VL.Lib.IO;
-using n26 = e5::VL.Lib.Runtime;
+using n1 = e2::VL.Core;
 using n2 = global::System;
 using n22 = _CoreLibBasics_.Primitive.Delegates.Delegate__1_MG_1.Advanced;
 using n16 = _VL_Typewriter_.Text.TextBuilder.ToSelectedPositions.Advanced;
-using n21 = e2::VL.Lib.IO;
+using n21 = e3::VL.Lib.IO;
+using n4 = e2::VL.Core.CompilerServices;
 using n36 = _CoreLibBasics_.Primitive.Char.Advanced;
 using n10 = _VL_Typewriter_;
 using n9 = _VL_Typewriter_.Text.TextBuilder.Advanced;
@@ -33,15 +33,15 @@ using n17 = global::System.Windows.Forms;
 using n12 = _VL_Collections_.Collections.Sequence;
 using n18 = global::System.Runtime.CompilerServices;
 using n30 = _CoreLibBasics_.Text.Encodings;
-using n5 = e5::VL.Lib.Collections;
 using n33 = _VL_Typewriter_.Text.Internal;
+using n27 = e5::VL.Lib.IO;
 using n13 = _VL_Collections_.Collections.Spread;
 using n3 = _VL_Typewriter_.Text.Advanced;
 using n35 = _CoreLibBasics_.Primitive.Advanced;
 
 namespace _VL_Typewriter_.Text.Advanced
 {
-    [n1.ElementAttribute(TracingId = 228428U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "LVl8IgT3K0KMhZbgk6IIJf", Name = "TextBuilder_C")]
+    [n1.ElementAttribute(TracingId = 23751U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "LVl8IgT3K0KMhZbgk6IIJf", Name = "TextBuilder_C")]
     [n2.SerializableAttribute]
     public class TextBuilder_C : n1.VLObject, n2.IDisposable
     {
@@ -685,7 +685,7 @@ namespace _VL_Typewriter_.Text.Advanced
             n9.Selection_R<int> __auto_30;
             if (Reset_In)
             {
-                n1.NodeContext Node_Context_32 = __GetContext__().CreateSubContext("AjFNjMAblDQMnPebi4p4Dw", "PmJtMVigewyMhVOIzYiPNq", 229842U);
+                n1.NodeContext Node_Context_32 = __GetContext__().CreateSubContext("AjFNjMAblDQMnPebi4p4Dw", "PmJtMVigewyMhVOIzYiPNq", 37266U);
                 var Output_33 = n9.Selection_R<int>.Create<n10.__AdaptiveImplementations__AjFNjMAblDQMnPebi4p4Dw>(Node_Context: Node_Context_32);
                 __auto_30 = Output_33;
             }
@@ -711,7 +711,7 @@ namespace _VL_Typewriter_.Text.Advanced
             int __auto_7 = Line_3;
             this.Cursor = Cursor_4;
             int __auto_8 = Cursor_4;
-            n1.NodeContext Node_Context_9 = __GetContext__().CreateSubContext("AjFNjMAblDQMnPebi4p4Dw", "S4cMPZsx7KWP8t57CLSUAU", 230874U);
+            n1.NodeContext Node_Context_9 = __GetContext__().CreateSubContext("AjFNjMAblDQMnPebi4p4Dw", "S4cMPZsx7KWP8t57CLSUAU", 43498U);
             var Output_10 = n9.Selection_R<int>.Create<n10.__AdaptiveImplementations__AjFNjMAblDQMnPebi4p4Dw>(Node_Context: Node_Context_9);
             this.Selection = Output_10;
             n9.Selection_R<int> __auto_11 = Output_10;
@@ -810,7 +810,7 @@ namespace _VL_Typewriter_.Text.Advanced
             this.__cp_PnBqqvlD2CXPzG4xIWC3D4 = n13._Operations_.CreateDefault<string>();
             bool Remove_Empty_Lines_0 = false;
             n15._Operations_.SplitToLines(Input_In: Initial_Text_In, Remove_Empty_Lines_In: Remove_Empty_Lines_0, Output_Out: out n5.Spread<string> Output_1);
-            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("AjFNjMAblDQMnPebi4p4Dw", "SH4LjwZdUMpQSIv3rTrzrv", 228446U);
+            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("AjFNjMAblDQMnPebi4p4Dw", "SH4LjwZdUMpQSIv3rTrzrv", 26847U);
             int Capacity_3 = 0;
             n6._Operations_.Create<n5.SpreadBuilder<string>>(Node_Context: Node_Context_2, Capacity_In: Capacity_3, Output_Out: out n5.SpreadBuilder<n5.SpreadBuilder<string>> Output_4);
             n5.SpreadBuilder<n5.SpreadBuilder<string>> accumulator_6 = Output_4;
@@ -819,7 +819,7 @@ namespace _VL_Typewriter_.Text.Advanced
             {
                 var splicer_7 = item_5;
                 var i_local_9 = i_8;
-                n1.NodeContext Node_Context_11 = Node_Context.CreateSubContext("AjFNjMAblDQMnPebi4p4Dw", "B3rFp58RVZGPy6dlWi2CzJ", 230108U);
+                n1.NodeContext Node_Context_11 = Node_Context.CreateSubContext("AjFNjMAblDQMnPebi4p4Dw", "B3rFp58RVZGPy6dlWi2CzJ", 38236U);
                 int Capacity_12 = 0;
                 n6._Operations_.Create<string>(Node_Context: Node_Context_11, Capacity_In: Capacity_12, Output_Out: out n5.SpreadBuilder<string> Output_13);
                 n8.IEnumerable<char> Input_14 = (n8.IEnumerable<char>)splicer_7;
@@ -849,13 +849,13 @@ namespace _VL_Typewriter_.Text.Advanced
             var Length_30 = Result_26.Length;
             this.Cursor = Length_30;
             int __auto_31 = Length_30;
-            n1.NodeContext Node_Context_32 = Node_Context.CreateSubContext("AjFNjMAblDQMnPebi4p4Dw", "OZcrP6sx7ZVN6StphoSAyi", 230086U);
+            n1.NodeContext Node_Context_32 = Node_Context.CreateSubContext("AjFNjMAblDQMnPebi4p4Dw", "OZcrP6sx7ZVN6StphoSAyi", 38156U);
             var Output_33 = n9.RemoveSelected_MAdKROpcMMCMUeZTTqHRN4.Create(Node_Context: Node_Context_32);
             this.__p_OZcrP6sx7ZVN6StphoSAyi = Output_33;
-            n1.NodeContext Node_Context_34 = Node_Context.CreateSubContext("AjFNjMAblDQMnPebi4p4Dw", "P87ElqUS6j8PL8M5cyLZ0y", 230925U);
+            n1.NodeContext Node_Context_34 = Node_Context.CreateSubContext("AjFNjMAblDQMnPebi4p4Dw", "P87ElqUS6j8PL8M5cyLZ0y", 43565U);
             var Output_35 = n9.ToSelectedPositions_JgRboguKCyYPJs9wQyayn6.Create(Node_Context: Node_Context_34);
             this.__p_P87ElqUS6j8PL8M5cyLZ0y = Output_35;
-            n1.NodeContext Node_Context_36 = Node_Context.CreateSubContext("AjFNjMAblDQMnPebi4p4Dw", "Se10orrR98LMXQTic4vUbf", 231219U);
+            n1.NodeContext Node_Context_36 = Node_Context.CreateSubContext("AjFNjMAblDQMnPebi4p4Dw", "Se10orrR98LMXQTic4vUbf", 50513U);
             var Output_37 = n9.GetSelectedText_ED6gc1ZFYhcPshOq9VwaBa.Create(Node_Context: Node_Context_36);
             this.__p_Se10orrR98LMXQTic4vUbf = Output_37;
             return this;
@@ -893,45 +893,45 @@ namespace _VL_Typewriter_.Text.Advanced
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 228432U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "NjnOQdM1ZzSNDDi7mJq4RR", Name = "Text")]
+        [n1.ElementAttribute(TracingId = 23753U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "NjnOQdM1ZzSNDDi7mJq4RR", Name = "Text")]
         public n5.SpreadBuilder<n5.SpreadBuilder<string>> Text;
-        [n1.ElementAttribute(TracingId = 228434U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "Q5BSwZBZhXQQE9T5vNXFYs", Name = "Cursor")]
+        [n1.ElementAttribute(TracingId = 23754U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "Q5BSwZBZhXQQE9T5vNXFYs", Name = "Cursor")]
         public int Cursor;
-        [n1.ElementAttribute(TracingId = 228437U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "HtqRpQYQfhKLmMZQnaVtUr", Name = "Line")]
+        [n1.ElementAttribute(TracingId = 23755U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "HtqRpQYQfhKLmMZQnaVtUr", Name = "Line")]
         public int Line;
-        [n1.ElementAttribute(TracingId = 228587U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "RBIi6cYtEdcN5xSsZuJF9G", Name = "__slot_RBIi6cYtEdcN5xSsZuJF9G")]
+        [n1.ElementAttribute(TracingId = 26938U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "RBIi6cYtEdcN5xSsZuJF9G", Name = "__slot_RBIi6cYtEdcN5xSsZuJF9G")]
         public static int __slot_RBIi6cYtEdcN5xSsZuJF9G = 9;
-        [n1.ElementAttribute(TracingId = 230181U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "IGgQqdfNxM0O2klAeLf8nm", Name = "__slot_IGgQqdfNxM0O2klAeLf8nm")]
+        [n1.ElementAttribute(TracingId = 39946U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "IGgQqdfNxM0O2klAeLf8nm", Name = "__slot_IGgQqdfNxM0O2klAeLf8nm")]
         public static string __slot_IGgQqdfNxM0O2klAeLf8nm = "//Remove one char";
-        [n1.ElementAttribute(TracingId = 230182U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "U4nmTwXs5bIOuspv7L74E6", Name = "__slot_U4nmTwXs5bIOuspv7L74E6")]
+        [n1.ElementAttribute(TracingId = 39957U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "U4nmTwXs5bIOuspv7L74E6", Name = "__slot_U4nmTwXs5bIOuspv7L74E6")]
         public static string __slot_U4nmTwXs5bIOuspv7L74E6 = "//Remove one line, jump to the end\r\nof the previous one.\r\nTake the rest of the line and add to another one.";
-        [n1.ElementAttribute(TracingId = 230593U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "KGPMnqcU445OayAgKEfzXg", Name = "__slot_KGPMnqcU445OayAgKEfzXg")]
+        [n1.ElementAttribute(TracingId = 43139U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "KGPMnqcU445OayAgKEfzXg", Name = "__slot_KGPMnqcU445OayAgKEfzXg")]
         public static int __slot_KGPMnqcU445OayAgKEfzXg = 1;
-        [n1.ElementAttribute(TracingId = 230641U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "Hh1eUOy1LSLNKW8ixcnrM8", Name = "__slot_Hh1eUOy1LSLNKW8ixcnrM8")]
+        [n1.ElementAttribute(TracingId = 43198U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "Hh1eUOy1LSLNKW8ixcnrM8", Name = "__slot_Hh1eUOy1LSLNKW8ixcnrM8")]
         public static int __slot_Hh1eUOy1LSLNKW8ixcnrM8 = 0;
-        [n1.ElementAttribute(TracingId = 231255U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "EIeJNYbKjnpLGVj2t6LSWu", Name = "__slot_EIeJNYbKjnpLGVj2t6LSWu")]
+        [n1.ElementAttribute(TracingId = 50608U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "EIeJNYbKjnpLGVj2t6LSWu", Name = "__slot_EIeJNYbKjnpLGVj2t6LSWu")]
         public bool __slot_EIeJNYbKjnpLGVj2t6LSWu;
-        [n1.ElementAttribute(TracingId = 229821U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "M8t5MYYwkh7OEakQNW5nUe", Name = "Selection")]
+        [n1.ElementAttribute(TracingId = 37182U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "M8t5MYYwkh7OEakQNW5nUe", Name = "Selection")]
         public n9.Selection_R<int> Selection;
-        [n1.ElementAttribute(TracingId = 231225U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "Nz3eqNGHARaNaMyhtycKcQ", Name = "Joined Text")]
+        [n1.ElementAttribute(TracingId = 50533U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "Nz3eqNGHARaNaMyhtycKcQ", Name = "Joined Text")]
         public string Joined_Text;
-        [n1.ElementAttribute(TracingId = 231227U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "MsL1FiyizH9LrLoQDWMcAJ", Name = "Selected Text")]
+        [n1.ElementAttribute(TracingId = 50538U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "MsL1FiyizH9LrLoQDWMcAJ", Name = "Selected Text")]
         public string Selected_Text;
-        [n1.ElementAttribute(TracingId = 231229U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "KxMzjQDQobvMvuCOfvlTaA", Name = "Length")]
+        [n1.ElementAttribute(TracingId = 50540U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "KxMzjQDQobvMvuCOfvlTaA", Name = "Length")]
         public int Length;
-        [n1.ElementAttribute(TracingId = 231231U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "LAlGtXjdVaGNWwg7IjelbS", Name = "Position")]
+        [n1.ElementAttribute(TracingId = 50542U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "LAlGtXjdVaGNWwg7IjelbS", Name = "Position")]
         public int Position;
-        [n1.ElementAttribute(TracingId = 229778U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "SLGCbPp18KpMEhjf3bf2Pm", Name = "__slot_SLGCbPp18KpMEhjf3bf2Pm")]
+        [n1.ElementAttribute(TracingId = 34553U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "SLGCbPp18KpMEhjf3bf2Pm", Name = "__slot_SLGCbPp18KpMEhjf3bf2Pm")]
         public static int __slot_SLGCbPp18KpMEhjf3bf2Pm = 0;
-        [n1.ElementAttribute(TracingId = 229608U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "BS0cFAnayPDLpET2UjmSYV", Name = "__slot_BS0cFAnayPDLpET2UjmSYV")]
+        [n1.ElementAttribute(TracingId = 34210U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "BS0cFAnayPDLpET2UjmSYV", Name = "__slot_BS0cFAnayPDLpET2UjmSYV")]
         public static int __slot_BS0cFAnayPDLpET2UjmSYV = 0;
         [n1.ElementAttribute(IsAutoGenerated = true)]
         public n5.Spread<string> __cp_PnBqqvlD2CXPzG4xIWC3D4;
-        [n1.ElementAttribute(TracingId = 231219U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "Se10orrR98LMXQTic4vUbf", Name = "GetSelectedText", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 50513U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "Se10orrR98LMXQTic4vUbf", Name = "GetSelectedText", IsManaged = true, IsAutoGenerated = true)]
         public n9.GetSelectedText_ED6gc1ZFYhcPshOq9VwaBa __p_Se10orrR98LMXQTic4vUbf;
-        [n1.ElementAttribute(TracingId = 230086U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "OZcrP6sx7ZVN6StphoSAyi", Name = "RemoveSelected", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 38156U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "OZcrP6sx7ZVN6StphoSAyi", Name = "RemoveSelected", IsManaged = true, IsAutoGenerated = true)]
         public n9.RemoveSelected_MAdKROpcMMCMUeZTTqHRN4 __p_OZcrP6sx7ZVN6StphoSAyi;
-        [n1.ElementAttribute(TracingId = 230925U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "P87ElqUS6j8PL8M5cyLZ0y", Name = "ToSelectedPositions", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 43565U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "P87ElqUS6j8PL8M5cyLZ0y", Name = "ToSelectedPositions", IsManaged = true, IsAutoGenerated = true)]
         public n9.ToSelectedPositions_JgRboguKCyYPJs9wQyayn6 __p_P87ElqUS6j8PL8M5cyLZ0y;
         static TextBuilder_C()
         {
@@ -983,7 +983,7 @@ namespace _VL_Typewriter_.Text.Advanced
         }
     }
 
-    [n1.ElementAttribute(TracingId = 231764U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "BqQrMv16JtaMvZEPs5NWoK", Name = "Controls_BqQrMv16JtaMvZEPs5NWoK")]
+    [n1.ElementAttribute(TracingId = 54020U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "BqQrMv16JtaMvZEPs5NWoK", Name = "Controls_BqQrMv16JtaMvZEPs5NWoK")]
     [n2.SerializableAttribute]
     public class Controls_BqQrMv16JtaMvZEPs5NWoK : n1.VLObject, n2.IDisposable
     {
@@ -1330,71 +1330,71 @@ namespace _VL_Typewriter_.Text.Advanced
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 231768U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "HAbwgc2qxYhLL1f3dwBWqn", Name = "__slot_HAbwgc2qxYhLL1f3dwBWqn")]
+        [n1.ElementAttribute(TracingId = 54043U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "HAbwgc2qxYhLL1f3dwBWqn", Name = "__slot_HAbwgc2qxYhLL1f3dwBWqn")]
         public static string __slot_HAbwgc2qxYhLL1f3dwBWqn = "Back";
-        [n1.ElementAttribute(TracingId = 231769U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "NsLh7RwNyHQMHqHc2u3Dad", Name = "__slot_NsLh7RwNyHQMHqHc2u3Dad")]
+        [n1.ElementAttribute(TracingId = 54058U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "NsLh7RwNyHQMHqHc2u3Dad", Name = "__slot_NsLh7RwNyHQMHqHc2u3Dad")]
         public static string __slot_NsLh7RwNyHQMHqHc2u3Dad = "Delete";
-        [n1.ElementAttribute(TracingId = 231835U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "JNWqlUYHPYtQA7yqNR7hk2", Name = "__slot_JNWqlUYHPYtQA7yqNR7hk2")]
+        [n1.ElementAttribute(TracingId = 54325U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "JNWqlUYHPYtQA7yqNR7hk2", Name = "__slot_JNWqlUYHPYtQA7yqNR7hk2")]
         public static string __slot_JNWqlUYHPYtQA7yqNR7hk2 = "Tab";
-        [n1.ElementAttribute(TracingId = 231844U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "NlEcTPHhC92Nm2t6TcxFif", Name = "__slot_NlEcTPHhC92Nm2t6TcxFif")]
+        [n1.ElementAttribute(TracingId = 54375U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "NlEcTPHhC92Nm2t6TcxFif", Name = "__slot_NlEcTPHhC92Nm2t6TcxFif")]
         public static string __slot_NlEcTPHhC92Nm2t6TcxFif = "Return";
-        [n1.ElementAttribute(TracingId = 231860U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "IM9PTvZAH2tO3ifdexONSe", Name = "__slot_IM9PTvZAH2tO3ifdexONSe")]
+        [n1.ElementAttribute(TracingId = 54439U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "IM9PTvZAH2tO3ifdexONSe", Name = "__slot_IM9PTvZAH2tO3ifdexONSe")]
         public static string __slot_IM9PTvZAH2tO3ifdexONSe = "Left";
-        [n1.ElementAttribute(TracingId = 231865U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "SgpTH541R18MS98Q2hSrl2", Name = "__slot_SgpTH541R18MS98Q2hSrl2")]
+        [n1.ElementAttribute(TracingId = 54456U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "SgpTH541R18MS98Q2hSrl2", Name = "__slot_SgpTH541R18MS98Q2hSrl2")]
         public static string __slot_SgpTH541R18MS98Q2hSrl2 = "Right";
-        [n1.ElementAttribute(TracingId = 231870U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "SbpwgK21iqbOyeHWgenI0o", Name = "__slot_SbpwgK21iqbOyeHWgenI0o")]
+        [n1.ElementAttribute(TracingId = 54471U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "SbpwgK21iqbOyeHWgenI0o", Name = "__slot_SbpwgK21iqbOyeHWgenI0o")]
         public static string __slot_SbpwgK21iqbOyeHWgenI0o = "Up";
-        [n1.ElementAttribute(TracingId = 231875U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "LWWKVaJLf4KOnS2LOatfAL", Name = "__slot_LWWKVaJLf4KOnS2LOatfAL")]
+        [n1.ElementAttribute(TracingId = 54491U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "LWWKVaJLf4KOnS2LOatfAL", Name = "__slot_LWWKVaJLf4KOnS2LOatfAL")]
         public static string __slot_LWWKVaJLf4KOnS2LOatfAL = "Down";
-        [n1.ElementAttribute(TracingId = 231902U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "MKiyZL8hNGFMNcHUDt6OQs", Name = "__slot_MKiyZL8hNGFMNcHUDt6OQs")]
+        [n1.ElementAttribute(TracingId = 54566U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "MKiyZL8hNGFMNcHUDt6OQs", Name = "__slot_MKiyZL8hNGFMNcHUDt6OQs")]
         public static string __slot_MKiyZL8hNGFMNcHUDt6OQs = "Escape";
-        [n1.ElementAttribute(TracingId = 231903U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "BfeI4CpgNPeQNeCW4cPR2o", Name = "__slot_BfeI4CpgNPeQNeCW4cPR2o")]
+        [n1.ElementAttribute(TracingId = 54570U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "BfeI4CpgNPeQNeCW4cPR2o", Name = "__slot_BfeI4CpgNPeQNeCW4cPR2o")]
         public static string __slot_BfeI4CpgNPeQNeCW4cPR2o = "Left";
-        [n1.ElementAttribute(TracingId = 231904U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "V5IGweUCSvwPNzsZGQaGIl", Name = "__slot_V5IGweUCSvwPNzsZGQaGIl")]
+        [n1.ElementAttribute(TracingId = 54575U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "V5IGweUCSvwPNzsZGQaGIl", Name = "__slot_V5IGweUCSvwPNzsZGQaGIl")]
         public static string __slot_V5IGweUCSvwPNzsZGQaGIl = "Right";
-        [n1.ElementAttribute(TracingId = 231927U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "HMfkM5gLKv2QM2Q4UIhth1", Name = "__slot_HMfkM5gLKv2QM2Q4UIhth1")]
+        [n1.ElementAttribute(TracingId = 54655U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "HMfkM5gLKv2QM2Q4UIhth1", Name = "__slot_HMfkM5gLKv2QM2Q4UIhth1")]
         public static string __slot_HMfkM5gLKv2QM2Q4UIhth1 = "A";
-        [n1.ElementAttribute(TracingId = 231947U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "Vy1BcPG5iWuOvYlhGoNObL", Name = "__slot_Vy1BcPG5iWuOvYlhGoNObL")]
+        [n1.ElementAttribute(TracingId = 54735U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "Vy1BcPG5iWuOvYlhGoNObL", Name = "__slot_Vy1BcPG5iWuOvYlhGoNObL")]
         public static string __slot_Vy1BcPG5iWuOvYlhGoNObL = "C";
-        [n1.ElementAttribute(TracingId = 231963U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "IANGgJXtWY6OeARYUYUxyS", Name = "__slot_IANGgJXtWY6OeARYUYUxyS")]
+        [n1.ElementAttribute(TracingId = 55308U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "IANGgJXtWY6OeARYUYUxyS", Name = "__slot_IANGgJXtWY6OeARYUYUxyS")]
         public static string __slot_IANGgJXtWY6OeARYUYUxyS = "V";
-        [n1.ElementAttribute(TracingId = 231972U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "M2VJz1QAguKL8rZAqiZZoS", Name = "__slot_M2VJz1QAguKL8rZAqiZZoS")]
+        [n1.ElementAttribute(TracingId = 55354U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "M2VJz1QAguKL8rZAqiZZoS", Name = "__slot_M2VJz1QAguKL8rZAqiZZoS")]
         public static string __slot_M2VJz1QAguKL8rZAqiZZoS = "Left";
-        [n1.ElementAttribute(TracingId = 231973U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "N80766Tu55aOVhBuwvDicT", Name = "__slot_N80766Tu55aOVhBuwvDicT")]
+        [n1.ElementAttribute(TracingId = 55361U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "N80766Tu55aOVhBuwvDicT", Name = "__slot_N80766Tu55aOVhBuwvDicT")]
         public static string __slot_N80766Tu55aOVhBuwvDicT = "Right";
-        [n1.ElementAttribute(TracingId = 231994U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "OMXjoaGKXfeMdBh2qJGGDv", Name = "__slot_OMXjoaGKXfeMdBh2qJGGDv")]
+        [n1.ElementAttribute(TracingId = 55449U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "OMXjoaGKXfeMdBh2qJGGDv", Name = "__slot_OMXjoaGKXfeMdBh2qJGGDv")]
         public static string __slot_OMXjoaGKXfeMdBh2qJGGDv = "Up";
-        [n1.ElementAttribute(TracingId = 231999U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "A0U1TnERPcqL484IEHzDTx", Name = "__slot_A0U1TnERPcqL484IEHzDTx")]
+        [n1.ElementAttribute(TracingId = 55473U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "A0U1TnERPcqL484IEHzDTx", Name = "__slot_A0U1TnERPcqL484IEHzDTx")]
         public static string __slot_A0U1TnERPcqL484IEHzDTx = "Down";
-        [n1.ElementAttribute(TracingId = 232011U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "D18k8VMqR2ZQPicleT1RQr", Name = "__slot_D18k8VMqR2ZQPicleT1RQr")]
+        [n1.ElementAttribute(TracingId = 55519U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "D18k8VMqR2ZQPicleT1RQr", Name = "__slot_D18k8VMqR2ZQPicleT1RQr")]
         public static string __slot_D18k8VMqR2ZQPicleT1RQr = "X";
-        [n1.ElementAttribute(TracingId = 232160U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "TsH9R4bYO7PQMOHTvaP8Ey", Name = "__slot_TsH9R4bYO7PQMOHTvaP8Ey")]
+        [n1.ElementAttribute(TracingId = 57888U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "TsH9R4bYO7PQMOHTvaP8Ey", Name = "__slot_TsH9R4bYO7PQMOHTvaP8Ey")]
         public string __slot_TsH9R4bYO7PQMOHTvaP8Ey;
-        [n1.ElementAttribute(TracingId = 232166U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "KNPiw4EZkJYL8NfBvJ901p", Name = "__slot_KNPiw4EZkJYL8NfBvJ901p")]
+        [n1.ElementAttribute(TracingId = 58363U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "KNPiw4EZkJYL8NfBvJ901p", Name = "__slot_KNPiw4EZkJYL8NfBvJ901p")]
         public static string __slot_KNPiw4EZkJYL8NfBvJ901p = "Home";
-        [n1.ElementAttribute(TracingId = 232171U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "TJIr0a7MnpqMu1qgkVt7Yk", Name = "__slot_TJIr0a7MnpqMu1qgkVt7Yk")]
+        [n1.ElementAttribute(TracingId = 58377U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "TJIr0a7MnpqMu1qgkVt7Yk", Name = "__slot_TJIr0a7MnpqMu1qgkVt7Yk")]
         public static string __slot_TJIr0a7MnpqMu1qgkVt7Yk = "End";
-        [n1.ElementAttribute(TracingId = 232176U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "J1U940oU6a7OJbIbn7hjfq", Name = "__slot_J1U940oU6a7OJbIbn7hjfq")]
+        [n1.ElementAttribute(TracingId = 58387U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "J1U940oU6a7OJbIbn7hjfq", Name = "__slot_J1U940oU6a7OJbIbn7hjfq")]
         public static string __slot_J1U940oU6a7OJbIbn7hjfq = "Home";
-        [n1.ElementAttribute(TracingId = 232181U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "B898R29esRbQMbcVeFJdTF", Name = "__slot_B898R29esRbQMbcVeFJdTF")]
+        [n1.ElementAttribute(TracingId = 58401U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "B898R29esRbQMbcVeFJdTF", Name = "__slot_B898R29esRbQMbcVeFJdTF")]
         public static string __slot_B898R29esRbQMbcVeFJdTF = "End";
-        [n1.ElementAttribute(TracingId = 232186U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "KoTCgnsIHSwNjDFNtA6LXA", Name = "__slot_KoTCgnsIHSwNjDFNtA6LXA")]
+        [n1.ElementAttribute(TracingId = 58408U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "KoTCgnsIHSwNjDFNtA6LXA", Name = "__slot_KoTCgnsIHSwNjDFNtA6LXA")]
         public static string __slot_KoTCgnsIHSwNjDFNtA6LXA = "PageUp";
-        [n1.ElementAttribute(TracingId = 232191U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "NdNR1iaFEFQNGj9Uihlgx8", Name = "__slot_NdNR1iaFEFQNGj9Uihlgx8")]
+        [n1.ElementAttribute(TracingId = 58417U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "NdNR1iaFEFQNGj9Uihlgx8", Name = "__slot_NdNR1iaFEFQNGj9Uihlgx8")]
         public static string __slot_NdNR1iaFEFQNGj9Uihlgx8 = "Next";
-        [n1.ElementAttribute(TracingId = 232196U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "DfLLk1YbptuQUtsB99qT3z", Name = "__slot_DfLLk1YbptuQUtsB99qT3z")]
+        [n1.ElementAttribute(TracingId = 58428U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "DfLLk1YbptuQUtsB99qT3z", Name = "__slot_DfLLk1YbptuQUtsB99qT3z")]
         public static string __slot_DfLLk1YbptuQUtsB99qT3z = "PageUp";
-        [n1.ElementAttribute(TracingId = 232201U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "O2NMS7Kh14lN4q6P8pWDIK", Name = "__slot_O2NMS7Kh14lN4q6P8pWDIK")]
+        [n1.ElementAttribute(TracingId = 58436U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "O2NMS7Kh14lN4q6P8pWDIK", Name = "__slot_O2NMS7Kh14lN4q6P8pWDIK")]
         public static string __slot_O2NMS7Kh14lN4q6P8pWDIK = "Next";
-        [n1.ElementAttribute(TracingId = 231771U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "NYkPhx9dXq1OF1enkrppIS", Name = "BackPressed")]
+        [n1.ElementAttribute(TracingId = 54071U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "NYkPhx9dXq1OF1enkrppIS", Name = "BackPressed")]
         public bool BackPressed;
-        [n1.ElementAttribute(TracingId = 231774U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "N4AeHlrIcVzNsl2buGh8F7", Name = "DeletePressed")]
+        [n1.ElementAttribute(TracingId = 54076U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "N4AeHlrIcVzNsl2buGh8F7", Name = "DeletePressed")]
         public bool DeletePressed;
-        [n1.ElementAttribute(TracingId = 232251U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "GGLmXeR4S0fOGPZxpZidlL", Name = "__slot_GGLmXeR4S0fOGPZxpZidlL")]
+        [n1.ElementAttribute(TracingId = 58529U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "GGLmXeR4S0fOGPZxpZidlL", Name = "__slot_GGLmXeR4S0fOGPZxpZidlL")]
         public static bool __slot_GGLmXeR4S0fOGPZxpZidlL = true;
-        [n1.ElementAttribute(TracingId = 232243U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "JMsohk5V9LCMf7ewUen4N2", Name = "__slot_JMsohk5V9LCMf7ewUen4N2")]
+        [n1.ElementAttribute(TracingId = 58514U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "JMsohk5V9LCMf7ewUen4N2", Name = "__slot_JMsohk5V9LCMf7ewUen4N2")]
         public static byte __slot_JMsohk5V9LCMf7ewUen4N2 = 0;
-        [n1.ElementAttribute(TracingId = 232313U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "EnPPXVwxGZPN5gk7BCOCM2", Name = "__slot_EnPPXVwxGZPN5gk7BCOCM2")]
+        [n1.ElementAttribute(TracingId = 58689U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "EnPPXVwxGZPN5gk7BCOCM2", Name = "__slot_EnPPXVwxGZPN5gk7BCOCM2")]
         public static n17.TextDataFormat __slot_EnPPXVwxGZPN5gk7BCOCM2 = n1.CompilationHelper.Deserialize<n17.TextDataFormat>("UnicodeText", false, "AjFNjMAblDQMnPebi4p4Dw", "EnPPXVwxGZPN5gk7BCOCM2");
         static Controls_BqQrMv16JtaMvZEPs5NWoK()
         {
@@ -1433,7 +1433,7 @@ namespace _VL_Typewriter_.Text.Advanced
         }
     }
 
-    [n1.ElementAttribute(TracingId = 232584U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "Cb2h9Zq5Hj9NUpyPY1xBds", Name = "ControlData_R")]
+    [n1.ElementAttribute(TracingId = 59166U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "Cb2h9Zq5Hj9NUpyPY1xBds", Name = "ControlData_R")]
     [n2.SerializableAttribute]
     public class ControlData_R : n1.VLObject, n2.IDisposable
     {
@@ -1691,49 +1691,49 @@ namespace _VL_Typewriter_.Text.Advanced
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 232590U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "N7ugjqKixi6NeBlVkySqzs", Name = "Erase Char Back")]
+        [n1.ElementAttribute(TracingId = 59177U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "N7ugjqKixi6NeBlVkySqzs", Name = "Erase Char Back")]
         public bool Erase_Char_Back;
-        [n1.ElementAttribute(TracingId = 232588U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "Vl1xRQ6BhOCL9y5OgWRT3x", Name = "Erase Char Delete")]
+        [n1.ElementAttribute(TracingId = 59173U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "Vl1xRQ6BhOCL9y5OgWRT3x", Name = "Erase Char Delete")]
         public bool Erase_Char_Delete;
-        [n1.ElementAttribute(TracingId = 232592U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "BHZ56gD2lJNPjJo8jZc8Lx", Name = "Erase Selection")]
+        [n1.ElementAttribute(TracingId = 59179U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "BHZ56gD2lJNPjJo8jZc8Lx", Name = "Erase Selection")]
         public bool Erase_Selection;
-        [n1.ElementAttribute(TracingId = 232594U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "TBPlkxvXfyQO7IEpzLJa0x", Name = "Insert Tab")]
+        [n1.ElementAttribute(TracingId = 59182U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "TBPlkxvXfyQO7IEpzLJa0x", Name = "Insert Tab")]
         public bool Insert_Tab;
-        [n1.ElementAttribute(TracingId = 232596U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "Eyso17QW0mWNFdF7o6Xrbz", Name = "Insert NewLine")]
+        [n1.ElementAttribute(TracingId = 59184U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "Eyso17QW0mWNFdF7o6Xrbz", Name = "Insert NewLine")]
         public bool Insert_NewLine;
-        [n1.ElementAttribute(TracingId = 232598U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "MKBAA7cHbsRPh8Eas8otl4", Name = "Left")]
+        [n1.ElementAttribute(TracingId = 59186U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "MKBAA7cHbsRPh8Eas8otl4", Name = "Left")]
         public bool Left;
-        [n1.ElementAttribute(TracingId = 232600U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "OW6hc2sB6H1LIUsDj19S9B", Name = "Right")]
+        [n1.ElementAttribute(TracingId = 59189U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "OW6hc2sB6H1LIUsDj19S9B", Name = "Right")]
         public bool Right;
-        [n1.ElementAttribute(TracingId = 232602U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "E51uslCLFMoO0xknWZpFyo", Name = "Up")]
+        [n1.ElementAttribute(TracingId = 59193U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "E51uslCLFMoO0xknWZpFyo", Name = "Up")]
         public bool Up;
-        [n1.ElementAttribute(TracingId = 232604U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "Eq9S7QJfAH5NZIzcz8mbMN", Name = "Down")]
+        [n1.ElementAttribute(TracingId = 59196U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "Eq9S7QJfAH5NZIzcz8mbMN", Name = "Down")]
         public bool Down;
-        [n1.ElementAttribute(TracingId = 232606U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "EpuUDPhGjlDPlguquS0W7S", Name = "Char to Insert")]
+        [n1.ElementAttribute(TracingId = 59198U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "EpuUDPhGjlDPlguquS0W7S", Name = "Char to Insert")]
         public string Char_to_Insert;
-        [n1.ElementAttribute(TracingId = 232608U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "LarPYJmKRjWNKYEYv2EGrX", Name = "Select All")]
+        [n1.ElementAttribute(TracingId = 59200U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "LarPYJmKRjWNKYEYv2EGrX", Name = "Select All")]
         public bool Select_All;
-        [n1.ElementAttribute(TracingId = 232610U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "Dj7sEco6X4qPYbqHecg8dY", Name = "Reset Selection")]
+        [n1.ElementAttribute(TracingId = 59203U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "Dj7sEco6X4qPYbqHecg8dY", Name = "Reset Selection")]
         public bool Reset_Selection;
-        [n1.ElementAttribute(TracingId = 232612U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "MdnBwl23YFpQHf0dTfuAfJ", Name = "Copy")]
+        [n1.ElementAttribute(TracingId = 59207U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "MdnBwl23YFpQHf0dTfuAfJ", Name = "Copy")]
         public bool Copy;
-        [n1.ElementAttribute(TracingId = 232614U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "V7PU9gZwwA1OYrQiw91xSG", Name = "Paste")]
+        [n1.ElementAttribute(TracingId = 59210U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "V7PU9gZwwA1OYrQiw91xSG", Name = "Paste")]
         public bool Paste;
-        [n1.ElementAttribute(TracingId = 232616U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "OXIpSljdhhhNqblCzdOpVJ", Name = "Move Left by Word")]
+        [n1.ElementAttribute(TracingId = 59214U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "OXIpSljdhhhNqblCzdOpVJ", Name = "Move Left by Word")]
         public bool Move_Left_by_Word;
-        [n1.ElementAttribute(TracingId = 232618U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "CfULueJMNwJLyQPLdKGcc6", Name = "Move Right by Word")]
+        [n1.ElementAttribute(TracingId = 59217U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "CfULueJMNwJLyQPLdKGcc6", Name = "Move Right by Word")]
         public bool Move_Right_by_Word;
-        [n1.ElementAttribute(TracingId = 232681U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "QNSSqYXR02DNd4TxBmxUfq", Name = "Selection Moved")]
+        [n1.ElementAttribute(TracingId = 59761U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "QNSSqYXR02DNd4TxBmxUfq", Name = "Selection Moved")]
         public bool Selection_Moved;
-        [n1.ElementAttribute(TracingId = 232684U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "RyXKEP3GQsHOTf1J574uXm", Name = "Home")]
+        [n1.ElementAttribute(TracingId = 59764U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "RyXKEP3GQsHOTf1J574uXm", Name = "Home")]
         public bool Home;
-        [n1.ElementAttribute(TracingId = 232688U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "IZ7VwZdQDfKQDPtB6OFqq9", Name = "End")]
+        [n1.ElementAttribute(TracingId = 59769U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "IZ7VwZdQDfKQDPtB6OFqq9", Name = "End")]
         public bool End;
-        [n1.ElementAttribute(TracingId = 232692U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "GwdjTZmWXpmQQgK8SuWdUN", Name = "PageUp")]
+        [n1.ElementAttribute(TracingId = 59775U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "GwdjTZmWXpmQQgK8SuWdUN", Name = "PageUp")]
         public bool PageUp;
-        [n1.ElementAttribute(TracingId = 232695U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "Kuta3UT16KyP7Pp4vQcmxc", Name = "PageDown")]
+        [n1.ElementAttribute(TracingId = 59779U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "Kuta3UT16KyP7Pp4vQcmxc", Name = "PageDown")]
         public bool PageDown;
-        [n1.ElementAttribute(TracingId = 232700U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "JaH9T8ijLBcPloR7v81vEJ", Name = "Text to Paste")]
+        [n1.ElementAttribute(TracingId = 59784U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "JaH9T8ijLBcPloR7v81vEJ", Name = "Text to Paste")]
         public string Text_to_Paste;
         public ControlData_R(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -1779,7 +1779,7 @@ namespace _VL_Typewriter_.Text.Advanced
         }
     }
 
-    [n1.ElementAttribute(TracingId = 232888U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "TeYZprWSsFsNNwnnc5FBn0", Name = "TypewriterInput_TeYZprWSsFsNNwnnc5FBn0")]
+    [n1.ElementAttribute(TracingId = 60709U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "TeYZprWSsFsNNwnnc5FBn0", Name = "TypewriterInput_TeYZprWSsFsNNwnnc5FBn0")]
     [n2.SerializableAttribute]
     public class TypewriterInput_TeYZprWSsFsNNwnnc5FBn0 : n1.VLObject, n2.IDisposable
     {
@@ -1816,7 +1816,7 @@ namespace _VL_Typewriter_.Text.Advanced
                     if (!iterator_14.MoveNext(out state_8))
                     {
                         iterator_14.Add(state_8 = new __SQ2BMvjbnf2Nzl0pMtfAkr(__GetContext__(), n1.VLObject.NewIdentity()));
-                        n1.NodeContext Node_Context_9 = __GetContext__().CreateSubContext("AjFNjMAblDQMnPebi4p4Dw", "UlTItgp6JAkOs5DPWW9PgC", 232908U);
+                        n1.NodeContext Node_Context_9 = __GetContext__().CreateSubContext("AjFNjMAblDQMnPebi4p4Dw", "UlTItgp6JAkOs5DPWW9PgC", 60768U);
                         var Output_10 = n3.Controls_BqQrMv16JtaMvZEPs5NWoK.Create(Node_Context: Node_Context_9);
                         state_8.__p_UlTItgp6JAkOs5DPWW9PgC = Output_10;
                     }
@@ -1890,7 +1890,7 @@ namespace _VL_Typewriter_.Text.Advanced
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 232894U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "HnAwHXKU1KoPoadYNaImxR", Name = "Sampler", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 60724U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "HnAwHXKU1KoPoadYNaImxR", Name = "Sampler", IsManaged = true, IsAutoGenerated = true)]
         public n24.Sampler<n19.KeyNotification> __p_HnAwHXKU1KoPoadYNaImxR;
         [n1.ElementAttribute(IsManaged = true, IsAutoGenerated = true)]
         public n26.ImmutableLifetimeManager __loop_MoRAg3sEErRNM0ueKBKgc4;
@@ -1938,7 +1938,7 @@ namespace _VL_Typewriter_.Text.Advanced
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 232908U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "UlTItgp6JAkOs5DPWW9PgC", Name = "Controls", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 60768U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "UlTItgp6JAkOs5DPWW9PgC", Name = "Controls", IsManaged = true, IsAutoGenerated = true)]
             public n3.Controls_BqQrMv16JtaMvZEPs5NWoK __p_UlTItgp6JAkOs5DPWW9PgC;
             public __SQ2BMvjbnf2Nzl0pMtfAkr(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -1973,7 +1973,7 @@ namespace _VL_Typewriter_.Text.Advanced
 
 namespace _VL_Typewriter_.Text.TextBuilder.Advanced
 {
-    [n1.ElementAttribute(TracingId = 229847U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "PU8PxHSX06dLYExBYFrAii", Name = "Selection_R")]
+    [n1.ElementAttribute(TracingId = 37293U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "PU8PxHSX06dLYExBYFrAii", Name = "Selection_R")]
     [n2.SerializableAttribute]
     public class Selection_R<T> : n1.VLObject, n2.IDisposable
     {
@@ -2084,7 +2084,7 @@ namespace _VL_Typewriter_.Text.TextBuilder.Advanced
         }
 
         public n9.Selection_R<T> IsEmpty<AdM>(out bool Output_Out)
-            where AdM : struct, n29.IAdaptiveOperatorEquals<T>, n28.IAdaptiveCreateDefault<T>, n29.IAdaptiveOperatorMinus<T>
+            where AdM : struct, n29.IAdaptiveOperatorEquals<T>, n29.IAdaptiveOperatorMinus<T>, n28.IAdaptiveCreateDefault<T>
         {
             var w_0 = default(AdM);
             int __auto_1 = this.Line_To;
@@ -2164,21 +2164,21 @@ namespace _VL_Typewriter_.Text.TextBuilder.Advanced
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 229901U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "Iw6DkHTU2BFPiOhPQcSNFj", Name = "__slot_Iw6DkHTU2BFPiOhPQcSNFj")]
+        [n1.ElementAttribute(TracingId = 37459U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "Iw6DkHTU2BFPiOhPQcSNFj", Name = "__slot_Iw6DkHTU2BFPiOhPQcSNFj")]
         public static bool __slot_Iw6DkHTU2BFPiOhPQcSNFj = false;
-        [n1.ElementAttribute(TracingId = 229902U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "BRGpAdeVCI0N5L4ggL2XlB", Name = "__slot_BRGpAdeVCI0N5L4ggL2XlB")]
+        [n1.ElementAttribute(TracingId = 37465U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "BRGpAdeVCI0N5L4ggL2XlB", Name = "__slot_BRGpAdeVCI0N5L4ggL2XlB")]
         public static bool __slot_BRGpAdeVCI0N5L4ggL2XlB = true;
-        [n1.ElementAttribute(TracingId = 229851U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "V4sZxn4fYGGL0KgwXxargD", Name = "Line From")]
+        [n1.ElementAttribute(TracingId = 37303U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "V4sZxn4fYGGL0KgwXxargD", Name = "Line From")]
         public int Line_From;
-        [n1.ElementAttribute(TracingId = 229853U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "U3LrKHG1URBNahB7zHAALg", Name = "Line To")]
+        [n1.ElementAttribute(TracingId = 37306U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "U3LrKHG1URBNahB7zHAALg", Name = "Line To")]
         public int Line_To;
-        [n1.ElementAttribute(TracingId = 229857U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "IgaOFJ9v45iNFlXa7mpXIj", Name = "Position To")]
+        [n1.ElementAttribute(TracingId = 37311U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "IgaOFJ9v45iNFlXa7mpXIj", Name = "Position To")]
         public T Position_To;
-        [n1.ElementAttribute(TracingId = 229855U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "Hbsz6fyiqixOH4QseyHzEH", Name = "Position From")]
+        [n1.ElementAttribute(TracingId = 37309U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "Hbsz6fyiqixOH4QseyHzEH", Name = "Position From")]
         public T Position_From;
-        [n1.ElementAttribute(TracingId = 229900U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "Ufy5wYOa788NEd0TGL47Fa", Name = "Started")]
+        [n1.ElementAttribute(TracingId = 37457U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "Ufy5wYOa788NEd0TGL47Fa", Name = "Started")]
         public bool Started;
-        [n1.ElementAttribute(TracingId = 229947U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "G5TGYKgRDpXMbNrEjXKkTE", Name = "Text")]
+        [n1.ElementAttribute(TracingId = 37687U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "G5TGYKgRDpXMbNrEjXKkTE", Name = "Text")]
         public string Text;
         static Selection_R()
         {
@@ -2212,7 +2212,7 @@ namespace _VL_Typewriter_.Text.TextBuilder.Advanced
         }
     }
 
-    [n1.ElementAttribute(TracingId = 230186U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "MAdKROpcMMCMUeZTTqHRN4", Name = "RemoveSelected_MAdKROpcMMCMUeZTTqHRN4")]
+    [n1.ElementAttribute(TracingId = 39978U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "MAdKROpcMMCMUeZTTqHRN4", Name = "RemoveSelected_MAdKROpcMMCMUeZTTqHRN4")]
     [n2.SerializableAttribute]
     public class RemoveSelected_MAdKROpcMMCMUeZTTqHRN4 : n1.VLObject, n2.IDisposable
     {
@@ -2318,7 +2318,7 @@ namespace _VL_Typewriter_.Text.TextBuilder.Advanced
         public n9.RemoveSelected_MAdKROpcMMCMUeZTTqHRN4 __Create__(n1.NodeContext Node_Context)
         {
             n18.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("AjFNjMAblDQMnPebi4p4Dw", "OA8QXsKkIJ9P0EMtbIY0Wy", 230193U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("AjFNjMAblDQMnPebi4p4Dw", "OA8QXsKkIJ9P0EMtbIY0Wy", 39991U);
             var Output_1 = n9.ToSelectedPositions_JgRboguKCyYPJs9wQyayn6.Create(Node_Context: Node_Context_0);
             n9.RemoveSelected_MAdKROpcMMCMUeZTTqHRN4 that_2 = this;
             this.__p_OA8QXsKkIJ9P0EMtbIY0Wy = Output_1;
@@ -2344,9 +2344,9 @@ namespace _VL_Typewriter_.Text.TextBuilder.Advanced
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 230288U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "EgN8ljSsSehPDXckwyCXR7", Name = "__slot_EgN8ljSsSehPDXckwyCXR7")]
+        [n1.ElementAttribute(TracingId = 40189U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "EgN8ljSsSehPDXckwyCXR7", Name = "__slot_EgN8ljSsSehPDXckwyCXR7")]
         public static int __slot_EgN8ljSsSehPDXckwyCXR7 = 1;
-        [n1.ElementAttribute(TracingId = 230193U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "OA8QXsKkIJ9P0EMtbIY0Wy", Name = "ToSelectedPositions", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 39991U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "OA8QXsKkIJ9P0EMtbIY0Wy", Name = "ToSelectedPositions", IsManaged = true, IsAutoGenerated = true)]
         public n9.ToSelectedPositions_JgRboguKCyYPJs9wQyayn6 __p_OA8QXsKkIJ9P0EMtbIY0Wy;
         static RemoveSelected_MAdKROpcMMCMUeZTTqHRN4()
         {
@@ -2381,7 +2381,7 @@ namespace _VL_Typewriter_.Text.TextBuilder.Advanced
         }
     }
 
-    [n1.ElementAttribute(TracingId = 230378U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "JgRboguKCyYPJs9wQyayn6", Name = "ToSelectedPositions_JgRboguKCyYPJs9wQyayn6")]
+    [n1.ElementAttribute(TracingId = 42722U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "JgRboguKCyYPJs9wQyayn6", Name = "ToSelectedPositions_JgRboguKCyYPJs9wQyayn6")]
     [n2.SerializableAttribute]
     public class ToSelectedPositions_JgRboguKCyYPJs9wQyayn6 : n1.VLObject, n2.IDisposable
     {
@@ -2424,7 +2424,7 @@ namespace _VL_Typewriter_.Text.TextBuilder.Advanced
                     var Output_25 = Position_To_4 - Position_From_3;
                     n14._Operations_.Switch_Boolean<int>(Condition_In: Result_24, Input_In: Output_25, Input_2_In: Position_To_4, Output_Out: out int Output_26);
                     n14._Operations_.Switch_Boolean<int>(Condition_In: Result_23, Input_In: Output_20, Input_2_In: Output_26, Output_Out: out int Output_27);
-                    n1.NodeContext Node_Context_28 = __GetContext__().CreateSubContext("AjFNjMAblDQMnPebi4p4Dw", "FvtyR7pJxebNYRuB7oLg3N", 230461U);
+                    n1.NodeContext Node_Context_28 = __GetContext__().CreateSubContext("AjFNjMAblDQMnPebi4p4Dw", "FvtyR7pJxebNYRuB7oLg3N", 42907U);
                     var Output_29 = n16.SelectedPosition_R.Create(Node_Context: Node_Context_28, Line_In: splicer_10, Position_From_In: Output_22, Position_Count_In: Output_27);
                     builder_30.Add(Output_29);
                     i_11++;
@@ -2452,7 +2452,7 @@ namespace _VL_Typewriter_.Text.TextBuilder.Advanced
         public n9.ToSelectedPositions_JgRboguKCyYPJs9wQyayn6 __Create__(n1.NodeContext Node_Context)
         {
             n18.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("AjFNjMAblDQMnPebi4p4Dw", "Qg7jJ90qAVlOkoqTGcPFWm", 230502U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("AjFNjMAblDQMnPebi4p4Dw", "Qg7jJ90qAVlOkoqTGcPFWm", 43001U);
             var Output_1 = n13.I_Dedn0GP3agoLvHtKBtr1rt.Create(Node_Context: Node_Context_0);
             n9.ToSelectedPositions_JgRboguKCyYPJs9wQyayn6 that_2 = this;
             this.__cp_DwrEaiyXzDdNMpYJulMpfS = n13._Operations_.CreateDefault<n16.SelectedPosition_R>();
@@ -2480,7 +2480,7 @@ namespace _VL_Typewriter_.Text.TextBuilder.Advanced
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 230502U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "Qg7jJ90qAVlOkoqTGcPFWm", Name = "I", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 43001U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "Qg7jJ90qAVlOkoqTGcPFWm", Name = "I", IsManaged = true, IsAutoGenerated = true)]
         public n13.I_Dedn0GP3agoLvHtKBtr1rt __p_Qg7jJ90qAVlOkoqTGcPFWm;
         [n1.ElementAttribute(IsAutoGenerated = true)]
         public n5.Spread<n16.SelectedPosition_R> __cp_DwrEaiyXzDdNMpYJulMpfS;
@@ -2515,7 +2515,7 @@ namespace _VL_Typewriter_.Text.TextBuilder.Advanced
         }
     }
 
-    [n1.ElementAttribute(TracingId = 231135U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "ED6gc1ZFYhcPshOq9VwaBa", Name = "GetSelectedText_ED6gc1ZFYhcPshOq9VwaBa")]
+    [n1.ElementAttribute(TracingId = 50288U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "ED6gc1ZFYhcPshOq9VwaBa", Name = "GetSelectedText_ED6gc1ZFYhcPshOq9VwaBa")]
     [n2.SerializableAttribute]
     public class GetSelectedText_ED6gc1ZFYhcPshOq9VwaBa : n1.VLObject, n2.IDisposable
     {
@@ -2545,7 +2545,7 @@ namespace _VL_Typewriter_.Text.TextBuilder.Advanced
                 {
                     state_4 = new __OIgfAp1HMGoN9poqA4sYp1(__GetContext__(), n1.VLObject.NewIdentity())
                     {__cp_PvDj1SEYDZzNmNW2aqT6WM = n13._Operations_.CreateDefault<string>()};
-                    n1.NodeContext Node_Context_5 = __GetContext__().CreateSubContext("AjFNjMAblDQMnPebi4p4Dw", "NrIIHrpisf3OSxz4gc8ZYN", 231148U);
+                    n1.NodeContext Node_Context_5 = __GetContext__().CreateSubContext("AjFNjMAblDQMnPebi4p4Dw", "NrIIHrpisf3OSxz4gc8ZYN", 50308U);
                     var Output_6 = n9.ToSelectedPositions_JgRboguKCyYPJs9wQyayn6.Create(Node_Context: Node_Context_5);
                     state_4.__p_NrIIHrpisf3OSxz4gc8ZYN = Output_6;
                 }
@@ -2671,7 +2671,7 @@ namespace _VL_Typewriter_.Text.TextBuilder.Advanced
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 231148U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "NrIIHrpisf3OSxz4gc8ZYN", Name = "ToSelectedPositions", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 50308U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "NrIIHrpisf3OSxz4gc8ZYN", Name = "ToSelectedPositions", IsManaged = true, IsAutoGenerated = true)]
             public n9.ToSelectedPositions_JgRboguKCyYPJs9wQyayn6 __p_NrIIHrpisf3OSxz4gc8ZYN;
             [n1.ElementAttribute(IsAutoGenerated = true)]
             public n5.Spread<string> __cp_PvDj1SEYDZzNmNW2aqT6WM;
@@ -2710,7 +2710,7 @@ namespace _VL_Typewriter_.Text.TextBuilder.Advanced
 
 namespace _VL_Typewriter_.Text.TextBuilder.ToSelectedPositions.Advanced
 {
-    [n1.ElementAttribute(TracingId = 230381U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "P7BNoiYEsQZMW2RZ7BG0uc", Name = "SelectedPosition_R")]
+    [n1.ElementAttribute(TracingId = 42728U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "P7BNoiYEsQZMW2RZ7BG0uc", Name = "SelectedPosition_R")]
     [n2.SerializableAttribute]
     public class SelectedPosition_R : n1.VLObject, n2.IDisposable
     {
@@ -2780,11 +2780,11 @@ namespace _VL_Typewriter_.Text.TextBuilder.ToSelectedPositions.Advanced
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 230385U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "HUp7DjpeV3fMjAxY8dXLVe", Name = "Line")]
+        [n1.ElementAttribute(TracingId = 42734U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "HUp7DjpeV3fMjAxY8dXLVe", Name = "Line")]
         public int Line;
-        [n1.ElementAttribute(TracingId = 230387U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "SA54sU0dh9tPpI0VMuL43Q", Name = "Position From")]
+        [n1.ElementAttribute(TracingId = 42738U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "SA54sU0dh9tPpI0VMuL43Q", Name = "Position From")]
         public int Position_From;
-        [n1.ElementAttribute(TracingId = 230389U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "MPQQhyTNL7KLGVtXSay6LX", Name = "Position Count")]
+        [n1.ElementAttribute(TracingId = 42741U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "MPQQhyTNL7KLGVtXSay6LX", Name = "Position Count")]
         public int Position_Count;
         public SelectedPosition_R(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -2814,7 +2814,7 @@ namespace _VL_Typewriter_.Text.TextBuilder.ToSelectedPositions.Advanced
 
 namespace _VL_Typewriter_.Text.Controls.Advanced
 {
-    [n1.ElementAttribute(TracingId = 228422U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 23747U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", Name = "_Operations_")]
     public static partial class _Operations_
     {
         public static void TransformText(string Input_In, n2.Func<char, char> Delegate_In, out string Result_Out)
@@ -2853,7 +2853,7 @@ namespace _VL_Typewriter_.Text.Controls.Advanced
             return;
         }
 
-        [n1.ElementAttribute(TracingId = 232278U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "IOWXWuIIRraNMsU5hpwxty", Name = "__slot_IOWXWuIIRraNMsU5hpwxty")]
+        [n1.ElementAttribute(TracingId = 58622U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "IOWXWuIIRraNMsU5hpwxty", Name = "__slot_IOWXWuIIRraNMsU5hpwxty")]
         public static byte __slot_IOWXWuIIRraNMsU5hpwxty = 0;
         static _Operations_()
         {
@@ -2863,7 +2863,7 @@ namespace _VL_Typewriter_.Text.Controls.Advanced
 
 namespace _VL_Typewriter_.Text
 {
-    [n1.ElementAttribute(TracingId = 232940U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "NUPCosTPNomM4zQ9iUdmPs", Name = "TypeWriter_NUPCosTPNomM4zQ9iUdmPs")]
+    [n1.ElementAttribute(TracingId = 60863U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "NUPCosTPNomM4zQ9iUdmPs", Name = "TypeWriter_NUPCosTPNomM4zQ9iUdmPs")]
     [n2.SerializableAttribute]
     public class TypeWriter_NUPCosTPNomM4zQ9iUdmPs : n1.VLObject, n2.IDisposable
     {
@@ -2914,11 +2914,11 @@ namespace _VL_Typewriter_.Text
         public n32.TypeWriter_NUPCosTPNomM4zQ9iUdmPs __Create__(n1.NodeContext Node_Context)
         {
             n18.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("AjFNjMAblDQMnPebi4p4Dw", "Tlwc0jHyP8DMXDOdbMM2km", 232950U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("AjFNjMAblDQMnPebi4p4Dw", "Tlwc0jHyP8DMXDOdbMM2km", 60895U);
             var Output_1 = n33.TypewriterProcess_GYAqFQ9hd9EOTuTLaXCEBZ.Create(Node_Context: Node_Context_0);
-            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("AjFNjMAblDQMnPebi4p4Dw", "HoFsRRlNRcwLJ3t1Ypwm5w", 232959U);
+            n1.NodeContext Node_Context_2 = Node_Context.CreateSubContext("AjFNjMAblDQMnPebi4p4Dw", "HoFsRRlNRcwLJ3t1Ypwm5w", 60924U);
             var Output_3 = n3.TypewriterInput_TeYZprWSsFsNNwnnc5FBn0.Create(Node_Context: Node_Context_2);
-            n1.NodeContext Node_Context_4 = Node_Context.CreateSubContext("AjFNjMAblDQMnPebi4p4Dw", "AkDnxh4Si2gMcygFXpDo0D", 232993U);
+            n1.NodeContext Node_Context_4 = Node_Context.CreateSubContext("AjFNjMAblDQMnPebi4p4Dw", "AkDnxh4Si2gMcygFXpDo0D", 60980U);
             var Output_5 = n34.OnOpen_FuW9Q3o4A1QLNwSJwTBGFz.Create(Node_Context: Node_Context_4);
             n32.TypeWriter_NUPCosTPNomM4zQ9iUdmPs that_6 = this;
             this.__p_Tlwc0jHyP8DMXDOdbMM2km = Output_1;
@@ -2950,11 +2950,11 @@ namespace _VL_Typewriter_.Text
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 232959U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "HoFsRRlNRcwLJ3t1Ypwm5w", Name = "TypewriterInput", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 60924U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "HoFsRRlNRcwLJ3t1Ypwm5w", Name = "TypewriterInput", IsManaged = true, IsAutoGenerated = true)]
         public n3.TypewriterInput_TeYZprWSsFsNNwnnc5FBn0 __p_HoFsRRlNRcwLJ3t1Ypwm5w;
-        [n1.ElementAttribute(TracingId = 232993U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "AkDnxh4Si2gMcygFXpDo0D", Name = "OnOpen", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 60980U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "AkDnxh4Si2gMcygFXpDo0D", Name = "OnOpen", IsManaged = true, IsAutoGenerated = true)]
         public n34.OnOpen_FuW9Q3o4A1QLNwSJwTBGFz __p_AkDnxh4Si2gMcygFXpDo0D;
-        [n1.ElementAttribute(TracingId = 232950U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "Tlwc0jHyP8DMXDOdbMM2km", Name = "TypewriterProcess", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 60895U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "Tlwc0jHyP8DMXDOdbMM2km", Name = "TypewriterProcess", IsManaged = true, IsAutoGenerated = true)]
         public n33.TypewriterProcess_GYAqFQ9hd9EOTuTLaXCEBZ __p_Tlwc0jHyP8DMXDOdbMM2km;
         public TypeWriter_NUPCosTPNomM4zQ9iUdmPs(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -2989,7 +2989,7 @@ namespace _VL_Typewriter_.Text
         }
     }
 
-    [n1.ElementAttribute(TracingId = 234566U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "C5NWx13lVlRMSdwa07OS4Q", Name = "VL_TypewriterApplication_C5NWx13lVlRMSdwa07OS4Q")]
+    [n1.ElementAttribute(TracingId = 65544U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "C5NWx13lVlRMSdwa07OS4Q", Name = "VL_TypewriterApplication_C5NWx13lVlRMSdwa07OS4Q")]
     [n2.SerializableAttribute]
     public class VL_TypewriterApplication_C5NWx13lVlRMSdwa07OS4Q : n1.VLObject, n2.IDisposable
     {
@@ -3056,7 +3056,7 @@ namespace _VL_Typewriter_.Text
 
 namespace _VL_Typewriter_.Text.Internal
 {
-    [n1.ElementAttribute(TracingId = 233107U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "GYAqFQ9hd9EOTuTLaXCEBZ", Name = "TypewriterProcess_GYAqFQ9hd9EOTuTLaXCEBZ")]
+    [n1.ElementAttribute(TracingId = 62478U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "GYAqFQ9hd9EOTuTLaXCEBZ", Name = "TypewriterProcess_GYAqFQ9hd9EOTuTLaXCEBZ")]
     [n2.SerializableAttribute]
     public class TypewriterProcess_GYAqFQ9hd9EOTuTLaXCEBZ : n1.VLObject, n2.IDisposable
     {
@@ -3081,10 +3081,10 @@ namespace _VL_Typewriter_.Text.Internal
             n8.IEnumerable<n3.ControlData_R> __auto_2;
             if (Reset_In)
             {
-                n1.NodeContext Node_Context_4 = __GetContext__().CreateSubContext("AjFNjMAblDQMnPebi4p4Dw", "KmTGz3QxVfePmFQ8mI7SSP", 234062U);
+                n1.NodeContext Node_Context_4 = __GetContext__().CreateSubContext("AjFNjMAblDQMnPebi4p4Dw", "KmTGz3QxVfePmFQ8mI7SSP", 63559U);
                 var Output_5 = n3.TextBuilder_C.Create(Node_Context: Node_Context_4, Initial_Text_In: Initial_Text_In);
                 __auto_1 = Output_5;
-                n1.NodeContext Node_Context_6 = __GetContext__().CreateSubContext("AjFNjMAblDQMnPebi4p4Dw", "UlL6lsfj1YOQQEQxywiGaW", 234074U);
+                n1.NodeContext Node_Context_6 = __GetContext__().CreateSubContext("AjFNjMAblDQMnPebi4p4Dw", "UlL6lsfj1YOQQEQxywiGaW", 63572U);
                 var Output_7 = n3.ControlData_R.Create(Node_Context: Node_Context_6);
                 n12._Operations_.FromValue<n3.ControlData_R>(Input_In: Output_7, Result_Out: out n8.IEnumerable<n3.ControlData_R> Result_8);
                 __auto_2 = Result_8;
@@ -3110,7 +3110,7 @@ namespace _VL_Typewriter_.Text.Internal
                     if (!iterator_89.MoveNext(out state_17))
                     {
                         iterator_89.Add(state_17 = new __OstY7TiCG4rO6QgNjFdLKv(__GetContext__(), n1.VLObject.NewIdentity()));
-                        n1.NodeContext Node_Context_18 = __GetContext__().CreateSubContext("AjFNjMAblDQMnPebi4p4Dw", "R8sEGlwxQC0OhfT6muSImf", 233224U);
+                        n1.NodeContext Node_Context_18 = __GetContext__().CreateSubContext("AjFNjMAblDQMnPebi4p4Dw", "R8sEGlwxQC0OhfT6muSImf", 62673U);
                         var Output_19 = n33.SelectionCheck_SLztM1n9wIpM9Rs29VzPkd.Create(Node_Context: Node_Context_18);
                         state_17.__p_R8sEGlwxQC0OhfT6muSImf = Output_19;
                     }
@@ -3314,9 +3314,9 @@ namespace _VL_Typewriter_.Text.Internal
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 234094U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "ESI6LKEeaQ1Qai4nmFU4Td", Name = "State")]
+        [n1.ElementAttribute(TracingId = 63622U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "ESI6LKEeaQ1Qai4nmFU4Td", Name = "State")]
         public n3.TextBuilder_C State;
-        [n1.ElementAttribute(TracingId = 233493U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "Dv3oUOcJXZsP2GZGSE1pai", Name = "__slot_Dv3oUOcJXZsP2GZGSE1pai")]
+        [n1.ElementAttribute(TracingId = 63529U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "Dv3oUOcJXZsP2GZGSE1pai", Name = "__slot_Dv3oUOcJXZsP2GZGSE1pai")]
         public static bool __slot_Dv3oUOcJXZsP2GZGSE1pai = true;
         [n1.ElementAttribute(IsManaged = true, IsAutoGenerated = true)]
         public n26.ImmutableLifetimeManager __loop_N9E16rlzrRlP7mrB195Kvc;
@@ -3364,9 +3364,9 @@ namespace _VL_Typewriter_.Text.Internal
                 return;
             }
 
-            [n1.ElementAttribute(TracingId = 233224U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "R8sEGlwxQC0OhfT6muSImf", Name = "SelectionCheck", IsManaged = true, IsAutoGenerated = true)]
+            [n1.ElementAttribute(TracingId = 62673U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "R8sEGlwxQC0OhfT6muSImf", Name = "SelectionCheck", IsManaged = true, IsAutoGenerated = true)]
             public n33.SelectionCheck_SLztM1n9wIpM9Rs29VzPkd __p_R8sEGlwxQC0OhfT6muSImf;
-            [n1.ElementAttribute(TracingId = 233297U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "NnvmCKcmTZeP6chNOPxpsV", Name = "__slot_NnvmCKcmTZeP6chNOPxpsV")]
+            [n1.ElementAttribute(TracingId = 62781U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "NnvmCKcmTZeP6chNOPxpsV", Name = "__slot_NnvmCKcmTZeP6chNOPxpsV")]
             public bool __slot_NnvmCKcmTZeP6chNOPxpsV;
             public __OstY7TiCG4rO6QgNjFdLKv(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
             {
@@ -3400,7 +3400,7 @@ namespace _VL_Typewriter_.Text.Internal
         }
     }
 
-    [n1.ElementAttribute(TracingId = 234296U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "SLztM1n9wIpM9Rs29VzPkd", Name = "SelectionCheck_SLztM1n9wIpM9Rs29VzPkd")]
+    [n1.ElementAttribute(TracingId = 64631U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "SLztM1n9wIpM9Rs29VzPkd", Name = "SelectionCheck_SLztM1n9wIpM9Rs29VzPkd")]
     [n2.SerializableAttribute]
     public class SelectionCheck_SLztM1n9wIpM9Rs29VzPkd : n1.VLObject, n2.IDisposable
     {
@@ -3452,7 +3452,7 @@ namespace _VL_Typewriter_.Text.Internal
         public n33.SelectionCheck_SLztM1n9wIpM9Rs29VzPkd __Create__(n1.NodeContext Node_Context)
         {
             n18.RuntimeHelpers.EnsureSufficientExecutionStack();
-            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("AjFNjMAblDQMnPebi4p4Dw", "M2GqZFNgSW9PYCXLn8Vfjc", 234349U);
+            n1.NodeContext Node_Context_0 = Node_Context.CreateSubContext("AjFNjMAblDQMnPebi4p4Dw", "M2GqZFNgSW9PYCXLn8Vfjc", 64734U);
             var Output_1 = n34.TogEdge_GJoUlOOEtqiM4g67HVecyr.Create(Node_Context: Node_Context_0);
             n33.SelectionCheck_SLztM1n9wIpM9Rs29VzPkd that_2 = this;
             this.__p_M2GqZFNgSW9PYCXLn8Vfjc = Output_1;
@@ -3478,7 +3478,7 @@ namespace _VL_Typewriter_.Text.Internal
             Dispose();
         }
 
-        [n1.ElementAttribute(TracingId = 234349U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "M2GqZFNgSW9PYCXLn8Vfjc", Name = "TogEdge", IsManaged = true, IsAutoGenerated = true)]
+        [n1.ElementAttribute(TracingId = 64734U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "M2GqZFNgSW9PYCXLn8Vfjc", Name = "TogEdge", IsManaged = true, IsAutoGenerated = true)]
         public n34.TogEdge_GJoUlOOEtqiM4g67HVecyr __p_M2GqZFNgSW9PYCXLn8Vfjc;
         public SelectionCheck_SLztM1n9wIpM9Rs29VzPkd(n1.NodeContext __context__, uint __identity__): base(__context__, __identity__)
         {
@@ -3509,7 +3509,7 @@ namespace _VL_Typewriter_.Text.Internal
         }
     }
 
-    [n1.ElementAttribute(TracingId = 234477U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "KBntfbkJR2aPOdltQG8FmW", Name = "SelectionChange_KBntfbkJR2aPOdltQG8FmW")]
+    [n1.ElementAttribute(TracingId = 65026U, DocumentId = "AjFNjMAblDQMnPebi4p4Dw", PersistentId = "KBntfbkJR2aPOdltQG8FmW", Name = "SelectionChange_KBntfbkJR2aPOdltQG8FmW")]
     [n2.SerializableAttribute]
     public class SelectionChange_KBntfbkJR2aPOdltQG8FmW : n1.VLObject, n2.IDisposable
     {
@@ -3584,7 +3584,7 @@ namespace _VL_Typewriter_.Text.Internal
 
 namespace _VL_Typewriter_
 {
-    public struct __AdaptiveImplementations__AjFNjMAblDQMnPebi4p4Dw : n29.IAdaptiveOperatorLess<int>, n28.IAdaptiveCreateDefault<int>, n29.IAdaptiveOperatorGreater<int>, n29.IAdaptiveMax<int>, n29.IAdaptiveMin<int>, n29.IAdaptiveOperatorEquals<int>, n29.IAdaptiveOperatorMinus<int>, n28.IAdaptiveCreateDefault<char>
+    public struct __AdaptiveImplementations__AjFNjMAblDQMnPebi4p4Dw : n29.IAdaptiveOperatorLess<int>, n28.IAdaptiveCreateDefault<int>, n29.IAdaptiveOperatorGreater<int>, n29.IAdaptiveMin<int>, n29.IAdaptiveMax<int>, n29.IAdaptiveOperatorEquals<int>, n29.IAdaptiveOperatorMinus<int>, n28.IAdaptiveCreateDefault<char>
     {
         public void OperatorLess(int Input_In, int Input_2_In, out bool Result_Out)
         {
@@ -3607,16 +3607,16 @@ namespace _VL_Typewriter_
             return;
         }
 
-        public void Max(int Input_In, int Input_2_In, out int Output_Out)
+        public void Min(int Input_In, int Input_2_In, out int Output_Out)
         {
-            n11._Operations_.Max<int, n10.__AdaptiveImplementations__AjFNjMAblDQMnPebi4p4Dw>(Input_In: Input_In, Input_2_In: Input_2_In, Output_Out: out int Output_0);
+            n11._Operations_.Min<int, n10.__AdaptiveImplementations__AjFNjMAblDQMnPebi4p4Dw>(Input_In: Input_In, Input_2_In: Input_2_In, Output_Out: out int Output_0);
             Output_Out = Output_0;
             return;
         }
 
-        public void Min(int Input_In, int Input_2_In, out int Output_Out)
+        public void Max(int Input_In, int Input_2_In, out int Output_Out)
         {
-            n11._Operations_.Min<int, n10.__AdaptiveImplementations__AjFNjMAblDQMnPebi4p4Dw>(Input_In: Input_In, Input_2_In: Input_2_In, Output_Out: out int Output_0);
+            n11._Operations_.Max<int, n10.__AdaptiveImplementations__AjFNjMAblDQMnPebi4p4Dw>(Input_In: Input_In, Input_2_In: Input_2_In, Output_Out: out int Output_0);
             Output_Out = Output_0;
             return;
         }

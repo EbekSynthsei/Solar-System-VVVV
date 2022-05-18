@@ -1,374 +1,374 @@
-﻿extern alias e31;
-extern alias e27;
+﻿extern alias e32;
+extern alias e6;
+extern alias e22;
+extern alias e24;
+extern alias e21;
+extern alias e31;
 extern alias e26;
 extern alias e25;
-extern alias e21;
+extern alias e2;
+extern alias e23;
+extern alias e36;
 extern alias e70;
-extern alias e40;
-extern alias e3;
-extern alias e28;
 extern alias e29;
-extern alias e24;
-extern alias e5;
-extern alias e20;
 
-using n77 = e40::VL.Stride.Scripts;
-using n65 = e3::Stride.Core.Diagnostics;
 using n104 = _VL_Stride_Engine_.Stride.Input.Advanced.Experimental;
-using n22 = _VL_Stride_Rendering_.Stride.Rendering;
+using n41 = _VL_Stride_Rendering_.Stride.Rendering;
+using n52 = e26::Stride.Graphics;
 using n103 = _VL_Stride_Engine_.Stride.Input.Experimental;
 using n89 = _VL_Stride_Graphics_.Stride.Utils.Advanced;
-using n125 = _VL_Stride_Rendering_;
+using n126 = _VL_Stride_Rendering_;
 using n117 = _VL_Stride_Engine_.Stride.Textures.TextureWindow;
-using n49 = _VL_Stride_Rendering_ShaderFX_.Stride;
-using n78 = e40::VL.Stride.Rendering.Materials;
-using n70 = e29::Stride.VirtualReality;
-using n61 = e20::Stride.Rendering;
-using n122 = _VL_Stride_Rendering_Temp_;
-using n48 = _VL_Stride_Rendering_ShaderFX_.Stride.Materials.Inputs;
+using n26 = _VL_Stride_Rendering_ShaderFX_.Stride;
+using n70 = e32::Stride.VirtualReality;
+using n78 = e31::VL.Stride.Rendering.Materials;
+using n63 = e29::Stride.Rendering.Compositing;
+using n75 = e31::VL.Stride.Rendering.Compositing;
+using n123 = _VL_Stride_Rendering_Temp_;
+using n25 = _VL_Stride_Rendering_ShaderFX_.Stride.Materials.Inputs;
 using n87 = _VL_Stride_Graphics_.Video.ImagePlayer_Stride;
-using n45 = _VL_Stride_Rendering_ShaderFX_.Stride.Materials.Advanced;
+using n22 = _VL_Stride_Rendering_ShaderFX_.Stride.Materials.Advanced;
 using n82 = _VL_Stride_Graphics_.Stride.Buffers.Advanced;
 using n92 = _VL_Stride_Games_.Stride.Assets.Advanced;
-using n66 = e21::Stride.Core.Serialization.Contents;
-using n34 = _VL_Stride_Rendering_ShaderFX_.Stride.Rendering.ShaderFX.Variables.TransformationKeys.Experimental;
+using n11 = _VL_Stride_Rendering_ShaderFX_.Stride.Rendering.ShaderFX.Variables.TransformationKeys.Experimental;
 using n96 = _VL_Stride_Input_.Stride;
-using n13 = _VL_Stride_Rendering_TextureFX_.Stride.Textures;
-using n74 = e26::Stride.Rendering.Materials;
+using n33 = _VL_Stride_Rendering_TextureFX_.Stride.Textures;
+using n57 = e29::Stride.Rendering.Images;
 using n116 = _VL_Stride_Engine_.Stride.Textures;
-using n25 = _VL_Stride_Rendering_.Stride.Rendering.Advanced;
-using n18 = _VL_Stride_Rendering_.Stride.Models.Meshes;
+using n44 = _VL_Stride_Rendering_.Stride.Rendering.Advanced;
+using n37 = _VL_Stride_Rendering_.Stride.Models.Meshes;
 using n118 = _VL_Stride_Engine_.Stride.Physics.Experimental;
 using n121 = _VL_Stride_Runtime_.Stride;
 using n94 = _VL_Stride_Input_.Stride.Input.Experimental;
-using n16 = _VL_Stride_Rendering_.Stride.Utils;
-using n56 = e40::VL.Stride.Graphics;
-using n57 = e26::Stride.Rendering.Images;
+using n35 = _VL_Stride_Rendering_.Stride.Utils;
 using n91 = _VL_Stride_Games_.Stride.Utils;
 using n100 = _VL_Stride_Engine_.Stride.Cameras.OrbitController.Internal;
-using n23 = e40::VL.Stride.Rendering;
-using n27 = _VL_Stride_Rendering_.Stride.Textures.Advanced;
-using n50 = e27::Stride.Graphics;
-using n14 = _VL_Stride_Rendering_Instancer_.Stride.Rendering;
+using n46 = _VL_Stride_Rendering_.Stride.Textures.Advanced;
+using n18 = e31::VL.Stride.Shaders.ShaderFX;
+using n3 = _VL_Stride_Rendering_Instancer_.Stride.Rendering;
 using n135 = _VL_CoreLib_;
-using n44 = _VL_Stride_Rendering_ShaderFX_.Stride.Rendering;
+using n21 = _VL_Stride_Rendering_ShaderFX_.Stride.Rendering;
 using n108 = _VL_Stride_Engine_.Stride.Models.Experimental;
-using n123 = _VL_Stride_Rendering_TextureFX_;
+using n125 = _VL_Stride_Rendering_TextureFX_;
 using n68 = _VL_Stride_Runtime_TypeForwards_.Stride.API.Engine.Scene.Advanced;
-using n71 = e31::Stride.Input;
-using n1 = e5::VL.Core.CompilerServices;
-using n46 = _VL_Stride_Rendering_ShaderFX_.Stride.Materials;
+using n23 = _VL_Stride_Rendering_ShaderFX_.Stride.Materials;
 using n60 = _VL_Stride_Runtime_TypeForwards_.Stride.API.Rendering.Model.Advanced;
-using n124 = _VL_Stride_Rendering_Instancer_;
-using n39 = _VL_Stride_Rendering_ShaderFX_.Stride.Rendering.ShaderFX.ComputeUtils.Experimental;
+using n56 = e31::VL.Stride.Graphics;
+using n72 = e21::Stride.Shaders;
+using n122 = _VL_Stride_Rendering_Instancer_;
+using n16 = _VL_Stride_Rendering_ShaderFX_.Stride.Rendering.ShaderFX.ComputeUtils.Experimental;
 using n140 = e70::VL.App.WindowsForms;
-using n38 = _VL_Stride_Rendering_ShaderFX_.Stride.Rendering.ShaderFX.Texture.Experimental;
-using n10 = _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils.Advanced.Experimental;
+using n15 = _VL_Stride_Rendering_ShaderFX_.Stride.Rendering.ShaderFX.Texture.Experimental;
+using n30 = _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils.Advanced.Experimental;
 using n120 = _VL_Stride_Engine_.Stride.VirtualReality;
 using n79 = _VL_Stride_Runtime_TypeForwards_.Stride;
-using n15 = _VL_Stride_Rendering_.Stride.Utils.Advanced;
-using n64 = e28::Stride.Games;
+using n34 = _VL_Stride_Rendering_.Stride.Utils.Advanced;
+using n71 = e36::Stride.Input;
 using n119 = _VL_Stride_Engine_.Stride.Advanced;
 using n69 = _VL_Stride_Runtime_TypeForwards_.Stride.API.Engine.Entity.Advanced;
 using n59 = _VL_Stride_Runtime_TypeForwards_.Stride.API.Rendering.Advanced;
-using n42 = _VL_Stride_Rendering_ShaderFX_.Stride.Rendering.ShaderFX.GenericComputeNode.Advanced.Experimental;
-using n12 = _VL_Stride_Rendering_TextureFX_.Stride.Textures.Source;
+using n62 = e6::Stride.Core;
+using n19 = _VL_Stride_Rendering_ShaderFX_.Stride.Rendering.ShaderFX.GenericComputeNode.Advanced.Experimental;
+using n32 = _VL_Stride_Rendering_TextureFX_.Stride.Textures.Source;
 using n53 = _VL_Stride_Runtime_TypeForwards_.Stride.API.Graphics.BlendStateDescription.Advanced;
 using n107 = _VL_Stride_Engine_.Stride.Models.Advanced;
 using n111 = _VL_Stride_Engine_.Stride.Rendering;
-using n73 = e40::VL.Stride.Shaders.ShaderFX.Functions;
-using n36 = _VL_Stride_Rendering_ShaderFX_.Stride.Rendering.ShaderFX.Operations.Experimental;
-using n24 = _VL_Stride_Rendering_.Stride.Rendering.Group_Spectral.Internal;
+using n13 = _VL_Stride_Rendering_ShaderFX_.Stride.Rendering.ShaderFX.Operations.Experimental;
+using n43 = _VL_Stride_Rendering_.Stride.Rendering.Group_Spectral.Internal;
 using n129 = _VL_Stride_Games_;
 using n128 = _VL_Stride_Graphics_;
-using n19 = _VL_Stride_Rendering_.Stride.Models.Meshes.Experimental;
-using n133 = e40::VL.Stride.Core;
-using n76 = e40::VL.Stride.Rendering.ComputeEffect;
+using n38 = _VL_Stride_Rendering_.Stride.Models.Meshes.Experimental;
 using n137 = _VL_EditingFramework_;
-using n37 = _VL_Stride_Rendering_ShaderFX_.Stride.Rendering.ShaderFX.Operations.AzureKinect.Experimental;
-using n75 = e40::VL.Stride.Rendering.Compositing;
+using n14 = _VL_Stride_Rendering_ShaderFX_.Stride.Rendering.ShaderFX.Operations.AzureKinect.Experimental;
 using n109 = _VL_Stride_Engine_.Stride.Lights;
 using n136 = _VL_Skia_;
 using n67 = e24::Stride.Engine;
-using n58 = e26::Stride.Rendering;
-using n132 = e5::VL.Core;
-using n52 = e20::Stride.Graphics;
-using n32 = _VL_Stride_Rendering_ShaderFX_.Stride.Rendering.ShaderFX.Variables.Experimental;
+using n61 = e26::Stride.Rendering;
+using n9 = _VL_Stride_Rendering_ShaderFX_.Stride.Rendering.ShaderFX.Variables.Experimental;
+using n64 = e25::Stride.Games;
 using n84 = _VL_Stride_Graphics_.Stride.Textures.Advanced;
-using n47 = _VL_Stride_Rendering_ShaderFX_.Stride.Materials.Experimental;
-using n4 = _VL_Stride_Rendering_Temp_.Stride.Textures.Utils;
+using n24 = _VL_Stride_Rendering_ShaderFX_.Stride.Materials.Experimental;
+using n65 = e6::Stride.Core.Diagnostics;
+using n5 = _VL_Stride_Rendering_Temp_.Stride.Textures.Utils;
 using n113 = _VL_Stride_Engine_.Stride.Rendering.AdditionalSceneWindow.Internal;
 using n106 = _VL_Stride_Engine_.Stride.Models;
-using n33 = _VL_Stride_Rendering_ShaderFX_.Stride.Rendering.ShaderFX.Variables.Advanced.Experimental;
-using n62 = e3::Stride.Core;
+using n10 = _VL_Stride_Rendering_ShaderFX_.Stride.Rendering.ShaderFX.Variables.Advanced.Experimental;
 using n105 = _VL_Stride_Engine_.Stride.Input;
-using n3 = _VL_Stride_Rendering_Temp_.Stride.Textures;
+using n132 = e2::VL.Core;
+using n42 = e31::VL.Stride.Rendering;
+using n50 = e22::Stride.Graphics;
+using n4 = _VL_Stride_Rendering_Temp_.Stride.Textures;
 using n80 = _VL_Stride_Graphics_.Stride.Buffers.ReadBack;
-using n43 = _VL_Stride_Rendering_ShaderFX_.Stride.Rendering.Experimental;
+using n20 = _VL_Stride_Rendering_ShaderFX_.Stride.Rendering.Experimental;
 using n115 = _VL_Stride_Engine_.Stride.Windowing.Internal;
 using n139 = global::System;
+using n73 = e31::VL.Stride.Shaders.ShaderFX.Functions;
 using n95 = _VL_Stride_Input_.Stride.Input;
-using n41 = e40::VL.Stride.Shaders.ShaderFX;
+using n66 = e23::Stride.Core.Serialization.Contents;
+using n134 = e2::VL.Lib;
 using n51 = _VL_Stride_Runtime_TypeForwards_.Stride.API.Graphics.VertexDeclaration.Advanced;
 using n138 = _VL_Lang_;
 using n86 = _VL_Stride_Graphics_.Video;
 using n81 = _VL_Stride_Graphics_.Stride.Buffers;
 using n83 = _VL_Stride_Graphics_.Stride.Textures;
-using n20 = _VL_Stride_Rendering_.Stride.Models.Meshes.Obsolete;
+using n1 = e2::VL.Core.CompilerServices;
+using n39 = _VL_Stride_Rendering_.Stride.Models.Meshes.Obsolete;
 using n93 = _VL_Stride_Games_.Stride;
-using n72 = e25::Stride.Shaders;
-using n7 = _VL_Stride_Rendering_TextureFX_.Stride.Textures.Filter.Experimental;
-using n28 = e40::VL.Stride.Effects.TextureFX;
-using n40 = _VL_Stride_Rendering_ShaderFX_.Stride.Rendering.ShaderFX.Functions.Experimental;
+using n27 = _VL_Stride_Rendering_TextureFX_.Stride.Textures.Filter.Experimental;
+using n17 = _VL_Stride_Rendering_ShaderFX_.Stride.Rendering.ShaderFX.Functions.Experimental;
 using n90 = _VL_Stride_Graphics_.Stride;
 using n99 = _VL_Stride_Engine_.Stride.Cameras.Internal;
 using n2 = _VL_Stride_Runtime_;
-using n9 = _VL_Stride_Rendering_TextureFX_.Stride.Textures.Mixer;
-using n5 = _VL_Stride_Rendering_Temp_.Stride.Textures.Utils.SplitChannels_Textures;
-using n17 = _VL_Stride_Rendering_.Stride.Models.Meshes.Advanced;
-using n26 = _VL_Stride_Rendering_.Stride.Textures;
+using n77 = e31::VL.Stride.Scripts;
+using n29 = _VL_Stride_Rendering_TextureFX_.Stride.Textures.Mixer;
+using n6 = _VL_Stride_Rendering_Temp_.Stride.Textures.Utils.SplitChannels_Textures;
+using n36 = _VL_Stride_Rendering_.Stride.Models.Meshes.Advanced;
+using n45 = _VL_Stride_Rendering_.Stride.Textures;
+using n47 = e31::VL.Stride.Effects.TextureFX;
 using n114 = _VL_Stride_Engine_.Stride.Windowing;
-using n134 = e5::VL.Lib;
 using n54 = _VL_Stride_Runtime_TypeForwards_.Stride.API.Graphics.DepthStencilStateDescription.Advanced;
 using n110 = _VL_Stride_Engine_.Stride;
-using n6 = _VL_Stride_Rendering_Temp_.Stride;
+using n7 = _VL_Stride_Rendering_Temp_.Stride;
 using n55 = _VL_Stride_Runtime_TypeForwards_.Stride.API.Graphics.RasterizerStateDescription.Advanced;
 using n130 = _VL_Stride_Input_;
-using n29 = _VL_Stride_Rendering_.Stride.Buffers.Advanced;
+using n48 = _VL_Stride_Rendering_.Stride.Buffers.Advanced;
 using n88 = _VL_Stride_Graphics_.Stride.Windowing;
 using n97 = _VL_Stride_Engine_.Stride.Cameras;
-using n63 = e26::Stride.Rendering.Compositing;
-using n11 = _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils;
-using n30 = _VL_Stride_Rendering_.Stride;
+using n31 = _VL_Stride_Rendering_TextureFX_.Stride.Textures.Utils;
+using n49 = _VL_Stride_Rendering_.Stride;
 using n101 = _VL_Stride_Engine_.Stride.Utils.Advanced;
 using n98 = _VL_Stride_Engine_.Stride.Cameras.Advanced;
+using n58 = e29::Stride.Rendering;
 using n102 = _VL_Stride_Engine_.Stride.Utils;
 using n131 = _VL_Stride_Engine_;
 using n127 = _VL_Stride_Runtime_TypeForwards_;
-using n126 = _VL_Stride_Rendering_ShaderFX_;
-using n31 = _VL_Stride_Rendering_ShaderFX_.Stride.Rendering.ShaderFX.Experimental;
-using n21 = _VL_Stride_Rendering_.Stride.Models;
-using n8 = _VL_Stride_Rendering_TextureFX_.Stride.Textures.Filter;
-using n35 = _VL_Stride_Rendering_ShaderFX_.Stride.Rendering.ShaderFX.Buffer.Experimental;
+using n124 = _VL_Stride_Rendering_ShaderFX_;
+using n8 = _VL_Stride_Rendering_ShaderFX_.Stride.Rendering.ShaderFX.Experimental;
+using n40 = _VL_Stride_Rendering_.Stride.Models;
+using n28 = _VL_Stride_Rendering_TextureFX_.Stride.Textures.Filter;
+using n12 = _VL_Stride_Rendering_ShaderFX_.Stride.Rendering.ShaderFX.Buffer.Experimental;
+using n76 = e31::VL.Stride.Rendering.ComputeEffect;
 using n85 = _VL_Stride_Graphics_.Stride.Textures.TextureReader_Async.Advanced;
+using n74 = e29::Stride.Rendering.Materials;
+using n133 = e31::VL.Stride.Core;
 using n112 = _VL_Stride_Engine_.Stride.Rendering.AdditionalSceneTexture.Internal;
 
 [assembly: n1.CompilerVersionAttribute("2021.4.9-971+1d0a0c7789")]
 [assembly: n1.AssemblyInitializerAttribute(typeof(n2.MZmd92n0x8tLLBfKYOnxOxInitializer))]
-[assembly: n1.TypeImportAttribute("Pipet (Relative)", "Stride.Textures", typeof(n3.Pipet_Relative_BwxvNT8Q2cPQatQmLGHL8I), typeof(n3.Pipet_Relative_BwxvNT8Q2cPQatQmLGHL8I), false)]
-[assembly: n1.TypeImportAttribute("Pipet (AllocationFree Relative)", "Stride.Textures", typeof(n3.Pipet_AllocationFree_Relative_T4SXmmL9FNFLFT9GzCcXjJ), typeof(n3.Pipet_AllocationFree_Relative_T4SXmmL9FNFLFT9GzCcXjJ), false)]
-[assembly: n1.TypeImportAttribute("Pipet", "Stride.Textures", typeof(n3.Pipet_MqYqrVR1BTcORjCCg8elsd), typeof(n3.Pipet_MqYqrVR1BTcORjCCg8elsd), false)]
-[assembly: n1.TypeImportAttribute("Pipet (AllocationFree)", "Stride.Textures", typeof(n3.Pipet_AllocationFree_ASzS8IB8paoL1QHnoaJ2Yb), typeof(n3.Pipet_AllocationFree_ASzS8IB8paoL1QHnoaJ2Yb), false)]
-[assembly: n1.TypeImportAttribute("JoinChannels (Textures)", "Stride.Textures.Utils", typeof(n4.JoinChannels_Textures_C), typeof(n4.JoinChannels_Textures_C), false)]
-[assembly: n1.TypeImportAttribute("SplitChannels", "Stride.Textures.Utils", typeof(n4.SplitChannels_C), typeof(n4.SplitChannels_C), false)]
-[assembly: n1.TypeImportAttribute("SplitChannels (Textures)", "Stride.Textures.Utils", typeof(n4.SplitChannels_Textures_LOI5hd0svvkP8BO1rUF0ci), typeof(n4.SplitChannels_Textures_LOI5hd0svvkP8BO1rUF0ci), false)]
-[assembly: n1.TypeImportAttribute("ChannelTexturesFromInput", "Stride.Textures.Utils.SplitChannels (Textures)", typeof(n5.ChannelTexturesFromInput_U2k1Xq4nBUjMGIeS79cY6r), typeof(n5.ChannelTexturesFromInput_U2k1Xq4nBUjMGIeS79cY6r), false)]
-[assembly: n1.TypeImportAttribute("VL.Stride.Rendering.TempApplication", "Stride", typeof(n6.VL_Stride_Rendering_TempApplication_CT9MqmZSVJMQaus7z1oqZL), typeof(n6.VL_Stride_Rendering_TempApplication_CT9MqmZSVJMQaus7z1oqZL), false)]
-[assembly: n1.TypeImportAttribute("BrightFilter", "Stride.Textures.Filter", typeof(n7.BrightFilter_Oe7tegq1obkONdqlU5NVZG), typeof(n7.BrightFilter_Oe7tegq1obkONdqlU5NVZG), false)]
-[assembly: n1.TypeImportAttribute("FXAA", "Stride.Textures.Filter", typeof(n7.FXAA_IDPuh5sP2lXNbcfVcVbXdB), typeof(n7.FXAA_IDPuh5sP2lXNbcfVcVbXdB), false)]
-[assembly: n1.TypeImportAttribute("GaussianBlur", "Stride.Textures.Filter", typeof(n7.GaussianBlur_HwlDvBwIe1hNuaDhyskust), typeof(n7.GaussianBlur_HwlDvBwIe1hNuaDhyskust), false)]
-[assembly: n1.TypeImportAttribute("Bloom", "Stride.Textures.Filter", typeof(n7.Bloom_HB0NfEHHDypNbgKEAZZGL8), typeof(n7.Bloom_HB0NfEHHDypNbgKEAZZGL8), false)]
-[assembly: n1.TypeImportAttribute("DirectionalBlur", "Stride.Textures.Filter", typeof(n8.DirectionalBlur_JQMxtk4r0EVPNzXMfWWGlS), typeof(n8.DirectionalBlur_JQMxtk4r0EVPNzXMfWWGlS), false)]
-[assembly: n1.TypeImportAttribute("Glow", "Stride.Textures.Filter", typeof(n8.Glow_Hz2rlbtqlofLP8AQAVPqLb), typeof(n8.Glow_Hz2rlbtqlofLP8AQAVPqLb), false)]
-[assembly: n1.TypeImportAttribute("Blur", "Stride.Textures.Filter", typeof(n8.Blur_C), typeof(n8.Blur_C), false)]
-[assembly: n1.TypeImportAttribute("Blend", "Stride.Textures.Mixer", typeof(n9.Blend_AFu86hoz4AgPNxFpUGXY6q), typeof(n9.Blend_AFu86hoz4AgPNxFpUGXY6q), false)]
-[assembly: n1.TypeImportAttribute("TextureFXBase", "Stride.Textures.Utils", typeof(n10.TextureFXBase_DjzETyjdqw1NI0YIhMLrmb), typeof(n10.TextureFXBase_DjzETyjdqw1NI0YIhMLrmb), false)]
-[assembly: n1.TypeImportAttribute("TextureFXDrawer", "Stride.Textures.Utils", typeof(n10.TextureFXDrawer_C), typeof(n10.TextureFXDrawer_C), false)]
-[assembly: n1.TypeImportAttribute("RenderTargetFromInput", "Stride.Textures.Utils", typeof(n10.RenderTargetFromInput_TQTuf7FUMdCMBja7wK8kVh), typeof(n10.RenderTargetFromInput_TQTuf7FUMdCMBja7wK8kVh), false)]
-[assembly: n1.TypeImportAttribute("RenderTargetFrom2Inputs", "Stride.Textures.Utils", typeof(n10.RenderTargetFrom2Inputs_HoI1m5RbT1KL8Qev8rb3S3), typeof(n10.RenderTargetFrom2Inputs_HoI1m5RbT1KL8Qev8rb3S3), false)]
-[assembly: n1.TypeImportAttribute("TextureFXGraph", "Stride.Textures.Utils", typeof(n10.TextureFXGraph_PJIIm3Cdxn0PvwywMQZ6ha), typeof(n10.TextureFXGraph_PJIIm3Cdxn0PvwywMQZ6ha), false)]
-[assembly: n1.TypeImportAttribute("Resize (Relative)", "Stride.Textures.Utils", typeof(n11.Resize_Relative_C), typeof(n11.Resize_Relative_C), false)]
-[assembly: n1.TypeImportAttribute("Crop (Relative)", "Stride.Textures.Utils", typeof(n11.Crop_Relative_C), typeof(n11.Crop_Relative_C), false)]
-[assembly: n1.TypeImportAttribute("Crop", "Stride.Textures.Utils", typeof(n11.Crop_C), typeof(n11.Crop_C), false)]
-[assembly: n1.TypeImportAttribute("ChangeFormat", "Stride.Textures.Utils", typeof(n11.ChangeFormat_RrwOcCmgdsKOgmTkIHE6fV), typeof(n11.ChangeFormat_RrwOcCmgdsKOgmTkIHE6fV), false)]
-[assembly: n1.TypeImportAttribute("Feedback", "Stride.Textures.Utils", typeof(n11.Feedback_NPAHlPHnYkaLnenemMS3ba), typeof(n11.Feedback_NPAHlPHnYkaLnenemMS3ba), false)]
-[assembly: n1.TypeImportAttribute("Electricity", "Stride.Textures.Source", typeof(n12.Electricity_C), typeof(n12.Electricity_C), false)]
-[assembly: n1.TypeImportAttribute("VL.Stride.Rendering.TextureFXApplication", "Stride.Textures", typeof(n13.VL_Stride_Rendering_TextureFXApplication_U6vd7MA9h1ZQcPz63aoyUC), typeof(n13.VL_Stride_Rendering_TextureFXApplication_U6vd7MA9h1ZQcPz63aoyUC), false)]
-[assembly: n1.TypeImportAttribute("StreamOutInstancer", "Stride.Rendering", typeof(n14.StreamOutInstancer_FBHuNRR7L9ALXC8p0GP3eB<>), typeof(n14.StreamOutInstancer_FBHuNRR7L9ALXC8p0GP3eB<>), false)]
-[assembly: n1.TypeImportAttribute("AnalyzeMesh", "Stride.Rendering", typeof(n14.AnalyzeMesh_Jeoc7D9B7h9PBUqptKAvLO), typeof(n14.AnalyzeMesh_Jeoc7D9B7h9PBUqptKAvLO), false)]
-[assembly: n1.TypeImportAttribute("VertexBufferModelEntity", "Stride.Rendering", typeof(n14.VertexBufferModelEntity_V0gZTBaXuOlOokaX9Jnq6v), typeof(n14.VertexBufferModelEntity_V0gZTBaXuOlOokaX9Jnq6v), false)]
-[assembly: n1.TypeImportAttribute("MeshDrawerStreamOut", "Stride.Rendering", typeof(n14.MeshDrawerStreamOut_C), typeof(n14.MeshDrawerStreamOut_C), false)]
-[assembly: n1.TypeImportAttribute("StreamOutModelComponent", "Stride.Rendering", typeof(n14.StreamOutModelComponent_C), typeof(n14.StreamOutModelComponent_C), false)]
-[assembly: n1.TypeImportAttribute("StreamOutInstancer2", "Stride.Rendering", typeof(n14.StreamOutInstancer2_DbyCuy9U0UpK95gjQWxDXj<>), typeof(n14.StreamOutInstancer2_DbyCuy9U0UpK95gjQWxDXj<>), false)]
-[assembly: n1.TypeImportAttribute("VL.Stride.Rendering.InstancerApplication", "Stride.Rendering", typeof(n14.VL_Stride_Rendering_InstancerApplication_RiqvYTxBGhJPNWSeOu26U2), typeof(n14.VL_Stride_Rendering_InstancerApplication_RiqvYTxBGhJPNWSeOu26U2), false)]
-[assembly: n1.TypeImportAttribute("GameProvider", "Stride.Utils", typeof(n15.GameProvider_Pd38wXWKEIYP1l5KGR7wKt), typeof(n15.GameProvider_Pd38wXWKEIYP1l5KGR7wKt), false)]
-[assembly: n1.TypeImportAttribute("GenerateNormals", "Stride.Utils", typeof(n16.GenerateNormals_OLrjeOHyHhSPs3wLZNXgF2), typeof(n16.GenerateNormals_OLrjeOHyHhSPs3wLZNXgF2), false)]
-[assembly: n1.TypeImportAttribute("GridIndices", "Stride.Utils", typeof(n16.GridIndices_H2iey90hQtDLpqW8HR9tUg), typeof(n16.GridIndices_H2iey90hQtDLpqW8HR9tUg), false)]
-[assembly: n1.TypeImportAttribute("RayRenderer", "Stride.Models.Meshes", typeof(n17.RayRenderer_HkylqJXhenPPFjQBACIy86), typeof(n17.RayRenderer_HkylqJXhenPPFjQBACIy86), false)]
-[assembly: n1.TypeImportAttribute("LineRenderer", "Stride.Models.Meshes", typeof(n17.LineRenderer_QTkIhYJAe5wQLT6dacqbDi), typeof(n17.LineRenderer_QTkIhYJAe5wQLT6dacqbDi), false)]
-[assembly: n1.TypeImportAttribute("BoxFrameRenderer", "Stride.Models.Meshes", typeof(n17.BoxFrameRenderer_KnIeAhvGyP7OturynhaRbP), typeof(n17.BoxFrameRenderer_KnIeAhvGyP7OturynhaRbP), false)]
-[assembly: n1.TypeImportAttribute("AxisRenderer", "Stride.Models.Meshes", typeof(n17.AxisRenderer_Rl7n8bbU7VcNlMrO3hNPfM), typeof(n17.AxisRenderer_Rl7n8bbU7VcNlMrO3hNPfM), false)]
-[assembly: n1.TypeImportAttribute("AxisAndGridRenderer", "Stride.Models.Meshes", typeof(n17.AxisAndGridRenderer_RRQcBWAYpcdOUpU0QSEDtQ), typeof(n17.AxisAndGridRenderer_RRQcBWAYpcdOUpU0QSEDtQ), false)]
-[assembly: n1.TypeImportAttribute("CircleRenderer", "Stride.Models.Meshes", typeof(n17.CircleRenderer_Ep481ZnVIqPPkOl0tT2nWX), typeof(n17.CircleRenderer_Ep481ZnVIqPPkOl0tT2nWX), false)]
-[assembly: n1.TypeImportAttribute("RectangleRenderer", "Stride.Models.Meshes", typeof(n17.RectangleRenderer_LI7DwO3sFeaNexkXIHYg3r), typeof(n17.RectangleRenderer_LI7DwO3sFeaNexkXIHYg3r), false)]
-[assembly: n1.TypeImportAttribute("QuadRenderer", "Stride.Models.Meshes", typeof(n17.QuadRenderer_THN6uQm7kG3OaRum91XHwL), typeof(n17.QuadRenderer_THN6uQm7kG3OaRum91XHwL), false)]
-[assembly: n1.TypeImportAttribute("ArrowRenderer", "Stride.Models.Meshes", typeof(n17.ArrowRenderer_KNKDF7wyyK9LxCfeS3EoyX), typeof(n17.ArrowRenderer_KNKDF7wyyK9LxCfeS3EoyX), false)]
-[assembly: n1.TypeImportAttribute("TextureAspectRatio", "Stride.Models.Meshes", typeof(n17.TextureAspectRatio_P9BkP275uGvL39T9QpWJdD), typeof(n17.TextureAspectRatio_P9BkP275uGvL39T9QpWJdD), false)]
-[assembly: n1.TypeImportAttribute("CameraFrustumRenderer", "Stride.Models.Meshes", typeof(n17.CameraFrustumRenderer_RMy8liSCtzxO74oqZmIQDt), typeof(n17.CameraFrustumRenderer_RMy8liSCtzxO74oqZmIQDt), false)]
-[assembly: n1.TypeImportAttribute("DynamicMesh", "Stride.Models.Meshes", typeof(n18.DynamicMesh_Fd66B6dyBAKPRQRsZleAEU<>), typeof(n18.DynamicMesh_Fd66B6dyBAKPRQRsZleAEU<>), false)]
-[assembly: n1.TypeImportAttribute("PointMesh", "Stride.Models.Meshes", typeof(n18.PointMesh_OEyfwkPGeIcNf2eZ70d5mM), typeof(n18.PointMesh_OEyfwkPGeIcNf2eZ70d5mM), false)]
-[assembly: n1.TypeImportAttribute("DynamicBufferMesh", "Stride.Models.Meshes", typeof(n18.DynamicBufferMesh_IfYOPGebb5DP6BQvVBuFVN), typeof(n18.DynamicBufferMesh_IfYOPGebb5DP6BQvVBuFVN), false)]
-[assembly: n1.TypeImportAttribute("NullMesh", "Stride.Models.Meshes", typeof(n19.NullMesh_RVhRxaDLhacPJItJYT8T62), typeof(n19.NullMesh_RVhRxaDLhacPJItJYT8T62), false)]
-[assembly: n1.TypeImportAttribute("DynamicMesh (Indexed)", "Stride.Models.Meshes", typeof(n18.DynamicMesh_Indexed_OpsqMbvJ911LsisFUqPGJJ<, >), typeof(n18.DynamicMesh_Indexed_OpsqMbvJ911LsisFUqPGJJ<, >), false)]
-[assembly: n1.TypeImportAttribute("DynamicMesh (Old)", "Stride.Models.Meshes", typeof(n20.DynamicMesh_Old_EfBs2FfdYY1PZv5Zq9pckw<>), typeof(n20.DynamicMesh_Old_EfBs2FfdYY1PZv5Zq9pckw<>), false)]
-[assembly: n1.TypeImportAttribute("MeshSplit (Pos3Norm3Tex2Tan4)", "Stride.Models.Meshes", typeof(n18.MeshSplit_Pos3Norm3Tex2Tan4_Tj1btt94kbCNyi1avhvhlm), typeof(n18.MeshSplit_Pos3Norm3Tex2Tan4_Tj1btt94kbCNyi1avhvhlm), false)]
-[assembly: n1.TypeImportAttribute("MeshSplit (Pos3)", "Stride.Models.Meshes", typeof(n18.MeshSplit_Pos3_J7zO7GXeJTFPhJSWF7DIna), typeof(n18.MeshSplit_Pos3_J7zO7GXeJTFPhJSWF7DIna), false)]
-[assembly: n1.TypeImportAttribute("MeshSplit (Pos3Norm3)", "Stride.Models.Meshes", typeof(n18.MeshSplit_Pos3Norm3_JWKeh6jFHM3OLMw1Qcqf5y), typeof(n18.MeshSplit_Pos3Norm3_JWKeh6jFHM3OLMw1Qcqf5y), false)]
-[assembly: n1.TypeImportAttribute("MeshSplit (Pos3Norm3Tex2)", "Stride.Models.Meshes", typeof(n18.MeshSplit_Pos3Norm3Tex2_LyiOIAVkJQPL66gywV3ue5), typeof(n18.MeshSplit_Pos3Norm3Tex2_LyiOIAVkJQPL66gywV3ue5), false)]
-[assembly: n1.TypeImportAttribute("MeshDescription", "Stride.Models.Meshes", typeof(n18.MeshDescription_RKfY4S4pFVgPbOtcJiOfov), typeof(n18.MeshDescription_RKfY4S4pFVgPbOtcJiOfov), false)]
-[assembly: n1.TypeImportAttribute("ObjWriter", "Stride.Models.Meshes", typeof(n18.ObjWriter_FjTZsY4LViQQHvGRIlNt68), typeof(n18.ObjWriter_FjTZsY4LViQQHvGRIlNt68), false)]
-[assembly: n1.TypeImportAttribute("MeshModel", "Stride.Models", typeof(n21.MeshModel_IM96OF8Pn3tLaQml9JGZT1), typeof(n21.MeshModel_IM96OF8Pn3tLaQml9JGZT1), false)]
-[assembly: n1.TypeImportAttribute("MeshesModel", "Stride.Models", typeof(n21.MeshesModel_KOnZfTNahQJLdCySJm4w2D), typeof(n21.MeshesModel_KOnZfTNahQJLdCySJm4w2D), false)]
-[assembly: n1.TypeImportAttribute("WithMaterials", "Stride.Models", typeof(n21.WithMaterials_KbwMyFGOXtyOhAzUhwBjbu), typeof(n21.WithMaterials_KbwMyFGOXtyOhAzUhwBjbu), false)]
-[assembly: n1.TypeImportAttribute("Clone", "Stride.Models", typeof(n21.Clone_Twt6x2fzMFGOgj0o8jWJod), typeof(n21.Clone_Twt6x2fzMFGOgj0o8jWJod), false)]
-[assembly: n1.TypeImportAttribute("GetMeshes", "Stride.Models", typeof(n21.GetMeshes_NgeDyecmCGBLix3yKPmgDl), typeof(n21.GetMeshes_NgeDyecmCGBLix3yKPmgDl), false)]
-[assembly: n1.TypeImportAttribute("MeshRenderer", "Stride.Rendering", typeof(n22.MeshRenderer_C), typeof(n22.MeshRenderer_C), false)]
-[assembly: n1.TypeImportAttribute("Group", "Stride.Rendering", typeof(n22.Group_JjpUJ7D6yd9L6tZwkMXdAR), typeof(n22.Group_JjpUJ7D6yd9L6tZwkMXdAR), false)]
-[assembly: n1.TypeImportAttribute("ClearRenderer", "Stride.Rendering", typeof(n22.ClearRenderer_B1CQpAq5dHNM2uOtdgvpjR), typeof(n22.ClearRenderer_B1CQpAq5dHNM2uOtdgvpjR), false)]
-[assembly: n1.TypeImportAttribute("CustomRenderer", "Stride.Rendering", typeof(n22.CustomRenderer_HTctHQlJa4ONbqGCvAfnmU<>), typeof(n22.CustomRenderer_HTctHQlJa4ONbqGCvAfnmU<>), false)]
-[assembly: n1.TypeImportAttribute("WithViewProjection", "Stride.Rendering", typeof(n22.WithViewProjection_GwV1CTYuwHpOJtL0TzeMbn), typeof(n22.WithViewProjection_GwV1CTYuwHpOJtL0TzeMbn), false)]
-[assembly: n1.TypeImportAttribute("RenderView", "Stride.Rendering", typeof(n22.RenderView_NalvfCkTVBPN12jxpmho9b), typeof(n22.RenderView_NalvfCkTVBPN12jxpmho9b), false)]
-[assembly: n1.TypeImportAttribute("CopyTextureRenderer", "Stride.Rendering", typeof(n22.CopyTextureRenderer_C), typeof(n22.CopyTextureRenderer_C), false)]
-[assembly: n1.TypeImportAttribute("DebugTextRenderer", "Stride.Rendering", typeof(n22.DebugTextRenderer_C), typeof(n22.DebugTextRenderer_C), false)]
-[assembly: n1.TypeImportAttribute("DebugTextRenderer3DOld", "Stride.Rendering", typeof(n22.DebugTextRenderer3DOld_C), typeof(n22.DebugTextRenderer3DOld_C), false)]
-[assembly: n1.TypeImportAttribute("WithTransformation", "Stride.Rendering", typeof(n22.WithTransformation_Swqx6l6eL57QEVZVEK0GMD), typeof(n22.WithTransformation_Swqx6l6eL57QEVZVEK0GMD), false)]
-[assembly: n1.TypeImportAttribute("Enabled", "Stride.Rendering", typeof(n22.Enabled_HeIGGEpogi3NSlODRIa6dv), typeof(n22.Enabled_HeIGGEpogi3NSlODRIa6dv), false)]
-[assembly: n1.TypeImportAttribute("Group (Spectral)", "Stride.Rendering", typeof(n23.GraphicsRendererGroup), typeof(n24._Operations_), false)]
-[assembly: n1.TypeImportAttribute("CopyCounterRenderer", "Stride.Rendering", typeof(n25.CopyCounterRenderer_C), typeof(n25.CopyCounterRenderer_C), false)]
-[assembly: n1.TypeImportAttribute("TextureToImage", "Stride.Textures", typeof(n26.TextureToImage_V5rkdEbku2xLhp2yiawFb9), typeof(n26.TextureToImage_V5rkdEbku2xLhp2yiawFb9), false)]
-[assembly: n1.TypeImportAttribute("ImageToTexture", "Stride.Textures", typeof(n26.ImageToTexture_UoxjU2XizqrOp4tLrthtoQ), typeof(n26.ImageToTexture_UoxjU2XizqrOp4tLrthtoQ), false)]
-[assembly: n1.TypeImportAttribute("ReadBackTexture", "Stride.Textures", typeof(n27.ReadBackTexture_GQP3tvG4YN6Nq4eGbxf7kT<>), typeof(n27.ReadBackTexture_GQP3tvG4YN6Nq4eGbxf7kT<>), false)]
-[assembly: n1.TypeImportAttribute("CopyTexture", "Stride.Textures", typeof(n26.CopyTexture_UGdw4Tvemx5QK60AS7AHcT), typeof(n26.CopyTexture_UGdw4Tvemx5QK60AS7AHcT), false)]
-[assembly: n1.TypeImportAttribute("TextureQueue", "Stride.Textures", typeof(n26.TextureQueue_GZJJW0WG84XOekDeZqK4yE), typeof(n26.TextureQueue_GZJJW0WG84XOekDeZqK4yE), false)]
-[assembly: n1.TypeImportAttribute("TextureWriter", "Stride.Textures", typeof(n26.TextureWriter_JxlPbXDCEoNPBOO4zIeoGa), typeof(n26.TextureWriter_JxlPbXDCEoNPBOO4zIeoGa), false)]
-[assembly: n1.TypeImportAttribute("TextureEncoder", "Stride.Textures", typeof(n26.TextureEncoder_QGddLvsRvQaMACY6nS4ebC), typeof(n26.TextureEncoder_QGddLvsRvQaMACY6nS4ebC), false)]
-[assembly: n1.TypeImportAttribute("TextureDecoder", "Stride.Textures", typeof(n26.TextureDecoder_R7jpbgwgsR9OajttTZiANS), typeof(n26.TextureDecoder_R7jpbgwgsR9OajttTZiANS), false)]
-[assembly: n1.TypeImportAttribute("AlphaChannel", "Stride.Textures.Filter", typeof(n28.AlphaChannel), null, true)]
-[assembly: n1.TypeImportAttribute("BumpType", "Stride.Textures.Filter", typeof(n28.BumpType), null, true)]
-[assembly: n1.TypeImportAttribute("ChannelKeyingType", "Stride.Textures.Filter", typeof(n28.ChannelKeyingType), null, true)]
-[assembly: n1.TypeImportAttribute("ConvertColorType", "Stride.Textures.Filter", typeof(n28.ConvertColorType), null, true)]
-[assembly: n1.TypeImportAttribute("CoordinatesType", "Stride.Textures.Filter", typeof(n28.CoordinatesType), null, true)]
-[assembly: n1.TypeImportAttribute("GlowType", "Stride.Textures.Filter", typeof(n28.GlowType), null, true)]
-[assembly: n1.TypeImportAttribute("LevelsClampType", "Stride.Textures.Filter", typeof(n28.LevelsClampType), null, true)]
-[assembly: n1.TypeImportAttribute("LomographType", "Stride.Textures.Filter", typeof(n28.LomographType), null, true)]
-[assembly: n1.TypeImportAttribute("MapColorType", "Stride.Textures.Filter", typeof(n28.MapColorType), null, true)]
-[assembly: n1.TypeImportAttribute("TunnelType", "Stride.Textures.Filter", typeof(n28.TunnelType), null, true)]
-[assembly: n1.TypeImportAttribute("BlurPasses", "Stride.Textures.Filter", typeof(n28.BlurPasses), null, true)]
-[assembly: n1.TypeImportAttribute("HaloType", "Stride.Textures.Source", typeof(n28.HaloType), null, true)]
-[assembly: n1.TypeImportAttribute("NoiseType", "Stride.Textures.Source", typeof(n28.NoiseType), null, true)]
-[assembly: n1.TypeImportAttribute("PaletteType", "Stride.Textures.Source", typeof(n28.PaletteType), null, true)]
-[assembly: n1.TypeImportAttribute("TextureChannel", "Stride.Textures.Utils", typeof(n28.TextureChannel), null, true)]
-[assembly: n1.TypeImportAttribute("RoundingType", "Stride.Textures.Utils", typeof(n28.RoundingType), null, true)]
-[assembly: n1.TypeImportAttribute("ResizeInterpolationType", "Stride.Textures.Utils", typeof(n28.ResizeInterpolationType), null, true)]
-[assembly: n1.TypeImportAttribute("ReadBackBuffer", "Stride.Buffers", typeof(n29.ReadBackBuffer_LDYyNy9GNrCPqD5w3TYk8x<>), typeof(n29.ReadBackBuffer_LDYyNy9GNrCPqD5w3TYk8x<>), false)]
-[assembly: n1.TypeImportAttribute("VL.Stride.RenderingApplication", "Stride", typeof(n30.VL_Stride_RenderingApplication_MEUrO1h9DC5P3cKcQnSROq), typeof(n30.VL_Stride_RenderingApplication_MEUrO1h9DC5P3cKcQnSROq), false)]
-[assembly: n1.TypeImportAttribute("Vector4", "Stride.Rendering.ShaderFX", typeof(n31.Vector4_I4A9htkNIyML7HZGYL8sqS), typeof(n31.Vector4_I4A9htkNIyML7HZGYL8sqS), false)]
-[assembly: n1.TypeImportAttribute("Do", "Stride.Rendering.ShaderFX", typeof(n31.Do_J8eus2nrPPPP3ZAXjf5167<, >), typeof(n31.Do_J8eus2nrPPPP3ZAXjf5167<, >), false)]
-[assembly: n1.TypeImportAttribute("IfThen", "Stride.Rendering.ShaderFX", typeof(n31.IfThen_DTigGdV0dmMLNNrHKuVHZw), typeof(n31.IfThen_DTigGdV0dmMLNNrHKuVHZw), false)]
-[assembly: n1.TypeImportAttribute("Order", "Stride.Rendering.ShaderFX", typeof(n31.Order_I3EU9HwyKJaOxBhAAvRRIC), typeof(n31.Order_I3EU9HwyKJaOxBhAAvRRIC), false)]
-[assembly: n1.TypeImportAttribute("RootVar", "Stride.Rendering.ShaderFX", typeof(n31.RootVar_DMNWmqiLkn2MvXXahGndmA<>), typeof(n31.RootVar_DMNWmqiLkn2MvXXahGndmA<>), false)]
-[assembly: n1.TypeImportAttribute("RootVoid", "Stride.Rendering.ShaderFX", typeof(n31.RootVoid_U56EvRAuB15PX1dx15mFlE), typeof(n31.RootVoid_U56EvRAuB15PX1dx15mFlE), false)]
-[assembly: n1.TypeImportAttribute("Switch", "Stride.Rendering.ShaderFX", typeof(n31.Switch_BnxNdjmq0MkQEmCue6feE9<>), typeof(n31.Switch_BnxNdjmq0MkQEmCue6feE9<>), false)]
-[assembly: n1.TypeImportAttribute("GetSemantic", "Stride.Rendering.ShaderFX.Variables", typeof(n32.GetSemantic_D2su5cw56eoMAFbEDtxvVD<>), typeof(n32.GetSemantic_D2su5cw56eoMAFbEDtxvVD<>), false)]
-[assembly: n1.TypeImportAttribute("TEXCOORD", "Stride.Rendering.ShaderFX.Variables", typeof(n32.TEXCOORD_VCFSUjRm19oLf7eB9Pz3Np), typeof(n32.TEXCOORD_VCFSUjRm19oLf7eB9Pz3Np), false)]
-[assembly: n1.TypeImportAttribute("NORMAL", "Stride.Rendering.ShaderFX.Variables", typeof(n32.NORMAL_MO8FCHuZD1oN3OCekkYtCm), typeof(n32.NORMAL_MO8FCHuZD1oN3OCekkYtCm), false)]
-[assembly: n1.TypeImportAttribute("SetSemantic", "Stride.Rendering.ShaderFX.Variables", typeof(n33.SetSemantic_LcW87x4V4QUL9qDSVe1tYc<>), typeof(n33.SetSemantic_LcW87x4V4QUL9qDSVe1tYc<>), false)]
-[assembly: n1.TypeImportAttribute("GetMember", "Stride.Rendering.ShaderFX.Variables", typeof(n32.GetMember_MUV3Gp2vnP6LamXFaXeAcx<, >), typeof(n32.GetMember_MUV3Gp2vnP6LamXFaXeAcx<, >), false)]
-[assembly: n1.TypeImportAttribute("Constant", "Stride.Rendering.ShaderFX.Variables", typeof(n32.Constant_VrQ12ieJ5Y1LxZqLpy5v1v<>), typeof(n32.Constant_VrQ12ieJ5Y1LxZqLpy5v1v<>), false)]
-[assembly: n1.TypeImportAttribute("DeclareVar", "Stride.Rendering.ShaderFX.Variables", typeof(n32.DeclareVar_O9zgKfAWHmCOrAXGVdpp2u<>), typeof(n32.DeclareVar_O9zgKfAWHmCOrAXGVdpp2u<>), false)]
-[assembly: n1.TypeImportAttribute("GetExistingVar", "Stride.Rendering.ShaderFX.Variables", typeof(n32.GetExistingVar_RuAn97T6EnBMRjWGrWVUBm<>), typeof(n32.GetExistingVar_RuAn97T6EnBMRjWGrWVUBm<>), false)]
-[assembly: n1.TypeImportAttribute("SV_VertexId", "Stride.Rendering.ShaderFX.Variables", typeof(n32.SV_VertexId_JE9AbQgB0oQPDJXLkIUnlj), typeof(n32.SV_VertexId_JE9AbQgB0oQPDJXLkIUnlj), false)]
-[assembly: n1.TypeImportAttribute("SV_InstanceId", "Stride.Rendering.ShaderFX.Variables", typeof(n32.SV_InstanceId_VAxZsBmCVqfOpVeG6fM1YQ), typeof(n32.SV_InstanceId_VAxZsBmCVqfOpVeG6fM1YQ), false)]
-[assembly: n1.TypeImportAttribute("SV_Position", "Stride.Rendering.ShaderFX.Variables", typeof(n32.SV_Position_RL8MvDcgmOzLqADpo29ZDS), typeof(n32.SV_Position_RL8MvDcgmOzLqADpo29ZDS), false)]
-[assembly: n1.TypeImportAttribute("SetDepth", "Stride.Rendering.ShaderFX.Variables", typeof(n32.SetDepth_ExNorgCb8ePPMA9pQkMDez), typeof(n32.SetDepth_ExNorgCb8ePPMA9pQkMDez), false)]
-[assembly: n1.TypeImportAttribute("SetVar", "Stride.Rendering.ShaderFX.Variables", typeof(n32.SetVar_VofViqecWyNOHC8hCz2kox<>), typeof(n32.SetVar_VofViqecWyNOHC8hCz2kox<>), false)]
-[assembly: n1.TypeImportAttribute("SetTEXCOORD", "Stride.Rendering.ShaderFX.Variables", typeof(n32.SetTEXCOORD_MKxQdCZUV93PRGeQaVdcZG), typeof(n32.SetTEXCOORD_MKxQdCZUV93PRGeQaVdcZG), false)]
-[assembly: n1.TypeImportAttribute("World", "Stride.Rendering.ShaderFX.Variables.TransformationKeys", typeof(n34.World_GT1yt7iFLFMLNA1rMB4G5V), typeof(n34.World_GT1yt7iFLFMLNA1rMB4G5V), false)]
-[assembly: n1.TypeImportAttribute("WorldViewProjection", "Stride.Rendering.ShaderFX.Variables.TransformationKeys", typeof(n34.WorldViewProjection_FEjdYZD63TUOtijm8LfpVS), typeof(n34.WorldViewProjection_FEjdYZD63TUOtijm8LfpVS), false)]
-[assembly: n1.TypeImportAttribute("ViewProjection", "Stride.Rendering.ShaderFX.Variables.TransformationKeys", typeof(n34.ViewProjection_BFt6w4HvpfiQJKL0qfUa1K), typeof(n34.ViewProjection_BFt6w4HvpfiQJKL0qfUa1K), false)]
-[assembly: n1.TypeImportAttribute("View", "Stride.Rendering.ShaderFX.Variables.TransformationKeys", typeof(n34.View_JqYJljwe1YxL3UpME66a1o), typeof(n34.View_JqYJljwe1YxL3UpME66a1o), false)]
-[assembly: n1.TypeImportAttribute("Projection", "Stride.Rendering.ShaderFX.Variables.TransformationKeys", typeof(n34.Projection_PA7S1QY4dsxOtyJ2sWdqSE), typeof(n34.Projection_PA7S1QY4dsxOtyJ2sWdqSE), false)]
-[assembly: n1.TypeImportAttribute("WorldView", "Stride.Rendering.ShaderFX.Variables.TransformationKeys", typeof(n34.WorldView_FEvbt0S3s9jLnqho6KUZEe), typeof(n34.WorldView_FEvbt0S3s9jLnqho6KUZEe), false)]
-[assembly: n1.TypeImportAttribute("Eye", "Stride.Rendering.ShaderFX.Variables.TransformationKeys", typeof(n34.Eye_PRPkHpZ7FstQU7lzvHjMli), typeof(n34.Eye_PRPkHpZ7FstQU7lzvHjMli), false)]
-[assembly: n1.TypeImportAttribute("x", "Stride.Rendering.ShaderFX.Variables", typeof(n32.x_HhNtYoSnzlhL6cFTluHxxO<>), typeof(n32.x_HhNtYoSnzlhL6cFTluHxxO<>), false)]
-[assembly: n1.TypeImportAttribute("y", "Stride.Rendering.ShaderFX.Variables", typeof(n32.y_V4Zy46sGhzUMu0mLVbFmo0<>), typeof(n32.y_V4Zy46sGhzUMu0mLVbFmo0<>), false)]
-[assembly: n1.TypeImportAttribute("z", "Stride.Rendering.ShaderFX.Variables", typeof(n32.z_QSutnfOCn3kOrMmnzbw9Ar<>), typeof(n32.z_QSutnfOCn3kOrMmnzbw9Ar<>), false)]
-[assembly: n1.TypeImportAttribute("w", "Stride.Rendering.ShaderFX.Variables", typeof(n32.w_SnejEVa2qw2NgW54alm1G4<>), typeof(n32.w_SnejEVa2qw2NgW54alm1G4<>), false)]
-[assembly: n1.TypeImportAttribute("r", "Stride.Rendering.ShaderFX.Variables", typeof(n32.r_IoKIq3QPdj5LVI9eEiWV1a<>), typeof(n32.r_IoKIq3QPdj5LVI9eEiWV1a<>), false)]
-[assembly: n1.TypeImportAttribute("g", "Stride.Rendering.ShaderFX.Variables", typeof(n32.g_Pk3C87Vwkd9Lo2viZMg7ou<>), typeof(n32.g_Pk3C87Vwkd9Lo2viZMg7ou<>), false)]
-[assembly: n1.TypeImportAttribute("b", "Stride.Rendering.ShaderFX.Variables", typeof(n32.b_MP5PFxVYo3rPueEvyoP76m<>), typeof(n32.b_MP5PFxVYo3rPueEvyoP76m<>), false)]
-[assembly: n1.TypeImportAttribute("a", "Stride.Rendering.ShaderFX.Variables", typeof(n32.a_PAHGUQ4zz0DNDBcaJgwciU<>), typeof(n32.a_PAHGUQ4zz0DNDBcaJgwciU<>), false)]
-[assembly: n1.TypeImportAttribute("POSITION", "Stride.Rendering.ShaderFX.Variables", typeof(n32.POSITION_AB8gsyg9BisLCAUXi4HUfn), typeof(n32.POSITION_AB8gsyg9BisLCAUXi4HUfn), false)]
-[assembly: n1.TypeImportAttribute("GetItemBuffer", "Stride.Rendering.ShaderFX.Buffer", typeof(n35.GetItemBuffer_G2DMWenfw22Mga5eArbGWN<>), typeof(n35.GetItemBuffer_G2DMWenfw22Mga5eArbGWN<>), false)]
-[assembly: n1.TypeImportAttribute("SetItemRWBuffer", "Stride.Rendering.ShaderFX.Buffer", typeof(n35.SetItemRWBuffer_JDQNdZOdfAwPAClNGRUjD2<>), typeof(n35.SetItemRWBuffer_JDQNdZOdfAwPAClNGRUjD2<>), false)]
-[assembly: n1.TypeImportAttribute("GetItemRWBuffer", "Stride.Rendering.ShaderFX.Buffer", typeof(n35.GetItemRWBuffer_IO4emvTsPrsOhL5TvX6F67<>), typeof(n35.GetItemRWBuffer_IO4emvTsPrsOhL5TvX6F67<>), false)]
-[assembly: n1.TypeImportAttribute("BufferIn", "Stride.Rendering.ShaderFX.Buffer", typeof(n35.BufferIn_LbPGVJpbBirPlbDA86HyvN), typeof(n35.BufferIn_LbPGVJpbBirPlbDA86HyvN), false)]
-[assembly: n1.TypeImportAttribute("Frac", "Stride.Rendering.ShaderFX.Operations", typeof(n36.Frac_EVmEJMzxu2OORuESzhZVa3<>), typeof(n36.Frac_EVmEJMzxu2OORuESzhZVa3<>), false)]
-[assembly: n1.TypeImportAttribute("*", "Stride.Rendering.ShaderFX.Operations", typeof(n36.OperatorMulitply_VBMyNtatVpwMyhKFHrKpuZ<>), typeof(n36.OperatorMulitply_VBMyNtatVpwMyhKFHrKpuZ<>), false)]
-[assembly: n1.TypeImportAttribute("Length", "Stride.Rendering.ShaderFX.Operations", typeof(n36.Length_RPr57cHcBQSPEMUD8OkqCX<>), typeof(n36.Length_RPr57cHcBQSPEMUD8OkqCX<>), false)]
-[assembly: n1.TypeImportAttribute("Distance", "Stride.Rendering.ShaderFX.Operations", typeof(n36.Distance_I6AGtNxs5poOQVH1qR0KZ7<>), typeof(n36.Distance_I6AGtNxs5poOQVH1qR0KZ7<>), false)]
-[assembly: n1.TypeImportAttribute("Transform", "Stride.Rendering.ShaderFX.Operations", typeof(n36.Transform_A8kd66GYo7COkrlNmdH1Tu<>), typeof(n36.Transform_A8kd66GYo7COkrlNmdH1Tu<>), false)]
-[assembly: n1.TypeImportAttribute("-", "Stride.Rendering.ShaderFX.Operations", typeof(n36.OperatorMinus_N1eoGpnDGOTNs5bEvboYvP<>), typeof(n36.OperatorMinus_N1eoGpnDGOTNs5bEvboYvP<>), false)]
-[assembly: n1.TypeImportAttribute("ReconstructPointCloud", "Stride.Rendering.ShaderFX.Operations.AzureKinect", typeof(n37.ReconstructPointCloud_HlVwNPJ7tKQMHWHoULemeK), typeof(n37.ReconstructPointCloud_HlVwNPJ7tKQMHWHoULemeK), false)]
-[assembly: n1.TypeImportAttribute("DivMod", "Stride.Rendering.ShaderFX.Operations", typeof(n36.DivMod_JkegECgIw51LBaPkbbN358), typeof(n36.DivMod_JkegECgIw51LBaPkbbN358), false)]
-[assembly: n1.TypeImportAttribute("Lerp", "Stride.Rendering.ShaderFX.Operations", typeof(n36.Lerp_Jdbzjadq65TOK0qonNgTKW<>), typeof(n36.Lerp_Jdbzjadq65TOK0qonNgTKW<>), false)]
-[assembly: n1.TypeImportAttribute("SmoothStep", "Stride.Rendering.ShaderFX.Operations", typeof(n36.SmoothStep_ArNxGrf1vXXPa8uIhBLpvS<>), typeof(n36.SmoothStep_ArNxGrf1vXXPa8uIhBLpvS<>), false)]
-[assembly: n1.TypeImportAttribute("+", "Stride.Rendering.ShaderFX.Operations", typeof(n36.OperatorPlus_PzqnaC37KDPOdTuZCUgGXD<>), typeof(n36.OperatorPlus_PzqnaC37KDPOdTuZCUgGXD<>), false)]
-[assembly: n1.TypeImportAttribute("/", "Stride.Rendering.ShaderFX.Operations", typeof(n36.OperatorDivide_C3Iq4kGNMbbQQnSow6u7Vu<>), typeof(n36.OperatorDivide_C3Iq4kGNMbbQQnSow6u7Vu<>), false)]
-[assembly: n1.TypeImportAttribute(">", "Stride.Rendering.ShaderFX.Operations", typeof(n36.OperatorGreater_UvQXl11dTe1QTI6sexabt4<>), typeof(n36.OperatorGreater_UvQXl11dTe1QTI6sexabt4<>), false)]
-[assembly: n1.TypeImportAttribute("BlendOp", "Stride.Rendering.ShaderFX.Operations", typeof(n36.BlendOp_Gg4gUVHOObnLietoehvV1h), typeof(n36.BlendOp_Gg4gUVHOObnLietoehvV1h), false)]
-[assembly: n1.TypeImportAttribute("TextureIn", "Stride.Rendering.ShaderFX.Texture", typeof(n38.TextureIn_OypDfnSaGa1OvYqvLU5EVc), typeof(n38.TextureIn_OypDfnSaGa1OvYqvLU5EVc), false)]
-[assembly: n1.TypeImportAttribute("SampleTexture", "Stride.Rendering.ShaderFX.Texture", typeof(n38.SampleTexture_BckflDe3bBbM1KG5LnQIxv<>), typeof(n38.SampleTexture_BckflDe3bBbM1KG5LnQIxv<>), false)]
-[assembly: n1.TypeImportAttribute("LoadTexture", "Stride.Rendering.ShaderFX.Texture", typeof(n38.LoadTexture_MKVvo4ReVWFMXpNSGba7WX<>), typeof(n38.LoadTexture_MKVvo4ReVWFMXpNSGba7WX<>), false)]
-[assembly: n1.TypeImportAttribute("SamplerIn", "Stride.Rendering.ShaderFX.Texture", typeof(n38.SamplerIn_CwsiBD2yjEVMKfFxOsIL7f), typeof(n38.SamplerIn_CwsiBD2yjEVMKfFxOsIL7f), false)]
-[assembly: n1.TypeImportAttribute("TextureVar", "Stride.Rendering.ShaderFX.Texture", typeof(n38.TextureVar_BckNr9qSGKVPeeUwIe249Z<>), typeof(n38.TextureVar_BckNr9qSGKVPeeUwIe249Z<>), false)]
-[assembly: n1.TypeImportAttribute("SampleLevelTexture", "Stride.Rendering.ShaderFX.Texture", typeof(n38.SampleLevelTexture_V47lZfFzfmCMnrmXfj7mGR<>), typeof(n38.SampleLevelTexture_V47lZfFzfmCMnrmXfj7mGR<>), false)]
-[assembly: n1.TypeImportAttribute("TestComputeFXGraph", "Stride.Rendering.ShaderFX", typeof(n31.TestComputeFXGraph_DSJME4xZ4ZKMX4f1kGAE2j), typeof(n31.TestComputeFXGraph_DSJME4xZ4ZKMX4f1kGAE2j), false)]
-[assembly: n1.TypeImportAttribute("TestDrawFXGraph", "Stride.Rendering.ShaderFX", typeof(n31.TestDrawFXGraph_L3hN8NYiZ0DM5JivUXSjvm), typeof(n31.TestDrawFXGraph_L3hN8NYiZ0DM5JivUXSjvm), false)]
-[assembly: n1.TypeImportAttribute("DrawFXGraph", "Stride.Rendering.ShaderFX", typeof(n31.DrawFXGraph_RP8JSPV9E8pOfIAXWLnuNj), typeof(n31.DrawFXGraph_RP8JSPV9E8pOfIAXWLnuNj), false)]
-[assembly: n1.TypeImportAttribute("ComputeFXGraph", "Stride.Rendering.ShaderFX", typeof(n31.ComputeFXGraph_K3i5QC1nierMTEBVlZkTNM), typeof(n31.ComputeFXGraph_K3i5QC1nierMTEBVlZkTNM), false)]
-[assembly: n1.TypeImportAttribute("Key", "Stride.Rendering.ShaderFX", typeof(n31.Key_AWYMMxlBKcqNnyCQRuSou4<>), typeof(n31.Key_AWYMMxlBKcqNnyCQRuSou4<>), false)]
-[assembly: n1.TypeImportAttribute("VarComputeColor", "Stride.Rendering.ShaderFX", typeof(n31.VarComputeColor_FSCj52SQHKmPGGl2KjWOJp), typeof(n31.VarComputeColor_FSCj52SQHKmPGGl2KjWOJp), false)]
-[assembly: n1.TypeImportAttribute("VarComputeFloat", "Stride.Rendering.ShaderFX", typeof(n31.VarComputeFloat_OHnQOdyVdzmQdQErxbNgmB), typeof(n31.VarComputeFloat_OHnQOdyVdzmQdQErxbNgmB), false)]
-[assembly: n1.TypeImportAttribute("TexCoordFromThreadId", "Stride.Rendering.ShaderFX.ComputeUtils", typeof(n39.TexCoordFromThreadId_AW4jsI3c0FsMneCLTgJKZ6), typeof(n39.TexCoordFromThreadId_AW4jsI3c0FsMneCLTgJKZ6), false)]
-[assembly: n1.TypeImportAttribute("GetLinearDispatchThreadId", "Stride.Rendering.ShaderFX.ComputeUtils", typeof(n39.GetLinearDispatchThreadId_Uszwkf7ihpQM8k1OiGwfaK), typeof(n39.GetLinearDispatchThreadId_Uszwkf7ihpQM8k1OiGwfaK), false)]
-[assembly: n1.TypeImportAttribute("SetDiffusePerInstance", "Stride.Rendering.ShaderFX", typeof(n31.SetDiffusePerInstance_OEXlHvhUpPxPuAnRRqDEWL), typeof(n31.SetDiffusePerInstance_OEXlHvhUpPxPuAnRRqDEWL), false)]
-[assembly: n1.TypeImportAttribute("In", "Stride.Rendering.ShaderFX", typeof(n31.In_SromQpaJXLRNMNYkxsg3gT<>), typeof(n31.In_SromQpaJXLRNMNYkxsg3gT<>), false)]
-[assembly: n1.TypeImportAttribute("ColorIn", "Stride.Rendering.ShaderFX", typeof(n31.ColorIn_PIa08bUbMAUNxfg1drwPs6), typeof(n31.ColorIn_PIa08bUbMAUNxfg1drwPs6), false)]
-[assembly: n1.TypeImportAttribute("Invoke", "Stride.Rendering.ShaderFX.Functions", typeof(n40.Invoke_KnW8E12q8UNLxq1dxB37ta<, >), typeof(n40.Invoke_KnW8E12q8UNLxq1dxB37ta<, >), false)]
-[assembly: n1.TypeImportAttribute("FunkBuilder", "Stride.Rendering.ShaderFX.Functions", typeof(n40.FunkBuilder_HTsQJB8IxYOP3xhCAxnY16<, >), typeof(n40.FunkBuilder_HTsQJB8IxYOP3xhCAxnY16<, >), false)]
-[assembly: n1.TypeImportAttribute("GenericComputeNode", "Stride.Rendering.ShaderFX", typeof(n41.GenericComputeNode<>), typeof(n41.GenericComputeNode<>), false)]
-[assembly: n1.TypeImportAttribute("InputValueSetter", "Stride.Rendering.ShaderFX.GenericComputeNode", typeof(n42.InputValueSetter_C<>), typeof(n42.InputValueSetter_C<>), false)]
-[assembly: n1.TypeImportAttribute("IInputSetter", "Stride.Rendering.ShaderFX.GenericComputeNode", typeof(n42.IInputSetter_I), null, false)]
-[assembly: n1.TypeImportAttribute("InputObjectSetter", "Stride.Rendering.ShaderFX.GenericComputeNode", typeof(n42.InputObjectSetter_C<>), typeof(n42.InputObjectSetter_C<>), false)]
-[assembly: n1.TypeImportAttribute("InputParameterManager", "Stride.Rendering.ShaderFX.GenericComputeNode", typeof(n42.InputParameterManager_HpWeyiCQXdAL3XMV9SvFj5), typeof(n42.InputParameterManager_HpWeyiCQXdAL3XMV9SvFj5), false)]
-[assembly: n1.TypeImportAttribute("Vector4 (Vector3)", "Stride.Rendering.ShaderFX", typeof(n31.Vector4_Vector3_KhNqItAnKUiMeMFjSQ1Elb), typeof(n31.Vector4_Vector3_KhNqItAnKUiMeMFjSQ1Elb), false)]
-[assembly: n1.TypeImportAttribute("CustomComputeDispatcher", "Stride.Rendering", typeof(n43.CustomComputeDispatcher_C), typeof(n43.CustomComputeDispatcher_C), false)]
-[assembly: n1.TypeImportAttribute("CustomEffect", "Stride.Rendering", typeof(n43.CustomEffect_C), typeof(n43.CustomEffect_C), false)]
-[assembly: n1.TypeImportAttribute("FullscreenQuadRenderer", "Stride.Rendering", typeof(n44.FullscreenQuadRenderer_BhJSftTYy1YMqMFg7MasQE), typeof(n44.FullscreenQuadRenderer_BhJSftTYy1YMqMFg7MasQE), false)]
-[assembly: n1.TypeImportAttribute("FullscreenQuadRenderer (Depth)", "Stride.Rendering", typeof(n44.FullscreenQuadRenderer_Depth_QIUqoNIVyNoO4gHRtlHj1X), typeof(n44.FullscreenQuadRenderer_Depth_QIUqoNIVyNoO4gHRtlHj1X), false)]
-[assembly: n1.TypeImportAttribute("PBRMaterial (Specular)", "Stride.Materials", typeof(n45.PBRMaterial_Specular_A7CvmwppwA5NxsyZyRArZ7), typeof(n45.PBRMaterial_Specular_A7CvmwppwA5NxsyZyRArZ7), false)]
-[assembly: n1.TypeImportAttribute("TextureMaterial", "Stride.Materials", typeof(n46.TextureMaterial_GcrZaZrLZ4ULleUejNKyEc), typeof(n46.TextureMaterial_GcrZaZrLZ4ULleUejNKyEc), false)]
-[assembly: n1.TypeImportAttribute("ColorMaterial", "Stride.Materials", typeof(n46.ColorMaterial_ACO3Uqp9Yc6MtJchUA03i9), typeof(n46.ColorMaterial_ACO3Uqp9Yc6MtJchUA03i9), false)]
-[assembly: n1.TypeImportAttribute("PBRMaterial", "Stride.Materials", typeof(n46.PBRMaterial_C), typeof(n46.PBRMaterial_C), false)]
-[assembly: n1.TypeImportAttribute("SetDiffuse", "Stride.Materials", typeof(n47.SetDiffuse_BtWcAinwfMxPAAt5VM96Uj), typeof(n47.SetDiffuse_BtWcAinwfMxPAAt5VM96Uj), false)]
-[assembly: n1.TypeImportAttribute("SetRoughness", "Stride.Materials", typeof(n47.SetRoughness_DiNi3f0iRgzQI7Bi3Q5zGd), typeof(n47.SetRoughness_DiNi3f0iRgzQI7Bi3Q5zGd), false)]
-[assembly: n1.TypeImportAttribute("SetMetalness", "Stride.Materials", typeof(n47.SetMetalness_SkMOchnl5FNQTEBxYS6a8B), typeof(n47.SetMetalness_SkMOchnl5FNQTEBxYS6a8B), false)]
-[assembly: n1.TypeImportAttribute("SetNormal", "Stride.Materials", typeof(n47.SetNormal_LvIXSEbtD7pQXscx8kIKgR), typeof(n47.SetNormal_LvIXSEbtD7pQXscx8kIKgR), false)]
-[assembly: n1.TypeImportAttribute("SetEmissive", "Stride.Materials", typeof(n47.SetEmissive_CtSNAWhlttAOwPoQcyMpxw), typeof(n47.SetEmissive_CtSNAWhlttAOwPoQcyMpxw), false)]
-[assembly: n1.TypeImportAttribute("SetDisplacement", "Stride.Materials", typeof(n47.SetDisplacement_U3mIjEjSexYQXOMVq0SnrL), typeof(n47.SetDisplacement_U3mIjEjSexYQXOMVq0SnrL), false)]
-[assembly: n1.TypeImportAttribute("SetOcclusion", "Stride.Materials", typeof(n47.SetOcclusion_QXtW9kBuvp2PE8UUwBqV6r), typeof(n47.SetOcclusion_QXtW9kBuvp2PE8UUwBqV6r), false)]
-[assembly: n1.TypeImportAttribute("SetTransparency", "Stride.Materials", typeof(n47.SetTransparency_HdBWZW0vOLYPIhzqAWs6fx), typeof(n47.SetTransparency_HdBWZW0vOLYPIhzqAWs6fx), false)]
-[assembly: n1.TypeImportAttribute("SetSubsurfaceScattering", "Stride.Materials", typeof(n47.SetSubsurfaceScattering_R0jbImIZHbwLHE0QqT9mQr), typeof(n47.SetSubsurfaceScattering_R0jbImIZHbwLHE0QqT9mQr), false)]
-[assembly: n1.TypeImportAttribute("SetMaterialAttribute", "Stride.Materials", typeof(n47.SetMaterialAttribute_O8mKyh2nzQQO04VykvC7Li), typeof(n47.SetMaterialAttribute_O8mKyh2nzQQO04VykvC7Li), false)]
-[assembly: n1.TypeImportAttribute("ValueMap", "Stride.Materials.Inputs", typeof(n48.ValueMap_MSDYzfiuxQTMHIqVDSqrQu), typeof(n48.ValueMap_MSDYzfiuxQTMHIqVDSqrQu), false)]
-[assembly: n1.TypeImportAttribute("ColorMap", "Stride.Materials.Inputs", typeof(n48.ColorMap_KOxQ1z1ZXvlODfQvuwEtGx), typeof(n48.ColorMap_KOxQ1z1ZXvlODfQvuwEtGx), false)]
-[assembly: n1.TypeImportAttribute("ValueIn", "Stride.Materials.Inputs", typeof(n48.ValueIn_US2bH9obYbZLFLgSaZJrIl), typeof(n48.ValueIn_US2bH9obYbZLFLgSaZJrIl), false)]
-[assembly: n1.TypeImportAttribute("ColorIn", "Stride.Materials.Inputs", typeof(n48.ColorIn_FJoAunb6ndhPhaVQtnyUOJ), typeof(n48.ColorIn_FJoAunb6ndhPhaVQtnyUOJ), false)]
-[assembly: n1.TypeImportAttribute("ColorPerInstance", "Stride.Materials.Inputs", typeof(n48.ColorPerInstance_NQz5iCetoSRM02WL9XZlpq<>), typeof(n48.ColorPerInstance_NQz5iCetoSRM02WL9XZlpq<>), false)]
-[assembly: n1.TypeImportAttribute("ValuePerInstance", "Stride.Materials.Inputs", typeof(n48.ValuePerInstance_C3O7jTdZIFEN0KbBEzwujR<>), typeof(n48.ValuePerInstance_C3O7jTdZIFEN0KbBEzwujR<>), false)]
-[assembly: n1.TypeImportAttribute("PBRMaterial (Metallic)", "Stride.Materials", typeof(n46.PBRMaterial_Metallic_FiHTnsXENg8Pe4uJCxGwGT), typeof(n46.PBRMaterial_Metallic_FiHTnsXENg8Pe4uJCxGwGT), false)]
-[assembly: n1.TypeImportAttribute("VL.Stride.Rendering.ShaderFXApplication", "Stride", typeof(n49.VL_Stride_Rendering_ShaderFXApplication_U6vd7MA9h1ZQcPz63aoyUC), typeof(n49.VL_Stride_Rendering_ShaderFXApplication_U6vd7MA9h1ZQcPz63aoyUC), false)]
+[assembly: n1.TypeImportAttribute("StreamOutInstancer", "Stride.Rendering", typeof(n3.StreamOutInstancer_FBHuNRR7L9ALXC8p0GP3eB<>), typeof(n3.StreamOutInstancer_FBHuNRR7L9ALXC8p0GP3eB<>), false)]
+[assembly: n1.TypeImportAttribute("AnalyzeMesh", "Stride.Rendering", typeof(n3.AnalyzeMesh_Jeoc7D9B7h9PBUqptKAvLO), typeof(n3.AnalyzeMesh_Jeoc7D9B7h9PBUqptKAvLO), false)]
+[assembly: n1.TypeImportAttribute("VertexBufferModelEntity", "Stride.Rendering", typeof(n3.VertexBufferModelEntity_V0gZTBaXuOlOokaX9Jnq6v), typeof(n3.VertexBufferModelEntity_V0gZTBaXuOlOokaX9Jnq6v), false)]
+[assembly: n1.TypeImportAttribute("MeshDrawerStreamOut", "Stride.Rendering", typeof(n3.MeshDrawerStreamOut_C), typeof(n3.MeshDrawerStreamOut_C), false)]
+[assembly: n1.TypeImportAttribute("StreamOutModelComponent", "Stride.Rendering", typeof(n3.StreamOutModelComponent_C), typeof(n3.StreamOutModelComponent_C), false)]
+[assembly: n1.TypeImportAttribute("StreamOutInstancer2", "Stride.Rendering", typeof(n3.StreamOutInstancer2_DbyCuy9U0UpK95gjQWxDXj<>), typeof(n3.StreamOutInstancer2_DbyCuy9U0UpK95gjQWxDXj<>), false)]
+[assembly: n1.TypeImportAttribute("VL.Stride.Rendering.InstancerApplication", "Stride.Rendering", typeof(n3.VL_Stride_Rendering_InstancerApplication_RiqvYTxBGhJPNWSeOu26U2), typeof(n3.VL_Stride_Rendering_InstancerApplication_RiqvYTxBGhJPNWSeOu26U2), false)]
+[assembly: n1.TypeImportAttribute("Pipet (Relative)", "Stride.Textures", typeof(n4.Pipet_Relative_BwxvNT8Q2cPQatQmLGHL8I), typeof(n4.Pipet_Relative_BwxvNT8Q2cPQatQmLGHL8I), false)]
+[assembly: n1.TypeImportAttribute("Pipet (AllocationFree Relative)", "Stride.Textures", typeof(n4.Pipet_AllocationFree_Relative_T4SXmmL9FNFLFT9GzCcXjJ), typeof(n4.Pipet_AllocationFree_Relative_T4SXmmL9FNFLFT9GzCcXjJ), false)]
+[assembly: n1.TypeImportAttribute("Pipet", "Stride.Textures", typeof(n4.Pipet_MqYqrVR1BTcORjCCg8elsd), typeof(n4.Pipet_MqYqrVR1BTcORjCCg8elsd), false)]
+[assembly: n1.TypeImportAttribute("Pipet (AllocationFree)", "Stride.Textures", typeof(n4.Pipet_AllocationFree_ASzS8IB8paoL1QHnoaJ2Yb), typeof(n4.Pipet_AllocationFree_ASzS8IB8paoL1QHnoaJ2Yb), false)]
+[assembly: n1.TypeImportAttribute("JoinChannels (Textures)", "Stride.Textures.Utils", typeof(n5.JoinChannels_Textures_C), typeof(n5.JoinChannels_Textures_C), false)]
+[assembly: n1.TypeImportAttribute("SplitChannels", "Stride.Textures.Utils", typeof(n5.SplitChannels_C), typeof(n5.SplitChannels_C), false)]
+[assembly: n1.TypeImportAttribute("SplitChannels (Textures)", "Stride.Textures.Utils", typeof(n5.SplitChannels_Textures_LOI5hd0svvkP8BO1rUF0ci), typeof(n5.SplitChannels_Textures_LOI5hd0svvkP8BO1rUF0ci), false)]
+[assembly: n1.TypeImportAttribute("ChannelTexturesFromInput", "Stride.Textures.Utils.SplitChannels (Textures)", typeof(n6.ChannelTexturesFromInput_U2k1Xq4nBUjMGIeS79cY6r), typeof(n6.ChannelTexturesFromInput_U2k1Xq4nBUjMGIeS79cY6r), false)]
+[assembly: n1.TypeImportAttribute("VL.Stride.Rendering.TempApplication", "Stride", typeof(n7.VL_Stride_Rendering_TempApplication_CT9MqmZSVJMQaus7z1oqZL), typeof(n7.VL_Stride_Rendering_TempApplication_CT9MqmZSVJMQaus7z1oqZL), false)]
+[assembly: n1.TypeImportAttribute("Vector4", "Stride.Rendering.ShaderFX", typeof(n8.Vector4_I4A9htkNIyML7HZGYL8sqS), typeof(n8.Vector4_I4A9htkNIyML7HZGYL8sqS), false)]
+[assembly: n1.TypeImportAttribute("Do", "Stride.Rendering.ShaderFX", typeof(n8.Do_J8eus2nrPPPP3ZAXjf5167<, >), typeof(n8.Do_J8eus2nrPPPP3ZAXjf5167<, >), false)]
+[assembly: n1.TypeImportAttribute("IfThen", "Stride.Rendering.ShaderFX", typeof(n8.IfThen_DTigGdV0dmMLNNrHKuVHZw), typeof(n8.IfThen_DTigGdV0dmMLNNrHKuVHZw), false)]
+[assembly: n1.TypeImportAttribute("Order", "Stride.Rendering.ShaderFX", typeof(n8.Order_I3EU9HwyKJaOxBhAAvRRIC), typeof(n8.Order_I3EU9HwyKJaOxBhAAvRRIC), false)]
+[assembly: n1.TypeImportAttribute("RootVar", "Stride.Rendering.ShaderFX", typeof(n8.RootVar_DMNWmqiLkn2MvXXahGndmA<>), typeof(n8.RootVar_DMNWmqiLkn2MvXXahGndmA<>), false)]
+[assembly: n1.TypeImportAttribute("RootVoid", "Stride.Rendering.ShaderFX", typeof(n8.RootVoid_U56EvRAuB15PX1dx15mFlE), typeof(n8.RootVoid_U56EvRAuB15PX1dx15mFlE), false)]
+[assembly: n1.TypeImportAttribute("Switch", "Stride.Rendering.ShaderFX", typeof(n8.Switch_BnxNdjmq0MkQEmCue6feE9<>), typeof(n8.Switch_BnxNdjmq0MkQEmCue6feE9<>), false)]
+[assembly: n1.TypeImportAttribute("GetSemantic", "Stride.Rendering.ShaderFX.Variables", typeof(n9.GetSemantic_D2su5cw56eoMAFbEDtxvVD<>), typeof(n9.GetSemantic_D2su5cw56eoMAFbEDtxvVD<>), false)]
+[assembly: n1.TypeImportAttribute("TEXCOORD", "Stride.Rendering.ShaderFX.Variables", typeof(n9.TEXCOORD_VCFSUjRm19oLf7eB9Pz3Np), typeof(n9.TEXCOORD_VCFSUjRm19oLf7eB9Pz3Np), false)]
+[assembly: n1.TypeImportAttribute("NORMAL", "Stride.Rendering.ShaderFX.Variables", typeof(n9.NORMAL_MO8FCHuZD1oN3OCekkYtCm), typeof(n9.NORMAL_MO8FCHuZD1oN3OCekkYtCm), false)]
+[assembly: n1.TypeImportAttribute("SetSemantic", "Stride.Rendering.ShaderFX.Variables", typeof(n10.SetSemantic_LcW87x4V4QUL9qDSVe1tYc<>), typeof(n10.SetSemantic_LcW87x4V4QUL9qDSVe1tYc<>), false)]
+[assembly: n1.TypeImportAttribute("GetMember", "Stride.Rendering.ShaderFX.Variables", typeof(n9.GetMember_MUV3Gp2vnP6LamXFaXeAcx<, >), typeof(n9.GetMember_MUV3Gp2vnP6LamXFaXeAcx<, >), false)]
+[assembly: n1.TypeImportAttribute("Constant", "Stride.Rendering.ShaderFX.Variables", typeof(n9.Constant_VrQ12ieJ5Y1LxZqLpy5v1v<>), typeof(n9.Constant_VrQ12ieJ5Y1LxZqLpy5v1v<>), false)]
+[assembly: n1.TypeImportAttribute("DeclareVar", "Stride.Rendering.ShaderFX.Variables", typeof(n9.DeclareVar_O9zgKfAWHmCOrAXGVdpp2u<>), typeof(n9.DeclareVar_O9zgKfAWHmCOrAXGVdpp2u<>), false)]
+[assembly: n1.TypeImportAttribute("GetExistingVar", "Stride.Rendering.ShaderFX.Variables", typeof(n9.GetExistingVar_RuAn97T6EnBMRjWGrWVUBm<>), typeof(n9.GetExistingVar_RuAn97T6EnBMRjWGrWVUBm<>), false)]
+[assembly: n1.TypeImportAttribute("SV_VertexId", "Stride.Rendering.ShaderFX.Variables", typeof(n9.SV_VertexId_JE9AbQgB0oQPDJXLkIUnlj), typeof(n9.SV_VertexId_JE9AbQgB0oQPDJXLkIUnlj), false)]
+[assembly: n1.TypeImportAttribute("SV_InstanceId", "Stride.Rendering.ShaderFX.Variables", typeof(n9.SV_InstanceId_VAxZsBmCVqfOpVeG6fM1YQ), typeof(n9.SV_InstanceId_VAxZsBmCVqfOpVeG6fM1YQ), false)]
+[assembly: n1.TypeImportAttribute("SV_Position", "Stride.Rendering.ShaderFX.Variables", typeof(n9.SV_Position_RL8MvDcgmOzLqADpo29ZDS), typeof(n9.SV_Position_RL8MvDcgmOzLqADpo29ZDS), false)]
+[assembly: n1.TypeImportAttribute("SetDepth", "Stride.Rendering.ShaderFX.Variables", typeof(n9.SetDepth_ExNorgCb8ePPMA9pQkMDez), typeof(n9.SetDepth_ExNorgCb8ePPMA9pQkMDez), false)]
+[assembly: n1.TypeImportAttribute("SetVar", "Stride.Rendering.ShaderFX.Variables", typeof(n9.SetVar_VofViqecWyNOHC8hCz2kox<>), typeof(n9.SetVar_VofViqecWyNOHC8hCz2kox<>), false)]
+[assembly: n1.TypeImportAttribute("SetTEXCOORD", "Stride.Rendering.ShaderFX.Variables", typeof(n9.SetTEXCOORD_MKxQdCZUV93PRGeQaVdcZG), typeof(n9.SetTEXCOORD_MKxQdCZUV93PRGeQaVdcZG), false)]
+[assembly: n1.TypeImportAttribute("World", "Stride.Rendering.ShaderFX.Variables.TransformationKeys", typeof(n11.World_GT1yt7iFLFMLNA1rMB4G5V), typeof(n11.World_GT1yt7iFLFMLNA1rMB4G5V), false)]
+[assembly: n1.TypeImportAttribute("WorldViewProjection", "Stride.Rendering.ShaderFX.Variables.TransformationKeys", typeof(n11.WorldViewProjection_FEjdYZD63TUOtijm8LfpVS), typeof(n11.WorldViewProjection_FEjdYZD63TUOtijm8LfpVS), false)]
+[assembly: n1.TypeImportAttribute("ViewProjection", "Stride.Rendering.ShaderFX.Variables.TransformationKeys", typeof(n11.ViewProjection_BFt6w4HvpfiQJKL0qfUa1K), typeof(n11.ViewProjection_BFt6w4HvpfiQJKL0qfUa1K), false)]
+[assembly: n1.TypeImportAttribute("View", "Stride.Rendering.ShaderFX.Variables.TransformationKeys", typeof(n11.View_JqYJljwe1YxL3UpME66a1o), typeof(n11.View_JqYJljwe1YxL3UpME66a1o), false)]
+[assembly: n1.TypeImportAttribute("Projection", "Stride.Rendering.ShaderFX.Variables.TransformationKeys", typeof(n11.Projection_PA7S1QY4dsxOtyJ2sWdqSE), typeof(n11.Projection_PA7S1QY4dsxOtyJ2sWdqSE), false)]
+[assembly: n1.TypeImportAttribute("WorldView", "Stride.Rendering.ShaderFX.Variables.TransformationKeys", typeof(n11.WorldView_FEvbt0S3s9jLnqho6KUZEe), typeof(n11.WorldView_FEvbt0S3s9jLnqho6KUZEe), false)]
+[assembly: n1.TypeImportAttribute("Eye", "Stride.Rendering.ShaderFX.Variables.TransformationKeys", typeof(n11.Eye_PRPkHpZ7FstQU7lzvHjMli), typeof(n11.Eye_PRPkHpZ7FstQU7lzvHjMli), false)]
+[assembly: n1.TypeImportAttribute("x", "Stride.Rendering.ShaderFX.Variables", typeof(n9.x_HhNtYoSnzlhL6cFTluHxxO<>), typeof(n9.x_HhNtYoSnzlhL6cFTluHxxO<>), false)]
+[assembly: n1.TypeImportAttribute("y", "Stride.Rendering.ShaderFX.Variables", typeof(n9.y_V4Zy46sGhzUMu0mLVbFmo0<>), typeof(n9.y_V4Zy46sGhzUMu0mLVbFmo0<>), false)]
+[assembly: n1.TypeImportAttribute("z", "Stride.Rendering.ShaderFX.Variables", typeof(n9.z_QSutnfOCn3kOrMmnzbw9Ar<>), typeof(n9.z_QSutnfOCn3kOrMmnzbw9Ar<>), false)]
+[assembly: n1.TypeImportAttribute("w", "Stride.Rendering.ShaderFX.Variables", typeof(n9.w_SnejEVa2qw2NgW54alm1G4<>), typeof(n9.w_SnejEVa2qw2NgW54alm1G4<>), false)]
+[assembly: n1.TypeImportAttribute("r", "Stride.Rendering.ShaderFX.Variables", typeof(n9.r_IoKIq3QPdj5LVI9eEiWV1a<>), typeof(n9.r_IoKIq3QPdj5LVI9eEiWV1a<>), false)]
+[assembly: n1.TypeImportAttribute("g", "Stride.Rendering.ShaderFX.Variables", typeof(n9.g_Pk3C87Vwkd9Lo2viZMg7ou<>), typeof(n9.g_Pk3C87Vwkd9Lo2viZMg7ou<>), false)]
+[assembly: n1.TypeImportAttribute("b", "Stride.Rendering.ShaderFX.Variables", typeof(n9.b_MP5PFxVYo3rPueEvyoP76m<>), typeof(n9.b_MP5PFxVYo3rPueEvyoP76m<>), false)]
+[assembly: n1.TypeImportAttribute("a", "Stride.Rendering.ShaderFX.Variables", typeof(n9.a_PAHGUQ4zz0DNDBcaJgwciU<>), typeof(n9.a_PAHGUQ4zz0DNDBcaJgwciU<>), false)]
+[assembly: n1.TypeImportAttribute("POSITION", "Stride.Rendering.ShaderFX.Variables", typeof(n9.POSITION_AB8gsyg9BisLCAUXi4HUfn), typeof(n9.POSITION_AB8gsyg9BisLCAUXi4HUfn), false)]
+[assembly: n1.TypeImportAttribute("GetItemBuffer", "Stride.Rendering.ShaderFX.Buffer", typeof(n12.GetItemBuffer_G2DMWenfw22Mga5eArbGWN<>), typeof(n12.GetItemBuffer_G2DMWenfw22Mga5eArbGWN<>), false)]
+[assembly: n1.TypeImportAttribute("SetItemRWBuffer", "Stride.Rendering.ShaderFX.Buffer", typeof(n12.SetItemRWBuffer_JDQNdZOdfAwPAClNGRUjD2<>), typeof(n12.SetItemRWBuffer_JDQNdZOdfAwPAClNGRUjD2<>), false)]
+[assembly: n1.TypeImportAttribute("GetItemRWBuffer", "Stride.Rendering.ShaderFX.Buffer", typeof(n12.GetItemRWBuffer_IO4emvTsPrsOhL5TvX6F67<>), typeof(n12.GetItemRWBuffer_IO4emvTsPrsOhL5TvX6F67<>), false)]
+[assembly: n1.TypeImportAttribute("BufferIn", "Stride.Rendering.ShaderFX.Buffer", typeof(n12.BufferIn_LbPGVJpbBirPlbDA86HyvN), typeof(n12.BufferIn_LbPGVJpbBirPlbDA86HyvN), false)]
+[assembly: n1.TypeImportAttribute("Frac", "Stride.Rendering.ShaderFX.Operations", typeof(n13.Frac_EVmEJMzxu2OORuESzhZVa3<>), typeof(n13.Frac_EVmEJMzxu2OORuESzhZVa3<>), false)]
+[assembly: n1.TypeImportAttribute("*", "Stride.Rendering.ShaderFX.Operations", typeof(n13.OperatorMulitply_VBMyNtatVpwMyhKFHrKpuZ<>), typeof(n13.OperatorMulitply_VBMyNtatVpwMyhKFHrKpuZ<>), false)]
+[assembly: n1.TypeImportAttribute("Length", "Stride.Rendering.ShaderFX.Operations", typeof(n13.Length_RPr57cHcBQSPEMUD8OkqCX<>), typeof(n13.Length_RPr57cHcBQSPEMUD8OkqCX<>), false)]
+[assembly: n1.TypeImportAttribute("Distance", "Stride.Rendering.ShaderFX.Operations", typeof(n13.Distance_I6AGtNxs5poOQVH1qR0KZ7<>), typeof(n13.Distance_I6AGtNxs5poOQVH1qR0KZ7<>), false)]
+[assembly: n1.TypeImportAttribute("Transform", "Stride.Rendering.ShaderFX.Operations", typeof(n13.Transform_A8kd66GYo7COkrlNmdH1Tu<>), typeof(n13.Transform_A8kd66GYo7COkrlNmdH1Tu<>), false)]
+[assembly: n1.TypeImportAttribute("-", "Stride.Rendering.ShaderFX.Operations", typeof(n13.OperatorMinus_N1eoGpnDGOTNs5bEvboYvP<>), typeof(n13.OperatorMinus_N1eoGpnDGOTNs5bEvboYvP<>), false)]
+[assembly: n1.TypeImportAttribute("ReconstructPointCloud", "Stride.Rendering.ShaderFX.Operations.AzureKinect", typeof(n14.ReconstructPointCloud_HlVwNPJ7tKQMHWHoULemeK), typeof(n14.ReconstructPointCloud_HlVwNPJ7tKQMHWHoULemeK), false)]
+[assembly: n1.TypeImportAttribute("DivMod", "Stride.Rendering.ShaderFX.Operations", typeof(n13.DivMod_JkegECgIw51LBaPkbbN358), typeof(n13.DivMod_JkegECgIw51LBaPkbbN358), false)]
+[assembly: n1.TypeImportAttribute("Lerp", "Stride.Rendering.ShaderFX.Operations", typeof(n13.Lerp_Jdbzjadq65TOK0qonNgTKW<>), typeof(n13.Lerp_Jdbzjadq65TOK0qonNgTKW<>), false)]
+[assembly: n1.TypeImportAttribute("SmoothStep", "Stride.Rendering.ShaderFX.Operations", typeof(n13.SmoothStep_ArNxGrf1vXXPa8uIhBLpvS<>), typeof(n13.SmoothStep_ArNxGrf1vXXPa8uIhBLpvS<>), false)]
+[assembly: n1.TypeImportAttribute("+", "Stride.Rendering.ShaderFX.Operations", typeof(n13.OperatorPlus_PzqnaC37KDPOdTuZCUgGXD<>), typeof(n13.OperatorPlus_PzqnaC37KDPOdTuZCUgGXD<>), false)]
+[assembly: n1.TypeImportAttribute("/", "Stride.Rendering.ShaderFX.Operations", typeof(n13.OperatorDivide_C3Iq4kGNMbbQQnSow6u7Vu<>), typeof(n13.OperatorDivide_C3Iq4kGNMbbQQnSow6u7Vu<>), false)]
+[assembly: n1.TypeImportAttribute(">", "Stride.Rendering.ShaderFX.Operations", typeof(n13.OperatorGreater_UvQXl11dTe1QTI6sexabt4<>), typeof(n13.OperatorGreater_UvQXl11dTe1QTI6sexabt4<>), false)]
+[assembly: n1.TypeImportAttribute("BlendOp", "Stride.Rendering.ShaderFX.Operations", typeof(n13.BlendOp_Gg4gUVHOObnLietoehvV1h), typeof(n13.BlendOp_Gg4gUVHOObnLietoehvV1h), false)]
+[assembly: n1.TypeImportAttribute("TextureIn", "Stride.Rendering.ShaderFX.Texture", typeof(n15.TextureIn_OypDfnSaGa1OvYqvLU5EVc), typeof(n15.TextureIn_OypDfnSaGa1OvYqvLU5EVc), false)]
+[assembly: n1.TypeImportAttribute("SampleTexture", "Stride.Rendering.ShaderFX.Texture", typeof(n15.SampleTexture_BckflDe3bBbM1KG5LnQIxv<>), typeof(n15.SampleTexture_BckflDe3bBbM1KG5LnQIxv<>), false)]
+[assembly: n1.TypeImportAttribute("LoadTexture", "Stride.Rendering.ShaderFX.Texture", typeof(n15.LoadTexture_MKVvo4ReVWFMXpNSGba7WX<>), typeof(n15.LoadTexture_MKVvo4ReVWFMXpNSGba7WX<>), false)]
+[assembly: n1.TypeImportAttribute("SamplerIn", "Stride.Rendering.ShaderFX.Texture", typeof(n15.SamplerIn_CwsiBD2yjEVMKfFxOsIL7f), typeof(n15.SamplerIn_CwsiBD2yjEVMKfFxOsIL7f), false)]
+[assembly: n1.TypeImportAttribute("TextureVar", "Stride.Rendering.ShaderFX.Texture", typeof(n15.TextureVar_BckNr9qSGKVPeeUwIe249Z<>), typeof(n15.TextureVar_BckNr9qSGKVPeeUwIe249Z<>), false)]
+[assembly: n1.TypeImportAttribute("SampleLevelTexture", "Stride.Rendering.ShaderFX.Texture", typeof(n15.SampleLevelTexture_V47lZfFzfmCMnrmXfj7mGR<>), typeof(n15.SampleLevelTexture_V47lZfFzfmCMnrmXfj7mGR<>), false)]
+[assembly: n1.TypeImportAttribute("TestComputeFXGraph", "Stride.Rendering.ShaderFX", typeof(n8.TestComputeFXGraph_DSJME4xZ4ZKMX4f1kGAE2j), typeof(n8.TestComputeFXGraph_DSJME4xZ4ZKMX4f1kGAE2j), false)]
+[assembly: n1.TypeImportAttribute("TestDrawFXGraph", "Stride.Rendering.ShaderFX", typeof(n8.TestDrawFXGraph_L3hN8NYiZ0DM5JivUXSjvm), typeof(n8.TestDrawFXGraph_L3hN8NYiZ0DM5JivUXSjvm), false)]
+[assembly: n1.TypeImportAttribute("DrawFXGraph", "Stride.Rendering.ShaderFX", typeof(n8.DrawFXGraph_RP8JSPV9E8pOfIAXWLnuNj), typeof(n8.DrawFXGraph_RP8JSPV9E8pOfIAXWLnuNj), false)]
+[assembly: n1.TypeImportAttribute("ComputeFXGraph", "Stride.Rendering.ShaderFX", typeof(n8.ComputeFXGraph_K3i5QC1nierMTEBVlZkTNM), typeof(n8.ComputeFXGraph_K3i5QC1nierMTEBVlZkTNM), false)]
+[assembly: n1.TypeImportAttribute("Key", "Stride.Rendering.ShaderFX", typeof(n8.Key_AWYMMxlBKcqNnyCQRuSou4<>), typeof(n8.Key_AWYMMxlBKcqNnyCQRuSou4<>), false)]
+[assembly: n1.TypeImportAttribute("VarComputeColor", "Stride.Rendering.ShaderFX", typeof(n8.VarComputeColor_FSCj52SQHKmPGGl2KjWOJp), typeof(n8.VarComputeColor_FSCj52SQHKmPGGl2KjWOJp), false)]
+[assembly: n1.TypeImportAttribute("VarComputeFloat", "Stride.Rendering.ShaderFX", typeof(n8.VarComputeFloat_OHnQOdyVdzmQdQErxbNgmB), typeof(n8.VarComputeFloat_OHnQOdyVdzmQdQErxbNgmB), false)]
+[assembly: n1.TypeImportAttribute("TexCoordFromThreadId", "Stride.Rendering.ShaderFX.ComputeUtils", typeof(n16.TexCoordFromThreadId_AW4jsI3c0FsMneCLTgJKZ6), typeof(n16.TexCoordFromThreadId_AW4jsI3c0FsMneCLTgJKZ6), false)]
+[assembly: n1.TypeImportAttribute("GetLinearDispatchThreadId", "Stride.Rendering.ShaderFX.ComputeUtils", typeof(n16.GetLinearDispatchThreadId_Uszwkf7ihpQM8k1OiGwfaK), typeof(n16.GetLinearDispatchThreadId_Uszwkf7ihpQM8k1OiGwfaK), false)]
+[assembly: n1.TypeImportAttribute("SetDiffusePerInstance", "Stride.Rendering.ShaderFX", typeof(n8.SetDiffusePerInstance_OEXlHvhUpPxPuAnRRqDEWL), typeof(n8.SetDiffusePerInstance_OEXlHvhUpPxPuAnRRqDEWL), false)]
+[assembly: n1.TypeImportAttribute("In", "Stride.Rendering.ShaderFX", typeof(n8.In_SromQpaJXLRNMNYkxsg3gT<>), typeof(n8.In_SromQpaJXLRNMNYkxsg3gT<>), false)]
+[assembly: n1.TypeImportAttribute("ColorIn", "Stride.Rendering.ShaderFX", typeof(n8.ColorIn_PIa08bUbMAUNxfg1drwPs6), typeof(n8.ColorIn_PIa08bUbMAUNxfg1drwPs6), false)]
+[assembly: n1.TypeImportAttribute("Invoke", "Stride.Rendering.ShaderFX.Functions", typeof(n17.Invoke_KnW8E12q8UNLxq1dxB37ta<, >), typeof(n17.Invoke_KnW8E12q8UNLxq1dxB37ta<, >), false)]
+[assembly: n1.TypeImportAttribute("FunkBuilder", "Stride.Rendering.ShaderFX.Functions", typeof(n17.FunkBuilder_HTsQJB8IxYOP3xhCAxnY16<, >), typeof(n17.FunkBuilder_HTsQJB8IxYOP3xhCAxnY16<, >), false)]
+[assembly: n1.TypeImportAttribute("GenericComputeNode", "Stride.Rendering.ShaderFX", typeof(n18.GenericComputeNode<>), typeof(n18.GenericComputeNode<>), false)]
+[assembly: n1.TypeImportAttribute("InputValueSetter", "Stride.Rendering.ShaderFX.GenericComputeNode", typeof(n19.InputValueSetter_C<>), typeof(n19.InputValueSetter_C<>), false)]
+[assembly: n1.TypeImportAttribute("IInputSetter", "Stride.Rendering.ShaderFX.GenericComputeNode", typeof(n19.IInputSetter_I), null, false)]
+[assembly: n1.TypeImportAttribute("InputObjectSetter", "Stride.Rendering.ShaderFX.GenericComputeNode", typeof(n19.InputObjectSetter_C<>), typeof(n19.InputObjectSetter_C<>), false)]
+[assembly: n1.TypeImportAttribute("InputParameterManager", "Stride.Rendering.ShaderFX.GenericComputeNode", typeof(n19.InputParameterManager_HpWeyiCQXdAL3XMV9SvFj5), typeof(n19.InputParameterManager_HpWeyiCQXdAL3XMV9SvFj5), false)]
+[assembly: n1.TypeImportAttribute("Vector4 (Vector3)", "Stride.Rendering.ShaderFX", typeof(n8.Vector4_Vector3_KhNqItAnKUiMeMFjSQ1Elb), typeof(n8.Vector4_Vector3_KhNqItAnKUiMeMFjSQ1Elb), false)]
+[assembly: n1.TypeImportAttribute("CustomComputeDispatcher", "Stride.Rendering", typeof(n20.CustomComputeDispatcher_C), typeof(n20.CustomComputeDispatcher_C), false)]
+[assembly: n1.TypeImportAttribute("CustomEffect", "Stride.Rendering", typeof(n20.CustomEffect_C), typeof(n20.CustomEffect_C), false)]
+[assembly: n1.TypeImportAttribute("FullscreenQuadRenderer", "Stride.Rendering", typeof(n21.FullscreenQuadRenderer_BhJSftTYy1YMqMFg7MasQE), typeof(n21.FullscreenQuadRenderer_BhJSftTYy1YMqMFg7MasQE), false)]
+[assembly: n1.TypeImportAttribute("FullscreenQuadRenderer (Depth)", "Stride.Rendering", typeof(n21.FullscreenQuadRenderer_Depth_QIUqoNIVyNoO4gHRtlHj1X), typeof(n21.FullscreenQuadRenderer_Depth_QIUqoNIVyNoO4gHRtlHj1X), false)]
+[assembly: n1.TypeImportAttribute("PBRMaterial (Specular)", "Stride.Materials", typeof(n22.PBRMaterial_Specular_A7CvmwppwA5NxsyZyRArZ7), typeof(n22.PBRMaterial_Specular_A7CvmwppwA5NxsyZyRArZ7), false)]
+[assembly: n1.TypeImportAttribute("TextureMaterial", "Stride.Materials", typeof(n23.TextureMaterial_GcrZaZrLZ4ULleUejNKyEc), typeof(n23.TextureMaterial_GcrZaZrLZ4ULleUejNKyEc), false)]
+[assembly: n1.TypeImportAttribute("ColorMaterial", "Stride.Materials", typeof(n23.ColorMaterial_ACO3Uqp9Yc6MtJchUA03i9), typeof(n23.ColorMaterial_ACO3Uqp9Yc6MtJchUA03i9), false)]
+[assembly: n1.TypeImportAttribute("PBRMaterial", "Stride.Materials", typeof(n23.PBRMaterial_C), typeof(n23.PBRMaterial_C), false)]
+[assembly: n1.TypeImportAttribute("SetDiffuse", "Stride.Materials", typeof(n24.SetDiffuse_BtWcAinwfMxPAAt5VM96Uj), typeof(n24.SetDiffuse_BtWcAinwfMxPAAt5VM96Uj), false)]
+[assembly: n1.TypeImportAttribute("SetRoughness", "Stride.Materials", typeof(n24.SetRoughness_DiNi3f0iRgzQI7Bi3Q5zGd), typeof(n24.SetRoughness_DiNi3f0iRgzQI7Bi3Q5zGd), false)]
+[assembly: n1.TypeImportAttribute("SetMetalness", "Stride.Materials", typeof(n24.SetMetalness_SkMOchnl5FNQTEBxYS6a8B), typeof(n24.SetMetalness_SkMOchnl5FNQTEBxYS6a8B), false)]
+[assembly: n1.TypeImportAttribute("SetNormal", "Stride.Materials", typeof(n24.SetNormal_LvIXSEbtD7pQXscx8kIKgR), typeof(n24.SetNormal_LvIXSEbtD7pQXscx8kIKgR), false)]
+[assembly: n1.TypeImportAttribute("SetEmissive", "Stride.Materials", typeof(n24.SetEmissive_CtSNAWhlttAOwPoQcyMpxw), typeof(n24.SetEmissive_CtSNAWhlttAOwPoQcyMpxw), false)]
+[assembly: n1.TypeImportAttribute("SetDisplacement", "Stride.Materials", typeof(n24.SetDisplacement_U3mIjEjSexYQXOMVq0SnrL), typeof(n24.SetDisplacement_U3mIjEjSexYQXOMVq0SnrL), false)]
+[assembly: n1.TypeImportAttribute("SetOcclusion", "Stride.Materials", typeof(n24.SetOcclusion_QXtW9kBuvp2PE8UUwBqV6r), typeof(n24.SetOcclusion_QXtW9kBuvp2PE8UUwBqV6r), false)]
+[assembly: n1.TypeImportAttribute("SetTransparency", "Stride.Materials", typeof(n24.SetTransparency_HdBWZW0vOLYPIhzqAWs6fx), typeof(n24.SetTransparency_HdBWZW0vOLYPIhzqAWs6fx), false)]
+[assembly: n1.TypeImportAttribute("SetSubsurfaceScattering", "Stride.Materials", typeof(n24.SetSubsurfaceScattering_R0jbImIZHbwLHE0QqT9mQr), typeof(n24.SetSubsurfaceScattering_R0jbImIZHbwLHE0QqT9mQr), false)]
+[assembly: n1.TypeImportAttribute("SetMaterialAttribute", "Stride.Materials", typeof(n24.SetMaterialAttribute_O8mKyh2nzQQO04VykvC7Li), typeof(n24.SetMaterialAttribute_O8mKyh2nzQQO04VykvC7Li), false)]
+[assembly: n1.TypeImportAttribute("ValueMap", "Stride.Materials.Inputs", typeof(n25.ValueMap_MSDYzfiuxQTMHIqVDSqrQu), typeof(n25.ValueMap_MSDYzfiuxQTMHIqVDSqrQu), false)]
+[assembly: n1.TypeImportAttribute("ColorMap", "Stride.Materials.Inputs", typeof(n25.ColorMap_KOxQ1z1ZXvlODfQvuwEtGx), typeof(n25.ColorMap_KOxQ1z1ZXvlODfQvuwEtGx), false)]
+[assembly: n1.TypeImportAttribute("ValueIn", "Stride.Materials.Inputs", typeof(n25.ValueIn_US2bH9obYbZLFLgSaZJrIl), typeof(n25.ValueIn_US2bH9obYbZLFLgSaZJrIl), false)]
+[assembly: n1.TypeImportAttribute("ColorIn", "Stride.Materials.Inputs", typeof(n25.ColorIn_FJoAunb6ndhPhaVQtnyUOJ), typeof(n25.ColorIn_FJoAunb6ndhPhaVQtnyUOJ), false)]
+[assembly: n1.TypeImportAttribute("ColorPerInstance", "Stride.Materials.Inputs", typeof(n25.ColorPerInstance_NQz5iCetoSRM02WL9XZlpq<>), typeof(n25.ColorPerInstance_NQz5iCetoSRM02WL9XZlpq<>), false)]
+[assembly: n1.TypeImportAttribute("ValuePerInstance", "Stride.Materials.Inputs", typeof(n25.ValuePerInstance_C3O7jTdZIFEN0KbBEzwujR<>), typeof(n25.ValuePerInstance_C3O7jTdZIFEN0KbBEzwujR<>), false)]
+[assembly: n1.TypeImportAttribute("PBRMaterial (Metallic)", "Stride.Materials", typeof(n23.PBRMaterial_Metallic_FiHTnsXENg8Pe4uJCxGwGT), typeof(n23.PBRMaterial_Metallic_FiHTnsXENg8Pe4uJCxGwGT), false)]
+[assembly: n1.TypeImportAttribute("VL.Stride.Rendering.ShaderFXApplication", "Stride", typeof(n26.VL_Stride_Rendering_ShaderFXApplication_U6vd7MA9h1ZQcPz63aoyUC), typeof(n26.VL_Stride_Rendering_ShaderFXApplication_U6vd7MA9h1ZQcPz63aoyUC), false)]
+[assembly: n1.TypeImportAttribute("BrightFilter", "Stride.Textures.Filter", typeof(n27.BrightFilter_Oe7tegq1obkONdqlU5NVZG), typeof(n27.BrightFilter_Oe7tegq1obkONdqlU5NVZG), false)]
+[assembly: n1.TypeImportAttribute("FXAA", "Stride.Textures.Filter", typeof(n27.FXAA_IDPuh5sP2lXNbcfVcVbXdB), typeof(n27.FXAA_IDPuh5sP2lXNbcfVcVbXdB), false)]
+[assembly: n1.TypeImportAttribute("GaussianBlur", "Stride.Textures.Filter", typeof(n27.GaussianBlur_HwlDvBwIe1hNuaDhyskust), typeof(n27.GaussianBlur_HwlDvBwIe1hNuaDhyskust), false)]
+[assembly: n1.TypeImportAttribute("Bloom", "Stride.Textures.Filter", typeof(n27.Bloom_HB0NfEHHDypNbgKEAZZGL8), typeof(n27.Bloom_HB0NfEHHDypNbgKEAZZGL8), false)]
+[assembly: n1.TypeImportAttribute("DirectionalBlur", "Stride.Textures.Filter", typeof(n28.DirectionalBlur_JQMxtk4r0EVPNzXMfWWGlS), typeof(n28.DirectionalBlur_JQMxtk4r0EVPNzXMfWWGlS), false)]
+[assembly: n1.TypeImportAttribute("Glow", "Stride.Textures.Filter", typeof(n28.Glow_Hz2rlbtqlofLP8AQAVPqLb), typeof(n28.Glow_Hz2rlbtqlofLP8AQAVPqLb), false)]
+[assembly: n1.TypeImportAttribute("Blur", "Stride.Textures.Filter", typeof(n28.Blur_C), typeof(n28.Blur_C), false)]
+[assembly: n1.TypeImportAttribute("Blend", "Stride.Textures.Mixer", typeof(n29.Blend_AFu86hoz4AgPNxFpUGXY6q), typeof(n29.Blend_AFu86hoz4AgPNxFpUGXY6q), false)]
+[assembly: n1.TypeImportAttribute("TextureFXBase", "Stride.Textures.Utils", typeof(n30.TextureFXBase_DjzETyjdqw1NI0YIhMLrmb), typeof(n30.TextureFXBase_DjzETyjdqw1NI0YIhMLrmb), false)]
+[assembly: n1.TypeImportAttribute("TextureFXDrawer", "Stride.Textures.Utils", typeof(n30.TextureFXDrawer_C), typeof(n30.TextureFXDrawer_C), false)]
+[assembly: n1.TypeImportAttribute("RenderTargetFromInput", "Stride.Textures.Utils", typeof(n30.RenderTargetFromInput_TQTuf7FUMdCMBja7wK8kVh), typeof(n30.RenderTargetFromInput_TQTuf7FUMdCMBja7wK8kVh), false)]
+[assembly: n1.TypeImportAttribute("RenderTargetFrom2Inputs", "Stride.Textures.Utils", typeof(n30.RenderTargetFrom2Inputs_HoI1m5RbT1KL8Qev8rb3S3), typeof(n30.RenderTargetFrom2Inputs_HoI1m5RbT1KL8Qev8rb3S3), false)]
+[assembly: n1.TypeImportAttribute("TextureFXGraph", "Stride.Textures.Utils", typeof(n30.TextureFXGraph_PJIIm3Cdxn0PvwywMQZ6ha), typeof(n30.TextureFXGraph_PJIIm3Cdxn0PvwywMQZ6ha), false)]
+[assembly: n1.TypeImportAttribute("Resize (Relative)", "Stride.Textures.Utils", typeof(n31.Resize_Relative_C), typeof(n31.Resize_Relative_C), false)]
+[assembly: n1.TypeImportAttribute("Crop (Relative)", "Stride.Textures.Utils", typeof(n31.Crop_Relative_C), typeof(n31.Crop_Relative_C), false)]
+[assembly: n1.TypeImportAttribute("Crop", "Stride.Textures.Utils", typeof(n31.Crop_C), typeof(n31.Crop_C), false)]
+[assembly: n1.TypeImportAttribute("ChangeFormat", "Stride.Textures.Utils", typeof(n31.ChangeFormat_RrwOcCmgdsKOgmTkIHE6fV), typeof(n31.ChangeFormat_RrwOcCmgdsKOgmTkIHE6fV), false)]
+[assembly: n1.TypeImportAttribute("Feedback", "Stride.Textures.Utils", typeof(n31.Feedback_NPAHlPHnYkaLnenemMS3ba), typeof(n31.Feedback_NPAHlPHnYkaLnenemMS3ba), false)]
+[assembly: n1.TypeImportAttribute("Electricity", "Stride.Textures.Source", typeof(n32.Electricity_C), typeof(n32.Electricity_C), false)]
+[assembly: n1.TypeImportAttribute("VL.Stride.Rendering.TextureFXApplication", "Stride.Textures", typeof(n33.VL_Stride_Rendering_TextureFXApplication_U6vd7MA9h1ZQcPz63aoyUC), typeof(n33.VL_Stride_Rendering_TextureFXApplication_U6vd7MA9h1ZQcPz63aoyUC), false)]
+[assembly: n1.TypeImportAttribute("GameProvider", "Stride.Utils", typeof(n34.GameProvider_Pd38wXWKEIYP1l5KGR7wKt), typeof(n34.GameProvider_Pd38wXWKEIYP1l5KGR7wKt), false)]
+[assembly: n1.TypeImportAttribute("GenerateNormals", "Stride.Utils", typeof(n35.GenerateNormals_OLrjeOHyHhSPs3wLZNXgF2), typeof(n35.GenerateNormals_OLrjeOHyHhSPs3wLZNXgF2), false)]
+[assembly: n1.TypeImportAttribute("GridIndices", "Stride.Utils", typeof(n35.GridIndices_H2iey90hQtDLpqW8HR9tUg), typeof(n35.GridIndices_H2iey90hQtDLpqW8HR9tUg), false)]
+[assembly: n1.TypeImportAttribute("RayRenderer", "Stride.Models.Meshes", typeof(n36.RayRenderer_HkylqJXhenPPFjQBACIy86), typeof(n36.RayRenderer_HkylqJXhenPPFjQBACIy86), false)]
+[assembly: n1.TypeImportAttribute("LineRenderer", "Stride.Models.Meshes", typeof(n36.LineRenderer_QTkIhYJAe5wQLT6dacqbDi), typeof(n36.LineRenderer_QTkIhYJAe5wQLT6dacqbDi), false)]
+[assembly: n1.TypeImportAttribute("BoxFrameRenderer", "Stride.Models.Meshes", typeof(n36.BoxFrameRenderer_KnIeAhvGyP7OturynhaRbP), typeof(n36.BoxFrameRenderer_KnIeAhvGyP7OturynhaRbP), false)]
+[assembly: n1.TypeImportAttribute("AxisRenderer", "Stride.Models.Meshes", typeof(n36.AxisRenderer_Rl7n8bbU7VcNlMrO3hNPfM), typeof(n36.AxisRenderer_Rl7n8bbU7VcNlMrO3hNPfM), false)]
+[assembly: n1.TypeImportAttribute("AxisAndGridRenderer", "Stride.Models.Meshes", typeof(n36.AxisAndGridRenderer_RRQcBWAYpcdOUpU0QSEDtQ), typeof(n36.AxisAndGridRenderer_RRQcBWAYpcdOUpU0QSEDtQ), false)]
+[assembly: n1.TypeImportAttribute("CircleRenderer", "Stride.Models.Meshes", typeof(n36.CircleRenderer_Ep481ZnVIqPPkOl0tT2nWX), typeof(n36.CircleRenderer_Ep481ZnVIqPPkOl0tT2nWX), false)]
+[assembly: n1.TypeImportAttribute("RectangleRenderer", "Stride.Models.Meshes", typeof(n36.RectangleRenderer_LI7DwO3sFeaNexkXIHYg3r), typeof(n36.RectangleRenderer_LI7DwO3sFeaNexkXIHYg3r), false)]
+[assembly: n1.TypeImportAttribute("QuadRenderer", "Stride.Models.Meshes", typeof(n36.QuadRenderer_THN6uQm7kG3OaRum91XHwL), typeof(n36.QuadRenderer_THN6uQm7kG3OaRum91XHwL), false)]
+[assembly: n1.TypeImportAttribute("ArrowRenderer", "Stride.Models.Meshes", typeof(n36.ArrowRenderer_KNKDF7wyyK9LxCfeS3EoyX), typeof(n36.ArrowRenderer_KNKDF7wyyK9LxCfeS3EoyX), false)]
+[assembly: n1.TypeImportAttribute("TextureAspectRatio", "Stride.Models.Meshes", typeof(n36.TextureAspectRatio_P9BkP275uGvL39T9QpWJdD), typeof(n36.TextureAspectRatio_P9BkP275uGvL39T9QpWJdD), false)]
+[assembly: n1.TypeImportAttribute("CameraFrustumRenderer", "Stride.Models.Meshes", typeof(n36.CameraFrustumRenderer_RMy8liSCtzxO74oqZmIQDt), typeof(n36.CameraFrustumRenderer_RMy8liSCtzxO74oqZmIQDt), false)]
+[assembly: n1.TypeImportAttribute("DynamicMesh", "Stride.Models.Meshes", typeof(n37.DynamicMesh_Fd66B6dyBAKPRQRsZleAEU<>), typeof(n37.DynamicMesh_Fd66B6dyBAKPRQRsZleAEU<>), false)]
+[assembly: n1.TypeImportAttribute("PointMesh", "Stride.Models.Meshes", typeof(n37.PointMesh_OEyfwkPGeIcNf2eZ70d5mM), typeof(n37.PointMesh_OEyfwkPGeIcNf2eZ70d5mM), false)]
+[assembly: n1.TypeImportAttribute("DynamicBufferMesh", "Stride.Models.Meshes", typeof(n37.DynamicBufferMesh_IfYOPGebb5DP6BQvVBuFVN), typeof(n37.DynamicBufferMesh_IfYOPGebb5DP6BQvVBuFVN), false)]
+[assembly: n1.TypeImportAttribute("NullMesh", "Stride.Models.Meshes", typeof(n38.NullMesh_RVhRxaDLhacPJItJYT8T62), typeof(n38.NullMesh_RVhRxaDLhacPJItJYT8T62), false)]
+[assembly: n1.TypeImportAttribute("DynamicMesh (Indexed)", "Stride.Models.Meshes", typeof(n37.DynamicMesh_Indexed_OpsqMbvJ911LsisFUqPGJJ<, >), typeof(n37.DynamicMesh_Indexed_OpsqMbvJ911LsisFUqPGJJ<, >), false)]
+[assembly: n1.TypeImportAttribute("DynamicMesh (Old)", "Stride.Models.Meshes", typeof(n39.DynamicMesh_Old_EfBs2FfdYY1PZv5Zq9pckw<>), typeof(n39.DynamicMesh_Old_EfBs2FfdYY1PZv5Zq9pckw<>), false)]
+[assembly: n1.TypeImportAttribute("MeshSplit (Pos3Norm3Tex2Tan4)", "Stride.Models.Meshes", typeof(n37.MeshSplit_Pos3Norm3Tex2Tan4_Tj1btt94kbCNyi1avhvhlm), typeof(n37.MeshSplit_Pos3Norm3Tex2Tan4_Tj1btt94kbCNyi1avhvhlm), false)]
+[assembly: n1.TypeImportAttribute("MeshSplit (Pos3)", "Stride.Models.Meshes", typeof(n37.MeshSplit_Pos3_J7zO7GXeJTFPhJSWF7DIna), typeof(n37.MeshSplit_Pos3_J7zO7GXeJTFPhJSWF7DIna), false)]
+[assembly: n1.TypeImportAttribute("MeshSplit (Pos3Norm3)", "Stride.Models.Meshes", typeof(n37.MeshSplit_Pos3Norm3_JWKeh6jFHM3OLMw1Qcqf5y), typeof(n37.MeshSplit_Pos3Norm3_JWKeh6jFHM3OLMw1Qcqf5y), false)]
+[assembly: n1.TypeImportAttribute("MeshSplit (Pos3Norm3Tex2)", "Stride.Models.Meshes", typeof(n37.MeshSplit_Pos3Norm3Tex2_LyiOIAVkJQPL66gywV3ue5), typeof(n37.MeshSplit_Pos3Norm3Tex2_LyiOIAVkJQPL66gywV3ue5), false)]
+[assembly: n1.TypeImportAttribute("MeshDescription", "Stride.Models.Meshes", typeof(n37.MeshDescription_RKfY4S4pFVgPbOtcJiOfov), typeof(n37.MeshDescription_RKfY4S4pFVgPbOtcJiOfov), false)]
+[assembly: n1.TypeImportAttribute("ObjWriter", "Stride.Models.Meshes", typeof(n37.ObjWriter_FjTZsY4LViQQHvGRIlNt68), typeof(n37.ObjWriter_FjTZsY4LViQQHvGRIlNt68), false)]
+[assembly: n1.TypeImportAttribute("MeshModel", "Stride.Models", typeof(n40.MeshModel_IM96OF8Pn3tLaQml9JGZT1), typeof(n40.MeshModel_IM96OF8Pn3tLaQml9JGZT1), false)]
+[assembly: n1.TypeImportAttribute("MeshesModel", "Stride.Models", typeof(n40.MeshesModel_KOnZfTNahQJLdCySJm4w2D), typeof(n40.MeshesModel_KOnZfTNahQJLdCySJm4w2D), false)]
+[assembly: n1.TypeImportAttribute("WithMaterials", "Stride.Models", typeof(n40.WithMaterials_KbwMyFGOXtyOhAzUhwBjbu), typeof(n40.WithMaterials_KbwMyFGOXtyOhAzUhwBjbu), false)]
+[assembly: n1.TypeImportAttribute("Clone", "Stride.Models", typeof(n40.Clone_Twt6x2fzMFGOgj0o8jWJod), typeof(n40.Clone_Twt6x2fzMFGOgj0o8jWJod), false)]
+[assembly: n1.TypeImportAttribute("GetMeshes", "Stride.Models", typeof(n40.GetMeshes_NgeDyecmCGBLix3yKPmgDl), typeof(n40.GetMeshes_NgeDyecmCGBLix3yKPmgDl), false)]
+[assembly: n1.TypeImportAttribute("MeshRenderer", "Stride.Rendering", typeof(n41.MeshRenderer_C), typeof(n41.MeshRenderer_C), false)]
+[assembly: n1.TypeImportAttribute("Group", "Stride.Rendering", typeof(n41.Group_JjpUJ7D6yd9L6tZwkMXdAR), typeof(n41.Group_JjpUJ7D6yd9L6tZwkMXdAR), false)]
+[assembly: n1.TypeImportAttribute("ClearRenderer", "Stride.Rendering", typeof(n41.ClearRenderer_B1CQpAq5dHNM2uOtdgvpjR), typeof(n41.ClearRenderer_B1CQpAq5dHNM2uOtdgvpjR), false)]
+[assembly: n1.TypeImportAttribute("CustomRenderer", "Stride.Rendering", typeof(n41.CustomRenderer_HTctHQlJa4ONbqGCvAfnmU<>), typeof(n41.CustomRenderer_HTctHQlJa4ONbqGCvAfnmU<>), false)]
+[assembly: n1.TypeImportAttribute("WithViewProjection", "Stride.Rendering", typeof(n41.WithViewProjection_GwV1CTYuwHpOJtL0TzeMbn), typeof(n41.WithViewProjection_GwV1CTYuwHpOJtL0TzeMbn), false)]
+[assembly: n1.TypeImportAttribute("RenderView", "Stride.Rendering", typeof(n41.RenderView_NalvfCkTVBPN12jxpmho9b), typeof(n41.RenderView_NalvfCkTVBPN12jxpmho9b), false)]
+[assembly: n1.TypeImportAttribute("CopyTextureRenderer", "Stride.Rendering", typeof(n41.CopyTextureRenderer_C), typeof(n41.CopyTextureRenderer_C), false)]
+[assembly: n1.TypeImportAttribute("DebugTextRenderer", "Stride.Rendering", typeof(n41.DebugTextRenderer_C), typeof(n41.DebugTextRenderer_C), false)]
+[assembly: n1.TypeImportAttribute("DebugTextRenderer3DOld", "Stride.Rendering", typeof(n41.DebugTextRenderer3DOld_C), typeof(n41.DebugTextRenderer3DOld_C), false)]
+[assembly: n1.TypeImportAttribute("WithTransformation", "Stride.Rendering", typeof(n41.WithTransformation_Swqx6l6eL57QEVZVEK0GMD), typeof(n41.WithTransformation_Swqx6l6eL57QEVZVEK0GMD), false)]
+[assembly: n1.TypeImportAttribute("Enabled", "Stride.Rendering", typeof(n41.Enabled_HeIGGEpogi3NSlODRIa6dv), typeof(n41.Enabled_HeIGGEpogi3NSlODRIa6dv), false)]
+[assembly: n1.TypeImportAttribute("Group (Spectral)", "Stride.Rendering", typeof(n42.GraphicsRendererGroup), typeof(n43._Operations_), false)]
+[assembly: n1.TypeImportAttribute("CopyCounterRenderer", "Stride.Rendering", typeof(n44.CopyCounterRenderer_C), typeof(n44.CopyCounterRenderer_C), false)]
+[assembly: n1.TypeImportAttribute("TextureToImage", "Stride.Textures", typeof(n45.TextureToImage_V5rkdEbku2xLhp2yiawFb9), typeof(n45.TextureToImage_V5rkdEbku2xLhp2yiawFb9), false)]
+[assembly: n1.TypeImportAttribute("ImageToTexture", "Stride.Textures", typeof(n45.ImageToTexture_UoxjU2XizqrOp4tLrthtoQ), typeof(n45.ImageToTexture_UoxjU2XizqrOp4tLrthtoQ), false)]
+[assembly: n1.TypeImportAttribute("ReadBackTexture", "Stride.Textures", typeof(n46.ReadBackTexture_GQP3tvG4YN6Nq4eGbxf7kT<>), typeof(n46.ReadBackTexture_GQP3tvG4YN6Nq4eGbxf7kT<>), false)]
+[assembly: n1.TypeImportAttribute("CopyTexture", "Stride.Textures", typeof(n45.CopyTexture_UGdw4Tvemx5QK60AS7AHcT), typeof(n45.CopyTexture_UGdw4Tvemx5QK60AS7AHcT), false)]
+[assembly: n1.TypeImportAttribute("TextureQueue", "Stride.Textures", typeof(n45.TextureQueue_GZJJW0WG84XOekDeZqK4yE), typeof(n45.TextureQueue_GZJJW0WG84XOekDeZqK4yE), false)]
+[assembly: n1.TypeImportAttribute("TextureWriter", "Stride.Textures", typeof(n45.TextureWriter_JxlPbXDCEoNPBOO4zIeoGa), typeof(n45.TextureWriter_JxlPbXDCEoNPBOO4zIeoGa), false)]
+[assembly: n1.TypeImportAttribute("TextureEncoder", "Stride.Textures", typeof(n45.TextureEncoder_QGddLvsRvQaMACY6nS4ebC), typeof(n45.TextureEncoder_QGddLvsRvQaMACY6nS4ebC), false)]
+[assembly: n1.TypeImportAttribute("TextureDecoder", "Stride.Textures", typeof(n45.TextureDecoder_R7jpbgwgsR9OajttTZiANS), typeof(n45.TextureDecoder_R7jpbgwgsR9OajttTZiANS), false)]
+[assembly: n1.TypeImportAttribute("AlphaChannel", "Stride.Textures.Filter", typeof(n47.AlphaChannel), null, true)]
+[assembly: n1.TypeImportAttribute("BumpType", "Stride.Textures.Filter", typeof(n47.BumpType), null, true)]
+[assembly: n1.TypeImportAttribute("ChannelKeyingType", "Stride.Textures.Filter", typeof(n47.ChannelKeyingType), null, true)]
+[assembly: n1.TypeImportAttribute("ConvertColorType", "Stride.Textures.Filter", typeof(n47.ConvertColorType), null, true)]
+[assembly: n1.TypeImportAttribute("CoordinatesType", "Stride.Textures.Filter", typeof(n47.CoordinatesType), null, true)]
+[assembly: n1.TypeImportAttribute("GlowType", "Stride.Textures.Filter", typeof(n47.GlowType), null, true)]
+[assembly: n1.TypeImportAttribute("LevelsClampType", "Stride.Textures.Filter", typeof(n47.LevelsClampType), null, true)]
+[assembly: n1.TypeImportAttribute("LomographType", "Stride.Textures.Filter", typeof(n47.LomographType), null, true)]
+[assembly: n1.TypeImportAttribute("MapColorType", "Stride.Textures.Filter", typeof(n47.MapColorType), null, true)]
+[assembly: n1.TypeImportAttribute("TunnelType", "Stride.Textures.Filter", typeof(n47.TunnelType), null, true)]
+[assembly: n1.TypeImportAttribute("BlurPasses", "Stride.Textures.Filter", typeof(n47.BlurPasses), null, true)]
+[assembly: n1.TypeImportAttribute("HaloType", "Stride.Textures.Source", typeof(n47.HaloType), null, true)]
+[assembly: n1.TypeImportAttribute("NoiseType", "Stride.Textures.Source", typeof(n47.NoiseType), null, true)]
+[assembly: n1.TypeImportAttribute("PaletteType", "Stride.Textures.Source", typeof(n47.PaletteType), null, true)]
+[assembly: n1.TypeImportAttribute("TextureChannel", "Stride.Textures.Utils", typeof(n47.TextureChannel), null, true)]
+[assembly: n1.TypeImportAttribute("RoundingType", "Stride.Textures.Utils", typeof(n47.RoundingType), null, true)]
+[assembly: n1.TypeImportAttribute("ResizeInterpolationType", "Stride.Textures.Utils", typeof(n47.ResizeInterpolationType), null, true)]
+[assembly: n1.TypeImportAttribute("ReadBackBuffer", "Stride.Buffers", typeof(n48.ReadBackBuffer_LDYyNy9GNrCPqD5w3TYk8x<>), typeof(n48.ReadBackBuffer_LDYyNy9GNrCPqD5w3TYk8x<>), false)]
+[assembly: n1.TypeImportAttribute("VL.Stride.RenderingApplication", "Stride", typeof(n49.VL_Stride_RenderingApplication_MEUrO1h9DC5P3cKcQnSROq), typeof(n49.VL_Stride_RenderingApplication_MEUrO1h9DC5P3cKcQnSROq), false)]
 [assembly: n1.TypeImportAttribute("VertexDeclaration", "Stride.API.Graphics", typeof(n50.VertexDeclaration), typeof(n50.VertexDeclaration), false)]
 [assembly: n1.TypeImportAttribute("Pos4", "Stride.API.Graphics.VertexDeclaration", typeof(n51.Pos4_VRjiXKBp4VDPqPzXrIixwv), typeof(n51.Pos4_VRjiXKBp4VDPqPzXrIixwv), false)]
 [assembly: n1.TypeImportAttribute("Pos3Norm3Tex2", "Stride.API.Graphics.VertexDeclaration", typeof(n51.Pos3Norm3Tex2_T5nlQ9NTaLdQAGRzwKUdRc), typeof(n51.Pos3Norm3Tex2_T5nlQ9NTaLdQAGRzwKUdRc), false)]
@@ -478,9 +478,9 @@ using n112 = _VL_Stride_Engine_.Stride.Rendering.AdditionalSceneTexture.Internal
 [assembly: n1.TypeImportAttribute("ShaderClassCode", "Stride.API.Shaders", typeof(n72.ShaderClassCode), null, false)]
 [assembly: n1.TypeImportAttribute("ShaderClassSource", "Stride.API.Shaders", typeof(n72.ShaderClassSource), typeof(n72.ShaderClassSource), false)]
 [assembly: n1.TypeImportAttribute("ShaderClassString", "Stride.API.Shaders", typeof(n72.ShaderClassString), typeof(n72.ShaderClassString), false)]
-[assembly: n1.TypeImportAttribute("GPU", "Stride.Rendering.ShaderFX", typeof(n41.SetVar<>), typeof(n41.SetVar<>), false)]
-[assembly: n1.TypeImportAttribute("Void", "Stride.Rendering.ShaderFX", typeof(n41.IComputeVoid), null, false)]
-[assembly: n1.TypeImportAttribute("IComputeValue", "Stride.Rendering.ShaderFX", typeof(n41.IComputeValue<>), null, false)]
+[assembly: n1.TypeImportAttribute("GPU", "Stride.Rendering.ShaderFX", typeof(n18.SetVar<>), typeof(n18.SetVar<>), false)]
+[assembly: n1.TypeImportAttribute("Void", "Stride.Rendering.ShaderFX", typeof(n18.IComputeVoid), null, false)]
+[assembly: n1.TypeImportAttribute("IComputeValue", "Stride.Rendering.ShaderFX", typeof(n18.IComputeValue<>), null, false)]
 [assembly: n1.TypeImportAttribute("GPUFunk (1 -> 1)", "Stride.Rendering.ShaderFX.Functions", typeof(n73.Funk1In1Out<, >), typeof(n73.Funk1In1Out<, >), false)]
 [assembly: n1.TypeImportAttribute("GPUFunk (2 -> 1)", "Stride.Rendering.ShaderFX.Functions", typeof(n73.Funk2In1Out<,, >), typeof(n73.Funk2In1Out<,, >), false)]
 [assembly: n1.TypeImportAttribute("IGPUFunkDefinition (1 -> 1)", "Stride.Rendering.ShaderFX.Functions", typeof(n73.IFunk1In1OutDefinition<, >), null, false)]
@@ -490,9 +490,9 @@ using n112 = _VL_Stride_Engine_.Stride.Rendering.AdditionalSceneTexture.Internal
 [assembly: n1.TypeImportAttribute("OpSDF", "Stride.Rendering.ShaderFX.Functions", typeof(n73.OpSDF), typeof(n73.OpSDF), false)]
 [assembly: n1.TypeImportAttribute("OpSF2D", "Stride.Rendering.ShaderFX.Functions", typeof(n73.OpSF2D), typeof(n73.OpSF2D), false)]
 [assembly: n1.TypeImportAttribute("IComputeNode", "Stride.Rendering.ShaderFX", typeof(n74.IComputeNode), null, false)]
-[assembly: n1.TypeImportAttribute("BlendOperator", "Stride.Rendering.ShaderFX", typeof(n41.BlendOperator), null, true)]
-[assembly: n1.TypeImportAttribute("IEffect", "Stride.Rendering", typeof(n23.IEffect), null, false)]
-[assembly: n1.TypeImportAttribute("RendererComponent", "Stride.Rendering", typeof(n23.EntityRendererComponent), typeof(n23.EntityRendererComponent), false)]
+[assembly: n1.TypeImportAttribute("BlendOperator", "Stride.Rendering.ShaderFX", typeof(n18.BlendOperator), null, true)]
+[assembly: n1.TypeImportAttribute("IEffect", "Stride.Rendering", typeof(n42.IEffect), null, false)]
+[assembly: n1.TypeImportAttribute("RendererComponent", "Stride.Rendering", typeof(n42.EntityRendererComponent), typeof(n42.EntityRendererComponent), false)]
 [assembly: n1.TypeImportAttribute("PredefinedSortMode", "Stride.Rendering", typeof(n75.PredefinedSortMode), null, true)]
 [assembly: n1.TypeImportAttribute("IComputeEffectDispatcher", "Stride.Rendering", typeof(n76.IComputeEffectDispatcher), null, false)]
 [assembly: n1.TypeImportAttribute("ISyncScript", "Stride.Engine", typeof(n77.ISyncScript), null, false)]
@@ -671,11 +671,11 @@ using n112 = _VL_Stride_Engine_.Stride.Rendering.AdditionalSceneTexture.Internal
 [assembly: n1.TypeImportAttribute("RenderTexture", "Stride", typeof(n110.RenderTexture_IYQobGzVbWEQYcMFud8H4J), typeof(n110.RenderTexture_IYQobGzVbWEQYcMFud8H4J), false)]
 [assembly: n1.TypeImportAttribute("VL.Stride.EngineApplication", "Stride", typeof(n110.VL_Stride_EngineApplication_OfoGgjpFBuQOO6WH36N2O3), typeof(n110.VL_Stride_EngineApplication_OfoGgjpFBuQOO6WH36N2O3), false)]
 [assembly: n1.TypeImportAttribute("VL.Stride.RuntimeApplication", "Stride", typeof(n121.VL_Stride_RuntimeApplication_SVC5xgUyUSrLhdrp2wZ8uC), typeof(n121.VL_Stride_RuntimeApplication_SVC5xgUyUSrLhdrp2wZ8uC), false)]
-[assembly: n1.AdaptiveImplementationsAttribute(typeof(n122.__AdaptiveImplementations__VCMcVJqu2AbNoidKDyIIxx))]
-[assembly: n1.AdaptiveImplementationsAttribute(typeof(n123.__AdaptiveImplementations__BzGvoB2aLhzP7WO4jVw5sI))]
-[assembly: n1.AdaptiveImplementationsAttribute(typeof(n124.__AdaptiveImplementations__NL6SEAZgmRHQPFCm3uYN3A))]
-[assembly: n1.AdaptiveImplementationsAttribute(typeof(n125.__AdaptiveImplementations__PwY6LKPeo6iO0yovVrdC7t))]
-[assembly: n1.AdaptiveImplementationsAttribute(typeof(n126.__AdaptiveImplementations__IeOwK5mcmYGQCVIub1SUlp))]
+[assembly: n1.AdaptiveImplementationsAttribute(typeof(n122.__AdaptiveImplementations__NL6SEAZgmRHQPFCm3uYN3A))]
+[assembly: n1.AdaptiveImplementationsAttribute(typeof(n123.__AdaptiveImplementations__VCMcVJqu2AbNoidKDyIIxx))]
+[assembly: n1.AdaptiveImplementationsAttribute(typeof(n124.__AdaptiveImplementations__IeOwK5mcmYGQCVIub1SUlp))]
+[assembly: n1.AdaptiveImplementationsAttribute(typeof(n125.__AdaptiveImplementations__BzGvoB2aLhzP7WO4jVw5sI))]
+[assembly: n1.AdaptiveImplementationsAttribute(typeof(n126.__AdaptiveImplementations__PwY6LKPeo6iO0yovVrdC7t))]
 [assembly: n1.AdaptiveImplementationsAttribute(typeof(n127.__AdaptiveImplementations__TiJxb2oN2LtNWRy2MbJV6Q))]
 [assembly: n1.AdaptiveImplementationsAttribute(typeof(n128.__AdaptiveImplementations__Dky5PMnuvcKN4CxmfNs7Uv))]
 [assembly: n1.AdaptiveImplementationsAttribute(typeof(n129.__AdaptiveImplementations__QuMTdtMDfhJOdxTx9ZFzce))]

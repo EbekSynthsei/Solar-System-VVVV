@@ -1,15 +1,15 @@
-﻿extern alias e5;
+﻿extern alias e2;
 
-using n4 = e5::VL.Core.CompilerServices;
 using n6 = global::System.Collections.Generic;
-using n1 = e5::VL.Core;
 using n3 = _System_Memory_.System.Advanced;
+using n1 = e2::VL.Core;
 using n2 = global::System;
+using n4 = e2::VL.Core.CompilerServices;
 using n5 = global::System.Runtime.CompilerServices;
 
 namespace _System_Memory_.System.Advanced
 {
-    [n1.ElementAttribute(TracingId = 260308U, DocumentId = "TbpIhqjOLSBPFhdxbH8kpm", PersistentId = "T71syYzZFaGPUlhLXsVdjN", Name = "System_MemoryApplication_T71syYzZFaGPUlhLXsVdjN")]
+    [n1.ElementAttribute(TracingId = 114341U, DocumentId = "TbpIhqjOLSBPFhdxbH8kpm", PersistentId = "T71syYzZFaGPUlhLXsVdjN", Name = "System_MemoryApplication_T71syYzZFaGPUlhLXsVdjN")]
     [n2.SerializableAttribute]
     public class System_MemoryApplication_T71syYzZFaGPUlhLXsVdjN : n1.VLObject, n2.IDisposable
     {
@@ -76,7 +76,7 @@ namespace _System_Memory_.System.Advanced
 
 namespace _System_Memory_.System.Memory.Advanced
 {
-    [n1.ElementAttribute(TracingId = 260099U, DocumentId = "TbpIhqjOLSBPFhdxbH8kpm", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 114050U, DocumentId = "TbpIhqjOLSBPFhdxbH8kpm", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
@@ -90,7 +90,7 @@ namespace _System_Memory_.System.Memory.Advanced
 
 namespace _System_Memory_.System.ReadOnlyMemory.Advanced
 {
-    [n1.ElementAttribute(TracingId = 260099U, DocumentId = "TbpIhqjOLSBPFhdxbH8kpm", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 114050U, DocumentId = "TbpIhqjOLSBPFhdxbH8kpm", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]
@@ -104,7 +104,7 @@ namespace _System_Memory_.System.ReadOnlyMemory.Advanced
 
 namespace _System_Memory_.System.IHasMemory.Advanced
 {
-    [n1.ElementAttribute(TracingId = 260099U, DocumentId = "TbpIhqjOLSBPFhdxbH8kpm", Name = "_Operations_")]
+    [n1.ElementAttribute(TracingId = 114050U, DocumentId = "TbpIhqjOLSBPFhdxbH8kpm", Name = "_Operations_")]
     public static partial class _Operations_
     {
         [n4.CreateDefaultAttribute]

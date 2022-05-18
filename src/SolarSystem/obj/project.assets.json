@@ -1408,6 +1408,15 @@
           "lib/net45/SharpDX.XInput.dll": {}
         }
       },
+      "SimMetricsCore/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/SimMetricsCore.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SimMetricsCore.dll": {}
+        }
+      },
       "SkiaSharp/2.80.3": {
         "type": "package",
         "dependencies": {
@@ -3588,6 +3597,30 @@
           "lib/net472/VL.EditingFramework.dll": {}
         }
       },
+      "VL.Fuse/0.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/Fuse.dll": {}
+        },
+        "runtime": {
+          "lib/Fuse.dll": {}
+        }
+      },
+      "VL.FuzzySearch/0.0.3-alpha": {
+        "type": "package",
+        "dependencies": {
+          "SimMetricsCore": "2.1.0"
+        }
+      },
+      "VL.HDE/2021.4.9-0971-g1d0a0c7789": {
+        "type": "package",
+        "compile": {
+          "lib/net472/VL.HDE.dll": {}
+        },
+        "runtime": {
+          "lib/net472/VL.HDE.dll": {}
+        }
+      },
       "VL.Lang/2021.4.9-0971-g1d0a0c7789": {
         "type": "package",
         "dependencies": {
@@ -3943,6 +3976,49 @@
           }
         }
       },
+      "VL.UI.PatchEditor.Utils/2021.4.9-0971-g1d0a0c7789": {
+        "type": "package",
+        "dependencies": {
+          "VL.Lang": "2021.4.9-0971-g1d0a0c7789",
+          "VL.Skia": "2021.4.9-0971-g1d0a0c7789",
+          "VL.UI.Core": "2021.4.9-0971-g1d0a0c7789"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.Win32.Primitives",
+          "System.AppContext",
+          "System.Console",
+          "System.Diagnostics.Tracing",
+          "System.Drawing.Primitives",
+          "System.Globalization.Calendars",
+          "System.IO",
+          "System.IO.Compression",
+          "System.IO.Compression.ZipFile",
+          "System.IO.FileSystem",
+          "System.IO.FileSystem.Primitives",
+          "System.IO.Pipes",
+          "System.Linq",
+          "System.Linq.Expressions",
+          "System.Net.Http",
+          "System.Net.Sockets",
+          "System.Reflection",
+          "System.Runtime",
+          "System.Runtime.Extensions",
+          "System.Runtime.InteropServices",
+          "System.Runtime.InteropServices.RuntimeInformation",
+          "System.Security.Cryptography.Algorithms",
+          "System.Security.Cryptography.Encoding",
+          "System.Security.Cryptography.Primitives",
+          "System.Security.Cryptography.X509Certificates",
+          "System.Text.RegularExpressions",
+          "System.Xml.ReaderWriter"
+        ],
+        "compile": {
+          "lib/net472/VL.UI.PatchEditor.Utils.dll": {}
+        },
+        "runtime": {
+          "lib/net472/VL.UI.PatchEditor.Utils.dll": {}
+        }
+      },
       "Vortice.Mathematics/1.3.3": {
         "type": "package",
         "dependencies": {
@@ -4037,6 +4113,64 @@
         },
         "runtime": {
           "bin/placeholder/VL.EditingFramework.vl.dll": {}
+        }
+      },
+      "VL.Fuse.vl/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "dependencies": {
+          "VL.App.WindowsForms": "2021.4.9-0971-g1d0a0c7789",
+          "VL.CoreLib.vl": "1.0.0",
+          "VL.EditingFramework.vl": "1.0.0",
+          "VL.Fuse": "0.2.0",
+          "VL.HDE.vl": "1.0.0",
+          "VL.Lang.vl": "1.0.0",
+          "VL.Skia.vl": "1.0.0",
+          "VL.Stride.Runtime.vl": "1.0.0",
+          "VL.Stride.Windows.vl": "1.0.0",
+          "VL.Stride.vl": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VL.Fuse.vl.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VL.Fuse.vl.dll": {}
+        }
+      },
+      "VL.FuzzySearch.vl/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "dependencies": {
+          "VL.App.WindowsForms": "2021.4.9-0971-g1d0a0c7789",
+          "VL.CoreLib.vl": "1.0.0",
+          "VL.FuzzySearch": "0.0.3-alpha"
+        },
+        "compile": {
+          "bin/placeholder/VL.FuzzySearch.vl.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VL.FuzzySearch.vl.dll": {}
+        }
+      },
+      "VL.HDE.vl/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "dependencies": {
+          "VL.App.WindowsForms": "2021.4.9-0971-g1d0a0c7789",
+          "VL.CoreLib.Windows.vl": "1.0.0",
+          "VL.CoreLib.vl": "1.0.0",
+          "VL.FuzzySearch.vl": "1.0.0",
+          "VL.HDE": "2021.4.9-0971-g1d0a0c7789",
+          "VL.Lang.vl": "1.0.0",
+          "VL.Skia.vl": "1.0.0",
+          "VL.UI.Core": "2021.4.9-0971-g1d0a0c7789",
+          "VL.UI.PatchEditor.Utils": "2021.4.9-0971-g1d0a0c7789"
+        },
+        "compile": {
+          "bin/placeholder/VL.HDE.vl.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VL.HDE.vl.dll": {}
         }
       },
       "VL.Lang.vl/1.0.0": {
@@ -5527,6 +5661,15 @@
         },
         "runtime": {
           "lib/net45/SharpDX.XInput.dll": {}
+        }
+      },
+      "SimMetricsCore/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/SimMetricsCore.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SimMetricsCore.dll": {}
         }
       },
       "SkiaSharp/2.80.3": {
@@ -7421,6 +7564,30 @@
           "lib/net472/VL.EditingFramework.dll": {}
         }
       },
+      "VL.Fuse/0.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/Fuse.dll": {}
+        },
+        "runtime": {
+          "lib/Fuse.dll": {}
+        }
+      },
+      "VL.FuzzySearch/0.0.3-alpha": {
+        "type": "package",
+        "dependencies": {
+          "SimMetricsCore": "2.1.0"
+        }
+      },
+      "VL.HDE/2021.4.9-0971-g1d0a0c7789": {
+        "type": "package",
+        "compile": {
+          "lib/net472/VL.HDE.dll": {}
+        },
+        "runtime": {
+          "lib/net472/VL.HDE.dll": {}
+        }
+      },
       "VL.Lang/2021.4.9-0971-g1d0a0c7789": {
         "type": "package",
         "dependencies": {
@@ -7767,6 +7934,49 @@
           }
         }
       },
+      "VL.UI.PatchEditor.Utils/2021.4.9-0971-g1d0a0c7789": {
+        "type": "package",
+        "dependencies": {
+          "VL.Lang": "2021.4.9-0971-g1d0a0c7789",
+          "VL.Skia": "2021.4.9-0971-g1d0a0c7789",
+          "VL.UI.Core": "2021.4.9-0971-g1d0a0c7789"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.Win32.Primitives",
+          "System.AppContext",
+          "System.Console",
+          "System.Diagnostics.Tracing",
+          "System.Drawing.Primitives",
+          "System.Globalization.Calendars",
+          "System.IO",
+          "System.IO.Compression",
+          "System.IO.Compression.ZipFile",
+          "System.IO.FileSystem",
+          "System.IO.FileSystem.Primitives",
+          "System.IO.Pipes",
+          "System.Linq",
+          "System.Linq.Expressions",
+          "System.Net.Http",
+          "System.Net.Sockets",
+          "System.Reflection",
+          "System.Runtime",
+          "System.Runtime.Extensions",
+          "System.Runtime.InteropServices",
+          "System.Runtime.InteropServices.RuntimeInformation",
+          "System.Security.Cryptography.Algorithms",
+          "System.Security.Cryptography.Encoding",
+          "System.Security.Cryptography.Primitives",
+          "System.Security.Cryptography.X509Certificates",
+          "System.Text.RegularExpressions",
+          "System.Xml.ReaderWriter"
+        ],
+        "compile": {
+          "lib/net472/VL.UI.PatchEditor.Utils.dll": {}
+        },
+        "runtime": {
+          "lib/net472/VL.UI.PatchEditor.Utils.dll": {}
+        }
+      },
       "Vortice.Mathematics/1.3.3": {
         "type": "package",
         "dependencies": {
@@ -7861,6 +8071,64 @@
         },
         "runtime": {
           "bin/placeholder/VL.EditingFramework.vl.dll": {}
+        }
+      },
+      "VL.Fuse.vl/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "dependencies": {
+          "VL.App.WindowsForms": "2021.4.9-0971-g1d0a0c7789",
+          "VL.CoreLib.vl": "1.0.0",
+          "VL.EditingFramework.vl": "1.0.0",
+          "VL.Fuse": "0.2.0",
+          "VL.HDE.vl": "1.0.0",
+          "VL.Lang.vl": "1.0.0",
+          "VL.Skia.vl": "1.0.0",
+          "VL.Stride.Runtime.vl": "1.0.0",
+          "VL.Stride.Windows.vl": "1.0.0",
+          "VL.Stride.vl": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VL.Fuse.vl.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VL.Fuse.vl.dll": {}
+        }
+      },
+      "VL.FuzzySearch.vl/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "dependencies": {
+          "VL.App.WindowsForms": "2021.4.9-0971-g1d0a0c7789",
+          "VL.CoreLib.vl": "1.0.0",
+          "VL.FuzzySearch": "0.0.3-alpha"
+        },
+        "compile": {
+          "bin/placeholder/VL.FuzzySearch.vl.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VL.FuzzySearch.vl.dll": {}
+        }
+      },
+      "VL.HDE.vl/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "dependencies": {
+          "VL.App.WindowsForms": "2021.4.9-0971-g1d0a0c7789",
+          "VL.CoreLib.Windows.vl": "1.0.0",
+          "VL.CoreLib.vl": "1.0.0",
+          "VL.FuzzySearch.vl": "1.0.0",
+          "VL.HDE": "2021.4.9-0971-g1d0a0c7789",
+          "VL.Lang.vl": "1.0.0",
+          "VL.Skia.vl": "1.0.0",
+          "VL.UI.Core": "2021.4.9-0971-g1d0a0c7789",
+          "VL.UI.PatchEditor.Utils": "2021.4.9-0971-g1d0a0c7789"
+        },
+        "compile": {
+          "bin/placeholder/VL.HDE.vl.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VL.HDE.vl.dll": {}
         }
       },
       "VL.Lang.vl/1.0.0": {
@@ -10055,6 +10323,18 @@
         "sharpdx.xinput.nuspec"
       ]
     },
+    "SimMetricsCore/2.1.0": {
+      "sha512": "v4RN45p8CiyVJynq8DvM4tRZ3GPMjfK2MPJIg2UOFyNuLBNztCp3Cz62ld5Q/R+goEmwrX065oqzWV8zEZSB9w==",
+      "type": "package",
+      "path": "simmetricscore/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/SimMetricsCore.dll",
+        "simmetricscore.2.1.0.nupkg.sha512",
+        "simmetricscore.nuspec"
+      ]
+    },
     "SkiaSharp/2.80.3": {
       "sha512": "qX6tGNP3+MXNYe2pKm0PCRiJ/cx+LTeLaggwZifB7sUMXhECfKKKHJq45VqZKt37xQegnCCdf1jHXwmHeJQs5Q==",
       "type": "package",
@@ -10519,6 +10799,9 @@
         "lib/net472/Stride.Core.Assets.CompilerApp.usrdoc",
         "lib/net472/Stride.Core.Assets.CompilerApp.xml",
         "lib/net472/global.json",
+        "lib/net472/log/shader_LambertianPrefilteringSHNoComputeEffectPass1_1c3923f7922ed8adac4b74952b5215b4.hlsl",
+        "lib/net472/log/shader_LambertianPrefilteringSHNoComputePass2_4260941ce61eb073584036c7c3703eb2.hlsl",
+        "lib/net472/log/shader_RadiancePrefilteringGGXNoComputeEffect_8275c76d611a2814d43b83fae801b030.hlsl",
         "lib/net5.0-windows7.0/Microsoft.Web.XmlTransform.dll",
         "lib/net5.0-windows7.0/Newtonsoft.Json.dll",
         "lib/net5.0-windows7.0/NuGet.Commands.dll",
@@ -16543,6 +16826,246 @@
         "vvvv/nodes/vl/Writer (3d BezierSpline) help.v4p.lnk"
       ]
     },
+    "VL.Fuse/0.2.0": {
+      "sha512": "VBpv3oZgwEvGA0RHhLkfx08kVZarshVkz4pWuU5OK9OIzRtwEwijvsSL8FsU/jPdlHDmmYlLjqQinmgUMQglIw==",
+      "type": "package",
+      "path": "vl.fuse/0.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "VL.Fuse.HDE.vl",
+        "VL.Fuse.vl",
+        "help/Book of Shaders/HowTo 00 Hello World.vl",
+        "help/Book of Shaders/HowTo 01 Uniform.vl",
+        "help/Book of Shaders/HowTo 02 gl_fragcoords Texcoords .vl",
+        "help/Book of Shaders/HowTo 03 shape functions .vl",
+        "help/Book of Shaders/HowTo 04 mixing color.vl",
+        "help/Book of Shaders/HowTo 05 HSB.vl",
+        "help/Book of Shaders/HowTo 06 circle.vl",
+        "help/Book of Shaders/HowTo 07 random.vl",
+        "help/Book of Shaders/HowTo 08 raymarch.vl",
+        "help/Color/HowTo Use palettes.vl",
+        "help/Color/Overview BlendModes.vl",
+        "help/Compute/Buffer/HowTo Use Compute Buffer.vl",
+        "help/Compute/Graph/HowTo Use Resources.vl",
+        "help/Compute/Texture/HowTo Compute Texture2D.vl",
+        "help/Compute/Texture/HowTo Compute Texture3D.vl",
+        "help/Fluid3D/Components/HowTo Use VolumeZGradientControl with 2D VectorField.vl",
+        "help/Fluid3D/Components/Reference ObstacleSDF.vl",
+        "help/Fluid3D/Components/Reference SphericalImpulse.vl",
+        "help/Fluid3D/Components/Reference Texture2DVectorField.vl",
+        "help/Fluid3D/Example Using Fluid3D with Particles.vl",
+        "help/Fluid3D/Example Using custom fluid attribute.vl",
+        "help/Fluid3D/Explanation Working with Fluids.vl",
+        "help/Fluid3D/HowTo Use Fluid3D.vl",
+        "help/Fluid3D/Reference Understanding simulation textures.vl",
+        "help/General/Example Fuse Hero Image.vl",
+        "help/General/Explanation Overview Swizzle.vl",
+        "help/General/Function/Explanation Implement a Functions.vl",
+        "help/General/Function/HowTo Access out and InOut Parameters.vl",
+        "help/General/Function/HowTo Pass Functions.vl",
+        "help/General/Function/HowTo Use Custom Functions.vl",
+        "help/General/HowTo Convert Cartesian To Polar and back.vl",
+        "help/General/HowTo Use Fuse To ShaderFx.vl",
+        "help/General/Texture/HowTo Sample Texture with Level Of Detail.vl",
+        "help/General/Texture/HowTo Sample Texture.vl",
+        "help/General/shaders/RemapMixin.vl",
+        "help/Geometry/HowTo Draw sphere imposters.vl",
+        "help/Geometry/HowTo Function based vertex displacment.vl",
+        "help/Material/HowTo Create a procedural bump map.vl",
+        "help/Material/HowTo Patch a Material.vl",
+        "help/Material/HowTo Use Fresnel.vl",
+        "help/Math/Reference Overview Shaping Functions.vl",
+        "help/Noise/Explanation Scalar and vector noises.vl",
+        "help/Noise/Explanation What are noise domain and co-domain.vl",
+        "help/Noise/Explanation What is Fractal Brownian Motion (FBM).vl",
+        "help/Noise/Explanation What is Worley Noise.vl",
+        "help/Noise/HowTo Use fbm.vl",
+        "help/Noise/HowTo Use noise as a heightmap.vl",
+        "help/Noise/HowTo Use noise for clip.vl",
+        "help/Noise/HowTo Use noise for displacement.vl",
+        "help/Noise/HowTo use noise for domain distortion.vl",
+        "help/Noise/Reference Noise node parameters.vl",
+        "help/Particles/General/HowTo Debug Buffers.vl",
+        "help/Particles/General/HowTo Fade Particle Size Based On Camera Pos.vl",
+        "help/Particles/General/HowTo Use Custom Color Target.vl",
+        "help/Particles/General/HowTo Use External Buffer Data.vl",
+        "help/Particles/General/HowTo Use Static Buffer For Drawing.vl",
+        "help/Particles/General/HowTo Use Static Buffer Input.vl",
+        "help/Particles/Rendering/HowTo Use Imposter Renderer.vl",
+        "help/Particles/Rendering/HowTo Use Line Renderer.vl",
+        "help/Particles/Rendering/HowTo Use Point Renderer For Visual Debug.vl",
+        "help/Particles/Simulation/How To place on sdf.vl",
+        "help/Particles/Simulation/HowTo Modulate force Strength.vl",
+        "help/Particles/Simulation/HowTo Use AlignedBoxClamp.vl",
+        "help/Particles/Simulation/HowTo Use AlignedBoxWrap.vl",
+        "help/Particles/Simulation/HowTo Use BrownianForce.vl",
+        "help/Particles/Simulation/HowTo Use Collision.vl",
+        "help/Particles/Simulation/HowTo Use ConformToSDF.vl",
+        "help/Particles/Simulation/HowTo Use ConformToSphere.vl",
+        "help/Particles/Simulation/HowTo Use CurlForce.vl",
+        "help/Particles/Simulation/HowTo Use Runge Kutta2 Integrator.vl",
+        "help/Particles/Simulation/HowTo Use SDF Repeat for Collision.vl",
+        "help/Particles/Simulation/HowTo Use Textures as VectorField.vl",
+        "help/Raymarch/HowTo Use HeightMap.vl",
+        "help/Raymarch/HowTo Use Repeat.vl",
+        "help/Signed Distance Fields/Explanation What is a Signed Distance Field.vl",
+        "help/Signed Distance Fields/HowTo Create a custom combination operation.vl",
+        "help/Signed Distance Fields/HowTo Lerp between two SDF functions.vl",
+        "help/Signed Distance Fields/HowTo Use Onion.vl",
+        "help/Signed Distance Fields/HowTo Use SDFs as a control source.vl",
+        "help/Signed Distance Fields/HowTo debug 3D SDF functions.vl",
+        "help/Signed Distance Fields/Reference Combining SDFs.vl",
+        "help/Signed Distance Fields/Reference Overview of 2D SDF sources.vl",
+        "help/Signed Distance Fields/Reference Overview of 3D SDF sources.vl",
+        "help/Signed Distance Fields/Reference Overview of SDF Operations.vl",
+        "help/TEMPLATE_Explanation.vl",
+        "help/TEMPLATE_HowTo.vl",
+        "help/TEMPLATE_Reference.vl",
+        "lib/Fuse.dll",
+        "resources/textures/EnviromentMaps/GiliSunset_R_512.dds",
+        "resources/textures/EnviromentMaps/SLQ_R_512.dds",
+        "resources/textures/EnviromentMaps/SingaporeAlley2_RC_512_.dds",
+        "resources/textures/Masks/sticker07.jpg",
+        "resources/textures/Masks/vent25.jpg",
+        "resources/textures/MatCapSample01.png",
+        "resources/textures/MatCapSample02.png",
+        "resources/textures/Ocean/ocean_border_current_map.png",
+        "resources/textures/Ocean/ocean_normal_map.png",
+        "resources/textures/Ocean/ocean_world_stream_map.png",
+        "resources/textures/Ocean/world_blurred_map.png",
+        "resources/textures/Ocean/world_borders.png",
+        "resources/textures/Ocean/world_continents.png",
+        "resources/textures/base_layer.png",
+        "resources/textures/color_blend.png",
+        "resources/textures/heightmap.jpg",
+        "resources/textures/luminance_blend.png",
+        "vl.fuse.0.2.0.nupkg.sha512",
+        "vl.fuse.nuspec",
+        "vl/Fuse.Common.Compute.vl",
+        "vl/Fuse.Common.Draw.vl",
+        "vl/Fuse.Common.Noise.vl",
+        "vl/Fuse.Common.SDF.vl",
+        "vl/Fuse.Core.Calculus.vl",
+        "vl/Fuse.Core.Color.vl",
+        "vl/Fuse.Core.Domain.vl",
+        "vl/Fuse.Core.Math.vl",
+        "vl/Fuse.Core.vl",
+        "vl/Fuse.Fluid3D.vl",
+        "vl/Fuse.Geometry.vl",
+        "vl/Fuse.Material.vl",
+        "vl/Fuse.NodeViewers.vl",
+        "vl/Fuse.Particles.vl",
+        "vl/Fuse.Raymarching.vl",
+        "vl/shaders/BumpToNormal_TextureFX.sdsl",
+        "vl/shaders/Fluid3DAdvectTexture_Internal_ComputeFX.sdsl",
+        "vl/shaders/Fluid3DComputePressure_Internal_ComputeFX.sdsl",
+        "vl/shaders/Fluid3DComputeVelocityDivergence_Internal_ComputeFX.sdsl",
+        "vl/shaders/Fluid3DConfinement_Internal_ComputeFX.sdsl",
+        "vl/shaders/Fluid3DGlobals.sdsl",
+        "vl/shaders/Fluid3DProjectVelocity_Internal_ComputeFX.sdsl",
+        "vl/shaders/Fluid3DRaymarcher_DrawFX.sdsl",
+        "vl/shaders/Fluid3DSphericalImpulse_Internal_ComputeFX.sdsl",
+        "vl/shaders/Fluid3DVorticity_Internal_ComputeFX.sdsl",
+        "vl/shaders/FuseCommonBuffer.sdsl",
+        "vl/shaders/FuseCommonComputeUtil.sdsl",
+        "vl/shaders/FuseCommonDrawPosNorm.sdsl",
+        "vl/shaders/FuseCommonDrawPosNormExtension_ShaderFX.sdsl",
+        "vl/shaders/FuseCommonDrawSphereImposterExtension_ShaderFX.sdsl",
+        "vl/shaders/FuseCommonDrawSphereSimpleExtension_ShaderFX.sdsl",
+        "vl/shaders/FuseCommonNoise.sdsl",
+        "vl/shaders/FuseCommonNoiseGradientNoise.sdsl",
+        "vl/shaders/FuseCommonNoiseRandom.sdsl",
+        "vl/shaders/FuseCommonNoiseSimplex.sdsl",
+        "vl/shaders/FuseCommonNoiseSine.sdsl",
+        "vl/shaders/FuseCommonNoiseValueNoise.sdsl",
+        "vl/shaders/FuseCommonNoiseWorley.sdsl",
+        "vl/shaders/FuseCommonSDF.sdsl",
+        "vl/shaders/FuseCommonTypes.sdsl",
+        "vl/shaders/FuseCoreBaseCast.sdsl",
+        "vl/shaders/FuseCoreColor.sdsl",
+        "vl/shaders/FuseCoreDomain.sdsl",
+        "vl/shaders/FuseCoreMath.sdsl",
+        "vl/shaders/FuseCoreMathHash.sdsl",
+        "vl/shaders/FuseCoreMathMap.sdsl",
+        "vl/shaders/FuseCoreMathPCG.sdsl",
+        "vl/shaders/FuseCoreTexture.sdsl",
+        "vl/shaders/FuseCoreTransform.sdsl",
+        "vl/shaders/FuseGeometryBumpExtension_ShaderFX.sdsl",
+        "vl/shaders/FuseGeometryMeshSurface.sdsl",
+        "vl/shaders/FuseGeometryMeshSurfacePSExtension_ShaderFX.sdsl",
+        "vl/shaders/FuseGeometryMeshSurfaceStream.sdsl",
+        "vl/shaders/FuseGeometryMeshSurfaceVSExtension_ShaderFX.sdsl",
+        "vl/shaders/FuseInstancedGenerateTransformationsAxis_ComputeFX.sdsl",
+        "vl/shaders/FuseInstancedGenerateTransformations_ComputeFX.sdsl",
+        "vl/shaders/FuseMaterial.sdsl",
+        "vl/shaders/FuseRayMarch.sdsl",
+        "vl/shaders/FuseRayMarchAttributes.sdsl",
+        "vl/shaders/FuseRayMarchBase.sdsl",
+        "vl/shaders/GetItemFloat4Instance_ShaderFX.sdsl",
+        "vl/shaders/GetItemFloat4_ShaderFX.sdsl",
+        "vl/shaders/GetItemFloatInstance_ShaderFX.sdsl",
+        "vl/shaders/GetItemFloat_ShaderFX.sdsl",
+        "vl/shaders/Imposter_ShaderFX.sdsl",
+        "vl/shaders/SphereProvider.sdsl",
+        "vl/shaders/bumpTest_ShaderFX.sdsl"
+      ]
+    },
+    "VL.FuzzySearch/0.0.3-alpha": {
+      "sha512": "pxPPMlhN4+41xNm3bBq5rPPnKRsjKJulrjjX86SO2T+lNsSYftgyILbdoNYgxjPIY34jQ1BG7EUU1qLAtWfQVA==",
+      "type": "package",
+      "path": "vl.fuzzysearch/0.0.3-alpha",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "VL.FuzzySearch.vl",
+        "VL.Text.SimMetrics.vl",
+        "help/Assets/Data.xml",
+        "help/Basics/HowTo FuzzySearch.vl",
+        "help/Basics/HowTo Measure Similarity.vl",
+        "icon/nugeticon.png",
+        "vl.fuzzysearch.0.0.3-alpha.nupkg.sha512",
+        "vl.fuzzysearch.nuspec"
+      ]
+    },
+    "VL.HDE/2021.4.9-0971-g1d0a0c7789": {
+      "sha512": "zmcVFxYaqSMOOLQXIL9igdGLRmXJvpSmFr0hTCdpuS98d4nyCmjqFJ+NkslJV4GpxkDbjYgRBRAbxzNVi2Ep2g==",
+      "type": "package",
+      "path": "vl.hde/2021.4.9-0971-g1d0a0c7789",
+      "files": [
+        ".nupkg.metadata",
+        "Assets/Helpbrowser/HelpbrowserContent.xml",
+        "Assets/Helpbrowser/HelpbrowserContent2.xml",
+        "Assets/Helpbrowser/HelpbrowserContent3.xml",
+        "Assets/Helpbrowser/HelpbrowserSettings.xml",
+        "Assets/Helpbrowser/Img/DefaultV.png",
+        "Assets/Helpbrowser/Shortcuts.md",
+        "Assets/KeyMouseDisplay/back.png",
+        "Assets/KeyMouseDisplay/forward.png",
+        "Assets/KeyMouseDisplay/left.png",
+        "Assets/KeyMouseDisplay/middle.png",
+        "Assets/KeyMouseDisplay/right.png",
+        "Assets/KeyMouseDisplay/wheel-down.png",
+        "Assets/KeyMouseDisplay/wheel-up.png",
+        "Assets/Montana_de_Escanfraga.jpg",
+        "HDE.ElementViewers.vl",
+        "HDE.StylesAndSettings.vl",
+        "HDE.WidgetsAndViewers.vl",
+        "Helpbrowser-Lib.vl",
+        "Helpbrowser-Pages.vl",
+        "Helpbrowser-Widgets.vl",
+        "Settings-Pages.vl",
+        "Template.HDE.vl",
+        "VL.HDE.vl",
+        "VL.UI.HelpBrowser.vl",
+        "VL.UI.KeyMouseDisplay.vl",
+        "VL.UI.Settings.vl",
+        "lib/net472/VL.HDE.dll",
+        "lib/net472/VL.HDE.xml",
+        "vl.hde.2021.4.9-0971-g1d0a0c7789.nupkg.sha512",
+        "vl.hde.nuspec"
+      ]
+    },
     "VL.Lang/2021.4.9-0971-g1d0a0c7789": {
       "sha512": "TG+MLgKdJwWXYaLYl+71w0G8RBM3hUWV4HjOQe5dWP7C3bZRLhJZW1CtuqQzacC68XnFGxklgN2X//Vsgzaysw==",
       "type": "package",
@@ -17579,6 +18102,18 @@
         "vl.ui.core.nuspec"
       ]
     },
+    "VL.UI.PatchEditor.Utils/2021.4.9-0971-g1d0a0c7789": {
+      "sha512": "CqP7qeWkjoA2bYLVug8J2wBgHT2NeFHrO+SqxhzlXXIvUdfhjYicYA3kCUqapr7W/DvmoeI3fFsy94OsLYfVxw==",
+      "type": "package",
+      "path": "vl.ui.patcheditor.utils/2021.4.9-0971-g1d0a0c7789",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net472/VL.UI.PatchEditor.Utils.dll",
+        "lib/net472/VL.UI.PatchEditor.Utils.xml",
+        "vl.ui.patcheditor.utils.2021.4.9-0971-g1d0a0c7789.nupkg.sha512",
+        "vl.ui.patcheditor.utils.nuspec"
+      ]
+    },
     "Vortice.Mathematics/1.3.3": {
       "sha512": "+tOhwb2ASvCq+UzMDoXWeGySEkYHrRiTPvu6vP4IIEE4scFZatR4vc0f+vrBy175QIwsWZa1lyDPBFWAk6VSWA==",
       "type": "package",
@@ -17653,6 +18188,21 @@
       "path": "../VL.EditingFramework.vl/VL.EditingFramework.vl.csproj",
       "msbuildProject": "../VL.EditingFramework.vl/VL.EditingFramework.vl.csproj"
     },
+    "VL.Fuse.vl/1.0.0": {
+      "type": "project",
+      "path": "../VL.Fuse.vl/VL.Fuse.vl.csproj",
+      "msbuildProject": "../VL.Fuse.vl/VL.Fuse.vl.csproj"
+    },
+    "VL.FuzzySearch.vl/1.0.0": {
+      "type": "project",
+      "path": "../VL.FuzzySearch.vl/VL.FuzzySearch.vl.csproj",
+      "msbuildProject": "../VL.FuzzySearch.vl/VL.FuzzySearch.vl.csproj"
+    },
+    "VL.HDE.vl/1.0.0": {
+      "type": "project",
+      "path": "../VL.HDE.vl/VL.HDE.vl.csproj",
+      "msbuildProject": "../VL.HDE.vl/VL.HDE.vl.csproj"
+    },
     "VL.Lang.vl/1.0.0": {
       "type": "project",
       "path": "../VL.Lang.vl/VL.Lang.vl.csproj",
@@ -17683,6 +18233,7 @@
     ".NETFramework,Version=v4.7.2": [
       "VL.App.WindowsForms >= 2021.4.9-0971-g1d0a0c7789",
       "VL.CoreLib.vl >= 1.0.0",
+      "VL.Fuse.vl >= 1.0.0",
       "VL.Skia.vl >= 1.0.0",
       "VL.Stride.vl >= 1.0.0"
     ]
@@ -17718,7 +18269,8 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "http://teamcity.vvvv.org/guestAuth/app/nuget/v1/FeedService.svc/": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://packages.stride3d.net/nuget": {}
       },
       "frameworks": {
         "net472": {
@@ -17726,6 +18278,9 @@
           "projectReferences": {
             "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.CoreLib.vl\\VL.CoreLib.vl.csproj": {
               "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.CoreLib.vl\\VL.CoreLib.vl.csproj"
+            },
+            "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Fuse.vl\\VL.Fuse.vl.csproj": {
+              "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Fuse.vl\\VL.Fuse.vl.csproj"
             },
             "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Skia.vl\\VL.Skia.vl.csproj": {
               "projectPath": "C:\\Users\\emanu\\Desktop\\ReposFolder\\Solar-System-VVVV\\src\\VL.Skia.vl\\VL.Skia.vl.csproj"
